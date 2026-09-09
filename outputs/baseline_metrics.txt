@@ -1,0 +1,9 @@
+Baseline Retrieval Metrics
+FRAME_STEP = 5
+POSITIVE_THRESHOLD = 5.0
+Number of queries = 455
+Robot A size = 455
+Robot B size = 454
+Recall@1 = 0.7253
+Recall@5 = 0.7956
+Recall@10 = 0.8132

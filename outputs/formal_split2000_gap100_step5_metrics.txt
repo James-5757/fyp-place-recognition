@@ -1,0 +1,16 @@
+Formal Baseline Retrieval Metrics
+split_frame = 2000
+frame_step = 5
+boundary_gap = 100
+positive_threshold = 5.0
+Robot A size = 381
+Robot B size = 489
+Total queries = 381
+Valid queries = 145
+Overlap coverage = 0.3806
+Recall@1_valid = 0.9448
+Recall@5_valid = 0.9724
+Recall@10_valid = 0.9793
+Precision@1_valid = 0.9448
+Precision@5_valid = 0.4207
+Precision@10_valid = 0.2379
