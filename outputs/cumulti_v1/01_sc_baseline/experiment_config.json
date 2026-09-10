@@ -13,6 +13,6 @@
   },
   "sensor_height_handling": "fixed 0.5m based on sensor-coordinate ground plane prior to retrieval",
   "gt_usage_policy": "offline overlap definition and evaluation only; never retrieval/ranking/filtering",
-  "code_commit_hash": "ba955ffb01b07dcc2b24d4b3475d8d5875f6e3ac",
+  "code_commit_hash": "0aef2a652aa5f4fc473313620959ab5d54bd8252",
   "hardware": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
 }
