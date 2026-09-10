@@ -1,0 +1,4 @@
+CU-Multi Stage 2 Scan Context baseline
+Primary robot1->robot2: R@1=0.994756, R@5=0.995281, R@10=0.995281, R@20=0.997378, R@50=0.998427, R@100=0.998951, R@200=0.999476; MRR=0.995204
+Valid/no-overlap=1907/93; median/worst first positive rank=1.0/221
+Reverse robot2->robot1: R@1=0.999021, R@5=0.999511, R@10=0.999511, R@20=0.999511; valid=2043

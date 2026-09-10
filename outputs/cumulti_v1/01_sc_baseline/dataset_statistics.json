@@ -1,0 +1,65 @@
+{
+  "robot1": {
+    "frame_id": "robot1_os_sensor",
+    "point_fields": [
+      "ambient",
+      "intensity",
+      "range",
+      "reflectivity",
+      "ring",
+      "t",
+      "x",
+      "y",
+      "z"
+    ],
+    "keyframes": 2000,
+    "duration_s": 999.535027661,
+    "effective_hz": 1.9999299120890601,
+    "ground_z_mode_m": -0.5099999999999978,
+    "descriptor_seconds": 3.319789624598343
+  },
+  "robot2": {
+    "frame_id": "robot2_os_sensor",
+    "point_fields": [
+      "ambient",
+      "intensity",
+      "range",
+      "reflectivity",
+      "ring",
+      "t",
+      "x",
+      "y",
+      "z"
+    ],
+    "keyframes": 2230,
+    "duration_s": 1114.544274123,
+    "effective_hz": 1.9999205520605545,
+    "ground_z_mode_m": -0.46999999999999775,
+    "descriptor_seconds": 3.784887291083578
+  },
+  "primary": {
+    "valid_overlap_queries": 1907,
+    "no_overlap_queries": 93,
+    "mrr": 0.9952035932157542,
+    "median_first_positive_rank": 1.0,
+    "worst_first_positive_rank": 221,
+    "retrieval_mean_ms": 42.47697717137635,
+    "retrieval_median_ms": 42.073632968822494,
+    "retrieval_p95_ms": 45.55628827365581,
+    "retrieval_total_s": 84.9539543427527
+  },
+  "reverse": {
+    "valid_overlap_queries": 2043,
+    "no_overlap_queries": 187,
+    "mrr": 0.9992783362827417,
+    "median_first_positive_rank": 1.0,
+    "worst_first_positive_rank": 39,
+    "retrieval_mean_ms": 37.033789327854684,
+    "retrieval_median_ms": 36.778913490707055,
+    "retrieval_p95_ms": 39.43926345673389,
+    "retrieval_total_s": 82.58535020111594
+  },
+  "total_robot1_queries": 2000,
+  "total_robot2_database": 2230,
+  "overlap_fraction": 0.9535
+}

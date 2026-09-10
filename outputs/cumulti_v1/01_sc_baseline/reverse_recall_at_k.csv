@@ -1,0 +1,8 @@
+direction,k,valid_overlap_queries,hits,recall
+robot2_to_robot1,1,2043,2041,0.9990210474791973
+robot2_to_robot1,5,2043,2042,0.9995105237395986
+robot2_to_robot1,10,2043,2042,0.9995105237395986
+robot2_to_robot1,20,2043,2042,0.9995105237395986
+robot2_to_robot1,50,2043,2043,1.0
+robot2_to_robot1,100,2043,2043,1.0
+robot2_to_robot1,200,2043,2043,1.0

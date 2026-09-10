@@ -1,0 +1,8 @@
+robot1 PointCloud2 frame_id: robot1_os_sensor
+robot2 PointCloud2 frame_id: robot2_os_sensor
+Point fields: ['ambient', 'intensity', 'range', 'reflectivity', 'ring', 't', 'x', 'y', 'z']
+x/y are used as horizontal and z as vertical, as confirmed by PointCloud2 field names and the horizontal ground-plane mode.
+Fixed lidar_height offset = 0.50 m. It was fixed before retrieval from the Stage-1 and 2Hz sensor-coordinate ground modes (robot1 -0.51 m; robot2 -0.47 m), not tuned on Recall.
+URDF sensor-to-base fixed chain places os_sensor 0.1475 m above base_link; wheel/ground geometry is not explicit enough to use this alone.
+Official CU-Multi README documents /tf world->lidar/base_link at 20 Hz and globally RTK-aligned trajectories with a common fixed starting point. UTM zone/datum is not stated in the downloaded data/readme and remains unresolved.
+PASS: a common metric world frame is adequate for the stated <5m offline evaluation; GT is not provided to descriptor construction or retrieval.

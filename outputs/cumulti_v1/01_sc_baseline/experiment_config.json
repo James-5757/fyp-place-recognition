@@ -1,0 +1,18 @@
+{
+  "dataset": "CU-Multi Main Campus",
+  "query_robot": "robot1",
+  "database_robot": "robot2",
+  "temporal_keyframe_rate_hz": 2.0,
+  "positive_distance_threshold_m": 5.0,
+  "scan_context": {
+    "num_rings": 20,
+    "num_sectors": 60,
+    "max_radius_m": 80.0,
+    "circular_sector_shifts": 60,
+    "similarity": "column-wise cosine, valid nonzero columns mean, max shift"
+  },
+  "sensor_height_handling": "fixed 0.5m based on sensor-coordinate ground plane prior to retrieval",
+  "gt_usage_policy": "offline overlap definition and evaluation only; never retrieval/ranking/filtering",
+  "code_commit_hash": "ba955ffb01b07dcc2b24d4b3475d8d5875f6e3ac",
+  "hardware": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+}

@@ -1,0 +1,9 @@
+[PASS] GT isolated from retrieval
+[PASS] No RGB/VLM/CVTNet/GICP/PGO invoked
+[PASS] all cached clouds finite and GT matched
+[PASS] robot ID namespaced
+[PASS] rankings descending
+[PASS] first-positive ranks independently match
+[PASS] recall monotonic
+[PASS] denominator correct
+[PASS] raw/KITTI untouched by this script
