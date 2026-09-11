@@ -7,3 +7,7 @@ Do not expand this subset to the full dataset or run retrieval yet. Before Stage
 After those questions are resolved, design the CU-Multi retrieval protocol separately from historical KITTI: define robot1/robot2 database-query split, temporal sampling, overlap labels and held-out evaluation. Preserve SC + Cross-Max as the historical KITTI retrieval baseline; do not overwrite `outputs/canonical_v2` or treat the Stage 1 subset as a retrieval result.
 
 For visual experiments, measure OpenCLIP viewpoint sensitivity explicitly and compare single view, mean pooling, Cross-Max and controlled multi-view aggregation under a fixed candidate protocol. Record dataset version, selected frames, timestamps, thresholds, pose frame, calibration and command in the experiment log for every new experiment.
+
+## Current Stage 3 stop point
+
+Stage 3 has selected robot1–robot3 as the next hard-but-usable CU-Multi pair using GT-only offline analysis. Stop here: do not download robot3 sensor archives, do not begin any new retrieval run, and do not change the frozen robot1–robot2 Stage 2 baseline without explicit authorization. If the next stage is approved, acquire only the exact robot3 sensor archives necessary for the intended modality, reproduce the strict timestamp-based adapter, and keep GT restricted to post-retrieval labels and evaluation.
