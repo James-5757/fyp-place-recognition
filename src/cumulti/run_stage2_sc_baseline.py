@@ -95,10 +95,11 @@ def evaluate(q,db,qd,dd,direction,out,topk=(1,5,10,20,50,100,200)):
         t=time.perf_counter(); scores[i],shifts[i]=scores_for_query(qd[i],dbu,dbv); times.append(time.perf_counter()-t)
     order=np.argsort(-scores,axis=1,kind='stable'); posrank=np.take_along_axis(pos,order,axis=1)
     has=pos.any(axis=1); first=np.where(has,np.argmax(posrank,axis=1)+1,-1); ranks=first[has]
+    query_robot, database_robot = direction.split('_to_')
     rows=[]
     for i in range(n):
         r1=order[i,0]; bestpos=float(scores[i,pos[i]].max()) if has[i] else np.nan
-        rows.append(dict(query_robot=direction.split('_')[0],database_robot=direction.split('_')[1],query_keyframe_id=int(q.keyframe_id.iloc[i]),
+        rows.append(dict(query_robot=query_robot,database_robot=database_robot,query_keyframe_id=int(q.keyframe_id.iloc[i]),
                          valid_overlap_query=bool(has[i]),positive_count=int(pos[i].sum()),nearest_positive_distance_m=float(dist[i,pos[i]].min()) if has[i] else np.nan,
                          first_positive_rank=int(first[i]),rank1_database_keyframe_id=int(db.keyframe_id.iloc[r1]),rank1_sc_score=float(scores[i,r1]),rank1_gt_distance_m=float(dist[i,r1]),
                          rank1_best_shift=int(shifts[i,r1]),rank1_is_positive=bool(pos[i,r1]),best_positive_sc_score=bestpos,retrieval_time_ms=times[i]*1000))

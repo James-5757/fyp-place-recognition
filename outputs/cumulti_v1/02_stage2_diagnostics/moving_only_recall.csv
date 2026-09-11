@@ -1,0 +1,13 @@
+cohort,k,valid_overlap_queries,hits,recall
+canonical_all_valid,1,1907,1897,0.9947561615102255
+canonical_all_valid,5,1907,1898,0.995280545359203
+canonical_all_valid,10,1907,1898,0.995280545359203
+canonical_all_valid,20,1907,1902,0.9973780807551127
+moving_query_valid,1,1622,1612,0.9938347718865598
+moving_query_valid,5,1622,1613,0.9944512946979038
+moving_query_valid,10,1622,1613,0.9944512946979038
+moving_query_valid,20,1622,1617,0.9969173859432799
+outside_common_start_valid,1,1712,1702,0.9941588785046729
+outside_common_start_valid,5,1712,1703,0.9947429906542056
+outside_common_start_valid,10,1712,1703,0.9947429906542056
+outside_common_start_valid,20,1712,1707,0.9970794392523364

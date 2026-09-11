@@ -1,0 +1,6 @@
+pair,available,query_overlap_fraction,valid_overlap_queries,heading_overlap_above_90_fraction,recommendation
+robot1-robot2,True,0.9535,1907.0,0.5752490823282643,Current pair; easy common-start portion diagnosed.
+robot1-robot3,False,,,,Download only missing small gt_utm_poses.csv files before any sensor archives.
+robot1-robot4,False,,,,Download only missing small gt_utm_poses.csv files before any sensor archives.
+robot2-robot3,False,,,,Download only missing small gt_utm_poses.csv files before any sensor archives.
+robot2-robot4,False,,,,Download only missing small gt_utm_poses.csv files before any sensor archives.
