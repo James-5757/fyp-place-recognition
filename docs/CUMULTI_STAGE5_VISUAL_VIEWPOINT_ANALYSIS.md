@@ -61,11 +61,11 @@ End-to-end R@K <= candidate-conditioned R@K for all methods (validated).
 
 | Method | Unchanged Correct | Regression | Rescue | Unchanged Wrong |
 | --- | ---: | ---: | ---: | ---: |
-| Single RGB | 1,292 | 538 | 4 | (996) |
-| RGB5 Mean | 1,258 | 572 | 2 | (1,030) |
-| Cross-Max | 1,318 | 512 | 1 | (970) |
+| Single RGB | 1,283 | 538 | 4 | 5 |
+| RGB5 Mean | 1,249 | 572 | 2 | 7 |
+| Cross-Max | 1,309 | 512 | 1 | 8 |
 
-Four counts sum to 1,830 (candidate-conditioned cohort) for each method. Candidate-generation failures: 3, contributing zero visual rescues.
+The table is regenerated from `rescue_regression.csv`. For every method, unchanged correct + regression = 1,821 SC Rank-1-correct queries, rescue + unchanged wrong = 9 SC Rank-1-wrong queries, and all four counts sum to the 1,830-query candidate-conditioned cohort. Candidate-generation failures: 3, contributing zero visual rescues.
 
 ## Sync-quality sensitivity
 
@@ -77,7 +77,7 @@ Four counts sum to 1,830 (candidate-conditioned cohort) for each method. Candida
 
 ## Stage-4 SC failure analysis
 
-12 failures: 9 recoverable (positive in SC Top-20), 3 candidate-generation failures. Visual rescues: Single=3, Mean5=2, CrossMax=1 (all from recoverable failures only).
+12 failures: 9 recoverable (positive in SC Top-20), 3 candidate-generation failures. Visual rescues: Single=4, Mean5=2, CrossMax=1 (all from recoverable failures only). The prior `Single=3` statement was a documentation transcription error: `sc_failure_visual_diagnostics.csv` marks four recoverable failures (query IDs 1243, 1244, 1279 and 1280) as Single RGB Rank-1 rescues, matching `rescue_regression.csv`.
 
 ## Validation
 
