@@ -8,8 +8,8 @@ After those questions are resolved, design the CU-Multi retrieval protocol separ
 
 For visual experiments, measure OpenCLIP viewpoint sensitivity explicitly and compare single view, mean pooling, Cross-Max and controlled multi-view aggregation under a fixed candidate protocol. Record dataset version, selected frames, timestamps, thresholds, pose frame, calibration and command in the experiment log for every new experiment.
 
-## Current Stage 5 stop point
+## Current Stage 6 stop point
 
-Stage 5 has completed the visual viewpoint analysis on the frozen Robot1-to-Robot3 protocol. Three visual methods (Single RGB, RGB5 Mean, Cross-Max) reranked the frozen SC Top-20 candidates using OpenCLIP ViT-B-32-quickgelu (laion400m_e32). The candidate-conditioned, end-to-end, heading-stratified, true-positive similarity, rescue/regression, sync-quality and Stage-4 failure analyses are all complete. No fusion, VLM, CVTNet, GICP or PGO was run.
+Stage 6 has completed selective visual verification while preserving Stage 4/5. The best-shift proxy is geometrically calibrated, but the fixed ablation does not show added viewpoint value beyond confidence gating. One Single-RGB in-sample operating point has one rescue and zero regressions; it is exploratory and not a universal threshold.
 
-The next authorized research step is viewpoint-aware fusion, which must be a separately authorized Stage 6. It should combine frozen SC candidates with visual evidence under a fixed protocol, explicitly stratified by heading. Do not implement it without explicit authorization.
+Stop here. Do not start GICP, CVTNet, PGO, SC retrieval acceleration or fusion tuning. A next-stage claim requires a predeclared held-out route/robot split to test whether the selective gate generalizes. Keep GT offline and preserve Stage 4/5/6 outputs.

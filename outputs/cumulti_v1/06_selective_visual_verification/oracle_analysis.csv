@@ -1,0 +1,23 @@
+analysis_type,method,gt_heading_max_deg,sc_margin_quantile,visual_invocation_count,visual_invocation_rate_all_queries,visual_invocation_rate_valid_queries,overrides,rescues,regressions,net_corrections,R@1,R@5,candidate_conditioned_R@1,candidate_conditioned_R@5,query_keyframe_id,candidate_available,single_can_rescue,crossmax_can_rescue,candidate_generation_failure
+offline oracle / analysis only,Single RGB,30.0,0.1,77.0,0.0385,0.042007637752318604,72.0,0.0,1.0,-1.0,0.9929078014184397,0.9961811238406983,0.994535519125683,0.9978142076502732,,,,,
+offline oracle / analysis only,Single RGB,60.0,0.1,78.0,0.039,0.0425531914893617,73.0,0.0,1.0,-1.0,0.9929078014184397,0.9961811238406983,0.994535519125683,0.9978142076502732,,,,,
+offline oracle / analysis only,Single RGB,90.0,0.1,79.0,0.0395,0.0430987452264048,74.0,0.0,1.0,-1.0,0.9929078014184397,0.9961811238406983,0.994535519125683,0.9978142076502732,,,,,
+offline oracle / analysis only,Single RGB,120.0,0.1,81.0,0.0405,0.044189852700491,76.0,0.0,2.0,-2.0,0.9923622476813966,0.9961811238406983,0.9939890710382514,0.9978142076502732,,,,,
+offline oracle / analysis only,Single RGB,180.0,0.1,155.0,0.0775,0.0845608292416803,148.0,2.0,28.0,-26.0,0.9792689579923622,0.9967266775777414,0.9808743169398907,0.9983606557377049,,,,,
+offline oracle / analysis only,Cross-Max,30.0,0.1,77.0,0.0385,0.042007637752318604,65.0,0.0,1.0,-1.0,0.9929078014184397,0.9961811238406983,0.994535519125683,0.9978142076502732,,,,,
+offline oracle / analysis only,Cross-Max,60.0,0.1,78.0,0.039,0.0425531914893617,66.0,0.0,1.0,-1.0,0.9929078014184397,0.9961811238406983,0.994535519125683,0.9978142076502732,,,,,
+offline oracle / analysis only,Cross-Max,90.0,0.1,79.0,0.0395,0.0430987452264048,67.0,0.0,2.0,-2.0,0.9923622476813966,0.9961811238406983,0.9939890710382514,0.9978142076502732,,,,,
+offline oracle / analysis only,Cross-Max,120.0,0.1,81.0,0.0405,0.044189852700491,69.0,0.0,2.0,-2.0,0.9923622476813966,0.9961811238406983,0.9939890710382514,0.9978142076502732,,,,,
+offline oracle / analysis only,Cross-Max,180.0,0.1,155.0,0.0775,0.0845608292416803,133.0,1.0,38.0,-37.0,0.9732678668848882,0.9967266775777414,0.9748633879781421,0.9983606557377049,,,,,
+offline oracle B / failure,failure,,,,,,,,,,,,,,305.0,True,False,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1241.0,True,False,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1242.0,True,False,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1243.0,True,True,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1244.0,True,True,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1276.0,True,False,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1277.0,True,False,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1279.0,True,True,False,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1280.0,True,True,True,False
+offline oracle B / failure,failure,,,,,,,,,,,,,,1847.0,False,False,False,True
+offline oracle B / failure,failure,,,,,,,,,,,,,,1848.0,False,False,False,True
+offline oracle B / failure,failure,,,,,,,,,,,,,,1849.0,False,False,False,True

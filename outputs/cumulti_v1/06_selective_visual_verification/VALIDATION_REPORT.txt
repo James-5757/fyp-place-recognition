@@ -1,0 +1,12 @@
+[PASS] Stage-4 and Stage-5 outputs are read-only inputs
+[PASS] Frozen query/database counts are 2000/4180
+[PASS] Frozen SC Top-20 reproduces Stage-4 Rank-1 and metrics
+[PASS] Candidate-generation misses remain three and are never rescues
+[PASS] Stage-5 embeddings are reused without encoding
+[PASS] GT excluded from deployable gates
+[PASS] Every policy reports invocation, override, rescue and regression
+[PASS] Latency and compute are reported separately
+[PASS] Global fusion is kept as a control
+[PASS] No VLM/CVTNet/GICP/PGO was invoked
+[PASS] Viewpoint proxy calibration precedes gating
+[PASS] Viewpoint policies disabled when proxy fails

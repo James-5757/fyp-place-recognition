@@ -51,3 +51,9 @@ Candidate-generation failures: 3 (zero visual rescues)
 Sync-quality sensitivity: Single RGB 1833/1833 clean (identical); Mean5/CrossMax 1831/1833 clean (slight difference). Sync-clean checks both query AND candidate RGB observations.
 
 See `docs/CUMULTI_STAGE5_VISUAL_VIEWPOINT_ANALYSIS.md` and `outputs/cumulti_v1/05_visual_viewpoint_analysis/`.
+
+## CU-Multi Stage 6 selective visual verification (verified)
+
+Stage 6 keeps Stages 4/5 frozen and uses cached Stage-5 OpenCLIP embeddings with GT-free confidence/viewpoint gates over the frozen SC Top-20. SC stays at **0.993453** R@1 (1,821/1,833); the Top-20 ceiling is **0.998363** (1,830/1,833), with 1847/1848/1849 impossible to rescue. The best-shift proxy is geometrically calibrated offline (MAE 8.604°, median 1.689°, p90 11.047°, Pearson/Spearman 0.923/0.886), but the fixed ablation shows no viewpoint-gating advantage beyond confidence.
+
+Single RGB with SC-margin q5%, visual-margin q50% and compatibility delta 0.05 gives the only zero-regression rescue point: R@1/R@5 **0.993999/0.996727**, 4.31% valid-query invocation, 9 overrides, 1 rescue, 0 regressions, and 1.741 ms/query Model-A added compute. Cross-Max has no zero-regression rescue point. Global fusion at alpha_SC=0.50 is harmful (Single 1 rescue/7 regressions; Cross-Max 0/41). See `docs/CUMULTI_STAGE6_SELECTIVE_VISUAL_VERIFICATION.md` and `outputs/cumulti_v1/06_selective_visual_verification/`.

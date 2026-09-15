@@ -1,0 +1,13 @@
+CU-Multi Stage 6 Selective Visual Verification
+PASS
+
+Frozen SC R@1: 0.993453 (1821/1833)
+SC Top-20 theoretical R@1 ceiling: 0.998363 (1830/1833); 3 candidate-generation misses cannot be rescued.
+Best-shift proxy: PASS; MAE=8.604deg, median=1.689deg, p90=11.047deg, Pearson=0.923, Spearman=0.886.
+
+Selected zero-regression exploratory points (not externally tuned):
+  Single RGB P2_Single RGB_scq0.05_vq0.50_d0.05: R@1=0.993999, R@5=0.996727, invocation=0.0431, overrides=9, rescues=1, regressions=0, net=1, added_compute=1.741ms/query, serial=157.625ms/query
+
+Global fusion is a control only; see global_fusion_control.csv.
+Oracle analyses are explicitly offline-only in oracle_analysis.csv.
+Output: /home/cas/fyp_place_recognition/outputs/cumulti_v1/06_selective_visual_verification

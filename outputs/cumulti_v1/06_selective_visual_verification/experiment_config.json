@@ -1,0 +1,47 @@
+{
+  "stage": 6,
+  "frozen_stage4_commit": "2d338b8943cedab3ecd1fc234671e22db15f69d2",
+  "accepted_stage5_commit": "35053e6c419ff60f203517303c7bdf85eba8965c",
+  "query_database": "robot1_to_robot3",
+  "query_keyframes": 2000,
+  "database_keyframes": 4180,
+  "valid_queries": 1833,
+  "candidate_available": 1830,
+  "candidate_generation_misses": 3,
+  "top20_r1_ceiling": 0.9983633387888707,
+  "sector_angle_deg": 6.0,
+  "proxy_gate_pass": true,
+  "proxy_gate_rule": "median AE <=45deg and |Spearman|>=0.20 (geometric calibration)",
+  "thresholds": {
+    "sc_margin_quantiles": [
+      0.01,
+      0.02,
+      0.05,
+      0.1,
+      0.2,
+      0.3
+    ],
+    "visual_margin_quantiles": [
+      0.5,
+      0.7,
+      0.8,
+      0.9
+    ],
+    "sc_compatibility_delta": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "view_ranges": [
+      30,
+      60,
+      90,
+      120,
+      180
+    ]
+  },
+  "gt_usage": "offline labels/calibration/oracles only; no deployable gate uses GT",
+  "embedding_policy": "reused Stage-5 frozen NPY cache; no encoding",
+  "code_commit_hash": "35053e6c419ff60f203517303c7bdf85eba8965c",
+  "hardware": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+}
