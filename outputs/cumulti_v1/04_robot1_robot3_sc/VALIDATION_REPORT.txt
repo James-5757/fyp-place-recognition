@@ -1,0 +1,11 @@
+[PASS] Robot3 keyframes selected from LiDAR timestamps
+[PASS] Robot1 frozen Stage-2 grid reused
+[PASS] GT isolated from descriptor/ranking
+[PASS] RGB and prohibited algorithms absent from retrieval
+[PASS] all selected clouds finite
+[PASS] rankings descending
+[PASS] first-positive ranks independently match GT labels
+[PASS] Recall monotonic
+[PASS] Recall denominator equals valid-overlap count
+[PASS] Robot3 RGB synchronization recorded but unused
+[PASS] raw data and frozen Stage-2 outputs untouched by this script

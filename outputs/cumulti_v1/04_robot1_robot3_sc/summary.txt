@@ -1,0 +1,4 @@
+CU-Multi Stage 4 Robot1->Robot3 Scan Context baseline
+R@1=0.993453, R@5=0.996181, R@10=0.997272, R@20=0.998363, R@50=0.998909, R@100=0.998909, R@200=0.999454; MRR=0.994682
+valid/no-overlap=1833/167; rank1 failures=12; worst rank=467
+reverse Robot3->Robot1 R@1=0.998814; valid/no-overlap=1686/2494

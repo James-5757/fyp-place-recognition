@@ -1,0 +1,11 @@
+PASS: Robot1 keyframes/descriptors are the exact frozen Stage-2 cache.
+PASS: Robot3 keyframes are selected only from actual LiDAR timestamps on a fixed 0.5 s grid.
+Robot3 PointCloud2 frame_id: robot3_os_sensor
+Robot3 LiDAR topic: robot3/ouster/points
+Robot3 RGB topic: robot3/camera/color/image_raw
+Point fields: ['ambient', 'intensity', 'range', 'reflectivity', 'ring', 't', 'x', 'y', 'z']
+x/y are horizontal and z is vertical; finite float32 XYZI was validated before descriptor construction.
+Robot3 sensor-coordinate ground z mode = -0.550 m; Robot1/2 reference modes are about -0.51/-0.47 m.
+PASS: fixed +0.50 m Scan Context height handling was retained on platform-geometry evidence, not tuned on Recall.
+PASS: GT is used only after descriptor/ranking computation for labels, overlap, heading and evaluation.
+PASS: RGB is synchronized for future audit only and is not passed to Scan Context.

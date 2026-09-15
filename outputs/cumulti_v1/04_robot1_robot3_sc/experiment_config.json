@@ -1,0 +1,19 @@
+{
+  "dataset": "CU-Multi Main Campus",
+  "query_robot": "robot1",
+  "database_robot": "robot3",
+  "temporal_keyframe_rate_hz": 2.0,
+  "positive_distance_threshold_m": 5.0,
+  "scan_context": {
+    "num_rings": 20,
+    "num_sectors": 60,
+    "max_radius_m": 80.0,
+    "fixed_height_m": 0.5,
+    "circular_shifts": 60,
+    "similarity": "column-wise cosine; valid nonzero columns mean; max shift"
+  },
+  "gt_usage_policy": "offline labels/evaluation only; never descriptor/ranking/filtering",
+  "rgb_usage_policy": "synchronization audit only; never retrieval",
+  "code_commit_hash": "804be3ee5a36661cd9d7115a97a25242ef7db2a5",
+  "hardware": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35"
+}

@@ -1,0 +1,117 @@
+{
+  "robot1": {
+    "cache_reused": true,
+    "keyframes": 2000
+  },
+  "robot3": {
+    "frame_id": "robot3_os_sensor",
+    "point_fields": [
+      "ambient",
+      "intensity",
+      "range",
+      "reflectivity",
+      "ring",
+      "t",
+      "x",
+      "y",
+      "z"
+    ],
+    "keyframes": 4180,
+    "duration_s": 2089.511053803,
+    "effective_hz": 1.9999894197228776,
+    "ground_z_mode_m": -0.5499999999999978,
+    "descriptor_seconds": 9.738531933980994,
+    "descriptor_mean_ms": 2.3297923287035873,
+    "lidar_topic": "robot3/ouster/points",
+    "rgb_topic": "robot3/camera/color/image_raw",
+    "lidar_message_count": 41793,
+    "rgb_message_count": 20977
+  },
+  "robot3_sync_audit": {
+    "gt_sync": {
+      "mean_ms": 10.623137498086123,
+      "median_ms": 10.214686,
+      "p95_ms": 15.893690299999998,
+      "max_ms": 24.795275
+    },
+    "rgb_sync": {
+      "mean_ms": 26.723445220574167,
+      "median_ms": 27.552269000000003,
+      "p95_ms": 46.90003285,
+      "max_ms": 127.948523
+    },
+    "rgb_signed_offset_mean_ms": 0.34412212535885167,
+    "rgb_samples": [
+      {
+        "keyframe_id": 0,
+        "shape": [
+          800,
+          1280,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      {
+        "keyframe_id": 1044,
+        "shape": [
+          800,
+          1280,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      {
+        "keyframe_id": 2089,
+        "shape": [
+          800,
+          1280,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      {
+        "keyframe_id": 3134,
+        "shape": [
+          800,
+          1280,
+          3
+        ],
+        "dtype": "uint8"
+      },
+      {
+        "keyframe_id": 4179,
+        "shape": [
+          800,
+          1280,
+          3
+        ],
+        "dtype": "uint8"
+      }
+    ]
+  },
+  "primary": {
+    "valid_overlap_queries": 1833,
+    "no_overlap_queries": 167,
+    "mrr": 0.9946822900818982,
+    "median_first_positive_rank": 1.0,
+    "worst_first_positive_rank": 467,
+    "retrieval_mean_ms": 155.88489530072547,
+    "retrieval_median_ms": 155.46229295432568,
+    "retrieval_p95_ms": 162.17951673315838,
+    "retrieval_total_s": 311.76979060145095
+  },
+  "reverse": {
+    "valid_overlap_queries": 1686,
+    "no_overlap_queries": 2494,
+    "mrr": 0.9991385640851833,
+    "median_first_positive_rank": 1.0,
+    "worst_first_positive_rank": 21,
+    "retrieval_mean_ms": 34.61489580072012,
+    "retrieval_median_ms": 33.99391955463216,
+    "retrieval_p95_ms": 37.86279881605878,
+    "retrieval_total_s": 144.69026444701012
+  },
+  "total_robot1_queries": 2000,
+  "total_robot3_database": 4180,
+  "overlap_fraction": 0.9165
+}
