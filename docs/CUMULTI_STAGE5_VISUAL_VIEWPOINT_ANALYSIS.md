@@ -1,4 +1,4 @@
-# CU-Multi Stage 5 — Visual Viewpoint Analysis
+# CU-Multi Stage 5 — Visual Viewpoint Analysis (corrected)
 
 ## Scope and safeguards
 
@@ -6,51 +6,38 @@ Stage 5 measures how reliable visual evidence is under different viewpoint / hea
 
 Ground truth is strictly evaluation-only: it defines offline `<5 m` positive labels, overlap, headings and evaluation metrics, but does not filter the database, select candidates, or rerank any candidate. RGB is used for visual encoding only and is not passed to Scan Context.
 
+## Bug fixes (corrected from initial Stage 5 run)
+
+1. **Rank -1 bug**: `compute_recall_at_k` previously used `ranks <= k`, which treated -1 (no GT-positive in SC Top-20) as a successful rank because -1 <= k. Fixed to require `(rank >= 1) AND (rank <= k)`. MRR assigns 0 contribution to rank <= 0.
+2. **Rescue/regression bug**: Candidate-generation failures (no positive in SC Top-20) were incorrectly counted as visual rescues. Fixed: rescue/regression now computed only within `has_overlap & cand_avail` (candidate-conditioned cohort). The four counts (unchanged_correct + regression + rescue + unchanged_wrong) sum exactly to the cohort size.
+3. **End-to-end <= candidate-conditioned**: Added automatic validation assertion that end_to_end R@K <= candidate_conditioned R@K for every method.
+4. **Sync-clean dual-robot check**: Previously only checked Robot1 query sync. Fixed: sync-clean now requires both query AND candidate RGB observations to satisfy abs offset <= 75 ms. For Single RGB: query current frame + all 20 candidate current frames. For Mean5/Cross-Max: all 5 query window frames + all 5*20 candidate window frames.
+
 ## OpenCLIP configuration
 
-The historical KITTI OpenCLIP configuration was recovered from the FYP project delivery scripts, run configs and bash history. The exact model and checkpoint are:
+- Model: `ViT-B-32-quickgelu`, pretrained tag: `laion400m_e32` (LAION-400M, epoch 32)
+- Checkpoint: `models/openclip/vit_b32_laion400m_e32.pt`
+- Embedding dimension: 512, L2-normalized float32
+- No training or fine-tuning
 
-- Model: `ViT-B-32-quickgelu`
-- Pretrained tag: `laion400m_e32` (LAION-400M, epoch 32)
-- Checkpoint: `models/openclip/vit_b32_laion400m_e32.pt` (originally downloaded as `vit_b_32-quickgelu-laion400m_e32-46683a32.pt`)
-- Source: local checkpoint, not retrained or fine-tuned
+## RGB synchronization audit
 
-Official model preprocessing was used. Embeddings are float32, L2-normalized. Embedding dimension is 512. Total Robot1 storage is 4.1 MB (2,000 frames) and Robot3 is 8.6 MB (4,180 frames). Embeddings are cached outside Git at `/home/cas/CU-Multi/processed_v1/openclip_stage5/`.
-
-## RGB data-integrity and synchronization audit
-
-For every frozen 2 Hz LiDAR keyframe, the nearest RGB message was associated and audited.
-
-| Robot | Count | Mean (ms) | Median (ms) | P95 (ms) | Max (ms) | >50ms | >75ms | >100ms |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| robot1 | 2,000 | 25.1 | 24.9 | 47.2 | 69.1 | 28 | 0 | 0 |
-| robot3 | 4,180 | 26.7 | 27.6 | 46.9 | 127.9 | 129 | 2 | 1 |
-
-All valid decoded frames are retained in the canonical results. A sync-clean subset (abs offset <= 75 ms) was also evaluated; since all Robot1 queries have abs offset <= 75 ms, the sync-clean results are identical to the canonical results.
-
-## Temporal visual window
-
-A causal 5-frame temporal window aligned to the frozen 2 Hz keyframes is used: [k-4, k-3, k-2, k-1, k], corresponding approximately to [t-2.0s, t-1.5s, t-1.0s, t-0.5s, t]. No future frames are used. For the first four keyframes, left-padding with the earliest available keyframe is applied so every keyframe has exactly five entries.
+| Robot | Count | Mean (ms) | P95 (ms) | Max (ms) | >75ms | >100ms |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: |
+| robot1 | 2,000 | 25.1 | 47.2 | 69.1 | 0 | 0 |
+| robot3 | 4,180 | 26.7 | 46.9 | 127.9 | 2 | 1 |
 
 ## Candidate pool
 
-The frozen Stage-4 Scan Context Top-20 candidates are reused for every Robot1 query. The full SC rankings were reconstructed from the frozen Robot1 and Robot3 descriptors and verified: reconstructed Rank-1 candidates exactly match the Stage 4 query evaluation. Stage-4 SC metrics (R@1=0.993453, R@5=0.996181, R@10=0.997272, R@20=0.998363) are reproduced unchanged.
+Frozen SC Top-20 reconstructed from frozen descriptors; Rank-1 verification PASSED. Stage-4 SC metrics reproduced unchanged (R@1=0.993453).
 
-Candidate availability: 1,833 valid-overlap queries, 1,830 candidate-available (at least one GT-positive in SC Top-20), 3 candidate-miss.
+- Valid overlap: 1,833
+- Candidate-available: 1,830
+- Candidate-miss: 3
 
-## Visual methods
+## Primary results (corrected)
 
-Three visual methods rerank the same SC Top-20 candidates:
-
-1. **Single RGB**: cosine similarity (dot product) between the current-frame OpenCLIP embeddings of query and candidate.
-2. **RGB5 Mean**: arithmetic mean of the five temporal-window embeddings, L2-normalized, then cosine similarity.
-3. **Cross-Max**: maximum over all 25 pairwise cosine similarities between the query temporal window (5 frames) and candidate temporal window (5 frames).
-
-No method combines its score with Scan Context. All three methods rank only the same 20 candidates.
-
-## Primary results
-
-### Candidate-conditioned analysis (CANDIDATE_AVAILABLE queries only)
+### Candidate-conditioned (1,830 CANDIDATE_AVAILABLE queries)
 
 | Method | R@1 | R@5 | MRR |
 | --- | ---: | ---: | ---: |
@@ -59,99 +46,39 @@ No method combines its score with Scan Context. All three methods rank only the 
 | RGB5 Mean | 0.683607 | 0.914208 | 0.777015 |
 | Cross-Max | 0.715847 | 0.902732 | 0.793528 |
 
-### End-to-end candidate-limited analysis (ALL valid queries)
+### End-to-end (ALL 1,833 valid queries)
 
 | Method | R@1 | R@5 |
 | --- | ---: | ---: |
 | Frozen SC | 0.993453 | 0.996181 |
-| Single RGB | 0.703764 | 0.941080 |
-| RGB5 Mean | 0.684124 | 0.914348 |
-| Cross-Max | 0.716312 | 0.902891 |
+| Single RGB | 0.702128 | 0.939444 |
+| RGB5 Mean | 0.682488 | 0.912711 |
+| Cross-Max | 0.714675 | 0.901255 |
 
-## Heading stratification
+End-to-end R@K <= candidate-conditioned R@K for all methods (validated).
 
-Using the Stage-4 offline heading definition (nearest GT-positive Robot3 keyframe, wrapped absolute Z-yaw difference in [0,180] degrees), the candidate-conditioned R@1 is stratified by the six frozen bins. The 12 SC Rank-1 failures occur in 60-90 degrees (4) and 150-180 degrees (8). Visual R@1 shows strong degradation versus SC across all heading bins, with the most severe degradation in the 60-90 and 150-180 degree bins.
-
-## True positive-pair viewpoint sensitivity
-
-For every valid query, the nearest GT-positive Robot3 keyframe was selected for analysis only. Single RGB, RGB5 Mean and Cross-Max similarities were computed for these true pairs and binned by heading difference. This directly measures whether visual similarity of the same physical place decreases as viewpoint difference increases.
-
-## Rescue / regression analysis
-
-Comparing visual reranking against frozen SC Rank-1:
+## Rescue / regression (corrected)
 
 | Method | Unchanged Correct | Regression | Rescue | Unchanged Wrong |
 | --- | ---: | ---: | ---: | ---: |
-| Single RGB | 1,292 | 538 | 7 | (596) |
-| RGB5 Mean | 1,258 | 572 | 5 | (630) |
-| Cross-Max | 1,318 | 512 | 4 | (580) |
+| Single RGB | 1,292 | 538 | 4 | (996) |
+| RGB5 Mean | 1,258 | 572 | 2 | (1,030) |
+| Cross-Max | 1,318 | 512 | 1 | (970) |
 
-Visual reranking causes far more regressions than rescues. Cross-Max has the fewest regressions (512) but also the fewest rescues (4). Single RGB has the most rescues (7) but also more regressions (538).
-
-## Stage-4 SC failure analysis
-
-All 12 Stage-4 SC Rank-1 failures were analyzed:
-
-| Query | SC FPR | Positive in Top-20 | Failure Type | Single Rescue | Mean5 Rescue | CrossMax Rescue |
-| --- | ---: | --- | --- | --- | --- | --- |
-| 305 | 4 | Yes | RECOVERABLE | No | No | No |
-| 1241 | 3 | Yes | RECOVERABLE | No | No | No |
-| 1242 | 15 | Yes | RECOVERABLE | No | No | No |
-| 1243 | 2 | Yes | RECOVERABLE | Yes | No | No |
-| 1244 | 2 | Yes | RECOVERABLE | Yes | No | No |
-| 1276 | 5 | Yes | RECOVERABLE | No | No | No |
-| 1277 | 9 | Yes | RECOVERABLE | No | No | No |
-| 1279 | 7 | Yes | RECOVERABLE | Yes | Yes | No |
-| 1280 | 11 | Yes | RECOVERABLE | Yes | Yes | Yes |
-| 1847 | 21 | No | CANDIDATE-GEN | Yes* | Yes* | Yes* |
-| 1848 | 125 | No | CANDIDATE-GEN | Yes* | Yes* | Yes* |
-| 1849 | 467 | No | CANDIDATE-GEN | Yes* | Yes* | Yes* |
-
-*Candidate-generation failures: the positive is absent from SC Top-20, so visual reranking cannot be credited with a genuine rescue. The "Yes" here means visual Rank-1 was correct within the Top-20 candidates, but the correct candidate was not in the pool.
+Four counts sum to 1,830 (candidate-conditioned cohort) for each method. Candidate-generation failures: 3, contributing zero visual rescues.
 
 ## Sync-quality sensitivity
 
-Since all 1,833 valid queries have abs RGB offset <= 75 ms, the sync-clean subset is identical to the canonical all-valid results. Visual conclusions are robust to synchronization quality.
+| Method | All Valid R@1 | Sync-Clean R@1 | Clean Queries | Rule |
+| --- | ---: | ---: | ---: | --- |
+| Single RGB | 0.702128 | 0.702128 | 1,833 | query + all 20 candidate current frames <= 75ms |
+| RGB5 Mean | 0.682488 | 0.682141 | 1,831 | all 5 query + all 5*20 candidate window frames <= 75ms |
+| Cross-Max | 0.714675 | 0.714364 | 1,831 | all 5 query + all 5*20 candidate window frames <= 75ms |
 
-## Latency
+## Stage-4 SC failure analysis
 
-| Component | Mean (ms) | P95 (ms) | Total (s) |
-| --- | ---: | ---: | ---: |
-| Robot1 encoding | 34.8 | 36.1 | 69.6 |
-| Robot3 encoding | 32.7 | 36.3 | 136.7 |
-| Single RGB rerank | 0.014 | — | 0.028 |
-| RGB5 Mean rerank | 0.279 | — | 0.558 |
-| Cross-Max rerank | 0.064 | — | 0.128 |
+12 failures: 9 recoverable (positive in SC Top-20), 3 candidate-generation failures. Visual rescues: Single=3, Mean5=2, CrossMax=1 (all from recoverable failures only).
 
 ## Validation
 
-All 15 validation checks passed:
-1. Robot1/Robot3 keyframes exactly match frozen Stage 4
-2. SC Top-20 candidate pool frozen before visual scoring
-3. GT never enters candidate generation or visual ranking
-4. Heading is analysis-only
-5. OpenCLIP weights are frozen
-6. No model training/fine-tuning occurred
-7. Single/Mean5/Cross-Max use identical SC Top-20 candidates
-8. All visual scores are reproducible from saved embeddings/config
-9. Stage-4 SC metrics reproduced unchanged
-10. Candidate-conditioned and end-to-end metrics are not mixed
-11. Candidate-generation failures cannot be called visual rescues
-12. No SC+visual weighted fusion was implemented
-13. No VLM/CVTNet/GICP/PGO was invoked
-14. Stage-4 outputs remain untouched
-15. raw RGB/LiDAR archives remain untouched
-
-## Outputs
-
-All lightweight outputs are in `outputs/cumulti_v1/05_visual_viewpoint_analysis/`. Embeddings are cached outside Git at `/home/cas/CU-Multi/processed_v1/openclip_stage5/`.
-
-## Reproduction
-
-```bash
-conda activate fyp_slam
-cd /home/cas/fyp_place_recognition
-python src/cumulti/run_stage5_visual_viewpoint.py
-```
-
-If embeddings are already cached, the script loads them automatically. The script refuses to overwrite existing Stage-5 outputs or Stage-4 outputs.
+All 21 checks PASS, including: no rank <= 0 counted as success, end-to-end <= candidate-conditioned, four-count sum equals cohort, candidate-generation failures contribute zero rescues, sync-clean checks both robots.

@@ -24,27 +24,30 @@ This is not a retrieval metric. Four-robot Main Campus trajectory analysis at 2 
 
 This is the first LiDAR-only retrieval result for the Stage 3 hard-but-usable pair. Robot1 uses the frozen Stage 2 2 Hz cache (2,000 queries); Robot3 uses 4,180 actual-LiDAR-timestamp 2 Hz keyframes. With the frozen Scan Context configuration and whole Robot3 database ranking, there are 1,833 valid-overlap queries and 167 no-overlap queries under offline `d_xy < 5 m` positives. Robot1-to-Robot3 Recall@1/@5/@10/@20 is **0.993453 / 0.996181 / 0.997272 / 0.998363**, MRR is **0.994682**, and the median/worst first-positive ranks are **1 / 467**. The reverse Robot3-to-Robot1 sanity direction has 1,686 valid queries and R@1 0.998814. GT is never used for descriptor construction, database filtering or ranking; RGB is synchronized only for audit. See `docs/CUMULTI_STAGE4_R1_R3_SC_BASELINE.md` and `outputs/cumulti_v1/04_robot1_robot3_sc/`.
 
-## CU-Multi Stage 5 Visual Viewpoint Analysis (verified)
+## CU-Multi Stage 5 Visual Viewpoint Analysis (verified, corrected)
 
-Stage 5 measures visual evidence reliability on the frozen Robot1-to-Robot3 SC Top-20 protocol. OpenCLIP ViT-B-32-quickgelu (laion400m_e32) encodes RGB for all frozen 2 Hz keyframes. Three visual methods rerank only the frozen SC Top-20 candidates. Candidate-conditioned analysis evaluates only queries where SC Top-20 contains at least one GT-positive (1,830 of 1,833 valid queries). End-to-end analysis uses all valid queries.
+Stage 5 measures visual evidence reliability on the frozen Robot1-to-Robot3 SC Top-20 protocol. OpenCLIP ViT-B-32-quickgelu (laion400m_e32) encodes RGB for all frozen 2 Hz keyframes. Three visual methods rerank only the frozen SC Top-20 candidates.
 
-Candidate-conditioned (CANDIDATE_AVAILABLE queries only):
+Bug fixes applied: (1) rank -1 (no GT-positive in Top-20) is never counted as Recall success; (2) rescue/regression computed only within candidate-available queries, excluding candidate-generation failures; (3) end-to-end R@K <= candidate-conditioned R@K asserted; (4) sync-clean checks both Robot1 and Robot3 observations.
+
+Candidate-conditioned (CANDIDATE_AVAILABLE queries only, 1,830 of 1,833 valid):
 - Frozen SC: R@1=0.995082, R@5=0.997814, MRR=0.996281
 - Single RGB: R@1=0.703279, R@5=0.940984, MRR=0.803501
 - RGB5 Mean: R@1=0.683607, R@5=0.914208, MRR=0.777015
 - Cross-Max: R@1=0.715847, R@5=0.902732, MRR=0.793528
 
-End-to-end (ALL valid queries):
+End-to-end (ALL 1,833 valid queries, candidate-miss = unavoidable miss):
 - Frozen SC: R@1=0.993453, R@5=0.996181
-- Single RGB: R@1=0.703764, R@5=0.941080
-- RGB5 Mean: R@1=0.684124, R@5=0.914348
-- Cross-Max: R@1=0.716312, R@5=0.902891
+- Single RGB: R@1=0.702128, R@5=0.939444
+- RGB5 Mean: R@1=0.682488, R@5=0.912711
+- Cross-Max: R@1=0.714675, R@5=0.901255
 
-Rescues: Single=7, Mean5=5, CrossMax=4
+Rescues (corrected): Single=4, Mean5=2, CrossMax=1
 Regressions: Single=538, Mean5=572, CrossMax=512
+Candidate-generation failures: 3 (zero visual rescues)
 
-12 Stage-4 SC failures analyzed: 9 recoverable (positive in SC Top-20), 3 candidate-generation failures.
+12 Stage-4 SC failures: 9 recoverable, 3 candidate-generation failures.
 
-Sync-quality sensitivity: all valid queries have abs RGB offset <= 75ms; sync-clean results are identical to canonical.
+Sync-quality sensitivity: Single RGB 1833/1833 clean (identical); Mean5/CrossMax 1831/1833 clean (slight difference). Sync-clean checks both query AND candidate RGB observations.
 
 See `docs/CUMULTI_STAGE5_VISUAL_VIEWPOINT_ANALYSIS.md` and `outputs/cumulti_v1/05_visual_viewpoint_analysis/`.

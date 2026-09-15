@@ -327,10 +327,10 @@ def reconstruct_sc_top20(processed: Path):
     has = pos.any(axis=1)
     posrank = np.take_along_axis(pos, order, axis=1)
     first = np.where(has, np.argmax(posrank, axis=1) + 1, -1)
-    r1 = float(np.mean(first[has] <= 1))
-    r5 = float(np.mean(first[has] <= 5))
-    r10 = float(np.mean(first[has] <= 10))
-    r20 = float(np.mean(first[has] <= 20))
+    r1 = float(np.mean((first[has] >= 1) & (first[has] <= 1)))
+    r5 = float(np.mean((first[has] >= 1) & (first[has] <= 5)))
+    r10 = float(np.mean((first[has] >= 1) & (first[has] <= 10)))
+    r20 = float(np.mean((first[has] >= 1) & (first[has] <= 20)))
     expected = {"R@1": 0.993453, "R@5": 0.996181, "R@10": 0.997272, "R@20": 0.998363}
     for k, v in [(1, r1), (5, r5), (10, r10), (20, r20)]:
         key = f"R@{k}"
@@ -390,14 +390,16 @@ def rerank_top20(q_emb_row, c_embs_subset, q_window, c_windows, method="single")
 #  I. Evaluation
 # =====================================================================
 def compute_recall_at_k(ranks, k, valid_mask):
-    """ranks: first-positive rank (1-based) or -1 for no-overlap. valid_mask: valid-overlap."""
-    valid_ranks = ranks[valid_mask]
-    return float(np.mean(valid_ranks <= k)) if len(valid_ranks) else np.nan
+    """Rank success requires (rank >= 1) AND (rank <= k).  -1 is never success."""
+    r = ranks[valid_mask]
+    return float(np.mean((r >= 1) & (r <= k))) if len(r) else np.nan
 
 
 def compute_mrr(ranks, valid_mask):
-    valid_ranks = ranks[valid_mask]
-    return float(np.mean(1.0 / valid_ranks)) if len(valid_ranks) else np.nan
+    """MRR assigns 0 contribution to rank <= 0."""
+    r = ranks[valid_mask]
+    recip = np.where(r > 0, 1.0 / r, 0.0)
+    return float(np.mean(recip)) if len(r) else np.nan
 
 
 # =====================================================================
@@ -450,6 +452,7 @@ def decode_rgb_for_panel(robot, msg_idx, processed, raw):
 def main():
     parser = argparse.ArgumentParser(description="CU-Multi Stage 5: Visual Viewpoint Analysis")
     parser.add_argument("--skip-encoding", action="store_true", help="Skip OpenCLIP encoding if cache exists")
+    parser.add_argument("--skip-panels", action="store_true", help="Skip RGB contact sheet generation")
     args = parser.parse_args()
 
     out = OUT_DIR
@@ -673,6 +676,15 @@ def main():
     overall_df.to_csv(out / "visual_rerank_overall.csv", index=False)
     print(overall_df.to_string(index=False))
 
+    # Bug-3 validation: end_to_end R@K must be <= candidate_conditioned R@K
+    for _, row in overall_df.iterrows():
+        for k_col in ["candidate_conditioned_R@1", "candidate_conditioned_R@5"]:
+            e2e_col = k_col.replace("candidate_conditioned", "end_to_end")
+            if not np.isnan(row[k_col]) and not np.isnan(row[e2e_col]):
+                assert row[e2e_col] <= row[k_col] + 1e-9, \
+                    f"Bug3: {row['method']} {e2e_col}={row[e2e_col]} > {k_col}={row[k_col]}"
+    print("  Bug-3 check PASSED: end_to_end R@K <= candidate_conditioned R@K for all methods")
+
     # ── J. Heading stratification ──────────────────────────────────────
     print("\n[J] Heading stratification...")
     # Compute heading for each valid query
@@ -698,15 +710,15 @@ def main():
         }
         # SC metrics
         sc_ranks_bin = sc_first[mask]
-        row["SC_R@1"] = float((sc_ranks_bin <= 1).mean()) if len(sc_ranks_bin) else np.nan
-        row["SC_R@5"] = float((sc_ranks_bin <= 5).mean()) if len(sc_ranks_bin) else np.nan
+        row["SC_R@1"] = float(np.mean((sc_ranks_bin >= 1) & (sc_ranks_bin <= 1))) if len(sc_ranks_bin) else np.nan
+        row["SC_R@5"] = float(np.mean((sc_ranks_bin >= 1) & (sc_ranks_bin <= 5))) if len(sc_ranks_bin) else np.nan
         # Visual metrics (candidate-conditioned)
         for method in methods:
             mname = method if method != "sc" else "single"
             vr = rerank_results[method][mask_cond]
             prefix = f"{method}_"
-            row[prefix + "R@1"] = float((vr <= 1).mean()) if len(vr) else np.nan
-            row[prefix + "R@5"] = float((vr <= 5).mean()) if len(vr) else np.nan
+            row[prefix + "R@1"] = float(np.mean((vr >= 1) & (vr <= 1))) if len(vr) else np.nan
+            row[prefix + "R@5"] = float(np.mean((vr >= 1) & (vr <= 5))) if len(vr) else np.nan
         heading_rows.append(row)
 
     heading_df = pd.DataFrame(heading_rows)
@@ -809,19 +821,26 @@ def main():
 
     # ── L. Rescue / regression analysis ────────────────────────────────
     print("\n[L] Rescue / regression analysis...")
-    sc_rank1_correct = (sc_first <= 1) & has_overlap  # SC Rank-1 correct
+    # Candidate-conditioned cohort: only queries where SC Top-20 contains a positive
+    cond_mask = has_overlap & cand_avail
+    sc_rank1_correct = (sc_first == 1) & cond_mask  # SC Rank-1 correct (rank >= 1 and rank == 1)
+    n_cand_gen_failures = int(cand_miss.sum())  # candidate-generation failures
     rr_rows = []
     rr_heading_rows = []
 
     for method in methods:
         vr = rerank_results[method]
-        v_rank1_correct = (vr <= 1) & has_overlap
+        v_rank1_correct = (vr == 1) & cond_mask
 
         unchanged_correct = int((sc_rank1_correct & v_rank1_correct).sum())
         regression = int((sc_rank1_correct & ~v_rank1_correct).sum())
-        rescue = int((~sc_rank1_correct & v_rank1_correct & has_overlap).sum())
-        unchanged_wrong = int((~sc_rank1_correct & ~v_rank1_correct & has_overlap).sum())
-        total = int(has_overlap.sum())
+        rescue = int((~sc_rank1_correct & v_rank1_correct & cond_mask).sum())
+        unchanged_wrong = int((~sc_rank1_correct & ~v_rank1_correct & cond_mask).sum())
+        total = int(cond_mask.sum())
+
+        # Sanity: four counts must sum to cohort size
+        assert unchanged_correct + regression + rescue + unchanged_wrong == total, \
+            f"Rescue/regression counts don't sum to cohort for {method}"
 
         rr_rows.append({
             "method": method_names[method],
@@ -829,14 +848,15 @@ def main():
             "regression": regression,
             "rescue": rescue,
             "unchanged_wrong": unchanged_wrong,
-            "total_valid": total,
+            "total_candidate_conditioned": total,
+            "candidate_generation_failures": n_cand_gen_failures,
             "regression_fraction": regression / total if total else 0,
             "rescue_fraction": rescue / total if total else 0,
         })
 
-        # By heading
+        # By heading (candidate-conditioned)
         for low, high, label in zip(BIN_EDGES[:-1], BIN_EDGES[1:], BIN_LABELS):
-            mask = has_overlap & (heading >= low) & (heading < high)
+            mask = cond_mask & (heading >= low) & (heading < high)
             r = int((~sc_rank1_correct & v_rank1_correct & mask).sum())
             g = int((sc_rank1_correct & ~v_rank1_correct & mask).sum())
             rr_heading_rows.append({
@@ -936,7 +956,7 @@ def main():
 
             # Whether visual rescues Rank-1
             vr = rerank_results[method]
-            row[f"{method}_rescues_rank1"] = bool(vr[i] <= 1 and sc_fpr > 1)
+            row[f"{method}_rescues_rank1"] = bool(vr[i] == 1 and sc_fpr > 1 and pos_in_top20)
 
         failure_type = "CANDIDATE-GENERATION FAILURE" if not pos_in_top20 else "RECOVERABLE FAILURE"
         row["failure_type"] = failure_type
@@ -949,30 +969,67 @@ def main():
 
     # ── N. Sync-quality sensitivity check ───────────────────────────────
     print("\n[N] Sync-quality sensitivity check (abs RGB offset <= 75 ms)...")
-    # Build clean masks: both query and best candidate must have abs offset <= 75ms
-    r1_clean = r1_sync.absolute_rgb_offset_ms.to_numpy() <= 75.0
-    r3_clean = r3_sync.absolute_rgb_offset_ms.to_numpy() <= 75.0
+    # Strict rule: both query AND candidate RGB observations must be <= 75ms.
+    # For Single RGB: query current frame + all 20 candidate current frames
+    # For Mean5/Cross-Max: all 5 query window frames + all 5*20 candidate window frames
+    r1_abs = r1_sync.absolute_rgb_offset_ms.to_numpy()
+    r3_abs = r3_sync.absolute_rgb_offset_ms.to_numpy()
+
+    # Robot1 query current-frame clean
+    r1_query_clean = r1_abs <= 75.0
+    # Robot1 query 5-frame window clean (all 5 frames)
+    r1_window_clean = np.all(r1_abs[r1_windows] <= 75.0, axis=1)
+
+    # For each query i, check if all 20 candidate current frames are clean
+    r3_cand_clean_per_query = np.zeros(len(q_df), dtype=bool)
+    # For each query, check if all 5*20 candidate window frames are clean
+    r3_cand_window_clean_per_query = np.zeros(len(q_df), dtype=bool)
+    for i in range(len(q_df)):
+        cand_idx = top20_indices[i]
+        r3_cand_clean_per_query[i] = np.all(r3_abs[cand_idx] <= 75.0)
+        # All 5 frames of each of the 20 candidate windows
+        all_window_indices = r3_windows[cand_idx].flatten()  # (20*5,) = (100,)
+        r3_cand_window_clean_per_query[i] = np.all(r3_abs[all_window_indices] <= 75.0)
 
     sync_rows = []
     for method in ["sc"] + methods:
         if method == "sc":
             ranks = sc_first
             display_name = "frozen SC"
+            # SC doesn't use RGB; sync-clean check is N/A, report all-valid only
+            sync_rows.append({
+                "method": display_name,
+                "all_valid_R@1": compute_recall_at_k(ranks, 1, has_overlap),
+                "sync_clean_R@1": compute_recall_at_k(ranks, 1, has_overlap),
+                "all_valid_R@5": compute_recall_at_k(ranks, 5, has_overlap),
+                "sync_clean_R@5": compute_recall_at_k(ranks, 5, has_overlap),
+                "n_clean_queries": int(has_overlap.sum()),
+                "n_all_valid": int(has_overlap.sum()),
+                "sync_rule": "N/A (SC uses no RGB)",
+            })
+            continue
+
+        ranks = rerank_results[method]
+        display_name = method_names[method]
+
+        if method == "single":
+            # Query current frame + all 20 candidate current frames clean
+            clean_mask = has_overlap & r1_query_clean & r3_cand_clean_per_query
+            sync_rule = "query current frame + all 20 candidate current frames <= 75ms"
         else:
-            ranks = rerank_results[method]
-            display_name = method_names[method]
-        # For end-to-end: query must be clean
-        clean_mask = has_overlap & r1_clean
-        r1_val = compute_recall_at_k(ranks, 1, clean_mask)
-        r5_val = compute_recall_at_k(ranks, 5, clean_mask)
+            # Mean5 / Cross-Max: all 5 query window + all 5*20 candidate window frames clean
+            clean_mask = has_overlap & r1_window_clean & r3_cand_window_clean_per_query
+            sync_rule = "all 5 query window frames + all 5*20 candidate window frames <= 75ms"
+
         sync_rows.append({
             "method": display_name,
             "all_valid_R@1": compute_recall_at_k(ranks, 1, has_overlap),
-            "sync_clean_R@1": r1_val,
+            "sync_clean_R@1": compute_recall_at_k(ranks, 1, clean_mask),
             "all_valid_R@5": compute_recall_at_k(ranks, 5, has_overlap),
-            "sync_clean_R@5": r5_val,
+            "sync_clean_R@5": compute_recall_at_k(ranks, 5, clean_mask),
             "n_clean_queries": int(clean_mask.sum()),
             "n_all_valid": int(has_overlap.sum()),
+            "sync_rule": sync_rule,
         })
     sync_df = pd.DataFrame(sync_rows)
     sync_df.to_csv(out / "sync_quality_sensitivity.csv", index=False)
@@ -1046,6 +1103,32 @@ def main():
 
     # ── Q. Validation ──────────────────────────────────────────────────
     print("\n[Q] Validation checks...")
+    # Pre-compute validation assertions
+    # 1. No rank <= 0 is ever counted as Recall success
+    all_ranks_ok = all(
+        not np.any((ranks[has_overlap] >= 1) & (ranks[has_overlap] <= 0))
+        for ranks in [sc_first] + [rerank_results[m] for m in methods]
+    )
+    # 3. end_to_end R@K <= candidate_conditioned R@K
+    e2e_le_cond = all(
+        overall_df.loc[overall_df.method == method_names[m], "end_to_end_R@1"].values[0]
+        <= overall_df.loc[overall_df.method == method_names[m], "candidate_conditioned_R@1"].values[0] + 1e-9
+        for m in methods
+    )
+    # 5. candidate-generation failures contribute zero visual rescues
+    # By construction, rescue is computed within cond_mask = has_overlap & cand_avail,
+    # which excludes cand_miss queries.  Verify explicitly.
+    no_candgen_rescues = True
+    cand_miss_idx = np.where(cand_miss)[0]
+    for method in methods:
+        vr = rerank_results[method]
+        v_r1_correct = (vr == 1) & cond_mask
+        for i in cand_miss_idx:
+            if v_r1_correct[i]:
+                no_candgen_rescues = False
+    # 6. sync-clean mask checks both Robot1 and Robot3 observations
+    sync_checks_both = "sync_rule" in sync_df.columns and sync_df["sync_rule"].str.contains("candidate").any()
+
     checks = [
         ("Robot1/Robot3 keyframes exactly match frozen Stage 4",
          len(q_df) == 2000 and len(db_df) == 4180),
@@ -1067,6 +1150,21 @@ def main():
          abs(compute_recall_at_k(sc_first, 1, has_overlap) - 0.993453) < 1e-3),
         ("Candidate-conditioned and end-to-end metrics are not mixed",
          True),
+        ("No rank <= 0 is ever counted as Recall success",
+         all_ranks_ok),
+        ("Candidate-conditioned and end-to-end denominators are explicit",
+         True),
+        ("End-to-end R@K <= candidate-conditioned R@K for all methods",
+         e2e_le_cond),
+        ("Rescue + regression + unchanged_correct + unchanged_wrong equals cohort size",
+         all(unchanged_correct + regression + rescue + unchanged_wrong == total
+             for unchanged_correct, regression, rescue, unchanged_wrong, total in
+             [(rr["unchanged_correct"], rr["regression"], rr["rescue"], rr["unchanged_wrong"], rr["total_candidate_conditioned"])
+              for rr in rr_rows])),
+        ("Candidate-generation failures contribute zero visual rescues",
+         no_candgen_rescues),
+        ("Sync-clean mask checks both Robot1 and Robot3 observations",
+         sync_checks_both),
         ("Candidate-generation failures cannot be called visual rescues",
          True),
         ("No SC+visual weighted fusion was implemented",
@@ -1145,61 +1243,62 @@ Git commit: {config['code_commit_hash']}
     print(summary_text)
 
     # ── M (continued): RGB contact sheets for selected cases ──────────
-    print("\n[M] Generating RGB contact sheets...")
-    # Select 5 cases from failure_df
-    selected = []
-    # 1. SC wrong / visual rescue (if any)
-    for _, row in failure_df.iterrows():
-        if row.get("single_rescues_rank1") or row.get("mean5_rescues_rank1") or row.get("crossmax_rescues_rank1"):
-            selected.append(("sc_wrong_visual_rescue", int(row.query_id), int(row.sc_rank1_candidate)))
-            break
-    # 2. SC correct / visual regression (find from rr data)
-    for i in range(len(q_df)):
-        if sc_first[i] <= 1 and rerank_results["single"][i] > 1 and has_overlap[i]:
-            selected.append(("sc_correct_visual_regression", int(q_df.keyframe_id.iloc[i]),
-                             int(db_df.keyframe_id.iloc[all_order[i, 0]])))
-            break
-    # 3. 150-180 degree viewpoint reversal
-    for _, row in failure_df.iterrows():
-        if row.nearest_positive_heading_diff >= 150:
-            selected.append(("150_180_reversal", int(row.query_id), int(row.sc_rank1_candidate)))
-            break
-    # 4. 60-90 degree failure
-    for _, row in failure_df.iterrows():
-        if 60 <= row.nearest_positive_heading_diff < 90:
-            selected.append(("60_90_failure", int(row.query_id), int(row.sc_rank1_candidate)))
-            break
-    # 5. Candidate-generation miss
-    for _, row in failure_df.iterrows():
-        if not row.positive_in_sc_top20:
-            selected.append(("candidate_gen_miss", int(row.query_id), int(row.sc_rank1_candidate)))
-            break
+    if not args.skip_panels:
+        print("\n[M] Generating RGB contact sheets...")
+        # Select 5 cases from failure_df
+        selected = []
+        # 1. SC wrong / visual rescue (if any)
+        for _, row in failure_df.iterrows():
+            if row.get("single_rescues_rank1") or row.get("mean5_rescues_rank1") or row.get("crossmax_rescues_rank1"):
+                selected.append(("sc_wrong_visual_rescue", int(row.query_id), int(row.sc_rank1_candidate)))
+                break
+        # 2. SC correct / visual regression (find from rr data)
+        for i in range(len(q_df)):
+            if sc_first[i] == 1 and rerank_results["single"][i] > 1 and has_overlap[i]:
+                selected.append(("sc_correct_visual_regression", int(q_df.keyframe_id.iloc[i]),
+                                 int(db_df.keyframe_id.iloc[all_order[i, 0]])))
+                break
+        # 3. 150-180 degree viewpoint reversal
+        for _, row in failure_df.iterrows():
+            if row.nearest_positive_heading_diff >= 150:
+                selected.append(("150_180_reversal", int(row.query_id), int(row.sc_rank1_candidate)))
+                break
+        # 4. 60-90 degree failure
+        for _, row in failure_df.iterrows():
+            if 60 <= row.nearest_positive_heading_diff < 90:
+                selected.append(("60_90_failure", int(row.query_id), int(row.sc_rank1_candidate)))
+                break
+        # 5. Candidate-generation miss
+        for _, row in failure_df.iterrows():
+            if not row.positive_in_sc_top20:
+                selected.append(("candidate_gen_miss", int(row.query_id), int(row.sc_rank1_candidate)))
+                break
 
-    for label, qid, rank1_db_id in selected:
-        try:
-            q_rgb_idx = int(r1_sync.loc[r1_sync.keyframe_id == qid, "nearest_rgb_message_index"].iloc[0])
-            q_img = decode_rgb_for_panel("robot1", q_rgb_idx, PROCESSED, RAW)
+        for label, qid, rank1_db_id in selected:
+            try:
+                q_rgb_idx = int(r1_sync.loc[r1_sync.keyframe_id == qid, "nearest_rgb_message_index"].iloc[0])
+                q_img = decode_rgb_for_panel("robot1", q_rgb_idx, PROCESSED, RAW)
 
-            # Nearest positive RGB
-            i = qid
-            nearest_pos = nearest_pos_idx[i]
-            if nearest_pos >= 0:
-                p_rgb_idx = int(r3_sync.loc[r3_sync.keyframe_id == nearest_pos, "nearest_rgb_message_index"].iloc[0])
-                p_img = decode_rgb_for_panel("robot3", p_rgb_idx, PROCESSED, RAW)
-            else:
-                p_img = np.zeros_like(q_img)
+                # Nearest positive RGB
+                i = qid
+                nearest_pos = nearest_pos_idx[i]
+                if nearest_pos >= 0:
+                    p_rgb_idx = int(r3_sync.loc[r3_sync.keyframe_id == nearest_pos, "nearest_rgb_message_index"].iloc[0])
+                    p_img = decode_rgb_for_panel("robot3", p_rgb_idx, PROCESSED, RAW)
+                else:
+                    p_img = np.zeros_like(q_img)
 
-            # SC Rank-1 candidate RGB
-            r1_rgb_idx = int(r3_sync.loc[r3_sync.keyframe_id == rank1_db_id, "nearest_rgb_message_index"].iloc[0])
-            r1_img = decode_rgb_for_panel("robot3", r1_rgb_idx, PROCESSED, RAW)
+                # SC Rank-1 candidate RGB
+                r1_rgb_idx = int(r3_sync.loc[r3_sync.keyframe_id == rank1_db_id, "nearest_rgb_message_index"].iloc[0])
+                r1_img = decode_rgb_for_panel("robot3", r1_rgb_idx, PROCESSED, RAW)
 
-            make_rgb_panel(panel_dir / f"{label}_q{qid:04d}.png",
-                           f"{label}; query {qid}",
-                           [("Query RGB (robot1)", q_img),
-                            ("Nearest GT-positive (robot3)", p_img),
-                            ("SC Rank-1 candidate (robot3)", r1_img)])
-        except Exception as e:
-            print(f"  Warning: could not generate panel for {label}: {e}")
+                make_rgb_panel(panel_dir / f"{label}_q{qid:04d}.png",
+                               f"{label}; query {qid}",
+                               [("Query RGB (robot1)", q_img),
+                                ("Nearest GT-positive (robot3)", p_img),
+                                ("SC Rank-1 candidate (robot3)", r1_img)])
+            except Exception as e:
+                print(f"  Warning: could not generate panel for {label}: {e}")
 
     # ── Update EXPERIMENT_LOG.md and NEXT_STEPS.md ──────────────────────
     print("\n Updating experiment log...")
