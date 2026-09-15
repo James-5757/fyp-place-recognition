@@ -8,8 +8,8 @@ After those questions are resolved, design the CU-Multi retrieval protocol separ
 
 For visual experiments, measure OpenCLIP viewpoint sensitivity explicitly and compare single view, mean pooling, Cross-Max and controlled multi-view aggregation under a fixed candidate protocol. Record dataset version, selected frames, timestamps, thresholds, pose frame, calibration and command in the experiment log for every new experiment.
 
-## Current Stage 4 stop point
+## Current Stage 5 stop point
 
-Stage 4 has completed the Robot1-to-Robot3 LiDAR-only Scan Context baseline. It retains the frozen Robot1 Stage 2 cache, has a formal Robot3 LiDAR timestamp grid, and ranks all Robot3 descriptors without GT filtering. The primary R@1 is 0.993453 over 1,833 valid-overlap queries. Do not overwrite its outputs, its derived cache, or the frozen Robot1-to-Robot2 Stage 2 baseline.
+Stage 5 has completed the visual viewpoint analysis on the frozen Robot1-to-Robot3 protocol. Three visual methods (Single RGB, RGB5 Mean, Cross-Max) reranked the frozen SC Top-20 candidates using OpenCLIP ViT-B-32-quickgelu (laion400m_e32). The candidate-conditioned, end-to-end, heading-stratified, true-positive similarity, rescue/regression, sync-quality and Stage-4 failure analyses are all complete. No fusion, VLM, CVTNet, GICP or PGO was run.
 
-The next authorized research step should be a deliberately isolated viewpoint experiment. Keep the Stage 4 Scan Context candidate protocol fixed, explicitly stratify offline evaluation by nearest-positive heading difference, and compare any visual representation only against the same candidates. Begin with an RGB data-integrity and timestamp audit, then test OpenCLIP single-view sensitivity before any mean pooling or Cross-Max aggregation. Do not allow GT heading, pose or overlap values to enter candidate selection or reranking. No VLM, CVTNet, GICP or PGO is part of this next step unless separately authorized.
+The next authorized research step is viewpoint-aware fusion, which must be a separately authorized Stage 6. It should combine frozen SC candidates with visual evidence under a fixed protocol, explicitly stratified by heading. Do not implement it without explicit authorization.
