@@ -1,0 +1,3 @@
+condition,visual_invocation_count,visual_invocation_rate,overrides,rescues,regressions,net_corrections,R@1,R@5,sc_margin_threshold,visual_margin_threshold,delta_sc
+SC-only,0,0.0,0,0,0,0,0.9972627737226277,1.0,,,
+strict_absolute_transfer,115,0.049726277372262775,14,0,0,0,0.9972627737226277,1.0,0.0006740332464687,0.0062217712402343,0.05

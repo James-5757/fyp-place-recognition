@@ -1,0 +1,2 @@
+direction,total_queries,valid_overlap_queries,no_overlap_queries,R@1,R@5,R@10,R@20,R@50,R@100,R@200,MRR,median_first_positive_rank,p95_first_positive_rank,worst_first_positive_rank,candidate_available
+robot2_to_robot3,2230,2192,38,0.9972627737226277,1.0,1.0,1.0,1.0,1.0,1.0,0.9982284063260342,1.0,1.0,5,2192

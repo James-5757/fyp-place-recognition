@@ -1,0 +1,2 @@
+condition,SC_ms,encoding_ms,rerank_ms,invocation_rate,added_compute_ms_per_query,serial_latency_ms,parallel_latency_ms,always_on_encoding_ms
+strict,155.884895,32.6729364994905,0.0141569,0.049726277372262775,1.6254074728761243,157.51030247287613,155.8990519,32.6729364994905

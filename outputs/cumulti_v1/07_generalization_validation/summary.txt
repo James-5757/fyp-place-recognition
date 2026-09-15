@@ -1,0 +1,2 @@
+Stage7 PASS
+SC R1=0.997263; strict R1=0.997263; strict rescue/regression=0/0; verdict=NEGATIVE

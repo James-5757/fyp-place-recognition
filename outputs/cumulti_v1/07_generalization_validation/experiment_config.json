@@ -1,0 +1,13 @@
+{
+  "strict_thresholds": {
+    "sc_margin": 0.0006740332464687,
+    "visual_margin": 0.0062217712402343,
+    "delta": 0.05
+  },
+  "adaptation_thresholds": {
+    "sc_margin": 0.000643527542706579,
+    "visual_margin": 0.006049424409866333
+  },
+  "stage6_commit": "10a213b93b144bd92f6e204bb3144454784c8fc8",
+  "GT_policy": "evaluation only"
+}

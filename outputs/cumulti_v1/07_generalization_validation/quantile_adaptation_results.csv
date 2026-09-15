@@ -1,0 +1,2 @@
+condition,sc_margin_threshold,visual_margin_threshold,delta_sc,visual_invocation_count,visual_invocation_rate,overrides,rescues,regressions,net_corrections,R@1,R@5
+unlabeled_q5_q50_adaptation,0.000643527542706579,0.006049424409866333,0.05,112,0.048357664233576646,14,0,0,0,0.9972627737226277,1.0

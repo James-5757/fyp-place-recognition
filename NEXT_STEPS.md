@@ -8,8 +8,15 @@ After those questions are resolved, design the CU-Multi retrieval protocol separ
 
 For visual experiments, measure OpenCLIP viewpoint sensitivity explicitly and compare single view, mean pooling, Cross-Max and controlled multi-view aggregation under a fixed candidate protocol. Record dataset version, selected frames, timestamps, thresholds, pose frame, calibration and command in the experiment log for every new experiment.
 
-## Current Stage 6 stop point
+## Current Stage 7 stop point
 
-Stage 6 has completed selective visual verification while preserving Stage 4/5. The best-shift proxy is geometrically calibrated, but the fixed ablation does not show added viewpoint value beyond confidence gating. One Single-RGB in-sample operating point has one rescue and zero regressions; it is exploratory and not a universal threshold.
+Stage 7 completed the predeclared Robot2-to-Robot3 held-out check while preserving
+Stages 4--6. The strict Single-RGB policy transfers safely but neutrally: zero
+observed regressions and zero rescues over an already near-saturated SC baseline.
+This does not establish a universal threshold, general visual gain, or a
+viewpoint-gating advantage.
 
-Stop here. Do not start GICP, CVTNet, PGO, SC retrieval acceleration or fusion tuning. A next-stage claim requires a predeclared held-out route/robot split to test whether the selective gate generalizes. Keep GT offline and preserve Stage 4/5/6 outputs.
+Stop here. Do not start GICP, CVTNet, PGO, SC retrieval acceleration or fusion
+tuning. A subsequent claim should use a newly predeclared, meaningfully hard
+route/robot split or a revised independent hypothesis. Keep GT offline and preserve
+Stage 4/5/6/7 outputs.

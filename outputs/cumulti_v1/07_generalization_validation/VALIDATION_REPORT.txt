@@ -1,0 +1,8 @@
+[PASS] Stage4/5/6 outputs read only
+[PASS] Frozen Robot2/3 grids
+[PASS] Same Stage5 model/cache
+[PASS] GT-free strict gate
+[PASS] Absolute Stage6 thresholds
+[PASS] Candidate misses not rescues
+[PASS] Strict/adaptation separated
+[PASS] No prohibited algorithms

@@ -57,3 +57,15 @@ See `docs/CUMULTI_STAGE5_VISUAL_VIEWPOINT_ANALYSIS.md` and `outputs/cumulti_v1/0
 Stage 6 keeps Stages 4/5 frozen and uses cached Stage-5 OpenCLIP embeddings with GT-free confidence/viewpoint gates over the frozen SC Top-20. SC stays at **0.993453** R@1 (1,821/1,833); the Top-20 ceiling is **0.998363** (1,830/1,833), with 1847/1848/1849 impossible to rescue. The best-shift proxy is geometrically calibrated offline (MAE 8.604°, median 1.689°, p90 11.047°, Pearson/Spearman 0.923/0.886), but the fixed ablation shows no viewpoint-gating advantage beyond confidence.
 
 Single RGB with SC-margin q5%, visual-margin q50% and compatibility delta 0.05 gives the only zero-regression rescue point: R@1/R@5 **0.993999/0.996727**, 4.31% valid-query invocation, 9 overrides, 1 rescue, 0 regressions, and 1.741 ms/query Model-A added compute. Cross-Max has no zero-regression rescue point. Global fusion at alpha_SC=0.50 is harmful (Single 1 rescue/7 regressions; Cross-Max 0/41). See `docs/CUMULTI_STAGE6_SELECTIVE_VISUAL_VERIFICATION.md` and `outputs/cumulti_v1/06_selective_visual_verification/`.
+
+## CU-Multi Stage 7 held-out generalization validation (verified)
+
+Stage 7 transfers the predeclared Stage-6 Single-RGB strict gate to independent
+Robot2-to-Robot3, using frozen 2-Hz grids, unchanged Scan Context, and a one-time
+Robot2 OpenCLIP cache. On 2,192 valid-overlap queries, SC achieves **R@1 0.997263,
+R@5 1.000000, MRR 0.998223**. Strict transfer invokes visual verification on 115
+queries (4.973%), makes 14 overrides, and has **0 rescues / 0 regressions**, leaving
+R@1 unchanged. This is neutral held-out transfer, not evidence of a general visual
+gain. Robot3-to-Robot2 SC-only sanity has R@1 0.996807 over 1,879 valid queries. See
+`docs/CUMULTI_STAGE7_GENERALIZATION_VALIDATION.md` and
+`outputs/cumulti_v1/07_generalization_validation/`.
