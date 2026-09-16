@@ -1,0 +1,9 @@
+[PASS] Stages 4-7 read-only
+[PASS] cached Stage-5 OpenCLIP embeddings reused; no encoding
+[PASS] frozen SC Top-20 reconstructed and Stage-4 Rank-1 verified
+[PASS] GT heading/distance used only after ranking for offline strata
+[PASS] no threshold tuning or fusion
+[PASS] actual processed PointCloud2 XYZI frames audited for all three robots
+[PASS] full-azimuth criterion declared before audit
+[PASS] raw archives untouched
+[PASS] no Ring-Key, GICP, PGO, CVTNet, or VLM

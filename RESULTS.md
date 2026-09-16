@@ -69,3 +69,17 @@ R@1 unchanged. This is neutral held-out transfer, not evidence of a general visu
 gain. Robot3-to-Robot2 SC-only sanity has R@1 0.996807 over 1,879 valid queries. See
 `docs/CUMULTI_STAGE7_GENERALIZATION_VALIDATION.md` and
 `outputs/cumulti_v1/07_generalization_validation/`.
+
+## CU-Multi Stage 7.5 same-view and LiDAR azimuth control (verified)
+
+On the predeclared Robot1-to-Robot3 same-view <=10-degree subset (482 valid
+queries), frozen SC is **R@1/R@5 1.000000/1.000000**. Single RGB is
+**0.906639/0.981328**, RGB5 Mean **0.883817/0.970954**, and Cross-Max
+**0.890041/0.962656**. The <=10-degree plus distance <2 m control (437 queries)
+remains SC/Single/Cross-Max R@1 **1.000000/0.913043/0.897025**. Actual XYZI
+azimuth audits on 20 uniformly distributed frames per Robot1/2/3 all pass the
+predeclared >=34/36-bin and <=20-degree-gap full-azimuth criterion; each has mean
+36/36 occupied bins, zero largest observed gap, including 0--20/40/80 m slices.
+This supports separate FoV, geometry-stability, and generic-OpenCLIP limitations
+interpretations rather than a universal modality claim. See
+`docs/CUMULTI_STAGE7_5_SUPERVISOR_VALIDATION.md`.

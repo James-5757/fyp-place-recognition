@@ -1,0 +1,28 @@
+{
+  "stage": "7.5",
+  "frozen_commit": "23bff54f0010eda2768f0a232fcef096b97a578c",
+  "same_view_primary_deg": 10,
+  "same_view_subsets_deg": [
+    5,
+    10,
+    15,
+    30
+  ],
+  "positive_definition": "d_xy < 5m, GT evaluation only",
+  "azimuth_bins": 36,
+  "full_azimuth_criterion": "occupied_bins >= 34 and longest_empty_gap_deg <= 20",
+  "range_slices_m": [
+    20,
+    40,
+    80
+  ],
+  "openclip_encoding": "not rerun; Stage-5 cache reused",
+  "prohibited": [
+    "fusion",
+    "Ring-Key",
+    "GICP",
+    "PGO",
+    "CVTNet",
+    "VLM"
+  ]
+}

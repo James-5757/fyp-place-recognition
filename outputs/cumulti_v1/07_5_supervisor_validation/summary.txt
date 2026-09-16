@@ -1,0 +1,13 @@
+CU-Multi Stage 7.5 supervisor validation
+same-view <=10 deg valid queries: 482
+SC: R@1=1.000000, R@5=1.000000
+Single RGB: R@1=0.906639, R@5=0.981328
+RGB5 Mean: R@1=0.883817, R@5=0.970954
+Cross-Max: R@1=0.890041, R@5=0.962656
+distance <2m SC: R@1=1.000000
+distance <2m Single RGB: R@1=0.913043
+distance <2m Cross-Max: R@1=0.897025
+LiDAR full-azimuth results:
+robot1: 100.0% pass, mean bins=36.00/36, largest gap=0.0 deg
+robot2: 100.0% pass, mean bins=36.00/36, largest gap=0.0 deg
+robot3: 100.0% pass, mean bins=36.00/36, largest gap=0.0 deg

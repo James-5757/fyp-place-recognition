@@ -1,0 +1,4 @@
+robot,sampled_frames,approximately_full_azimuth_percent,mean_occupied_bins,largest_observed_blind_gap_deg,mean_circular_coverage_deg
+robot1,20,100.0,36.0,0.0,360.0
+robot2,20,100.0,36.0,0.0,360.0
+robot3,20,100.0,36.0,0.0,360.0

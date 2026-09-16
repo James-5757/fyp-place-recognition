@@ -1,0 +1,13 @@
+robot,range_slice,sampled_frames,mean_occupied_bins,mean_occupied_bin_fraction,largest_observed_blind_gap_deg,full_azimuth_percent
+robot1,0-20m,20,36.0,1.0,0.0,100.0
+robot1,0-40m,20,36.0,1.0,0.0,100.0
+robot1,0-80m,20,36.0,1.0,0.0,100.0
+robot1,all,20,36.0,1.0,0.0,100.0
+robot2,0-20m,20,36.0,1.0,0.0,100.0
+robot2,0-40m,20,36.0,1.0,0.0,100.0
+robot2,0-80m,20,36.0,1.0,0.0,100.0
+robot2,all,20,36.0,1.0,0.0,100.0
+robot3,0-20m,20,36.0,1.0,0.0,100.0
+robot3,0-40m,20,36.0,1.0,0.0,100.0
+robot3,0-80m,20,36.0,1.0,0.0,100.0
+robot3,all,20,36.0,1.0,0.0,100.0
