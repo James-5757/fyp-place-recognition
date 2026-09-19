@@ -1,0 +1,9 @@
+[PASS] Stages 4-7.5 read-only
+[PASS] frozen keyframes/descriptors reused
+[PASS] Ring Key and KD-tree use no GT/RGB/pose/heading
+[PASS] exact score and shift equivalence asserted during fixed-M sweep
+[PASS] GT used only after retrieval
+[PASS] fixed M=1000 frozen before Robot2->Robot3
+[PASS] no adaptive policy frozen because predeclared constraint was not met; Robot2 adaptive result correctly unavailable
+[PASS] no RGB/OpenCLIP, GICP, PGO, CVTNet, or VLM; raw data untouched
+[PASS] Ring-Key + KD-tree is standard baseline; capacity values are projections only

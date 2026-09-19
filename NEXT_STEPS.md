@@ -8,17 +8,15 @@ After those questions are resolved, design the CU-Multi retrieval protocol separ
 
 For visual experiments, measure OpenCLIP viewpoint sensitivity explicitly and compare single view, mean pooling, Cross-Max and controlled multi-view aggregation under a fixed candidate protocol. Record dataset version, selected frames, timestamps, thresholds, pose frame, calibration and command in the experiment log for every new experiment.
 
-## Current Stage 7.5 stop point
+## Current Stage 8 stop point
 
-Stage 7.5 adds a read-only supervisor control to Stage 7. In same-view Robot1-to-
-Robot3 comparisons, SC remains stronger than the cached generic visual methods even
-at <=10-degree heading difference and <2 m nearest-positive distance. The actual
-processed LiDAR frames are approximately full-azimuth under the predeclared 10-degree
-occupancy test. These results separate FoV advantage, geometry robustness, and the
-limits of the current generic OpenCLIP representation; they do not establish a
-universal camera-versus-LiDAR claim.
+Stage 8 establishes standard Ring-Key plus KD-tree hierarchy as the efficient SC
+baseline. Fixed M1000 meets the frozen accuracy rule and transfers to Robot2-to-
+Robot3. The evaluated M<=500 adaptive progressive schedule has no acceptable
+margin12 rule under the strict predeclared accuracy/candidate-recall limits; do not
+claim an adaptive-compute gain from this stage.
 
-Stop here. Do not start GICP, CVTNet, PGO, SC retrieval acceleration or fusion
-tuning. A subsequent claim should use a newly predeclared, meaningfully hard
-route/robot split or a revised independent hypothesis. Keep GT offline and preserve
-Stage 4/5/6/7/7.5 outputs.
+Stop here. Do not start GICP, CVTNet, PGO, map merging or fusion tuning. Any later
+adaptive-compute study needs a newly declared candidate budget or independent policy
+hypothesis, then a fresh held-out validation. Keep GT offline and preserve Stage
+4/5/6/7/7.5/8 outputs.

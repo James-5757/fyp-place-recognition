@@ -1,0 +1,6 @@
+CU-Multi Stage 8 efficient SC retrieval
+Exhaustive mean latency: 106.473 ms
+Selected fixed M: 1000
+Fixed M1000 mean latency: 17.404 ms
+No predeclared margin12 q50/q60/q70/q80/q90/q95 rule satisfies both <=0.1pp R@1 loss and <=0.1pp CandidateRecall loss. Maximum M=500 reaches the candidate ceiling but loses more than 0.1pp R@1.
+Robot2->Robot3 fixed M1000 R@1: 0.997263

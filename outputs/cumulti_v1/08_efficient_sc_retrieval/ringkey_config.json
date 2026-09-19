@@ -1,0 +1,8 @@
+{
+  "definition": "mean over 60 sectors per 20 rings",
+  "shape": [
+    20
+  ],
+  "dtype": "float32",
+  "GT_RGB_heading_pose": "not used"
+}

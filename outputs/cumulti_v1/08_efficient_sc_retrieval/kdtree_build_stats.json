@@ -1,0 +1,9 @@
+{
+  "implementation": "scipy.spatial.cKDTree",
+  "distance_metric": "Euclidean L2",
+  "database": "robot3 Ring Keys only",
+  "build_time_s": 0.0019725998863577843,
+  "offline_only": true,
+  "ringkey_array_bytes": 334400,
+  "tree_python_size_bytes": 88
+}

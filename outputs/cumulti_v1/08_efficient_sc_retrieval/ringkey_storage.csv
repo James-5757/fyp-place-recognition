@@ -1,0 +1,4 @@
+robot,frames,full_sc_bytes_per_frame,ringkey_bytes_per_frame,full_sc_total_bytes,ringkey_total_bytes
+robot1,2000,4800,80,9600000,160000
+robot2,2230,4800,80,10704000,178400
+robot3,4180,4800,80,20064000,334400

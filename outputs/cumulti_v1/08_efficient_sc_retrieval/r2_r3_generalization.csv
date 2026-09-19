@@ -1,0 +1,4 @@
+condition,M,candidate_recall,rank1_agreement_rate,mean_ms,p95_ms,speedup,R@1,R@5,R@10,R@20,MRR,reason
+exhaustive,4180,1.0,1.0,105.48064845620401,107.32902017189188,1.0,0.9972627737226277,1.0,1.0,1.0,0.9982284063260342,
+fixed_stage8a,1000,1.0,0.9990875912408759,19.767112285942844,20.072677358984947,5.336168830852212,0.9972627737226277,1.0,1.0,1.0,0.9982284063260342,
+adaptive_stage8b_unavailable,500,,,,,,,,,,,No predeclared margin12 q50/q60/q70/q80/q90/q95 rule satisfies both <=0.1pp R@1 loss and <=0.1pp CandidateRecall loss. Maximum M=500 reaches the candidate ceiling but loses more than 0.1pp R@1.

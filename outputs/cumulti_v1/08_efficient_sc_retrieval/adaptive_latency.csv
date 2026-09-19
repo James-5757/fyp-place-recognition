@@ -1,0 +1,2 @@
+status,reason,R@1,R@5,R@20,MRR,mean_ms,median_ms,p95_ms
+NO_ACCEPTABLE_ADAPTIVE_POLICY,No predeclared margin12 q50/q60/q70/q80/q90/q95 rule satisfies both <=0.1pp R@1 loss and <=0.1pp CandidateRecall loss. Maximum M=500 reaches the candidate ceiling but loses more than 0.1pp R@1.,,,,,,,

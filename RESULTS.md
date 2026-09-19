@@ -83,3 +83,14 @@ predeclared >=34/36-bin and <=20-degree-gap full-azimuth criterion; each has mea
 This supports separate FoV, geometry-stability, and generic-OpenCLIP limitations
 interpretations rather than a universal modality claim. See
 `docs/CUMULTI_STAGE7_5_SUPERVISOR_VALIDATION.md`.
+
+## CU-Multi Stage 8 efficient Scan Context retrieval (verified)
+
+Stage 8A is a standard Ring-Key plus KD-tree baseline. Stage-8 exhaustive timing
+reproduces the frozen Robot1-to-Robot3 SC metrics at **R@1/R@5/R@20
+0.993453/0.996181/0.998363** with 106.473 ms mean latency. The predeclared rule
+selects fixed **M=1000**: R@1 0.992908, CandidateRecall 0.999454, 17.404 ms mean,
+and 6.12x speedup. Frozen M1000 transfers to Robot2-to-Robot3 with unchanged R@1
+0.997263 and 5.34x speedup. Stage 8B finds no acceptable q50--q95 margin12 policy
+under its fixed M<=500 and <=0.1pp loss constraint, so adaptive held-out evaluation
+is correctly unavailable. See `docs/CUMULTI_STAGE8_EFFICIENT_SC_RETRIEVAL.md`.
