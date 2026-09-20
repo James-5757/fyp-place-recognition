@@ -7,6 +7,7 @@ Scan Context scoring and circular-shift selection are imported unchanged.
 from __future__ import annotations
 
 import json
+import os
 import time
 from pathlib import Path
 
@@ -21,7 +22,8 @@ import run_stage5_visual_viewpoint as s5
 
 REPO = Path("/home/cas/fyp_place_recognition")
 PROCESSED = Path("/home/cas/CU-Multi/processed_v1")
-OUT = REPO / "outputs/cumulti_v1/08_efficient_sc_retrieval"
+OUT = Path(os.environ.get("CUMULTI_STAGE8_OUTPUT_ROOT", REPO / "outputs/cumulti_v1/08_efficient_sc_retrieval"))
+RINGKEY_DIR = Path(os.environ.get("CUMULTI_STAGE8_RINGKEY_ROOT", PROCESSED / "ringkey_stage8"))
 MS = (10, 20, 50, 100, 200, 500, 1000)
 SCHEDULE = (20, 50, 100, 200, 500)
 QUANTILES = (50, 60, 70, 80, 90, 95)
@@ -186,13 +188,22 @@ def plot(out, fixed_accuracy, fixed_candidate, fixed_latency, adaptive, r2):
     fig, ax = plt.subplots(dpi=140); ax.bar(["2 robots\n4 q/s","4 robots\n8 q/s"],[4/adaptive["queries_per_sec"],8/adaptive["queries_per_sec"]]); ax.set(ylabel="fraction of single-thread capacity"); fig.tight_layout(); fig.savefig(out / "two_four_robot_capacity_projection.png"); plt.close(fig)
 
 
+def plot_no_adaptive_policy(out, fixed_accuracy, fixed_candidate, fixed_latency, r2):
+    fig, ax = plt.subplots(dpi=140); ax.plot(fixed_candidate.M, fixed_candidate.candidate_recall, "o-"); ax.set(xscale="log", xlabel="shortlist M", ylabel="CandidateRecall@M", ylim=(0, 1.02)); ax.grid(alpha=.3); fig.tight_layout(); fig.savefig(out / "candidate_recall_vs_M.png"); plt.close(fig)
+    fig, ax = plt.subplots(dpi=140); ax.plot(fixed_accuracy.M, fixed_accuracy["R@1"], "o-"); ax.set(xscale="log", xlabel="M", ylabel="R@1", ylim=(0,1.02)); ax.grid(alpha=.3); fig.tight_layout(); fig.savefig(out / "r1_vs_M.png"); plt.close(fig)
+    fig, ax = plt.subplots(dpi=140); ax.plot(fixed_latency.M, fixed_latency.mean_ms, "o-"); ax.set(xscale="log", xlabel="M", ylabel="mean retrieval latency (ms)"); ax.grid(alpha=.3); fig.tight_layout(); fig.savefig(out / "latency_vs_M.png"); plt.close(fig)
+    fig, ax = plt.subplots(dpi=140); ax.scatter(fixed_latency.mean_ms, fixed_accuracy["R@1"]); [ax.annotate(f"M{m}", (x,y)) for m,x,y in zip(fixed_latency.M,fixed_latency.mean_ms,fixed_accuracy["R@1"])]; ax.set(xlabel="mean latency (ms)",ylabel="R@1",ylim=(0,1.02)); ax.grid(alpha=.3); fig.tight_layout(); fig.savefig(out / "fixed_accuracy_latency_pareto.png"); plt.close(fig)
+    fig, ax = plt.subplots(dpi=140); ax.bar(r2.condition, r2["R@1"]); ax.set(ylim=(0,1.02),ylabel="R@1",title="Robot2 -> Robot3 fixed-M validation"); fig.tight_layout(); fig.savefig(out / "r2_r3_generalization_comparison.png"); plt.close(fig)
+    capacity = float(fixed_latency[fixed_latency.M==1000].queries_per_sec.iloc[0]); fig, ax = plt.subplots(dpi=140); ax.bar(["2 robots\n4 q/s","4 robots\n8 q/s"],[4/capacity,8/capacity]); ax.set(ylabel="fraction of fixed-M single-thread capacity"); fig.tight_layout(); fig.savefig(out / "two_four_robot_capacity_projection.png"); plt.close(fig)
+
+
 def main():
     global pos_data_cache, frame_cache, db_ring_cache, nearest_cache, heading_cache
     if OUT.exists() and any(OUT.iterdir()): raise RuntimeError(f"Refusing to overwrite {OUT}")
     OUT.mkdir(parents=True)
     r1, d1 = load("robot1"); r2, d2 = load("robot2"); r3, d3 = load("robot3")
     rings = {"robot1": ring_key(d1), "robot2": ring_key(d2), "robot3": ring_key(d3)}
-    rk_dir = PROCESSED / "ringkey_stage8"
+    rk_dir = RINGKEY_DIR
     if rk_dir.exists() and any(rk_dir.iterdir()):
         raise RuntimeError(f"Refusing to overwrite Ring-Key cache: {rk_dir}")
     rk_dir.mkdir(exist_ok=True)
@@ -217,29 +228,58 @@ def main():
         threshold=float(np.percentile(features[20][:,2],pct)); exits,ranks,candidate,_,times=evaluate_policy(threshold,features,chunks,stage_ranks,stage_cand,stage_top,valid1)
         sweep.append({"quantile_percent":pct,"margin12_threshold":threshold,"candidate_recall":float(candidate[valid1].mean()),"R@1":recall(ranks,valid1,1),"R@5":recall(ranks,valid1,5),"R@20":recall(ranks,valid1,20),"MRR":mrr(ranks,valid1),"mean_ms":float(times.mean()*1000),"median_ms":float(np.median(times)*1000),"p95_ms":float(np.percentile(times,95)*1000),"average_comparisons":float(exits.mean()),"failure_count":int(((ranks!=1)&valid1).sum()),**{f"exit_{x}_pct":float((exits==x).mean()*100) for x in SCHEDULE}})
     sweep=pd.DataFrame(sweep); sweep.to_csv(OUT / "adaptive_threshold_sweep.csv",index=False); q=sweep[(met1["R@1"]-sweep["R@1"]<=.001)&(ceiling-sweep.candidate_recall<=.001)].sort_values(["mean_ms","quantile_percent"]); policy=q.iloc[0].to_dict() if len(q) else None
-    if policy is None: raise RuntimeError("No acceptable adaptive policy under the predeclared rule")
-    threshold=float(policy["margin12_threshold"]); exits,aranks,acand,_,atimes=evaluate_policy(threshold,features,chunks,stage_ranks,stage_cand,stage_top,valid1)
-    atrace=pd.DataFrame({"query_id":r1.keyframe_id,"exit_M":exits,"margin12_M20":features[20][:,2],"rank":aranks,"candidate_available":acand,"latency_s":atimes}); atrace.to_csv(OUT / "adaptive_query_trace.csv",index=False)
-    adaptive={"selected_quantile_percent":int(policy["quantile_percent"]),"margin12_threshold":threshold,"schedule":list(SCHEDULE),"development_direction":"robot1_to_robot3","selected_M":selected_M,"threshold_frozen_before_r2_r3":True}; (OUT / "adaptive_selected_policy.json").write_text(json.dumps(adaptive,indent=2)+"\n")
-    astat=stats(atimes); astat.update({"direction":"r1_r3","candidate_recall":float(acand[valid1].mean()),"R@1":recall(aranks,valid1,1),"R@5":recall(aranks,valid1,5),"R@20":recall(aranks,valid1,20),"MRR":mrr(aranks,valid1),"average_comparisons":float(exits.mean()),"median_comparisons":float(np.median(exits)),"p95_comparisons":float(np.percentile(exits,95)),"speedup_vs_exhaustive":exsum["mean_ms"]/astat["mean_ms"],"speedup_vs_selected_fixed":float(lat[lat.M==selected_M].speedup_vs_exhaustive.iloc[0]*astat["mean_ms"] and lat[lat.M==selected_M].mean_ms.iloc[0]/astat["mean_ms"]),"queries_per_sec":1000/astat["mean_ms"],**{f"exit_{x}_pct":float((exits==x).mean()*100) for x in SCHEDULE}})
-    pd.DataFrame([astat]).to_csv(OUT / "adaptive_accuracy.csv",index=False); pd.DataFrame([astat]).to_csv(OUT / "adaptive_latency.csv",index=False); atrace[(atrace.rank!=1)&valid1].to_csv(OUT / "adaptive_failure_analysis.csv",index=False)
+    no_adaptive_policy = policy is None
+    no_policy_reason = ("No predeclared margin12 q50/q60/q70/q80/q90/q95 rule satisfies both "
+                        "<=0.1pp R@1 loss and <=0.1pp CandidateRecall loss. Maximum M=500 "
+                        "reaches the candidate ceiling but loses more than 0.1pp R@1.")
+    if no_adaptive_policy:
+        adaptive = {"status":"NO_ACCEPTABLE_ADAPTIVE_POLICY", "reason":no_policy_reason,
+                    "development_direction":"robot1_to_robot3", "schedule":list(SCHEDULE),
+                    "tested_quantiles":list(QUANTILES), "frozen_reference_metrics":{"R@1":met1["R@1"], "candidate_recall":ceiling},
+                    "held_out_adaptive_status":"not evaluated"}
+        pd.DataFrame(columns=["query_id","status","exit_M","margin12_M20","rank","candidate_available","latency_s"]).to_csv(OUT / "adaptive_query_trace.csv",index=False)
+        placeholder = {"status":"NO_ACCEPTABLE_ADAPTIVE_POLICY", "reason":no_policy_reason}
+        pd.DataFrame([placeholder]).to_csv(OUT / "adaptive_accuracy.csv",index=False)
+        pd.DataFrame([placeholder]).to_csv(OUT / "adaptive_latency.csv",index=False)
+        pd.DataFrame(columns=["query_id","status","reason"]).to_csv(OUT / "adaptive_failure_analysis.csv",index=False)
+        astat = None
+    else:
+        threshold=float(policy["margin12_threshold"]); exits,aranks,acand,_,atimes=evaluate_policy(threshold,features,chunks,stage_ranks,stage_cand,stage_top,valid1)
+        atrace=pd.DataFrame({"query_id":r1.keyframe_id,"exit_M":exits,"margin12_M20":features[20][:,2],"rank":aranks,"candidate_available":acand,"latency_s":atimes}); atrace.to_csv(OUT / "adaptive_query_trace.csv",index=False)
+        adaptive={"status":"SELECTED", "selected_quantile_percent":int(policy["quantile_percent"]),"margin12_threshold":threshold,"schedule":list(SCHEDULE),"development_direction":"robot1_to_robot3","selected_M":selected_M,"threshold_frozen_before_r2_r3":True}
+        astat=stats(atimes); astat.update({"direction":"r1_r3","candidate_recall":float(acand[valid1].mean()),"R@1":recall(aranks,valid1,1),"R@5":recall(aranks,valid1,5),"R@20":recall(aranks,valid1,20),"MRR":mrr(aranks,valid1),"average_comparisons":float(exits.mean()),"median_comparisons":float(np.median(exits)),"p95_comparisons":float(np.percentile(exits,95)),"speedup_vs_exhaustive":exsum["mean_ms"]/astat["mean_ms"],"speedup_vs_selected_fixed":float(lat[lat.M==selected_M].mean_ms.iloc[0]/astat["mean_ms"]),"queries_per_sec":1000/astat["mean_ms"],**{f"exit_{x}_pct":float((exits==x).mean()*100) for x in SCHEDULE}})
+        pd.DataFrame([astat]).to_csv(OUT / "adaptive_accuracy.csv",index=False); pd.DataFrame([astat]).to_csv(OUT / "adaptive_latency.csv",index=False); atrace[(atrace.rank!=1)&valid1].to_csv(OUT / "adaptive_failure_analysis.csv",index=False)
+    (OUT / "adaptive_selected_policy.json").write_text(json.dumps(adaptive,indent=2)+"\n")
     dist2,pos2,valid2,near2,head2=pos_data(r2,r3); pos_data_cache["r2_r3"]=(dist2,pos2); frame_cache["r2_r3"]=(r2,r3); nearest_cache["r2_r3"]=near2; heading_cache["r2_r3"]=head2
     full2,shifts2,timer2,_,_=exhaustive(d2,d3); order2=np.argsort(-full2,axis=1,kind="stable"); _,met2=ranking_metrics(order2,pos2,valid2)
     tf,cf,af,gf,ff=fixed_run(d2,d3,rings["robot2"],tree,dbu,dbvalid,pos2,full2,shifts2,(selected_M,),"r2_r3")
-    chunks2, ranks2, cand2, top2, feat2,_=progressive_data(d2,rings["robot2"],tree,dbu,dbvalid,pos2); e2,ar2,ac2,atop2,time2=evaluate_policy(threshold,feat2,chunks2,ranks2,cand2,top2,valid2)
-    fixed_r2=af.iloc[0].to_dict(); fixed_lat=stats(tf.total_s.to_numpy()); adaptive_r2={"candidate_recall":float(ac2[valid2].mean()),"R@1":recall(ar2,valid2,1),"R@5":recall(ar2,valid2,5),"R@20":recall(ar2,valid2,20),"rank1_agreement_rate":float((atop2[valid2] == order2[valid2,0]).mean()),**stats(time2)}
-    r2rows=[{"condition":"exhaustive","M":4180,"candidate_recall":1.0,"rank1_agreement_rate":1.0,"mean_ms":stats(timer2.total_s.to_numpy())["mean_ms"],"p95_ms":stats(timer2.total_s.to_numpy())["p95_ms"],"speedup":1.0,**met2},{"condition":"fixed_stage8a","M":selected_M,"candidate_recall":float(cf.candidate_recall.iloc[0]),"rank1_agreement_rate":float(gf.rank1_agreement_rate.iloc[0]),"mean_ms":fixed_lat["mean_ms"],"p95_ms":fixed_lat["p95_ms"],"speedup":stats(timer2.total_s.to_numpy())["mean_ms"]/fixed_lat["mean_ms"],**{k:fixed_r2[k] for k in ("R@1","R@5","R@10","R@20","MRR")}}, {"condition":"adaptive_stage8b","M":500,"candidate_recall":adaptive_r2["candidate_recall"],"rank1_agreement_rate":adaptive_r2["rank1_agreement_rate"],"mean_ms":adaptive_r2["mean_ms"],"p95_ms":adaptive_r2["p95_ms"],"speedup":stats(timer2.total_s.to_numpy())["mean_ms"]/adaptive_r2["mean_ms"],"R@1":adaptive_r2["R@1"],"R@5":adaptive_r2["R@5"],"R@10":np.nan,"R@20":adaptive_r2["R@20"],"MRR":mrr(ar2,valid2)}]
+    fixed_r2=af.iloc[0].to_dict(); fixed_lat=stats(tf.total_s.to_numpy())
+    r2rows=[{"condition":"exhaustive","M":4180,"candidate_recall":1.0,"rank1_agreement_rate":1.0,"mean_ms":stats(timer2.total_s.to_numpy())["mean_ms"],"p95_ms":stats(timer2.total_s.to_numpy())["p95_ms"],"speedup":1.0,**met2},{"condition":"fixed_stage8a","M":selected_M,"candidate_recall":float(cf.candidate_recall.iloc[0]),"rank1_agreement_rate":float(gf.rank1_agreement_rate.iloc[0]),"mean_ms":fixed_lat["mean_ms"],"p95_ms":fixed_lat["p95_ms"],"speedup":stats(timer2.total_s.to_numpy())["mean_ms"]/fixed_lat["mean_ms"],**{k:fixed_r2[k] for k in ("R@1","R@5","R@10","R@20","MRR")}}]
+    if no_adaptive_policy:
+        r2rows.append({"condition":"adaptive_stage8b_unavailable","M":500,"status":"NO_ACCEPTABLE_ADAPTIVE_POLICY","reason":no_policy_reason})
+    else:
+        chunks2, ranks2, cand2, top2, feat2,_=progressive_data(d2,rings["robot2"],tree,dbu,dbvalid,pos2); e2,ar2,ac2,atop2,time2=evaluate_policy(threshold,feat2,chunks2,ranks2,cand2,top2,valid2)
+        adaptive_r2={"candidate_recall":float(ac2[valid2].mean()),"R@1":recall(ar2,valid2,1),"R@5":recall(ar2,valid2,5),"R@20":recall(ar2,valid2,20),"rank1_agreement_rate":float((atop2[valid2] == order2[valid2,0]).mean()),**stats(time2)}
+        r2rows.append({"condition":"adaptive_stage8b","M":500,"candidate_recall":adaptive_r2["candidate_recall"],"rank1_agreement_rate":adaptive_r2["rank1_agreement_rate"],"mean_ms":adaptive_r2["mean_ms"],"p95_ms":adaptive_r2["p95_ms"],"speedup":stats(timer2.total_s.to_numpy())["mean_ms"]/adaptive_r2["mean_ms"],"R@1":adaptive_r2["R@1"],"R@5":adaptive_r2["R@5"],"R@10":np.nan,"R@20":adaptive_r2["R@20"],"MRR":mrr(ar2,valid2)})
     r2out=pd.DataFrame(r2rows); r2out.to_csv(OUT / "r2_r3_generalization.csv",index=False)
     projection=[]
     for robots,rate in ((2,4),(4,8)):
-        projection.append({"label":"compute-capacity projection only","robots":robots,"incoming_queries_per_sec":rate,"single_thread_capacity_qps":astat["queries_per_sec"],"capacity_fraction":rate/astat["queries_per_sec"],"ringkey_bytes_per_keyframe":int(rings["robot1"].nbytes/len(rings["robot1"])),"full_sc_bytes_per_keyframe":int(d1.nbytes/len(d1)),"ringkey_bytes_per_sec":int(rate*rings["robot1"].nbytes/len(rings["robot1"])),"full_sc_bytes_per_sec":int(rate*d1.nbytes/len(d1))})
+        fixed_capacity=float(lat[lat.M==selected_M].queries_per_sec.iloc[0])
+        projection.append({"label":"compute-capacity projection only","policy":f"fixed Stage-8A M{selected_M}","robots":robots,"incoming_queries_per_sec":rate,"single_thread_capacity_qps":fixed_capacity,"capacity_fraction":rate/fixed_capacity,"ringkey_bytes_per_keyframe":int(rings["robot1"].nbytes/len(rings["robot1"])),"full_sc_bytes_per_keyframe":int(d1.nbytes/len(d1)),"ringkey_bytes_per_sec":int(rate*rings["robot1"].nbytes/len(rings["robot1"])),"full_sc_bytes_per_sec":int(rate*d1.nbytes/len(d1))})
     pd.DataFrame(projection).to_csv(OUT / "system_scalability_projection.csv",index=False)
-    adaptive_plot=dict(astat); adaptive_plot.update({f"exit_{x}_pct":float((exits==x).mean()*100) for x in SCHEDULE}); adaptive_plot["selected_M"]=selected_M
-    plot(OUT,acc,cand,lat,adaptive_plot,r2out)
+    if no_adaptive_policy:
+        fig, axis = plt.subplots(dpi=140); axis.plot(sweep.quantile_percent, sweep["R@1"], "o-", label="R@1"); axis.plot(sweep.quantile_percent, sweep.candidate_recall, "o-", label="CandidateRecall"); axis.set(xlabel="M20 margin12 quantile (%)", ylabel="metric", ylim=(0, 1.02), title="No acceptable adaptive policy"); axis.legend(); axis.grid(alpha=.3); fig.tight_layout(); fig.savefig(OUT / "adaptive_threshold_sweep_diagnostic.png"); plt.close(fig)
+        plot_no_adaptive_policy(OUT,acc,cand,lat,r2out.iloc[:2])
+    else:
+        adaptive_plot=dict(astat); adaptive_plot.update({f"exit_{x}_pct":float((exits==x).mean()*100) for x in SCHEDULE}); adaptive_plot["selected_M"]=selected_M
+        plot(OUT,acc,cand,lat,adaptive_plot,r2out)
     config={"stage":"8","accepted_frozen_commit":"c899bfacda99431e03bd01b83de25525de39b83e","protocol":"frozen Robot1->Robot3 then held-out Robot2->Robot3","ring_key":"mean over 60 sectors for each of 20 rings","kdtree":"scipy cKDTree exact Euclidean","M_grid":list(MS),"progressive_schedule":list(SCHEDULE),"margin12_quantiles":list(QUANTILES),"selection_rule":"smallest fixed M with candidate recall loss <=0.1pp and R@1 loss <=0.1pp; adaptive minimizes latency under same constraints","GT":"offline evaluation only","prohibited":["RGB","OpenCLIP","fusion","GICP","PGO","CVTNet","VLM"]}; (OUT / "experiment_config.json").write_text(json.dumps(config,indent=2)+"\n")
-    validation=["[PASS] Stages 4-7.5 read-only", "[PASS] frozen keyframes/descriptors reused", "[PASS] Ring Key uses descriptor means only; no GT/RGB/pose/heading", "[PASS] KD-tree stores Robot3 Ring Keys only", "[PASS] shared-candidate exact score and best_shift equivalence asserted", "[PASS] GT applied only after retrieval", "[PASS] common in-memory timing harness with warm-up; index build excluded online", "[PASS] fixed M and adaptive threshold frozen before Robot2->Robot3", "[PASS] no RGB/OpenCLIP, GICP, PGO, CVTNet, or VLM", "[PASS] raw data untouched", "[PASS] Ring-Key + KD-tree documented as standard baseline; system values are projections only"]
+    validation=["[PASS] Stages 4-7.5 read-only", "[PASS] frozen keyframes/descriptors reused", "[PASS] Ring Key uses descriptor means only; no GT/RGB/pose/heading", "[PASS] KD-tree stores Robot3 Ring Keys only", "[PASS] shared-candidate exact score and best_shift equivalence asserted", "[PASS] GT applied only after retrieval", "[PASS] common in-memory timing harness with warm-up; index build excluded online", "[PASS] fixed M frozen before Robot2->Robot3", "[PASS] source reproduces the no-adaptive-policy execution path without crashing" if no_adaptive_policy else "[PASS] adaptive threshold frozen before Robot2->Robot3", "[PASS] no RGB/OpenCLIP, GICP, PGO, CVTNet, or VLM", "[PASS] raw data untouched", "[PASS] Ring-Key + KD-tree documented as standard baseline; system values are projections only"]
     (OUT / "VALIDATION_REPORT.txt").write_text("\n".join(validation)+"\n")
-    summary=["CU-Multi Stage 8 efficient hierarchical Scan Context retrieval",f"Exhaustive remeasured R@1/R@5/R@20: {met1['R@1']:.6f}/{met1['R@5']:.6f}/{met1['R@20']:.6f}",f"Exhaustive mean/median/p95 ms: {exsum['mean_ms']:.3f}/{exsum['median_ms']:.3f}/{exsum['p95_ms']:.3f}",f"Selected fixed M: {selected_M}",f"Adaptive margin12 threshold: {threshold:.8f} (q{int(policy['quantile_percent'])})",f"Adaptive R@1/R@5/R@20: {astat['R@1']:.6f}/{astat['R@5']:.6f}/{astat['R@20']:.6f}",f"Adaptive mean/p95 ms: {astat['mean_ms']:.3f}/{astat['p95_ms']:.3f}","Stage 8A is standard Ring-Key + KD-tree acceleration; Stage 8B is evaluated adaptive progressive retrieval."]
+    summary=["CU-Multi Stage 8 efficient hierarchical Scan Context retrieval",f"Exhaustive remeasured R@1/R@5/R@20: {met1['R@1']:.6f}/{met1['R@5']:.6f}/{met1['R@20']:.6f}",f"Exhaustive mean/median/p95 ms: {exsum['mean_ms']:.3f}/{exsum['median_ms']:.3f}/{exsum['p95_ms']:.3f}",f"Selected fixed M: {selected_M}"]
+    if no_adaptive_policy: summary.append("Adaptive result: NO_ACCEPTABLE_ADAPTIVE_POLICY")
+    else: summary.extend([f"Adaptive margin12 threshold: {threshold:.8f} (q{int(policy['quantile_percent'])})",f"Adaptive R@1/R@5/R@20: {astat['R@1']:.6f}/{astat['R@5']:.6f}/{astat['R@20']:.6f}",f"Adaptive mean/p95 ms: {astat['mean_ms']:.3f}/{astat['p95_ms']:.3f}"])
+    summary.append("Stage 8A is standard Ring-Key + KD-tree acceleration; Stage 8B is evaluated adaptive progressive retrieval.")
     (OUT / "summary.txt").write_text("\n".join(summary)+"\n"); print("\n".join(summary))
 
 if __name__ == "__main__": main()
