@@ -1,0 +1,15 @@
+Stage 8.1 canonical Scan Context sanity: PASS
+
+Ring-Key equivalence:
+- robot1: max_abs_error=0, mean_abs_error=0, mismatched_descriptors=0
+- robot2: max_abs_error=0, mean_abs_error=0, mismatched_descriptors=0
+- robot3: max_abs_error=0, mean_abs_error=0, mismatched_descriptors=0
+
+KD-tree vs brute-force Euclidean Ring-Key retrieval:
+- M=10: agreement=True, non_tie=100/100, boundary_ties=0, permitted_tie_matches=0
+- M=100: agreement=True, non_tie=100/100, boundary_ties=0, permitted_tie_matches=0
+- M=1000: agreement=True, non_tie=100/100, boundary_ties=0, permitted_tie_matches=0
+
+Candidate-generation leakage audit: only frozen Scan Context descriptors are loaded; no GT, pose, heading, keyframe metadata, or RGB source is loaded by this script.
+Exact SC second-stage evidence: Existing Stage-8 source fixed_run() asserts np.allclose(values, full_scores[i, idx], atol=EPS, rtol=EPS) and np.array_equal(shift, full_shifts[i, idx]) for every shared shortlisted candidate. The accepted Stage-8 run completed, so this assertion did not fail.
+Stage-8 numerical outputs were read-only and unchanged.
