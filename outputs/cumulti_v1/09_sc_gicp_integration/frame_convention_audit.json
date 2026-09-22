@@ -1,0 +1,393 @@
+{
+  "status": "UNRESOLVED",
+  "transform_direction": "T_query_from_candidate: p_query = T_query_from_candidate * p_candidate",
+  "gicp_source_target": "Open3D source=candidate cloud, target=query cloud; returned transform is T_query_from_candidate",
+  "cloud_storage_frame": "PointCloud2 header os_sensor; cached XYZI is stored unchanged in that frame",
+  "local_map_frame": "relative ROS /tf parent frame 'world', with child robot*_os_sensor",
+  "gt_utm_frame": "CSV positions are UTM coordinates; its quaternion yaw is Rz(+180 deg) offset from recorded world->os_sensor TF",
+  "previous_180_degree_discrepancy_cause": "recorded UTM CSV quaternion convention, not sensor mounting, SC tuning, or candidate inversion",
+  "sc_shift_convention": {
+    "source": "run_stage2_sc_baseline.py::scores_for_query",
+    "formula": "score(s) = sum_k q[k] dot candidate[k-s]",
+    "candidate_query_order": "query descriptor first, candidate/database descriptor second",
+    "best_shift_to_gicp_yaw": "signed_shift = best_shift if best_shift <= 30 else best_shift - 60; yaw_SC = wrap(+signed_shift * 6 deg + 0 deg)",
+    "reason": "a positive shift moves a candidate sector k-s into query sector k, therefore Rz(+shift*6) maps candidate os_sensor coordinates to query os_sensor coordinates"
+  },
+  "robots": {
+    "robot1": {
+      "pointcloud_topic": "robot1/ouster/points",
+      "pointcloud_frame_id": "robot1_os_sensor",
+      "urdf_sensor_to_base": {
+        "chain_direction": "parent os_sensor -> child base_link",
+        "joints": [
+          {
+            "child": "robot1_ouster_riser_plate",
+            "xyz": [
+              0.0,
+              0.0,
+              -0.05
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot1_os_sensor_to_ouster_riser"
+          },
+          {
+            "child": "robot1_mounting_plate",
+            "xyz": [
+              -0.02286,
+              0.0,
+              -0.0175
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot1_ouster_riser_to_mountplate"
+          },
+          {
+            "child": "robot1_chassis",
+            "xyz": [
+              -0.35,
+              0.0,
+              -0.08
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot1_mountplate_to_chassis"
+          },
+          {
+            "child": "robot1_base_link",
+            "xyz": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot1_chassis_to_base_link"
+          }
+        ],
+        "net_translation_m_approx": [
+          -0.37285999999999997,
+          0.0,
+          -0.14750000000000002
+        ],
+        "net_yaw_deg": 0.0
+      },
+      "tf_vs_utm_orientation_check": {
+        "available": true,
+        "records": [
+          {
+            "tf_timestamp_ns": 1722894200589321216,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -4.494010329933128,
+            "utm_timestamp_ns": 1722894200589321216,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 175.5059896700669,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894253189118720,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -4.489139276466885,
+            "utm_timestamp_ns": 1722894253189118976,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": 175.5108607235331,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894305790821376,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 179.099720215443,
+            "utm_timestamp_ns": 1722894305790821376,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": -0.900279784556992,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894358390974464,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 95.19064251994875,
+            "utm_timestamp_ns": 1722894358390974208,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": -84.80935748005128,
+            "csv_minus_tf_yaw_deg": 180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894410992913664,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -0.21368888640380995,
+            "utm_timestamp_ns": 1722894410992913408,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": 179.7863111135962,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894463592877824,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -1.3392312135194797,
+            "utm_timestamp_ns": 1722894463592877824,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 178.66076878648053,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894516192526592,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 91.35592252155412,
+            "utm_timestamp_ns": 1722894516192526336,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": -88.64407747844591,
+            "csv_minus_tf_yaw_deg": 180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894568792847872,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -0.2970479100588314,
+            "utm_timestamp_ns": 1722894568792847872,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 179.7029520899412,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894621392591872,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -23.374214246178855,
+            "utm_timestamp_ns": 1722894621392591616,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": 156.62578575382116,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894673992049152,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -91.22711981072173,
+            "utm_timestamp_ns": 1722894673992049152,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 88.77288018927831,
+            "csv_minus_tf_yaw_deg": -179.99999999999994,
+            "residual_after_documented_180_deg": 5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894726590711296,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 170.97564250545284,
+            "utm_timestamp_ns": 1722894726590711040,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": -9.024357494547175,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894779188811008,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 178.72332338202673,
+            "utm_timestamp_ns": 1722894779188811008,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": -1.2766766179732538,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894831788768000,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 179.06924909688655,
+            "utm_timestamp_ns": 1722894831788768000,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": -0.9307509031134448,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894884388891648,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 93.3757954888791,
+            "utm_timestamp_ns": 1722894884388891648,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": -86.62420451112094,
+            "csv_minus_tf_yaw_deg": 179.99999999999994,
+            "residual_after_documented_180_deg": -5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894936988471552,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -3.0468963754205243,
+            "utm_timestamp_ns": 1722894936988471552,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 176.95310362457948,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894989588716032,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -0.1900811396707315,
+            "utm_timestamp_ns": 1722894989588716032,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 179.80991886032928,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722895042188811776,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -2.1090905619167883,
+            "utm_timestamp_ns": 1722895042188811520,
+            "sync_abs_ms": 0.000256,
+            "utm_csv_yaw_deg": 177.8909094380832,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722895094788394752,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": 4.3885699314170745,
+            "utm_timestamp_ns": 1722895094788394752,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": -175.61143006858293,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722895147388436224,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -45.81217428870306,
+            "utm_timestamp_ns": 1722895147388436224,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 134.18782571129697,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895199988644352,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot1_os_sensor",
+            "tf_yaw_deg": -42.635620423265486,
+            "utm_timestamp_ns": 1722895199988644352,
+            "sync_abs_ms": 0.0,
+            "utm_csv_yaw_deg": 137.36437957673456,
+            "csv_minus_tf_yaw_deg": -179.99999999999994,
+            "residual_after_documented_180_deg": 5.684341886080802e-14
+          }
+        ],
+        "sample_count": 20,
+        "max_abs_residual_deg": 5.684341886080802e-14,
+        "mean_abs_residual_deg": 1.5631940186722205e-14
+      }
+    },
+    "robot3": {
+      "pointcloud_topic": "robot3/ouster/points",
+      "pointcloud_frame_id": "robot3_os_sensor",
+      "urdf_sensor_to_base": {
+        "chain_direction": "parent os_sensor -> child base_link",
+        "joints": [
+          {
+            "child": "robot3_ouster_riser_plate",
+            "xyz": [
+              0.0,
+              0.0,
+              -0.05
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot3_os_sensor_to_ouster_riser"
+          },
+          {
+            "child": "robot3_mounting_plate",
+            "xyz": [
+              -0.02286,
+              0.0,
+              -0.0175
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot3_ouster_riser_to_mountplate"
+          },
+          {
+            "child": "robot3_chassis",
+            "xyz": [
+              -0.35,
+              0.0,
+              -0.08
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot3_mountplate_to_chassis"
+          },
+          {
+            "child": "robot3_base_link",
+            "xyz": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "rpy": [
+              0.0,
+              0.0,
+              0.0
+            ],
+            "joint": "robot3_chassis_to_base_link"
+          }
+        ],
+        "net_translation_m_approx": [
+          -0.37285999999999997,
+          0.0,
+          -0.14750000000000002
+        ],
+        "net_yaw_deg": 0.0
+      },
+      "tf_vs_utm_orientation_check": {
+        "available": false,
+        "reason": "Missing required recorded /tf archive: /home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip"
+      }
+    }
+  },
+  "gt_policy": "TF/UTM comparison is post-derivation validation only; GT is never read by retrieval or GICP initialization/quality."
+}
