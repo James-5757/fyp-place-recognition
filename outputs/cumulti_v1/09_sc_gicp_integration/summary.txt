@@ -1,0 +1,12 @@
+CU-Multi Stage 9 SC-GICP integration
+Stage 9A frame gate: RESOLVED
+Fast M1000 Rank-1 agreement with old exhaustive: 0.994500
+Top-3 set overlap: 0.994000
+Changed Rank-1 candidates: 11; valid-overlap positives lost due to M1000: 0
+SC-yaw/identity acceptance: 0.6165/0.2160
+Top-3 TP/FP/FN/TN: 1374/29/459/138
+Sanitized PGO-ready edges: 139
+Accepted before/after sanitation: 1403/139
+Mean Top-3 GICP calls/query: 1.710
+Actual 100-query sequential pipeline mean ms (Rank-1/Top-3): 387.851/672.204
+No PGO was run.

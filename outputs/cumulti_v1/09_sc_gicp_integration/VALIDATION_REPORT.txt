@@ -1,0 +1,9 @@
+[PASS] Stage 9A RESOLVED before registration
+[PASS] Stage-8 M=1000 Ring-Key/KD-tree/exact-SC retrieval reused
+[PASS] candidate comparison recorded; no valid-overlap positive was lost due to M=1000
+[PASS] teammate robot13_gicp.py backend and frozen parameters reused
+[PASS] GT absent from retrieval, GICP initialization, and quality
+[PASS] transform direction is T_query_from_candidate
+[PASS] rank-ordered Top-3 early stop
+[PASS] direct sequential retrieval-plus-GICP latency harness used
+[PASS] no PGO or map merging

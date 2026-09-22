@@ -94,3 +94,18 @@ and 6.12x speedup. Frozen M1000 transfers to Robot2-to-Robot3 with unchanged R@1
 0.997263 and 5.34x speedup. Stage 8B finds no acceptable q50--q95 margin12 policy
 under its fixed M<=500 and <=0.1pp loss constraint, so adaptive held-out evaluation
 is correctly unavailable. See `docs/CUMULTI_STAGE8_EFFICIENT_SC_RETRIEVAL.md`.
+
+## CU-Multi Stage 9 fast SC--GICP integration (verified)
+
+Stage 9 keeps Stage-8 fixed M=1000 Scan Context and the teammate GICP backend
+unchanged, after a direct Robot1/Robot3 `/tf` frame audit. On 2,000 Robot1
+queries, Scan Context yaw initialization raises GICP acceptance from **21.60%**
+(identity) to **61.65%**, while median registration latency drops from
+**137.01 ms** to **21.60 ms**. Rank-ordered Top-3 early stop yields TP/FP/FN/TN
+of **1374/29/459/138** under offline `d_xy < 5 m` analysis (precision
+**97.93%**, recall **74.96%**) and produces 139 temporally sanitized,
+PGO-ready transform constraints. A 100-query sequential harness measures
+M=1000 retrieval plus actual teammate GICP at **387.85 ms** mean for Rank-1 and
+**672.20 ms** mean for Top-3 early stop; only the Rank-1 mean is within 500 ms.
+These are host-specific pipeline measurements, not a PGO result. See
+`docs/CUMULTI_STAGE9_SC_GICP_INTEGRATION.md`.

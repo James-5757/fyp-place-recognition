@@ -1,0 +1,26 @@
+{
+  "accepted_frontend_commit": "c52354db7ddc74f7d42ab422486e5eb2922dcf50",
+  "stage9a_status": "RESOLVED",
+  "fast_retrieval": {
+    "ring_key": "Stage-8 exact cKDTree",
+    "M": 1000,
+    "exact_SC": "frozen Stage-8 score"
+  },
+  "gicp_backend": {
+    "reused_file": "/home/cas/fyp_robot13_geometry_20260915/code/robot13_gicp.py",
+    "voxel_m": 0.75,
+    "coarse_correspondence_m": 3.0,
+    "fine_correspondence_m": 1.0,
+    "max_iterations": 30,
+    "quality": "fitness/(1+inlier_RMSE)",
+    "threshold": 0.6091
+  },
+  "GT": "offline evaluation only",
+  "PGO": "not run",
+  "candidate_comparison": {
+    "rank1_agreement": 0.9945,
+    "top3_set_overlap_mean": 0.994,
+    "changed_rank1_candidates": 11,
+    "overlap_valid_correct_candidate_lost_due_M1000": 0
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "status": "UNRESOLVED",
+  "status": "RESOLVED",
   "transform_direction": "T_query_from_candidate: p_query = T_query_from_candidate * p_candidate",
   "gicp_source_target": "Open3D source=candidate cloud, target=query cloud; returned transform is T_query_from_candidate",
   "cloud_storage_frame": "PointCloud2 header os_sensor; cached XYZI is stored unchanged in that frame",
@@ -384,8 +384,232 @@
         "net_yaw_deg": 0.0
       },
       "tf_vs_utm_orientation_check": {
-        "available": false,
-        "reason": "Missing required recorded /tf archive: /home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip"
+        "available": true,
+        "records": [
+          {
+            "tf_timestamp_ns": 1722894209564245237,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -4.49402605662963,
+            "utm_timestamp_ns": 1722894209564245248,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": 175.50597394337038,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894319516116213,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 176.05843888670498,
+            "utm_timestamp_ns": 1722894319516116224,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -3.9415611132950117,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894429465957365,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -72.20293948837684,
+            "utm_timestamp_ns": 1722894429465957120,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": 107.7970605116232,
+            "csv_minus_tf_yaw_deg": -179.99999999999994,
+            "residual_after_documented_180_deg": 5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894539416356341,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -52.7270571314843,
+            "utm_timestamp_ns": 1722894539416356352,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": 127.27294286851573,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894649367212533,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 91.79087507425723,
+            "utm_timestamp_ns": 1722894649367212288,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": -88.20912492574284,
+            "csv_minus_tf_yaw_deg": 179.99999999999994,
+            "residual_after_documented_180_deg": -5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722894759317069557,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 11.311287932276265,
+            "utm_timestamp_ns": 1722894759317069568,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -168.68871206772374,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894869267014389,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -176.32381521284495,
+            "utm_timestamp_ns": 1722894869267014400,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": 3.676184787155048,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722894979219263733,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 179.1794984274019,
+            "utm_timestamp_ns": 1722894979219263488,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": -0.8205015725980852,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722895089171113205,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 82.1009067974199,
+            "utm_timestamp_ns": 1722895089171113216,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -97.89909320258016,
+            "csv_minus_tf_yaw_deg": 179.99999999999994,
+            "residual_after_documented_180_deg": -5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895199120596981,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 4.604447768466375,
+            "utm_timestamp_ns": 1722895199120596992,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -175.39555223153366,
+            "csv_minus_tf_yaw_deg": 180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722895309070083061,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 86.70100524012115,
+            "utm_timestamp_ns": 1722895309070082816,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": -93.29899475987892,
+            "csv_minus_tf_yaw_deg": 179.99999999999994,
+            "residual_after_documented_180_deg": -5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895419020405237,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 160.07999162233165,
+            "utm_timestamp_ns": 1722895419020405248,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -19.920008377668353,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722895528972402421,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 85.13328689542497,
+            "utm_timestamp_ns": 1722895528972402432,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -94.86671310457508,
+            "csv_minus_tf_yaw_deg": 179.99999999999994,
+            "residual_after_documented_180_deg": -5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895638923225333,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -91.80755287702023,
+            "utm_timestamp_ns": 1722895638923225088,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": 88.19244712297983,
+            "csv_minus_tf_yaw_deg": -179.99999999999994,
+            "residual_after_documented_180_deg": 5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895748873046517,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -6.009335683433561,
+            "utm_timestamp_ns": 1722895748873046272,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": 173.99066431656647,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895858824175861,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 87.65726726244837,
+            "utm_timestamp_ns": 1722895858824175872,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -92.34273273755169,
+            "csv_minus_tf_yaw_deg": 179.99999999999994,
+            "residual_after_documented_180_deg": -5.684341886080802e-14
+          },
+          {
+            "tf_timestamp_ns": 1722895968774018293,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -85.6964947066879,
+            "utm_timestamp_ns": 1722895968774018304,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": 94.30350529331213,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 2.842170943040401e-14
+          },
+          {
+            "tf_timestamp_ns": 1722896078724043765,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": -2.0429358118852097,
+            "utm_timestamp_ns": 1722896078724043520,
+            "sync_abs_ms": 0.000245,
+            "utm_csv_yaw_deg": 177.9570641881148,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722896188674354421,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 0.8532561730853139,
+            "utm_timestamp_ns": 1722896188674354432,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -179.1467438269147,
+            "csv_minus_tf_yaw_deg": 180.0,
+            "residual_after_documented_180_deg": 0.0
+          },
+          {
+            "tf_timestamp_ns": 1722896298624184309,
+            "tf_parent_frame": "world",
+            "tf_child_frame": "robot3_os_sensor",
+            "tf_yaw_deg": 135.82320500546155,
+            "utm_timestamp_ns": 1722896298624184320,
+            "sync_abs_ms": 1.1e-05,
+            "utm_csv_yaw_deg": -44.17679499453847,
+            "csv_minus_tf_yaw_deg": -180.0,
+            "residual_after_documented_180_deg": 0.0
+          }
+        ],
+        "sample_count": 20,
+        "max_abs_residual_deg": 5.684341886080802e-14,
+        "mean_abs_residual_deg": 2.4158453015843406e-14
       }
     }
   },

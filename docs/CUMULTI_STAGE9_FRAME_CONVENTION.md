@@ -1,66 +1,53 @@
 # CU-Multi Stage 9 Frame-Convention Audit
 
-## Status: UNRESOLVED — Stage 9 stopped at the mandatory gate
+## Status: RESOLVED
 
-Stage 9 does not generate GICP constraints, PGO-ready loop edges, or run the
-registration experiment until this status becomes `RESOLVED`.
+The mandatory frame gate is resolved. Stage 9 registration used this documented
+interface; it did not run PGO or map merging.
 
-## Evidence available locally
+## Evidence and resolved convention
 
-- The frozen Stage-2 and Stage-4 PointCloud2 header audits identify the cached
-  Robot1 and Robot3 cloud frames as `robot1_os_sensor` and `robot3_os_sensor`.
-  Cached XYZI is copied directly from PointCloud2 and therefore remains in those
-  sensor frames.
-- `calib/robot_description.zip` contains `robot1.urdf` and `robot3.urdf`. Their
-  respective fixed chains `os_sensor -> ouster_riser_plate -> mounting_plate ->
-  chassis -> base_link` have zero net yaw. Thus no 180-degree yaw is introduced
-  by the provided sensor-to-body extrinsics.
-- The official CU-Multi README documents `/tf` from `world` to the robot LiDAR
-  frame at LiDAR timestamps. The locally available Robot1 relative-pose bag
-  directly records `world -> robot1_os_sensor`.
-- For deterministic samples from Robot1, the UTM CSV quaternion yaw differs from
-  the recorded `/tf` sensor yaw by exactly 180 degrees (up to numerical
-  precision). This explains the prior 180-degree diagnostic discrepancy as a
-  UTM-pose quaternion convention, not an SC shift correction, candidate-order
-  inversion, or URDF sensor mounting rotation.
+- Frozen Stage-2/Stage-4 PointCloud2 header audits identify the cached cloud
+  frames as `robot1_os_sensor` and `robot3_os_sensor`. Cached float32 XYZI is
+  copied from those PointCloud2 messages and remains in its LiDAR sensor frame.
+- `calib/robot_description.zip` provides both URDFs. For Robot1 and Robot3 the
+  fixed chain `os_sensor -> ouster_riser_plate -> mounting_plate -> chassis ->
+  base_link` has zero net yaw; the URDF does not create a 180-degree correction.
+- The official CU-Multi documentation and both locally inspected relative-pose
+  ROS bags provide `/tf` transforms `world -> robot*_os_sensor` at LiDAR time.
+- The deterministic UTM-versus-`/tf` comparison passes for both robots after
+  the documented UTM quaternion convention adjustment: Robot1 maximum/mean
+  residual is `5.684341886080802e-14` / `1.5631940186722205e-14`, and Robot3
+  maximum/mean residual is `5.684341886080802e-14` /
+  `2.4158453015843406e-14`. The apparent 180-degree discrepancy is therefore
+  the UTM CSV quaternion-yaw convention, not a Scan Context shift, an ordering
+  inversion, or a sensor-mounting rotation.
 
-## Missing blocking evidence
+The audit program and machine-readable evidence are respectively
+`src/cumulti/run_stage9_frame_audit.py` and
+`outputs/cumulti_v1/09_sc_gicp_integration/frame_convention_audit.json`.
 
-`/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip`
-is not present. It is the required Robot3 recording containing `/tf`, so the
-same direct Robot3 `world -> robot3_os_sensor` convention check cannot be made.
-Robot3's PointCloud2 frame and its URDF alone are not enough to assert a
-cross-robot metric transform convention for PGO.
+## Registration interface
 
-## Frozen definitions prepared but not executed
+Stage 9 uses `T_query_from_candidate`, with
 
-If the audit is resolved, the interface will use:
-
-`T_query_from_candidate`, defined by
 `p_query = T_query_from_candidate * p_candidate`.
 
-Open3D GICP will receive candidate as `source` and query as `target`, so its
-returned transformation has exactly that direction. The existing SC matcher
-computes `score(s) = sum_k query[k] dot candidate[k-s]`; with 60 sectors, the
-non-GT-derived initialization would be:
+GICP receives the database candidate as source and the query cloud as target,
+so the returned Open3D transform has that exact direction. The frozen Scan
+Context matcher is `score(s) = sum_k query[k] dot candidate[k-s]`. With 60
+sectors:
 
 `signed_shift = best_shift if best_shift <= 30 else best_shift - 60`
 
 `yaw_SC = wrap(+ signed_shift * 6 degrees)`.
 
-This follows directly from the candidate sector moving into the query sector;
-the fixed frame offset is zero because the two cached cloud frames use the same
-Ouster `os_sensor` convention. It is documented here but is not used to run
-GICP while the Robot3 TF confirmation is missing.
+This is derived from the descriptor sector convention and the common Ouster
+sensor frame, not fitted with ground truth. Ground truth is only used after
+registration for offline error/overlap analysis.
 
-## Required next input
+## Scope
 
-Transfer only the missing small relative-pose archive from the CU-Multi source:
-
-`/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip`
-
-to:
-
-`/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip`
-
-No Robot3 LiDAR, RGB, depth, labels, or other archive is required for this gate.
+This audit establishes a metric, cross-robot LiDAR-frame transform convention
+for Stage 9 constraints. It does not validate a PGO solution; PGO remains out
+of scope for this stage.

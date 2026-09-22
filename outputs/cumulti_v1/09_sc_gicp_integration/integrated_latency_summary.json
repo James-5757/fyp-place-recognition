@@ -1,0 +1,21 @@
+{
+  "scope": "100 deterministic Robot1 queries; each measurement is one sequential harness invocation of Stage-8 M1000 retrieval followed by direct teammate robot13_gicp.run() call(s), including cloud access.",
+  "rank1_pipeline": {
+    "mean_ms": 387.8512454871088,
+    "median_ms": 365.28123542666435,
+    "p95_ms": 538.4012266644276,
+    "p99_ms": 670.6241420446925,
+    "queries_per_sec": 2.5783080798002422,
+    "budget_percent_500ms": 77.57024909742177
+  },
+  "top3_early_stop_pipeline": {
+    "mean_ms": 672.2042245278135,
+    "median_ms": 416.6137804277241,
+    "p95_ms": 1301.3172417180613,
+    "p99_ms": 1617.5028757913983,
+    "queries_per_sec": 1.4876431350940185,
+    "budget_percent_500ms": 134.4408449055627
+  },
+  "mean_gicp_calls_per_query": 1.73,
+  "quality_threshold": 0.6091
+}
