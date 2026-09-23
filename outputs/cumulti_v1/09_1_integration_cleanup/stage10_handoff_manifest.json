@@ -1,0 +1,34 @@
+{
+  "frontend_commit": "c52354db7ddc74f7d42ab422486e5eb2922dcf50",
+  "stage9_commit": "968546aa8269452fbe75f76ade973216d361f722",
+  "current_cleanup_commit": "PENDING_GIT_COMMIT",
+  "retrieval": {
+    "M": 1000,
+    "method": "Ring Key + exact cKDTree",
+    "scoring": "exact frozen SC"
+  },
+  "registration": {
+    "gicp_backend_provenance": "gicp_backend_provenance.json",
+    "sha256": "7ec6b101bcd13023e857e20aff0fcff7d143bd488648614a6546d6dbeb2dc8dd",
+    "frozen_parameters": {
+      "voxel_m": 0.75,
+      "coarse_correspondence_m": 3.0,
+      "fine_correspondence_m": 1.0,
+      "max_iterations": 30,
+      "quality": "fitness / (1 + inlier_RMSE)",
+      "threshold": 0.6091
+    }
+  },
+  "transform_convention": {
+    "name": "T_query_from_candidate",
+    "equation": "p_query = T_query_from_candidate * p_candidate",
+    "sc_yaw": "wrap((best_shift if best_shift <= 30 else best_shift - 60) * 6 degrees)",
+    "no_180_degree_correction": true,
+    "earlier_discrepancy": "UTM quaternion-yaw convention after TF-based audit"
+  },
+  "loop_candidate_file": "outputs/cumulti_v1/09_sc_gicp_integration/sanitized_loop_edges.csv",
+  "loop_candidate_count": 139,
+  "GT_policy": "offline evaluation only",
+  "PGO_status": "NOT RUN",
+  "stage10_requirement": "Treat these as candidate loop constraints and freeze a separate graph-robustness policy before PGO."
+}

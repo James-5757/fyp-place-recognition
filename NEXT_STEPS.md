@@ -12,9 +12,11 @@ For visual experiments, measure OpenCLIP viewpoint sensitivity explicitly and co
 
 Stage 9 has completed the frame-gated SC--GICP integration without changing the
 Stage-8 frontend or GICP algorithm. Fixed M1000 remains the retrieval baseline;
-the direct sequential harness places Rank-1 verification inside the mean 500 ms
-budget, while Top-3 early stop exceeds it. The exported 139 sanitized constraints
-are registration outputs only, not a graph-optimization result.
+Rank-1 is mean-budget compatible at 500 ms on the tested host, but its p95
+exceeds that budget and Top-3 early stop exceeds it on mean latency. The exported
+139 sanitized candidate loop constraints are registration outputs only, not
+guaranteed-correct loop closures or a graph-optimization result. Their robustness
+must be evaluated in a separately frozen Stage-10 pose graph.
 
 Stop here. Do not start PGO, map merging, pose-graph tuning, CVTNet, or fusion
 tuning without a separately declared graph protocol: robust-kernel/edge-weight

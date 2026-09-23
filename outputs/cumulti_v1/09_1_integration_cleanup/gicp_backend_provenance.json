@@ -1,0 +1,26 @@
+{
+  "source_path": "/home/cas/fyp_robot13_geometry_20260915/code/robot13_gicp.py",
+  "filename": "robot13_gicp.py",
+  "size_bytes": 10746,
+  "sha256": "7ec6b101bcd13023e857e20aff0fcff7d143bd488648614a6546d6dbeb2dc8dd",
+  "modification_timestamp_utc": "2026-09-15T19:32:32.537842+00:00",
+  "runtime": {
+    "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "open3d": "0.19.0",
+    "numpy": "2.2.6",
+    "scipy": "1.15.3",
+    "pandas": "2.3.3"
+  },
+  "frozen_parameters": {
+    "voxel_m": 0.75,
+    "coarse_correspondence_m": 3.0,
+    "fine_correspondence_m": 1.0,
+    "max_iterations": 30,
+    "quality": "fitness / (1 + inlier_RMSE)",
+    "threshold": 0.6091
+  },
+  "stage9_backend_match": true,
+  "match_evidence": "Current backend mtime precedes the earliest Stage-9 GICP output; no teammate Git repository or earlier captured SHA exists.",
+  "historical_hash_captured_at_stage9": false
+}

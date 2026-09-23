@@ -1,0 +1,12 @@
+[PASS] Stage 4--9 numerical outputs were read, not rerun or changed
+[PASS] Stage-8.1 documentation hash typo corrected
+[PASS] GICP backend provenance recorded
+[PASS] current GICP backend predates Stage-9 outputs
+[PASS] forward confusion reproduced
+[PASS] reverse confusion is internally consistent
+[PASS] 139 loop constraints pass schema and quaternion checks
+[PASS] transform convention is unambiguous without a 180-degree correction
+[PASS] latency wording distinguishes mean budget from tail latency
+[PASS] constraints are described as candidate constraints
+[PASS] Stage-10 handoff is complete
+[PASS] no PGO or map merging run

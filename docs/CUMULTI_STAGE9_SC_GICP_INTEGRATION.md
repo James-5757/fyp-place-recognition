@@ -28,14 +28,14 @@ edge is `T_query_from_candidate`, meaning
   voxel 0.75 m, coarse correspondence 3.0 m, fine correspondence 1.0 m,
   30 iterations, and quality `fitness / (1 + inlier_RMSE)`. The fixed acceptance
   threshold is 0.6091.
-- The first accepted candidate in SC rank order 1--3 is selected. For PGO-ready
-  export only, temporal duplicates are clustered if adjacent accepted edges are
+- The first accepted candidate in SC rank order 1--3 is selected. For export of
+  sanitized candidate loop constraints only, temporal duplicates are clustered if adjacent accepted edges are
   within three query frames and five database-frame IDs; each cluster retains
   its highest-quality edge. This does not use GT and does not alter retrieval.
 
 ## Reproducibility and frontend comparison
 
-The run uses the accepted Stage-8.1 frontend commit `c52354db7ddc74f7d42ab422486e5eb2922dcf500`.
+The run uses the accepted Stage-8.1 frontend commit `c52354db7ddc74f7d42ab422486e5eb2922dcf50`.
 Against the historical exhaustive candidate record, M=1000 Rank-1 agreement is
 0.994500 and mean Top-3 set overlap is 0.994000. The changed shortlist caused
 no loss of an offline-valid candidate among valid-overlap queries. Thirty-six
@@ -64,15 +64,19 @@ recoveries. Offline evaluation gives TP=1,374, FP=29, FN=459, TN=138, hence
 precision 97.93% and recall 74.96% over the predeclared `d_xy < 5 m` condition.
 The mean number of backend calls is 1.710 per query in the complete evaluation.
 
-Duplicate sanitation reduces 1,403 accepted temporal edges to 139
-representatives across 139 clusters; 78 clusters contain more than one edge and
-1,264 redundant edges are removed. `sanitized_loop_edges.csv` has finite numeric
-transform fields and unit-quaternion representation from the Open3D matrix.
+Duplicate sanitation reduces 1,403 accepted temporal edges to 139 sanitized
+candidate loop constraints across 139 clusters; 78 clusters contain more than one
+edge and 1,264 redundant edges are removed. `sanitized_loop_edges.csv` has finite
+numeric transform fields and unit-quaternion representation from the Open3D
+matrix. These are registration outputs that passed the frozen Stage-9
+acceptance/sanitation pipeline, not verified-correct or guaranteed loop closures;
+their robustness must be evaluated inside a separately frozen Stage-10 pose graph.
 
 The reverse Robot3-to-Robot1 rank-1 sanity direction remains deliberately
-asymmetric and is only a diagnostic: 1,174 true accepted and 29 true rejected
-among 1,684 offline true pairs; 510 false accepted among 2,496 false pairs.
-It must not be presented as a symmetric benchmark result.
+asymmetric and is only a diagnostic: TP/FP/FN/TN is 1,174/29/510/2,467 over
+1,684 offline-positive and 2,496 offline-negative queries (precision 97.59%,
+recall 69.71%, no-overlap rejection 98.84%). It must not be presented as a
+symmetric benchmark result.
 
 ## Integrated latency measurement
 
@@ -86,7 +90,10 @@ including cloud access. It does **not** add separately measured average times.
 | Top-3 early stop | 672.20 ms | 416.61 ms | 1301.32 ms | 1.49 q/s | 134.44% |
 
 This is a host-specific integration-harness measurement, not a deployment
-claim. Rank-1 fits the mean 500 ms budget; Top-3 early stop does not.
+claim. Rank-1 is mean-budget compatible on the tested host, while its 538.40 ms
+p95 exceeds the 500 ms budget; Top-3 early stop does not satisfy the mean 2 Hz
+sequential budget. Stage 9 must therefore not be described as fully real-time at
+2 Hz.
 
 ## Outputs
 

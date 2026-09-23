@@ -103,9 +103,14 @@ queries, Scan Context yaw initialization raises GICP acceptance from **21.60%**
 (identity) to **61.65%**, while median registration latency drops from
 **137.01 ms** to **21.60 ms**. Rank-ordered Top-3 early stop yields TP/FP/FN/TN
 of **1374/29/459/138** under offline `d_xy < 5 m` analysis (precision
-**97.93%**, recall **74.96%**) and produces 139 temporally sanitized,
-PGO-ready transform constraints. A 100-query sequential harness measures
+**97.93%**, recall **74.96%**) and produces 139 temporally sanitized candidate
+loop constraints. Their registration transformations passed the frozen Stage-9
+acceptance/sanitation pipeline but are not guaranteed-correct loop closures;
+their robustness remains a Stage-10 pose-graph question. A 100-query sequential
+harness measures
 M=1000 retrieval plus actual teammate GICP at **387.85 ms** mean for Rank-1 and
-**672.20 ms** mean for Top-3 early stop; only the Rank-1 mean is within 500 ms.
-These are host-specific pipeline measurements, not a PGO result. See
+**672.20 ms** mean for Top-3 early stop. Rank-1 is compatible with the mean
+500-ms budget on the tested host, but its p95 is 538.40 ms; Top-3 does not meet
+the mean sequential 2-Hz budget. These are host-specific pipeline measurements,
+not a PGO result or a fully real-time claim. See
 `docs/CUMULTI_STAGE9_SC_GICP_INTEGRATION.md`.

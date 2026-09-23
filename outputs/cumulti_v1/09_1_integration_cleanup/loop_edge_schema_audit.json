@@ -1,0 +1,19 @@
+{
+  "rows": 139,
+  "required_columns_missing": [],
+  "invalid_transform_rows": [],
+  "invalid_quaternion_norm_rows": [],
+  "quaternion_norm_min": 0.9999999999999999,
+  "quaternion_norm_max": 1.0,
+  "exact_duplicate_rows": 0,
+  "transform_directions": [
+    "T_query_from_candidate: p_query = T_query_from_candidate * p_candidate"
+  ],
+  "query_robots": [
+    "robot1"
+  ],
+  "candidate_robots": [
+    "robot3"
+  ],
+  "accepted_after_sanitation_false_rows": 0
+}

@@ -1,0 +1,10 @@
+{
+  "TP": 1374,
+  "FN": 459,
+  "TN": 138,
+  "FP": 29,
+  "queries": 2000,
+  "offline_positive": 1833,
+  "offline_negative": 167,
+  "matches_stage9_reference": true
+}
