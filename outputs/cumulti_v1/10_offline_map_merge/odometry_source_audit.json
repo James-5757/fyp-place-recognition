@@ -1,0 +1,47 @@
+{
+  "stage": "10A",
+  "status": "BLOCKED_NO_NON_GT_ODOMETRY",
+  "handoff": {
+    "frontend_commit": "c52354db7ddc74f7d42ab422486e5eb2922dcf50",
+    "stage9_commit": "968546aa8269452fbe75f76ade973216d361f722",
+    "stage91_cleanup_commit": "cf2032f954e8fa3122856e58f59bda14608e2696",
+    "loop_candidate_count": 139
+  },
+  "robot1_candidate": {
+    "archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+    "topic": "robot1/ekf/odometry_map",
+    "message_type": "nav_msgs/msg/Odometry",
+    "message_count": 100279,
+    "bag_duration_seconds": 1002.924100791,
+    "estimated_rate_hz": 99.98764784942372,
+    "header_frame": "robot1_map",
+    "child_frame": "imu_link",
+    "timestamp": "ROS header stamp (verified by temporary read-only decode)",
+    "fields": "position XYZ and orientation XYZW",
+    "estimated_status": "EKF IMU/GNSS output; non-GT candidate",
+    "keyframe_alignment": "not performed because Robot3 lacks an admissible counterpart"
+  },
+  "robot3": {
+    "available_raw_archives": [
+      "robot3_main_campus_lidar.zip",
+      "robot3_main_campus_camera_rgb.zip",
+      "robot3_main_campus_gt_rel_poses.zip",
+      "robot3_main_campus_gt_utm_poses.csv"
+    ],
+    "missing_required_archive": "robot3_main_campus_imu_gps.zip",
+    "excluded_gt_relative_pose_topic": "robot3/lio_sam/mapping/path",
+    "excluded_reason": "GT-relative-pose archive; cannot be certified as an independent non-GT local-SLAM estimate",
+    "lio_sam_mapping_odometry_message_count": 0,
+    "admissible_local_trajectory": false
+  },
+  "teammate_pgo": {
+    "existing_reusable_implementation": false,
+    "finding": "workspace contains GICP evaluation/bridge code but no pose-graph optimizer or local trajectory output"
+  },
+  "policy": {
+    "GT_substitution": "forbidden",
+    "pgo_run": false,
+    "map_merge_run": false
+  },
+  "required_user_action": "Transfer only /main_campus/robot3/robot3_main_campus_imu_gps.zip to the Robot3 raw directory, then rerun Stage 10A."
+}

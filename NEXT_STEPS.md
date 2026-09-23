@@ -23,3 +23,11 @@ tuning without a separately declared graph protocol: robust-kernel/edge-weight
 rule, odometry source, loop evaluation split, failure containment, and offline
 GT-only trajectory evaluation. Keep GT offline and preserve Stage 4/5/6/7/7.5/8/9
 outputs.
+
+## Stage 10A blocking condition
+
+The Stage-10 odometry audit found an admissible Robot1 EKF IMU/GNSS odometry
+candidate, but no admissible Robot3 non-GT local trajectory. The locally present
+Robot3 relative-pose bag is GT data and must not be substituted. Transfer only
+`robot3_main_campus_imu_gps.zip`, then repeat the audit before any PGO or map
+merge work. See `docs/CUMULTI_STAGE10_ODOMETRY_AUDIT.md`.
