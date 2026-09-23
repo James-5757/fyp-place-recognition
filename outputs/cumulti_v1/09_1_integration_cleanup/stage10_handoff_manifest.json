@@ -1,7 +1,7 @@
 {
   "frontend_commit": "c52354db7ddc74f7d42ab422486e5eb2922dcf50",
   "stage9_commit": "968546aa8269452fbe75f76ade973216d361f722",
-  "current_cleanup_commit": "PENDING_GIT_COMMIT",
+  "current_cleanup_commit": "cf2032f954e8fa3122856e58f59bda14608e2696",
   "retrieval": {
     "M": 1000,
     "method": "Ring Key + exact cKDTree",
