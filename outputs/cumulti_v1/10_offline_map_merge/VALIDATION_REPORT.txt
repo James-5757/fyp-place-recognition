@@ -1,4 +1,4 @@
-[BLOCKED] No admissible Robot3 non-GT local odometry / SLAM trajectory is locally available.
-[PASS] Robot1 non-GT EKF odometry candidate identified and sampled read-only.
-[PASS] Robot3 GT-relative pose topics, GT /tf, and UTM CSV were not used as odometry.
-[PASS] No PGO, map merging, graph optimization, or GT-derived substitute was run.
+[FAIL] Frozen 25-evaluation PGO limit reached before solver convergence for non-robust and robust conditions.
+[PASS] non-GT EKF odometry used for both robots; GT only used after optimization.
+[PASS] 139 frozen candidate loops unchanged; no 180-degree correction.
+[PASS] maps, residuals, metrics, and figures generated offline; no live demo run.

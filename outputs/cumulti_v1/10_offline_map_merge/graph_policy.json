@@ -1,0 +1,13 @@
+{
+  "odometry_sigma_translation_m": 1.0,
+  "odometry_sigma_rotation_deg": 5.0,
+  "loop_sigma_translation_m": 1.0,
+  "loop_sigma_rotation_deg": 5.0,
+  "robust_kernel": "Huber",
+  "robust_delta_normalized": 1.345,
+  "robust_outer_iterations": 4,
+  "least_squares_max_nfev": 25,
+  "map_frame_stride": 10,
+  "map_point_stride": 16,
+  "map_voxel_m": 0.5
+}

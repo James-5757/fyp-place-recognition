@@ -1,0 +1,14 @@
+{
+  "robot1_nodes": 2000,
+  "robot3_nodes": 4180,
+  "odometry_edges": 6178,
+  "inter_robot_candidate_edges": 139,
+  "anchor": "robot1 keyframe 0",
+  "initialization_edge": {
+    "query_keyframe_id": 283,
+    "candidate_keyframe_id": 252,
+    "GICP_quality": 0.7493432841095745,
+    "reason": "highest frozen Stage-9 online GICP quality"
+  },
+  "convention": "Z_qc = X_q^-1 * X_c; p_global = X_i * p_sensor"
+}

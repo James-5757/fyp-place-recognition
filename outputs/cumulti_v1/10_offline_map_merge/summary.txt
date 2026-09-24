@@ -1,5 +1,1 @@
-CU-Multi Stage 10A status: BLOCKED_NO_NON_GT_ODOMETRY
-
-Robot1 has a non-GT EKF IMU/GNSS odometry candidate. Robot3 does not currently
-have its IMU/GNSS archive, and the locally available relative-pose archive is GT
-data with zero LIO-SAM odometry messages. Stage 10 stopped before graph building.
+Stage 10 OFFLINE result: FAIL (frozen solver convergence condition not met). Robust PGO improves GT-free map consistency but worsens joint ATE; no post-hoc tuning was performed.

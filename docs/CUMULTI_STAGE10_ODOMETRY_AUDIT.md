@@ -1,9 +1,12 @@
 # CU-Multi Stage 10A: Local Odometry / SLAM Audit
 
-## Status: `BLOCKED_NO_NON_GT_ODOMETRY`
+## Status: PASS — non-GT odometry gate resolved
 
-Stage 10 stops at its mandatory odometry gate. No pose graph, map merge,
-trajectory evaluation, or live-robot work was run.
+Robot3's IMU/GNSS archive was subsequently transferred and passed archive
+integrity checks. It contains `robot3/ekf/odometry_map`
+(`nav_msgs/msg/Odometry`, 210,153 messages), so the mandatory gate is resolved.
+Stage 10 uses only the two EKF trajectories for graph construction; GT is still
+excluded until offline evaluation.
 
 ## Frozen handoff checked
 
@@ -34,28 +37,17 @@ It is an EKF output from the IMU/GNSS recording, not the UTM CSV or ground-truth
 Stage 10 run. It has **not** been aligned to the frozen 2-Hz keyframes because
 the required Robot3 counterpart is unavailable.
 
-## Robot3: no admissible local trajectory is locally available
+## Robot3: admissible source after transfer
 
-The present Robot3 raw directory contains LiDAR, RGB, UTM GT CSV, and
-`robot3_main_campus_gt_rel_poses.zip`; it does not contain a Robot3 IMU/GNSS
-archive. The relative-pose archive has `robot3/lio_sam/mapping/path` messages,
-but it is explicitly a GT-relative-pose archive and cannot be certified as an
-independent local-SLAM estimate. Its `robot3/lio_sam/mapping/odometry` topic has
-zero messages. The official CU-Multi topic documentation identifies the matching
-pose archive as ground-truth path/odometry and `/tf`, so these topics are
-excluded by the Stage-10 policy rather than being repurposed as odometry.
+`robot3_main_campus_imu_gps.zip` provides
+`robot3/ekf/odometry_map` in `robot3_map -> imu_link`. It is the same non-GT
+EKF IMU/GNSS product used for Robot1. Nearest-timestamp synchronization to the
+4,180 frozen Robot3 keyframes has mean/median/p95/max error
+2.925/3.043/5.017/9.255 ms. The Robot3 GT-relative pose bag remains excluded:
+its `robot3/lio_sam/mapping/odometry` topic has zero messages and its path/TF
+content is not used as odometry.
 
-## Required next input
-
-Download **only** the Robot3 non-GT IMU/GNSS archive:
-
-`/main_campus/robot3/robot3_main_campus_imu_gps.zip`
-
-to:
-
-`/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip`
-
-Then rerun the Stage-10A audit to verify an EKF local odometry topic, its frame,
-timestamp alignment to the 4,180 frozen Robot3 keyframes, and its non-GT status.
-Do not use the GT-relative-pose bag, UTM CSV, or ground-truth `/tf` as a
-substitute.
+Robot1 nearest-timestamp synchronization to its 2,000 keyframes is
+2.237/1.951/4.717/9.316 ms. Both topics are used with the URDF-calibrated
+`imu_link`-to-`os_sensor` transform; this fixed physical extrinsic is not a
+ground-truth-derived yaw correction.
