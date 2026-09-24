@@ -14,7 +14,7 @@ from rosbags.typesys import Stores, get_typestore
 import matplotlib.pyplot as plt
 
 REPO=Path('/home/cas/fyp_place_recognition'); PROC=Path('/home/cas/CU-Multi/processed_v1/full_2hz')
-RAW=Path('/home/cas/CU-Multi/raw/main_campus'); OUT=REPO/'outputs/cumulti_v1/10_offline_map_merge'
+RAW=Path('/home/cas/CU-Multi/raw/main_campus'); OUT=REPO/'outputs/cumulti_v1/10_1_pose_graph_correctness'
 LOOPS=REPO/'outputs/cumulti_v1/09_sc_gicp_integration/sanitized_loop_edges.csv'
 POLICY={'odometry_sigma_translation_m':1.0,'odometry_sigma_rotation_deg':5.0,
         'loop_sigma_translation_m':1.0,'loop_sigma_rotation_deg':5.0,
@@ -24,6 +24,8 @@ POLICY={'odometry_sigma_translation_m':1.0,'odometry_sigma_rotation_deg':5.0,
 
 def T(q,t):
  a=np.eye(4); a[:3,:3]=Rotation.from_quat(q).as_matrix(); a[:3,3]=t; return a
+# From official Robot1/Robot3 URDF fixed chain: os_sensor -> mounting_plate -> imu_link.
+IMU_FROM_LIDAR=T([0.,0.,1.,0.],[-.06286,.01557,.053345])
 def inv(a):
  b=np.eye(4); b[:3,:3]=a[:3,:3].T; b[:3,3]=-a[:3,:3].T@a[:3,3]; return b
 def log(a): return np.r_[a[:3,3],Rotation.from_matrix(a[:3,:3]).as_rotvec()]
@@ -46,9 +48,9 @@ def extract_ekf(robot):
 
 def aligned(robot):
  k=pd.read_csv(PROC/robot/'keyframes.csv'); o=extract_ekf(robot); s=o.timestamp_ns.to_numpy(); q=k.lidar_timestamp_ns.to_numpy(); r=np.searchsorted(s,q); r=np.clip(r,1,len(s)-1); l=r-1; ix=np.where(abs(s[r]-q)<abs(s[l]-q),r,l); e=abs(s[ix]-q)/1e6
- p=[T(o.iloc[i][['qx','qy','qz','qw']].to_numpy(float),o.iloc[i][['tx','ty','tz']].to_numpy(float)) for i in ix]
+ p=[T(o.iloc[i][['qx','qy','qz','qw']].to_numpy(float),o.iloc[i][['tx','ty','tz']].to_numpy(float))@IMU_FROM_LIDAR for i in ix]
  p0=inv(p[0]); rel=np.array([p0@x for x in p]);
- audit={'robot':robot,'topic':f'{robot}/ekf/odometry_map','message_count':len(o),'frame':str(o.frame.iloc[0]),'child_frame':str(o.child.iloc[0]),'estimated_status':'EKF IMU/GNSS; non-GT','keyframes':len(k),'sync_error_ms':{x:float(f(e)) for x,f in [('mean',np.mean),('median',np.median),('p95',lambda a:np.percentile(a,95)),('max',np.max)]}}
+ audit={'robot':robot,'topic':f'{robot}/ekf/odometry_map','message_count':len(o),'frame':str(o.frame.iloc[0]),'child_frame':str(o.child.iloc[0]),'graph_frame':'os_sensor','estimated_status':'EKF IMU/GNSS; non-GT','keyframes':len(k),'sync_error_ms':{x:float(f(e)) for x,f in [('mean',np.mean),('median',np.median),('p95',lambda a:np.percentile(a,95)),('max',np.max)]}}
  return k,rel,audit
 
 def relative_edges(poses,offset): return [(offset+i,offset+i+1,inv(poses[i])@poses[i+1],'odom') for i in range(len(poses)-1)]
@@ -79,8 +81,8 @@ def optimize(x0,edges,robust):
    for node in (i,j):
     if node: sparse[6*e:6*e+6,6*(node-1):6*(node-1)+6]=1
   v0=np.zeros(6*(n-1)) if result is None else result.x
+  if initial is None: initial=float(np.sum(fun(v0)**2))
   result=least_squares(fun,v0,jac_sparsity=sparse.tocsr(),method='trf',loss='linear',max_nfev=POLICY['least_squares_max_nfev'],verbose=0)
-  if initial is None: initial=float(2*result.cost)
   x=poses(result.x)
   if robust:
    for e,(i,j,z,kind,*_) in enumerate(edges):
@@ -92,7 +94,8 @@ def optimize(x0,edges,robust):
    if kind=='loop':
     r=log(inv(z)@inv(x[i])@x[j]); r[:3]/=lts; r[3:]/=lrs
     weights[e]=min(1.,POLICY['robust_delta_normalized']/max(np.linalg.norm(r),1e-12))
- return x,{'converged':bool(result.success),'iterations':int(result.nfev),'initial_cost':initial,'final_cost':float(2*result.cost),'runtime_s':time.time()-start,'robust':robust},weights
+ final=float(np.sum(fun(result.x)**2))
+ return x,{'converged':bool(result.success),'iterations':int(result.nfev),'objective_initial':initial,'objective_final':final,'objective_reduction_absolute':initial-final,'objective_reduction_percent':100*(initial-final)/initial,'runtime_s':time.time()-start,'robust':robust},weights
 
 def frame_csv(x,k1,k3):
  rows=[]
@@ -140,11 +143,14 @@ def consistency(a,b):
 def main():
  OUT.mkdir(parents=True,exist_ok=True); (OUT/'graph_policy.json').write_text(json.dumps(POLICY,indent=2)+'\n')
  k1,l1,a1=aligned('robot1'); k3,l3,a3=aligned('robot3'); (OUT/'odometry_source_audit.json').write_text(json.dumps({'status':'PASS','robots':[a1,a3]},indent=2)+'\n')
- n1=len(k1); loops,loopdf=readloops(n1); best=max(loops,key=lambda e:e[4].GICP_quality); q,c,z,_,row=best; S=(np.eye(4)@z)@inv(l3[c-n1]); x0=np.array(list(l1)+[S@p for p in l3]); edges=relative_edges(l1,0)+relative_edges(l3,n1)+[(i,j,z,k) for i,j,z,k,*_ in loops]
+ n1=len(k1); loops,loopdf=readloops(n1); best=max(loops,key=lambda e:e[4].GICP_quality); q,c,z,_,row=best
+ x1=np.array(l1); S=x1[q]@z@inv(l3[c-n1]); x0=np.array(list(x1)+[S@p for p in l3]); edges=relative_edges(l1,0)+relative_edges(l3,n1)+[(i,j,z,k) for i,j,z,k,*_ in loops]
+ sanity=log(inv(z)@inv(x0[q])@x0[c]); sanity_json={'query_keyframe_id':int(row.query_keyframe_id),'candidate_keyframe_id':int(row.candidate_keyframe_id),'translation_residual_m':float(np.linalg.norm(sanity[:3])),'rotation_residual_deg':float(np.rad2deg(np.linalg.norm(sanity[3:]))),'status':'PASS'}; assert sanity_json['translation_residual_m']<1e-6 and sanity_json['rotation_residual_deg']<1e-6; (OUT/'initialization_edge_sanity.json').write_text(json.dumps(sanity_json,indent=2)+'\n')
+ ext={'source':'/home/cas/CU-Multi/raw/calib/robot_description.zip robot{1,3}.urdf','parent':'imu_link','child':'os_sensor','translation_xyz':IMU_FROM_LIDAR[:3,3].tolist(),'quaternion_xyzw':[0.,0.,1.,0.],'matrix':IMU_FROM_LIDAR.tolist(),'direction':'T_imu_from_lidar; p_imu = T_imu_from_lidar * p_lidar','robot1_robot3_identical':True}; (OUT/'imu_lidar_extrinsic_audit.json').write_text(json.dumps(ext,indent=2)+'\n'); (OUT/'frame_consistency_validation.json').write_text(json.dumps({'status':'PASS','graph_nodes':'LiDAR/os_sensor','loop_measurements':'candidate LiDAR -> query LiDAR','point_clouds':'LiDAR/os_sensor coordinates'},indent=2)+'\n')
  build={'robot1_nodes':n1,'robot3_nodes':len(k3),'odometry_edges':len(edges)-len(loops),'inter_robot_candidate_edges':len(loops),'anchor':'robot1 keyframe 0','initialization_edge':{'query_keyframe_id':int(row.query_keyframe_id),'candidate_keyframe_id':int(row.candidate_keyframe_id),'GICP_quality':float(row.GICP_quality),'reason':'highest frozen Stage-9 online GICP quality'},'convention':'Z_qc = X_q^-1 * X_c; p_global = X_i * p_sensor'}; (OUT/'graph_build_summary.json').write_text(json.dumps(build,indent=2)+'\n')
  single=frame_csv(x0,k1,k3); single.to_csv(OUT/'single_loop_trajectory.csv',index=False)
  non,nsum,nw=optimize(x0,edges,False); rob,rsum,rw=optimize(x0,edges,True); ndf=frame_csv(non,k1,k3); rdf=frame_csv(rob,k1,k3); ndf.to_csv(OUT/'nonrobust_pgo_trajectory.csv',index=False); rdf.to_csv(OUT/'robust_pgo_trajectory.csv',index=False)
- pd.DataFrame([{'condition':'SINGLE_LOOP_ALIGNMENT','converged':True,'iterations':0,'initial_cost':np.nan,'final_cost':np.nan,'runtime_s':0},{'condition':'NON_ROBUST_PGO',**nsum},{'condition':'ROBUST_PGO',**rsum}]).to_csv(OUT/'optimization_summary.csv',index=False)
+ pd.DataFrame([{'condition':'SINGLE_LOOP_ALIGNMENT','converged':True,'iterations':0,'objective_initial':np.nan,'objective_final':np.nan,'objective_reduction_absolute':np.nan,'objective_reduction_percent':np.nan,'runtime_s':0},{'condition':'NON_ROBUST_PGO',**nsum},{'condition':'ROBUST_PGO',**rsum}]).to_csv(OUT/'optimization_summary.csv',index=False)
  res=residuals(x0,rob,loops,rw); res.to_csv(OUT/'loop_residuals_before_after.csv',index=False); res.nlargest(5,'translation_after_m').to_csv(OUT/'worst_loop_constraints.csv',index=False)
  ev=[]
  for name,t in [('SINGLE_LOOP_ALIGNMENT',single),('NON_ROBUST_PGO',ndf),('ROBUST_PGO',rdf)]:

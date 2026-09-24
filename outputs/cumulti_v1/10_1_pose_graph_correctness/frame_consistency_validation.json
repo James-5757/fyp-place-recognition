@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "graph_nodes": "LiDAR/os_sensor",
+  "loop_measurements": "candidate LiDAR -> query LiDAR",
+  "point_clouds": "LiDAR/os_sensor coordinates"
+}

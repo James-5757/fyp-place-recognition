@@ -31,3 +31,7 @@ candidate, but no admissible Robot3 non-GT local trajectory. The locally present
 Robot3 relative-pose bag is GT data and must not be substituted. Transfer only
 `robot3_main_campus_imu_gps.zip`, then repeat the audit before any PGO or map
 merge work. See `docs/CUMULTI_STAGE10_ODOMETRY_AUDIT.md`.
+
+## Stage 10.1 stop point
+
+The corrected Stage-10.1 replay passes its initialization, extrinsic, frame, and objective-bookkeeping checks, but both solvers reach the deliberately frozen 25-evaluation cap. Its map and ATE outcomes are mixed. Do not describe it as a converged PGO system or use it for a live demo. Any follow-up must be declared as a separate policy experiment, with GT remaining offline-only and without rewriting the Stage-10/10.1 historical outputs.

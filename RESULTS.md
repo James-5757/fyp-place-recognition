@@ -114,3 +114,7 @@ M=1000 retrieval plus actual teammate GICP at **387.85 ms** mean for Rank-1 and
 the mean sequential 2-Hz budget. These are host-specific pipeline measurements,
 not a PGO result or a fully real-time claim. See
 `docs/CUMULTI_STAGE9_SC_GICP_INTEGRATION.md`.
+
+## CU-Multi Stage 10.1 pose-graph correctness replay (verified, mixed system result)
+
+Stage 10.1 preserves the frozen Stage-10 policy and historical outputs, but corrects cross-robot initialization, applies the audited URDF IMU-to-LiDAR extrinsic, and records the objective before optimization. The initialization edge sanity check passes at 7.32e-15 m / 2.51e-15 degrees. At the frozen `max_nfev=25` cap neither solver converges: non-robust/robust objective reductions are 84.42%/99.67%. Joint ATE is 28.60 m (single loop), 20.66 m (non-robust), and 23.65 m (robust); robust map nearest-neighbour median/p95 is 2.920/127.071 m versus 9.556/142.640 m for single loop. Thus the correctness layer passes but the system result is mixed and is not a converged or live-ready PGO claim. See `docs/CUMULTI_STAGE10_1_POSE_GRAPH_CORRECTNESS.md`.

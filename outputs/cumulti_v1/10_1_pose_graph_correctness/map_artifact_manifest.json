@@ -1,0 +1,25 @@
+{
+  "large_files_not_committed_to_git": true,
+  "artifacts": [
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/robot1_map.ply",
+      "size_bytes": 3590748,
+      "sha256": "52c990cfd808dac0ed082477733b3f82a1f75369f2687b463eeace5f4c6fb15e"
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/robot3_map.ply",
+      "size_bytes": 8288832,
+      "sha256": "e3c35e9f40cd6191c785913ab99468fc2a393d390ff4a97550c7633cf07311a7"
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/robust_pgo_merged_map.ply",
+      "size_bytes": 11630292,
+      "sha256": "9f5ceb667b2abba130fccefeb8c40d69cab54011671d7a2d22f6af7ea43ffb0b"
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/single_loop_merged_map.ply",
+      "size_bytes": 11545956,
+      "sha256": "9ff3e51bf0438b20e42e69fb374d7a7bfd2bee0af8b41d025c4d3dc65aaea1e0"
+    }
+  ]
+}

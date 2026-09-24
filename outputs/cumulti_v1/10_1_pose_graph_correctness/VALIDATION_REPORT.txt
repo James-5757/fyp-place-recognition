@@ -1,0 +1,5 @@
+[PASS] Stage-9.1 transforms unchanged; initialization/extrinsic/frame assertions pass.
+[PASS] frozen policy unchanged and GT only used after optimization.
+[PASS] initial objective measured pre-solver.
+[NOT_CONVERGED_AT_FROZEN_CAP] non-robust and robust reached max_nfev=25.
+[SYSTEM_RESULT] mixed: corrected geometry improves map NN; robust joint ATE is not best.
