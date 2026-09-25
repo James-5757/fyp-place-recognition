@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "expected_rows": {
+    "robot1": 2000,
+    "robot3": 4180,
+    "total": 6180
+  },
+  "required_columns": [
+    "robot_id",
+    "keyframe_id",
+    "timestamp",
+    "tx",
+    "ty",
+    "tz",
+    "qx",
+    "qy",
+    "qz",
+    "qw"
+  ],
+  "artifacts": [
+    {
+      "file": "single_loop_trajectory.csv",
+      "rows": 6180,
+      "columns": [
+        "robot_id",
+        "keyframe_id",
+        "timestamp",
+        "tx",
+        "ty",
+        "tz",
+        "qx",
+        "qy",
+        "qz",
+        "qw"
+      ],
+      "per_robot": {
+        "robot1": {
+          "rows": 2000,
+          "keyframe_min": 0,
+          "keyframe_max": 1999,
+          "keyframe_ids_cover_expected": true,
+          "timestamps_finite": true,
+          "timestamps_monotonic": true,
+          "quaternion_norm_min": 0.9999999999999997,
+          "quaternion_norm_max": 1.0000000000000002,
+          "quaternion_norm_approximately_one": true
+        },
+        "robot3": {
+          "rows": 4180,
+          "keyframe_min": 0,
+          "keyframe_max": 4179,
+          "keyframe_ids_cover_expected": true,
+          "timestamps_finite": true,
+          "timestamps_monotonic": true,
+          "quaternion_norm_min": 0.9999999999999998,
+          "quaternion_norm_max": 1.0000000000000002,
+          "quaternion_norm_approximately_one": true
+        }
+      },
+      "checks": {
+        "required_columns": true,
+        "total_rows_6180": true,
+        "no_nan_inf": true,
+        "no_duplicate_robot_keyframe": true,
+        "robot1_rows": true,
+        "robot1_ids_cover_expected": true,
+        "robot1_timestamps": true,
+        "robot1_quaternions": true,
+        "robot3_rows": true,
+        "robot3_ids_cover_expected": true,
+        "robot3_timestamps": true,
+        "robot3_quaternions": true
+      },
+      "status": "PASS"
+    },
+    {
+      "file": "nonrobust_pgo_trajectory.csv",
+      "rows": 6180,
+      "columns": [
+        "robot_id",
+        "keyframe_id",
+        "timestamp",
+        "tx",
+        "ty",
+        "tz",
+        "qx",
+        "qy",
+        "qz",
+        "qw"
+      ],
+      "per_robot": {
+        "robot1": {
+          "rows": 2000,
+          "keyframe_min": 0,
+          "keyframe_max": 1999,
+          "keyframe_ids_cover_expected": true,
+          "timestamps_finite": true,
+          "timestamps_monotonic": true,
+          "quaternion_norm_min": 0.9999999999999998,
+          "quaternion_norm_max": 1.0000000000000002,
+          "quaternion_norm_approximately_one": true
+        },
+        "robot3": {
+          "rows": 4180,
+          "keyframe_min": 0,
+          "keyframe_max": 4179,
+          "keyframe_ids_cover_expected": true,
+          "timestamps_finite": true,
+          "timestamps_monotonic": true,
+          "quaternion_norm_min": 0.9999999999999997,
+          "quaternion_norm_max": 1.0000000000000002,
+          "quaternion_norm_approximately_one": true
+        }
+      },
+      "checks": {
+        "required_columns": true,
+        "total_rows_6180": true,
+        "no_nan_inf": true,
+        "no_duplicate_robot_keyframe": true,
+        "robot1_rows": true,
+        "robot1_ids_cover_expected": true,
+        "robot1_timestamps": true,
+        "robot1_quaternions": true,
+        "robot3_rows": true,
+        "robot3_ids_cover_expected": true,
+        "robot3_timestamps": true,
+        "robot3_quaternions": true
+      },
+      "status": "PASS"
+    },
+    {
+      "file": "robust_pgo_trajectory.csv",
+      "rows": 6180,
+      "columns": [
+        "robot_id",
+        "keyframe_id",
+        "timestamp",
+        "tx",
+        "ty",
+        "tz",
+        "qx",
+        "qy",
+        "qz",
+        "qw"
+      ],
+      "per_robot": {
+        "robot1": {
+          "rows": 2000,
+          "keyframe_min": 0,
+          "keyframe_max": 1999,
+          "keyframe_ids_cover_expected": true,
+          "timestamps_finite": true,
+          "timestamps_monotonic": true,
+          "quaternion_norm_min": 0.9999999999999997,
+          "quaternion_norm_max": 1.0000000000000002,
+          "quaternion_norm_approximately_one": true
+        },
+        "robot3": {
+          "rows": 4180,
+          "keyframe_min": 0,
+          "keyframe_max": 4179,
+          "keyframe_ids_cover_expected": true,
+          "timestamps_finite": true,
+          "timestamps_monotonic": true,
+          "quaternion_norm_min": 0.9999999999999998,
+          "quaternion_norm_max": 1.0000000000000002,
+          "quaternion_norm_approximately_one": true
+        }
+      },
+      "checks": {
+        "required_columns": true,
+        "total_rows_6180": true,
+        "no_nan_inf": true,
+        "no_duplicate_robot_keyframe": true,
+        "robot1_rows": true,
+        "robot1_ids_cover_expected": true,
+        "robot1_timestamps": true,
+        "robot1_quaternions": true,
+        "robot3_rows": true,
+        "robot3_ids_cover_expected": true,
+        "robot3_timestamps": true,
+        "robot3_quaternions": true
+      },
+      "status": "PASS"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "status": "PASS",
+  "expected_figure_count": 8,
+  "artifacts": [
+    {
+      "file": "trajectory_before_after.png",
+      "size_bytes": 143471,
+      "sha256": "f82a956bcbd8aeb73123833fdda7c9e7ba908cacbb80ebfc521a9b19abc4fa14",
+      "git_committed": true
+    },
+    {
+      "file": "pose_graph_loop_constraints.png",
+      "size_bytes": 129802,
+      "sha256": "9df2ad848c16162481f050aea9b4f2879f0292b4d263d561aa3eef2590ac498f",
+      "git_committed": true
+    },
+    {
+      "file": "map_merge_before_after_bev.png",
+      "size_bytes": 823972,
+      "sha256": "2b163285c11863f6739998b36cab88b53e982986fcbccc2bd1e01333d25faac0",
+      "git_committed": true
+    },
+    {
+      "file": "merged_map_3d.png",
+      "size_bytes": 459621,
+      "sha256": "0133345761df6f5720a3ac3be86dd07835f24aca758fbc341ae76b194eb601d6",
+      "git_committed": true
+    },
+    {
+      "file": "trajectory_gt_comparison.png",
+      "size_bytes": 80682,
+      "sha256": "2834765df51ee50a12b19f24e00328d347c805cdf9991260bf6d3c49eebda3a6",
+      "git_committed": true
+    },
+    {
+      "file": "loop_residual_before_after.png",
+      "size_bytes": 30445,
+      "sha256": "9b99e13d7faea652705461e2545b83a41bd68fd3e946e97920c3e1dce9f8ba43",
+      "git_committed": true
+    },
+    {
+      "file": "metric_comparison.png",
+      "size_bytes": 67784,
+      "sha256": "458b6ee6842ff8ec5a1136787237d3298c3d0b3909a08ad83432a4dac058daf7",
+      "git_committed": true
+    },
+    {
+      "file": "initialization_edge_sanity.png",
+      "size_bytes": 37385,
+      "sha256": "b04c937c95f40301f6ad3e0aa108e058372dab52528ad8de365da5539962584c",
+      "git_committed": true
+    }
+  ]
+}

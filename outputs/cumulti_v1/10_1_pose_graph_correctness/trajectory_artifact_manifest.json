@@ -1,0 +1,71 @@
+{
+  "repository_size_policy": "Trajectory CSVs are server-only; their generated sizes are about 1 MiB each and outputs/** is ignored.",
+  "artifacts": [
+    {
+      "file": "single_loop_trajectory.csv",
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/single_loop_trajectory.csv",
+      "relative_expected_path": "outputs/cumulti_v1/10_1_pose_graph_correctness/single_loop_trajectory.csv",
+      "size_bytes": 1049548,
+      "sha256": "f87e23501951adbc088cb83531d8d54d6a4a31fbc52a358748e0ee7a52763f29",
+      "rows": 6180,
+      "columns": [
+        "robot_id",
+        "keyframe_id",
+        "timestamp",
+        "tx",
+        "ty",
+        "tz",
+        "qx",
+        "qy",
+        "qz",
+        "qw"
+      ],
+      "status": "SERVER_ONLY",
+      "reason": "Ignored 1 MiB-class generated trajectory artifact; provenance committed via this manifest."
+    },
+    {
+      "file": "nonrobust_pgo_trajectory.csv",
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/nonrobust_pgo_trajectory.csv",
+      "relative_expected_path": "outputs/cumulti_v1/10_1_pose_graph_correctness/nonrobust_pgo_trajectory.csv",
+      "size_bytes": 1045297,
+      "sha256": "3382acb7acc66d95541a505c6ccb4b002bde56243480449b9093a6627798c1c2",
+      "rows": 6180,
+      "columns": [
+        "robot_id",
+        "keyframe_id",
+        "timestamp",
+        "tx",
+        "ty",
+        "tz",
+        "qx",
+        "qy",
+        "qz",
+        "qw"
+      ],
+      "status": "SERVER_ONLY",
+      "reason": "Ignored 1 MiB-class generated trajectory artifact; provenance committed via this manifest."
+    },
+    {
+      "file": "robust_pgo_trajectory.csv",
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness/robust_pgo_trajectory.csv",
+      "relative_expected_path": "outputs/cumulti_v1/10_1_pose_graph_correctness/robust_pgo_trajectory.csv",
+      "size_bytes": 1039346,
+      "sha256": "2ac093f0e518081dd5c60a19c4d1c855ffff275322165e6059e21ead4389bf91",
+      "rows": 6180,
+      "columns": [
+        "robot_id",
+        "keyframe_id",
+        "timestamp",
+        "tx",
+        "ty",
+        "tz",
+        "qx",
+        "qy",
+        "qz",
+        "qw"
+      ],
+      "status": "SERVER_ONLY",
+      "reason": "Ignored 1 MiB-class generated trajectory artifact; provenance committed via this manifest."
+    }
+  ]
+}
