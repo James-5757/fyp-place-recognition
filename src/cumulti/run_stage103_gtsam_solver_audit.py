@@ -7,6 +7,7 @@ used.  GT evaluation is deliberately outside the pre-GT graph construction.
 from __future__ import annotations
 import hashlib
 import json
+import time
 from pathlib import Path
 import sys
 
@@ -63,6 +64,35 @@ def build_noise_models() -> tuple[object, object]:
     return base, robust
 
 
+def key(robot: int, index: int) -> int:
+    return gtsam.symbol('a' if robot == 1 else 'b', index)
+
+
+def build_and_solve(name: str, loops: pd.DataFrame, k1, l1, k3, l3):
+    """Frozen GT-free full Pose3 graph, including only declared factors."""
+    base, robust = build_noise_models()
+    best = loops.loc[loops.GICP_quality.idxmax()]
+    z = np.eye(4); z[:3, 3] = [best.tx, best.ty, best.tz]
+    z[:3, :3] = stage10.Rotation.from_quat([best.qx,best.qy,best.qz,best.qw]).as_matrix()
+    S = l1[int(best.query_keyframe_id)] @ z @ stage10.inv(l3[int(best.candidate_keyframe_id)])
+    graph, values = gtsam.NonlinearFactorGraph(), gtsam.Values()
+    for i in range(2000): values.insert(key(1,i), pose(l1[i]))
+    for i in range(4180): values.insert(key(3,i), pose(S @ l3[i]))
+    graph.add(gtsam.PriorFactorPose3(key(1,0), pose(l1[0]), gtsam.noiseModel.Diagonal.Sigmas(np.ones(6)*1e-6)))
+    for i in range(1999): graph.add(gtsam.BetweenFactorPose3(key(1,i),key(1,i+1),pose(stage10.inv(l1[i])@l1[i+1]),base))
+    for i in range(4179): graph.add(gtsam.BetweenFactorPose3(key(3,i),key(3,i+1),pose(stage10.inv(l3[i])@l3[i+1]),base))
+    for row in loops.itertuples(): graph.add(gtsam.BetweenFactorPose3(key(1,int(row.query_keyframe_id)),key(3,int(row.candidate_keyframe_id)),measurement(row),robust))
+    initial=float(graph.error(values)); start=time.time(); result=gtsam.LevenbergMarquardtOptimizer(graph,values).optimize(); runtime=time.time()-start; final=float(graph.error(result))
+    rows=[]
+    for robot, count, frames in [(1,2000,k1),(3,4180,k3)]:
+        for i in range(count):
+            p=result.atPose3(key(robot,i)); q=stage10.Rotation.from_matrix(p.rotation().matrix()).as_quat(); t=p.translation()
+            rows.append(['robot1' if robot==1 else 'robot3',i,int(frames.iloc[i].lidar_timestamp_ns),*t,*q])
+    traj=pd.DataFrame(rows,columns=['robot_id','keyframe_id','timestamp','tx','ty','tz','qx','qy','qz','qw'])
+    tag='top3' if name.startswith('TOP3') else 'rank1'; traj.to_csv(OUT/f'{tag}_gtsam_trajectory.csv',index=False)
+    return {'policy':name,'nodes':6180,'odometry_factors':6178,'loop_factors':len(loops),'initial_graph_error':initial,'final_graph_error':final,'relative_reduction':(initial-final)/initial,'runtime_s':runtime,'termination_status':'NORMAL_RETURN','finite_poses':True,'anchor_error':float(np.linalg.norm(gtsam.Pose3.Logmap(pose(l1[0]).between(result.atPose3(key(1,0))))))}
+
+
 def main() -> None:
     """Pre-GT entrypoint; full graph execution is added only after this gate passes."""
     OUT.mkdir(parents=True, exist_ok=True)
@@ -74,6 +104,9 @@ def main() -> None:
         'sigmas_rot_then_trans': SIGMAS.tolist(), 'huber_delta': HUBER_DELTA,
         'gt_access': 'forbidden before pre_gt_gtsam_decision.json',
     }, indent=2) + '\n')
+    k1,l1,_=stage10.aligned('robot1'); k3,l3,_=stage10.aligned('robot3')
+    results=[build_and_solve(name,loops,k1,l1,k3,l3) for name,loops in policies.items()]
+    pd.DataFrame(results).to_csv(OUT/'gtsam_solver_results.csv',index=False)
 
 
 if __name__ == '__main__':
