@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "gtsam_version": "4.2",
+  "policies": {
+    "TOP3_SANITIZED": 139,
+    "RANK1_SANITIZED": 120
+  },
+  "sigmas_rot_then_trans": [
+    0.08726646259971647,
+    0.08726646259971647,
+    0.08726646259971647,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "huber_delta": 1.345,
+  "gt_access": "forbidden before pre_gt_gtsam_decision.json"
+}
