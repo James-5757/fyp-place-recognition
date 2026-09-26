@@ -1,0 +1,4 @@
+{
+  "selected": "BOTH_READY_PREFER_RANK1",
+  "reason": "both native graphs completed normally with finite poses; Rank1 has fewer loop factors and faster frozen GTSAM runtime; GT not used"
+}

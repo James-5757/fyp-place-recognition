@@ -1,1 +1,1 @@
-Stage 10.3 is BLOCKED_NO_SLAM_NATIVE_SOLVER. Install a documented isolated GTSAM Pose3 environment before resuming; no optimization was run.
+Stage 10.3 native GTSAM PGO completed reproducibly. Both frozen loop policies were evaluated on the 6180-node graph. Pre-GT system decision: BOTH_READY_PREFER_RANK1. Offline GT was used only after the frozen pre-GT decision. No live demo was run.
