@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "matrix_translation_m": 2.5121479338940403e-15,
+  "matrix_rotation_deg": 1.5912598013287082e-15,
+  "gtsam_translation_m": 8.11094963198412e-15,
+  "gtsam_rotation_deg": 6.361016092670248e-15,
+  "pure_rotation_logmap": [
+    0.0,
+    0.0,
+    0.19999999999999998,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "all_six_finite": true
+}

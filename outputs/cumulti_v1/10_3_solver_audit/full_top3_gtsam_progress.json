@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "nodes": 6180,
+  "loops": 139,
+  "initial_error": 1900010446.2561672,
+  "final_error": 2906.141845558752,
+  "runtime_s": 9.573671817779541,
+  "odometry_edges": 6178
+}
