@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "translation_difference_m": 9.992007221626409e-16,
+  "rotation_difference_rad": 1.3877787807814457e-17,
+  "convention": "X_query.between(X_candidate) = Z_query_from_candidate"
+}

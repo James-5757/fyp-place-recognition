@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "huber_delta": 1.345,
+  "finite_graph_error": true,
+  "graph_error": 0.0,
+  "finite_output": true
+}

@@ -1,3 +1,8 @@
-[BLOCKED_NO_SLAM_NATIVE_SOLVER] No installed solver satisfies the frozen Pose3 + BetweenFactor + explicit Huber loop-kernel protocol.
-[PASS] Stage-10.2 cleanup/provenance completed without changing historical outputs.
-[PASS] No solver installation, custom SciPy fallback, GT-based selection, or live demo was performed.
+INSTALLATION: PASS
+API: PASS
+TRANSFORM CONVENTION: PASS
+SMALL GRAPH: NOT_RUN
+TOP3 FULL GRAPH: NOT_RUN
+RANK1 FULL GRAPH: NOT_RUN
+PRE-GT SYSTEM DECISION: NOT_RUN
+GT_POLICY: PASS (no GT accessed during installation/API tests)

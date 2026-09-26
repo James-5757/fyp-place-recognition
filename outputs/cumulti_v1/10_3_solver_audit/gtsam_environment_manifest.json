@@ -1,0 +1,9 @@
+{
+  "venv_path": "/home/cas/.venvs/fyp_gtsam",
+  "gtsam_version": "4.2",
+  "python_version": "3.10.20",
+  "numpy_overlay_version": "1.26.4",
+  "venv_size": "99M",
+  "install_mode": "binary wheel only",
+  "fyp_slam_modified": false
+}

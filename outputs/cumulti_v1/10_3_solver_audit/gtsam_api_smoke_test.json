@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "gtsam_version": "4.2",
+  "apis": {
+    "Pose3": true,
+    "Rot3": true,
+    "Point3": true,
+    "NonlinearFactorGraph": true,
+    "Values": true,
+    "PriorFactorPose3": true,
+    "BetweenFactorPose3": true,
+    "LevenbergMarquardtOptimizer": true,
+    "LevenbergMarquardtParams": true,
+    "noiseModel.Diagonal": true,
+    "noiseModel.Robust": true,
+    "mEstimator.Huber": true
+  }
+}

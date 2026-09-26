@@ -1,0 +1,9 @@
+{
+  "python_version": "3.10.20",
+  "architecture": "x86_64",
+  "glibc": "2.35",
+  "available_disk_GB": 393,
+  "current_project_size": "166G",
+  "current_environment_size": "1.8G",
+  "status": "PASS"
+}
