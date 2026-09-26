@@ -1,0 +1,45 @@
+{
+  "status": "PASS",
+  "results": [
+    {
+      "policy": "TOP3_SANITIZED",
+      "robot1_range": [
+        200,
+        360
+      ],
+      "robot3_range": [
+        180,
+        340
+      ],
+      "node_count": 322,
+      "odometry_edges": 320,
+      "loop_edges": 1,
+      "initial_error": 1.150851588410412e-26,
+      "final_error": 8.067483641850906e-27,
+      "runtime_s": 0.0025835037231445312,
+      "finite": true,
+      "anchor_residual": 0.0,
+      "status": "PASS"
+    },
+    {
+      "policy": "RANK1_SANITIZED",
+      "robot1_range": [
+        200,
+        360
+      ],
+      "robot3_range": [
+        180,
+        340
+      ],
+      "node_count": 322,
+      "odometry_edges": 320,
+      "loop_edges": 1,
+      "initial_error": 1.150851588410412e-26,
+      "final_error": 8.067483641850906e-27,
+      "runtime_s": 0.0023832321166992188,
+      "finite": true,
+      "anchor_residual": 0.0,
+      "status": "PASS"
+    }
+  ]
+}
