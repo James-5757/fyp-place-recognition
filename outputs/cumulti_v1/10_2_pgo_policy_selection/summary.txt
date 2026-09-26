@@ -1,0 +1,1 @@
+Stage 10.2 PGO convergence: NO_CONVERGENCE_WITHIN_PREDECLARED_BUDGET. Pre-GT demo policy: NO_POLICY_READY. Offline GT supports evaluation only; no live demo.

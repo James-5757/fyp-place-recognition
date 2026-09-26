@@ -1,0 +1,82 @@
+{
+  "selection_hierarchy": "formal convergence, finite SE(3), non-catastrophic GT-free residuals; if both pass prefer Rank-1 as cheaper online policy supported by frozen registration evidence",
+  "selected_demo_policy": "NO_POLICY_READY",
+  "policies": {
+    "TOP3_SANITIZED": {
+      "selected_max_nfev": 200,
+      "converged": false,
+      "solver_status": "NO_CONVERGED_SOLVER_WITHIN_PREDECLARED_BUDGET",
+      "edge_count": 139,
+      "initialization_edge": {
+        "policy": "TOP3_SANITIZED",
+        "query_keyframe_id": 283,
+        "candidate_keyframe_id": 252,
+        "GICP_quality": 0.7493432841095745,
+        "translation_residual_m": 7.32410687763558e-15,
+        "rotation_residual_deg": 2.5135257295550363e-15,
+        "status": "PASS",
+        "formula": "S = X_q @ Z_qc @ inverse(L_c)"
+      },
+      "final_objective": 5991.710855316629,
+      "loop_residual_statistics": {
+        "translation_median_m": 0.10263543769453408,
+        "translation_p95_m": 8.307853358887145,
+        "rotation_median_deg": 1.6672138890868424,
+        "rotation_p95_deg": 31.682816544970976,
+        "weight_lt_0_1": 6,
+        "weight_lt_0_25": 17,
+        "weight_lt_0_5": 22,
+        "minimum_weight": 0.003894723248459488
+      },
+      "robust_weight_statistics": {
+        "translation_median_m": 0.10263543769453408,
+        "translation_p95_m": 8.307853358887145,
+        "rotation_median_deg": 1.6672138890868424,
+        "rotation_p95_deg": 31.682816544970976,
+        "weight_lt_0_1": 6,
+        "weight_lt_0_25": 17,
+        "weight_lt_0_5": 22,
+        "minimum_weight": 0.003894723248459488
+      },
+      "finite_valid_se3": true
+    },
+    "RANK1_SANITIZED": {
+      "selected_max_nfev": 200,
+      "converged": false,
+      "solver_status": "NO_CONVERGED_SOLVER_WITHIN_PREDECLARED_BUDGET",
+      "edge_count": 120,
+      "initialization_edge": {
+        "policy": "RANK1_SANITIZED",
+        "query_keyframe_id": 283,
+        "candidate_keyframe_id": 252,
+        "GICP_quality": 0.7493432841095745,
+        "translation_residual_m": 7.32410687763558e-15,
+        "rotation_residual_deg": 2.5135257295550363e-15,
+        "status": "PASS",
+        "formula": "S = X_q @ Z_qc @ inverse(L_c)"
+      },
+      "final_objective": 4704.988364249391,
+      "loop_residual_statistics": {
+        "translation_median_m": 0.09860263350625875,
+        "translation_p95_m": 8.804308255336757,
+        "rotation_median_deg": 1.6760597700408528,
+        "rotation_p95_deg": 27.39313610670448,
+        "weight_lt_0_1": 6,
+        "weight_lt_0_25": 11,
+        "weight_lt_0_5": 18,
+        "minimum_weight": 0.0038152546845429776
+      },
+      "robust_weight_statistics": {
+        "translation_median_m": 0.09860263350625875,
+        "translation_p95_m": 8.804308255336757,
+        "rotation_median_deg": 1.6760597700408528,
+        "rotation_p95_deg": 27.39313610670448,
+        "weight_lt_0_1": 6,
+        "weight_lt_0_25": 11,
+        "weight_lt_0_5": 18,
+        "minimum_weight": 0.0038152546845429776
+      },
+      "finite_valid_se3": true
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "policy": "TOP3_SANITIZED",
+  "query_keyframe_id": 283,
+  "candidate_keyframe_id": 252,
+  "GICP_quality": 0.7493432841095745,
+  "translation_residual_m": 7.32410687763558e-15,
+  "rotation_residual_deg": 2.5135257295550363e-15,
+  "status": "PASS",
+  "formula": "S = X_q @ Z_qc @ inverse(L_c)"
+}

@@ -35,3 +35,7 @@ merge work. See `docs/CUMULTI_STAGE10_ODOMETRY_AUDIT.md`.
 ## Stage 10.1 stop point
 
 The corrected Stage-10.1 replay passes its initialization, extrinsic, frame, and objective-bookkeeping checks, but both solvers reach the deliberately frozen 25-evaluation cap. Its map and ATE outcomes are mixed. Do not describe it as a converged PGO system or use it for a live demo. Any follow-up must be declared as a separate policy experiment, with GT remaining offline-only and without rewriting the Stage-10/10.1 historical outputs.
+
+## Stage 10.2 stop point
+
+Neither frozen-loop policy formally converged within the predeclared 25/50/100/200 budget schedule. The GT-free conclusion is NO_POLICY_READY, so do not start a live robot demo. Any future graph work must be a separately declared Stage 10.3 methodological investigation, rather than a parameter tweak selected from these offline GT metrics. Preserve all Stage 10.2 outputs and keep GT offline-only.

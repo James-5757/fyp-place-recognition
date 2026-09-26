@@ -1,0 +1,7 @@
+{
+  "policy": "TOP3_SANITIZED",
+  "edge_count": 139,
+  "input_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/09_sc_gicp_integration/sanitized_loop_edges.csv",
+  "sha256": "37692d3708a045a344cb185d8b8d10261e4488c290a616b4d0744b06acb0eac2",
+  "immutable_stage9_input": true
+}

@@ -1,0 +1,8 @@
+{
+  "quality_threshold": 0.6091,
+  "raw_accepted_rank1_edge_count": 1233,
+  "sanitized_rank1_edge_count": 120,
+  "temporal_duplicates_removed": 1113,
+  "cluster_count": 120,
+  "rule": "query gap >3 OR absolute candidate gap >5 starts a new cluster; maximum GICP_quality represents each cluster"
+}

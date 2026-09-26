@@ -1,0 +1,24 @@
+{
+  "stage": "10.2",
+  "main_repository_checkpoint": "ebe60523f880e33c15ae7ee3e32ffba759252682",
+  "teammate_backend": {
+    "repository": "woshanli351-afk/fyp-lidar-registration",
+    "commit": "e9f3781b46a6f8c52bedc254bf7b2a24d14a7731",
+    "interface": "T_query_from_candidate; p_query = T_query_from_candidate * p_candidate"
+  },
+  "budget_schedule": [
+    25,
+    50,
+    100,
+    200
+  ],
+  "quality_threshold": 0.6091,
+  "gt_policy": "not loaded until pre_gt_policy_decision.json is written",
+  "frozen_common_graph": {
+    "robot1_nodes": 2000,
+    "robot3_nodes": 4180,
+    "sequential_odometry_edges": 6178,
+    "node_frame": "LiDAR / os_sensor",
+    "stage101_reference": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_1_pose_graph_correctness"
+  }
+}
