@@ -1,0 +1,40 @@
+{
+  "status": "PASS",
+  "artifacts": [
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/09_sc_gicp_integration/rank1_gicp_results.csv",
+      "size_bytes": 2216922,
+      "sha256": "39c5ac9d6ae2fd1578c056f60b1bd58212ea3eac3f1630dc15adc1632641390d",
+      "rows": 2000,
+      "exists": true
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_raw_edges.csv",
+      "size_bytes": 1488929,
+      "sha256": "b62a671313e4cf6042eed2d61295dd206c3ebb58bbfcebe7262037d0978e7a9b",
+      "rows": 1233,
+      "exists": true
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/single_loop_trajectory.csv",
+      "size_bytes": 1049548,
+      "sha256": "f87e23501951adbc088cb83531d8d54d6a4a31fbc52a358748e0ee7a52763f29",
+      "rows": 6180,
+      "exists": true
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/top3_final_trajectory.csv",
+      "size_bytes": 1035550,
+      "sha256": "180d102a26b2fab63f8ba4f5e2e2fd57625d389913577504264731d0535c78c7",
+      "rows": 6180,
+      "exists": true
+    },
+    {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_final_trajectory.csv",
+      "size_bytes": 1035033,
+      "sha256": "d9256f6fe17bb996a42a82cb77f0e21b160abe4e5cf2bb99d687803e918bb874",
+      "rows": 6180,
+      "exists": true
+    }
+  ]
+}

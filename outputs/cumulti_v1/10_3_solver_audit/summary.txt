@@ -1,0 +1,1 @@
+Stage 10.3 is BLOCKED_NO_SLAM_NATIVE_SOLVER. Install a documented isolated GTSAM Pose3 environment before resuming; no optimization was run.

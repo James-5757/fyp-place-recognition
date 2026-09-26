@@ -1,0 +1,54 @@
+{
+  "environment": "conda fyp_slam",
+  "libraries": {
+    "gtsam": {
+      "import_success": false,
+      "version": null,
+      "optimizer_types": [],
+      "robust_kernel_support": null,
+      "pose3_se3_support": null,
+      "sparse_solver_support": null
+    },
+    "g2o": {
+      "import_success": false,
+      "version": null,
+      "optimizer_types": [],
+      "robust_kernel_support": null,
+      "pose3_se3_support": null,
+      "sparse_solver_support": null
+    },
+    "open3d": {
+      "import_success": false,
+      "version": null,
+      "optimizer_types": [],
+      "robust_kernel_support": null,
+      "pose3_se3_support": null,
+      "sparse_solver_support": null
+    },
+    "pyceres": {
+      "import_success": false,
+      "version": null,
+      "optimizer_types": [],
+      "robust_kernel_support": null,
+      "pose3_se3_support": null,
+      "sparse_solver_support": null
+    },
+    "ceres": {
+      "import_success": false,
+      "version": null,
+      "optimizer_types": [],
+      "robust_kernel_support": null,
+      "pose3_se3_support": null,
+      "sparse_solver_support": null
+    }
+  },
+  "local_cache_checked": true,
+  "other_project_open3d": {
+    "path": "/home/cas/fyp_robot13_geometry_20260915/.venv",
+    "version": "0.19.0",
+    "suitable": false,
+    "reason": "PoseGraph API does not expose the required explicit Huber-wrapped loop Gaussian factor."
+  },
+  "status": "BLOCKED_NO_SLAM_NATIVE_SOLVER",
+  "selected_library": null
+}

@@ -1,0 +1,30 @@
+{
+  "status": "PASS",
+  "common_graph": {
+    "robot1_nodes": 2000,
+    "robot3_nodes": 4180,
+    "sequential_odometry_edges": 6178,
+    "frame": "LiDAR/os_sensor",
+    "anchor": "robot1 keyframe 0",
+    "measurement": "Z_qc = X_query^-1 * X_candidate",
+    "initialization": "S = X_q @ Z_qc @ inverse(L_c)"
+  },
+  "policies": {
+    "TOP3_SANITIZED": {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/09_sc_gicp_integration/sanitized_loop_edges.csv",
+      "size_bytes": 63183,
+      "sha256": "37692d3708a045a344cb185d8b8d10261e4488c290a616b4d0744b06acb0eac2",
+      "rows": 139,
+      "exists": true,
+      "expected_rows": 139
+    },
+    "RANK1_SANITIZED": {
+      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+      "size_bytes": 145328,
+      "sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+      "rows": 120,
+      "exists": true,
+      "expected_rows": 120
+    }
+  }
+}

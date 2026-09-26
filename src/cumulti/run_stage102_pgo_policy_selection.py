@@ -123,7 +123,9 @@ def main():
     all_traj={'SINGLE_LOOP':single_df}
     for name,(x,s,w,r,budget) in finals.items():
         tag='top3' if name.startswith('TOP3') else 'rank1'; traj=s10.frame_csv(x,k1,k3); traj.to_csv(OUT/f'{tag}_final_trajectory.csv',index=False); r.to_csv(OUT/f'loop_residuals_{tag}.csv',index=False); all_traj[name]=traj
-    # Non-robust diagnostics use each policy's selected budget, never GT-selected.
+    # The GT-free policy decision is already serialized above. The following
+    # non-robust diagnostic is offline-only and may attach GT ATE for reporting;
+    # it never changes the selected policy, graph, or solver budget.
     nonrows=[]
     for name,(xrob,srob,wrob,rrob,budget) in finals.items():
         x0,loops,_=inits[name]; s10.POLICY['least_squares_max_nfev']=budget; x,s,w=s10.optimize(x0,s10.relative_edges(l1,0)+s10.relative_edges(l3,n1)+loops,False); t=s10.frame_csv(x,k1,k3); ev,_,_=s10.joint_eval(t,k1,k3); jm=[z['ATE_RMSE_m'] for z in ev if z['scope']=='joint'][0]; nonrows.append({'policy':name,'max_nfev':budget,'converged':s['converged'],'objective_final':s['objective_final'],'joint_ATE_RMSE_m_offline_only':jm})
@@ -134,7 +136,8 @@ def main():
         by,merged=s10.map_points(traj,k1,k3); c=s10.consistency(by['robot1'],by['robot3']); map_rows.append({'condition':name,**c}); tag={'SINGLE_LOOP':'single_loop','TOP3_SANITIZED':'top3_robust','RANK1_SANITIZED':'rank1_robust'}[name]; path=OUT/f'{tag}_merged_map.ply'; s10.write_ply(path,s10.voxel(merged)); map_paths[name]=path
     pd.DataFrame(map_rows).to_csv(OUT/'map_consistency_policy_comparison.csv',index=False)
     (OUT/'map_artifact_manifest.json').write_text(json.dumps({'large_files_not_committed_to_git':True,'artifacts':[{'condition':n,'absolute_server_path':str(p),'size_bytes':p.stat().st_size,'sha256':digest(p)} for n,p in map_paths.items()]},indent=2)+'\n')
-    # GT is first accessed below this line, after policy decision and map evaluation are serialized.
+    # Offline-only robust ATE/RPE evaluation follows. GT was already accessed by
+    # the diagnostic above, but only after pre_gt_policy_decision.json was saved.
     gtrows=[]
     for name,traj in all_traj.items():
         ev,_,_=s10.joint_eval(traj,k1,k3); rt,rr=rpe(traj,k1,k3,10)
@@ -164,7 +167,7 @@ def main():
     maps=pd.read_csv(OUT/'map_consistency_policy_comparison.csv'); gte=pd.read_csv(OUT/'offline_gt_policy_evaluation.csv'); j=gte[gte.scope=='joint'];fig,ax=plt.subplots(1,3,figsize=(15,5));ax[0].bar(j.condition,j.ATE_RMSE_m);ax[0].set_title('GT-derived joint ATE');ax[1].bar(maps.condition,maps.median_m);ax[1].set_title('GT-free map NN median');ax[2].bar(maps.condition,maps.p95_m);ax[2].set_title('GT-free map NN p95');[a.tick_params(axis='x',rotation=20) for a in ax];fig.tight_layout();fig.savefig(OUT/'policy_metric_comparison.png',dpi=180);plt.close(fig)
     fig,ax=plt.subplots(figsize=(8,5));[ax.hist(finals[n][3].robust_weight,bins=30,alpha=.5,label=n) for n in finals];ax.legend();ax.set_xlabel('robust loop weight');fig.tight_layout();fig.savefig(OUT/'robust_weight_distribution.png',dpi=180);plt.close(fig)
     fig,ax=plt.subplots(1,2,figsize=(12,5));[ax[0].hist(finals[n][3].translation_after_m,bins=35,alpha=.5,label=n) for n in finals];[ax[1].hist(finals[n][3].rotation_after_deg,bins=35,alpha=.5,label=n) for n in finals];ax[0].set_title('translation residual');ax[1].set_title('rotation residual');[a.legend() for a in ax];fig.tight_layout();fig.savefig(OUT/'loop_residual_policy_comparison.png',dpi=180);plt.close(fig)
-    shown=selected if selected!='NO_POLICY_READY' else 'TOP3_SANITIZED'; fig,ax=plt.subplots(figsize=(10,8));xy(ax,all_traj[shown],f'Pre-GT demo candidate: {shown}'); by,m=s10.map_points(all_traj[shown],k1,k3);ax.scatter(m[::50,0],m[::50,1],s=.1,c='k',alpha=.25);fig.tight_layout();fig.savefig(OUT/'final_demo_candidate.png',dpi=180);plt.close(fig)
+    shown=selected if selected!='NO_POLICY_READY' else 'TOP3_SANITIZED'; title=(f'Pre-GT demo candidate: {shown}' if selected!='NO_POLICY_READY' else 'Illustrative non-converged TOP3 state — NO POLICY SELECTED'); fig,ax=plt.subplots(figsize=(10,8));xy(ax,all_traj[shown],title); by,m=s10.map_points(all_traj[shown],k1,k3);ax.scatter(m[::50,0],m[::50,1],s=.1,c='k',alpha=.25);fig.tight_layout();fig.savefig(OUT/'final_demo_candidate.png',dpi=180);plt.close(fig)
     conv='CONVERGED' if any(decision[n]['converged'] for n in decision) else 'NO_CONVERGENCE_WITHIN_PREDECLARED_BUDGET'
     (OUT/'VALIDATION_REPORT.txt').write_text('[PASS] Stage-10.1 and frozen Stage-9 inputs were not modified.\n[PASS] GT excluded from policy construction, sanitation, initialization, and solver-budget selection.\n[PASS] pre-GT policy decision saved before offline GT evaluation.\n[PASS] fixed schedule 25,50,100,200 only; no graph-parameter tuning.\n[PASS] no live robot demo performed.\n')
     (OUT/'summary.txt').write_text(f'Stage 10.2 PGO convergence: {conv}. Pre-GT demo policy: {selected}. Offline GT supports evaluation only; no live demo.\n')
