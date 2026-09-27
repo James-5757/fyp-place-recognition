@@ -21,7 +21,7 @@ def require() -> None:
     for p in (STAGE9, LOOPS, TRAJ, PLY, SOLVER, DECISION):
         if not p.is_file(): raise FileNotFoundError(p)
 
-def read_ply_sample(path: Path, stride: int = 180) -> list[list[float]]:
+def read_ply_sample(path: Path, stride: int = 800) -> list[list[float]]:
     with path.open('rb') as f:
         while f.readline().strip() != b'end_header': pass
         pts = np.fromfile(f, dtype='<f4').reshape(-1, 3)
