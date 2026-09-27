@@ -1,0 +1,47 @@
+{
+  "status": "PASS",
+  "policies": [
+    {
+      "policy": "TOP3_SANITIZED",
+      "status": "PASS",
+      "robot1_range": [
+        33,
+        532
+      ],
+      "robot3_range": [
+        2,
+        501
+      ],
+      "nodes": 1000,
+      "odometry_factors": 998,
+      "loop_factors": 49,
+      "initial_graph_error": 5433.323494187939,
+      "final_graph_error": 2048.0305181868976,
+      "relative_reduction": 0.6230611852252698,
+      "runtime_s": 0.9588921070098877,
+      "finite_poses": true,
+      "initialization": "highest frozen GICP-quality edge; deterministic nonzero R3 seed perturbation"
+    },
+    {
+      "policy": "RANK1_SANITIZED",
+      "status": "PASS",
+      "robot1_range": [
+        33,
+        532
+      ],
+      "robot3_range": [
+        2,
+        501
+      ],
+      "nodes": 1000,
+      "odometry_factors": 998,
+      "loop_factors": 36,
+      "initial_graph_error": 4164.238371366989,
+      "final_graph_error": 1641.673807083878,
+      "relative_reduction": 0.6057685317987769,
+      "runtime_s": 0.8743205070495605,
+      "finite_poses": true,
+      "initialization": "highest frozen GICP-quality edge; deterministic nonzero R3 seed perturbation"
+    }
+  ]
+}

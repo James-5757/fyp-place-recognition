@@ -1,0 +1,9 @@
+{
+  "gtsam_version": "4.2",
+  "optimizer": "LevenbergMarquardtOptimizer",
+  "parameters": "GTSAM documented/default LM parameters; unavailable values not inferred",
+  "noise_order": "[rx, ry, rz, tx, ty, tz]",
+  "sigmas": "[5deg,5deg,5deg,1m,1m,1m]",
+  "loop_noise": "Huber(1.345) robust diagonal",
+  "odometry_noise": "same diagonal base, no robustification"
+}

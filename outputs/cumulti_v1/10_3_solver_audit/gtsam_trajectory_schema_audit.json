@@ -1,0 +1,20 @@
+{
+  "TOP3_SANITIZED": {
+    "rows": 6180,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_robot_keyframes": true,
+    "robot1_rows": 2000,
+    "robot3_rows": 4180,
+    "monotonic_timestamps": true
+  },
+  "RANK1_SANITIZED": {
+    "rows": 6180,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_robot_keyframes": true,
+    "robot1_rows": 2000,
+    "robot3_rows": 4180,
+    "monotonic_timestamps": true
+  }
+}

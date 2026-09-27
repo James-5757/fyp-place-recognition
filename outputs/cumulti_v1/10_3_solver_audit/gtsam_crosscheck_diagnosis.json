@@ -1,0 +1,16 @@
+{
+  "conclusion": "EXACT_IMPLEMENTATION_BUG",
+  "old_tolerance": {
+    "translation_m": 1e-08,
+    "rotation_rad": 1e-08
+  },
+  "final_tolerance": {
+    "translation_m": 1e-08,
+    "rotation_rad": 1e-08
+  },
+  "root_cause": "The prior audit compared Pose3.Logmap translation tangent coordinates to a physical matrix translation residual. In SE(3) these are coupled through the SO(3) left Jacobian. Corrected code compares identical relative-transform matrices: Z^-1 X_q^-1 X_c and Pose3 Z^-1.compose(Xq.between(Xc)).",
+  "max_translation_difference_m": 0.0,
+  "max_rotation_difference_rad": 2.574980159653073e-19,
+  "passed": 10,
+  "tested": 10
+}

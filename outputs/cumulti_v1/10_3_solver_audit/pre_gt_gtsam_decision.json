@@ -1,4 +1,21 @@
 {
-  "selected": "BOTH_READY_PREFER_RANK1",
-  "reason": "both native graphs completed normally with finite poses; Rank1 has fewer loop factors and faster frozen GTSAM runtime; GT not used"
+  "decision": "BOTH_READY_PREFER_RANK1",
+  "written_before_gt_evaluation": true,
+  "reason": "Both frozen policies completed with finite poses and no catastrophic GT-free residual/map failure. RANK1 has fewer inter-robot factors, lower measured replay runtime, and matches frozen Rank-1 + GICP architecture. GT was not used.",
+  "policies": {
+    "TOP3_SANITIZED": {
+      "runtime_s": 9.488964796066284,
+      "loop_residual_median_m": 0.07968971793288933,
+      "loop_residual_p95_m": 13.240516230432252,
+      "map_nn_median_m": 2.7992458542978316,
+      "map_nn_p95_m": 130.83395921066247
+    },
+    "RANK1_SANITIZED": {
+      "runtime_s": 7.5533766746521,
+      "loop_residual_median_m": 0.08127205405819266,
+      "loop_residual_p95_m": 1.4087166627495116,
+      "map_nn_median_m": 2.766472427784114,
+      "map_nn_p95_m": 138.38048284324566
+    }
+  }
 }

@@ -1,15 +1,12 @@
-{
-  "large_files_not_committed_to_git": true,
-  "artifacts": [
-    {
-      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/top3_gtsam_merged_map.ply",
-      "size_bytes": 11465964,
-      "sha256": "828953517e14a9ab45355367d981733fcece3a828df6e482c41c8090b1062d00"
-    },
-    {
-      "absolute_server_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/rank1_gtsam_merged_map.ply",
-      "size_bytes": 11432556,
-      "sha256": "4916c604510a751c1b6d072412b70947090b973d9c50b940c7a8795540a6a376"
-    }
-  ]
-}
+[
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/top3_gtsam_merged_map.ply",
+    "size_bytes": 11465964,
+    "sha256": "828953517e14a9ab45355367d981733fcece3a828df6e482c41c8090b1062d00"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/rank1_gtsam_merged_map.ply",
+    "size_bytes": 11432556,
+    "sha256": "4916c604510a751c1b6d072412b70947090b973d9c50b940c7a8795540a6a376"
+  }
+]

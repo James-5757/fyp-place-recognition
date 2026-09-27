@@ -1,0 +1,12 @@
+[
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/top3_gtsam_trajectory.csv",
+    "size_bytes": 1044877,
+    "sha256": "dc6fd8c19bbad0528d99e525dcf4121bf2d85c07db3d635de9d092a216a0baf3"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/rank1_gtsam_trajectory.csv",
+    "size_bytes": 1045370,
+    "sha256": "ca11bc5fba9b62e12105c9ca721a3daa09ae22084ddfbe82bd8ee178bde8d344"
+  }
+]
