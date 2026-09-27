@@ -1,0 +1,30 @@
+{
+  "local_trajectory_source": "src/cumulti/run_stage10_offline_map_merge.py aligned(robot): frozen non-GT EKF IMU/GNSS local poses",
+  "local_keyframes": {
+    "robot1": 2000,
+    "robot3": 4180
+  },
+  "pre_pgo_trajectory_source": "outputs/cumulti_v1/10_2_pgo_policy_selection/single_loop_trajectory.csv; verified 6180 matching robot/keyframe rows",
+  "post_pgo_trajectory_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/rank1_gtsam_trajectory.csv",
+  "pre_pgo_map_source_method": "stage10.map_points(PRE_PGO_COMMON_FRAME), frame_stride=10, point_stride=16, voxel=0.5",
+  "post_pgo_map_source_method": "stage10.map_points(POST_PGO_GLOBAL), frame_stride=10, point_stride=16, voxel=0.5",
+  "gicp_transform_source": "frozen rank1_sanitized_edges.csv tx ty tz qx qy qz qw; T_query_from_candidate",
+  "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+  "number_of_sanitized_loops": 120,
+  "map_protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5
+  },
+  "gt_loaded": false,
+  "map_visualization_points_pre": {
+    "robot1": 10595,
+    "robot3": 10993
+  },
+  "map_visualization_points_post": {
+    "robot1": 10738,
+    "robot3": 10883
+  },
+  "overlap_roi_method": "2nd\u201398th percentile bounding box of frozen sanitized loop endpoints in POST_PGO_GLOBAL, plus 5m margin",
+  "presentation_timeline": "normalized_cross_run"
+}
