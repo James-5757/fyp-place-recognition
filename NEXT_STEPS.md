@@ -39,3 +39,16 @@ The corrected Stage-10.1 replay passes its initialization, extrinsic, frame, and
 ## Stage 10.2 stop point
 
 Neither frozen-loop policy formally converged within the predeclared 25/50/100/200 budget schedule. The GT-free conclusion is NO_POLICY_READY, so do not start a live robot demo. Any future graph work must be a separately declared Stage 10.3 methodological investigation, rather than a parameter tweak selected from these offline GT metrics. Preserve all Stage 10.2 outputs and keep GT offline-only.
+
+## Stage 12A trajectory integrity checkpoint
+
+The read-only GT-free audit traced the replay's long lines to implausible
+displacements already present in Robot1/Robot3 raw EKF `odometry_map` messages.
+The single-loop common-frame transform does not add a new 3-D jump, and the
+Rank1 GTSAM solve does not create a new catastrophic top-20 translation, although
+its odometry factors inherit those measurements. The demo's 10-keyframe stride
+also draws visually misleading straight chords across parts of the anomalous
+Robot3 path. Before a sparse first-loop / incremental-loop study or a new demo,
+investigate the EKF source intervals documented in
+`docs/CUMULTI_STAGE12A_TRAJECTORY_INTEGRITY.md`. Any trajectory or demo repair
+must be a separate reviewed change; preserve frozen Stage 10.3 outputs.

@@ -1,0 +1,255 @@
+{
+  "sources": [
+    {
+      "source": "local",
+      "robot_id": "robot1",
+      "row_count": 2000,
+      "first_keyframe": 0,
+      "last_keyframe": 1999,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "1": 1999
+      },
+      "expected_step": 1,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "source",
+      "z_rotation_provenance": "source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "local",
+      "robot_id": "robot3",
+      "row_count": 4180,
+      "first_keyframe": 0,
+      "last_keyframe": 4179,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "1": 4179
+      },
+      "expected_step": 1,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "source",
+      "z_rotation_provenance": "source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "pre_pgo",
+      "robot_id": "robot1",
+      "row_count": 2000,
+      "first_keyframe": 0,
+      "last_keyframe": 1999,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "1": 1999
+      },
+      "expected_step": 1,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "source",
+      "z_rotation_provenance": "source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "pre_pgo",
+      "robot_id": "robot3",
+      "row_count": 4180,
+      "first_keyframe": 0,
+      "last_keyframe": 4179,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "1": 4179
+      },
+      "expected_step": 1,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "source",
+      "z_rotation_provenance": "source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "post_pgo",
+      "robot_id": "robot1",
+      "row_count": 2000,
+      "first_keyframe": 0,
+      "last_keyframe": 1999,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "1": 1999
+      },
+      "expected_step": 1,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "source",
+      "z_rotation_provenance": "source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "post_pgo",
+      "robot_id": "robot3",
+      "row_count": 4180,
+      "first_keyframe": 0,
+      "last_keyframe": 4179,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "1": 4179
+      },
+      "expected_step": 1,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "source",
+      "z_rotation_provenance": "source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "demo_local",
+      "robot_id": "robot1",
+      "row_count": 200,
+      "first_keyframe": 0,
+      "last_keyframe": 1990,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "10": 199
+      },
+      "expected_step": 10,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "matched_full_resolution_source",
+      "z_rotation_provenance": "matched_full_resolution_source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "demo_local",
+      "robot_id": "robot3",
+      "row_count": 418,
+      "first_keyframe": 0,
+      "last_keyframe": 4170,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "10": 417
+      },
+      "expected_step": 10,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "matched_full_resolution_source",
+      "z_rotation_provenance": "matched_full_resolution_source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "demo_pre_pgo",
+      "robot_id": "robot1",
+      "row_count": 200,
+      "first_keyframe": 0,
+      "last_keyframe": 1990,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "10": 199
+      },
+      "expected_step": 10,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "matched_full_resolution_source",
+      "z_rotation_provenance": "matched_full_resolution_source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "demo_pre_pgo",
+      "robot_id": "robot3",
+      "row_count": 418,
+      "first_keyframe": 0,
+      "last_keyframe": 4170,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "10": 417
+      },
+      "expected_step": 10,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "matched_full_resolution_source",
+      "z_rotation_provenance": "matched_full_resolution_source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "demo_post_pgo",
+      "robot_id": "robot1",
+      "row_count": 200,
+      "first_keyframe": 0,
+      "last_keyframe": 1990,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "10": 199
+      },
+      "expected_step": 10,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "matched_full_resolution_source",
+      "z_rotation_provenance": "matched_full_resolution_source",
+      "unexpected_robot_switch_inside_polyline": false
+    },
+    {
+      "source": "demo_post_pgo",
+      "robot_id": "robot3",
+      "row_count": 418,
+      "first_keyframe": 0,
+      "last_keyframe": 4170,
+      "duplicate_count": 0,
+      "timestamp_monotonic": true,
+      "keyframe_monotonic": true,
+      "keyframe_step_distribution": {
+        "10": 417
+      },
+      "expected_step": 10,
+      "unexpected_ordering_events": [],
+      "timestamp_provenance": "matched_full_resolution_source",
+      "z_rotation_provenance": "matched_full_resolution_source",
+      "unexpected_robot_switch_inside_polyline": false
+    }
+  ],
+  "demo_xy_lineage": {
+    "demo_local/robot1": {
+      "row_count": 200,
+      "max_xy_difference_m": 0.0,
+      "timestamp_and_z_rotation": "matched full-resolution frozen source, absent in replay.json"
+    },
+    "demo_local/robot3": {
+      "row_count": 418,
+      "max_xy_difference_m": 0.0,
+      "timestamp_and_z_rotation": "matched full-resolution frozen source, absent in replay.json"
+    },
+    "demo_pre_pgo/robot1": {
+      "row_count": 200,
+      "max_xy_difference_m": 0.0,
+      "timestamp_and_z_rotation": "matched full-resolution frozen source, absent in replay.json"
+    },
+    "demo_pre_pgo/robot3": {
+      "row_count": 418,
+      "max_xy_difference_m": 0.0,
+      "timestamp_and_z_rotation": "matched full-resolution frozen source, absent in replay.json"
+    },
+    "demo_post_pgo/robot1": {
+      "row_count": 200,
+      "max_xy_difference_m": 0.0,
+      "timestamp_and_z_rotation": "matched full-resolution frozen source, absent in replay.json"
+    },
+    "demo_post_pgo/robot3": {
+      "row_count": 418,
+      "max_xy_difference_m": 0.0,
+      "timestamp_and_z_rotation": "matched full-resolution frozen source, absent in replay.json"
+    }
+  },
+  "timestamp_unit": "Unix nanoseconds",
+  "full_resolution_expected_step": 1,
+  "browser_expected_step": 10
+}

@@ -1,0 +1,37 @@
+{
+  "status": "PASS",
+  "robot1_local_max_step_m": 291.4541309594217,
+  "robot3_local_max_step_m": 333.57520142600066,
+  "robot1_pre_pgo_max_step_m": 291.4541309594217,
+  "robot3_pre_pgo_max_step_m": 333.8256795512973,
+  "robot1_post_pgo_max_step_m": 287.0452949226178,
+  "robot3_post_pgo_max_step_m": 336.71213335261547,
+  "number_local_jump_candidates": 450,
+  "number_pre_pgo_jump_candidates": 450,
+  "number_post_pgo_jump_candidates": 464,
+  "number_demo_visual_artifacts": 12,
+  "pgo_introduces_new_catastrophic_jump": false,
+  "pgo_top20_new_without_pre_outlier_count": 0,
+  "pgo_new_robust_outlier_count": 43,
+  "demo_long_line_root_cause": "MULTIPLE_CAUSES",
+  "primary_pose_discontinuity_source": "UPSTREAM_LOCAL_ODOMETRY",
+  "recommendation": "INVESTIGATE_LOCAL_ODOMETRY_UPSTREAM",
+  "main_diagnosis_uses_gt": false,
+  "source_archives": {
+    "robot1": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+    "robot3": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip"
+  },
+  "normal_time_step_s": {
+    "robot1": 0.500030976,
+    "robot3": 0.49993088
+  },
+  "max_full_resolution_dt_s": {
+    "robot1": 0.550518528,
+    "robot3": 0.558693888
+  },
+  "recording_gap_count_2x_nominal": {
+    "robot1": 0,
+    "robot3": 0
+  },
+  "figure_count": 6
+}

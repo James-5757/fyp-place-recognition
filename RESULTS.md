@@ -122,3 +122,15 @@ Stage 10.1 preserves the frozen Stage-10 policy and historical outputs, but corr
 ## CU-Multi Stage 10.2 PGO policy selection (verified, no policy ready)
 
 The exact 139-edge Stage-9.1 Top-3 policy and a 120-edge Rank-1 policy from 1,233 frozen accepted Rank-1 GICP registrations were tested only at the predeclared 25/50/100/200 robust-PGO budgets. Neither formally converged by 200, so the GT-free demo decision is **NO_POLICY_READY**. Map NN median/p95 is 9.556/142.640 m (single), 2.962/115.283 m (Top-3), and 2.875/121.945 m (Rank-1). Offline-only joint ATE is 28.595, 27.609, and 29.029 m, respectively; it did not choose the policy. See `docs/CUMULTI_STAGE10_2_PGO_POLICY_SELECTION.md`.
+
+## CU-Multi Stage 12A trajectory integrity audit (verified, GT-free)
+
+The frozen non-GT local EKF trajectory has maximum adjacent XY steps of
+**291.454 m** for Robot1 and **333.575 m** for Robot3 at normal approximately
+0.5-second intervals. The same intervals are present in the raw EKF topic and
+the pre-PGO common-frame trajectory; post-PGO maxima are 287.045 and 336.712 m.
+None of the 20 largest post-PGO steps for either robot is a newly introduced
+transition without a pre-PGO robust flag. Demo stride-10 lines make some of
+these existing jumps look straighter, especially Robot3 keyframes 40–50 and
+50–60. This is a source-trajectory integrity finding, not a new retrieval or
+registration result. See `docs/CUMULTI_STAGE12A_TRAJECTORY_INTEGRITY.md`.

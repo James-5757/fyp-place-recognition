@@ -1,0 +1,12 @@
+{
+  "robot1": {
+    "max_xyz_step_difference_m": 5.473399511402022e-14,
+    "max_xy_projection_step_difference_m": 4.263256414560601e-14,
+    "interpretation": "3-D rigid transform preserved; XY projection can change under frame tilt"
+  },
+  "robot3": {
+    "max_xyz_step_difference_m": 2.2737367544323206e-13,
+    "max_xy_projection_step_difference_m": 0.25047812529663815,
+    "interpretation": "3-D rigid transform preserved; XY projection can change under frame tilt"
+  }
+}
