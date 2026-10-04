@@ -1,0 +1,12 @@
+{
+  "basis": "archive topic rates and 2-Hz keyframe cadence, fixed before inspecting values",
+  "maximum_nearest_time_error_s": {
+    "ekf": 0.05,
+    "gnss": 0.35,
+    "tf": 0.05
+  },
+  "event_window": "[Stage12A keyframe_i timestamp - 5 s, keyframe_j timestamp + 5 s]",
+  "detail_window": "raw EKF maximum incremental translation timestamp \u00b11 s",
+  "timestamp_basis": "ROS header stamp when decoded; bag-record timestamp otherwise",
+  "same_gnss_sample_at_both_endpoints": "not treated as a displacement comparison"
+}

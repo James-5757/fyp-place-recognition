@@ -1,0 +1,9 @@
+{
+  "custom_microstrain_message_types": "present in archive inventory and window timestamps; other vendor schemas unavailable in ROS2 Humble typestore",
+  "human_readable_status": "official field schema at microstrain_inertial_msgs_common ed9cb178b1be0ff110e41548ca2165b593976146 was registered, but recorded CDR is shorter than expected (first example: 177 versus >=184 bytes); historical message schema mismatch, payload not decoded",
+  "standard_messages": "NavSatFix, Odometry, Imu, TwistWithCovarianceStamped decoded",
+  "tf": {
+    "robot1": [],
+    "robot3": []
+  }
+}

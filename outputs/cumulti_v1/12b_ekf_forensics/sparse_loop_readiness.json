@@ -1,0 +1,9 @@
+{
+  "safe_to_run_sparse_loop_on_current_odometry": "NO",
+  "reason": "Raw EKF-derived local odometry has >300 m half-second early excursions; fewer loops cannot make these factors physically valid.",
+  "required_fix_before_sparse_loop": "Source-level status/TF investigation followed by a predeclared odometry repair or independently validated replacement; Stage 12B applies none.",
+  "stage8_frontend_still_valid": "YES",
+  "stage9_registration_still_valid": "YES",
+  "stage10_3_backend_numerically_valid": "YES",
+  "stage10_3_physical_map_interpretation": "COMPROMISED"
+}

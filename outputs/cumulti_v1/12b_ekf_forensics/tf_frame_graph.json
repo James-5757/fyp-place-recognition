@@ -1,0 +1,15 @@
+{
+  "per_robot_tf_topics": {
+    "robot1": [],
+    "robot3": []
+  },
+  "per_robot_status": {
+    "robot1": "NOT_AVAILABLE_IN_ARCHIVE",
+    "robot3": "NOT_AVAILABLE_IN_ARCHIVE"
+  },
+  "map_odom_base_imu_sensor_edges": {
+    "robot1": [],
+    "robot3": []
+  },
+  "interpretation": "No dynamic/static TF topic in the specified IMU/GPS ZIPs; parent-frame reset cannot be directly tested here."
+}

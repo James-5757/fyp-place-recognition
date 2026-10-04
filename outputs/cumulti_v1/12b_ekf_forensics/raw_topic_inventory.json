@@ -1,0 +1,494 @@
+{
+  "robot1": {
+    "archive_path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+    "storage_format": "ROS2 rosbag2 SQLite3/db3 CDR",
+    "archive_members": [
+      "robot1_main_campus_imu_gps/",
+      "robot1_main_campus_imu_gps/robot1_main_campus_imu_gps.db3",
+      "robot1_main_campus_imu_gps/metadata.yaml"
+    ],
+    "db3_member": "robot1_main_campus_imu_gps/robot1_main_campus_imu_gps.db3",
+    "metadata_member": "robot1_main_campus_imu_gps/metadata.yaml",
+    "bag_first_timestamp": 1722894197598199927,
+    "bag_last_timestamp": 1722895200522300718,
+    "topics": [
+      {
+        "topic_name": "robot1/imu/pressure",
+        "message_type": "sensor_msgs/msg/FluidPressure",
+        "message_count": 501461,
+        "first_timestamp": 1722894197598199927,
+        "last_timestamp": 1722895200520758454
+      },
+      {
+        "topic_name": "robot1/imu/mag",
+        "message_type": "sensor_msgs/msg/MagneticField",
+        "message_count": 501459,
+        "first_timestamp": 1722894197599402583,
+        "last_timestamp": 1722895200520626684
+      },
+      {
+        "topic_name": "robot1/imu/data",
+        "message_type": "sensor_msgs/msg/Imu",
+        "message_count": 501460,
+        "first_timestamp": 1722894197599530155,
+        "last_timestamp": 1722895200522300718
+      },
+      {
+        "topic_name": "robot1/gnss_1/llh_position",
+        "message_type": "sensor_msgs/msg/NavSatFix",
+        "message_count": 2006,
+        "first_timestamp": 1722894197621185584,
+        "last_timestamp": 1722895200181965083
+      },
+      {
+        "topic_name": "robot1/gnss_1/velocity",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 2006,
+        "first_timestamp": 1722894197621199061,
+        "last_timestamp": 1722895200181965085
+      },
+      {
+        "topic_name": "robot1/gnss_1/velocity_ecef",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 2006,
+        "first_timestamp": 1722894197621206797,
+        "last_timestamp": 1722895200181978649
+      },
+      {
+        "topic_name": "robot1/gnss_1/odometry_earth",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 2006,
+        "first_timestamp": 1722894197621343407,
+        "last_timestamp": 1722895200181979690
+      },
+      {
+        "topic_name": "robot1/gnss_2/llh_position",
+        "message_type": "sensor_msgs/msg/NavSatFix",
+        "message_count": 2006,
+        "first_timestamp": 1722894197709699277,
+        "last_timestamp": 1722895200261148380
+      },
+      {
+        "topic_name": "robot1/gnss_2/velocity",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 2006,
+        "first_timestamp": 1722894197709770893,
+        "last_timestamp": 1722895200261155158
+      },
+      {
+        "topic_name": "robot1/gnss_2/velocity_ecef",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 2006,
+        "first_timestamp": 1722894197709781800,
+        "last_timestamp": 1722895200261188995
+      },
+      {
+        "topic_name": "robot1/gnss_2/odometry_earth",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 2006,
+        "first_timestamp": 1722894197709858617,
+        "last_timestamp": 1722895200261196431
+      },
+      {
+        "topic_name": "robot1/gnss_2/time",
+        "message_type": "sensor_msgs/msg/TimeReference",
+        "message_count": 2006,
+        "first_timestamp": 1722894197709861636,
+        "last_timestamp": 1722895200261202462
+      },
+      {
+        "topic_name": "robot1/ekf/imu/data",
+        "message_type": "sensor_msgs/msg/Imu",
+        "message_count": 100281,
+        "first_timestamp": 1722894197710955975,
+        "last_timestamp": 1722895200514581832
+      },
+      {
+        "topic_name": "robot1/ekf/llh_position",
+        "message_type": "sensor_msgs/msg/NavSatFix",
+        "message_count": 100281,
+        "first_timestamp": 1722894197711041887,
+        "last_timestamp": 1722895200514615301
+      },
+      {
+        "topic_name": "robot1/ekf/velocity",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 100280,
+        "first_timestamp": 1722894197723617233,
+        "last_timestamp": 1722895200514621473
+      },
+      {
+        "topic_name": "robot1/ekf/dual_antenna_heading",
+        "message_type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+        "message_count": 100280,
+        "first_timestamp": 1722894197723627251,
+        "last_timestamp": 1722895200514641269
+      },
+      {
+        "topic_name": "robot1/ekf/odometry_earth",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 100279,
+        "first_timestamp": 1722894197723675353,
+        "last_timestamp": 1722895200504715817
+      },
+      {
+        "topic_name": "robot1/ekf/odometry_map",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 100279,
+        "first_timestamp": 1722894197723685539,
+        "last_timestamp": 1722895200504721806
+      },
+      {
+        "topic_name": "robot1/mip/ekf/gnss_position_aiding_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+        "message_count": 200558,
+        "first_timestamp": 1722894197730643395,
+        "last_timestamp": 1722895200514569277
+      },
+      {
+        "topic_name": "robot1/mip/ekf/gnss_dual_antenna_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+        "message_count": 100279,
+        "first_timestamp": 1722894197730712753,
+        "last_timestamp": 1722895200514513618
+      },
+      {
+        "topic_name": "robot1/mip/gnss_1/fix_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+        "message_count": 2005,
+        "first_timestamp": 1722894198123353590,
+        "last_timestamp": 1722895200181760291
+      },
+      {
+        "topic_name": "robot1/mip/gnss_1/sbas_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+        "message_count": 2005,
+        "first_timestamp": 1722894198123598712,
+        "last_timestamp": 1722895200182002016
+      },
+      {
+        "topic_name": "robot1/mip/gnss_1/rf_error_detection",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+        "message_count": 4010,
+        "first_timestamp": 1722894198123612488,
+        "last_timestamp": 1722895200181802741
+      },
+      {
+        "topic_name": "robot1/gnss_1/time",
+        "message_type": "sensor_msgs/msg/TimeReference",
+        "message_count": 2005,
+        "first_timestamp": 1722894198123915293,
+        "last_timestamp": 1722895200181985548
+      },
+      {
+        "topic_name": "robot1/mip/sensor/overrange_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+        "message_count": 2005,
+        "first_timestamp": 1722894198189475489,
+        "last_timestamp": 1722895200194448904
+      },
+      {
+        "topic_name": "robot1/ekf/status",
+        "message_type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+        "message_count": 2005,
+        "first_timestamp": 1722894198191525060,
+        "last_timestamp": 1722895200198779535
+      },
+      {
+        "topic_name": "robot1/mip/ekf/status",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+        "message_count": 2005,
+        "first_timestamp": 1722894198191556547,
+        "last_timestamp": 1722895200198870530
+      },
+      {
+        "topic_name": "robot1/mip/ekf/multi_antenna_offset_correction",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+        "message_count": 4010,
+        "first_timestamp": 1722894198191566142,
+        "last_timestamp": 1722895200198930272
+      },
+      {
+        "topic_name": "robot1/mip/ekf/aiding_measurement_summary",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+        "message_count": 11676,
+        "first_timestamp": 1722894198191622980,
+        "last_timestamp": 1722895200198993015
+      },
+      {
+        "topic_name": "robot1/mip/gnss_2/fix_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+        "message_count": 2005,
+        "first_timestamp": 1722894198209168036,
+        "last_timestamp": 1722895200261216108
+      },
+      {
+        "topic_name": "robot1/mip/gnss_2/rf_error_detection",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+        "message_count": 4010,
+        "first_timestamp": 1722894198209433127,
+        "last_timestamp": 1722895200261404007
+      },
+      {
+        "topic_name": "robot1/mip/gnss_2/sbas_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+        "message_count": 2005,
+        "first_timestamp": 1722894198209801746,
+        "last_timestamp": 1722895200261222697
+      },
+      {
+        "topic_name": "robot1/mip/gnss_corrections/rtk_corrections_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+        "message_count": 1003,
+        "first_timestamp": 1722894198292151001,
+        "last_timestamp": 1722895200343073158
+      }
+    ]
+  },
+  "robot3": {
+    "archive_path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip",
+    "storage_format": "ROS2 rosbag2 SQLite3/db3 CDR",
+    "archive_members": [
+      "robot3_main_campus_imu_gps/",
+      "robot3_main_campus_imu_gps/robot3_main_campus_imu_gps.db3",
+      "robot3_main_campus_imu_gps/metadata.yaml"
+    ],
+    "db3_member": "robot3_main_campus_imu_gps/robot3_main_campus_imu_gps.db3",
+    "metadata_member": "robot3_main_campus_imu_gps/metadata.yaml",
+    "bag_first_timestamp": 1722894197598199934,
+    "bag_last_timestamp": 1722896299260179127,
+    "topics": [
+      {
+        "topic_name": "robot3/imu/pressure",
+        "message_type": "sensor_msgs/msg/FluidPressure",
+        "message_count": 1050826,
+        "first_timestamp": 1722894197598199934,
+        "last_timestamp": 1722896299260179127
+      },
+      {
+        "topic_name": "robot3/imu/data",
+        "message_type": "sensor_msgs/msg/Imu",
+        "message_count": 1050826,
+        "first_timestamp": 1722894197598224950,
+        "last_timestamp": 1722896299260108699
+      },
+      {
+        "topic_name": "robot3/imu/mag",
+        "message_type": "sensor_msgs/msg/MagneticField",
+        "message_count": 1050826,
+        "first_timestamp": 1722894197598236208,
+        "last_timestamp": 1722896299260158833
+      },
+      {
+        "topic_name": "robot3/mip/gnss_1/fix_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732168161,
+        "last_timestamp": 1722896298823133741
+      },
+      {
+        "topic_name": "robot3/mip/gnss_1/sbas_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732257515,
+        "last_timestamp": 1722896298823428763
+      },
+      {
+        "topic_name": "robot3/gnss_1/llh_position",
+        "message_type": "sensor_msgs/msg/NavSatFix",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732547908,
+        "last_timestamp": 1722896298823374513
+      },
+      {
+        "topic_name": "robot3/gnss_1/velocity",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732600392,
+        "last_timestamp": 1722896298823383016
+      },
+      {
+        "topic_name": "robot3/gnss_1/velocity_ecef",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732612422,
+        "last_timestamp": 1722896298823389946
+      },
+      {
+        "topic_name": "robot3/gnss_1/odometry_earth",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732670785,
+        "last_timestamp": 1722896298823396262
+      },
+      {
+        "topic_name": "robot3/gnss_1/time",
+        "message_type": "sensor_msgs/msg/TimeReference",
+        "message_count": 4203,
+        "first_timestamp": 1722894197732678359,
+        "last_timestamp": 1722896298823421731
+      },
+      {
+        "topic_name": "robot3/ekf/imu/data",
+        "message_type": "sensor_msgs/msg/Imu",
+        "message_count": 210153,
+        "first_timestamp": 1722894197732692604,
+        "last_timestamp": 1722896299259518452
+      },
+      {
+        "topic_name": "robot3/ekf/llh_position",
+        "message_type": "sensor_msgs/msg/NavSatFix",
+        "message_count": 210153,
+        "first_timestamp": 1722894197732725350,
+        "last_timestamp": 1722896299259552671
+      },
+      {
+        "topic_name": "robot3/ekf/velocity",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 210153,
+        "first_timestamp": 1722894197732780867,
+        "last_timestamp": 1722896299259581898
+      },
+      {
+        "topic_name": "robot3/ekf/dual_antenna_heading",
+        "message_type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+        "message_count": 210153,
+        "first_timestamp": 1722894197732833377,
+        "last_timestamp": 1722896299259620760
+      },
+      {
+        "topic_name": "robot3/ekf/odometry_earth",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 210153,
+        "first_timestamp": 1722894197732886356,
+        "last_timestamp": 1722896299259594680
+      },
+      {
+        "topic_name": "robot3/ekf/odometry_map",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 210153,
+        "first_timestamp": 1722894197732942220,
+        "last_timestamp": 1722896299259607988
+      },
+      {
+        "topic_name": "robot3/mip/ekf/gnss_position_aiding_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+        "message_count": 420288,
+        "first_timestamp": 1722894197817168831,
+        "last_timestamp": 1722896299259485210
+      },
+      {
+        "topic_name": "robot3/mip/ekf/gnss_dual_antenna_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+        "message_count": 210143,
+        "first_timestamp": 1722894197827135137,
+        "last_timestamp": 1722896299259435475
+      },
+      {
+        "topic_name": "robot3/mip/ekf/status",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+        "message_count": 4203,
+        "first_timestamp": 1722894197827676421,
+        "last_timestamp": 1722896298840759734
+      },
+      {
+        "topic_name": "robot3/ekf/status",
+        "message_type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+        "message_count": 4203,
+        "first_timestamp": 1722894197827826655,
+        "last_timestamp": 1722896298840962794
+      },
+      {
+        "topic_name": "robot3/mip/ekf/multi_antenna_offset_correction",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+        "message_count": 8406,
+        "first_timestamp": 1722894197827837198,
+        "last_timestamp": 1722896298840984204
+      },
+      {
+        "topic_name": "robot3/mip/ekf/aiding_measurement_summary",
+        "message_type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+        "message_count": 24451,
+        "first_timestamp": 1722894197828132891,
+        "last_timestamp": 1722896298840955248
+      },
+      {
+        "topic_name": "robot3/mip/sensor/overrange_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+        "message_count": 4203,
+        "first_timestamp": 1722894197828270150,
+        "last_timestamp": 1722896298841096390
+      },
+      {
+        "topic_name": "robot3/mip/gnss_corrections/rtk_corrections_status",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+        "message_count": 2101,
+        "first_timestamp": 1722894197887837730,
+        "last_timestamp": 1722896298994728529
+      },
+      {
+        "topic_name": "robot3/mip/gnss_1/rf_error_detection",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+        "message_count": 8404,
+        "first_timestamp": 1722894198170242266,
+        "last_timestamp": 1722896298823154548
+      },
+      {
+        "topic_name": "robot3/mip/gnss_2/fix_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209100595,
+        "last_timestamp": 1722896298906816161
+      },
+      {
+        "topic_name": "robot3/mip/gnss_2/rf_error_detection",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+        "message_count": 8404,
+        "first_timestamp": 1722894198209111651,
+        "last_timestamp": 1722896298906827097
+      },
+      {
+        "topic_name": "robot3/gnss_2/llh_position",
+        "message_type": "sensor_msgs/msg/NavSatFix",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209163840,
+        "last_timestamp": 1722896298906957008
+      },
+      {
+        "topic_name": "robot3/gnss_2/velocity",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209173858,
+        "last_timestamp": 1722896298906982752
+      },
+      {
+        "topic_name": "robot3/gnss_2/velocity_ecef",
+        "message_type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209221318,
+        "last_timestamp": 1722896298906986611
+      },
+      {
+        "topic_name": "robot3/gnss_2/odometry_earth",
+        "message_type": "nav_msgs/msg/Odometry",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209232404,
+        "last_timestamp": 1722896298906992177
+      },
+      {
+        "topic_name": "robot3/gnss_2/time",
+        "message_type": "sensor_msgs/msg/TimeReference",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209281820,
+        "last_timestamp": 1722896298907068560
+      },
+      {
+        "topic_name": "robot3/mip/gnss_2/sbas_info",
+        "message_type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+        "message_count": 4202,
+        "first_timestamp": 1722894198209292992,
+        "last_timestamp": 1722896298907076102
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+event_id,robot_id,frame_id_before,frame_id_after,child_frame_id_before,child_frame_id_after,distinct_frame_pairs_in_10s_window,header_timestamp_regressions_or_duplicates,sequence_counter,node_session_restart_metadata,status
+robot1_rank01,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank02,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank03,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank04,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank05,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank06,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank07,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank08,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank09,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot1_rank10,robot1,robot1_map,robot1_map,imu_link,imu_link,"[[""robot1_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank01,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank02,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank03,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank04,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank05,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank06,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank07,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank08,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank09,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
+robot3_rank10,robot3,robot3_map,robot3_map,imu_link,imu_link,"[[""robot3_map"", ""imu_link""]]",0,NOT_AVAILABLE_IN_ROS2_HEADER,NOT_AVAILABLE_IN_ARCHIVE,NO_FRAME_CHANGE
