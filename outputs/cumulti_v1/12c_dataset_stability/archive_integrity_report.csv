@@ -1,0 +1,10 @@
+robot,component,path,exists,size_bytes,zip_integrity,sqlite_integrity,metadata_parse,status,db3_message_count,metadata_message_count,runtime_s
+robot1,lidar,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar.zip,True,30271098044,PASS,PASS,PASS,PASS,119981.0,119981.0,266.7799334526062
+robot1,imu_gps,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip,True,137411022,PASS,PASS,PASS,PASS,2465700.0,2465700.0,2.6800734996795654
+robot1,camera_rgb,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip,True,16873044643,PASS,PASS,PASS,PASS,29990.0,29990.0,173.58473920822144
+robot1,gt_rel_poses,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_rel_poses.zip,True,475926938,PASS,PASS,PASS,PASS,23998.0,23998.0,3.3312125205993652
+robot3,lidar,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip,True,57036299311,PASS,PASS,PASS,PASS,250740.0,250740.0,743.7514448165894
+robot3,imu_gps,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip,True,289456005,PASS,PASS,PASS,PASS,5167037.0,5167037.0,5.600389719009399
+robot3,camera_rgb,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip,True,33987903251,PASS,PASS,PASS,PASS,62931.0,62931.0,404.4741349220276
+robot3,gt_rel_poses,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip,True,2176736950,PASS,PASS,PASS,PASS,50152.0,50152.0,15.054062604904175
+ALL,calibration_urdf,/home/cas/CU-Multi/raw/calib/robot_description.zip,True,54498054,PASS,NOT_APPLICABLE,NOT_APPLICABLE,PASS,,,0.756354808807373

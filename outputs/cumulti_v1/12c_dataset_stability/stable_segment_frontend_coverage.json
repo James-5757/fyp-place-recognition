@@ -1,0 +1,11 @@
+{
+  "status": "FROZEN_RECORDS_FILTERED_ONLY_NO_RETRIEVAL",
+  "remaining_r1_queries": 1850,
+  "remaining_r3_database_keyframes": 3946,
+  "remaining_frozen_rank1_candidate_pairs": 1739,
+  "rank1_gicp_quality_threshold_frozen": 0.6091,
+  "remaining_rank1_gicp_accepted_pairs": 1101,
+  "remaining_rank1_sanitized_loops": 75,
+  "loop_schedule_K_1_2_5_10_20_feasible_by_count": true,
+  "warning": "count is opportunity only, not geometric rank/observability or a sparse-loop result"
+}

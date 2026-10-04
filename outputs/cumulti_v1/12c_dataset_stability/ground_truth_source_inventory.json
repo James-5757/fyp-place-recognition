@@ -1,0 +1,74 @@
+{
+  "robot1": {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_rel_poses.zip",
+    "db3_members": [
+      "robot1_main_campus_gt_rel_poses/robot1_main_campus_gt_rel_poses_0.db3"
+    ],
+    "topics": [
+      {
+        "name": "/tf",
+        "type": "tf2_msgs/msg/TFMessage",
+        "message_count": 19998
+      },
+      {
+        "name": "robot1/lio_sam/mapping/path",
+        "type": "nav_msgs/msg/Path",
+        "message_count": 4000
+      },
+      {
+        "name": "robot1/lio_sam/mapping/odometry",
+        "type": "nav_msgs/msg/Odometry",
+        "message_count": 0
+      }
+    ],
+    "use": "OFFLINE DIAGNOSTIC ONLY; not used for stable-start selection"
+  },
+  "robot2": {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_rel_poses.zip",
+    "db3_members": [
+      "robot2_main_campus_gt_rel_poses/robot2_main_campus_gt_rel_poses_0.db3"
+    ],
+    "topics": [
+      {
+        "name": "/tf",
+        "type": "tf2_msgs/msg/TFMessage",
+        "message_count": 22299
+      },
+      {
+        "name": "robot2/lio_sam/mapping/path",
+        "type": "nav_msgs/msg/Path",
+        "message_count": 4460
+      },
+      {
+        "name": "robot2/lio_sam/mapping/odometry",
+        "type": "nav_msgs/msg/Odometry",
+        "message_count": 0
+      }
+    ],
+    "use": "OFFLINE DIAGNOSTIC ONLY; not used for stable-start selection"
+  },
+  "robot3": {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip",
+    "db3_members": [
+      "robot3_main_campus_gt_rel_poses/robot3_main_campus_gt_rel_poses_0.db3"
+    ],
+    "topics": [
+      {
+        "name": "/tf",
+        "type": "tf2_msgs/msg/TFMessage",
+        "message_count": 41793
+      },
+      {
+        "name": "robot3/lio_sam/mapping/path",
+        "type": "nav_msgs/msg/Path",
+        "message_count": 8359
+      },
+      {
+        "name": "robot3/lio_sam/mapping/odometry",
+        "type": "nav_msgs/msg/Odometry",
+        "message_count": 0
+      }
+    ],
+    "use": "OFFLINE DIAGNOSTIC ONLY; not used for stable-start selection"
+  }
+}

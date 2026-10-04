@@ -1,0 +1,7 @@
+{
+  "decision": "DELAYED_START_INSUFFICIENT",
+  "large_late_recurrence_count": 4,
+  "no_graph_rebuilt": true,
+  "sparse_loop_after_future_clean_rebuild": "CONDITIONAL",
+  "condition": "Resolve covariance-only late alerts, freeze an independently validated odometry/graph policy, and verify the rebuilt graph before sparse-loop evaluation."
+}

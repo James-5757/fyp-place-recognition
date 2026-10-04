@@ -1,0 +1,19 @@
+{
+  "source_url": "https://github.com/arpg/CU-Multi",
+  "expected_top_level_components": [
+    "calib/description/robot.urdf",
+    "<environment>/<robot>/..."
+  ],
+  "expected_per_robot_components": [
+    "gt_utm_poses.csv",
+    "poses or gt_rel_poses bag",
+    "lidar bag",
+    "imu_gps bag",
+    "camera_rgb bag",
+    "camera_depth bag"
+  ],
+  "tf_expected_in": "separate ground-truth/poses bag (/tf world to base_link per official topic table)",
+  "imu_gnss_expected_in": "imu_gps bag",
+  "tf_expected_inside_imu_gps": false,
+  "note": "official repository lists uncompressed conceptual directories; local distribution is ZIP archives"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PASS_STABLE_SEGMENTS_FOUND",
+  "robots": {
+    "robot1": {
+      "stable_start_keyframe": 150,
+      "stable_start_timestamp_ns": 1722894275697938011,
+      "seconds_from_bag_start": 75.034256435,
+      "unstable_keyframes_excluded_at_beginning": 150,
+      "retained_keyframes": 1850,
+      "retained_fraction": 0.925,
+      "retained_duration_s": 924.500771226,
+      "frozen_thresholds": {
+        "translation_step_xy_m": {
+          "reference_median": 0.20555221175337646,
+          "reference_mad": 0.06862587976409704,
+          "threshold": 1.222999505135879,
+          "sample_count": 1000
+        },
+        "rotation_step_deg": {
+          "reference_median": 0.9468427621738758,
+          "reference_mad": 0.5327013792283455,
+          "threshold": 8.844673410613325,
+          "sample_count": 1000
+        },
+        "implied_speed_mps": {
+          "reference_median": 1.3682238972477407,
+          "reference_mad": 0.19454511292880583,
+          "threshold": 4.252549741530216,
+          "sample_count": 1000
+        },
+        "ekf_gnss_step_magnitude_disagreement_m": {
+          "reference_median": 0.4365486466906363,
+          "reference_mad": 0.16019690709638268,
+          "threshold": 2.811627991301606,
+          "sample_count": 1000
+        },
+        "ekf_position_covariance_trace": {
+          "reference_median": 0.06392822351078586,
+          "threshold": 0.3196411175539293,
+          "sample_count": 999
+        }
+      }
+    },
+    "robot3": {
+      "stable_start_keyframe": 234,
+      "stable_start_timestamp_ns": 1722894326626535261,
+      "seconds_from_bag_start": 117.003183625,
+      "unstable_keyframes_excluded_at_beginning": 234,
+      "retained_keyframes": 3946,
+      "retained_fraction": 0.9440191387559809,
+      "retained_duration_s": 1972.507870178,
+      "frozen_thresholds": {
+        "translation_step_xy_m": {
+          "reference_median": 0.3942878314331384,
+          "reference_mad": 0.20648292048415023,
+          "threshold": 3.455603610531149,
+          "sample_count": 2090
+        },
+        "rotation_step_deg": {
+          "reference_median": 1.341879370454486,
+          "reference_mad": 0.8369723759012273,
+          "threshold": 13.75083181556608,
+          "sample_count": 2090
+        },
+        "implied_speed_mps": {
+          "reference_median": 1.492056122184891,
+          "reference_mad": 0.2215348853825687,
+          "threshold": 4.7765323328668545,
+          "sample_count": 2090
+        },
+        "ekf_gnss_step_magnitude_disagreement_m": {
+          "reference_median": 0.26752404304322863,
+          "reference_mad": 0.22932186399945753,
+          "threshold": 3.667449998699186,
+          "sample_count": 2090
+        },
+        "ekf_position_covariance_trace": {
+          "reference_median": 0.08464466647446767,
+          "threshold": 0.42322333237233833,
+          "sample_count": 2090
+        }
+      }
+    }
+  },
+  "policy_file": "stable_start_policy.json",
+  "GT_used": false
+}

@@ -1,0 +1,38 @@
+{
+  "robot1": {
+    "gt_utm_poses": true,
+    "gt_rel_poses": true,
+    "lidar": true,
+    "imu_gps": true,
+    "camera_rgb": true,
+    "camera_depth": true,
+    "lidar_labels": true
+  },
+  "robot2": {
+    "gt_utm_poses": true,
+    "gt_rel_poses": true,
+    "lidar": true,
+    "imu_gps": true,
+    "camera_rgb": true,
+    "camera_depth": true,
+    "lidar_labels": true
+  },
+  "robot3": {
+    "gt_utm_poses": true,
+    "gt_rel_poses": true,
+    "lidar": true,
+    "imu_gps": true,
+    "camera_rgb": true,
+    "camera_depth": false,
+    "lidar_labels": false
+  },
+  "robot4": {
+    "gt_utm_poses": true,
+    "gt_rel_poses": false,
+    "lidar": false,
+    "imu_gps": false,
+    "camera_rgb": false,
+    "camera_depth": false,
+    "lidar_labels": false
+  }
+}

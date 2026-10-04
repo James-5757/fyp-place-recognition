@@ -1,0 +1,3 @@
+robot,event,status,gt_source,gt_match_error_before_s,gt_match_error_after_s,gt_translation_xy_m,gt_translation_xyz_m,local_ekf_translation_xy_m,use
+robot1,KF57->58,OFFLINE_DIAGNOSTIC_ONLY,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv,0.0066699981689453125,0.008645296096801758,0.0035311124709662273,0.00390231528225247,291.4541309594217,OFFLINE DIAGNOSTIC ONLY; NOT USED FOR STABLE-START SELECTION
+robot3,KF42->43,OFFLINE_DIAGNOSTIC_ONLY,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv,0.008771657943725586,0.008829355239868164,0.005536829686351041,0.005545004444997096,333.57520142600066,OFFLINE DIAGNOSTIC ONLY; NOT USED FOR STABLE-START SELECTION

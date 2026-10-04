@@ -1,0 +1,46 @@
+{
+  "decision": "NO_DOWNLOAD_NEEDED",
+  "exact_missing_paths": [
+    {
+      "robot": "robot3",
+      "component": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip"
+    },
+    {
+      "robot": "robot3",
+      "component": "lidar_labels",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar_labels.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "gt_rel_poses",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_rel_poses.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "lidar",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_lidar.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "imu_gps",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_imu_gps.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "camera_rgb",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_camera_rgb.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_camera_depth.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "lidar_labels",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_lidar_labels.zip"
+    }
+  ],
+  "note": "No download started; omitted Robot3 depth/labels and Robot4 sensor archives are optional for the current R1/R3 study."
+}

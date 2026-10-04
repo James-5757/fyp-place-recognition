@@ -1,0 +1,49 @@
+{
+  "status": "COMPLETE_FOR_CURRENT_PIPELINE",
+  "required_r1_r3_lidar_imu_rgb_gt_present": true,
+  "all_checked_pipeline_archives_integrity_pass": true,
+  "full_official_four_robot_download_complete": false,
+  "missing_official_optional_components": [
+    {
+      "robot": "robot3",
+      "component": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip"
+    },
+    {
+      "robot": "robot3",
+      "component": "lidar_labels",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar_labels.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "gt_rel_poses",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_rel_poses.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "lidar",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_lidar.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "imu_gps",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_imu_gps.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "camera_rgb",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_camera_rgb.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_camera_depth.zip"
+    },
+    {
+      "robot": "robot4",
+      "component": "lidar_labels",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_lidar_labels.zip"
+    }
+  ],
+  "interpretation": "R1/R3 current pipeline has required input; full 4-robot official dataset is not all locally downloaded. /tf exists in separate gt_rel_poses ZIPs."
+}

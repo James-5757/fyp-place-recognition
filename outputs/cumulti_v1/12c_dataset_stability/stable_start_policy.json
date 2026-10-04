@@ -1,0 +1,25 @@
+{
+  "status": "PREDECLARED_BEFORE_STABLE_START_APPLICATION",
+  "input": "frozen Stage12A 2-Hz keyframes plus nearest raw EKF and dual-GNSS; no GT",
+  "lookback_seconds": 10,
+  "persistence_seconds": 30,
+  "tail_reference_fraction": 0.5,
+  "robust_mad_scale": 1.4826,
+  "step_rotation_speed_disagreement_mad_multiplier": 10,
+  "covariance_final_half_median_multiplier": 5,
+  "major_recurrence_threshold_multiplier": 5,
+  "signals": [
+    "translation_step_xy_m",
+    "rotation_step_deg",
+    "implied_speed_mps",
+    "ekf_position_covariance_trace",
+    "ekf_gnss_step_magnitude_disagreement_m"
+  ],
+  "gnss_requirement": "both raw antennas finite and fix status >=0; nearest <=0.35s; disagreement only if new GNSS sample",
+  "ekf_requirement": "nearest <=0.05s, finite covariance, monotonically increasing timestamps and stable frame pair",
+  "window_rule": "each of the previous 20 keyframes meets all available signal thresholds; GNSS disagreement is tested only with distinct samples",
+  "declaration_rule": "first keyframe after 60 consecutive passing look-back windows; conservative declaration time, no backdating",
+  "late_major_recurrence": "any signal >5x its frozen limit after declaration; separately record ordinary threshold exceedances",
+  "no_gt": true,
+  "no_post_hoc_threshold_tuning": true
+}
