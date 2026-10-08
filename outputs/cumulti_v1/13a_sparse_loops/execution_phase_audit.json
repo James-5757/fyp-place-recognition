@@ -1,0 +1,7 @@
+{
+  "policy_persisted_before_solves": true,
+  "all_28_solves_completed_before_decision": true,
+  "decision_UTC": "2026-10-08T06:58:53.913957+00:00",
+  "GT_first_access_not_before_decision": true,
+  "no_solver_after_GT": true
+}

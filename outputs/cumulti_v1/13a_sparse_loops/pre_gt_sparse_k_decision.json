@@ -1,0 +1,95 @@
+{
+  "status": "NO_SPARSE_SAVING",
+  "selected_K": null,
+  "UTC": "2026-10-08T06:58:53.913957+00:00",
+  "GT_used": false,
+  "rule": {
+    "UTC": "2026-10-08T06:57:47.501231+00:00",
+    "K_schedule": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      40,
+      75
+    ],
+    "reference_K": 75,
+    "relative_tolerance": 0.1,
+    "primary": "smallest K<75 with global NN median and p95 <=1.10 times K75, normal finite solve, no new catastrophic steps",
+    "secondary": "same ROI comparison; not used for primary selection",
+    "GT_used": false
+  },
+  "all_K_metrics": [
+    {
+      "K": 1,
+      "global_median_m": 10.86516611476499,
+      "global_p95_m": 144.8328004182629,
+      "ROI_median_m": 3.238937411692522,
+      "ROI_p95_m": 21.839731697459065,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    },
+    {
+      "K": 2,
+      "global_median_m": 8.102668423224996,
+      "global_p95_m": 129.73814479038333,
+      "ROI_median_m": 3.0660036280116563,
+      "ROI_p95_m": 21.594199539272715,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    },
+    {
+      "K": 5,
+      "global_median_m": 4.288244672241088,
+      "global_p95_m": 135.55656459822947,
+      "ROI_median_m": 1.781833825000955,
+      "ROI_p95_m": 17.551371045460666,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    },
+    {
+      "K": 10,
+      "global_median_m": 4.228912658555529,
+      "global_p95_m": 115.8049031149807,
+      "ROI_median_m": 1.8754242316012495,
+      "ROI_p95_m": 18.75473825020163,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    },
+    {
+      "K": 20,
+      "global_median_m": 4.099509098497661,
+      "global_p95_m": 117.66806911926258,
+      "ROI_median_m": 1.844217245412093,
+      "ROI_p95_m": 19.650515620233385,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    },
+    {
+      "K": 40,
+      "global_median_m": 6.188868171597982,
+      "global_p95_m": 115.25144775136043,
+      "ROI_median_m": 1.7426092397348416,
+      "ROI_p95_m": 19.332942035129967,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    },
+    {
+      "K": 75,
+      "global_median_m": 3.0305062790205817,
+      "global_p95_m": 119.27754249009998,
+      "ROI_median_m": 1.3397882379265664,
+      "ROI_p95_m": 15.46382871872527,
+      "normal_finite_no_new_catastrophe": true,
+      "qualifies_primary": false,
+      "qualifies_secondary_ROI": false
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "UTC": "2026-10-08T06:57:47.501231+00:00",
+  "K_schedule": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    40,
+    75
+  ],
+  "reference_K": 75,
+  "relative_tolerance": 0.1,
+  "primary": "smallest K<75 with global NN median and p95 <=1.10 times K75, normal finite solve, no new catastrophic steps",
+  "secondary": "same ROI comparison; not used for primary selection",
+  "GT_used": false
+}

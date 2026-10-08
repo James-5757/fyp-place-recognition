@@ -1,0 +1,163 @@
+{
+  "1": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  },
+  "2": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  },
+  "5": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  },
+  "10": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  },
+  "20": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  },
+  "40": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  },
+  "75": {
+    "rows": 5796,
+    "finite": true,
+    "unit_quaternions": true,
+    "unique_semantic_ids": true,
+    "robots": {
+      "robot1": {
+        "count": 1850,
+        "first": 150,
+        "last": 1999,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      },
+      "robot3": {
+        "count": 3946,
+        "first": 234,
+        "last": 4179,
+        "continuous_ids": true,
+        "monotonic_timestamps": true
+      }
+    },
+    "PASS": true
+  }
+}

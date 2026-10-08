@@ -1,0 +1,37 @@
+[
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K10_optimized.csv",
+    "size_bytes": 977157,
+    "sha256": "bff02db48e80e2d64ac2bf4ba7d97526b71f2608ceb177d1659a6876df31a717"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K1_optimized.csv",
+    "size_bytes": 984070,
+    "sha256": "a9894645fb20a932dd8e8bcf6a40fe8f988ef965535e83956ecc840509772306"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K20_optimized.csv",
+    "size_bytes": 977259,
+    "sha256": "26c23e523375e49f932644c8c4984561c78cdfe1a1aabf56d267741d3bb29604"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K2_optimized.csv",
+    "size_bytes": 978766,
+    "sha256": "b7a29a18dce58b4465750340d4950a3376e34e76850e78ea0c829573a4c37f4b"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K40_optimized.csv",
+    "size_bytes": 978566,
+    "sha256": "f51d3b842e44ed19632d7e09f57c035c00a3fd41576c0279ac7bd655815a94ae"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K5_optimized.csv",
+    "size_bytes": 978933,
+    "sha256": "9231630e83ea92c4ad723e6d6d53bf47acb0483fc815ed7f42ffe956fc091273"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/trajectories/K75_optimized.csv",
+    "size_bytes": 977886,
+    "sha256": "cfa3cdd62317ad6f8d239569639e038e67d645ae95684cfb20185e8a64c138cc"
+  }
+]

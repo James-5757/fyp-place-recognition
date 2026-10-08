@@ -134,3 +134,23 @@ transition without a pre-PGO robust flag. Demo stride-10 lines make some of
 these existing jumps look straighter, especially Robot3 keyframes 40–50 and
 50–60. This is a source-trajectory integrity finding, not a new retrieval or
 registration result. See `docs/CUMULTI_STAGE12A_TRAJECTORY_INTEGRITY.md`.
+
+## CU-Multi Stage 13A sparse-loop batch evaluation (verified)
+
+Using Stage12D's fixed stable segments, same first-loop initialization and actual
+factor construction, all seven K=1/2/5/10/20/40/75 graphs pass finite-pose and
+trajectory-integrity checks. The first loop establishes connectivity (2→1), not
+proven global accuracy. K1 and K75 reproduce the frozen Stage12D references.
+
+Global map NN medians are **10.865/8.103/4.288/4.229/4.100/6.189/3.031 m**;
+p95 values are **144.833/129.738/135.557/115.805/117.668/115.251/119.278 m**.
+The predeclared ≤1.10×K75 median AND p95 rule selects **NO_SPARSE_SAVING**.
+No GT participates in this decision. Batch LM means are 0.115–0.393 s (one
+warmup, three measured repetitions; not incremental/real-time latency).
+
+Offline-only joint ATE is **16.966/21.182/17.771/22.383/21.900/27.598/19.608 m**.
+Neither map agreement nor trajectory accuracy improves monotonically. Full
+per-robot/combined RPE, fixed loop-region NN, common75 hindsight residuals and
+timings are in `outputs/cumulti_v1/13a_sparse_loops/`. Stage13B readiness is
+**READY_FOR_INCREMENTAL_METHOD_STUDY**, not authorization or evidence for live
+fusion. See `docs/CUMULTI_STAGE13A_SPARSE_LOOPS.md`.

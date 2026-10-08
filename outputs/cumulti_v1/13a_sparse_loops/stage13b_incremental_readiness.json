@@ -1,0 +1,11 @@
+{
+  "status": "READY_FOR_INCREMENTAL_METHOD_STUDY",
+  "frozen_schedule_valid": true,
+  "first_common_frame_reproducible": true,
+  "all_K_valid": true,
+  "catastrophic_steps": 0,
+  "arrival_semantics": "first K frozen Robot1 query-arrival rows with pre-existing Robot3 database; separate recordings, NOT simultaneous causal two-stream time",
+  "sparse_K_status": "NO_SPARSE_SAVING",
+  "requires_separate_causal_event_scheduler": true,
+  "iSAM2_implemented": false
+}

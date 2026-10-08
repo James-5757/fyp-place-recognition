@@ -1,0 +1,9 @@
+{
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+  "gtsam": "4.2",
+  "executable": "/home/cas/.venvs/fyp_gtsam/bin/python",
+  "cpu": "\t: INTEL(R) XEON(R) GOLD 6530",
+  "logical_cpus": 128,
+  "memory": "MemTotal:       263749508 kB"
+}

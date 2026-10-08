@@ -1,0 +1,12 @@
+{
+  "before_components": 2,
+  "after_components": 1,
+  "connectivity_sufficient": true,
+  "common_frame_valid": true,
+  "K1_vs_frozen_first_max_translation_m": 4.735781992426959e-13,
+  "K1_vs_frozen_first_max_rotation_rad": 4.248185266586123e-15,
+  "initial_edge_translation_m": 3.972054645195637e-15,
+  "initial_edge_rotation_deg": 2.6893607324763214e-15,
+  "global_accuracy": "NOT ESTABLISHED",
+  "GT_used": false
+}

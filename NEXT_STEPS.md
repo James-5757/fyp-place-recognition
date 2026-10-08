@@ -52,3 +52,19 @@ Robot3 path. Before a sparse first-loop / incremental-loop study or a new demo,
 investigate the EKF source intervals documented in
 `docs/CUMULTI_STAGE12A_TRAJECTORY_INTEGRITY.md`. Any trajectory or demo repair
 must be a separate reviewed change; preserve frozen Stage 10.3 outputs.
+
+## Current Stage 13A stop point (supersedes earlier stage-specific stop notes)
+
+Stage12D's frozen stable-segment graph has now been independently evaluated at
+K=1/2/5/10/20/40/75, preserving the first-arrival loop schedule, initial poses,
+factor noise and historical outputs. Stage13A passes reproduction and integrity
+audits, but the frozen map-median/p95 rule finds NO_SPARSE_SAVING. Do not choose
+K from the subsequent offline GT results or claim monotonic accuracy gains.
+
+Readiness is READY_FOR_INCREMENTAL_METHOD_STUDY. A separately authorized
+Stage13B must predeclare a causal two-stream event scheduler and database
+availability, then compare incremental updates against the frozen batch
+reference. Current ordering is a separate-run query replay with an existing
+Robot3 database, not simultaneous online robot operation. Do not start iSAM2,
+live/replay demo changes, alternative loop selection, or covariance weighting
+automatically. Stop after Stage13A; see `docs/CUMULTI_STAGE13A_SPARSE_LOOPS.md`.

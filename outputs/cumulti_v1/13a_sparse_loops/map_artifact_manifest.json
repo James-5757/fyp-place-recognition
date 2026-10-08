@@ -1,0 +1,203 @@
+{
+  "artifacts": [
+    {
+      "K": 1,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K1_robot1.ply",
+      "size_bytes": 3358260,
+      "sha256": "e63765b695c1620e8b1142b8d1f89c2c434868029d69bf4373216b27cdfae1db",
+      "points": 279845,
+      "server_only": true
+    },
+    {
+      "K": 1,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K1_robot3.ply",
+      "size_bytes": 7865040,
+      "sha256": "2dc1b51dbb055048aadf3bfcb78c6b9c94d99740fd92839a251849d38f95f4ba",
+      "points": 655410,
+      "server_only": true
+    },
+    {
+      "K": 1,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K1_merged.ply",
+      "size_bytes": 11179224,
+      "sha256": "07964f08edcfb583aadec02b1f0241695959cecc04ca94be890ea30caee36805",
+      "points": 931592,
+      "server_only": true
+    },
+    {
+      "K": 2,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K2_robot1.ply",
+      "size_bytes": 3358380,
+      "sha256": "73d7aa5315adbdbfc1155b9a9e6247eb6657bc388c0d3839dcfd15edb2d63e48",
+      "points": 279855,
+      "server_only": true
+    },
+    {
+      "K": 2,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K2_robot3.ply",
+      "size_bytes": 7925304,
+      "sha256": "3120fa82a9c0b3c6e2c88ad2489c2ce311fa592365a2a4a43389c073f8bcda89",
+      "points": 660432,
+      "server_only": true
+    },
+    {
+      "K": 2,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K2_merged.ply",
+      "size_bytes": 11232960,
+      "sha256": "6c818a8348e1b6ac01841e64a333bed62090863bfd2c11eb8a8a2e10aa3e3d35",
+      "points": 936070,
+      "server_only": true
+    },
+    {
+      "K": 5,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K5_robot1.ply",
+      "size_bytes": 3360672,
+      "sha256": "7312aefc9af1871eb13c187f67d2d3b267fc1e6f8cb58a4c5941a750422daaa8",
+      "points": 280046,
+      "server_only": true
+    },
+    {
+      "K": 5,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K5_robot3.ply",
+      "size_bytes": 7929456,
+      "sha256": "e210a097b4479502cdb81e8f81ddc7900fde9186a53418144e7b29159aa9f717",
+      "points": 660778,
+      "server_only": true
+    },
+    {
+      "K": 5,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K5_merged.ply",
+      "size_bytes": 11157300,
+      "sha256": "9eca89cb39f3101aadb2f7f5e7fba701f4dcba25c20d98643c125e99cf905a43",
+      "points": 929765,
+      "server_only": true
+    },
+    {
+      "K": 10,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K10_robot1.ply",
+      "size_bytes": 3385296,
+      "sha256": "3e43b2c4c96127ae9a481aacdb266a49d8869d929bc3640cb28618d41aaeb1e6",
+      "points": 282098,
+      "server_only": true
+    },
+    {
+      "K": 10,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K10_robot3.ply",
+      "size_bytes": 7982532,
+      "sha256": "c880554b1da684da5f956bfc7adddd7b074c6af2a112d8ca1ae554e13dd9fa63",
+      "points": 665201,
+      "server_only": true
+    },
+    {
+      "K": 10,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K10_merged.ply",
+      "size_bytes": 11211828,
+      "sha256": "a5ad6eb008dc69dbfab05f47b60c68228fb26ec0b8c7e1663732f2e162a277b0",
+      "points": 934309,
+      "server_only": true
+    },
+    {
+      "K": 20,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K20_robot1.ply",
+      "size_bytes": 3377424,
+      "sha256": "90558a8074d73e470329f885b3d1527dc1fc2b147c2f30c7b8f6704fddc931a3",
+      "points": 281442,
+      "server_only": true
+    },
+    {
+      "K": 20,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K20_robot3.ply",
+      "size_bytes": 7973928,
+      "sha256": "b34306aa702df85035be5a35ef141c64cfc6507a08edb422479d27778d61f037",
+      "points": 664484,
+      "server_only": true
+    },
+    {
+      "K": 20,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K20_merged.ply",
+      "size_bytes": 11179188,
+      "sha256": "75f05be46fe479ef1a903f6dce29bcbb8e70eadcdc02101c89e9b666f2253f59",
+      "points": 931589,
+      "server_only": true
+    },
+    {
+      "K": 40,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K40_robot1.ply",
+      "size_bytes": 3394032,
+      "sha256": "8de4fe1131e9a7f9580709b801f9ab1768b75154d8cc6931e7d1ce46d2b51d57",
+      "points": 282826,
+      "server_only": true
+    },
+    {
+      "K": 40,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K40_robot3.ply",
+      "size_bytes": 7958772,
+      "sha256": "e4a773c848cd4abbd753178a169cf2175704cc3576108aad9bab4d5543d057a7",
+      "points": 663221,
+      "server_only": true
+    },
+    {
+      "K": 40,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K40_merged.ply",
+      "size_bytes": 11199504,
+      "sha256": "a34171bb8776e43afc3f4ebde6fe7170ff442ea6328f282faca7ee7899b1b2a8",
+      "points": 933282,
+      "server_only": true
+    },
+    {
+      "K": 75,
+      "source": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K75_robot1.ply",
+      "size_bytes": 3368604,
+      "sha256": "1ac16889d3b00d72d7456a1e8fb1ec060a557f162bad56c87d6d39c3f60b2d1c",
+      "points": 280707,
+      "server_only": true
+    },
+    {
+      "K": 75,
+      "source": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K75_robot3.ply",
+      "size_bytes": 7982676,
+      "sha256": "d8e3a2a71cf574847c376eb55003142b831fd90441afe2e98684f8f7fb5611bc",
+      "points": 665213,
+      "server_only": true
+    },
+    {
+      "K": 75,
+      "source": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13a_sparse_loops/maps/K75_merged.ply",
+      "size_bytes": 11103792,
+      "sha256": "1e87518e0721fb0f4cfeacec1ef11bc960d85e060a9cefad464771b8de44961c",
+      "points": 925306,
+      "server_only": true
+    }
+  ],
+  "protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5,
+    "frame_stride_origin": "first retained keyframe per robot",
+    "range_filter_m": [
+      1,
+      60
+    ]
+  }
+}

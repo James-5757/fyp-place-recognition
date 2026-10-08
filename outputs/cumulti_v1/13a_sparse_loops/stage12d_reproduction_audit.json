@@ -1,0 +1,55 @@
+{
+  "checks": [
+    {
+      "K": 1,
+      "metric": "median_m",
+      "actual": 10.86516611476499,
+      "expected": 10.865166114765012,
+      "tolerance": 1e-05,
+      "PASS": true
+    },
+    {
+      "K": 1,
+      "metric": "p95_m",
+      "actual": 144.8328004182629,
+      "expected": 144.8328004182629,
+      "tolerance": 1e-05,
+      "PASS": true
+    },
+    {
+      "K": 75,
+      "metric": "median_m",
+      "actual": 3.0305062790205817,
+      "expected": 3.0305062789116315,
+      "tolerance": 1e-05,
+      "PASS": true
+    },
+    {
+      "K": 75,
+      "metric": "p95_m",
+      "actual": 119.27754249009998,
+      "expected": 119.27754248993573,
+      "tolerance": 1e-05,
+      "PASS": true
+    },
+    {
+      "K": 75,
+      "metric": "final_graph_error",
+      "actual": 23.840383645478425,
+      "expected": 23.84038364547845,
+      "tolerance": 1e-07,
+      "PASS": true
+    },
+    {
+      "K": 75,
+      "metric": "loop_translation_p95_m",
+      "actual": 0.19620215705400892,
+      "expected": 0.1962021570539917,
+      "tolerance": 1e-07,
+      "PASS": true
+    }
+  ],
+  "K1_PASS": true,
+  "K75_PASS": true,
+  "reference_artifacts_unmodified": true
+}

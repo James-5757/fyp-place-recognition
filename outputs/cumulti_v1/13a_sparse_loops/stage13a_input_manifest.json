@@ -1,0 +1,94 @@
+{
+  "accepted_stage12d_commit": "8946e29eb74658bfb0a5bf85635ff1aeac05a417",
+  "inputs": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv",
+      "sha256": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297",
+      "size_bytes": 982171
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_first_loop_trajectory.csv",
+      "sha256": "50426694f828b2783a6c5ca4758f60c9970f8a1d7f4a20373234dc1e65a3ff0d",
+      "size_bytes": 984137
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/ordered_rank1_clean_loops.csv",
+      "sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+      "size_bytes": 24393
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/stage13_loop_schedule.json",
+      "sha256": "308a937230a018e7166b4e12d12141c4663cfb6e9b338ec7e65f4e5f12502fa4",
+      "size_bytes": 16091
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_graph_policy.json",
+      "sha256": "b92c91de71c739fd1494dccea07df0974dbb319f0e19affaffbde0756e1c7242",
+      "size_bytes": 2325
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_gtsam_solver_policy.json",
+      "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+      "size_bytes": 1377
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_map_consistency.csv",
+      "sha256": "32f2877cd4f0e3115bc45e90cde4810bef8e64826b97343de3eb6ea51944078d",
+      "size_bytes": 241
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_gtsam_solver_result.json",
+      "sha256": "dbc929dcde8de1ecd83cf95fd3c6df0a68d2ed0c9fcec3c8e18741c0e7e19481",
+      "size_bytes": 800
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_loop_residuals.csv",
+      "sha256": "c01b565d93ede384d2dcd39627c35d810029abd40ca6a366691b6b3db956e6d5",
+      "size_bytes": 6095
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage12d_clean_backend.py",
+      "sha256": "719558c35b34b2e4b063189ca68a2c291601f93d9153fde77008a45e2ffd8037",
+      "size_bytes": 49494
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage10_offline_map_merge.py",
+      "sha256": "08eb6f35a7f019312448e7c45d215f9e9f2d3415f799e7b966d91256cc4ec3c9",
+      "size_bytes": 16801
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage103_gtsam_solver_audit.py",
+      "sha256": "55ed910b780abc665eb76fbc7b9674227e6791088ade67bab9390307382bcc17",
+      "size_bytes": 5576
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage12a_trajectory_integrity.py",
+      "sha256": "1613c083d2b04c328277cdf455059b8961db28afd73ccb20f191e792a31d9401",
+      "size_bytes": 33791
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/keyframes.csv",
+      "sha256": "a5720e59d2b93c27fc6f48e99fbd4e73062ec7b129334b8c7bd9aea75b15b690",
+      "size_bytes": 547588
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/keyframes.csv",
+      "sha256": "b88fe6212a1f8d4bbe13d5ac0bb04f4637381cfb57089efbe34ff15e59e734ea",
+      "size_bytes": 1415107
+    }
+  ],
+  "nodes": 5796,
+  "odometry_factors": 5794,
+  "loop_list_hash": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+  "K_schedule": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    40,
+    75
+  ],
+  "frame": "LiDAR/os_sensor; exact Stage12D KF0-relative gauge and URDF extrinsic",
+  "GT_used": false
+}

@@ -1,0 +1,130 @@
+{
+  "UTC": "2026-10-08T06:57:47.502678+00:00",
+  "K_schedule": [
+    1,
+    2,
+    5,
+    10,
+    20,
+    40,
+    75
+  ],
+  "nodes": 5796,
+  "odometry_factors": 5794,
+  "prior_factors": 1,
+  "loop_order": "first K frozen Robot1 query-arrival rows with pre-existing Robot3 database; separate recordings, NOT simultaneous causal two-stream time",
+  "initialization": "same frozen Stage12D first-arrival common trajectory for every independent solve and repetition; no warm start",
+  "graph_policy": {
+    "robot1_start_keyframe": 150,
+    "robot3_start_keyframe": 234,
+    "stable_start_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_selection.json",
+    "stable_start_source_sha256": "f5c274ed004593ecee8bd6b2c44241372fee41431ccef171a922a373adeeb010",
+    "node_frame": "LiDAR/os_sensor; exact Stage10.3 IMU-to-LiDAR convention",
+    "node_ids": "original (robot_id,keyframe_id), preserved in GTSAM symbols and exported CSVs",
+    "local_coordinate_gauge": "exact Stage10.3 KF0-relative local matrices; retained values are not rebased or repaired",
+    "graph_anchor": "Robot1 KF150 at its frozen local Pose3",
+    "odometry_source": "raw ekf/odometry_map, nearest frozen LiDAR timestamps; T_world_imu @ T_imu_lidar; same Stage10.3 helper",
+    "odometry_factor": "Z_i,i+1 = X_i^-1 X_i+1, only sequential retained IDs",
+    "odometry_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "robust": false
+    },
+    "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+    "loop_source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+    "loop_filter": "query robot1 KF>=150 AND candidate robot3 KF>=234; no other filtering",
+    "expected_loops_from_stage12c": 75,
+    "loop_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "Huber_delta": 1.345
+    },
+    "loop_transform": "Z_qc=T_query_from_candidate=X_query^-1 X_candidate",
+    "default_initialization": "FIRST_ARRIVAL_INIT; accepted only when frozen equivalence diagnostics pass",
+    "arrival_order": "query_timestamp, query_keyframe_id, candidate_keyframe_id; separate-run R1->R3 replay query order",
+    "optimizer": "GTSAM 4.2 Pose3 LevenbergMarquardtOptimizer, unchanged documented default parameters",
+    "noise_tangent_order": "[rx,ry,rz,tx,ty,tz]",
+    "map_protocol": {
+      "frame_stride": 10,
+      "point_stride": 16,
+      "voxel_m": 0.5,
+      "frame_stride_origin": "first retained keyframe per robot",
+      "range_filter_m": [
+        1,
+        60
+      ]
+    },
+    "catastrophic_integrity_rule": {
+      "absolute_translation_xyz_m": 100.0,
+      "new_lineage_jump": "post XYZ>5x Stage12C frozen XY step limit AND pre-common XYZ<=5x same limit",
+      "thresholds_fitted_to_clean_result": false
+    },
+    "GT_used": false
+  },
+  "solver_policy": {
+    "gtsam_version": "4.2",
+    "optimizer": "LevenbergMarquardtOptimizer",
+    "parameters": {
+      "getMaxIterations": 100,
+      "getRelativeErrorTol": 1e-05,
+      "getAbsoluteErrorTol": 1e-05,
+      "getErrorTol": 0.0,
+      "getlambdaInitial": 1e-05,
+      "getlambdaFactor": 10.0,
+      "getlambdaLowerBound": 0.0,
+      "getlambdaUpperBound": 100000.0,
+      "getLinearSolverType": "MULTIFRONTAL_CHOLESKY",
+      "getOrderingType": "COLAMD",
+      "getDiagonalDamping": false
+    },
+    "parameter_text": "\nrelative decrease threshold: 1e-05\nabsolute decrease threshold: 1e-05\n      total error threshold: 0\n         maximum iterations: 100\n                  verbosity: SILENT\n         linear solver type: MULTIFRONTAL CHOLESKY\n                   ordering: COLAMD\n              lambdaInitial: 1e-05\n               lambdaFactor: 10\n           lambdaUpperBound: 100000\n           lambdaLowerBound: 0\n           minModelFidelity: 0.001\n            diagonalDamping: 0\n                minDiagonal: 1e-06\n                maxDiagonal: 1e+32\n                verbosityLM: SILENT\n",
+    "parameter_tuning": false,
+    "environment": "/home/cas/.venvs/fyp_gtsam",
+    "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+    "noise_sigmas_rot_then_trans": [
+      0.08726646259971647,
+      0.08726646259971647,
+      0.08726646259971647,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Huber_delta": 1.345
+  },
+  "metric": "union of two directed 3D nearest-neighbor distance arrays between separately voxelized source maps",
+  "residual": "Stage12D E=Z^-1 Xq^-1 Xc; physical translation norm, rotation angle; reconstructed diagnostic Huber weight not internal GTSAM weight",
+  "benchmark": {
+    "warmups": 1,
+    "measured_repetitions": 3,
+    "p95": "small-sample empirical percentile, not reliable latency-tail estimate",
+    "graph_construction": "reuse exact Stage12D factor template; per-K prefix-copy cost, template build reported separately",
+    "total": "prefix construction + one canonical measured solve + map construction/export + global/ROI consistency; excludes warmup/repeats and GT"
+  },
+  "reproduction_tolerances": {
+    "map_absolute_m": 1e-05,
+    "graph_absolute": 1e-07,
+    "residual_absolute_m": 1e-07,
+    "pose_translation_m": 1e-07,
+    "pose_rotation_rad": 1e-08,
+    "reason": "same deterministic factors/solver/scans; float64 CSV round-trip tolerance fixed before new runs"
+  },
+  "sparse_rule": {
+    "UTC": "2026-10-08T06:57:47.501231+00:00",
+    "K_schedule": [
+      1,
+      2,
+      5,
+      10,
+      20,
+      40,
+      75
+    ],
+    "reference_K": 75,
+    "relative_tolerance": 0.1,
+    "primary": "smallest K<75 with global NN median and p95 <=1.10 times K75, normal finite solve, no new catastrophic steps",
+    "secondary": "same ROI comparison; not used for primary selection",
+    "GT_used": false
+  },
+  "GT_policy": "all solves, repetitions and GT-free metrics precede persisted decision; only then read GT; no solve after GT",
+  "GT_used": false
+}
