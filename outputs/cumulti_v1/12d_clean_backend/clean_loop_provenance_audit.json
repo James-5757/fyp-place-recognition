@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "original_rows": 120,
+  "retained_rows": 75,
+  "removed_only_by_endpoint_starts": 45,
+  "source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+  "transform_values_unchanged": true,
+  "arrival_order_GT_free": true
+}

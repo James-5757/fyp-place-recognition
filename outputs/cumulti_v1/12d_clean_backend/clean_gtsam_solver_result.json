@@ -1,0 +1,20 @@
+{
+  "initialization": "FIRST_ARRIVAL_INIT",
+  "nodes": 5796,
+  "odometry_factors": 5794,
+  "loop_factors": 75,
+  "prior_factors": 1,
+  "initial_graph_error": 3843.9860057049364,
+  "final_graph_error": 23.84038364547845,
+  "relative_reduction": 0.99379800456867,
+  "runtime_s": 0.3505952260456979,
+  "termination_status": "NORMAL_RETURN",
+  "iterations": 7,
+  "iteration_limit_reached": false,
+  "termination_reason_binding": "specific tolerance-stop reason not exposed; normal return and iteration count recorded",
+  "finite_poses": true,
+  "anchor_translation_error_m": 0.0,
+  "anchor_rotation_error_deg": 2.0490585576177797e-16,
+  "selected_initialization": "FIRST_ARRIVAL_INIT",
+  "execution": "full 75-loop first-arrival solve reused from initialization sensitivity; no redundant solver rerun"
+}

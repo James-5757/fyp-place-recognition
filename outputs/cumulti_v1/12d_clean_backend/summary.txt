@@ -1,0 +1,1 @@
+Stage12D stable-segment clean batch backend: CLEAN_BACKEND_READY. 5796 nodes / 5794 odometry factors / 75 frozen loops. GT evaluated after pre-GT decision only; Stage13 K schedule frozen but not run.

@@ -1,0 +1,20 @@
+{
+  "decision": "CLEAN_BACKEND_READY",
+  "written_before_GT_evaluation": true,
+  "UTC": "2026-10-08T03:30:24.832178+00:00",
+  "checks": {
+    "no_catastrophic_retained_input": true,
+    "graph_sizes_valid": true,
+    "first_loop_initialization_valid": true,
+    "gtsam_normal_return": true,
+    "finite_poses": true,
+    "no_new_catastrophic_pgo_jump": true,
+    "loop_residuals_finite": true,
+    "maps_finite": true,
+    "initialization_equivalence_supports_first_arrival": true,
+    "GT_used": false
+  },
+  "reason": "Frozen stable-segment graph, first-arrival common frame and finite batch solution/map passed GT-free integrity checks.",
+  "covariance_alerts": "retained health metadata; fixed Stage10.3 factor weights preserved",
+  "GT_used_for_policy": false
+}

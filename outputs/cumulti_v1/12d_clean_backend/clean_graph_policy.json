@@ -1,0 +1,47 @@
+{
+  "robot1_start_keyframe": 150,
+  "robot3_start_keyframe": 234,
+  "stable_start_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_selection.json",
+  "stable_start_source_sha256": "f5c274ed004593ecee8bd6b2c44241372fee41431ccef171a922a373adeeb010",
+  "node_frame": "LiDAR/os_sensor; exact Stage10.3 IMU-to-LiDAR convention",
+  "node_ids": "original (robot_id,keyframe_id), preserved in GTSAM symbols and exported CSVs",
+  "local_coordinate_gauge": "exact Stage10.3 KF0-relative local matrices; retained values are not rebased or repaired",
+  "graph_anchor": "Robot1 KF150 at its frozen local Pose3",
+  "odometry_source": "raw ekf/odometry_map, nearest frozen LiDAR timestamps; T_world_imu @ T_imu_lidar; same Stage10.3 helper",
+  "odometry_factor": "Z_i,i+1 = X_i^-1 X_i+1, only sequential retained IDs",
+  "odometry_noise": {
+    "translation_sigma_m": 1.0,
+    "rotation_sigma_deg": 5.0,
+    "robust": false
+  },
+  "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+  "loop_source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+  "loop_filter": "query robot1 KF>=150 AND candidate robot3 KF>=234; no other filtering",
+  "expected_loops_from_stage12c": 75,
+  "loop_noise": {
+    "translation_sigma_m": 1.0,
+    "rotation_sigma_deg": 5.0,
+    "Huber_delta": 1.345
+  },
+  "loop_transform": "Z_qc=T_query_from_candidate=X_query^-1 X_candidate",
+  "default_initialization": "FIRST_ARRIVAL_INIT; accepted only when frozen equivalence diagnostics pass",
+  "arrival_order": "query_timestamp, query_keyframe_id, candidate_keyframe_id; separate-run R1->R3 replay query order",
+  "optimizer": "GTSAM 4.2 Pose3 LevenbergMarquardtOptimizer, unchanged documented default parameters",
+  "noise_tangent_order": "[rx,ry,rz,tx,ty,tz]",
+  "map_protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5,
+    "frame_stride_origin": "first retained keyframe per robot",
+    "range_filter_m": [
+      1,
+      60
+    ]
+  },
+  "catastrophic_integrity_rule": {
+    "absolute_translation_xyz_m": 100.0,
+    "new_lineage_jump": "post XYZ>5x Stage12C frozen XY step limit AND pre-common XYZ<=5x same limit",
+    "thresholds_fitted_to_clean_result": false
+  },
+  "GT_used": false
+}

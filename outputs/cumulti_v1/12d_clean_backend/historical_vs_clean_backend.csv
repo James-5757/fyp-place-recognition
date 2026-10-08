@@ -1,0 +1,3 @@
+condition,nodes,loops,odometry_factors,runtime_s,loop_translation_p95_m,map_nn_median_m,map_nn_p95_m,robot1_max_xy_step_m,robot3_max_xy_step_m,joint_ATE_offline_only_m,contains_early_EKF_failure,purpose,raw_objective_comparison_valid
+HISTORICAL_STAGE10_3_RANK1,6180,120,6178,7.5533766746521,1.4087166627495116,2.766472427784114,138.38048284324566,287.0452949226178,336.71213335261547,30.63893017367657,True,data-quality/backend sanity; not a fair algorithm benchmark,False
+STAGE12D_CLEAN_75,5796,75,5794,0.3505952260456979,0.19620215705399172,3.0305062789116315,119.27754248993573,1.1414715939652376,1.4109119330985713,19.607957179064474,False,data-quality/backend sanity; not a fair algorithm benchmark,False

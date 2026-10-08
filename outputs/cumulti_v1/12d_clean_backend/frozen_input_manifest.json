@@ -1,0 +1,77 @@
+[
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+    "size_bytes": 145328,
+    "sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_selection.json",
+    "size_bytes": 2981,
+    "sha256": "f5c274ed004593ecee8bd6b2c44241372fee41431ccef171a922a373adeeb010"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_start_policy.json",
+    "size_bytes": 1310,
+    "sha256": "39115a583a15dd193b5bbe6089ac872acc701fe46fe45fc40ed3c23982764430"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_frontend_coverage.json",
+    "size_bytes": 479,
+    "sha256": "42163c8f978725f6c8f59bf96047338821583d61d9a92f15db6360ffaf1e5a1d"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/post_stable_start_recurrence.csv",
+    "size_bytes": 1095,
+    "sha256": "fd1d6e663983ee922bd2f0776664ee9ab6da98e12e9d5a8f7235e0ff17a377d3"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_3_solver_audit/frozen_graph_manifest.json",
+    "size_bytes": 1024,
+    "sha256": "5ffe0546a05e85c60a738c0ff28f7dcacddf22895cbdd153aa544f0af03e3d31"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage10_offline_map_merge.py",
+    "size_bytes": 16801,
+    "sha256": "08eb6f35a7f019312448e7c45d215f9e9f2d3415f799e7b966d91256cc4ec3c9"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage103_gtsam_solver_audit.py",
+    "size_bytes": 5576,
+    "sha256": "55ed910b780abc665eb76fbc7b9674227e6791088ade67bab9390307382bcc17"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage12a_trajectory_integrity.py",
+    "size_bytes": 33791,
+    "sha256": "1613c083d2b04c328277cdf455059b8961db28afd73ccb20f191e792a31d9401"
+  },
+  {
+    "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/keyframes.csv",
+    "size_bytes": 547588,
+    "sha256": "a5720e59d2b93c27fc6f48e99fbd4e73062ec7b129334b8c7bd9aea75b15b690"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+    "size_bytes": 137411022,
+    "sha256": "43cd171d091f656a55265f688dd9cae94215957e479d3466b536dd0f4790a3b4"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/robot1_full_ekf_stability.csv",
+    "size_bytes": 1939688,
+    "sha256": "f9de42c93035ce590320a164fc1014322b2847b01417b8291cdf1174a6d9a34c"
+  },
+  {
+    "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/keyframes.csv",
+    "size_bytes": 1415107,
+    "sha256": "b88fe6212a1f8d4bbe13d5ac0bb04f4637381cfb57089efbe34ff15e59e734ea"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip",
+    "size_bytes": 289456005,
+    "sha256": "da7fb9fe2d650b9747f2de0dedb4c6c06f79a109d916cd4e9ee5b172e43e50ed"
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/robot3_full_ekf_stability.csv",
+    "size_bytes": 4033190,
+    "sha256": "401ec248a859618269a636d390133b0621c4baa7d34cd9bccd12d4ffc85b35a1"
+  }
+]

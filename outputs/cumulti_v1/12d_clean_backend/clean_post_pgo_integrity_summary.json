@@ -1,0 +1,83 @@
+{
+  "pgo_introduces_new_catastrophic_jump": "NO",
+  "robots": {
+    "robot1": {
+      "post_step_statistics": {
+        "translation_xy_m": {
+          "median": 0.18652839255515294,
+          "p90": 0.6883845907786799,
+          "p95": 0.783394699393621,
+          "p99": 0.9436125622130623,
+          "max": 1.1414715939652376,
+          "count": 1849
+        },
+        "translation_xyz_m": {
+          "median": 0.6649956610367757,
+          "p90": 0.8633438875714257,
+          "p95": 0.9357689822762556,
+          "p99": 1.0425213908007116,
+          "max": 1.1652822472853985,
+          "count": 1849
+        },
+        "relative_rotation_deg": {
+          "median": 0.9242711565813692,
+          "p90": 4.568766792982879,
+          "p95": 7.478013986749048,
+          "p99": 12.753984050137113,
+          "max": 23.07010289884132,
+          "count": 1849
+        },
+        "linear_speed_mps": {
+          "median": 1.3304334509450324,
+          "p90": 1.7239076749061817,
+          "p95": 1.8657117616456171,
+          "p99": 2.090105341225897,
+          "max": 2.31275634472462,
+          "count": 1849
+        }
+      },
+      "new_catastrophic_steps": 0,
+      "top20_new_robust_flags_without_pre_flag": 0
+    },
+    "robot3": {
+      "post_step_statistics": {
+        "translation_xy_m": {
+          "median": 0.33818118495351596,
+          "p90": 0.8014757410905414,
+          "p95": 0.8775501503475743,
+          "p99": 1.0603574518311971,
+          "max": 1.4109119330985713,
+          "count": 3945
+        },
+        "translation_xyz_m": {
+          "median": 0.7175033959126413,
+          "p90": 0.921083041084578,
+          "p95": 0.9846163652536652,
+          "p99": 1.1558040704093042,
+          "max": 1.70710473825095,
+          "count": 3945
+        },
+        "relative_rotation_deg": {
+          "median": 1.222729374512048,
+          "p90": 6.768260224454933,
+          "p95": 10.775436608756296,
+          "p99": 17.373092872597766,
+          "max": 29.890463780434555,
+          "count": 3945
+        },
+        "linear_speed_mps": {
+          "median": 1.4348229165140685,
+          "p90": 1.8420209348504761,
+          "p95": 1.965638698464963,
+          "p99": 2.318810882129053,
+          "max": 3.4412088154525535,
+          "count": 3945
+        }
+      },
+      "new_catastrophic_steps": 0,
+      "top20_new_robust_flags_without_pre_flag": 0
+    }
+  },
+  "catastrophic_rule_file": "clean_graph_policy.json",
+  "robust_flags_are_diagnostics_not_automatic_catastrophic_labels": true
+}

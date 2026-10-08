@@ -1,0 +1,6 @@
+{
+  "before_first_loop_connected_components": 2,
+  "after_first_loop_connected_components": 1,
+  "GT_used": false,
+  "meaning": "One inter-robot loop connects the two odometry chains and permits initial map alignment; no global accuracy guarantee."
+}

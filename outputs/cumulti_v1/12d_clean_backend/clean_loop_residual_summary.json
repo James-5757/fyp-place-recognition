@@ -1,0 +1,25 @@
+{
+  "translation_m": {
+    "median": 0.052696247355345935,
+    "p90": 0.1383097555629742,
+    "p95": 0.19620215705399172,
+    "p99": 0.33833788882867255,
+    "max": 0.34285380685547395,
+    "count": 75
+  },
+  "rotation_deg": {
+    "median": 0.41594818233034947,
+    "p90": 1.103571287883803,
+    "p95": 1.3839348405339325,
+    "p99": 2.490137122570374,
+    "max": 2.5250951114384357,
+    "count": 75
+  },
+  "diagnostic_huber_weight": {
+    "count_below_0_1": 0,
+    "count_below_0_25": 0,
+    "count_below_0_5": 0,
+    "minimum": 1.0
+  },
+  "definition": "E=Z^-1 X_query^-1 X_candidate; translation=norm(E.translation), rotation=angle(E.rotation). Diagnostic normalized metric uses translation/1m and rotation-vector/5deg, matching Stage10.3; reconstructed weight is not the internal GTSAM Lie-Logmap weight."
+}

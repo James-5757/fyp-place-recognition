@@ -1,0 +1,68 @@
+{
+  "robot1": {
+    "topic": "robot1/ekf/odometry_map",
+    "raw_messages": 100279,
+    "retained_keyframes": 1850,
+    "maximum_sync_error_ms": 9.315705,
+    "extrinsic": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.06286
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.01557
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.053345
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "GT_columns_loaded": false
+  },
+  "robot3": {
+    "topic": "robot3/ekf/odometry_map",
+    "raw_messages": 210153,
+    "retained_keyframes": 3946,
+    "maximum_sync_error_ms": 9.25496,
+    "extrinsic": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.06286
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.01557
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.053345
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "GT_columns_loaded": false
+  }
+}

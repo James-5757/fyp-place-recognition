@@ -1,0 +1,136 @@
+{
+  "status": "PASS",
+  "robots": {
+    "robot1": {
+      "translation_xy_m": {
+        "median": 0.2058916150932097,
+        "p90": 0.7027002343965135,
+        "p95": 0.7946597524715663,
+        "p99": 0.988728102301261,
+        "max": 1.1276515267705258,
+        "count": 1849
+      },
+      "translation_xyz_m": {
+        "median": 0.6675726916065059,
+        "p90": 0.8631384922085543,
+        "p95": 0.9443721896886981,
+        "p99": 1.05383505008336,
+        "max": 1.1575697664362856,
+        "count": 1849
+      },
+      "relative_rotation_deg": {
+        "median": 0.9266974918581152,
+        "p90": 4.569459773600348,
+        "p95": 7.537861828586505,
+        "p99": 12.56941127919972,
+        "max": 23.323267252246584,
+        "count": 1849
+      },
+      "linear_speed_mps": {
+        "median": 1.3379078436276348,
+        "p90": 1.7260740753597563,
+        "p95": 1.8833779929336687,
+        "p99": 2.1086842829941945,
+        "max": 2.2974492471876027,
+        "count": 1849
+      },
+      "Stage12C_frozen_diagnostic_limits": {
+        "translation_step_xy_m": {
+          "reference_median": 0.20555221175337646,
+          "reference_mad": 0.06862587976409704,
+          "threshold": 1.222999505135879,
+          "sample_count": 1000
+        },
+        "rotation_step_deg": {
+          "reference_median": 0.9468427621738758,
+          "reference_mad": 0.5327013792283455,
+          "threshold": 8.844673410613325,
+          "sample_count": 1000
+        },
+        "implied_speed_mps": {
+          "reference_median": 1.3682238972477407,
+          "reference_mad": 0.19454511292880583,
+          "threshold": 4.252549741530216,
+          "sample_count": 1000
+        },
+        "ekf_gnss_step_magnitude_disagreement_m": {
+          "reference_median": 0.4365486466906363,
+          "reference_mad": 0.16019690709638268,
+          "threshold": 2.811627991301606,
+          "sample_count": 1000
+        },
+        "ekf_position_covariance_trace": {
+          "reference_median": 0.06392822351078586,
+          "threshold": 0.3196411175539293,
+          "sample_count": 999
+        }
+      }
+    },
+    "robot3": {
+      "translation_xy_m": {
+        "median": 0.3210709636747587,
+        "p90": 0.805915728900853,
+        "p95": 0.8853377457619309,
+        "p99": 1.0908610905468898,
+        "max": 1.4704156573403586,
+        "count": 3945
+      },
+      "translation_xyz_m": {
+        "median": 0.7204547991107003,
+        "p90": 0.9249244214025697,
+        "p95": 0.9915650065374988,
+        "p99": 1.1721728251099872,
+        "max": 1.7353587968961617,
+        "count": 3945
+      },
+      "relative_rotation_deg": {
+        "median": 1.2251860971319526,
+        "p90": 6.834668520956538,
+        "p95": 10.79813330167656,
+        "p99": 17.427744115251517,
+        "max": 30.59237265214484,
+        "count": 3945
+      },
+      "linear_speed_mps": {
+        "median": 1.440884687146863,
+        "p90": 1.845955399172874,
+        "p95": 1.9814825663775337,
+        "p99": 2.3438975222463307,
+        "max": 3.4981637951346043,
+        "count": 3945
+      },
+      "Stage12C_frozen_diagnostic_limits": {
+        "translation_step_xy_m": {
+          "reference_median": 0.3942878314331384,
+          "reference_mad": 0.20648292048415023,
+          "threshold": 3.455603610531149,
+          "sample_count": 2090
+        },
+        "rotation_step_deg": {
+          "reference_median": 1.341879370454486,
+          "reference_mad": 0.8369723759012273,
+          "threshold": 13.75083181556608,
+          "sample_count": 2090
+        },
+        "implied_speed_mps": {
+          "reference_median": 1.492056122184891,
+          "reference_mad": 0.2215348853825687,
+          "threshold": 4.7765323328668545,
+          "sample_count": 2090
+        },
+        "ekf_gnss_step_magnitude_disagreement_m": {
+          "reference_median": 0.26752404304322863,
+          "reference_mad": 0.22932186399945753,
+          "threshold": 3.667449998699186,
+          "sample_count": 2090
+        },
+        "ekf_position_covariance_trace": {
+          "reference_median": 0.08464466647446767,
+          "threshold": 0.42322333237233833,
+          "sample_count": 2090
+        }
+      }
+    }
+  },
+  "GT_used": false
+}

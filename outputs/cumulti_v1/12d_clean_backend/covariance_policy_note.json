@@ -1,0 +1,6 @@
+{
+  "late_covariance_alerts_present": true,
+  "factor_weight_changed": false,
+  "reason": "absolute EKF pose covariance is not directly equivalent to independent relative-pose factor covariance; no justified covariance propagation model has been frozen",
+  "all_retained_keyframes_kept": true
+}

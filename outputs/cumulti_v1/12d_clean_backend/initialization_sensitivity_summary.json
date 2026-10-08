@@ -1,0 +1,26 @@
+{
+  "status": "EQUIVALENT_IDENTICAL_SEEDS_WARN",
+  "translation_difference_m": {
+    "median": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "max": 0.0,
+    "count": 5796
+  },
+  "rotation_difference_deg": {
+    "median": 0.0,
+    "p90": 0.0,
+    "p95": 0.0,
+    "p99": 0.0,
+    "max": 0.0,
+    "count": 5796
+  },
+  "selected_initialization": "FIRST_ARRIVAL_INIT",
+  "same_anchor_no_extra_alignment": true,
+  "same_initialization_edge": true,
+  "distinct_seeds_tested": false,
+  "policy_equivalence_pass": true,
+  "limitation": "Both required rules select the same frozen edge; this checks repeatability/policy compatibility, not robustness to distinct initializations.",
+  "GT_used": false
+}

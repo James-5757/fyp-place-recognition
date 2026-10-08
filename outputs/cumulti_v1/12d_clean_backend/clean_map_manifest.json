@@ -1,0 +1,33 @@
+{
+  "map_protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5,
+    "frame_stride_origin": "first retained keyframe",
+    "range_filter_m": [
+      1,
+      60
+    ]
+  },
+  "artifacts": [
+    {
+      "condition": "FIRST_LOOP_ONLY",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_first_loop_map.ply",
+      "size_bytes": 11179224,
+      "sha256": "da7c737efb0475292dd14771ad2fbab67174d8eef0aa19c80cbb7228fb8dd2d5",
+      "points": 931592,
+      "finite": true,
+      "server_only": true
+    },
+    {
+      "condition": "ALL_75_LOOPS_CLEAN_GTSAM",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_all75_pgo_map.ply",
+      "size_bytes": 11103792,
+      "sha256": "cce494357d77506448e11b3fbf2d6d7faceead227e653e33a5f350752ddf168c",
+      "points": 925306,
+      "finite": true,
+      "server_only": true
+    }
+  ],
+  "GT_used": false
+}

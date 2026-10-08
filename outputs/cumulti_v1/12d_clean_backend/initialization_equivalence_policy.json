@@ -1,0 +1,10 @@
+{
+  "status": "FROZEN_BEFORE_SOLVING",
+  "median_translation_difference_m_max": 0.1,
+  "p95_translation_difference_m_max": 0.5,
+  "median_rotation_difference_deg_max": 0.5,
+  "p95_rotation_difference_deg_max": 2.0,
+  "comparison_frame": "same fixed Robot1 KF150 anchor; no extra alignment",
+  "map_accuracy_claim": false,
+  "GT_used": false
+}

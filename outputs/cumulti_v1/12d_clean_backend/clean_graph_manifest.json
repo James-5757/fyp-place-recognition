@@ -1,0 +1,29 @@
+{
+  "robot1_nodes": 1850,
+  "robot3_nodes": 3946,
+  "total_nodes": 5796,
+  "robot1_odometry_factors": 1849,
+  "robot3_odometry_factors": 3945,
+  "total_odometry_factors": 5794,
+  "loop_factors": 75,
+  "prior_factors": 1,
+  "first_last_keyframe": {
+    "robot1": [
+      150,
+      1999
+    ],
+    "robot3": [
+      234,
+      4179
+    ]
+  },
+  "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+  "loop_source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+  "filtered_loop_sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+  "odometry_inputs": [
+    "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+    "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip"
+  ],
+  "node_input": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv",
+  "GT_used": false
+}

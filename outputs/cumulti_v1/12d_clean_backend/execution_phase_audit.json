@@ -1,0 +1,10 @@
+{
+  "pre_gt_decision_UTC": "2026-10-08T03:30:24.832178+00:00",
+  "pre_gt_decision_sha256": "c7505fac873ad39635ad797c038779b4e607580bc01f959c75ddcc57d764741a",
+  "solver_result_created_ns": 1791430207085636087,
+  "pre_gt_decision_created_ns": 1791430224831238540,
+  "offline_GT_result_created_ns": 1791430227684174741,
+  "solver_then_pre_gt_decision_then_GT_verified": true,
+  "no_solver_rerun_after_GT": true,
+  "GT_column_load_location": "offline_evaluation(), following persisted decision assertion"
+}
