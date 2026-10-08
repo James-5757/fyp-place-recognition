@@ -1,0 +1,131 @@
+{
+  "UTC": "2026-10-08T12:20:30.999710+00:00",
+  "accepted_checkpoint": "636d255d18202d2dae7aa4f2ea23827cbf08701c",
+  "reference_robot": "robot3",
+  "streaming_robot": "robot1",
+  "robot3_reference_start_kf": 234,
+  "robot3_reference_end_kf": 4179,
+  "robot1_stream_start_kf": 150,
+  "robot1_stream_end_kf": 1999,
+  "first_loop_query_kf": 283,
+  "first_loop_candidate_kf": 252,
+  "event_order": "original Robot1 keyframes and actual timestamps, fast offline replay (no wall-clock sleeps)",
+  "loop_schedule": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/ordered_rank1_clean_loops.csv",
+  "loop_sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+  "loop_label": "PRECOMPUTED FROZEN LOOP FACTORS; not causal online discovery",
+  "noise_policy": {
+    "robot1_start_keyframe": 150,
+    "robot3_start_keyframe": 234,
+    "stable_start_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_selection.json",
+    "stable_start_source_sha256": "f5c274ed004593ecee8bd6b2c44241372fee41431ccef171a922a373adeeb010",
+    "node_frame": "LiDAR/os_sensor; exact Stage10.3 IMU-to-LiDAR convention",
+    "node_ids": "original (robot_id,keyframe_id), preserved in GTSAM symbols and exported CSVs",
+    "local_coordinate_gauge": "exact Stage10.3 KF0-relative local matrices; retained values are not rebased or repaired",
+    "graph_anchor": "Robot1 KF150 at its frozen local Pose3",
+    "odometry_source": "raw ekf/odometry_map, nearest frozen LiDAR timestamps; T_world_imu @ T_imu_lidar; same Stage10.3 helper",
+    "odometry_factor": "Z_i,i+1 = X_i^-1 X_i+1, only sequential retained IDs",
+    "odometry_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "robust": false
+    },
+    "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+    "loop_source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+    "loop_filter": "query robot1 KF>=150 AND candidate robot3 KF>=234; no other filtering",
+    "expected_loops_from_stage12c": 75,
+    "loop_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "Huber_delta": 1.345
+    },
+    "loop_transform": "Z_qc=T_query_from_candidate=X_query^-1 X_candidate",
+    "default_initialization": "FIRST_ARRIVAL_INIT; accepted only when frozen equivalence diagnostics pass",
+    "arrival_order": "query_timestamp, query_keyframe_id, candidate_keyframe_id; separate-run R1->R3 replay query order",
+    "optimizer": "GTSAM 4.2 Pose3 LevenbergMarquardtOptimizer, unchanged documented default parameters",
+    "noise_tangent_order": "[rx,ry,rz,tx,ty,tz]",
+    "map_protocol": {
+      "frame_stride": 10,
+      "point_stride": 16,
+      "voxel_m": 0.5,
+      "frame_stride_origin": "first retained keyframe per robot",
+      "range_filter_m": [
+        1,
+        60
+      ]
+    },
+    "catastrophic_integrity_rule": {
+      "absolute_translation_xyz_m": 100.0,
+      "new_lineage_jump": "post XYZ>5x Stage12C frozen XY step limit AND pre-common XYZ<=5x same limit",
+      "thresholds_fitted_to_clean_result": false
+    },
+    "GT_used": false
+  },
+  "prior": "exactly one Robot1 KF150 prior after connected fusion; no joint ISAM2 before bridge",
+  "parameters": {
+    "UTC": "2026-10-08T12:20:30.992977+00:00",
+    "defaults_unchanged": true,
+    "parameters": {
+      "relinearizeSkip": 10,
+      "enableRelinearization": true,
+      "evaluateNonlinearError": false,
+      "cacheLinearizedFactors": true,
+      "enableDetailedResults": false,
+      "enablePartialRelinearizationCheck": false,
+      "findUnusedFactorSlots": false,
+      "factorization": "CHOLESKY",
+      "relinearizationThreshold": "0.1 (verified installed parameter print; scalar getter unavailable)",
+      "wildfireThreshold": 0.001
+    },
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "available_api": [
+      "Factorization",
+      "cacheLinearizedFactors",
+      "enableDetailedResults",
+      "enablePartialRelinearizationCheck",
+      "enableRelinearization",
+      "evaluateNonlinearError",
+      "factorization",
+      "findUnusedFactorSlots",
+      "getFactorization",
+      "print",
+      "relinearizeSkip",
+      "setFactorization",
+      "setOptimizationParams",
+      "setRelinearizeThreshold"
+    ],
+    "threshold_getter": "UNAVAILABLE",
+    "optimization": "installed default GaussNewton",
+    "one_update_per_event": true,
+    "extra_empty_updates": 0,
+    "estimate_method": "calculateEstimate (default wildfire behavior)",
+    "GT_used": false
+  },
+  "initialization": "first fusion S=Xq Zqc inverse(Lc); later guess=estimated preceding pose times new frozen relative odometry; no future Robot1 initialization",
+  "snapshots": [
+    "PRE_FIRST_LOOP",
+    "FIRST_LOOP",
+    "K2",
+    "K5",
+    "K10",
+    "K20",
+    "K40",
+    "K75",
+    "FINAL_STREAM_END"
+  ],
+  "benchmark": "one primary replay; actual per-event measurements, single first-fusion sample; no replays/retuning after GT",
+  "timing": "event processing excludes checkpoint batch-reference solve, NN evaluation, integrity/full-pose diagnostics and logging; checkpoint map publication included and separately reported; first-fusion construction separate",
+  "batch_initialization": "same Stage12D first-loop x0 restricted to arrived Robot1 nodes and stored Robot3, not incremental warm start",
+  "GT_policy": "all incremental/batch runs, snapshots, diagnostics and comparisons finished before persisted decision, then final-only GT evaluation",
+  "agreement": {
+    "UTC": "2026-10-08T12:20:30.999385+00:00",
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0,
+    "same_gauge_no_alignment": true,
+    "not_GT_accuracy": true,
+    "no_threshold_changes": true,
+    "GT_used": false
+  },
+  "GT_used": false
+}

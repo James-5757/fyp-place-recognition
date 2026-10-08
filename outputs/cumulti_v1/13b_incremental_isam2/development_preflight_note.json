@@ -1,0 +1,8 @@
+{
+  "reason": "Installed KeySet is not iterable; graph.keyVector() used after actual API inspection",
+  "archive_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13b_incremental_isam2/_failed_attempts/api_keyset",
+  "parameters_identical": true,
+  "GT_not_accessed": true,
+  "failure_log_sha256": "fed82a6bf37f2d9358bc7563a1aff971a4d129e7ab1491e17f77c6b1cd94ede8",
+  "historical_outputs_removed": false
+}

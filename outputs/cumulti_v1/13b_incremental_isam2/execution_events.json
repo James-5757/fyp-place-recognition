@@ -1,0 +1,743 @@
+[
+  {
+    "phase": "POLICY_FROZEN",
+    "UTC": "2026-10-08T12:20:31.004784+00:00"
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:31.071692+00:00",
+    "kf": 200,
+    "nodes": 0,
+    "loops": 0
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:20:45.929490+00:00",
+    "name": "FIRST_LOOP",
+    "kf": 283,
+    "K": 1,
+    "agreement": "INCREMENTAL_BATCH_AGREEMENT_PASS",
+    "translation_p95_m": 1.3774526566388321e-12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:45.943114+00:00",
+    "kf": 283,
+    "nodes": 4080,
+    "loops": 1
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:46.266510+00:00",
+    "kf": 300,
+    "nodes": 4097,
+    "loops": 1
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:20:57.388440+00:00",
+    "name": "K2",
+    "kf": 378,
+    "K": 2,
+    "agreement": "ISAM2_BATCH_DIVERGENCE",
+    "translation_p95_m": 12.286617828357343
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:57.402819+00:00",
+    "kf": 378,
+    "nodes": 4175,
+    "loops": 2
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:57.878642+00:00",
+    "kf": 400,
+    "nodes": 4197,
+    "loops": 2
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:58.879114+00:00",
+    "kf": 454,
+    "nodes": 4251,
+    "loops": 3
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:59.455941+00:00",
+    "kf": 482,
+    "nodes": 4279,
+    "loops": 4
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:20:59.783790+00:00",
+    "kf": 500,
+    "nodes": 4297,
+    "loops": 4
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:21:11.142883+00:00",
+    "name": "K5",
+    "kf": 512,
+    "K": 5,
+    "agreement": "INCREMENTAL_BATCH_AGREEMENT_PASS",
+    "translation_p95_m": 0.11613278196111491
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:11.161092+00:00",
+    "kf": 512,
+    "nodes": 4309,
+    "loops": 5
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:11.815909+00:00",
+    "kf": 547,
+    "nodes": 4344,
+    "loops": 6
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:12.358183+00:00",
+    "kf": 575,
+    "nodes": 4372,
+    "loops": 7
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:12.895005+00:00",
+    "kf": 600,
+    "nodes": 4397,
+    "loops": 7
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:13.551351+00:00",
+    "kf": 632,
+    "nodes": 4429,
+    "loops": 8
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:13.615715+00:00",
+    "kf": 635,
+    "nodes": 4432,
+    "loops": 9
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:21:27.703175+00:00",
+    "name": "K10",
+    "kf": 638,
+    "K": 10,
+    "agreement": "ISAM2_BATCH_DIVERGENCE",
+    "translation_p95_m": 2.456849108557954
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:27.722118+00:00",
+    "kf": 638,
+    "nodes": 4435,
+    "loops": 10
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:27.761532+00:00",
+    "kf": 639,
+    "nodes": 4436,
+    "loops": 11
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:27.897463+00:00",
+    "kf": 643,
+    "nodes": 4440,
+    "loops": 12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:27.926215+00:00",
+    "kf": 644,
+    "nodes": 4441,
+    "loops": 13
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:27.953432+00:00",
+    "kf": 645,
+    "nodes": 4442,
+    "loops": 14
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:27.982373+00:00",
+    "kf": 646,
+    "nodes": 4443,
+    "loops": 15
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:28.158557+00:00",
+    "kf": 653,
+    "nodes": 4450,
+    "loops": 16
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:28.279830+00:00",
+    "kf": 659,
+    "nodes": 4456,
+    "loops": 17
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:28.306883+00:00",
+    "kf": 660,
+    "nodes": 4457,
+    "loops": 18
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:28.333809+00:00",
+    "kf": 661,
+    "nodes": 4458,
+    "loops": 19
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:21:42.954917+00:00",
+    "name": "K20",
+    "kf": 664,
+    "K": 20,
+    "agreement": "INCREMENTAL_BATCH_AGREEMENT_PASS",
+    "translation_p95_m": 0.37431839237532816
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:42.974377+00:00",
+    "kf": 664,
+    "nodes": 4461,
+    "loops": 20
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:43.737606+00:00",
+    "kf": 700,
+    "nodes": 4497,
+    "loops": 20
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:43.790036+00:00",
+    "kf": 702,
+    "nodes": 4499,
+    "loops": 21
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:44.744286+00:00",
+    "kf": 746,
+    "nodes": 4543,
+    "loops": 22
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:45.129838+00:00",
+    "kf": 762,
+    "nodes": 4559,
+    "loops": 23
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:45.503237+00:00",
+    "kf": 779,
+    "nodes": 4576,
+    "loops": 24
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:45.970729+00:00",
+    "kf": 800,
+    "nodes": 4597,
+    "loops": 24
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:46.320701+00:00",
+    "kf": 816,
+    "nodes": 4613,
+    "loops": 25
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:46.564468+00:00",
+    "kf": 827,
+    "nodes": 4624,
+    "loops": 26
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:46.943596+00:00",
+    "kf": 843,
+    "nodes": 4640,
+    "loops": 27
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:47.375674+00:00",
+    "kf": 863,
+    "nodes": 4660,
+    "loops": 28
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:47.696392+00:00",
+    "kf": 878,
+    "nodes": 4675,
+    "loops": 29
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:48.215852+00:00",
+    "kf": 900,
+    "nodes": 4697,
+    "loops": 29
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:48.366879+00:00",
+    "kf": 905,
+    "nodes": 4702,
+    "loops": 30
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:48.968421+00:00",
+    "kf": 931,
+    "nodes": 4728,
+    "loops": 31
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:49.081812+00:00",
+    "kf": 934,
+    "nodes": 4731,
+    "loops": 32
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:49.137140+00:00",
+    "kf": 936,
+    "nodes": 4733,
+    "loops": 33
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:49.389036+00:00",
+    "kf": 946,
+    "nodes": 4743,
+    "loops": 34
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:49.601756+00:00",
+    "kf": 954,
+    "nodes": 4751,
+    "loops": 35
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:49.717464+00:00",
+    "kf": 959,
+    "nodes": 4756,
+    "loops": 36
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:50.063732+00:00",
+    "kf": 973,
+    "nodes": 4770,
+    "loops": 37
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:50.551414+00:00",
+    "kf": 993,
+    "nodes": 4790,
+    "loops": 38
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:50.700293+00:00",
+    "kf": 1000,
+    "nodes": 4797,
+    "loops": 38
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:21:50.787022+00:00",
+    "kf": 1002,
+    "nodes": 4799,
+    "loops": 39
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:22:02.971661+00:00",
+    "name": "K40",
+    "kf": 1014,
+    "K": 40,
+    "agreement": "ISAM2_BATCH_DIVERGENCE",
+    "translation_p95_m": 0.611506028555215
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:02.994183+00:00",
+    "kf": 1014,
+    "nodes": 4811,
+    "loops": 40
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:03.571829+00:00",
+    "kf": 1036,
+    "nodes": 4833,
+    "loops": 41
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:03.609645+00:00",
+    "kf": 1037,
+    "nodes": 4834,
+    "loops": 42
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:03.708500+00:00",
+    "kf": 1041,
+    "nodes": 4838,
+    "loops": 43
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:04.008549+00:00",
+    "kf": 1052,
+    "nodes": 4849,
+    "loops": 44
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:04.375020+00:00",
+    "kf": 1067,
+    "nodes": 4864,
+    "loops": 45
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:04.775496+00:00",
+    "kf": 1082,
+    "nodes": 4879,
+    "loops": 46
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:04.813614+00:00",
+    "kf": 1083,
+    "nodes": 4880,
+    "loops": 47
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:04.913483+00:00",
+    "kf": 1087,
+    "nodes": 4884,
+    "loops": 48
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:04.992593+00:00",
+    "kf": 1090,
+    "nodes": 4887,
+    "loops": 49
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:05.250654+00:00",
+    "kf": 1100,
+    "nodes": 4897,
+    "loops": 49
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:05.737289+00:00",
+    "kf": 1120,
+    "nodes": 4917,
+    "loops": 50
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:06.117770+00:00",
+    "kf": 1134,
+    "nodes": 4931,
+    "loops": 51
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:06.385895+00:00",
+    "kf": 1144,
+    "nodes": 4941,
+    "loops": 52
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:06.993590+00:00",
+    "kf": 1169,
+    "nodes": 4966,
+    "loops": 53
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:07.540399+00:00",
+    "kf": 1191,
+    "nodes": 4988,
+    "loops": 54
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:07.781947+00:00",
+    "kf": 1200,
+    "nodes": 4997,
+    "loops": 54
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:09.938605+00:00",
+    "kf": 1300,
+    "nodes": 5097,
+    "loops": 54
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:10.133297+00:00",
+    "kf": 1308,
+    "nodes": 5105,
+    "loops": 55
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:10.630976+00:00",
+    "kf": 1327,
+    "nodes": 5124,
+    "loops": 56
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:11.737527+00:00",
+    "kf": 1373,
+    "nodes": 5170,
+    "loops": 57
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:12.432963+00:00",
+    "kf": 1400,
+    "nodes": 5197,
+    "loops": 57
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:12.992084+00:00",
+    "kf": 1424,
+    "nodes": 5221,
+    "loops": 58
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:13.543115+00:00",
+    "kf": 1444,
+    "nodes": 5241,
+    "loops": 59
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:14.687556+00:00",
+    "kf": 1489,
+    "nodes": 5286,
+    "loops": 60
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:14.995637+00:00",
+    "kf": 1500,
+    "nodes": 5297,
+    "loops": 60
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:16.896310+00:00",
+    "kf": 1579,
+    "nodes": 5376,
+    "loops": 61
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:17.486166+00:00",
+    "kf": 1600,
+    "nodes": 5397,
+    "loops": 61
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:17.676643+00:00",
+    "kf": 1606,
+    "nodes": 5403,
+    "loops": 62
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:18.043742+00:00",
+    "kf": 1619,
+    "nodes": 5416,
+    "loops": 63
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:18.861029+00:00",
+    "kf": 1650,
+    "nodes": 5447,
+    "loops": 64
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:19.062096+00:00",
+    "kf": 1656,
+    "nodes": 5453,
+    "loops": 65
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:19.196123+00:00",
+    "kf": 1661,
+    "nodes": 5458,
+    "loops": 66
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:19.999203+00:00",
+    "kf": 1694,
+    "nodes": 5491,
+    "loops": 67
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:20.163248+00:00",
+    "kf": 1700,
+    "nodes": 5497,
+    "loops": 67
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:20.636334+00:00",
+    "kf": 1716,
+    "nodes": 5513,
+    "loops": 68
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:21.396797+00:00",
+    "kf": 1744,
+    "nodes": 5541,
+    "loops": 69
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:21.513808+00:00",
+    "kf": 1748,
+    "nodes": 5545,
+    "loops": 70
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:21.943240+00:00",
+    "kf": 1763,
+    "nodes": 5560,
+    "loops": 71
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:22.301778+00:00",
+    "kf": 1776,
+    "nodes": 5573,
+    "loops": 72
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:22.651006+00:00",
+    "kf": 1789,
+    "nodes": 5586,
+    "loops": 73
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:22.980587+00:00",
+    "kf": 1800,
+    "nodes": 5597,
+    "loops": 73
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:23.168757+00:00",
+    "kf": 1806,
+    "nodes": 5603,
+    "loops": 74
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:25.621280+00:00",
+    "kf": 1900,
+    "nodes": 5697,
+    "loops": 74
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:22:40.835871+00:00",
+    "name": "K75",
+    "kf": 1967,
+    "K": 75,
+    "agreement": "ISAM2_BATCH_DIVERGENCE",
+    "translation_p95_m": 0.7445213459990854
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-08T12:22:40.868024+00:00",
+    "kf": 1967,
+    "nodes": 5764,
+    "loops": 75
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-08T12:22:55.562188+00:00",
+    "name": "FINAL_STREAM_END",
+    "kf": 1999,
+    "K": 75,
+    "agreement": "ISAM2_BATCH_DIVERGENCE",
+    "translation_p95_m": 0.5639854280275796
+  },
+  {
+    "phase": "PRE_GT_DECISION",
+    "UTC": "2026-10-08T12:22:56.054283+00:00",
+    "decision": "INCREMENTAL_BACKEND_NOT_READY"
+  },
+  {
+    "phase": "FIRST_GT_ACCESS",
+    "UTC": "2026-10-08T12:22:56.055278+00:00"
+  },
+  {
+    "phase": "COMPLETE",
+    "UTC": "2026-10-08T12:23:00.286128+00:00",
+    "status": "FAIL_NUMERICAL_AGREEMENT"
+  }
+]

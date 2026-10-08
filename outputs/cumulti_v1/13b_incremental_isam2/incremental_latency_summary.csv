@@ -1,0 +1,13 @@
+event_type,metric,count,mean,median,p90,p95,p99,max,small_sample_warning,deadline_samples,update_missed_deadlines,total_processing_missed_deadlines,update_deadline_met_fraction
+LOCAL_ODOMETRY_ONLY,isam2_update_ms,133,0.0,0.0,0.0,0.0,0.0,0.0,single replay; tail limited especially loop/first fusion,133,0,1,1.0
+LOCAL_ODOMETRY_ONLY,total_event_ms,133,10.25072407831711,0.0065122731029987335,0.0076498836278915405,0.009741913527250288,0.05256162956357013,1362.3435348272324,single replay; tail limited especially loop/first fusion,133,0,1,1.0
+LOCAL_ODOMETRY_ONLY,map_publication_ms,133,10.243184472385206,0.0,0.0,0.0,0.0,1362.3435348272324,single replay; tail limited especially loop/first fusion,133,0,1,1.0
+FIRST_INTER_ROBOT_FUSION,isam2_update_ms,1,26.786818634718657,26.786818634718657,26.786818634718657,26.786818634718657,26.786818634718657,26.786818634718657,single replay; tail limited especially loop/first fusion,1,0,1,1.0
+FIRST_INTER_ROBOT_FUSION,total_event_ms,1,2459.272579755634,2459.272579755634,2459.272579755634,2459.272579755634,2459.272579755634,2459.272579755634,single replay; tail limited especially loop/first fusion,1,0,1,1.0
+FIRST_INTER_ROBOT_FUSION,map_publication_ms,1,2374.703718814999,2374.703718814999,2374.703718814999,2374.703718814999,2374.703718814999,2374.703718814999,single replay; tail limited especially loop/first fusion,1,0,1,1.0
+ODOMETRY_UPDATE,isam2_update_ms,1642,1.827058098171174,0.04896637983620167,0.15421723946928984,14.949599676765377,38.182569048367434,51.080647855997086,single replay; tail limited especially loop/first fusion,1641,0,0,1.0
+ODOMETRY_UPDATE,total_event_ms,1642,4.641521134471632,2.6961583644151688,3.2552040182054047,20.42405020911243,45.17555780708788,57.925710920244455,single replay; tail limited especially loop/first fusion,1641,0,0,1.0
+ODOMETRY_UPDATE,map_publication_ms,1642,0.0,0.0,0.0,0.0,0.0,0.0,single replay; tail limited especially loop/first fusion,1641,0,0,1.0
+INTER_ROBOT_LOOP_UPDATE,isam2_update_ms,74,2.8325466791520246,0.4841338377445936,3.953030565753582,20.222451374865983,34.38776217401028,35.02759989351034,single replay; tail limited especially loop/first fusion,74,0,6,1.0
+INTER_ROBOT_LOOP_UPDATE,total_event_ms,74,233.76497397878887,7.4086610693484545,39.747686078771956,2606.429857900366,3024.600832997819,3476.7748480662704,single replay; tail limited especially loop/first fusion,74,0,6,1.0
+INTER_ROBOT_LOOP_UPDATE,map_publication_ms,74,224.5546209915365,0.0,0.0,2601.6861631069332,3016.9619787810348,3466.1143398843706,single replay; tail limited especially loop/first fusion,74,0,6,1.0

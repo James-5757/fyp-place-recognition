@@ -1,0 +1,16 @@
+{
+  "robot1_nodes": 134,
+  "robot3_nodes": 3946,
+  "total_nodes": 4080,
+  "robot1_odometry": 133,
+  "robot3_odometry": 3945,
+  "odometry_factors": 4078,
+  "loop_factors": 1,
+  "prior_factors": 1,
+  "query_keyframe": 283,
+  "candidate_keyframe": 252,
+  "first_graph_construction_ms": 46.76327621564269,
+  "factor_template_preparation_ms": 61.79734272882342,
+  "only_arrived_robot1_nodes": true,
+  "GT_used": false
+}

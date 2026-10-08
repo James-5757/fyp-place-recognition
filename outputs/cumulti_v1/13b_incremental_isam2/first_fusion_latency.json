@@ -1,0 +1,10 @@
+{
+  "first_graph_construction_ms": 46.76327621564269,
+  "factor_template_preparation_ms": 61.79734272882342,
+  "first_isam2_update_ms": 26.786818634718657,
+  "first_estimate_extraction_ms": 3.813258372247219,
+  "first_global_map_publication_ms": 2374.703718814999,
+  "first_fusion_total_ms": 2459.272579755634,
+  "one_sample_only": true,
+  "excludes_batch_reference_and_diagnostics": true
+}

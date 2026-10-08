@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-10-08T12:20:30.999385+00:00",
+  "translation_median_m": 0.1,
+  "translation_p95_m": 0.5,
+  "rotation_median_deg": 0.5,
+  "rotation_p95_deg": 2.0,
+  "same_gauge_no_alignment": true,
+  "not_GT_accuracy": true,
+  "no_threshold_changes": true,
+  "GT_used": false
+}

@@ -154,3 +154,31 @@ per-robot/combined RPE, fixed loop-region NN, common75 hindsight residuals and
 timings are in `outputs/cumulti_v1/13a_sparse_loops/`. Stage13B readiness is
 **READY_FOR_INCREMENTAL_METHOD_STUDY**, not authorization or evidence for live
 fusion. See `docs/CUMULTI_STAGE13A_SPARSE_LOOPS.md`.
+
+## CU-Multi Stage 13B genuine incremental iSAM2 (verified, not ready)
+
+Robot3 is a prebuilt reference; Robot1 streams original-order keyframes. The
+75 loop factors are precomputed archives, not causal online SC/GICP results.
+At KF283 the connected graph has 4080 nodes/4078 odometry/1 loop/1 prior;
+the final persistent ISAM2 graph exactly matches Stage13A K75 (5796/5794/75/1).
+
+First ISAM2 update: **26.787 ms**; first fusion including map publication:
+**2459.273 ms**. Odometry-only update mean/median/p95/max:
+**1.827/0.049/14.950/51.081 ms**; loop-event:
+**2.833/0.484/20.222/35.028 ms**. Solver updates meet measured next-keyframe
+intervals, but first fusion and six loop-checkpoint map publications do not;
+this is not end-to-end real-time performance.
+
+Fixed default iSAM2 fails numerical batch agreement at K2/K10/K40/K75/final.
+Final same-gauge translation median/p95 difference is **0.124431/0.563985 m**
+(limits 0.10/0.50 m); rotation **0.055319/0.301537°**. Factor equality, finite
+poses and integrity pass, but pre-GT readiness is **INCREMENTAL_BACKEND_NOT_READY**.
+No threshold change or retuning was performed. Nearly equal final objectives
+(23.840418 vs 23.840384) do not prove pose agreement in this graph.
+
+Final source-specific map NN median/p95: **3.031268/118.993911 m**. Earlier
+snapshot NN uses less Robot1 coverage and is not comparable with Stage13A's
+full-trajectory sweep. Offline-only joint/R1/R3 ATE:
+**19.631962/12.122472/22.298223 m**; combined RPE10:
+**10.540963 m / 7.521802°**. No GT participates in readiness. See
+`docs/CUMULTI_STAGE13B_INCREMENTAL_ISAM2.md`.

@@ -1,0 +1,12 @@
+{
+  "factor_count_equality": true,
+  "node_key_equality": true,
+  "loop_ID_equality": true,
+  "odometry_factor_equality": true,
+  "measurement_noise_equality": true,
+  "all_template_factor_indices_once": true,
+  "tolerance": 1e-12,
+  "prior_count": 1,
+  "GT_used": false,
+  "PASS": true
+}

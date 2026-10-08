@@ -1,0 +1,7 @@
+{
+  "before": 2,
+  "after": 1,
+  "actual_union_find": true,
+  "no_joint_ISAM2_before_bridge": true,
+  "permanent_priors": 1
+}

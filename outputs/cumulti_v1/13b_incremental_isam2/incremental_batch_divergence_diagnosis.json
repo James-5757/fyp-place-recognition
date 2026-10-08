@@ -1,0 +1,15 @@
+{
+  "status": "ISAM2_BATCH_DIVERGENCE",
+  "fixed_defaults": true,
+  "parameters_changed": false,
+  "factor_equivalence": true,
+  "initialization": "batch fixed first-loop x0 vs sequential causal ISAM2 guesses",
+  "relinearization_default": true,
+  "mechanisms_to_investigate": [
+    "single GaussNewton update vs converged LM; default skip10 relinearization / threshold0.1 / wildfire0.001",
+    "robust factor linearization caching and nonlinear loop arrivals",
+    "different nonlinear optimizer paths and possible local minima"
+  ],
+  "causality_established": false,
+  "no_parameter_changes_or_rerun": true
+}

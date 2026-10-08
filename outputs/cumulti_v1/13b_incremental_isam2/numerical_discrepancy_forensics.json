@@ -1,0 +1,98 @@
+{
+  "structural_factor_identity_verified": true,
+  "anchor_gauge_verified": true,
+  "batch_parameters_frozen": true,
+  "ISAM2_parameters_changed": false,
+  "first_fusion_initialization_near_zero": {
+    "translation_m": 1.432144669219779e-14,
+    "rotation_deg": 1.5905806597954793e-15
+  },
+  "checkpoint_evidence": [
+    {
+      "checkpoint": "FIRST_LOOP",
+      "robot1_keyframe": 283,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 4080,
+      "agreement": "INCREMENTAL_BATCH_AGREEMENT_PASS",
+      "objective_gap": -2.119929025063512e-25
+    },
+    {
+      "checkpoint": "K2",
+      "robot1_keyframe": 378,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 4175,
+      "agreement": "ISAM2_BATCH_DIVERGENCE",
+      "objective_gap": 0.6899491274819454
+    },
+    {
+      "checkpoint": "K5",
+      "robot1_keyframe": 512,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 3,
+      "variables_reeliminated_at_checkpoint": 83,
+      "agreement": "INCREMENTAL_BATCH_AGREEMENT_PASS",
+      "objective_gap": 1.918741227846521e-06
+    },
+    {
+      "checkpoint": "K10",
+      "robot1_keyframe": 638,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 23,
+      "agreement": "ISAM2_BATCH_DIVERGENCE",
+      "objective_gap": 4.574689192096537
+    },
+    {
+      "checkpoint": "K20",
+      "robot1_keyframe": 664,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 17,
+      "agreement": "INCREMENTAL_BATCH_AGREEMENT_PASS",
+      "objective_gap": 0.0001133107236777
+    },
+    {
+      "checkpoint": "K40",
+      "robot1_keyframe": 1014,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 40,
+      "agreement": "ISAM2_BATCH_DIVERGENCE",
+      "objective_gap": 0.0382486148457132
+    },
+    {
+      "checkpoint": "K75",
+      "robot1_keyframe": 1967,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 497,
+      "agreement": "ISAM2_BATCH_DIVERGENCE",
+      "objective_gap": 1.2202687001550778
+    },
+    {
+      "checkpoint": "FINAL_STREAM_END",
+      "robot1_keyframe": 1999,
+      "anchor_translation_m": 0.0,
+      "anchor_rotation_deg": 0.0,
+      "variables_relinearized_at_checkpoint": 0,
+      "variables_reeliminated_at_checkpoint": 4,
+      "agreement": "ISAM2_BATCH_DIVERGENCE",
+      "objective_gap": 3.394381443655448e-05
+    }
+  ],
+  "findings": [
+    "K2/K10/K40/K75/final show zero relinearized variables in the checkpoint arrival update; prior updates may already have relinearized other variables",
+    "FIRST_LOOP/K5/K20 pass while other immediate checkpoint estimates fail; agreement is not monotonic",
+    "Final objectives almost agree while same-gauge poses exceed translation limits; objective equality alone is insufficient"
+  ],
+  "remaining_uncertainty": "Factor insertion order, different causal guess/optimization paths, robust linearization caching, wildfire stopping and weakly constrained directions are plausible, not independently established causes. No new optimization or parameter trials authorized/performed."
+}

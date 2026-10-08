@@ -68,3 +68,20 @@ reference. Current ordering is a separate-run query replay with an existing
 Robot3 database, not simultaneous online robot operation. Do not start iSAM2,
 live/replay demo changes, alternative loop selection, or covariance weighting
 automatically. Stop after Stage13A; see `docs/CUMULTI_STAGE13A_SPARSE_LOOPS.md`.
+
+## Current Stage 13B stop point
+
+The reference-Robot3/streaming-Robot1 scheduler and persistent ISAM2 backend are
+implemented, with exact final frozen-factor equivalence and no future nodes,
+duplicate factors or catastrophic jumps. However, frozen default iSAM2 does
+not meet all predeclared identical-graph batch pose-agreement limits: readiness
+is INCREMENTAL_BACKEND_NOT_READY. Do not loosen thresholds, alter this run,
+choose new loops, or use offline GT to tune parameters.
+
+Recommend a separately authorized GT-free methodology audit of relinearization,
+wildfire/partial updates, robust-factor linearization and stopping behavior,
+using identical graphs and fixed comparison rules. Low update latency and
+almost equal final objectives do not by themselves establish numerical or
+end-to-end real-time readiness. Preserve the negative result. Stage15 demo
+assets exist, but do not change the historical demo or start distributed SLAM
+automatically. See `docs/CUMULTI_STAGE13B_INCREMENTAL_ISAM2.md`.

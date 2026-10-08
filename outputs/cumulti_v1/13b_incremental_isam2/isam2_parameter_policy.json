@@ -1,0 +1,39 @@
+{
+  "UTC": "2026-10-08T12:20:30.992977+00:00",
+  "defaults_unchanged": true,
+  "parameters": {
+    "relinearizeSkip": 10,
+    "enableRelinearization": true,
+    "evaluateNonlinearError": false,
+    "cacheLinearizedFactors": true,
+    "enableDetailedResults": false,
+    "enablePartialRelinearizationCheck": false,
+    "findUnusedFactorSlots": false,
+    "factorization": "CHOLESKY",
+    "relinearizationThreshold": "0.1 (verified installed parameter print; scalar getter unavailable)",
+    "wildfireThreshold": 0.001
+  },
+  "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+  "available_api": [
+    "Factorization",
+    "cacheLinearizedFactors",
+    "enableDetailedResults",
+    "enablePartialRelinearizationCheck",
+    "enableRelinearization",
+    "evaluateNonlinearError",
+    "factorization",
+    "findUnusedFactorSlots",
+    "getFactorization",
+    "print",
+    "relinearizeSkip",
+    "setFactorization",
+    "setOptimizationParams",
+    "setRelinearizeThreshold"
+  ],
+  "threshold_getter": "UNAVAILABLE",
+  "optimization": "installed default GaussNewton",
+  "one_update_per_event": true,
+  "extra_empty_updates": 0,
+  "estimate_method": "calculateEstimate (default wildfire behavior)",
+  "GT_used": false
+}
