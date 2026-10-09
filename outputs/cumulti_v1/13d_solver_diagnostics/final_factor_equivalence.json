@@ -1,0 +1,38 @@
+{
+  "D0": {
+    "PASS": true,
+    "nodes": 5796,
+    "odometry": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "measurements_and_noise_unchanged": true,
+    "all_keys_equal": true,
+    "no_future_robot1": true,
+    "no_duplicate_factors": true
+  },
+  "D1": {
+    "PASS": true,
+    "nodes": 5796,
+    "odometry": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "measurements_and_noise_unchanged": true,
+    "all_keys_equal": true,
+    "no_future_robot1": true,
+    "no_duplicate_factors": true
+  },
+  "D2": {
+    "PASS": true,
+    "nodes": 5796,
+    "odometry": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "measurements_and_noise_unchanged": true,
+    "all_keys_equal": true,
+    "no_future_robot1": true,
+    "no_duplicate_factors": true
+  }
+}

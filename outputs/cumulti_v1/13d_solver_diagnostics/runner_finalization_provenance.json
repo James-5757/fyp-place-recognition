@@ -1,0 +1,7 @@
+{
+  "numerical_run_source_sha256": "5f28c6e227df36726113090311a0442cc10c1ed88de046d39b8d56d22dea3293",
+  "finalized_runner_sha256": "6a4bfd84b17d9b9a5cc5a76096b9a054e378841e9e324844f376b44068abeddc",
+  "changes_after_numerical_run": "report-only additions: official-source interpretation, derived schedule/cost tables, figure formatting and provenance. No numerical run/reference/update/gate/decision functions changed; no solver rerun.",
+  "numerical_decision_sha256": "a4b597c7241193a3381ed406aa2a15427f8d2121326b99f755854765137f72dd",
+  "evidence_asset_sha256": "098a15004a54e41a924c436635fb9c17b2f6c170100e4561dedf8b96b171ec19"
+}

@@ -1,5 +1,36 @@
 # Experiment log
 
+## Latest entry — 28. Stage 13D (2026-10-09)
+
+Objective: isolate targeted iSAM2 convergence behavior and audit suspicious
+Stage13C counters without changing historical results. Independent source:
+`src/cumulti/run_stage13d_solver_diagnostics.py`; shell launcher and independent
+saved-artifact auditor accompany it. Fixed D0(default), D1(default+five empty
+calls at six checkpoints), D2(skip1/threshold0.01+same five calls), wildfire0.001.
+Before/after graph states use separate identical-graph references. Six saved
+Stage13B references reused; five missing before-event references use frozen12D
+LM once each, for evaluation only and never ISAM2 initialization.
+
+Outputs: `outputs/cumulti_v1/13d_solver_diagnostics/`, raw/clean counter audit,
+tiny Pose3 reproduction, microtraces, nodewise/per-robot/worst20 errors, inserted
+loop residuals, timings/overheads, exact factor identity, immutable decision,
+eight figures, source-evidence provenance and independent audit PASS.
+
+Official4.2 result/update code explains a no-work path with an uninitialized
+re-elimination field, consistent with tiny/real invalid values. Preserve raw
+returns and label invalid/null; do not infer counts from positive raw values.
+Marked-set relinearization bookkeeping is not a count of changed coordinates.
+D0 replicates the original six checkpoint pose statistics/objectives. D1 K2
+calls102–106 do not trigger skip10 and do nothing. D2 K2 extra2 reaches all
+four original numerical gates (p95 from12.286618 to0.106397 m); extra5 gives
+0.055109 m. D2 K40 also reaches agreement, but K75/final still fail. Decision:
+**NUMERICAL_DISCREPANCY_PARTIALLY_EXPLAINED**. All final factors unchanged;
+no new catastrophic jumps or GT/scan/map/frontend/demo operation. No Hessian
+nullspace claim or production readiness. Stop here; any further study needs a
+separately declared protocol. See `docs/CUMULTI_STAGE13D_SOLVER_DIAGNOSTICS.md`.
+
+## Pre-13D history (unchanged)
+
 Reconstructed from source names, output directories and README_zh.md. Historical KITTI and CU-Multi work are deliberately separate.
 
 ## Latest entry — 27. Stage 13C (2026-10-09)

@@ -1,5 +1,39 @@
 # Results
 
+## Stage 13D — targeted convergence and counter-validity audit (verified)
+
+Independent D0/D1/D2 runners preserve the frozen graph, noise and gauge. D0
+reproduces all six selected Stage13B checkpoints within 1e-7. All three final
+graphs retain 5,796 nodes / 5,794 odometry / 75 loops / one prior; independent
+artifact/provenance audit PASS. No GT, scans/maps, SC/GICP or demo changes.
+
+The tiny Pose3 test finds 57 invalid re-elimination returns among 60 empty
+calls; the real D1/D2 empty calls contain 37 invalid returns among 60. Raw
+integers are retained, invalid diagnostic values are null/INVALID_COUNTER,
+never zeroed or clipped. Official GTSAM4.2 code has an uninitialized
+re-elimination counter on no-work paths, consistent with the reproduction;
+exact wheel/source build identity remains uninstrumented. Historical13C's
+positive raw returns do not prove actual re-elimination counts. This corrects
+interpretation only, not its frozen numerical results.
+
+At K2, D1's five empty calls leave translation p95 at 12.286618 m; its call
+ordinals102–106 do not reach the skip10 boundary. D2 (skip1/threshold0.01)
+changes p95 over steps0–5 to 12.286618/1.679833/0.106397/0.045502/0.055087/
+0.055109 m; all four original gates first pass at extra2. The first extra
+reduces objective0.768361→0.078936. K2 discrepancy principally belongs to
+Robot3: its p95 changes12.339156→0.056441 m, versus Robot1
+0.034756→0.000229 m. Further changes are not strictly monotonic.
+
+D1 passes FIRST_LOOP/K40; D2 passes FIRST_LOOP/K2/K10/K40. Both fail K75 and
+FINAL; D2 final p95 is0.574742 m despite near-equal objective. No diagnostic
+schedule passes all six selected checkpoints. Persisted decision:
+**NUMERICAL_DISCREPANCY_PARTIALLY_EXPLAINED**, not production readiness.
+Five missing BEFORE_EVENT batch references were solved evaluation-only with
+frozen12D LM parameters; six after-references were reused. Hessian conditioning
+NOT_TESTED. See `docs/CUMULTI_STAGE13D_SOLVER_DIAGNOSTICS.md`.
+
+## Earlier verified results (unchanged)
+
 Verified values below are recorded in README_zh.md and existing named historical outputs.
 
 | Experiment | Result |

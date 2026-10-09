@@ -1,0 +1,58 @@
+{
+  "UTC": "2026-10-09T12:44:36.382056+00:00",
+  "variants": [
+    {
+      "name": "D0",
+      "skip": 10,
+      "threshold": 0.1,
+      "extra": 0,
+      "verified_parameter_print": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n"
+    },
+    {
+      "name": "D1",
+      "skip": 10,
+      "threshold": 0.1,
+      "extra": 5,
+      "verified_parameter_print": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n"
+    },
+    {
+      "name": "D2",
+      "skip": 1,
+      "threshold": 0.01,
+      "extra": 5,
+      "verified_parameter_print": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.01\nrelinearizeSkip:                   1\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n"
+    }
+  ],
+  "checkpoints": {
+    "FIRST_LOOP": 283,
+    "K2": 378,
+    "K10": 638,
+    "K40": 1014,
+    "K75": 1967,
+    "FINAL_STREAM_END": 1999
+  },
+  "limits": {
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0
+  },
+  "extra_schedule": "exactly5 at all six selected checkpoints including FIRST_LOOP and FINAL; no adaptive calls elsewhere; abort affected diagnostic on exception/nonfinite/graph mutation",
+  "no_change": {
+    "max_translation_m_lt": 1e-07,
+    "max_rotation_deg_lt": 1e-07,
+    "abs_objective_change_lt": 1e-09,
+    "consecutive_calls": 2,
+    "continue_to_fixed5_for_comparability": true,
+    "not_mathematical_convergence": true
+  },
+  "counter_rule": "retain raw; integer 0..nodes only in-range; invalid=NULL plus INVALID_COUNTER, never clip/zero; in-range does not prove semantics; known invalid counters alone do not imply invalid poses/graph",
+  "before_event": "old joint graph immediately before grouped odometry+loop insertion; kf-1, only preceding loops; FIRST_LOOP independent frames N/A; FINAL contains no new loop",
+  "batch": "after states reuse frozen B; pre-event states require5 new evaluation-only LM solves with frozen12D defaults/common x0, no ISAM warmstart",
+  "frame": "R1 KF150 same gauge, no alignment",
+  "timing": "ordinary insertion/extraction/construction; extra calls/extraction separate; objective/comparison/serialization/integrity/batch LM excluded backend; all overhead recorded",
+  "objective_plateau_abs_gap_le": 0.001,
+  "decision": "all six post-final-extra states plus integrity => DIAGNOSTIC_CONVERGENCE_EXPLAINED; any material paired pose/objective improvement => PARTIALLY_EXPLAINED; otherwise UNRESOLVED; unavailable empty API/unsafe calls => COUNTER_API_BLOCKER; never production readiness",
+  "hessian": "NOT_TESTED; no dense/sparse conditioning inference",
+  "GT_used": false
+}

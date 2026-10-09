@@ -1,0 +1,28 @@
+{
+  "reviewed_tag": "4.2",
+  "sources": [
+    {
+      "url": "https://raw.githubusercontent.com/borglab/gtsam/4.2/gtsam/nonlinear/ISAM2Result.h",
+      "sha256": "c9beb31c0ab5b36a07a93ebf2933757fe9fad70a6cbcf8beedc0411030e42cf7",
+      "lines": "76-84,160-162,175-177",
+      "finding": "The scalar count members lack in-class initializers; the constructor only conditionally allocates detailed results; getters directly return these members."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/borglab/gtsam/4.2/gtsam/nonlinear/ISAM2.cpp",
+      "sha256": "abf57e7ead60e5e6861f46714145a56443c435b8a4a9e526a575e02d8baa7be8",
+      "lines": "113-118,232-233,278-279,414-475",
+      "finding": "Every update advances update_count. variablesRelinearized is explicitly zeroed then set to markedKeys.size on scheduled checks. variablesReeliminated is assigned inside recalculation branches, not at update entry; no marked/observed keys can bypass these assignments."
+    },
+    {
+      "url": "https://raw.githubusercontent.com/borglab/gtsam/4.2/gtsam/nonlinear/ISAM2-impl.h",
+      "sha256": "e7dee8e17d3b4ff9853ef2d98858bf9927faea1998dabcc8ef235ed0bf2175c0",
+      "lines": "137-143",
+      "finding": "Without force_relinearize, the enabled check uses update_count modulo relinearizeSkip equal to zero."
+    }
+  ],
+  "source_level_conclusion": "OFFICIAL_TAG_UNINITIALIZED_REELIMINATION_COUNTER_NO_WORK_PATH",
+  "installed_behavior": "Independent tiny-graph reproduction and real empty updates return out-of-range values, consistent with the official-tag no-work path. Do not interpret them as operation counts.",
+  "binary_provenance_limit": "Installed package reports4.2; exact wheel binary-to-source build identity and individual C++ branch execution were not instrumented. In-range reelimination values can still be uninitialized by coincidence.",
+  "relinearization_interpretation": "A returned positive marked-set count is not an exact count of poses whose coordinates changed, nor an independent proof that every counted pose was retracted.",
+  "GT_used": false
+}

@@ -1,5 +1,26 @@
 # Next steps
 
+## Current update — after Stage 13D (2026-10-09)
+
+Decision: **NUMERICAL_DISCREPANCY_PARTIALLY_EXPLAINED**. No tested diagnostic
+schedule meets the original gates at all six selected checkpoints. D2 fixes
+K2/K40 agreement with extra updates but still fails K75/final; do not promote
+it as a deployable policy or relabel Stage13B/C as PASS.
+
+Empty calls advance the modulo relinearization schedule and may do no nonlinear
+work. Re-elimination raw counts on no-work paths are unreliable, consistent
+with the official4.2 uninitialized-field path. Use Stage13D cleaned validity
+interpretations, not the historical huge counters; retain historical bytes.
+
+A next, separately authorized GT-free methodology protocol may investigate
+final-state stopping, linearization/cache behavior and bounded conditioning
+diagnostics on identical factors. Current near-equal objective does not prove
+pose agreement or a nullspace. Do not extend the update budget, force updates,
+select new loops, tune from GT or change the demo automatically. Stop after13D.
+See `docs/CUMULTI_STAGE13D_SOLVER_DIAGNOSTICS.md`.
+
+## Pre-13D planning record (unchanged)
+
 ## Current update — after Stage 13C (2026-10-09)
 
 Stage13C's independent fixed-grid convergence study is complete. V0 reproduces

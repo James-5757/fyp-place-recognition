@@ -1,0 +1,4 @@
+variant,replay_elapsed_UTC_ms,backend_processing_total_ms,non_backend_diagnostic_logging_overhead_ms,extra_update_total_ms,clock_limitation
+D0,45274.39,8481.784985400736,36792.60501459926,0.0,"derived from recorded UTC start/end, not primary monotonic latency benchmark; excludes startup/reference LM"
+D1,65811.598,8677.752127870917,57133.84587212908,79.15655476972461,"derived from recorded UTC start/end, not primary monotonic latency benchmark; excludes startup/reference LM"
+D2,72852.653,15094.097010791302,57758.555989208704,477.1927185356617,"derived from recorded UTC start/end, not primary monotonic latency benchmark; excludes startup/reference LM"

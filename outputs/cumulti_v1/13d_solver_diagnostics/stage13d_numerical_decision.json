@@ -1,0 +1,12 @@
+{
+  "UTC": "2026-10-09T12:47:46.525010+00:00",
+  "decision": "NUMERICAL_DISCREPANCY_PARTIALLY_EXPLAINED",
+  "qualifying_diagnostic_schedules": [],
+  "all_selected_checkpoints_pass": false,
+  "requires_extra_updates": false,
+  "production_ready": false,
+  "GT_used": false,
+  "original_B_C_status_unchanged": true,
+  "hessian": "NOT_TESTED",
+  "selection_policy": "all six post-final-extra states plus integrity => DIAGNOSTIC_CONVERGENCE_EXPLAINED; any material paired pose/objective improvement => PARTIALLY_EXPLAINED; otherwise UNRESOLVED; unavailable empty API/unsafe calls => COUNTER_API_BLOCKER; never production readiness"
+}

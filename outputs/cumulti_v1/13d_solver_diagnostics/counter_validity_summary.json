@@ -1,0 +1,93 @@
+{
+  "invalid_count": 494,
+  "invalid_raw_examples": [
+    "101444947035872",
+    "18446744073709551488",
+    "99275457627108",
+    "99275457822918"
+  ],
+  "groups": [
+    {
+      "context": "HISTORICAL_13C",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "INVALID_COUNTER",
+      "count": 400
+    },
+    {
+      "context": "HISTORICAL_13C",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 8710
+    },
+    {
+      "context": "HISTORICAL_13C",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "UNVERIFIED",
+      "count": 665
+    },
+    {
+      "context": "HISTORICAL_13C",
+      "method": "getVariablesRelinearized",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 9110
+    },
+    {
+      "context": "HISTORICAL_13C",
+      "method": "getVariablesRelinearized",
+      "diagnostic_status": "UNVERIFIED",
+      "count": 665
+    },
+    {
+      "context": "STAGE13D_EMPTY",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "INVALID_COUNTER",
+      "count": 37
+    },
+    {
+      "context": "STAGE13D_EMPTY",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 23
+    },
+    {
+      "context": "STAGE13D_EMPTY",
+      "method": "getVariablesRelinearized",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 60
+    },
+    {
+      "context": "STAGE13D_NORMAL",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 5151
+    },
+    {
+      "context": "STAGE13D_NORMAL",
+      "method": "getVariablesRelinearized",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 5151
+    },
+    {
+      "context": "TINY_API",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "INVALID_COUNTER",
+      "count": 57
+    },
+    {
+      "context": "TINY_API",
+      "method": "getVariablesReeliminated",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 15
+    },
+    {
+      "context": "TINY_API",
+      "method": "getVariablesRelinearized",
+      "diagnostic_status": "IN_RANGE_UNVERIFIED_SEMANTICS",
+      "count": 72
+    }
+  ],
+  "empty_reelimination_reliable": false,
+  "corrects_stage13c_interpretation": "225 positive reelimination getter returns did NOT establish 225 valid re-elimination events; exclude invalid values. Historical numerical poses/metrics unchanged.",
+  "source_initialization_cause": "UNVERIFIED",
+  "in_range_counts_not_independent_proof": true
+}
