@@ -1,0 +1,144 @@
+{
+  "UTC": "2026-10-09T02:56:43.751253+00:00",
+  "variants": [
+    {
+      "name": "V0_BASELINE_REPLICATION",
+      "skip": 10,
+      "threshold": 0.1,
+      "extra": 0
+    },
+    {
+      "name": "V1_EVERY_EVENT_RELINEARIZATION_CHECK",
+      "skip": 1,
+      "threshold": 0.1,
+      "extra": 0
+    },
+    {
+      "name": "V2_LOWER_RELINEARIZATION_THRESHOLD",
+      "skip": 1,
+      "threshold": 0.01,
+      "extra": 0
+    },
+    {
+      "name": "V3_STRICT_RELINEARIZATION_THRESHOLD",
+      "skip": 1,
+      "threshold": 0.001,
+      "extra": 0
+    },
+    {
+      "name": "V4_DEFAULT_WITH_EXTRA_DIAGNOSTIC_UPDATES",
+      "skip": 10,
+      "threshold": 0.1,
+      "extra": 3
+    }
+  ],
+  "checkpoints": {
+    "FIRST_LOOP": 283,
+    "K2": 378,
+    "K5": 512,
+    "K10": 638,
+    "K20": 664,
+    "K40": 1014,
+    "K75": 1967,
+    "FINAL_STREAM_END": 1999
+  },
+  "agreement_limits": {
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0
+  },
+  "event_model": "prebuilt complete Robot3; streamed Robot1 original order/timestamps; PRECOMPUTED FROZEN LOOP FACTORS, not online discovery",
+  "first_graph": {
+    "nodes": 4080,
+    "odometry": 4078,
+    "loops": 1,
+    "prior": 1
+  },
+  "final_graph": {
+    "nodes": 5796,
+    "odometry": 5794,
+    "loops": 75,
+    "prior": 1
+  },
+  "frame": "same Stage12D LiDAR/os_sensor, same URDF extrinsic, KF150 anchor",
+  "initialization": "same first-loop S; causal previous estimated pose @ new relative odometry thereafter; independent variant instances",
+  "noise": {
+    "robot1_start_keyframe": 150,
+    "robot3_start_keyframe": 234,
+    "stable_start_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_selection.json",
+    "stable_start_source_sha256": "f5c274ed004593ecee8bd6b2c44241372fee41431ccef171a922a373adeeb010",
+    "node_frame": "LiDAR/os_sensor; exact Stage10.3 IMU-to-LiDAR convention",
+    "node_ids": "original (robot_id,keyframe_id), preserved in GTSAM symbols and exported CSVs",
+    "local_coordinate_gauge": "exact Stage10.3 KF0-relative local matrices; retained values are not rebased or repaired",
+    "graph_anchor": "Robot1 KF150 at its frozen local Pose3",
+    "odometry_source": "raw ekf/odometry_map, nearest frozen LiDAR timestamps; T_world_imu @ T_imu_lidar; same Stage10.3 helper",
+    "odometry_factor": "Z_i,i+1 = X_i^-1 X_i+1, only sequential retained IDs",
+    "odometry_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "robust": false
+    },
+    "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+    "loop_source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+    "loop_filter": "query robot1 KF>=150 AND candidate robot3 KF>=234; no other filtering",
+    "expected_loops_from_stage12c": 75,
+    "loop_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "Huber_delta": 1.345
+    },
+    "loop_transform": "Z_qc=T_query_from_candidate=X_query^-1 X_candidate",
+    "default_initialization": "FIRST_ARRIVAL_INIT; accepted only when frozen equivalence diagnostics pass",
+    "arrival_order": "query_timestamp, query_keyframe_id, candidate_keyframe_id; separate-run R1->R3 replay query order",
+    "optimizer": "GTSAM 4.2 Pose3 LevenbergMarquardtOptimizer, unchanged documented default parameters",
+    "noise_tangent_order": "[rx,ry,rz,tx,ty,tz]",
+    "map_protocol": {
+      "frame_stride": 10,
+      "point_stride": 16,
+      "voxel_m": 0.5,
+      "frame_stride_origin": "first retained keyframe per robot",
+      "range_filter_m": [
+        1,
+        60
+      ]
+    },
+    "catastrophic_integrity_rule": {
+      "absolute_translation_xyz_m": 100.0,
+      "new_lineage_jump": "post XYZ>5x Stage12C frozen XY step limit AND pre-common XYZ<=5x same limit",
+      "thresholds_fitted_to_clean_result": false
+    },
+    "GT_used": false
+  },
+  "batch": "reuse accepted Stage13B saved identical-graph batch LM trajectories; verify graph keys, objective and hashes; never initialize ISAM2 from reference",
+  "benchmark": "one independent replay per variant; normal insertion update, extraction, construction, checkpoint diagnostics and V4 empty updates measured separately; no maps/GT/batch solve",
+  "V4": "exactly 3 empty calls after every archived loop including first, unless unsafe/API failure; store estimates after0/1/2/3 in server-only NPZ plus manifests and delta/error diagnostics; no forced updates",
+  "baseline_reproduction_tolerance": {
+    "pose_metric_absolute": 1e-07,
+    "objective_absolute": 1e-07
+  },
+  "objective_relative_gap": "abs difference / max(abs(batch objective),1e-12); numerical-zero objective labelled separately",
+  "localization": "top20 by translation plus top20 by rotation at every failed checkpoint; same-gauge distance to anchor and KF distance to latest loop endpoints; near means <=50 keyframes, descriptive only",
+  "selection": {
+    "UTC": "2026-10-09T02:56:43.749752+00:00",
+    "eligible_primary": [
+      "V0",
+      "V1",
+      "V2",
+      "V3"
+    ],
+    "agreement_limits": {
+      "translation_median_m": 0.1,
+      "translation_p95_m": 0.5,
+      "rotation_median_deg": 0.5,
+      "rotation_p95_deg": 2.0
+    },
+    "qualification": "all eight checkpoint gates plus structural/finite/schema/catastrophe checks, no GT or hidden LM",
+    "ranking": "lowest median ordinary post-fusion update latency, p95 first tie break, fewer changes from V0 next",
+    "indistinguishable_relative_fraction": 0.01,
+    "V4": "OFFLINE DIAGNOSTIC ONLY; excluded from selection",
+    "GT_used": false
+  },
+  "GT_ACCESS": "PROHIBITED ENTIRE STAGE",
+  "GT_used": false
+}

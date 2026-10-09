@@ -182,3 +182,30 @@ full-trajectory sweep. Offline-only joint/R1/R3 ATE:
 **19.631962/12.122472/22.298223 m**; combined RPE10:
 **10.540963 m / 7.521802°**. No GT participates in readiness. See
 `docs/CUMULTI_STAGE13B_INCREMENTAL_ISAM2.md`.
+
+## Stage 13C — fixed-grid iSAM2 convergence ablation (verified)
+
+Independent runner: `scripts/run_stage13c_isam2_convergence.sh`. V0 reproduces
+all eight Stage13B checkpoints (pose statistics and nonlinear objective) within
+the predeclared 1e-7 replication tolerance. All five variants preserve the final
+5,796-node / 5,794-odometry / 75-loop / one-prior graph, pass finite-pose and
+integrity checks, and use no GT, map generation, or new batch optimization.
+
+The original four numerical gates must pass at every checkpoint. V0 passes
+3/8; V1/V2/V3/V4 each pass 4/8. Final translation median/p95 differences from
+the same-gauge frozen batch reference (m) are respectively:
+0.124431/0.563985, 0.124359/0.566468, 0.108179/0.574742,
+0.111753/0.571735, and 0.123634/0.564448. Decision:
+**NO_STANDARD_CONFIG_MET_GATES**, selected configuration = none; V4 is an
+offline-only diagnostic and is ineligible for standard selection.
+
+Changing only skip10 to skip1 reduces K10 translation p95 from 2.456849 to
+0.135119 m, but K2 remains 12.286618 m for V0–V3. Lower thresholds increase
+ordinary mean update latency from V1's 3.041299 to V2's 5.183803 and V3's
+8.254052 ms without monotonic final agreement. V4's 225 empty calls materially
+change poses in 25 calls; K2 p95 improves to 1.679341 m but still fails. Empty
+calls also advance the relinearization skip counter, so they do not isolate
+nonlinear iteration count alone. Backend-only interval checks pass, not an
+end-to-end real-time claim. Independent execution/provenance audit PASS;
+numerical readiness remains negative. See
+`docs/CUMULTI_STAGE13C_ISAM2_CONVERGENCE.md` and the new Stage13C artifacts.

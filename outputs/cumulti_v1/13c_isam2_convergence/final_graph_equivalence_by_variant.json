@@ -1,0 +1,72 @@
+{
+  "V0_BASELINE_REPLICATION": {
+    "PASS": true,
+    "nodes": 5796,
+    "odom": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "same_keys": true,
+    "same_measurements_and_noise": true,
+    "same_loop_ids": true,
+    "same_anchor": true,
+    "source_timestamps_preserved": true,
+    "identity_tolerance": 1e-12
+  },
+  "V1_EVERY_EVENT_RELINEARIZATION_CHECK": {
+    "PASS": true,
+    "nodes": 5796,
+    "odom": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "same_keys": true,
+    "same_measurements_and_noise": true,
+    "same_loop_ids": true,
+    "same_anchor": true,
+    "source_timestamps_preserved": true,
+    "identity_tolerance": 1e-12
+  },
+  "V2_LOWER_RELINEARIZATION_THRESHOLD": {
+    "PASS": true,
+    "nodes": 5796,
+    "odom": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "same_keys": true,
+    "same_measurements_and_noise": true,
+    "same_loop_ids": true,
+    "same_anchor": true,
+    "source_timestamps_preserved": true,
+    "identity_tolerance": 1e-12
+  },
+  "V3_STRICT_RELINEARIZATION_THRESHOLD": {
+    "PASS": true,
+    "nodes": 5796,
+    "odom": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "same_keys": true,
+    "same_measurements_and_noise": true,
+    "same_loop_ids": true,
+    "same_anchor": true,
+    "source_timestamps_preserved": true,
+    "identity_tolerance": 1e-12
+  },
+  "V4_DEFAULT_WITH_EXTRA_DIAGNOSTIC_UPDATES": {
+    "PASS": true,
+    "nodes": 5796,
+    "odom": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "same_keys": true,
+    "same_measurements_and_noise": true,
+    "same_loop_ids": true,
+    "same_anchor": true,
+    "source_timestamps_preserved": true,
+    "identity_tolerance": 1e-12
+  }
+}

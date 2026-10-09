@@ -1,0 +1,20 @@
+{
+  "UTC": "2026-10-09T02:56:43.749752+00:00",
+  "eligible_primary": [
+    "V0",
+    "V1",
+    "V2",
+    "V3"
+  ],
+  "agreement_limits": {
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0
+  },
+  "qualification": "all eight checkpoint gates plus structural/finite/schema/catastrophe checks, no GT or hidden LM",
+  "ranking": "lowest median ordinary post-fusion update latency, p95 first tie break, fewer changes from V0 next",
+  "indistinguishable_relative_fraction": 0.01,
+  "V4": "OFFLINE DIAGNOSTIC ONLY; excluded from selection",
+  "GT_used": false
+}

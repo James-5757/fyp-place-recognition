@@ -1,0 +1,9 @@
+{
+  "extra_calls": 225,
+  "material_pose_change_calls": 25,
+  "relinearized_call_count": 25,
+  "reeliminated_call_count": 225,
+  "descriptive_material_change_threshold": "1e-7 m or deg, same numeric scale as frozen replication tolerance; NOT an acceptance gate",
+  "convergence_not_guaranteed": true,
+  "extra_calls_also_advance_skip_counter": true
+}

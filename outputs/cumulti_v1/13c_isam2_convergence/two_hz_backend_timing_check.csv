@@ -1,0 +1,6 @@
+variant,events_with_next_interval,update_missed_deadlines,full_incremental_solver_processing_missed_deadlines,update_under_fraction,full_processing_under_fraction,V4_includes_extra_update_cost
+V0_BASELINE_REPLICATION,1716,0,0,1.0,1.0,False
+V1_EVERY_EVENT_RELINEARIZATION_CHECK,1716,0,0,1.0,1.0,False
+V2_LOWER_RELINEARIZATION_THRESHOLD,1716,0,0,1.0,1.0,False
+V3_STRICT_RELINEARIZATION_THRESHOLD,1716,0,0,1.0,1.0,False
+V4_DEFAULT_WITH_EXTRA_DIAGNOSTIC_UPDATES,1716,0,0,1.0,1.0,True

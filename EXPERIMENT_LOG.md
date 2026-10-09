@@ -2,6 +2,38 @@
 
 Reconstructed from source names, output directories and README_zh.md. Historical KITTI and CU-Multi work are deliberately separate.
 
+## Latest entry — 27. Stage 13C (2026-10-09)
+
+Objective: diagnose Stage13B iSAM2/batch disagreement without GT or changing
+the frozen graph. Independent source `src/cumulti/run_stage13c_isam2_convergence.py`
+and audit `src/cumulti/audit_stage13c_isam2_convergence.py` replay the same
+Robot3-reference/Robot1-stream scheduler in five fresh persistent instances.
+Inputs are hash-checked frozen odometry, 75 sanitized loops and eight saved
+Stage13B batch references; no new LM solve. Variants: skip10/threshold0.1,
+skip1/0.1, skip1/0.01, skip1/0.001, and default plus exactly three diagnostic
+empty updates after each loop. Wildfire0.001, noise/Huber/anchor stay frozen.
+
+Outputs: `outputs/cumulti_v1/13c_isam2_convergence/`, per-event counters/timings,
+40 checkpoint comparisons, per-robot/worst20 localization, objective gaps,
+extra-update effects, graph/schema/provenance audits, frozen decision and nine
+figures. Large per-loop estimate archives remain server-only with SHA manifests.
+V0 reproduces all eight original checkpoint pose statistics/objectives within
+1e-7. All variants finish with exactly 5,796 nodes and 5,870 factors, finite
+poses and no new catastrophic step. Independent execution audit PASS.
+
+Numerical gates: V0 passes 3/8 checkpoints; V1–V4 pass 4/8 each. Skip1 repairs
+K10 p95 (2.456849→0.135119 m) but leaves K2 at 12.286618 m. V4's 225 empty
+calls change poses materially in 25 calls and reduce K2 p95 to 1.679341 m,
+still above 0.50 m. Final translation p95 remains 0.563985/0.566468/0.574742/
+0.571735/0.564448 m. Decision: **NO_STANDARD_CONFIG_MET_GATES**; no selected
+standard configuration, V4 ineligible. Lower thresholds increase update cost
+without monotonic final agreement. All backend-only next-interval checks pass,
+but no map publication/frontend/network or end-to-end real-time test occurred.
+No GT decoding/evaluation, new batch optimization, maps, demo changes or
+parameter-grid expansion. See `docs/CUMULTI_STAGE13C_ISAM2_CONVERGENCE.md`.
+
+## Historical entries 1–26
+
 1. Formal Scan Context baseline: `scan_context.py` and `retrieval_baseline*.py`; `outputs/baseline_*` and `formal_split*`; establishes the geometry anchor.
 2. Candidate recall/case analysis: `analyze_sc_candidate_recall.py`, `analyze_retrieval_cases.py` and visualization scripts; documents candidate ceilings and misses.
 3. BEV/yaw validation: `generate_bev.py`, `validate_sc_yaw.py` and `full_bev_reranking.py`; BEV-only reranking regressed against Scan Context.

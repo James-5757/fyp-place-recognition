@@ -1,0 +1,33 @@
+{
+  "gtsam": "4.2",
+  "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+  "executable": "/home/cas/.venvs/fyp_gtsam/bin/python",
+  "CPU": "\t: INTEL(R) XEON(R) GOLD 6530",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "parameter_methods": [
+    "Factorization",
+    "cacheLinearizedFactors",
+    "enableDetailedResults",
+    "enablePartialRelinearizationCheck",
+    "enableRelinearization",
+    "evaluateNonlinearError",
+    "factorization",
+    "findUnusedFactorSlots",
+    "getFactorization",
+    "print",
+    "relinearizeSkip",
+    "setFactorization",
+    "setOptimizationParams",
+    "setRelinearizeThreshold"
+  ],
+  "optimization_methods": [
+    "getWildfireThreshold",
+    "print",
+    "setWildfireThreshold"
+  ],
+  "empty_update_exposed": true,
+  "force_relinearization": "SUPPORTED",
+  "force_semantics": "installed binding exposes the force_relinearize boolean overload; operational semantics not empirically verified, no forced-update trial executed",
+  "update_signature": "update(*args, **kwargs)\nOverloaded function.\n\n1. update(self: gtsam.gtsam.ISAM2) -> gtsam.gtsam.ISAM2Result\n\n2. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values) -> gtsam.gtsam.ISAM2Result\n\n3. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values, removeFactorIndices: std::vector<unsigned long, std::allocator<unsigned long> >) -> gtsam.gtsam.ISAM2Result\n\n4. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values, removeFactorIndices: std::vector<unsigned long, std::allocator<unsigned long> >, constrainedKeys: gtsam::FastMap<unsigned long, int>) -> gtsam.gtsam.ISAM2Result\n\n5. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values, removeFactorIndices: std::vector<unsigned long, std::allocator<unsigned long> >, constrainedKeys: gtsam::FastMap<unsigned long, int>, noRelinKeys: gtsam::FastList<unsigned long>) -> gtsam.gtsam.ISAM2Result\n\n6. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values, removeFactorIndices: std::vector<unsigned long, std::allocator<unsigned long> >, constrainedKeys: gtsam::FastMap<unsigned long, int>, noRelinKeys: gtsam::FastList<unsigned long>, extraReelimKeys: gtsam::FastList<unsigned long>) -> gtsam.gtsam.ISAM2Result\n\n7. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values, removeFactorIndices: std::vector<unsigned long, std::allocator<unsigned long> >, constrainedKeys: gtsam::FastMap<unsigned long, int>, noRelinKeys: gtsam::FastList<unsigned long>, extraReelimKeys: gtsam::FastList<unsigned long>, force_relinearize: bool) -> gtsam.gtsam.ISAM2Result\n\n8. update(self: gtsam.gtsam.ISAM2, newFactors: gtsam.gtsam.NonlinearFactorGraph, newTheta: gtsam.gtsam.Values, updateParams: gtsam::ISAM2UpdateParams) -> gtsam.gtsam.ISAM2Result\n",
+  "force_semantics_verification": "UNVERIFIED"
+}

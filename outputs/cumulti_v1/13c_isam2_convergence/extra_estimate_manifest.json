@@ -1,0 +1,1052 @@
+[
+  {
+    "arrival_index": 1,
+    "kf": 283,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop01.npz",
+    "size_bytes": 1520613,
+    "sha256": "abc845e6b964861224b09b491a9ce393454062d510b57eb048347a8b5efe3972",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 2,
+    "kf": 378,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop02.npz",
+    "size_bytes": 1559638,
+    "sha256": "8a42954751ba8ca56aed95bd1e7e73fb82a5a2a2ffb316410288542bf4146e4e",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 3,
+    "kf": 454,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop03.npz",
+    "size_bytes": 1588165,
+    "sha256": "18d41e943aecdec80710b1d524984dfda8738702edee00a3d4a5d0551c5cb898",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 4,
+    "kf": 482,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop04.npz",
+    "size_bytes": 1598929,
+    "sha256": "ca1ff36eded7f8257fd1c0ebf33b258a4c1026632e5362e3e88cd31f60782c7d",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 5,
+    "kf": 512,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop05.npz",
+    "size_bytes": 1609912,
+    "sha256": "fe4c874f12c3214cec740d8ff2ca5de08329fda583e6c02107812f19364c033d",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 6,
+    "kf": 547,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop06.npz",
+    "size_bytes": 1622324,
+    "sha256": "de0a323b680a8491fceb7a6925d391a110b0b5aa4c68f3eca47ff28a086185f4",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 7,
+    "kf": 575,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop07.npz",
+    "size_bytes": 1632933,
+    "sha256": "9c01fcdba4b129e8366c3b0b7fa177d75d2c70b49ff11819e6c7e3b5f91d4909",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 8,
+    "kf": 632,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop08.npz",
+    "size_bytes": 1654976,
+    "sha256": "bae6bb6d9b5170609db32d72f08c6116923ad9ec2fb39a6ab78ac02abd2077bc",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 9,
+    "kf": 635,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop09.npz",
+    "size_bytes": 1656135,
+    "sha256": "0d50a224a0bf6f1696cafb5a76257bfaa5635aaa073752b6f566385579a1d6a4",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 10,
+    "kf": 638,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop10.npz",
+    "size_bytes": 1657445,
+    "sha256": "5d0f1967edc6fa2ba14dbb68a1770333404044fa56cafc8e01acc7fec5a8d51d",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 11,
+    "kf": 639,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop11.npz",
+    "size_bytes": 1658011,
+    "sha256": "e077bc57e2ca2afd4dd67ae75a74af58576c70fcf7b3ad8cfd82afdc86d77b76",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 12,
+    "kf": 643,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop12.npz",
+    "size_bytes": 1659333,
+    "sha256": "fe76bf3ebff11010bc61d144e5d140cfa5cec682e0fd749b144275de73eb955b",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 13,
+    "kf": 644,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop13.npz",
+    "size_bytes": 1659644,
+    "sha256": "5080fcce90a7710d8dffd08792afb66b0b75806a70efd6b283db4e489a6b1a5e",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 14,
+    "kf": 645,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop14.npz",
+    "size_bytes": 1659967,
+    "sha256": "253d6a47bd5bab861c41db64a0fbfc8d0a52f7188b8f54e087bf34a65adcbdd1",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 15,
+    "kf": 646,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop15.npz",
+    "size_bytes": 1660390,
+    "sha256": "a7460df9e6c5ec551af43872a344b9638417dd1a1195f86cc6414dcbad1ea428",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 16,
+    "kf": 653,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop16.npz",
+    "size_bytes": 1663596,
+    "sha256": "61db1cf760573bbdbac2029db1024a93c6b643700ec5bfae7a70f822857fc7ea",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 17,
+    "kf": 659,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop17.npz",
+    "size_bytes": 1665640,
+    "sha256": "840370c53cffa069b2c82a4444f54e75fb5ec5135d6f6cb3f05b097318e4db4b",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 18,
+    "kf": 660,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop18.npz",
+    "size_bytes": 1665838,
+    "sha256": "6c98a6330ad355f12d73460e36a4b30e428286918ce799b99ec48d76ae351f40",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 19,
+    "kf": 661,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop19.npz",
+    "size_bytes": 1666339,
+    "sha256": "dc541fad749d8d2692b97ccc6c688eec5c5cb5f65a2c0e4fd99978f928705644",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 20,
+    "kf": 664,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop20.npz",
+    "size_bytes": 1667391,
+    "sha256": "7aed0c3ef150c833a3cdc6c5625287c49ac9c1d08dca2626acfcd17e300af4f7",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 21,
+    "kf": 702,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop21.npz",
+    "size_bytes": 1681491,
+    "sha256": "934e813579a16ff744dfdfe2bc1d32d426669ac7bde9c0b526daaa5cc7e17b35",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 22,
+    "kf": 746,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop22.npz",
+    "size_bytes": 1697856,
+    "sha256": "8ba88b7397e4fb87d83f08365dee4992fc64e8350e859181d0fa3b31954d1afc",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 23,
+    "kf": 762,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop23.npz",
+    "size_bytes": 1703814,
+    "sha256": "f84ee7aa74e435e7b1b10c67dddd49d49a7d508ab77a4ce3c0f7610c1f3ac2ec",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 24,
+    "kf": 779,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop24.npz",
+    "size_bytes": 1710112,
+    "sha256": "3f801e02458cde3787cdcaee6379b1bf331b28818853f2fd7ce0858ab2b0e77c",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 25,
+    "kf": 816,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop25.npz",
+    "size_bytes": 1723916,
+    "sha256": "6c938ada6affd90c1933171c544198c7f71376c25ca7d6ae0160139e2e45eba4",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 26,
+    "kf": 827,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop26.npz",
+    "size_bytes": 1728258,
+    "sha256": "bb7a716724892e34a67325cf4b766aa93604655d4743eadaae1fe9e4cddc5716",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 27,
+    "kf": 843,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop27.npz",
+    "size_bytes": 1733677,
+    "sha256": "3acb3f572ffe3bde69d164c6c7243ee295cd16884caaae5608382a47d7f0ac00",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 28,
+    "kf": 863,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop28.npz",
+    "size_bytes": 1741403,
+    "sha256": "4223e03b7dbdffb1eca7d8b448999fdb50fad83cea2041da991102d9b6ab906a",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 29,
+    "kf": 878,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop29.npz",
+    "size_bytes": 1747059,
+    "sha256": "b3e32c143f3a3313a76e64a86d02391b886d21f59116d3e01f7e01648608009e",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 30,
+    "kf": 905,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop30.npz",
+    "size_bytes": 1756656,
+    "sha256": "7077d5b6fceb294f6058c5e9f9f5fa64c51cc4983d221e7a6f0df28f25ed025b",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 31,
+    "kf": 931,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop31.npz",
+    "size_bytes": 1765910,
+    "sha256": "f05efa51d7f4e3f484de44763df3cf549e614c3d4e7b4a100959eafee34e4a95",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 32,
+    "kf": 934,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop32.npz",
+    "size_bytes": 1767094,
+    "sha256": "bb392cd7a92991ee9f6da50f29fa3527bc0d15dddf7ddd6d710a501459ae7304",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 33,
+    "kf": 936,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop33.npz",
+    "size_bytes": 1768047,
+    "sha256": "abf311c6614c589a5c9734a058d4c04697aaec7e46281b6576311546cd15b55a",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 34,
+    "kf": 946,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop34.npz",
+    "size_bytes": 1771788,
+    "sha256": "d93b6d0cb83a977cf3bc354f0fc9d620d7b614d49b395b1fa913a8e9a3fc18b3",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 35,
+    "kf": 954,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop35.npz",
+    "size_bytes": 1774781,
+    "sha256": "258b20fa6bad3647e2052bb30d2096488993869b33153e5b69e0bae0fb16f007",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 36,
+    "kf": 959,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop36.npz",
+    "size_bytes": 1776527,
+    "sha256": "67b17cfc8ce940e11b8722a8039d5b0b6cc91cc29dc526b8b04d8047cf8e6868",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 37,
+    "kf": 973,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop37.npz",
+    "size_bytes": 1781875,
+    "sha256": "32f786b08244d164448a6328e305d8334a1d714b3b5b610178180e63ed394c31",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 38,
+    "kf": 993,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop38.npz",
+    "size_bytes": 1789164,
+    "sha256": "2537c1fc31215ca6319bd9bfa7df8b3b29f914ea70da0ad1b87664d914bdf318",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 39,
+    "kf": 1002,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop39.npz",
+    "size_bytes": 1792508,
+    "sha256": "9dd8ba79393f634accfebb5462a250c326d186b9d3def15d6d9efc9e90d4ab2f",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 40,
+    "kf": 1014,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop40.npz",
+    "size_bytes": 1797034,
+    "sha256": "7fa99f78108b3c1d296c2728a36854970d6ed0bdc107dc7218b671b69a45c476",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 41,
+    "kf": 1036,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop41.npz",
+    "size_bytes": 1804777,
+    "sha256": "1f4a768c9700a7608d0b55424f09c01a027d64ea747f6071e368eeb9267fa8a1",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 42,
+    "kf": 1037,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop42.npz",
+    "size_bytes": 1805623,
+    "sha256": "65ba76e311e75aaaa46052659985175eefcd7d4d743ee5bb61f9139634859475",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 43,
+    "kf": 1041,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop43.npz",
+    "size_bytes": 1806969,
+    "sha256": "b4160f82b1323bf40e4986ef7ad3f110f03e57ab602228f88a7441264082289f",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 44,
+    "kf": 1052,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop44.npz",
+    "size_bytes": 1811308,
+    "sha256": "7ca0925923ce183ffa835d7b1a2839cd6c8c496e607c32ae1a5129ce8713bcfa",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 45,
+    "kf": 1067,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop45.npz",
+    "size_bytes": 1817534,
+    "sha256": "bdd924c4d597998abad0c0acab3bbbedd4ca9dceef8ee31d13cdc22a6db9f9e7",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 46,
+    "kf": 1082,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop46.npz",
+    "size_bytes": 1822981,
+    "sha256": "03fbcaf303b532c1ad5a37112d283893148ac4b7a43b8b8eeeb961d8610b0d05",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 47,
+    "kf": 1083,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop47.npz",
+    "size_bytes": 1823558,
+    "sha256": "68969416621c3590987c3272810dcbecb4a54eede526d4e071400de27c969010",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 48,
+    "kf": 1087,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop48.npz",
+    "size_bytes": 1824723,
+    "sha256": "1665811ea48a55d8be6261f93c8ae1bdaad5006fb1b615e9d43c5115c73e8a1c",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 49,
+    "kf": 1090,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop49.npz",
+    "size_bytes": 1826058,
+    "sha256": "93972d7fcd4c56fc9b987622a0ed7e8bc0a267c36ebf55ac9f97a134c28d32bb",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 50,
+    "kf": 1120,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop50.npz",
+    "size_bytes": 1837663,
+    "sha256": "7bf11145b18b07299d1e0f311daa8e3929356920a4860ce6ff46172eb20123d5",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 51,
+    "kf": 1134,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop51.npz",
+    "size_bytes": 1842057,
+    "sha256": "4fb32e9ff075ed3e002d788480ea97505b58ae1597e36502e62c26d9e8edce6a",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 52,
+    "kf": 1144,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop52.npz",
+    "size_bytes": 1845624,
+    "sha256": "530f2c4feac505e0d25f6e636f22a818446c783ff59150b27674e1432957ce62",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 53,
+    "kf": 1169,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop53.npz",
+    "size_bytes": 1854994,
+    "sha256": "43c3c5dcd3a06d9cb10e95f74887650d51043d93c42b206c8df0fd631c37e3dc",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 54,
+    "kf": 1191,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop54.npz",
+    "size_bytes": 1863317,
+    "sha256": "07e44321fab87a7d04218b1ac1c30eda71f923c779fb5836a4d84366e203694f",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 55,
+    "kf": 1308,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop55.npz",
+    "size_bytes": 1907118,
+    "sha256": "6b2660f86d08a1e020be81fc24d60aa011d2260f700adcb052e16881bead6538",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 56,
+    "kf": 1327,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop56.npz",
+    "size_bytes": 1914468,
+    "sha256": "d859f6e46bcd3586d0dbf6bcdb09bfcb791cf50fb3e0f1745a72c1d9b15472d1",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 57,
+    "kf": 1373,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop57.npz",
+    "size_bytes": 1931429,
+    "sha256": "359f795b872271b2fe29e784abd392a6474b4257eea1a78dc1c1d941e832f837",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 58,
+    "kf": 1424,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop58.npz",
+    "size_bytes": 1950799,
+    "sha256": "5a8b090cd2f9737ea3ff0a52c9190b3a4a2f6260c496ac109bc233239e7791cd",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 59,
+    "kf": 1444,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop59.npz",
+    "size_bytes": 1957813,
+    "sha256": "ad751cc45492ab5472da2bcd6d28bab120fc7ca2e1406c7748465a45d87f9c02",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 60,
+    "kf": 1489,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop60.npz",
+    "size_bytes": 1974206,
+    "sha256": "5e54272ead4b886042f03364a37e48c770b9253e7809c00fec0e55a3b5320d92",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 61,
+    "kf": 1579,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop61.npz",
+    "size_bytes": 2008103,
+    "sha256": "a514a15355c638d99990c5e3865a9c1716cde631094d328f94781238d6a0a960",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 62,
+    "kf": 1606,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop62.npz",
+    "size_bytes": 2018248,
+    "sha256": "d4f3ca3cf838e5bb141cd940d17dce9a0f5eb0750dfef0b3d1b87b7dc3701325",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 63,
+    "kf": 1619,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop63.npz",
+    "size_bytes": 2023102,
+    "sha256": "8e5a16ba97d147970b52e7b3e830ed9070e0170736547c773d64979d8e388553",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 64,
+    "kf": 1650,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop64.npz",
+    "size_bytes": 2034511,
+    "sha256": "5d9d948dcb983716cbf26da0d78a763d80c0aafce27989184eae42aae6068b64",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 65,
+    "kf": 1656,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop65.npz",
+    "size_bytes": 2036591,
+    "sha256": "ab50a4e5ce53f54af7284bf9b8b2bc671e7c06dd25d4b79d08f5b69e9cabb701",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 66,
+    "kf": 1661,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop66.npz",
+    "size_bytes": 2038355,
+    "sha256": "bd52985d86574d2f064f58d496354761e5c685b782b90f285193b3d1300c8bd4",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 67,
+    "kf": 1694,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop67.npz",
+    "size_bytes": 2050411,
+    "sha256": "c5dec234142b8c837a2c5474890b0f0b6c69c7e930d038ffcb4aef5d8980179c",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 68,
+    "kf": 1716,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop68.npz",
+    "size_bytes": 2058818,
+    "sha256": "13da67d5796ea592a3501c2b073615dc6bb122af3f58e2d2a1024423c37d4e5a",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 69,
+    "kf": 1744,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop69.npz",
+    "size_bytes": 2069081,
+    "sha256": "67603a8a4f638d23c04677d5abd7e9488420a9959350043c08ef531590262b50",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 70,
+    "kf": 1748,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop70.npz",
+    "size_bytes": 2070946,
+    "sha256": "95c4c9af12340d96f96711ce32e7a15fc65ae240f46b2d4eda18a49bda543403",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 71,
+    "kf": 1763,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop71.npz",
+    "size_bytes": 2076273,
+    "sha256": "ee892e0dc150893094971dd4f940a937d9fc8408f6e685f0c53a25ca5281ab92",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 72,
+    "kf": 1776,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop72.npz",
+    "size_bytes": 2080993,
+    "sha256": "d7fbee3df6c55fc5663303e2d5af7a6cf8c964544ca726a9783033fda1eb4ffb",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 73,
+    "kf": 1789,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop73.npz",
+    "size_bytes": 2085569,
+    "sha256": "b25fa90105043deb790b56b8fa8f90968723e00ba7104a8dd6334b4833ec2585",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 74,
+    "kf": 1806,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop74.npz",
+    "size_bytes": 2092119,
+    "sha256": "dc31cc6a71166bb825ab8e8c4d8730c4183418a3039349b43bd2f6eb72b3d823",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  },
+  {
+    "arrival_index": 75,
+    "kf": 1967,
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13c_isam2_convergence/extra_estimates/loop75.npz",
+    "size_bytes": 2151768,
+    "sha256": "a5a6021fa068142a069267a8dcd5dab50a02616ad2074e0ad39ea10ab5390f6c",
+    "steps": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "server_only": true
+  }
+]

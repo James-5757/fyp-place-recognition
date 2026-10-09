@@ -1,0 +1,576 @@
+[
+  {
+    "phase": "POLICY_FROZEN",
+    "UTC": "2026-10-09T02:56:43.753230+00:00"
+  },
+  {
+    "phase": "VARIANT_START",
+    "UTC": "2026-10-09T02:56:45.004871+00:00",
+    "variant": "V0_BASELINE_REPLICATION"
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:56:45.532874+00:00",
+    "variant": "V0",
+    "checkpoint": "FIRST_LOOP",
+    "PASS": true,
+    "translation_p95_m": 1.3781204854500086e-12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:56:45.954972+00:00",
+    "variant": "V0",
+    "kf": 300
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:56:47.902232+00:00",
+    "variant": "V0",
+    "checkpoint": "K2",
+    "PASS": false,
+    "translation_p95_m": 12.286617828357347
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:56:50.877243+00:00",
+    "variant": "V0",
+    "checkpoint": "K5",
+    "PASS": true,
+    "translation_p95_m": 0.11613278196111491
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:56:52.570438+00:00",
+    "variant": "V0",
+    "kf": 600
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:56:53.761242+00:00",
+    "variant": "V0",
+    "checkpoint": "K10",
+    "PASS": false,
+    "translation_p95_m": 2.456849108557954
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:56:54.817902+00:00",
+    "variant": "V0",
+    "checkpoint": "K20",
+    "PASS": true,
+    "translation_p95_m": 0.3743183923753386
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:56:59.977319+00:00",
+    "variant": "V0",
+    "kf": 900
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:03.228289+00:00",
+    "variant": "V0",
+    "checkpoint": "K40",
+    "PASS": false,
+    "translation_p95_m": 0.611506028555215
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:07.834622+00:00",
+    "variant": "V0",
+    "kf": 1200
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:14.993149+00:00",
+    "variant": "V0",
+    "kf": 1500
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:22.825293+00:00",
+    "variant": "V0",
+    "kf": 1800
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:27.620085+00:00",
+    "variant": "V0",
+    "checkpoint": "K75",
+    "PASS": false,
+    "translation_p95_m": 0.7445213459990747
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:28.961491+00:00",
+    "variant": "V0",
+    "checkpoint": "FINAL_STREAM_END",
+    "PASS": false,
+    "translation_p95_m": 0.5639854280275796
+  },
+  {
+    "phase": "VARIANT_COMPLETE",
+    "UTC": "2026-10-09T02:57:29.233856+00:00",
+    "variant": "V0",
+    "checkpoints_passed": 3
+  },
+  {
+    "phase": "VARIANT_START",
+    "UTC": "2026-10-09T02:57:29.267706+00:00",
+    "variant": "V1_EVERY_EVENT_RELINEARIZATION_CHECK"
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:29.741645+00:00",
+    "variant": "V1",
+    "checkpoint": "FIRST_LOOP",
+    "PASS": true,
+    "translation_p95_m": 1.3781204854500086e-12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:30.058113+00:00",
+    "variant": "V1",
+    "kf": 300
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:31.799264+00:00",
+    "variant": "V1",
+    "checkpoint": "K2",
+    "PASS": false,
+    "translation_p95_m": 12.286617828357347
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:34.823726+00:00",
+    "variant": "V1",
+    "checkpoint": "K5",
+    "PASS": true,
+    "translation_p95_m": 0.11952401820256527
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:36.631091+00:00",
+    "variant": "V1",
+    "kf": 600
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:37.976085+00:00",
+    "variant": "V1",
+    "checkpoint": "K10",
+    "PASS": true,
+    "translation_p95_m": 0.13511872318427645
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:39.303097+00:00",
+    "variant": "V1",
+    "checkpoint": "K20",
+    "PASS": true,
+    "translation_p95_m": 0.3505896036168271
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:44.685239+00:00",
+    "variant": "V1",
+    "kf": 900
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:57:48.425863+00:00",
+    "variant": "V1",
+    "checkpoint": "K40",
+    "PASS": false,
+    "translation_p95_m": 0.6065501194872465
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:57:53.740175+00:00",
+    "variant": "V1",
+    "kf": 1200
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:01.112352+00:00",
+    "variant": "V1",
+    "kf": 1500
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:09.334763+00:00",
+    "variant": "V1",
+    "kf": 1800
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:14.171207+00:00",
+    "variant": "V1",
+    "checkpoint": "K75",
+    "PASS": false,
+    "translation_p95_m": 0.746214836919382
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:15.536206+00:00",
+    "variant": "V1",
+    "checkpoint": "FINAL_STREAM_END",
+    "PASS": false,
+    "translation_p95_m": 0.5664678425831091
+  },
+  {
+    "phase": "VARIANT_COMPLETE",
+    "UTC": "2026-10-09T02:58:15.799742+00:00",
+    "variant": "V1",
+    "checkpoints_passed": 4
+  },
+  {
+    "phase": "VARIANT_START",
+    "UTC": "2026-10-09T02:58:15.853527+00:00",
+    "variant": "V2_LOWER_RELINEARIZATION_THRESHOLD"
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:16.327331+00:00",
+    "variant": "V2",
+    "checkpoint": "FIRST_LOOP",
+    "PASS": true,
+    "translation_p95_m": 1.3781204854500086e-12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:16.644068+00:00",
+    "variant": "V2",
+    "kf": 300
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:18.401444+00:00",
+    "variant": "V2",
+    "checkpoint": "K2",
+    "PASS": false,
+    "translation_p95_m": 12.286617828357347
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:21.535747+00:00",
+    "variant": "V2",
+    "checkpoint": "K5",
+    "PASS": true,
+    "translation_p95_m": 0.05494200395119947
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:23.409149+00:00",
+    "variant": "V2",
+    "kf": 600
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:24.772110+00:00",
+    "variant": "V2",
+    "checkpoint": "K10",
+    "PASS": true,
+    "translation_p95_m": 0.1235313633182943
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:26.445721+00:00",
+    "variant": "V2",
+    "checkpoint": "K20",
+    "PASS": true,
+    "translation_p95_m": 0.3300639913710505
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:32.453145+00:00",
+    "variant": "V2",
+    "kf": 900
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:58:36.707009+00:00",
+    "variant": "V2",
+    "checkpoint": "K40",
+    "PASS": false,
+    "translation_p95_m": 0.5925888277807242
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:43.083635+00:00",
+    "variant": "V2",
+    "kf": 1200
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:58:50.996107+00:00",
+    "variant": "V2",
+    "kf": 1500
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:00.184320+00:00",
+    "variant": "V2",
+    "kf": 1800
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:05.144023+00:00",
+    "variant": "V2",
+    "checkpoint": "K75",
+    "PASS": false,
+    "translation_p95_m": 0.7486658106831561
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:06.512300+00:00",
+    "variant": "V2",
+    "checkpoint": "FINAL_STREAM_END",
+    "PASS": false,
+    "translation_p95_m": 0.5747419190884503
+  },
+  {
+    "phase": "VARIANT_COMPLETE",
+    "UTC": "2026-10-09T02:59:06.778666+00:00",
+    "variant": "V2",
+    "checkpoints_passed": 4
+  },
+  {
+    "phase": "VARIANT_START",
+    "UTC": "2026-10-09T02:59:06.860410+00:00",
+    "variant": "V3_STRICT_RELINEARIZATION_THRESHOLD"
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:07.333398+00:00",
+    "variant": "V3",
+    "checkpoint": "FIRST_LOOP",
+    "PASS": true,
+    "translation_p95_m": 1.3781204854500086e-12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:07.653169+00:00",
+    "variant": "V3",
+    "kf": 300
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:09.416165+00:00",
+    "variant": "V3",
+    "checkpoint": "K2",
+    "PASS": false,
+    "translation_p95_m": 12.286617828357347
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:12.729282+00:00",
+    "variant": "V3",
+    "checkpoint": "K5",
+    "PASS": true,
+    "translation_p95_m": 0.054061458981792085
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:14.707460+00:00",
+    "variant": "V3",
+    "kf": 600
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:16.073688+00:00",
+    "variant": "V3",
+    "checkpoint": "K10",
+    "PASS": true,
+    "translation_p95_m": 0.12174950856763812
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:17.889270+00:00",
+    "variant": "V3",
+    "checkpoint": "K20",
+    "PASS": true,
+    "translation_p95_m": 0.3267251965509541
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:24.948391+00:00",
+    "variant": "V3",
+    "kf": 900
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T02:59:30.019153+00:00",
+    "variant": "V3",
+    "checkpoint": "K40",
+    "PASS": false,
+    "translation_p95_m": 0.5910385811917301
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:37.953864+00:00",
+    "variant": "V3",
+    "kf": 1200
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:46.548623+00:00",
+    "variant": "V3",
+    "kf": 1500
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T02:59:57.330632+00:00",
+    "variant": "V3",
+    "kf": 1800
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:02.483032+00:00",
+    "variant": "V3",
+    "checkpoint": "K75",
+    "PASS": false,
+    "translation_p95_m": 0.7422607243341787
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:03.894314+00:00",
+    "variant": "V3",
+    "checkpoint": "FINAL_STREAM_END",
+    "PASS": false,
+    "translation_p95_m": 0.57173459139277
+  },
+  {
+    "phase": "VARIANT_COMPLETE",
+    "UTC": "2026-10-09T03:00:04.166688+00:00",
+    "variant": "V3",
+    "checkpoints_passed": 4
+  },
+  {
+    "phase": "VARIANT_START",
+    "UTC": "2026-10-09T03:00:04.259244+00:00",
+    "variant": "V4_DEFAULT_WITH_EXTRA_DIAGNOSTIC_UPDATES"
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:06.788449+00:00",
+    "variant": "V4",
+    "checkpoint": "FIRST_LOOP",
+    "PASS": true,
+    "translation_p95_m": 1.3781204854500086e-12
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T03:00:07.107271+00:00",
+    "variant": "V4",
+    "kf": 300
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:11.032743+00:00",
+    "variant": "V4",
+    "checkpoint": "K2",
+    "PASS": false,
+    "translation_p95_m": 1.6793409293740915
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:17.895629+00:00",
+    "variant": "V4",
+    "checkpoint": "K5",
+    "PASS": true,
+    "translation_p95_m": 0.11684924874447161
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T03:00:21.211584+00:00",
+    "variant": "V4",
+    "kf": 600
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:26.322306+00:00",
+    "variant": "V4",
+    "checkpoint": "K10",
+    "PASS": false,
+    "translation_p95_m": 0.8291076197408603
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:00:36.953534+00:00",
+    "variant": "V4",
+    "checkpoint": "K20",
+    "PASS": true,
+    "translation_p95_m": 0.3808496492082125
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T03:00:49.673249+00:00",
+    "variant": "V4",
+    "kf": 900
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:01:04.137353+00:00",
+    "variant": "V4",
+    "checkpoint": "K40",
+    "PASS": true,
+    "translation_p95_m": 0.33973822736394876
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T03:01:21.319120+00:00",
+    "variant": "V4",
+    "kf": 1200
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T03:01:34.246144+00:00",
+    "variant": "V4",
+    "kf": 1500
+  },
+  {
+    "phase": "STREAM_PROGRESS",
+    "UTC": "2026-10-09T03:01:55.236754+00:00",
+    "variant": "V4",
+    "kf": 1800
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:02:04.102933+00:00",
+    "variant": "V4",
+    "checkpoint": "K75",
+    "PASS": false,
+    "translation_p95_m": 0.5619764991188299
+  },
+  {
+    "phase": "CHECKPOINT",
+    "UTC": "2026-10-09T03:02:05.503367+00:00",
+    "variant": "V4",
+    "checkpoint": "FINAL_STREAM_END",
+    "PASS": false,
+    "translation_p95_m": 0.564448334837444
+  },
+  {
+    "phase": "VARIANT_COMPLETE",
+    "UTC": "2026-10-09T03:02:05.773557+00:00",
+    "variant": "V4",
+    "checkpoints_passed": 4
+  },
+  {
+    "phase": "FINALIZATION_COMPLETE_NO_OPTIMIZATION",
+    "UTC": "2026-10-09T03:03:04.000551+00:00",
+    "decision": "NO_STANDARD_CONFIG_MET_GATES"
+  },
+  {
+    "phase": "FINALIZATION_COMPLETE_NO_OPTIMIZATION",
+    "UTC": "2026-10-09T03:04:44.885437+00:00",
+    "decision": "NO_STANDARD_CONFIG_MET_GATES"
+  },
+  {
+    "phase": "FINALIZATION_COMPLETE_NO_OPTIMIZATION",
+    "UTC": "2026-10-09T03:10:53.828406+00:00",
+    "decision": "NO_STANDARD_CONFIG_MET_GATES"
+  }
+]

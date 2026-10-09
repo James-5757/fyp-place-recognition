@@ -1,5 +1,28 @@
 # Next steps
 
+## Current update — after Stage 13C (2026-10-09)
+
+Stage13C's independent fixed-grid convergence study is complete. V0 reproduces
+Stage13B; all five variants preserve the same factors and pass integrity, but
+none passes the original all-checkpoint pose-agreement gates. Persisted
+decision: **NO_STANDARD_CONFIG_MET_GATES**. Do not promote a near-pass, choose
+V4 as an online policy, relax the gates, or alter frozen historical outputs.
+
+More frequent relinearization checks substantially improve K10, not K2 or all
+final checkpoints. Lower thresholds raise latency without monotonic final
+agreement. Empty updates sometimes change estimates, sometimes do not, and
+also advance the skip counter; the cause is not established as relinearization
+alone. A separately authorized, predeclared GT-free numerical-method audit may
+study nonlinear stopping/update paths, cached linearization and weak directions
+on identical factors. Do not expand the parameter search automatically.
+
+No additional GT evaluation or maps are needed to interpret Stage13C. Backend
+interval compliance is not full-system real-time readiness. Keep the demo and
+SC/GICP unchanged, and stop here pending the next protocol. See
+`docs/CUMULTI_STAGE13C_ISAM2_CONVERGENCE.md`.
+
+## Historical planning notes (superseded where applicable)
+
 CU-Multi Main Campus robot1/robot2 Stage 1 is complete: the read-only raw archives were inspected and `/home/cas/CU-Multi/processed_v1/` now contains a validated 100-keyframe-per-robot subset. See `docs/CUMULTI_STAGE1_VALIDATION.md` for actual topics, synchronization quality, calibration assumptions, and unresolved coordinate-frame questions.
 
 Do not expand this subset to the full dataset or run retrieval yet. Before Stage 2, confirm the upstream UTM zone/datum and the GT measurement-frame origin; export/inspect CameraInfo intrinsics only if camera geometry becomes necessary. Keep GT restricted to synchronization, overlap/positive definition, analysis and evaluation—never candidate selection or reranking.

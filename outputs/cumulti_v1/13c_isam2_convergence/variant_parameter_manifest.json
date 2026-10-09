@@ -1,0 +1,62 @@
+[
+  {
+    "name": "V0_BASELINE_REPLICATION",
+    "skip": 10,
+    "threshold": 0.1,
+    "extra": 0,
+    "status": "SUPPORTED",
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "wildfire": 0.001,
+    "optimizer": "GaussNewton",
+    "factorization": "CHOLESKY",
+    "cacheLinearizedFactors": true
+  },
+  {
+    "name": "V1_EVERY_EVENT_RELINEARIZATION_CHECK",
+    "skip": 1,
+    "threshold": 0.1,
+    "extra": 0,
+    "status": "SUPPORTED",
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   1\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "wildfire": 0.001,
+    "optimizer": "GaussNewton",
+    "factorization": "CHOLESKY",
+    "cacheLinearizedFactors": true
+  },
+  {
+    "name": "V2_LOWER_RELINEARIZATION_THRESHOLD",
+    "skip": 1,
+    "threshold": 0.01,
+    "extra": 0,
+    "status": "SUPPORTED",
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.01\nrelinearizeSkip:                   1\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "wildfire": 0.001,
+    "optimizer": "GaussNewton",
+    "factorization": "CHOLESKY",
+    "cacheLinearizedFactors": true
+  },
+  {
+    "name": "V3_STRICT_RELINEARIZATION_THRESHOLD",
+    "skip": 1,
+    "threshold": 0.001,
+    "extra": 0,
+    "status": "SUPPORTED",
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.001\nrelinearizeSkip:                   1\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "wildfire": 0.001,
+    "optimizer": "GaussNewton",
+    "factorization": "CHOLESKY",
+    "cacheLinearizedFactors": true
+  },
+  {
+    "name": "V4_DEFAULT_WITH_EXTRA_DIAGNOSTIC_UPDATES",
+    "skip": 10,
+    "threshold": 0.1,
+    "extra": 3,
+    "status": "SUPPORTED",
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "wildfire": 0.001,
+    "optimizer": "GaussNewton",
+    "factorization": "CHOLESKY",
+    "cacheLinearizedFactors": true
+  }
+]
