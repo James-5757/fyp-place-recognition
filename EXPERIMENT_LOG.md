@@ -91,3 +91,30 @@ parameter-grid expansion. See `docs/CUMULTI_STAGE13C_ISAM2_CONVERGENCE.md`.
 24. CU-Multi Stage 12D clean backend: `src/cumulti/run_stage12d_clean_backend.py`; reused frozen R1 KF150/R3 KF234 starts and all 75 retained Rank1 sanitized loops with unchanged Stage10.3 extrinsic/noise/Huber settings. The 5,796-node / 5,794-odometry-factor graph solves in 0.351 s (7 iterations), reducing graph error 3843.986→23.840 with no new catastrophic step (post-PGO max XY 1.141/1.411 m). First-arrival and highest-quality rules both select R1 KF283↔R3 KF252, so identical final solutions give a sensitivity WARN rather than evidence about distinct seeds. GT-free map NN median/p95 is 3.031/119.278 m versus first-loop 10.865/144.833 m; pre-GT decision is CLEAN_BACKEND_READY. Offline-only joint ATE worsens from 16.966 to 19.608 m, and no solver rerun follows GT. Stage13 K=1,2,5,10,20,40,75 is frozen but not executed; no iSAM2 or demo change. See `docs/CUMULTI_STAGE12D_CLEAN_BACKEND.md`.
 25. CU-Multi Stage 13A sparse-loop batch evaluation: `src/cumulti/run_stage13a_sparse_loops.py`; reused the actual Stage12D factor template and frozen first-loop x0 for independent K=1,2,5,10,20,40,75 graphs (5,796 nodes, 5,794 odometry factors, one prior). First loop connects two chains (2→1), K1/K75 reproduce Stage12D, and all 28 warmup/measured solves precede the persisted GT-free decision. Frozen 10% median/p95 rule finds **NO_SPARSE_SAVING**; global NN median is 10.865/8.103/4.288/4.229/4.100/6.189/3.031 m, explicitly non-monotonic. Mean batch solve latency is 0.115–0.393 s (three measured samples per K); fixed 20m loop-endpoint ROI is an offline GT-free diagnostic, not a GT overlap mask. Offline-only joint ATE is 16.966/21.182/17.771/22.383/21.900/27.598/19.608 m, also non-monotonic. Nine figures, source-attributed server-only maps with SHA256 manifests, and independent provenance/schema/RPE-union audit pass. Readiness is READY_FOR_INCREMENTAL_METHOD_STUDY, requiring a separately declared causal scheduler; no iSAM2, frontend rerun, frozen-result change or demo modification. See `docs/CUMULTI_STAGE13A_SPARSE_LOOPS.md`.
 26. CU-Multi Stage 13B incremental iSAM2 study: `src/cumulti/run_stage13b_incremental_isam2.py`; prebuilt Robot3 KF234–4179 reference plus original-order Robot1 KF150–1999, inserting all 75 precomputed frozen loops at query arrival. First bridge R1#283↔R3#252 connects 4080 nodes with one prior (2→1), then 1716 subsequent events reuse the same ISAM2 instance. Defaults frozen before execution (GaussNewton, threshold0.1, skip10, wildfire0.001); initial KeySet-binding validation error was archived and fixed to keyVector before GT, without parameter changes. Final factors equal Stage13A K75 exactly (5796 nodes/5794 odometry/75 loops/1 prior). First update is 26.787 ms, first fusion including map publication 2459.273 ms; odometry-only/loop update means are 1.827/2.833 ms, p95 14.950/20.222 ms. All poses finite, no new catastrophic steps, but only FIRST_LOOP/K5/K20 meet fixed batch-agreement limits; final translation median/p95 difference is 0.124431/0.563985 m and rotation 0.055319/0.301537°. Pre-GT decision: **INCREMENTAL_BACKEND_NOT_READY**; method validation **FAIL_NUMERICAL_AGREEMENT**, independent provenance/execution audit PASS. Final NN median/p95 3.031268/118.993911 m, offline-only joint/R1/R3 ATE 19.631962/12.122472/22.298223 m, combined10-KF RPE 10.540963 m/7.521802°. Nine figures and archived-event demo assets prepared; no historical demo change, causal online frontend, simultaneous robots, retuning or solve after GT. See `docs/CUMULTI_STAGE13B_INCREMENTAL_ISAM2.md`.
+
+
+## Entry 29 — Stage 14 (2026-10-10)
+
+Objective: distinguish final incremental state/rebuild sensitivity, initialization
+sensitivity and descriptive structural/conditioning evidence without GT. New
+`run_stage14_final_consistency.py`, independent auditor and launcher use exact
+frozen75loop/odom/prior factors at K2/K75/FINAL. A1canonical/A2D0/A3D2 fresh
+instances keep skip1/threshold0.01/wildfire0.001 and five empty calls; six LM
+probes use frozen12D defaults. Original gates, gauge and inputs are fixed.
+
+Outputs: `outputs/cumulti_v1/14_final_consistency/`;54 fresh states, historical
+comparisons, six LM probes, nodewise physical/Logmap differences, PCA/smoothness,
+fixed50/100/250KF loop-support proxies,18 bounded6x6 marginals, separate costs,
+frozen decision, nine figures and independent audit PASS. Historical120-to75
+provenance and excluded45 IDs verified. A prefix-schema preflight and later
+reporting failure are archived; mandatory timing recovery uses exactly the
+original policy and reproduces all66 state files with maxcoordinate delta0.
+No parameter search or best-time selection.
+
+K2 fresh graphs pass; K75/final fresh p95 remains0.56–0.57m, all FAIL. LM from
+canonical x0 reproduces reference, but persistent x0 probes keep different
+coordinates at near-equal objectives. Robot3 error is smooth/distributed;
+structural support associations and finite local marginal information do not
+establish one causal mechanism or a Hessian nullspace. Frozen decision:
+**RESIDUAL_NUMERICAL_DISCREPANCY_UNRESOLVED**. No GT, scans/maps, frontend or
+demo changes; stop pending a separately declared methodology protocol.

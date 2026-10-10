@@ -1,0 +1,126 @@
+[
+  {
+    "UTC": "2026-10-10T11:02:36.865673+00:00",
+    "phase": "POLICY_FROZEN"
+  },
+  {
+    "UTC": "2026-10-10T11:02:44.454835+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "K2",
+    "state": "A1_FRESH_CANONICAL",
+    "translation_p95_m": 0.055109175021597234,
+    "PASS": true
+  },
+  {
+    "UTC": "2026-10-10T11:02:49.830967+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "K2",
+    "state": "A2_FRESH_D0",
+    "translation_p95_m": 0.05505936372947279,
+    "PASS": true
+  },
+  {
+    "UTC": "2026-10-10T11:02:55.164609+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "K2",
+    "state": "A3_FRESH_D2",
+    "translation_p95_m": 0.05418785861211975,
+    "PASS": true
+  },
+  {
+    "UTC": "2026-10-10T11:03:05.117668+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "K75",
+    "state": "A1_FRESH_CANONICAL",
+    "translation_p95_m": 0.5605187625402571,
+    "PASS": false
+  },
+  {
+    "UTC": "2026-10-10T11:03:12.428134+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "K75",
+    "state": "A2_FRESH_D0",
+    "translation_p95_m": 0.5684375887779403,
+    "PASS": false
+  },
+  {
+    "UTC": "2026-10-10T11:03:19.673361+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "K75",
+    "state": "A3_FRESH_D2",
+    "translation_p95_m": 0.5686403879748465,
+    "PASS": false
+  },
+  {
+    "UTC": "2026-10-10T11:03:21.481175+00:00",
+    "phase": "LM_COMPLETE",
+    "checkpoint": "K75",
+    "state": "B0_LM_CANONICAL",
+    "p95": 2.0097183471152322e-14,
+    "error": 23.840383655499632
+  },
+  {
+    "UTC": "2026-10-10T11:03:23.081127+00:00",
+    "phase": "LM_COMPLETE",
+    "checkpoint": "K75",
+    "state": "B1_LM_D0",
+    "p95": 0.5702328270170784,
+    "error": 23.840380442948558
+  },
+  {
+    "UTC": "2026-10-10T11:03:24.561066+00:00",
+    "phase": "LM_COMPLETE",
+    "checkpoint": "K75",
+    "state": "B2_LM_D2",
+    "p95": 0.572389596771516,
+    "error": 23.84037743332096
+  },
+  {
+    "UTC": "2026-10-10T11:03:34.682723+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "FINAL_STREAM_END",
+    "state": "A1_FRESH_CANONICAL",
+    "translation_p95_m": 0.5636221503836432,
+    "PASS": false
+  },
+  {
+    "UTC": "2026-10-10T11:03:42.080444+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "FINAL_STREAM_END",
+    "state": "A2_FRESH_D0",
+    "translation_p95_m": 0.5707845035632929,
+    "PASS": false
+  },
+  {
+    "UTC": "2026-10-10T11:03:49.384656+00:00",
+    "phase": "REBUILD_COMPLETE",
+    "checkpoint": "FINAL_STREAM_END",
+    "state": "A3_FRESH_D2",
+    "translation_p95_m": 0.5709946548560623,
+    "PASS": false
+  },
+  {
+    "UTC": "2026-10-10T11:03:51.241062+00:00",
+    "phase": "LM_COMPLETE",
+    "checkpoint": "FINAL_STREAM_END",
+    "state": "B0_LM_CANONICAL",
+    "p95": 2.0097183471152322e-14,
+    "error": 23.840383645478425
+  },
+  {
+    "UTC": "2026-10-10T11:03:52.743931+00:00",
+    "phase": "LM_COMPLETE",
+    "checkpoint": "FINAL_STREAM_END",
+    "state": "B1_LM_D0",
+    "p95": 0.5640320986726389,
+    "error": 23.840367357946814
+  },
+  {
+    "UTC": "2026-10-10T11:03:54.266162+00:00",
+    "phase": "LM_COMPLETE",
+    "checkpoint": "FINAL_STREAM_END",
+    "state": "B2_LM_D2",
+    "p95": 0.5747391179957249,
+    "error": 23.840377433087973
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "reason": "All15 solver trials completed but reporting-only Robot3 metrics helper failed; some runtime/iteration rows had not been persisted. Necessary exact-design reproduction to recover mandatory records, not parameter search.",
+  "original_policy_sha256": "884a8195879345edc41b26badddadfbfbf4aa24f6036047b1d1ddf9b1123a91a",
+  "original_estimates_server_only": true,
+  "numerical_parameters_unchanged": true,
+  "decision_existed_before_recovery": false,
+  "first_attempt_is_not_primary_timing_sample": true
+}

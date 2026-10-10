@@ -1,0 +1,22 @@
+{
+  "UTC": "2026-10-10T11:06:50.988768+00:00",
+  "decision": "RESIDUAL_NUMERICAL_DISCREPANCY_UNRESOLVED",
+  "rebuild_toward_reference_evidence": [
+    {
+      "checkpoint": "K75",
+      "starting_state": "D0_PERSISTENT",
+      "fresh_state": "A2_FRESH_D0",
+      "reduction_m": 0.176083757221127,
+      "D0_parameter_change_confound": true
+    }
+  ],
+  "LM_near_objective_gate_inconsistent_checkpoints": [
+    "FINAL_STREAM_END",
+    "K75"
+  ],
+  "fresh_initialization_gate_inconsistent_checkpoints": [],
+  "GT_used": false,
+  "production_ready": false,
+  "not_multiple_global_minima_proof": true,
+  "limitations": "A2 changes defaultD0 parameters toD2; A3 keepsD2 parameters but freshfull insertion/relinearization path changes. Fixed LM termination is not proof of global convergence. Conditioning/association alone not cause."
+}

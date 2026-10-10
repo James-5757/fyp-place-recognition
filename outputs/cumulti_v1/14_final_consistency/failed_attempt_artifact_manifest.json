@@ -1,0 +1,398 @@
+[
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A3_FRESH_D2_step1.csv",
+    "sha256": "fa650a9b088531b25d029d935db44c5649fae60979d84e127fd242158c09a830",
+    "size": 705447,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A3_FRESH_D2_step1.csv",
+    "sha256": "ad4d4e1463f071b032a5ffbd8b41281c73845ed0a7146e46695955a65d708a53",
+    "size": 978064,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A1_FRESH_CANONICAL_step4.csv",
+    "sha256": "ece08c6d9649af0b0aae74802960360f1ac339e1c898bf38f94640b972ab3d1d",
+    "size": 705263,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_D0_PERSISTENT_step0.csv",
+    "sha256": "3efb554f16eeff4527daca2ad3133be5f657eaadc1796bcdf18a172abedaff29",
+    "size": 697071,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A1_FRESH_CANONICAL_step5.csv",
+    "sha256": "89733e0b26b0b7e754e4665d226b121b54656fac03c5e24c9f35aa678362f1b5",
+    "size": 972488,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A3_FRESH_D2_step2.csv",
+    "sha256": "6455a424e2d50be0e69d9838ff8e966af199e7c72aacf867eaea65862eb0360d",
+    "size": 978088,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A2_FRESH_D0_step4.csv",
+    "sha256": "ea6a091066dde0aa27389275224dc4f58dc89964485d49a5906c9a3aecbc7e42",
+    "size": 977828,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_B1_LM_D0_step0.csv",
+    "sha256": "647e5dcc34c376db91dd38e921011f8085b22eb8d21a4f3a269c94dc7fdbc8b5",
+    "size": 972443,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A3_FRESH_D2_step3.csv",
+    "sha256": "83286ae02181acf38990f3afe5040ea08915f66d7eb901f328f370570f4f1b3b",
+    "size": 972434,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A1_FRESH_CANONICAL_step4.csv",
+    "sha256": "0ec9e8194ad22bbbb01e4dfc48cd3f5221a319d910668300295ced8ecc6bce28",
+    "size": 978016,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A1_FRESH_CANONICAL_step3.csv",
+    "sha256": "655afd75869b4b355adf08507895eaaf71583fb07b99fbfafcffdcf66cc00fa3",
+    "size": 705350,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A1_FRESH_CANONICAL_step0.csv",
+    "sha256": "82973d787543ca51f162a2e827617bc67fb78b64f167dbff5765a39b1cbe45c5",
+    "size": 975424,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A2_FRESH_D0_step0.csv",
+    "sha256": "8fa07c52b4292c62c2f7a533afce5186976167744e155567baa07f0a82572b4e",
+    "size": 977686,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A3_FRESH_D2_step3.csv",
+    "sha256": "fa650a9b088531b25d029d935db44c5649fae60979d84e127fd242158c09a830",
+    "size": 705447,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A3_FRESH_D2_step4.csv",
+    "sha256": "83286ae02181acf38990f3afe5040ea08915f66d7eb901f328f370570f4f1b3b",
+    "size": 972434,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A3_FRESH_D2_step2.csv",
+    "sha256": "f5c9e7cf24962e7b8d90f414d4d12429c5c9836d5a00c9cc22d3a1bf1ec75d68",
+    "size": 972447,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_D2_PERSISTENT_step0.csv",
+    "sha256": "ec34378bf74c0b655dd77dbff34bbfd0a7c425adcf023d25befbac4e098b2fe2",
+    "size": 968199,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A2_FRESH_D0_step0.csv",
+    "sha256": "14af670b3e8f59d6bd44b799a7ba2cd5dc162d80a66aef67ad5159c8fa234c77",
+    "size": 705464,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_B1_LM_D0_step0.csv",
+    "sha256": "2c73d7298ad8e872b6458eaeee427c15c4f1ff513c0721251f3cf6b70009f86d",
+    "size": 977717,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A1_FRESH_CANONICAL_step1.csv",
+    "sha256": "3d46f8baafbfb6bdd7fc5099b833cc3cd54cb3fb7ec0351186cb123e691309ae",
+    "size": 705630,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A2_FRESH_D0_step3.csv",
+    "sha256": "cdeeb7c6da27e857e2502673adb616d2c3dad773150221fcb0d83b074f815caf",
+    "size": 972382,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_D0_PERSISTENT_step0.csv",
+    "sha256": "f29df4b647313192fc10974099b619ef29800bff08ca1ea870936b7048d2d4a7",
+    "size": 968678,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A1_FRESH_CANONICAL_step0.csv",
+    "sha256": "ac478300ae21703ca4a351882c7e2593766786cba186276d8e7022b1508aa21c",
+    "size": 969874,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_D0_PERSISTENT_step0.csv",
+    "sha256": "c8650cb1cfe9383acf698398296e4b54af15b0753f37c49f46ef8700d713edb2",
+    "size": 963017,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A1_FRESH_CANONICAL_step5.csv",
+    "sha256": "4fd0c72092d0301822aadc607d8ac78af81a6917d43da9ca1904ece7e718a4ca",
+    "size": 977784,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A3_FRESH_D2_step4.csv",
+    "sha256": "fa650a9b088531b25d029d935db44c5649fae60979d84e127fd242158c09a830",
+    "size": 705447,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A2_FRESH_D0_step2.csv",
+    "sha256": "482b730023918612e4cb8b7d312f69eb1a2d3407b4857e8d472011a80cf73a73",
+    "size": 977980,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A2_FRESH_D0_step2.csv",
+    "sha256": "9931c82e417fffc42b05d2a95b61b42febc8a49685b62a0614c0052c3da2666e",
+    "size": 972550,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A1_FRESH_CANONICAL_step1.csv",
+    "sha256": "46dd57537dd9040a10772247e947b23339d79fa1231dc88534fe748d5c734eee",
+    "size": 972446,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_B2_LM_D2_step0.csv",
+    "sha256": "0ba402ab93d400841822abe7543d7586a1d4f4a61c4d286ceec68ed0793ae690",
+    "size": 972645,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A1_FRESH_CANONICAL_step5.csv",
+    "sha256": "d5efdfc94f981d8efa6714c888a103b56f9a53b157f9beaadbedf60f87315dd3",
+    "size": 705342,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A2_FRESH_D0_step5.csv",
+    "sha256": "ea6a091066dde0aa27389275224dc4f58dc89964485d49a5906c9a3aecbc7e42",
+    "size": 977828,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A1_FRESH_CANONICAL_step0.csv",
+    "sha256": "50a5975b16be8181d3ee854a09ffecefcdc3ab64f89f021c66cd17f01f526b0c",
+    "size": 705360,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A3_FRESH_D2_step5.csv",
+    "sha256": "fa650a9b088531b25d029d935db44c5649fae60979d84e127fd242158c09a830",
+    "size": 705447,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A1_FRESH_CANONICAL_step2.csv",
+    "sha256": "d7e404fdae7a88a1d6371055a7a4dbe63ef73fecd05d70ffcdd965591cd8115e",
+    "size": 705503,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A2_FRESH_D0_step3.csv",
+    "sha256": "6aadbc88ab7031d0640297c85212c4eda9c88151801b08000b94836459979d56",
+    "size": 977800,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_B2_LM_D2_step0.csv",
+    "sha256": "8f10245bd50e7174d7943b97846e3db5a88efe63a2bc45ef1c267e2b561cd3c2",
+    "size": 977832,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A2_FRESH_D0_step4.csv",
+    "sha256": "68093e69297feb92423dd8f027331d3cad69bea680e3ba8ec51aea166d08931f",
+    "size": 705281,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A1_FRESH_CANONICAL_step4.csv",
+    "sha256": "c09444ad39b3fd3649bd23581b7f37e5c70a2c5c4105f55ccbee4abf0bf90177",
+    "size": 972309,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A3_FRESH_D2_step4.csv",
+    "sha256": "9d5c359b5ef3c6323e5b1edef1a00b2d26fa01dc71e3f1ac776bf049d1103454",
+    "size": 978026,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A1_FRESH_CANONICAL_step2.csv",
+    "sha256": "81bd497b60b17bdc9ad294f82544cd7a80ccf815cee13606dc0ecd1a05f2d59a",
+    "size": 972581,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A3_FRESH_D2_step0.csv",
+    "sha256": "b3e9e4633cf58121f23548ffac23644d45a3709fbe3c78203d9b64cd98c72605",
+    "size": 972582,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A2_FRESH_D0_step0.csv",
+    "sha256": "6e7ba722938827da2b8fc248f7ff4322ff1165333105213c1fb7cbb3fa16978b",
+    "size": 972428,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A3_FRESH_D2_step5.csv",
+    "sha256": "83286ae02181acf38990f3afe5040ea08915f66d7eb901f328f370570f4f1b3b",
+    "size": 972434,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A3_FRESH_D2_step0.csv",
+    "sha256": "898a54137d05213a419426fc868ce0176bc0903f1ce548590c4880025808fb54",
+    "size": 978041,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A1_FRESH_CANONICAL_step1.csv",
+    "sha256": "e6572f5babc1922b528ca541dbd7c7b83d7e6fdbf8668225ecb994de792c2dfd",
+    "size": 977861,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A2_FRESH_D0_step1.csv",
+    "sha256": "a85b05b444e47a67f6230fab94b69b050ae3ec9a9273c369697cac428549ee51",
+    "size": 972350,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A2_FRESH_D0_step1.csv",
+    "sha256": "cffb4496a27293a057483595edf787aa05ddcf8230a9c0308c9daacfba34cf99",
+    "size": 977861,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A2_FRESH_D0_step5.csv",
+    "sha256": "a4b9bc9d9498756aa2da7a1e272692ff441c0533ec3eae71e1fc4b1648bf6e43",
+    "size": 705318,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A2_FRESH_D0_step2.csv",
+    "sha256": "e9307e72a92b00afc704121a114c7eb9004a6d207fe801fa96f1cb6516780ea4",
+    "size": 705430,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_D2_PERSISTENT_step0.csv",
+    "sha256": "93a205f8f80ebc8527b53ead64ad7694d173b78662e074f1e1d7863cec0538ec",
+    "size": 962844,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A1_FRESH_CANONICAL_step3.csv",
+    "sha256": "32a2e1dcac6999b7acdb48bdc24bc9a46d76d15478d655ea0000d07213c878f5",
+    "size": 972483,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A2_FRESH_D0_step5.csv",
+    "sha256": "cdeeb7c6da27e857e2502673adb616d2c3dad773150221fcb0d83b074f815caf",
+    "size": 972382,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A3_FRESH_D2_step3.csv",
+    "sha256": "9d5c359b5ef3c6323e5b1edef1a00b2d26fa01dc71e3f1ac776bf049d1103454",
+    "size": 978026,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A3_FRESH_D2_step1.csv",
+    "sha256": "893b40f967e62ea727d73d634c9126452b224498483cca57eed5d2124e576266",
+    "size": 972461,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A2_FRESH_D0_step1.csv",
+    "sha256": "065c7d168a31de3bff01e2e91bd440bd79a430e4a8ba226c781d7682ee687bfa",
+    "size": 705301,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A3_FRESH_D2_step0.csv",
+    "sha256": "e1cdcaf8f0f5baa14f5fe638db9dbfec2643107bf20dd628088a3dcb2c5a4fd6",
+    "size": 705257,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A3_FRESH_D2_step5.csv",
+    "sha256": "9d5c359b5ef3c6323e5b1edef1a00b2d26fa01dc71e3f1ac776bf049d1103454",
+    "size": 978026,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_A2_FRESH_D0_step4.csv",
+    "sha256": "cdeeb7c6da27e857e2502673adb616d2c3dad773150221fcb0d83b074f815caf",
+    "size": 972382,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A1_FRESH_CANONICAL_step3.csv",
+    "sha256": "4343e1a1ed576b3dee25e25811911f1b354f4267596056b0581a38cd02ae0fa6",
+    "size": 978075,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K75_B0_LM_CANONICAL_step0.csv",
+    "sha256": "a08165b63ecf7f2f7e577e49924e6f6dc1d808fe9f37cb7ceac18322cade1694",
+    "size": 972478,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_D2_PERSISTENT_step0.csv",
+    "sha256": "7dc5805c90b316f115a514e41c52767ddfa675ff28bfad0f8aad7a91c59e25d0",
+    "size": 696917,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A2_FRESH_D0_step3.csv",
+    "sha256": "338c375bdcd079c1d35662458bacbec0ce5b633cd79febe63ea1d0c57551959b",
+    "size": 705272,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_A1_FRESH_CANONICAL_step2.csv",
+    "sha256": "f8b284858f614a9afde6980673b48020c93e5e35ff96d1661b697aebfafc9629",
+    "size": 977941,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/FINAL_STREAM_END_B0_LM_CANONICAL_step0.csv",
+    "sha256": "cfa3cdd62317ad6f8d239569639e038e67d645ae95684cfb20185e8a64c138cc",
+    "size": 977886,
+    "server_only": true
+  },
+  {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/14_final_consistency/_failed_attempts/geometry_reporting/estimates/K2_A3_FRESH_D2_step2.csv",
+    "sha256": "fa650a9b088531b25d029d935db44c5649fae60979d84e127fd242158c09a830",
+    "size": 705447,
+    "server_only": true
+  }
+]

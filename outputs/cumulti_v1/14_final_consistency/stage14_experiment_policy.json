@@ -1,0 +1,259 @@
+{
+  "UTC": "2026-10-10T11:02:36.864230+00:00",
+  "accepted": "292f8c22ef62b51dace4ac17b0df633170322fbb",
+  "input_hashes": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+      "sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+      "size_bytes": 145328,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/ordered_rank1_clean_loops.csv",
+      "sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+      "size_bytes": 24393,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv",
+      "sha256": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297",
+      "size_bytes": 982171,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_first_loop_trajectory.csv",
+      "sha256": "50426694f828b2783a6c5ca4758f60c9970f8a1d7f4a20373234dc1e65a3ff0d",
+      "size_bytes": 984137,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_gtsam_solver_policy.json",
+      "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+      "size_bytes": 1377,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoint_microtrace.csv",
+      "sha256": "b8933618ee736646269de2b7c0c68faa6371cb0c740f0f79a6a80d7ee54ac2a8",
+      "size_bytes": 45195,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/stage13d_numerical_decision.json",
+      "sha256": "a4b597c7241193a3381ed406aa2a15427f8d2121326b99f755854765137f72dd",
+      "size_bytes": 630,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/diagnostic_update_timing.csv",
+      "sha256": "7735ffacae845bffff15a1992ec113b6e391b0f34a2f62da1d1d9a558b8f1276",
+      "size_bytes": 1219214,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/pose_differences/D0_FINAL_STREAM_END_AFTER_INSERTION_0.csv",
+      "sha256": "7b8c7b2be47d8aa06faf10f82d12c5ec04942815f57c76fd2edfb26cf3a8dca3",
+      "size_bytes": 299537,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoints/D0_K2_AFTER_INSERTION_0.csv",
+      "sha256": "59ca2bd08174b6cefe77f8dcea3ee8a9199027e910766a91b0f7e0dc8c31c67d",
+      "size_bytes": 705210,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoints/D2_K2_EXTRA_5.csv",
+      "sha256": "793edf08e44cabb02acdf3c0e2d20bbc64ab327e3ad893ee23fe17d346cd11c9",
+      "size_bytes": 705194,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoints/D0_K75_AFTER_INSERTION_0.csv",
+      "sha256": "15d5a6a65ae1ad04c227334bfc62da33bcbfd1f301a59659a7b06724e53d9d5e",
+      "size_bytes": 972558,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoints/D2_K75_EXTRA_5.csv",
+      "sha256": "031c6aba17bf238a19ff030858e7a3ab1b234a552a0c3d0fbc47ba054d8b1808",
+      "size_bytes": 972409,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoints/D0_FINAL_STREAM_END_AFTER_INSERTION_0.csv",
+      "sha256": "91f0b141411e048fd7d1f87b65e207d026450377a2c923882ca9cd8c7a5b39db",
+      "size_bytes": 978186,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13d_solver_diagnostics/checkpoints/D2_FINAL_STREAM_END_EXTRA_5.csv",
+      "sha256": "fb9c79ba6baddf822ef0197d9480468d18c4c7441b4c5f71b59169d5a834bbc8",
+      "size_bytes": 977827,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13b_incremental_isam2/snapshots/K2_batch_trajectory.csv",
+      "sha256": "f3443516e2364c41546a2183326a0ee627d91feac3c8596d63cdca910a05c13a",
+      "size_bytes": 705491,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13b_incremental_isam2/snapshots/K75_batch_trajectory.csv",
+      "sha256": "a08165b63ecf7f2f7e577e49924e6f6dc1d808fe9f37cb7ceac18322cade1694",
+      "size_bytes": 972478,
+      "accepted_blob_verified": true
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13b_incremental_isam2/snapshots/FINAL_STREAM_END_batch_trajectory.csv",
+      "sha256": "cfa3cdd62317ad6f8d239569639e038e67d645ae95684cfb20185e8a64c138cc",
+      "size_bytes": 977886,
+      "accepted_blob_verified": true
+    }
+  ],
+  "checkpoints": {
+    "K2": 378,
+    "K75": 1967,
+    "FINAL_STREAM_END": 1999
+  },
+  "A": {
+    "A0": "read-onlyD0 normal andD2 extra5",
+    "A1": "freshD2 canonical common x0",
+    "A2": "freshD2 historicalD0 coords",
+    "A3": "freshD2 historicalD2 coords",
+    "extra_calls": 5,
+    "skip": 1,
+    "threshold": 0.01,
+    "wildfire": 0.001,
+    "parameter_print": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.01\nrelinearizeSkip:                   1\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "force_update": false
+  },
+  "B": {
+    "checkpoints": [
+      "K75",
+      "FINAL_STREAM_END"
+    ],
+    "initializations": [
+      "canonical",
+      "D0",
+      "D2"
+    ],
+    "settings": "frozen12D LM defaults, no retuning"
+  },
+  "gates": {
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0
+  },
+  "frame": "same R1 KF150 gauge; NO alignment",
+  "material_change": {
+    "max_translation_lt_m": 1e-07,
+    "max_rotation_lt_deg": 1e-07,
+    "abs_objective_change_lt": 1e-09,
+    "consecutive_updates": 2,
+    "exact5_calls": true
+  },
+  "clear_toward_reference": {
+    "relative_p95_reduction_ge": 0.2,
+    "absolute_p95_reduction_ge_m": 0.01,
+    "or_resolves_original_gates": true
+  },
+  "near_objective": {
+    "abs_gap_le": 1e-05,
+    "relative_gap_le": 1e-05
+  },
+  "essentially_same_pose": {
+    "translation_p95_le_m": 0.001,
+    "rotation_p95_le_deg": 0.001
+  },
+  "support_windows_kf": [
+    50,
+    100,
+    250
+  ],
+  "support": "count inserted loop-factor endpoints, nearest KF/path order; boundary-corrected endpoint count/window width; serial correlations descriptive, no causal/unobservability proof",
+  "localization": "perrobot median/p95/max, top20 translation/rotation, contiguous>=per-scopep95 physicaltranslation regions, finite Pose3Logmap(reference^-1state), physical xyz difference not Logmapv",
+  "deformation": {
+    "high_error_m": 0.5,
+    "common_transform_translation_p95_lt": 0.01,
+    "common_transform_rotation_p95_lt_deg": 0.01,
+    "smooth_adjacent_p95_lt_m": 0.05,
+    "long_region_gt_kf": 200,
+    "isolated_fraction_le": 0.01,
+    "isolated_max_over_p95_gt": 10
+  },
+  "conditioning": {
+    "supported": true,
+    "poses": [
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 1308,
+        "group": "WORST",
+        "matched_control_kf": 552
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 552,
+        "group": "LOW_ERROR_CONTROL",
+        "matched_worst_kf": 1308,
+        "matching_kf_gap": 756
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 1635,
+        "group": "WORST",
+        "matched_control_kf": 2503
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 2503,
+        "group": "LOW_ERROR_CONTROL",
+        "matched_worst_kf": 1635,
+        "matching_kf_gap": 868
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 1108,
+        "group": "WORST",
+        "matched_control_kf": 551
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 551,
+        "group": "LOW_ERROR_CONTROL",
+        "matched_worst_kf": 1108,
+        "matching_kf_gap": 557
+      },
+      {
+        "robot_id": "robot1",
+        "keyframe_id": 150,
+        "group": "ROBOT1_CONTROL"
+      },
+      {
+        "robot_id": "robot1",
+        "keyframe_id": 1075,
+        "group": "ROBOT1_CONTROL"
+      },
+      {
+        "robot_id": "robot1",
+        "keyframe_id": 1999,
+        "group": "ROBOT1_CONTROL"
+      }
+    ],
+    "linearizations": [
+      "D0",
+      "FROZEN_BATCH"
+    ],
+    "additional_address_space_bytes": 1073741824,
+    "cpu_seconds": 30,
+    "wall_seconds": 45,
+    "eigen_positive_threshold": "max(1e-15, max_eigenvalue*1e-12)",
+    "symmetry_relative_lt": 1e-08,
+    "PSD_tolerance": "-1e-10*max(1,maxEigen)",
+    "not_global_Hessian": true
+  },
+  "runtime": "one trial per condition; fresh construction/insertion/extra/extraction/objective/comparison/file overhead separated; historical incremental cost reported read-only, not equivalent to full rebuild cost; child conditioning separately timed",
+  "decision_order": "rebuild toward batch at both primary CPs plus initialization-sensitive LM near-objective/gate-inconsistent pair => MULTIPLE; else fresh-init-dependent +LM sensitivity => INITIALIZATION_OR_BASIN; else rebuild support => FRESH_REBUILD; otherwiseUNRESOLVED. Associations/covariance alone not sufficient to claim cause.",
+  "GT_used": false
+}

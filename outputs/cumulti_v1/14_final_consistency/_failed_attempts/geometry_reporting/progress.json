@@ -1,0 +1,8 @@
+{
+  "UTC": "2026-10-10T11:03:54.266162+00:00",
+  "phase": "LM_COMPLETE",
+  "checkpoint": "FINAL_STREAM_END",
+  "state": "B2_LM_D2",
+  "p95": 0.5747391179957249,
+  "error": 23.840377433087973
+}

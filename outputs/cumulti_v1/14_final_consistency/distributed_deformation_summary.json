@@ -1,0 +1,168 @@
+{
+  "D0_PERSISTENT": {
+    "classification": "LONG_CHAIN_SMOOTH_DEFORMATION",
+    "high_error_fraction": 0.10973137354282818,
+    "longest_gt_free_high_error_run_kf": 312,
+    "adjacent_delta_median_m": 0.0007092536646800867,
+    "adjacent_delta_p95_m": 0.003739558662157912,
+    "adjacent_delta_max_m": 0.005569963914709782,
+    "adjacent_rotation_vector_p95_rad": 1.9482707671206876e-05,
+    "PCA_variance_ratios": [
+      0.8351562999546448,
+      0.15790507738396262,
+      0.00693862266139251
+    ],
+    "PCA_axes": [
+      [
+        0.6616824554152999,
+        -0.6686691374238635,
+        -0.3392018762513056
+      ],
+      [
+        0.14987800370469492,
+        0.5612264156612994,
+        -0.8139788046193003
+      ],
+      [
+        0.7346515583602031,
+        0.4877565940310773,
+        0.4715724682147254
+      ]
+    ],
+    "mean_delta_world_m": [
+      0.009890350655193177,
+      -0.019171097660635506,
+      0.07941528990928509
+    ],
+    "left_transform_translation_variation_p95_m": 0.4654320844747768,
+    "left_transform_rotation_variation_p95_deg": 0.3223237255646155,
+    "not_Hessian_nullspace_evidence": true,
+    "support_correlations": [
+      {
+        "proxy": "nearest_loop_endpoint_kf_distance",
+        "Pearson_r": 0.887963678744964,
+        "Spearman_rho": 0.7291059441423249,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_count_w50",
+        "Pearson_r": -0.3656172589055731,
+        "Spearman_rho": -0.5089332895656278,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_density_w50",
+        "Pearson_r": -0.3680143727752093,
+        "Spearman_rho": -0.5093457151667604,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_count_w100",
+        "Pearson_r": -0.3969529540918112,
+        "Spearman_rho": -0.537419686051347,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_density_w100",
+        "Pearson_r": -0.3998790726313024,
+        "Spearman_rho": -0.5389327945062735,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_count_w250",
+        "Pearson_r": -0.45091396271655204,
+        "Spearman_rho": -0.6082425790343501,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_density_w250",
+        "Pearson_r": -0.4547343740873869,
+        "Spearman_rho": -0.6058432606762655,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      }
+    ]
+  },
+  "D2_PERSISTENT": {
+    "classification": "LONG_CHAIN_SMOOTH_DEFORMATION",
+    "high_error_fraction": 0.11505321844906234,
+    "longest_gt_free_high_error_run_kf": 324,
+    "adjacent_delta_median_m": 0.0005139382919279671,
+    "adjacent_delta_p95_m": 0.003814463606783285,
+    "adjacent_delta_max_m": 0.005626810746184283,
+    "adjacent_rotation_vector_p95_rad": 1.1853220215848413e-05,
+    "PCA_variance_ratios": [
+      0.8107248893859813,
+      0.1807762777552586,
+      0.008498832858760172
+    ],
+    "PCA_axes": [
+      [
+        0.6637230286141008,
+        -0.664069415891711,
+        -0.3442143985433601
+      ],
+      [
+        0.21073538502450298,
+        0.6075706202769365,
+        -0.765799281061867
+      ],
+      [
+        0.7176784368962883,
+        0.4357404643288706,
+        0.5432015362280928
+      ]
+    ],
+    "mean_delta_world_m": [
+      0.002550347753626991,
+      -0.006284469164723557,
+      0.08140666820722967
+    ],
+    "left_transform_translation_variation_p95_m": 0.46635190755784267,
+    "left_transform_rotation_variation_p95_deg": 0.33159769079907453,
+    "not_Hessian_nullspace_evidence": true,
+    "support_correlations": [
+      {
+        "proxy": "nearest_loop_endpoint_kf_distance",
+        "Pearson_r": 0.8996212399266601,
+        "Spearman_rho": 0.7226680075781102,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_count_w50",
+        "Pearson_r": -0.3690639124575775,
+        "Spearman_rho": -0.4930735029110125,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_density_w50",
+        "Pearson_r": -0.3714265185502015,
+        "Spearman_rho": -0.49346674423406667,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_count_w100",
+        "Pearson_r": -0.4005728113417446,
+        "Spearman_rho": -0.5253331982012114,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_density_w100",
+        "Pearson_r": -0.4034585836061448,
+        "Spearman_rho": -0.526710800345316,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_count_w250",
+        "Pearson_r": -0.45743425789330394,
+        "Spearman_rho": -0.6083630411101081,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      },
+      {
+        "proxy": "endpoint_density_w250",
+        "Pearson_r": -0.4615503822890451,
+        "Spearman_rho": -0.6059790050474922,
+        "p_values_not_interpreted_due_to_chain_autocorrelation": true
+      }
+    ]
+  }
+}

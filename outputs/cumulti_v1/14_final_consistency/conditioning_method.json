@@ -1,0 +1,85 @@
+{
+  "status": "PASS",
+  "method": "GTSAM Marginals(graph, Values), sparse factor elimination, selected6x6 marginals only",
+  "linearization_points": [
+    "historicalD0 final",
+    "frozen canonical batch final"
+  ],
+  "gauge": "R1 KF150 prior unchanged",
+  "tangent_order": "rx ry rz tx ty tz",
+  "mixed_units_condition_proxy_not_global_Hessian_condition": true,
+  "robust_factors": "local linearization/IRLS information, not calibrated physical trajectory uncertainty",
+  "policy": {
+    "supported": true,
+    "poses": [
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 1308,
+        "group": "WORST",
+        "matched_control_kf": 552
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 552,
+        "group": "LOW_ERROR_CONTROL",
+        "matched_worst_kf": 1308,
+        "matching_kf_gap": 756
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 1635,
+        "group": "WORST",
+        "matched_control_kf": 2503
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 2503,
+        "group": "LOW_ERROR_CONTROL",
+        "matched_worst_kf": 1635,
+        "matching_kf_gap": 868
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 1108,
+        "group": "WORST",
+        "matched_control_kf": 551
+      },
+      {
+        "robot_id": "robot3",
+        "keyframe_id": 551,
+        "group": "LOW_ERROR_CONTROL",
+        "matched_worst_kf": 1108,
+        "matching_kf_gap": 557
+      },
+      {
+        "robot_id": "robot1",
+        "keyframe_id": 150,
+        "group": "ROBOT1_CONTROL"
+      },
+      {
+        "robot_id": "robot1",
+        "keyframe_id": 1075,
+        "group": "ROBOT1_CONTROL"
+      },
+      {
+        "robot_id": "robot1",
+        "keyframe_id": 1999,
+        "group": "ROBOT1_CONTROL"
+      }
+    ],
+    "linearizations": [
+      "D0",
+      "FROZEN_BATCH"
+    ],
+    "additional_address_space_bytes": 1073741824,
+    "cpu_seconds": 30,
+    "wall_seconds": 45,
+    "eigen_positive_threshold": "max(1e-15, max_eigenvalue*1e-12)",
+    "symmetry_relative_lt": 1e-08,
+    "PSD_tolerance": "-1e-10*max(1,maxEigen)",
+    "not_global_Hessian": true
+  },
+  "wall_ms": 1291.432614903897,
+  "dense_global_Hessian": false,
+  "GT_used": false
+}

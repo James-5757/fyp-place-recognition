@@ -1,0 +1,7 @@
+{
+  "finalized_runner_sha256": "607339def6e3dd4b84eda1e0616240f491629fc4f107fb128c797434e90871b4",
+  "policy_sha256": "884a8195879345edc41b26badddadfbfbf4aa24f6036047b1d1ddf9b1123a91a",
+  "decision_sha256": "2cb6e7b19fd4800ef105d0abdecbb07018d4b8e1a969e6eb90f50c9a8b1dfdfe",
+  "report_only_never_optimizes": true,
+  "after_computation_changes": "saved-data interpretation, plots and independent audit only; numerical conditions/gates/decision unchanged"
+}

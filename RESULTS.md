@@ -243,3 +243,40 @@ nonlinear iteration count alone. Backend-only interval checks pass, not an
 end-to-end real-time claim. Independent execution/provenance audit PASS;
 numerical readiness remains negative. See
 `docs/CUMULTI_STAGE13C_ISAM2_CONVERGENCE.md` and the new Stage13C artifacts.
+
+
+## Stage 14 — final-state consistency / path dependence (verified, GT-free)
+
+Historical120 Rank1 sanitized loops are filtered only by frozen stable endpoint
+ranges to the identical75-loop clean set; excluded45 are not restored. Independent
+runner evaluates nine freshD2 graphs (three initializations at K2/K75/FINAL),
+five empty calls each, plus six frozen-parameter LM basin probes. All final
+5796nodes/5794odom/75loops/one-prior factors remain unchanged.
+
+All K2 fresh conditions pass, p95 approximately0.054–0.055m. K75 A1/A2/A3
+p95 is0.560519/0.568438/0.568640m; FINAL is0.563622/0.570785/0.570995m,
+all FAIL unchanged original gates. Rebuilding from persistent final coordinates
+moves poses measurably (A2/D0 p95 movement0.030435m; A3/D2 0.020879m), but
+is insufficient to repair the final residual. Fresh initialization differences
+are measurable yet mutually within original gates.
+
+Canonical LM reproduces the saved reference; persistent-initialized LM does
+not converge to essentially the same coordinates. Final B1/B2 p95 difference
+is0.564032/0.574739m with objective23.840367/23.840377 versus canonical
+23.840384. This shows initialization/termination sensitivity, not multiple
+proven global minima or a physically correct batch trajectory.
+
+Persistent Robot3 discrepancy is LONG_CHAIN_SMOOTH_DEFORMATION: adjacent-delta
+p95 is0.003740/0.003814m forD0/D2; PCA first component explains83.52%/81.07%.
+Nearest loop-endpoint KF-distance Pearson/Spearman associations are
+0.888/0.729 and0.900/0.723, respectively; associations are not observability
+proof. All18 selected6x6 marginals are finite/PSD-valid in a bounded sparse
+worker (~317MiB peakRSS); frozen-weight local information is weak/nonuniform,
+including large lateRobot1 uncertainty. No global denseHessian/nullspace claim.
+
+Decision: **RESIDUAL_NUMERICAL_DISCREPANCY_UNRESOLVED** under the frozen
+conservative rule. Independent audit PASS; nine figures complete. One necessary
+exact-policy recovery after a reporting failure reproduces all66 saved state
+coordinates exactly (maxdelta0); only recovery runtime is primary. No GT,
+frontend/maps/demo modification, gate relaxation or production-ready claim.
+See `docs/CUMULTI_STAGE14_FINAL_CONSISTENCY.md`.

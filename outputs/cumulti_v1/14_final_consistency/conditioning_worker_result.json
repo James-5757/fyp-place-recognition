@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "runtimes": [
+    {
+      "linearization": "D0_PERSISTENT",
+      "sparse_marginals_construction_ms": 35.46071285381913
+    },
+    {
+      "linearization": "FROZEN_BATCH",
+      "sparse_marginals_construction_ms": 38.57671609148383
+    }
+  ],
+  "max_RSS_kib": 324660,
+  "address_space_limit_bytes": 1422495744,
+  "dense_global_Hessian_constructed": false
+}

@@ -129,3 +129,24 @@ almost equal final objectives do not by themselves establish numerical or
 end-to-end real-time readiness. Preserve the negative result. Stage15 demo
 assets exist, but do not change the historical demo or start distributed SLAM
 automatically. See `docs/CUMULTI_STAGE13B_INCREMENTAL_ISAM2.md`.
+
+
+## Current update — after Stage 14 (2026-10-10; supersedes earlier stop notes)
+
+Stage14 completed with **RESIDUAL_NUMERICAL_DISCREPANCY_UNRESOLVED**. Fresh
+rebuilds repair K2 but not the remaining K75/FINAL gates. Rebuild from the same
+persistent coordinates changes poses slightly, without resolving the final
+residual; do not label internal Bayes-tree history as the sole cause.
+
+LM probes demonstrate numerical initialization/termination sensitivity with
+near-equal objectives, not proof of distinct global minima. Robot3 mismatch is
+smooth along long chains and associated with structural loop support. Bounded
+selected marginals support weak/nonuniform local information under fixed weights,
+but do not prove a global nullspace or actual physical trajectory uncertainty.
+
+Recommend a separately predeclared GT-free reference/stopping/linearization
+methodology study before proposing loop-selection or deployment. Preserve
+original gates, all historical120/retained75 identities, and excluded45 loops.
+Do not start informative loop selection, change the demo, adjust factor noise,
+restore excluded loops or use GT automatically. Stop after14. Read
+`docs/CUMULTI_STAGE14_FINAL_CONSISTENCY.md` before further changes.

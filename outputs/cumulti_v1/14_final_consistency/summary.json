@@ -1,0 +1,53 @@
+{
+  "decision": {
+    "UTC": "2026-10-10T11:06:50.988768+00:00",
+    "decision": "RESIDUAL_NUMERICAL_DISCREPANCY_UNRESOLVED",
+    "rebuild_toward_reference_evidence": [
+      {
+        "checkpoint": "K75",
+        "starting_state": "D0_PERSISTENT",
+        "fresh_state": "A2_FRESH_D0",
+        "reduction_m": 0.176083757221127,
+        "D0_parameter_change_confound": true
+      }
+    ],
+    "LM_near_objective_gate_inconsistent_checkpoints": [
+      "FINAL_STREAM_END",
+      "K75"
+    ],
+    "fresh_initialization_gate_inconsistent_checkpoints": [],
+    "GT_used": false,
+    "production_ready": false,
+    "not_multiple_global_minima_proof": true,
+    "limitations": "A2 changes defaultD0 parameters toD2; A3 keepsD2 parameters but freshfull insertion/relinearization path changes. Fixed LM termination is not proof of global convergence. Conditioning/association alone not cause."
+  },
+  "validation": {
+    "HISTORICAL_INPUTS_IMMUTABLE": "PASS",
+    "LOOP_120_TO_75_PROVENANCE_VERIFIED": "PASS",
+    "CLEAN_75_LOOP_SET_EXACT": "PASS",
+    "GT_USED": "NO",
+    "EXCLUDED_45_LOOPS_REINTRODUCED": "NO",
+    "FACTOR_GRAPH_EQUIVALENCE": "PASS",
+    "K2_CONTROL_COMPLETED": "PASS",
+    "K75_REBUILD_COMPLETED": "PASS",
+    "FINAL_REBUILD_COMPLETED": "PASS",
+    "D0_PERSISTENT_INITIALIZATION_TESTED": "PASS",
+    "D2_PERSISTENT_INITIALIZATION_TESTED": "PASS",
+    "LM_BASIN_PROBE_COMPLETED": "PASS",
+    "ROBOT_SPECIFIC_LOCALIZATION_COMPLETED": "PASS",
+    "DISTRIBUTED_DEFORMATION_ANALYZED": "PASS",
+    "LOOP_SUPPORT_DIAGNOSTIC_COMPLETED": "PASS",
+    "CONDITIONING_DIAGNOSTIC": "PASS",
+    "ORIGINAL_NUMERICAL_GATES_UNCHANGED": "PASS",
+    "NO_BATCH_INITIALIZATION_OF_ISAM2": "PASS",
+    "NO_RIGID_POST_ALIGNMENT": "PASS",
+    "RUNTIME_SEPARATED": "PASS",
+    "HISTORICAL_STAGE13_MODIFIED": "NO",
+    "DEMO_MODIFIED": "NO"
+  },
+  "historical_files_checked": 992,
+  "fresh_trials": 9,
+  "empty_calls": 45,
+  "LM_trials": 6,
+  "GT_used": false
+}
