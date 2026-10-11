@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "condition": "S4",
+  "nodes": 5796,
+  "factors": 5815,
+  "loops": 20,
+  "pair_queries": 55,
+  "worker_wall_seconds": 1.410673663020134,
+  "peak_RSS_MiB": 199.5390625,
+  "GT_used": false,
+  "optimization_run": false
+}

@@ -1,0 +1,27 @@
+{
+  "comparisons": [
+    {
+      "condition": "F0",
+      "joint_covariance_bitwise_matches_Stage16": true,
+      "individual_vs_joint_max_absolute": 1.5101511962711813e-05,
+      "individual_vs_joint_max_matrix_relative": 1.5131808241914448e-10,
+      "entrywise_allclose_failures": 2
+    },
+    {
+      "condition": "S1",
+      "joint_covariance_bitwise_matches_Stage16": true,
+      "individual_vs_joint_max_absolute": 2.21626105485484e-05,
+      "individual_vs_joint_max_matrix_relative": 2.2921407417898538e-10,
+      "entrywise_allclose_failures": 1
+    },
+    {
+      "condition": "S4",
+      "joint_covariance_bitwise_matches_Stage16": true,
+      "individual_vs_joint_max_absolute": 2.976317773573101e-05,
+      "individual_vs_joint_max_matrix_relative": 3.4839262590003117e-10,
+      "entrywise_allclose_failures": 5
+    }
+  ],
+  "policy_unchanged": true,
+  "explanation": "Individual and joint sparse covariance queries show <=3.5e-10 block-scaled differences, while the primary joint arrays reproduce Stage16 bitwise; entrywise allclose near small entries was an ancillary inappropriate guard. No covariance clipping or primary numerical tolerance changed. Exact internal floating-point evaluation paths were not instrumented."
+}

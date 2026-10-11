@@ -1,0 +1,7 @@
+condition,residual,alignment,Pearson,Spearman,N,interpretation
+S1,whitened_norm,residual_top1_fraction,0.2837608120536269,-0.010924369747899159,35,EXPLORATORY
+S1,whitened_norm,residual_top3_fraction,0.10848924259908031,-0.02212885154061625,35,EXPLORATORY
+S1,physical_translation_residual_m,residual_top1_fraction,0.326149511364095,0.24313725490196078,35,EXPLORATORY
+S1,physical_translation_residual_m,residual_top3_fraction,0.45830134631847463,0.6008403361344539,35,EXPLORATORY
+S1,physical_rotation_residual_deg,residual_top1_fraction,0.13832618601597646,-0.22885154061624652,35,EXPLORATORY
+S1,physical_rotation_residual_deg,residual_top3_fraction,-0.38514454942182963,-0.5095238095238096,35,EXPLORATORY

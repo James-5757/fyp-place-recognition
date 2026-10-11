@@ -346,3 +346,23 @@ Heterogeneity/target effects support partial information loss,not a global
 observability proof or sufficient explanation of global residual tails. Fifteen
 bounded workers PASS,peakRSS435.652MiB;ten figures. Stage15 rotation-screen
 caveats remain. See `docs/CUMULTI_STAGE16_MEASUREMENT_INFORMATION.md`.
+
+## Stage 17 — relative measurement geometry (final diagnostic checkpoint)
+
+Decision: **RELATIVE_UNCERTAINTY_AND_NONLINEARITY_PARTIALLY_EXPLAIN_STAGE16_GAP**.
+GT-free, no optimization: frozen F0Full75/S1CoverageK40/S4CoverageK20 trajectories,
+125 joint-covariance queries and 210 local factor perturbations; the ten frozen
+Stage16 add-back outcomes were reused, not rerun. Independent audit: 3074 checks PASS.
+Median whitened projected covariance trace: F0 same35=5.447383,
+K40 omitted35=94.503008, K20 omitted55=313.307588. Same35 K40/F0 trace ratio
+median17.974028, versus raw joint largest-eigenvalue ratio1.000874.
+Dominant common-motion covariance is largely suppressed by measurement projection.
+
+Projected logdet(I+C)=2*DeltaI (maximum discrepancy1.065814104e-14), not an
+independent predictor. Trace/max-eigenvalue also retain the ten-loop DeltaI order.
+Two-sigma local nonlinear relative error: median0.002018, maximum0.007608;
+strong local nonlinearity is not supported as the primary explanation. The two
+high-DeltaI/poor-tail-reduction cases, loops48/55, both have Huber weight1 and
+small local nonlinearity. N=10 correlations are exploratory, not causal evidence.
+Numerical diagnostic line CLOSED; no new selector or demonstrated sparse policy.
+See `docs/CUMULTI_STAGE17_RELATIVE_MEASUREMENT_GEOMETRY.md`.

@@ -172,3 +172,26 @@ MEASUREMENT_INFORMATION_PARTIALLY_EXPLAINS_SPARSE_FAILURE. No GT,dense global
 Hessian,new selector/accepted saving,excluded loop restoration,historical/demo
 change. Marginals are local numerical diagnostics,not physical uncertainty.
 Stage15 negative decision preserved;stop after16.
+
+## Stage 17 — measurement-projected relative uncertainty / nonlinear residual audit
+
+Objective: distinguish common-motion joint covariance from actual relative
+measurement uncertainty, and test local residual geometry without GT or tuning.
+Input: frozen Stage15 F0Full75/S1CoverageK40/S4CoverageK20 final trajectories,
+Stage16 ten-loop cohort and completed add-back outcomes. Method: exact Pose3
+Logmap Jacobians, joint12 covariance with cross blocks, whitened6 projection,
+residual/eigenmode alignment, frozen Huber loss/weight and right-tangent pullback
+perturbations across three eigenmodes and seven fixed amplitudes per loop.
+Output: `outputs/cumulti_v1/17_relative_measurement_geometry/`; runner/auditor
+`src/cumulti/*stage17_relative_measurement_geometry.py`, shell launcher and doc.
+
+125 queries;210 local perturbations;zero optimizer runs. Audit3074 PASS.
+S1/F0 projected trace ratio median17.974028; logdet projection equals2*DeltaI.
+Two-sigma nonlinear relative error median0.002018,max0.007608. Loops48/55 are
+counterexamples to Huber/nonlinearity explaining high-information prediction
+mismatch. Decision: RELATIVE_UNCERTAINTY_AND_NONLINEARITY_PARTIALLY_EXPLAIN_STAGE16_GAP.
+Resource: three bounded workers, peakRSS199.539MiB;ten figures. An initial
+single-vs-joint marginal entrywise guard failed near zero; retained failure,
+recovery and block-scaled numerical diagnosis document the unchanged primary
+joint covariance (bitwise equal to Stage16) and frozen policy. No GT, add-back
+rerun, selector, historical-output change or demo. Numerical diagnostic line CLOSED.

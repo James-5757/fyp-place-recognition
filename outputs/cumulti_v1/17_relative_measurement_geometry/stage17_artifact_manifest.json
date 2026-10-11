@@ -1,0 +1,337 @@
+[
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/stage17_api_audit.json",
+    "sha256": "edd3238d358d6d42dd6f17bd1bcd70fc369ab8e8cd74cde177dd42800ffce2dc",
+    "size_bytes": 6345
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/covariance_query_numerical_diagnosis.json",
+    "sha256": "1df228c1aa49bfa5862ea1836f126ba8f89b9e377e9720a09e6637a7502805ef",
+    "size_bytes": 1242
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/projected_relative_uncertainty.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/08_huber_weight_along_relative_modes.png",
+    "sha256": "0b9ad1bfe86e9744d28545471abc8cf3bd96817588ee0274ac667d875f5150d8",
+    "size_bytes": 299425
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/robust_residual_geometry.csv",
+    "sha256": "dbbbc07bb0463513e5527cb14f24ea7c31a498c297c6f8ff3f262f9090c376cc",
+    "size_bytes": 131779
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/coverage_k40_relative_geometry.csv",
+    "sha256": "b006550d706585fb45f056610de9d0541719535704690dd827cf3826fd5c92d8",
+    "size_bytes": 51376
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/loop_provenance_audit.json",
+    "sha256": "ee03bfdfb84378c011b1eab7346a78f1bf6837a40278b16ea77babf951a6bebd",
+    "size_bytes": 1733
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/04_projected_uncertainty_vs_heldout_residual.png",
+    "sha256": "6ca903bb1d3d634c2a797fd71d80d9523de45529db21859a83b954d5d7a44cd3",
+    "size_bytes": 42038
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/01_pair_vs_projected_uncertainty.png",
+    "sha256": "ef1f32bfad405ea18df74c99e91b47d8233219851baa9bf844999ee51501c67c",
+    "size_bytes": 45923
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/stage16_deltaI_stage17_comparison.csv",
+    "sha256": "7a7dbd487bd22ec457464483ea05957d814513e7f92bd4529b1df9d5afc4f8a2",
+    "size_bytes": 2981
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/stage17_predictive_validation.csv",
+    "sha256": "f1c3cec5a99cd5375d6a983a67c22f7aacfb8344f1b05b389cabc649b6ab23e9",
+    "size_bytes": 7584
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/VALIDATION_REPORT.txt",
+    "sha256": "453c1bac1226382bd9c13aca7d8f72bed3f79aa95437a5550fc68847115e7b25",
+    "size_bytes": 922
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/stage17_geometry_decision.json",
+    "sha256": "fb5ec495ff88416307606163e5249e9370d47c3328eee7f6f9e35b453a255a7c",
+    "size_bytes": 2972
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/sparse_full_projected_uncertainty.csv",
+    "sha256": "2b3222910336354bdc5a881c2838d31a9caef6d0f2f22783c67c9b25153e1c70",
+    "size_bytes": 7763
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/parent_runtime.csv",
+    "sha256": "40f177622c6aa2dfa2fefa3996747ef54471a69cf47b34542d04a93fc70f30ae",
+    "size_bytes": 201
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/nonlinear_perturbation_geometry.csv",
+    "sha256": "dbbbc07bb0463513e5527cb14f24ea7c31a498c297c6f8ff3f262f9090c376cc",
+    "size_bytes": 131779
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/10_k20_vs_k40_relative_uncertainty.png",
+    "sha256": "008ce84a509b42b59100d796b7f0dd601b92c3a3682ba4ea756c861de30be327",
+    "size_bytes": 52856
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/policy_freeze.json",
+    "sha256": "b5108aa30e7655d6520691e906bd10ab0c2e5ef48e08e0b478cd7924079596bc",
+    "size_bytes": 128
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/residual_uncertainty_alignment.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/07_nonlinear_vs_linear_residual_curve.png",
+    "sha256": "b68ab2963b9f25468558e3d98c199c7386cec88eaf141cdd370ab2c23dcc0e7d",
+    "size_bytes": 414535
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/report_runtime.csv",
+    "sha256": "5fe243964ae6a9c1ee9a783df2581949eade0e076780dd695aa4b0893620c069",
+    "size_bytes": 64
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/relative_uncertainty_residual_cases.csv",
+    "sha256": "b006550d706585fb45f056610de9d0541719535704690dd827cf3826fd5c92d8",
+    "size_bytes": 51376
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/nonlinear_mode_summary.csv",
+    "sha256": "23e53c07794a30ad8285ef59d6dcae4ad10ba1f13bd039db0e63a5e8a6e21bf0",
+    "size_bytes": 6246
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/stage17_input_manifest.json",
+    "sha256": "0a27bd0692dfc29156f131728baf7dc892cb13eb1cfbd2ddc1b7aa2e883cb248",
+    "size_bytes": 84377
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/frozen_ten_loop_predictors_outcomes.csv",
+    "sha256": "b6abf760617354a643eeb6380ea137e57c750d93746f80a9cd82abaffe33e6f0",
+    "size_bytes": 18861
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/05_projected_uncertainty_vs_addback_impact.png",
+    "sha256": "1aedde1be78adbe1e1050e9c431a3ce14616bb923d644f04098e44ef093e80ef",
+    "size_bytes": 39126
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/relative_normalized_innovation.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/common_mode_projection_diagnostic.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/02_sparse_vs_full_projected_uncertainty.png",
+    "sha256": "9c3263b4ab491932c792a7ac7572f9946fa5ebde35928c25d01abd1718e4ee8e",
+    "size_bytes": 46231
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/relative_jacobian_validation.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/cohort_alignment_relationships.csv",
+    "sha256": "fc75bc954380771801b6a312c593080594cecf95f7e6749a71ca5224adc3ce3f",
+    "size_bytes": 704
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/summary.json",
+    "sha256": "6670bd004f69ece4a3a411a0a0af139c40d54b78ed6378d4a37d1533bbbf0153",
+    "size_bytes": 10723
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/03_residual_alignment_to_relative_modes.png",
+    "sha256": "fb5267dd4a7c41f192bc6005c44a9f8cb6433c7a688f10f6ae0e49091acde4c7",
+    "size_bytes": 41114
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/09_top_bottom_stage16_validation_with_stage17_metrics.png",
+    "sha256": "6074c7fb1b777e2071ea9001ba10edcb64e42576eb926d0e0dd08891245cb42c",
+    "size_bytes": 52012
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/nonlinear_residual_geometry.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/06_deltaI_vs_projected_uncertainty.png",
+    "sha256": "7414ac65e5092961a16e30acaa046f77343aece80bdefc578d37184277830742",
+    "size_bytes": 43123
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/execution_recovery.json",
+    "sha256": "a3264d4904e3cae9538caefcad792bbefdc643c4a647da732317726cd38d557d",
+    "size_bytes": 332
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/robust_effective_information.csv",
+    "sha256": "71006873a7965ad7ae3c8f230fb388ee919c63ce5a1471fc4c1ffcd9a3cc054b",
+    "size_bytes": 175489
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/execution_failure.json",
+    "sha256": "2ba63e6a00a313a53d11818681a2e690986beb998ad17ef8c6d70f9fd406c467",
+    "size_bytes": 859
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/stage17_experiment_policy.json",
+    "sha256": "e3a834360762e3a9eb4083afc026c21e5b4c21644e86d51f88d0820ba4034e5e",
+    "size_bytes": 12102
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/runtime_summary.csv",
+    "sha256": "378986a70c3c8f43cf41e84586f725a682d316522df39a50fda8df8ac87fea1b",
+    "size_bytes": 41533
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/coverage_k20_k40_comparison.csv",
+    "sha256": "9022263bd72d9fdce6e0e4702cc99e0882003e3a989e642d8c3497e53a9e15c5",
+    "size_bytes": 2270
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/historical_immutability.json",
+    "sha256": "6b39a9e9688048ee73e62596db1e03f5598543111872530d16abceb050c83d6d",
+    "size_bytes": 43
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/status.json",
+    "sha256": "2fb8ce4ab3ac04256354b7f5c568a7102f86f9f2c8286b3e149f42bc23885f67",
+    "size_bytes": 239
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/local_matrices.npz",
+    "sha256": "60ea88a904eb209301cc2afb81b6d23d7315f3bee39dd68da9defb40c52fbb37",
+    "size_bytes": 134022
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/clean_gtsam_solver_policy.json",
+    "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+    "size_bytes": 1377
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/diagonal_query_diagnosis.json",
+    "sha256": "ab089f178092d5541c7637edb103b8fffa2be1281bfc2a76f8260ddc3a7dc571",
+    "size_bytes": 565
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/runtime.csv",
+    "sha256": "71fda71b207373d22beaa074398add260790e939baa816fc66c00e9e17e01258",
+    "size_bytes": 6420
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/diagonal_query_diagnosis.csv",
+    "sha256": "0c25c21f32e8db664ca59f4f2dd168d8f15698c59f3e8e23e37a8ce58e756660",
+    "size_bytes": 6860
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/worker.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/F0/metrics.csv",
+    "sha256": "54a4c148d63ee6c262947cc908415f87af4413a0f09813371ff0d380bf97e557",
+    "size_bytes": 51429
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/status.json",
+    "sha256": "0935371d7a0e202ad9d8ec563ec26d68a1cad7ef82f8bcbaef10c5c9e310d48f",
+    "size_bytes": 237
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/local_matrices.npz",
+    "sha256": "c733b46368ad06c74db73743789d6fba4d4888e28079eedd4ad8aa97d62f9f12",
+    "size_bytes": 153030
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/clean_gtsam_solver_policy.json",
+    "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+    "size_bytes": 1377
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/diagonal_query_diagnosis.json",
+    "sha256": "20f33dbdffa0db8a495975c776d12c41fcb8ce54e7864c493cf524af9c7eb0ad",
+    "size_bytes": 564
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/runtime.csv",
+    "sha256": "33f8a4e25e2ee23791d0eb95dbd644f6add369b7a90ea4d5ba081817e4f375e6",
+    "size_bytes": 25264
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/diagonal_query_diagnosis.csv",
+    "sha256": "bdd7bf3752a11267411e37bc202cc1f3a5e91b3413d42b47375a075133c6a7b3",
+    "size_bytes": 6841
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/worker.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S1/metrics.csv",
+    "sha256": "a4fb4689bd4444aacf0c779a2bc915b774a8b241625250bc1dea08a8acea50f3",
+    "size_bytes": 50080
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/status.json",
+    "sha256": "c59fe5007a91ac9386e3a362f94ab163e4c3cb7c69d036a1441a873c8d348265",
+    "size_bytes": 237
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/local_matrices.npz",
+    "sha256": "41533ce0f9c710bce0da3f968715188548370d6fc26dbb4c8a39b9789bec9d12",
+    "size_bytes": 210582
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/clean_gtsam_solver_policy.json",
+    "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+    "size_bytes": 1377
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/diagonal_query_diagnosis.json",
+    "sha256": "e2659069546267287ace000c0a695a09d107da086df96ef3e683b8c52bb9bc01",
+    "size_bytes": 568
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/runtime.csv",
+    "sha256": "75b78bff5a0b1896b0bfe0ecbacf86dc3f31eb942e2cdc5584db09a544087420",
+    "size_bytes": 10041
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/diagonal_query_diagnosis.csv",
+    "sha256": "7cad8ae664e839cb42e9df10940e23431366213edf9498de955dcd8c37f26557",
+    "size_bytes": 10731
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/worker.log",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_bytes": 0
+  },
+  {
+    "path": "outputs/cumulti_v1/17_relative_measurement_geometry/workers/S4/metrics.csv",
+    "sha256": "5fdc4f98f11d4c191ba7a631a981cd8afb3a5ed70bbe1803d11aa67f8dc5a3d9",
+    "size_bytes": 77614
+  }
+]

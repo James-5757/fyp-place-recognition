@@ -1,0 +1,4 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/home/cas/fyp_place_recognition/src/cumulti/run_stage17_relative_measurement_geometry.py\", line 404, in <module>\n    try:main()\n  File \"/home/cas/fyp_place_recognition/src/cumulti/run_stage17_relative_measurement_geometry.py\", line 285, in main\n    assert result.returncode==0,(folder/'worker.log').read_text()[-3000:]\nAssertionError: Traceback (most recent call last):\n  File \"/home/cas/fyp_place_recognition/src/cumulti/run_stage17_relative_measurement_geometry.py\", line 400, in <module>\n    if args.worker:worker(args.worker)\n  File \"/home/cas/fyp_place_recognition/src/cumulti/run_stage17_relative_measurement_geometry.py\", line 191, in worker\n    assert np.allclose(pair[:6,:6],marg.marginalCovariance(keys[0]),rtol=1e-8,atol=1e-8)\nAssertionError\n\n",
+  "GT_used": false
+}

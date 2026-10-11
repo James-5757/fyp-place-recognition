@@ -1,0 +1,6 @@
+{
+  "reason": "Ancillary individual-vs-joint diagonal query check uses frozen1e-8 matrix-scaled numerical comparison instead of entrywise allclose near zero entries; actual Stage16 joint matrix and Jacobian comparisons unchanged",
+  "policy_unchanged": true,
+  "no_optimization": true,
+  "UTC": "2026-10-11T04:21:06.497572+00:00"
+}

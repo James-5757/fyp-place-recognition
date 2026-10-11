@@ -1,0 +1,21 @@
+{
+  "frozen_loop_id": 116,
+  "comparisons": [
+    {
+      "endpoint_index": 0,
+      "key": 6989586621679011568,
+      "max_abs_difference": 5.804933607578278e-06,
+      "block_scale": 96423.9910583029,
+      "matrix_relative_difference": 6.020217109731868e-11,
+      "entrywise_allclose": false
+    },
+    {
+      "endpoint_index": 1,
+      "key": 7061644215716941093,
+      "max_abs_difference": 7.359092705883086e-06,
+      "block_scale": 95769.45343570932,
+      "matrix_relative_difference": 7.684175320916177e-11,
+      "entrywise_allclose": true
+    }
+  ]
+}

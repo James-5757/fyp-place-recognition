@@ -1,0 +1,340 @@
+{
+  "UTC": "2026-10-11T04:20:06.148761+00:00",
+  "accepted_checkpoint": "872a8d1a48f782afd0d48491e452f6b0c66dfe00",
+  "inputs": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+      "sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+      "size_bytes": 145328
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/ordered_rank1_clean_loops.csv",
+      "sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+      "size_bytes": 24393
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv",
+      "sha256": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297",
+      "size_bytes": 982171
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_graph_policy.json",
+      "sha256": "b92c91de71c739fd1494dccea07df0974dbb319f0e19affaffbde0756e1c7242",
+      "size_bytes": 2325
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_gtsam_solver_policy.json",
+      "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+      "size_bytes": 1377
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/selected_loops_by_budget.json",
+      "sha256": "9d989f693f8f5e4acc263d7ad41050ef8ab833cb64c751110a0a7ab3bb3ff209",
+      "size_bytes": 6867
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/stage15_pre_gt_decision.json",
+      "sha256": "290f9f74a0f0d4b2009904a6a9627d80363df2a711f5d9714b9cdd24b92b0cd5",
+      "size_bytes": 568
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/loop_rankings.csv",
+      "sha256": "d5eb46a86703e84198d71042a80ad636141363b800de1e31e1a8f1226400b3a0",
+      "size_bytes": 58928
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/stage16_experiment_policy.json",
+      "sha256": "55482bf9f97d71e78aee60a05d1ce21d1f80bd0d70dfb48de29051becf31f5fe",
+      "size_bytes": 14541
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/stage16_information_decision.json",
+      "sha256": "a279f5010879aa55227ba1c792cecac4da4a4f517cf2a97048a3f1906f0cf566",
+      "size_bytes": 423
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/addback_selection.json",
+      "sha256": "a9d740dfa354c5e660c13dca4bbc0960a97d747dd451c848ddd21b38a1b4c6ae",
+      "size_bytes": 2856
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/addback_residual_effects.csv",
+      "sha256": "b3a45e24bafd051c1590df3cdb48fde2ff97323f164338051f35d8621fcdece7",
+      "size_bytes": 7797
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/addback_solver_results.csv",
+      "sha256": "7dcbe330ff8bc052b0e9772d89d70a47226dcc03ef1a18700f2f6d52c6e72846",
+      "size_bytes": 1226
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/addback_map_effects.csv",
+      "sha256": "3f4583324539323daff8f77b226ec872daabbde6d814c8dc5a5f8848e24a0724",
+      "size_bytes": 1090
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/loop_information_gain.csv",
+      "sha256": "bb0cbfb4e3a4bacc41d4618ac14102a321197fc888d85cdc56bb7ea1aca933dd",
+      "size_bytes": 341723
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage12d_clean_backend.py",
+      "sha256": "719558c35b34b2e4b063189ca68a2c291601f93d9153fde77008a45e2ffd8037",
+      "size_bytes": 49494
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/run_stage16_measurement_information.py",
+      "sha256": "741d99edfa51596310b29fef0f8284ab99d0bd9831dde6854afb39b840989f67",
+      "size_bytes": 36268
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K75.csv",
+      "sha256": "cfa3cdd62317ad6f8d239569639e038e67d645ae95684cfb20185e8a64c138cc",
+      "size_bytes": 977886
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K40.csv",
+      "sha256": "c374fe72d9fa5e08a3abc40cb94c77591b15d6ce0dba6258c659bc601230c461",
+      "size_bytes": 977614
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K20.csv",
+      "sha256": "e0dd5bbd1ed4f0d5c4559c0e1b4b4919d686c3abf8df954f7859e2e21d358a27",
+      "size_bytes": 977604
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/workers/F0_local_arrays.npz",
+      "sha256": "c89921d499accc6ecd36bbc92d037334964da43538e7ea611a3ce3836a42872a",
+      "size_bytes": 165702
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/workers/S1_local_arrays.npz",
+      "sha256": "e42d3a55e08842316722b35cb7a07a02d4268890a7cde28a01fbcf6e7817469c",
+      "size_bytes": 165702
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/16_measurement_information/workers/S4_local_arrays.npz",
+      "sha256": "ed8823a319cda7e3dcdffc4e87f52897426f310708f704232aa56b104143b2ff",
+      "size_bytes": 165702
+    }
+  ],
+  "conditions": {
+    "F0": [
+      "ARRIVAL_PREFIX",
+      75,
+      "P0_K75"
+    ],
+    "S1": [
+      "COVERAGE_GREEDY",
+      40,
+      "P2_K40"
+    ],
+    "S4": [
+      "COVERAGE_GREEDY",
+      20,
+      "P2_K20"
+    ]
+  },
+  "omitted_K40_ids": [
+    48,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    67,
+    70,
+    71,
+    72,
+    76,
+    77,
+    79,
+    80,
+    84,
+    85,
+    86,
+    90,
+    91,
+    96,
+    97,
+    100,
+    103,
+    105,
+    108,
+    110,
+    112,
+    114,
+    115,
+    116
+  ],
+  "validation_ids": [
+    105,
+    53,
+    55,
+    100,
+    48,
+    61,
+    114,
+    62,
+    110,
+    77
+  ],
+  "primary_linearizations": "own frozen Stage15 trajectories; no optimization; Stage16 add-back outcomes read-only",
+  "tangent": "right-retraction [rx ry rz tx ty tz]",
+  "noise": {
+    "sigmas": [
+      0.08726646259971647,
+      0.08726646259971647,
+      0.08726646259971647,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "R": [
+      [
+        0.007615435494667714,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.007615435494667714,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.007615435494667714,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "Huber_delta": 1.345,
+    "anchor": "Robot1 KF150"
+  },
+  "covariance": "public GTSAM jointMarginalCovariance.at assembled q,c with cross blocks; reconstruct frozen graphs; compare every pair/J against committed Stage16 local arrays",
+  "queries": {
+    "F0": "same35 omittedK40 endpoint pairs",
+    "S1": "35 omittedK40 pairs",
+    "S4": "55 omittedK20 pairs"
+  },
+  "projection": "Sigma_rel=J Sigma_pair J.T; C=D^-1 Sigma_rel D^-T; J exact Stage16 Logmap derivative, never approximate factor J",
+  "eigenspace": "descending eigenvalues; eigenvector sign largest absolute component positive; no clipping/jitter; entropy-effective-rank exp(-sum p log p); anisotropy lambdaMax/mean; condition max/min only positive; numerical rank >max(1e-15,maxEig*1e-12)",
+  "alignment": "a=U.T(e/sigma); top1/top2/top3 squared magnitude fractions; acute angle to top eigenvector/subspace; amplitudes a/sqrt(lambda) and a/sqrt(1+lambda); zero norm<=1e-12 undefined angles",
+  "common_mode": "top pair eig mode projection trace fraction=lambdaPair*norm(D^-1 J v)^2/trace(C); top3 same sum; common-world-motion native tangent basis stack(Ad(Xq^-1),Ad(Xc^-1)) QR; no global nullspace claim; raw dimensional max-eigenvalue ratios not interpreted as variance retention fractions",
+  "relative_perturbation": {
+    "modes": [
+      1,
+      2,
+      3
+    ],
+    "alphas": [
+      -2.0,
+      -1.0,
+      -0.5,
+      0.0,
+      0.5,
+      1.0,
+      2.0
+    ],
+    "coordinates": "C modes are residual tangent coordinates: right pose direction=solve(B,D*u*sqrt(lambda)), B=LogmapDerivative(E); Trel(alpha)=Trel Exp(alpha*direction); e_lin=e0+alpha B direction",
+    "finite_difference_epsilon": 1e-06,
+    "derivative_max_error": 1e-05,
+    "NL_abs": "norm((enl-elin)/sigma)",
+    "NL_rel": "NL_abs/max(norm(enl/sigma),1e-12)",
+    "summaries": "max at |alpha|=.5, 0<|alpha|<=1, |alpha|<=2; +/-1 absolute-error/norm asymmetry; norm(D^-1(enl(+1)+enl(-1)-2e0)) curvature"
+  },
+  "robust": "public Huber.weight/loss of block whitened norm, compare current factor.error; diagnostic effective proxy .5logdet(I+w*C), no optimizer weight alteration",
+  "categories": "primary omitted35 automatic median splits: logdet(I+C) and whitened nonlinear norm, >=median HIGH; all IDs saved; no physical correctness labels",
+  "predictors": [
+    "projected_logdet_I_plus_C",
+    "projected_lambda_max",
+    "projected_trace",
+    "residual_top1_fraction",
+    "residual_top3_fraction",
+    "whitened_norm",
+    "NIS",
+    "max_NL_rel_two_sigma",
+    "second_difference_curvature_proxy",
+    "Huber_weight",
+    "robust_effective_DeltaI"
+  ],
+  "outcomes": [
+    "target_translation_reduction",
+    "target_rotation_reduction",
+    "all75_translation_p95_reduction",
+    "all75_rotation_p95_reduction",
+    "trajectory_translation_p95_m",
+    "original_weak_direction_fraction_reduction"
+  ],
+  "predictive": "N10 EXPLORATORY Pearson/Spearman only; no p-values/fitted composite; mode summary max across fixed top3; compare DeltaI baseline same frozen outcomes",
+  "validity": {
+    "FD": 1e-05,
+    "symmetry_relative": 1e-08,
+    "PSD": "min>=-1e-10*max(1,maxeig)",
+    "Stage16_matrix_rtol": 1e-08,
+    "Stage16_matrix_atol": 1e-08,
+    "Stage16_NIS_abs": 1e-07,
+    "logdet_minus_2DeltaI_abs": 1e-07,
+    "common_motion_J_abs": 1e-06
+  },
+  "resources": {
+    "additional_address_space_GiB": 2,
+    "CPU_seconds": 90,
+    "wall_seconds": 120,
+    "BLAS_threads": 1,
+    "global_dense_Hessian": false
+  },
+  "decision": {
+    "projection_material": "S1 median top pair mode common-motion fraction>=.9 AND top-mode projected trace fraction<=.01 AND median S1/F0 whitened trace ratio>=2",
+    "genuinely_new_predictive": ">=2 outcomes with at least one non-tautological predictor |Spearman|>=.4 and |rho|-|baselineDeltaI rho|>=.2; logdet(I+C) explicitly excluded as identical2DeltaI",
+    "mismatch": "ten-loop highDeltaI>=ten-loop median and all75 translationp95 improvement<ten-loop median; material geometry if max NL_rel_two_sigma>=.1 or Huber_weight<=.5",
+    "geometry_material": ">=2 predefined mismatch loops have material geometry and at least one nonlinear/Huber predictor |Spearman|>=.4 with an outcome",
+    "full": "projection_material AND genuinely_new_predictive AND geometry_material AND >=2 outcomes showing new explanatory relationships including >=1 global tail outcome",
+    "partial": "projection_material OR geometry_material, but full fails; otherwise NO_CLEAR_ADDITIONAL_EXPLANATION; required worker failure API_OR_RESOURCE_BLOCKER"
+  },
+  "stop": {
+    "numerical_diagnostic_line_closed": true,
+    "new_sparse_policy": false,
+    "new_K_search": false,
+    "GT_used": false,
+    "demo_modified": false,
+    "next_phase": "final progressive mapping demo/system integration and thesis, separately authorized"
+  }
+}

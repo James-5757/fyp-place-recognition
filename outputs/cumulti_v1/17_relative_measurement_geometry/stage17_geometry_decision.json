@@ -1,0 +1,97 @@
+{
+  "status": "RELATIVE_UNCERTAINTY_AND_NONLINEARITY_PARTIALLY_EXPLAIN_STAGE16_GAP",
+  "projection_material": true,
+  "genuinely_new_predictive": true,
+  "geometry_material": false,
+  "material_mismatch_cases": 0,
+  "new_predictive_relationships": [
+    {
+      "outcome": "target_translation_reduction",
+      "predictor": "whitened_norm",
+      "Spearman": 0.8181818181818182,
+      "baseline": 0.5393939393939393
+    },
+    {
+      "outcome": "target_translation_reduction",
+      "predictor": "Huber_weight",
+      "Spearman": -0.8466580400786594,
+      "baseline": 0.5393939393939393
+    },
+    {
+      "outcome": "target_rotation_reduction",
+      "predictor": "whitened_norm",
+      "Spearman": 0.7696969696969697,
+      "baseline": 0.5515151515151515
+    },
+    {
+      "outcome": "target_rotation_reduction",
+      "predictor": "max_NL_rel_two_sigma",
+      "Spearman": 0.8787878787878788,
+      "baseline": 0.5515151515151515
+    },
+    {
+      "outcome": "target_rotation_reduction",
+      "predictor": "second_difference_curvature_proxy",
+      "Spearman": 0.9272727272727272,
+      "baseline": 0.5515151515151515
+    },
+    {
+      "outcome": "all75_translation_p95_reduction",
+      "predictor": "second_difference_curvature_proxy",
+      "Spearman": 0.6848484848484848,
+      "baseline": 0.4666666666666666
+    },
+    {
+      "outcome": "all75_rotation_p95_reduction",
+      "predictor": "residual_top3_fraction",
+      "Spearman": -0.5757575757575757,
+      "baseline": -0.22424242424242422
+    },
+    {
+      "outcome": "all75_rotation_p95_reduction",
+      "predictor": "NIS",
+      "Spearman": 0.5757575757575757,
+      "baseline": -0.22424242424242422
+    },
+    {
+      "outcome": "all75_rotation_p95_reduction",
+      "predictor": "max_NL_rel_two_sigma",
+      "Spearman": 0.4666666666666666,
+      "baseline": -0.22424242424242422
+    },
+    {
+      "outcome": "all75_rotation_p95_reduction",
+      "predictor": "robust_effective_DeltaI",
+      "Spearman": -0.4666666666666666,
+      "baseline": -0.22424242424242422
+    },
+    {
+      "outcome": "trajectory_translation_p95_m",
+      "predictor": "whitened_norm",
+      "Spearman": 0.4787878787878787,
+      "baseline": 0.2121212121212121
+    },
+    {
+      "outcome": "trajectory_translation_p95_m",
+      "predictor": "NIS",
+      "Spearman": 0.5272727272727272,
+      "baseline": 0.2121212121212121
+    },
+    {
+      "outcome": "trajectory_translation_p95_m",
+      "predictor": "max_NL_rel_two_sigma",
+      "Spearman": 0.49090909090909085,
+      "baseline": 0.2121212121212121
+    },
+    {
+      "outcome": "trajectory_translation_p95_m",
+      "predictor": "Huber_weight",
+      "Spearman": -0.6554771923189622,
+      "baseline": 0.2121212121212121
+    }
+  ],
+  "GT_used": false,
+  "numerical_diagnostic_line_closed": true,
+  "no_new_policy": true,
+  "caution": "N10 exploratory associations not causal validation; logdet(I+C)=2DeltaI is tautological and excluded from predictive novelty"
+}

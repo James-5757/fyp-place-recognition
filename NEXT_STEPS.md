@@ -193,3 +193,17 @@ an information-aware selector. Maintain exact joint cross-correlation,explicit
 linearization points and predeclared predictive validation. No GT tuning,
 selector/budget expansion,demo modification or distributed SLAM automatically.
 Stop after16;see `docs/CUMULTI_STAGE16_MEASUREMENT_INFORMATION.md`.
+
+## Stage 17 final checkpoint — supersedes the preceding diagnostic proposal
+
+Measurement-projected relative uncertainty and nonlinear robust geometry audit
+is complete: RELATIVE_UNCERTAINTY_AND_NONLINEARITY_PARTIALLY_EXPLAIN_STAGE16_GAP.
+The numerical diagnostic line is CLOSED regardless of this partial conclusion.
+Do not automatically start Stage18 diagnostics, new selector/budget experiments,
+additional add-back runs or GT-based tuning. Stage15 NO_INFORMATIVE_SPARSE_POLICY
+and the frozen historical backend results remain unchanged.
+
+The next separately authorized phase is final progressive mapping demo/system
+integration and thesis/report synthesis, using the existing frozen results and
+explicit scientific limitations. No demo or new experiment starts automatically.
+See `docs/CUMULTI_STAGE17_RELATIVE_MEASUREMENT_GEOMETRY.md`.

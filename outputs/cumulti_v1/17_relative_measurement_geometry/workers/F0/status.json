@@ -1,0 +1,12 @@
+{
+  "PASS": true,
+  "condition": "F0",
+  "nodes": 5796,
+  "factors": 5870,
+  "loops": 75,
+  "pair_queries": 35,
+  "worker_wall_seconds": 2.4511852958239615,
+  "peak_RSS_MiB": 198.61328125,
+  "GT_used": false,
+  "optimization_run": false
+}
