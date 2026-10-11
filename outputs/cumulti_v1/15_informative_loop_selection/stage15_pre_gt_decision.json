@@ -1,0 +1,17 @@
+{
+  "status": "NO_INFORMATIVE_SPARSE_POLICY",
+  "UTC": "2026-10-11T03:12:16.429662+00:00",
+  "GT_used": false,
+  "GT_decoded": false,
+  "limits": {
+    "map_median_m": 3.3335569069226363,
+    "map_p95_m": 131.20529673911,
+    "heldout_translation_p95_m": 0.2943032355810134,
+    "heldout_rotation_p95_deg": 2.0759022608008286
+  },
+  "selected": null,
+  "selected_loop_ids": [],
+  "batch_pose_agreement_used_for_selection": false,
+  "communication_label": "loop-factor / communication-event reduction proxy; no byte/network measurement",
+  "loop_messages_removed": 0
+}

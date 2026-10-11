@@ -118,3 +118,32 @@ structural support associations and finite local marginal information do not
 establish one causal mechanism or a Hessian nullspace. Frozen decision:
 **RESIDUAL_NUMERICAL_DISCREPANCY_UNRESOLVED**. No GT, scans/maps, frontend or
 demo changes; stop pending a separately declared methodology protocol.
+
+## Entry 30 — Stage 15 (2026-10-11)
+
+Objective: compare informative loop selection with frozen arrival-prefix at
+the same budgets,without GT or altering75clean loop measurements. New runner,
+independent auditor andlauncher reuse read-only12D/13A/13B helpers. Policy
+fsynced before results: mandatorybridgeID45,nestedK1/2/5/10/20/40/75,quality,
+endpoint maximin,andquality+novelty geometric-mean ranks with average ties.
+Identical full5796-node canonical x0,frozen noise/Huber/LM/map/ROI settings.
+22unique subsets supply28conditions;one warmup+three measured solves each;
+all seven prefix poses/objectives/maps/ROI reproduce13A without rewriting it.
+
+Outputs: `outputs/cumulti_v1/15_informative_loop_selection/`;exact rankings,
+11100remaining-candidate greedy trace rows,all28factor/schema checks,selected/
+held-out/all75 residuals,structural coverage,source-separated mapmetrics,
+timings,float64 server-only map hashes,pre-GT decision,eight figures,and
+independent audit PASS(1331checks). No GT access or optional GT evaluation.
+
+CoverageK40 achieves NNmedian3.098681m versusprefix6.188868m,butheld-out
+translationp95=3.956524m exceeds0.294303m. QualityK40 andcombinedK40 likewise
+meet map-only thresholds butfail omitted-loop residual criteria. No sparse
+budget qualifies: NO_INFORMATIVE_SPARSE_POLICY. Zero new translation-catastrophe
+flags;ten conditions retain FAIL on frozen rotation-threshold lineage screen,
+withsmall excess0.011662–0.324135deg ratherthan an established physicalcatastrophe.
+These flags remain unchanged;omitted residuals alone already rejectall sparse
+sets. No parameter/selector/criterion changes after results. Report-only
+interpretation/figure improvements did not alter policy or numerical outputs.
+No selected policy meansincremental validation NOT_APPLICABLE andnoaccepted
+loop-event saving. HistoricalStage14 andexcluded45 remain unchanged;stopafter15.

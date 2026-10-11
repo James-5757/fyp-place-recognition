@@ -1,0 +1,4 @@
+selector,budgets_tested,map_median_better_K,map_p95_better_K,heldout_translation_better_K,heldout_rotation_better_K,pair_coverage_better_K
+QUALITY_GREEDY,5,"2,10,40","2,5","2,40","2,10,20,40","2,5,10,20,40"
+COVERAGE_GREEDY,5,"2,10,20,40","5,20","2,10,20,40","2,10,20,40","2,5,10,20,40"
+QUALITY_COVERAGE_GREEDY,5,"2,10,20,40",,"2,40","2,10,20,40","2,5,10,20,40"

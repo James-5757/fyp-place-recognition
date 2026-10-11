@@ -280,3 +280,40 @@ exact-policy recovery after a reporting failure reproduces all66 saved state
 coordinates exactly (maxdelta0); only recovery runtime is primary. No GT,
 frontend/maps/demo modification, gate relaxation or production-ready claim.
 See `docs/CUMULTI_STAGE14_FINAL_CONSISTENCY.md`.
+
+## Stage 15 — informative frozen-loop selection (verified, GT-free)
+
+Accepted Stage14 checkpoint 2c169e5. Historical120 -> identical clean75;
+excluded45 remain excluded. Four deterministic nested rankings (arrival,
+GICPquality,maximin normalized endpoint progress,rank-geometric-mean quality+
+coverage) atK1/2/5/10/20/40/75 retain mandatoryID45,R1#283↔R3#252. All28
+conditions use identical5796nodes/5794odom/oneprior/frozenLM x0;22unique sets,
+88warmup/measured solves. All seven prefix controls reproduce Stage13A.
+
+AtK40 global NN median/p95(m) and held-out translation/rotationp95(m/deg):
+prefix6.188868/115.251448,52.218379/66.340395;
+quality3.317613/122.088428,8.702660/33.547006;
+coverage3.098681/119.062359,3.956524/14.071211;
+quality+coverage3.279994/121.305450,4.026596/17.795745.
+Full75 NNmedian/p95=3.030506/119.277542m;all-loop residualp95=
+0.196202m/1.383935deg. Frozen allowed sparse mapmedian/p95=
+3.333557/131.205297m;held-outp95=0.294303m/2.075902deg.
+
+QualityK40,coverageK20/K40,andcombinedK40 meet the map-only envelope,
+but ALL sparse sets fail held-out translationp95. There is no qualified
+subset: **NO_INFORMATIVE_SPARSE_POLICY**. Same-K improvements are mixed;
+combined does not dominate. K40 pair-coveragep95:prefix0.409362,quality
+0.035750,coverage0.013981,combined0.020589(normalized structural units).
+These are consistency/structural findings,not physical accuracy or observability.
+
+All poses finite/anchored,zero new translation-catastrophe flags. Ten
+informative conditions retain FAIL on the predeclared supplementary frozen12C
+rotation-threshold lineage screen; threshold excess0.011662–0.324135deg,
+not proof of a physical catastrophic jump. No threshold was relaxed; the
+negative sparse decision does not depend on these flags. Independent saved-
+artifact execution/provenance audit PASS(1331checks),eight figures. Per-condition
+integrity is not universally PASS. Batch means0.0856–0.4481s,three timing
+samples only. No selected policy/no accepted loop saving;conditional persistent
+iSAM2 NOT_APPLICABLE. No GT decoded/evaluated,SC/GICP rerun,historical/demo
+change. Server-only float64 map manifests are tracked,raw/maps excluded fromGit.
+See `docs/CUMULTI_STAGE15_INFORMATIVE_LOOP_SELECTION.md`.

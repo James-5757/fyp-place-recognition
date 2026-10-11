@@ -150,3 +150,26 @@ original gates, all historical120/retained75 identities, and excluded45 loops.
 Do not start informative loop selection, change the demo, adjust factor noise,
 restore excluded loops or use GT automatically. Stop after14. Read
 `docs/CUMULTI_STAGE14_FINAL_CONSISTENCY.md` before further changes.
+
+## Current update — after Stage 15 (2026-10-11; supersedes earlier stop notes)
+
+Decision: **NO_INFORMATIVE_SPARSE_POLICY**. Informative nested selection from
+the same75-loop pool improves some same-K map/structural diagnostics butdoes
+not satisfy the fixed held-out measurement residual envelope. Do not advertise
+K40's hypothetical46.67%factor/event reduction as an accepted saving or measured
+network bandwidth. No default iSAM2 validation was triggered,no GTdecoded,and
+no full/selected graph numerical reference is promoted to physical truth.
+
+Keepfull75 as the current clean reference,excluded45 excluded,frozen noise,
+canonical seed,originalcriteria andStage14 numerical caveats. Preserveten
+supplementary rotation-screen FAIL conditions;do not relaxthresholds or call
+all Stage15 trajectories integrity-PASS. The sparse negative decision remains
+supported by held-out translation residuals independentofthese flags.
+
+A separately authorized GT-free study could examine actual measurement
+information/weak-direction support androbust residual geometry,witha policy
+frozen before new metrics. Timeline maximin/quality ranks alone are insufficient
+evidence of sparse sufficiency or observability. Do not expandselectors/budgets,
+retune using GT,changeodometry/noise,restartSC/GICP,restoreexcluded45,orchange
+the demo/startdistributedSLAM automatically. StopafterStage15;read
+`docs/CUMULTI_STAGE15_INFORMATIVE_LOOP_SELECTION.md`.

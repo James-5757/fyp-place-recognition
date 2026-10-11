@@ -1,0 +1,156 @@
+[
+  {
+    "condition": "P0_K1",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K1.csv",
+    "sha256": "a9894645fb20a932dd8e8bcf6a40fe8f988ef965535e83956ecc840509772306",
+    "size_bytes": 984070,
+    "rows": 5796
+  },
+  {
+    "condition": "P0_K2",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K2.csv",
+    "sha256": "b7a29a18dce58b4465750340d4950a3376e34e76850e78ea0c829573a4c37f4b",
+    "size_bytes": 978766,
+    "rows": 5796
+  },
+  {
+    "condition": "P0_K5",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K5.csv",
+    "sha256": "9231630e83ea92c4ad723e6d6d53bf47acb0483fc815ed7f42ffe956fc091273",
+    "size_bytes": 978933,
+    "rows": 5796
+  },
+  {
+    "condition": "P0_K10",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K10.csv",
+    "sha256": "bff02db48e80e2d64ac2bf4ba7d97526b71f2608ceb177d1659a6876df31a717",
+    "size_bytes": 977157,
+    "rows": 5796
+  },
+  {
+    "condition": "P0_K20",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K20.csv",
+    "sha256": "26c23e523375e49f932644c8c4984561c78cdfe1a1aabf56d267741d3bb29604",
+    "size_bytes": 977259,
+    "rows": 5796
+  },
+  {
+    "condition": "P0_K40",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K40.csv",
+    "sha256": "f51d3b842e44ed19632d7e09f57c035c00a3fd41576c0279ac7bd655815a94ae",
+    "size_bytes": 978566,
+    "rows": 5796
+  },
+  {
+    "condition": "P0_K75",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K75.csv",
+    "sha256": "cfa3cdd62317ad6f8d239569639e038e67d645ae95684cfb20185e8a64c138cc",
+    "size_bytes": 977886,
+    "rows": 5796
+  },
+  {
+    "condition": "P1_K2",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P1_K2.csv",
+    "sha256": "fa6e53dbff3ff0d979e061c8d8c1d3591740c4df47bc01387fd5141587833b26",
+    "size_bytes": 977865,
+    "rows": 5796
+  },
+  {
+    "condition": "P1_K5",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P1_K5.csv",
+    "sha256": "1ac70153cb10e86e39a8c16a83c0de04957098e0abaf4a2ee070c4a5a387041d",
+    "size_bytes": 977324,
+    "rows": 5796
+  },
+  {
+    "condition": "P1_K10",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P1_K10.csv",
+    "sha256": "071bf0d7c87c8b549a1e8613100cbd9a47614bed34dc11c093cb2f1df3a44741",
+    "size_bytes": 977962,
+    "rows": 5796
+  },
+  {
+    "condition": "P1_K20",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P1_K20.csv",
+    "sha256": "cf8de133d567a5529aaf3687f5a1c6e087bdd45f52bc5b35ce35e7be18828c8c",
+    "size_bytes": 977932,
+    "rows": 5796
+  },
+  {
+    "condition": "P1_K40",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P1_K40.csv",
+    "sha256": "80430c2a7aa96e72f78b3f77e37c76cd87641839daa71601a20bf2e65747516e",
+    "size_bytes": 977605,
+    "rows": 5796
+  },
+  {
+    "condition": "P2_K2",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K2.csv",
+    "sha256": "7b4b7a49cc2f30b309df643f5611df4a268726cb19feb7ef677c10bc1242dba1",
+    "size_bytes": 983321,
+    "rows": 5796
+  },
+  {
+    "condition": "P2_K5",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K5.csv",
+    "sha256": "d2d4847e7d32ae4502de55bcab7cee2fd2f65cdbf5a90f6f409763183d9bcc6c",
+    "size_bytes": 977907,
+    "rows": 5796
+  },
+  {
+    "condition": "P2_K10",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K10.csv",
+    "sha256": "44e65581a0574b5db0a7a0a8db7a403004ee887c3db3e188a086e5fd063fa831",
+    "size_bytes": 978824,
+    "rows": 5796
+  },
+  {
+    "condition": "P2_K20",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K20.csv",
+    "sha256": "e0dd5bbd1ed4f0d5c4559c0e1b4b4919d686c3abf8df954f7859e2e21d358a27",
+    "size_bytes": 977604,
+    "rows": 5796
+  },
+  {
+    "condition": "P2_K40",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K40.csv",
+    "sha256": "c374fe72d9fa5e08a3abc40cb94c77591b15d6ce0dba6258c659bc601230c461",
+    "size_bytes": 977614,
+    "rows": 5796
+  },
+  {
+    "condition": "P3_K2",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P3_K2.csv",
+    "sha256": "1e150c280d3062b89c4c90cc741123370e211c874d873c72e8c4aa3562cfacee",
+    "size_bytes": 982798,
+    "rows": 5796
+  },
+  {
+    "condition": "P3_K5",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P3_K5.csv",
+    "sha256": "8501083af9316e0d5625696e8a67c2357e8a740314c07af56460f76df46e182d",
+    "size_bytes": 981360,
+    "rows": 5796
+  },
+  {
+    "condition": "P3_K10",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P3_K10.csv",
+    "sha256": "006de4a587ec48065d50a680c9d25ac27d65df429872ae417fcd303c483d29c0",
+    "size_bytes": 980955,
+    "rows": 5796
+  },
+  {
+    "condition": "P3_K20",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P3_K20.csv",
+    "sha256": "98e2d41f9d232ab7b020df59e2f806ba89e9c0604afe389da478c9497b82fe10",
+    "size_bytes": 977564,
+    "rows": 5796
+  },
+  {
+    "condition": "P3_K40",
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P3_K40.csv",
+    "sha256": "58212fda0848cf34f4107c0f57384c9a6537e04836b3dff84e541f7fc647328e",
+    "size_bytes": 977617,
+    "rows": 5796
+  }
+]
