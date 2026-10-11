@@ -1,0 +1,16 @@
+{
+  "status": "MEASUREMENT_INFORMATION_PARTIALLY_EXPLAINS_SPARSE_FAILURE",
+  "heterogeneity": true,
+  "alignment": true,
+  "material_metrics": [
+    "target_translation_reduction"
+  ],
+  "predictive_metrics": [
+    "all75_translation_p95_reduction",
+    "target_translation_reduction",
+    "weak_max_eigenvalue_fraction_reduction"
+  ],
+  "some_material_TOP_effect": true,
+  "GT_used": false,
+  "new_sparse_policy": false
+}

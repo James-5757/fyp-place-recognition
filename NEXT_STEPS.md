@@ -173,3 +173,23 @@ evidence of sparse sufficiency or observability. Do not expandselectors/budgets,
 retune using GT,changeodometry/noise,restartSC/GICP,restoreexcluded45,orchange
 the demo/startdistributedSLAM automatically. StopafterStage15;read
 `docs/CUMULTI_STAGE15_INFORMATIVE_LOOP_SELECTION.md`.
+
+## Current update — after Stage 16 (2026-10-11; supersedes earlier stop notes)
+
+Stage16 decision: MEASUREMENT_INFORMATION_PARTIALLY_EXPLAINS_SPARSE_FAILURE.
+Do not promote information rankings into an accepted sparse policy. Keep
+Stage15 NO_INFORMATIVE_SPARSE_POLICY,75 clean/45 excluded,frozen factors/noise,
+anchor,thresholds and all prior numerical/integrity caveats unchanged.
+
+Missing-loop information is heterogeneous and high-DeltaI add-backs produce
+larger median target residual corrections,but global tails/trajectory effects
+are mixed. Largest pair-covariance modes are dominated by common-motion
+uncertainty;full75 largest-eigenvalue shrinkage is small. Fixed Stage14 weak
+windows lack clean-loop endpoints,so region-specific support is not proven.
+
+A separately authorized GT-free protocol could study measurement-projected
+relative uncertainty and robust nonlinear residual geometry before designing
+an information-aware selector. Maintain exact joint cross-correlation,explicit
+linearization points and predeclared predictive validation. No GT tuning,
+selector/budget expansion,demo modification or distributed SLAM automatically.
+Stop after16;see `docs/CUMULTI_STAGE16_MEASUREMENT_INFORMATION.md`.

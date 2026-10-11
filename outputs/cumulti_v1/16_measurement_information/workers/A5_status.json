@@ -1,0 +1,9 @@
+{
+  "PASS": true,
+  "peak_RSS_MiB": 431.65234375,
+  "worker_wall_s": 1.2004683539271355,
+  "nodes": 5796,
+  "factors": 5836,
+  "loops": 41,
+  "GT_used": false
+}

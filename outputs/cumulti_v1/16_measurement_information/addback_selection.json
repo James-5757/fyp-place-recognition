@@ -1,0 +1,93 @@
+{
+  "rule": {
+    "primary": "CoverageK40",
+    "top": 5,
+    "bottom": 5,
+    "order": "DeltaI descending/ascending then lower frozen ID",
+    "canonical_x0": "frozen12D first bridge common; no K40 warmstart",
+    "independent_K41": true,
+    "LM": {
+      "gtsam_version": "4.2",
+      "optimizer": "LevenbergMarquardtOptimizer",
+      "parameters": {
+        "getMaxIterations": 100,
+        "getRelativeErrorTol": 1e-05,
+        "getAbsoluteErrorTol": 1e-05,
+        "getErrorTol": 0.0,
+        "getlambdaInitial": 1e-05,
+        "getlambdaFactor": 10.0,
+        "getlambdaLowerBound": 0.0,
+        "getlambdaUpperBound": 100000.0,
+        "getLinearSolverType": "MULTIFRONTAL_CHOLESKY",
+        "getOrderingType": "COLAMD",
+        "getDiagonalDamping": false
+      },
+      "parameter_text": "\nrelative decrease threshold: 1e-05\nabsolute decrease threshold: 1e-05\n      total error threshold: 0\n         maximum iterations: 100\n                  verbosity: SILENT\n         linear solver type: MULTIFRONTAL CHOLESKY\n                   ordering: COLAMD\n              lambdaInitial: 1e-05\n               lambdaFactor: 10\n           lambdaUpperBound: 100000\n           lambdaLowerBound: 0\n           minModelFidelity: 0.001\n            diagonalDamping: 0\n                minDiagonal: 1e-06\n                maxDiagonal: 1e+32\n                verbosityLM: SILENT\n",
+      "parameter_tuning": false,
+      "environment": "/home/cas/.venvs/fyp_gtsam",
+      "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+      "noise_sigmas_rot_then_trans": [
+        0.08726646259971647,
+        0.08726646259971647,
+        0.08726646259971647,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "Huber_delta": 1.345
+    }
+  },
+  "policy_sha256": "55482bf9f97d71e78aee60a05d1ce21d1f80bd0d70dfb48de29051becf31f5fe",
+  "trials": [
+    {
+      "group": "TOP5",
+      "frozen_loop_id": 105,
+      "DeltaI": 10.950431336779754
+    },
+    {
+      "group": "TOP5",
+      "frozen_loop_id": 53,
+      "DeltaI": 10.407940754561611
+    },
+    {
+      "group": "TOP5",
+      "frozen_loop_id": 55,
+      "DeltaI": 10.244617880145652
+    },
+    {
+      "group": "TOP5",
+      "frozen_loop_id": 100,
+      "DeltaI": 10.112976632304152
+    },
+    {
+      "group": "TOP5",
+      "frozen_loop_id": 48,
+      "DeltaI": 10.05858333567505
+    },
+    {
+      "group": "BOTTOM5",
+      "frozen_loop_id": 61,
+      "DeltaI": 4.04733129776964
+    },
+    {
+      "group": "BOTTOM5",
+      "frozen_loop_id": 114,
+      "DeltaI": 6.215301522242324
+    },
+    {
+      "group": "BOTTOM5",
+      "frozen_loop_id": 62,
+      "DeltaI": 6.346421898906529
+    },
+    {
+      "group": "BOTTOM5",
+      "frozen_loop_id": 110,
+      "DeltaI": 6.512616482344975
+    },
+    {
+      "group": "BOTTOM5",
+      "frozen_loop_id": 77,
+      "DeltaI": 6.818195674288194
+    }
+  ]
+}

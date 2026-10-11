@@ -1,0 +1,7 @@
+{
+  "reason": "loop_residuals helper returns (DataFrame,summary); unpack interface fixed",
+  "policy_unchanged": true,
+  "information_not_recomputed": true,
+  "first_A0_repeated_after_reporting_failure": true,
+  "UTC": "2026-10-11T03:47:58.901898+00:00"
+}

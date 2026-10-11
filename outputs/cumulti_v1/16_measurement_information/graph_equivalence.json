@@ -1,0 +1,47 @@
+[
+  {
+    "condition": "F0",
+    "nodes": 5796,
+    "odometry": 5794,
+    "prior": 1,
+    "loops": 75,
+    "factors": 5870,
+    "PASS": true
+  },
+  {
+    "condition": "S1",
+    "nodes": 5796,
+    "odometry": 5794,
+    "prior": 1,
+    "loops": 40,
+    "factors": 5835,
+    "PASS": true
+  },
+  {
+    "condition": "S2",
+    "nodes": 5796,
+    "odometry": 5794,
+    "prior": 1,
+    "loops": 40,
+    "factors": 5835,
+    "PASS": true
+  },
+  {
+    "condition": "S3",
+    "nodes": 5796,
+    "odometry": 5794,
+    "prior": 1,
+    "loops": 40,
+    "factors": 5835,
+    "PASS": true
+  },
+  {
+    "condition": "S4",
+    "nodes": 5796,
+    "odometry": 5794,
+    "prior": 1,
+    "loops": 20,
+    "factors": 5815,
+    "PASS": true
+  }
+]

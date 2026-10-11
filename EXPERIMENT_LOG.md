@@ -147,3 +147,28 @@ sets. No parameter/selector/criterion changes after results. Report-only
 interpretation/figure improvements did not alter policy or numerical outputs.
 No selected policy meansincremental validation NOT_APPLICABLE andnoaccepted
 loop-event saving. HistoricalStage14 andexcluded45 remain unchanged;stopafter15.
+
+## Entry 31 — Stage 16 (2026-10-11)
+
+Objective: diagnose measurement-information loss versus structural coverage on
+Full75,CoverageK40,QualityK40,Quality+CoverageK40,CoverageK20. Independent runner,
+auditor and launcher freeze hashes,local linearizations,public APIs,nominal and
+diagnostic robust information,joint covariance,gates,resources,regions and
+TOP5/BOTTOM5 add-back rules before scores. No five-reference reoptimization.
+
+Outputs: `outputs/cumulti_v1/16_measurement_information/`;375 reference-pair
+metrics plus10 add-back pairs,local arrays,finite-difference Jacobian checks,
+cross-correlated joint marginals,NIS,weak support,correlations,case rankings,
+35 sparse/full contrasts,ten canonical-x0 K41 solves,residual/maps/pose effects,
+fixed Stage14 window/pose diagnostics,resource costs,ten figures,decision and
+independent audit PASS(3632checks). An initial A0 reporting tuple-unpack error
+was archived and recovered under identical policy;five references not rerun.
+
+Quality has weak information association;omitted structural distance remains
+strongly associated with DeltaI. High-information add-backs improve target
+residuals more in median,but global tail improvements and trajectory changes
+are mixed. Only one TOP-vs-BOTTOM materiality gate passes. Decision:
+MEASUREMENT_INFORMATION_PARTIALLY_EXPLAINS_SPARSE_FAILURE. No GT,dense global
+Hessian,new selector/accepted saving,excluded loop restoration,historical/demo
+change. Marginals are local numerical diagnostics,not physical uncertainty.
+Stage15 negative decision preserved;stop after16.

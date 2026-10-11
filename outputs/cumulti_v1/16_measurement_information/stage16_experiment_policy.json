@@ -1,0 +1,418 @@
+{
+  "UTC": "2026-10-11T03:46:42.836943+00:00",
+  "accepted_inputs": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+      "sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+      "size_bytes": 145328
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/ordered_rank1_clean_loops.csv",
+      "sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+      "size_bytes": 24393
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv",
+      "sha256": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297",
+      "size_bytes": 982171
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_first_loop_trajectory.csv",
+      "sha256": "50426694f828b2783a6c5ca4758f60c9970f8a1d7f4a20373234dc1e65a3ff0d",
+      "size_bytes": 984137
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_graph_policy.json",
+      "sha256": "b92c91de71c739fd1494dccea07df0974dbb319f0e19affaffbde0756e1c7242",
+      "size_bytes": 2325
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_gtsam_solver_policy.json",
+      "sha256": "a807aec805b492f1fb3a660d8e389f39eb7e5a944c0ec1753069fe45a40a0bab",
+      "size_bytes": 1377
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/selected_loops_by_budget.json",
+      "sha256": "9d989f693f8f5e4acc263d7ad41050ef8ab833cb64c751110a0a7ab3bb3ff209",
+      "size_bytes": 6867
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/stage15_experiment_policy.json",
+      "sha256": "adbdb7467b1544ef05e5a92d87862e847fef277bf51b3544e3c583ffd9075743",
+      "size_bytes": 18949
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/stage15_pre_gt_decision.json",
+      "sha256": "290f9f74a0f0d4b2009904a6a9627d80363df2a711f5d9714b9cdd24b92b0cd5",
+      "size_bytes": 568
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/loop_rankings.csv",
+      "sha256": "d5eb46a86703e84198d71042a80ad636141363b800de1e31e1a8f1226400b3a0",
+      "size_bytes": 58928
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P0_K75.csv",
+      "sha256": "cfa3cdd62317ad6f8d239569639e038e67d645ae95684cfb20185e8a64c138cc",
+      "size_bytes": 977886
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K40.csv",
+      "sha256": "c374fe72d9fa5e08a3abc40cb94c77591b15d6ce0dba6258c659bc601230c461",
+      "size_bytes": 977614
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P1_K40.csv",
+      "sha256": "80430c2a7aa96e72f78b3f77e37c76cd87641839daa71601a20bf2e65747516e",
+      "size_bytes": 977605
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P3_K40.csv",
+      "sha256": "58212fda0848cf34f4107c0f57384c9a6537e04836b3dff84e541f7fc647328e",
+      "size_bytes": 977617
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/trajectories/P2_K20.csv",
+      "sha256": "e0dd5bbd1ed4f0d5c4559c0e1b4b4919d686c3abf8df954f7859e2e21d358a27",
+      "size_bytes": 977604
+    }
+  ],
+  "conditions": {
+    "F0": [
+      "ARRIVAL_PREFIX",
+      75,
+      "P0_K75"
+    ],
+    "S1": [
+      "COVERAGE_GREEDY",
+      40,
+      "P2_K40"
+    ],
+    "S2": [
+      "QUALITY_GREEDY",
+      40,
+      "P1_K40"
+    ],
+    "S3": [
+      "QUALITY_COVERAGE_GREEDY",
+      40,
+      "P3_K40"
+    ],
+    "S4": [
+      "COVERAGE_GREEDY",
+      20,
+      "P2_K20"
+    ]
+  },
+  "linearization": "each own frozen Stage15 batch trajectory; no five-condition optimization",
+  "API": {
+    "PASS": true,
+    "gtsam": "4.2",
+    "public_API_docs": {
+      "Marginals.jointMarginalCovariance": "jointMarginalCovariance(self: gtsam.gtsam.Marginals, variables: std::vector<unsigned long, std::allocator<unsigned long> >) -> gtsam::JointMarginal\n",
+      "Marginals.marginalCovariance": "marginalCovariance(self: gtsam.gtsam.Marginals, variable: int) -> numpy.ndarray[numpy.float64[m, n]]\n",
+      "JointMarginal.at": "at(self: gtsam.gtsam.JointMarginal, iVariable: int, jVariable: int) -> numpy.ndarray[numpy.float64[m, n]]\n",
+      "JointMarginal.fullMatrix": "fullMatrix(self: gtsam.gtsam.JointMarginal) -> numpy.ndarray[numpy.float64[m, n]]\n",
+      "JacobianFactor.jacobian": "jacobian(self: gtsam.gtsam.GaussianFactor) -> Tuple[numpy.ndarray[numpy.float64[m, n]], numpy.ndarray[numpy.float64[m, 1]]]\n",
+      "JacobianFactor.keys": "keys(self: gtsam.gtsam.Factor) -> List[int]\n",
+      "BetweenFactorPose3.linearize": "linearize(self: gtsam.gtsam.NonlinearFactor, c: gtsam::Values) -> gtsam.gtsam.GaussianFactor\n",
+      "BetweenFactorPose3.unwhitenedError": "unwhitenedError(self: gtsam.gtsam.NoiseModelFactor, x: gtsam::Values) -> numpy.ndarray[numpy.float64[m, 1]]\n",
+      "Pose3.between": "between(*args, **kwargs)\nOverloaded function.\n\n1. between(self: gtsam.gtsam.Pose3, pose: gtsam.gtsam.Pose3) -> gtsam.gtsam.Pose3\n\n2. between(self: gtsam.gtsam.Pose3, pose: gtsam.gtsam.Pose3, H1: numpy.ndarray[numpy.float64[m, n], flags.writeable, flags.f_contiguous], H2: numpy.ndarray[numpy.float64[m, n], flags.writeable, flags.f_contiguous]) -> gtsam.gtsam.Pose3\n",
+      "Pose3.Logmap": "Logmap(*args, **kwargs)\nOverloaded function.\n\n1. Logmap(pose: gtsam.gtsam.Pose3) -> numpy.ndarray[numpy.float64[6, 1]]\n\n2. Logmap(pose: gtsam.gtsam.Pose3, Hpose: numpy.ndarray[numpy.float64[m, n], flags.writeable, flags.f_contiguous]) -> numpy.ndarray[numpy.float64[6, 1]]\n",
+      "Pose3.LogmapDerivative": "LogmapDerivative(xi: gtsam.gtsam.Pose3) -> numpy.ndarray[numpy.float64[6, 6]]\n"
+    },
+    "KeyVector": "append integer keys; explicitly assemble joint.at(q,q),at(q,c),at(c,q),at(c,c)",
+    "joint_crossblock_preserved": true,
+    "toy_covariance": [
+      [
+        1.0000000000000018,
+        -1.3597399555105185e-16,
+        0.0,
+        0.0,
+        0.0,
+        2.416641753364632e-16,
+        0.9800665778412433,
+        -0.19866933079506163,
+        0.0,
+        0.0,
+        0.0,
+        2.000000000000004
+      ],
+      [
+        -1.3597399555105185e-16,
+        1.0000000000000002,
+        0.0,
+        0.0,
+        0.0,
+        -9.085144729692146e-17,
+        0.1986693307950612,
+        0.9800665778412417,
+        0.0,
+        0.0,
+        0.0,
+        -1.0000000000000004
+      ],
+      [
+        0.0,
+        0.0,
+        1.0000000000000007,
+        4.196248604251576e-17,
+        -7.621343228151115e-17,
+        0.0,
+        0.0,
+        0.0,
+        1.0000000000000009,
+        -1.7614638248874228,
+        1.3774052394313647,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        4.196248604251576e-17,
+        1.0,
+        -4.6443961262081255e-17,
+        0.0,
+        0.0,
+        0.0,
+        2.0232607273664017e-16,
+        0.9800665778412411,
+        -0.19866933079506105,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -7.621343228151115e-17,
+        -4.6443961262081255e-17,
+        1.0000000000000002,
+        0.0,
+        0.0,
+        0.0,
+        -8.275113844157577e-17,
+        0.19866933079506116,
+        0.980066577841242,
+        0.0
+      ],
+      [
+        2.416641753364632e-16,
+        -9.085144729692146e-17,
+        0.0,
+        0.0,
+        0.0,
+        1.0000000000000002,
+        1.9582493486507355e-16,
+        -1.2957650453650723e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.0000000000000007
+      ],
+      [
+        0.9800665778412433,
+        0.1986693307950612,
+        0.0,
+        0.0,
+        0.0,
+        1.9582493486507355e-16,
+        2.0000000000000018,
+        -3.384888548563879e-16,
+        0.0,
+        0.0,
+        0.0,
+        1.761463824887426
+      ],
+      [
+        -0.19866933079506163,
+        0.9800665778412417,
+        0.0,
+        0.0,
+        0.0,
+        -1.2957650453650723e-16,
+        -3.384888548563879e-16,
+        2.0,
+        0.0,
+        0.0,
+        0.0,
+        -1.3774052394313652
+      ],
+      [
+        0.0,
+        0.0,
+        1.0000000000000009,
+        2.0232607273664017e-16,
+        -8.275113844157577e-17,
+        0.0,
+        0.0,
+        0.0,
+        2.0000000000000018,
+        -1.7614638248874235,
+        1.3774052394313656,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.7614638248874228,
+        0.9800665778412411,
+        0.19866933079506116,
+        0.0,
+        0.0,
+        0.0,
+        -1.7614638248874235,
+        5.102754806387027,
+        -2.4262495014687473,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.3774052394313647,
+        -0.19866933079506105,
+        0.980066577841242,
+        0.0,
+        0.0,
+        0.0,
+        1.3774052394313656,
+        -2.4262495014687473,
+        3.8972451936129753,
+        0.0
+      ],
+      [
+        2.000000000000004,
+        -1.0000000000000004,
+        0.0,
+        0.0,
+        0.0,
+        1.0000000000000007,
+        1.761463824887426,
+        -1.3774052394313652,
+        0.0,
+        0.0,
+        0.0,
+        7.00000000000001
+      ]
+    ],
+    "tangent": [
+      0.0,
+      0.0,
+      0.3,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "sparse_elimination": "GTSAM Marginals default sparse multifrontal elimination; no global dense Hessian",
+    "Jacobian": "exact LogmapDerivative(E) times between endpoint Jacobians; Gaussian factor Jacobian audited separately",
+    "robust": "frozen robust graph Marginals; reconstructed diagnostic weight not asserted exact IRLS"
+  },
+  "noise": {
+    "sigmas": [
+      0.08726646259971647,
+      0.08726646259971647,
+      0.08726646259971647,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "Huber_delta": 1.345,
+    "anchor": "Robot1 KF150",
+    "tangent": "rx ry rz tx ty tz"
+  },
+  "Jacobian": "exact residual Logmap Jacobian via public LogmapDerivative(E) @ [between.Hq,between.Hc]; finite-difference epsilon1e-6; Gaussian-factor Jacobian separately retained because GTSAM factor linearization may use an approximate chart derivative",
+  "covariance": "GTSAM sparse Marginals on exact frozen robust graph; joint.at block assembly preserves endpoint cross correlation; no independent block approximation",
+  "DeltaI": "0.5 logdet(I + D^-1 J Sigma J.T D^-1), Cholesky; D=sigma diag",
+  "NIS": "e.T solve(J Sigma J.T + R,e)",
+  "Huber": "RECONSTRUCTED_HUBER_WEIGHT_DIAGNOSTIC=min(1,1.345/norm(e/sigma)); H_eff=w H; robust DeltaI uses wW; not claimed internal IRLS weight",
+  "weak": "largest/top3 joint covariance eigenvectors Euclidean-normalized in native right-retraction rad/metre tangent; v.T H v; mixed-unit coordinate-dependent; not global Hessian nullspace",
+  "numerical_gates": {
+    "FD_max_abs_lt": 1e-05,
+    "symmetry_relative_lt": 1e-08,
+    "PSD_min_ge": "-1e-10*max(1,maxeig)",
+    "Cholesky_without_jitter": true,
+    "finite": true
+  },
+  "resources": {
+    "additional_address_space_GiB": 2,
+    "CPU_seconds": 90,
+    "wall_seconds": 120,
+    "BLAS_threads": 1,
+    "global_dense_Hessian": false
+  },
+  "addback": {
+    "primary": "CoverageK40",
+    "top": 5,
+    "bottom": 5,
+    "order": "DeltaI descending/ascending then lower frozen ID",
+    "canonical_x0": "frozen12D first bridge common; no K40 warmstart",
+    "independent_K41": true,
+    "LM": {
+      "gtsam_version": "4.2",
+      "optimizer": "LevenbergMarquardtOptimizer",
+      "parameters": {
+        "getMaxIterations": 100,
+        "getRelativeErrorTol": 1e-05,
+        "getAbsoluteErrorTol": 1e-05,
+        "getErrorTol": 0.0,
+        "getlambdaInitial": 1e-05,
+        "getlambdaFactor": 10.0,
+        "getlambdaLowerBound": 0.0,
+        "getlambdaUpperBound": 100000.0,
+        "getLinearSolverType": "MULTIFRONTAL_CHOLESKY",
+        "getOrderingType": "COLAMD",
+        "getDiagonalDamping": false
+      },
+      "parameter_text": "\nrelative decrease threshold: 1e-05\nabsolute decrease threshold: 1e-05\n      total error threshold: 0\n         maximum iterations: 100\n                  verbosity: SILENT\n         linear solver type: MULTIFRONTAL CHOLESKY\n                   ordering: COLAMD\n              lambdaInitial: 1e-05\n               lambdaFactor: 10\n           lambdaUpperBound: 100000\n           lambdaLowerBound: 0\n           minModelFidelity: 0.001\n            diagonalDamping: 0\n                minDiagonal: 1e-06\n                maxDiagonal: 1e+32\n                verbosityLM: SILENT\n",
+      "parameter_tuning": false,
+      "environment": "/home/cas/.venvs/fyp_gtsam",
+      "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+      "noise_sigmas_rot_then_trans": [
+        0.08726646259971647,
+        0.08726646259971647,
+        0.08726646259971647,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "Huber_delta": 1.345
+    }
+  },
+  "weak_regions": {
+    "A": [
+      1208,
+      1408
+    ],
+    "B": [
+      1535,
+      1735
+    ],
+    "C1": [
+      452,
+      652
+    ],
+    "C2": [
+      2403,
+      2603
+    ],
+    "C3": [
+      451,
+      651
+    ],
+    "source": "Stage14 frozen1308/1635 and matched552/2503/551; inclusive +/-100KF; overlaps reported separately, not pooled"
+  },
+  "representative": "median split over all75 S1 loops; >=median high; one lowest frozen ID per nonempty category; no manual cases",
+  "decision": {
+    "heterogeneity": "omitted DeltaI p90-p10 >= 1 nat",
+    "alignment": "Spearman DeltaI/weak_support_top3 >=0.3",
+    "impact": "TOP median reduction minus BOTTOM median reduction >= 0.1*abs(K40 reference metric), for >=2 of all75 translationp95,rotationp95,targettranslation,weak eigenvaluefraction",
+    "full": "heterogeneity and alignment and >=2 material metrics and >=2 corresponding DeltaI/impact Spearman>=0.3",
+    "partial": "heterogeneity and at least one TOP trial reduces all75 translation or rotation p95 by >=10%; otherwise NO_CLEAR; any required worker failure blocker"
+  },
+  "GT_used": false,
+  "new_sparse_policy": false,
+  "map": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5
+  },
+  "Stage15_thresholds_changed": false
+}

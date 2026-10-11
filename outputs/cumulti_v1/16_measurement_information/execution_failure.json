@@ -1,0 +1,4 @@
+{
+  "traceback": "Traceback (most recent call last):\n  File \"/home/cas/fyp_place_recognition/src/cumulti/run_stage16_measurement_information.py\", line 381, in <module>\n    try:main()\n  File \"/home/cas/fyp_place_recognition/src/cumulti/run_stage16_measurement_information.py\", line 260, in main\n    effects=dict(condition=code,**trial,target_translation_before=float(base.iloc[fidix].translation_residual_m),target_translation_after=float(rr.iloc[fidix].translation_residual_m),target_rotation_before=float(base.iloc[fidix].rotation_residual_deg),target_rotation_after=float(rr.iloc[fidix].rotation_residual_deg))\nAttributeError: 'tuple' object has no attribute 'iloc'\n",
+  "GT_used": false
+}

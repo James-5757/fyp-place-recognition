@@ -1,0 +1,12 @@
+phase,condition,wall_ms
+factor_reconstruction,A6,1168.8622869551182
+Marginals_construction,A6,33.78154383972287
+factor_linearization,A6,0.31688809394836426
+joint_covariance_query,A6,0.5891779437661171
+information_metric,A6,0.3247740678489208
+weak_region_marginal_query,A6,10.837063193321228
+weak_region_marginal_query,A6,0.023589935153722763
+weak_region_marginal_query,A6,1.7646178603172302
+weak_region_marginal_query,A6,4.980298224836588
+weak_region_marginal_query,A6,0.255826860666275
+weak_region_marginal_query,A6,0.021731946617364883

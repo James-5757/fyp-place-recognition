@@ -317,3 +317,32 @@ samples only. No selected policy/no accepted loop saving;conditional persistent
 iSAM2 NOT_APPLICABLE. No GT decoded/evaluated,SC/GICP rerun,historical/demo
 change. Server-only float64 map manifests are tracked,raw/maps excluded fromGit.
 See `docs/CUMULTI_STAGE15_INFORMATIVE_LOOP_SELECTION.md`.
+
+## Stage 16 — measurement information / weak directions (verified, GT-free)
+
+Five own frozen Stage15 trajectories were linearized without reoptimization.
+Historical120/clean75/excluded45, factors/noise/Huber/anchor and Stage15 negative
+decision remain unchanged. Public GTSAM joint12x12 covariance preserves endpoint
+cross-correlation; exact Logmap Jacobians pass finite differences (max4.010e-8).
+No dense global Hessian, GT or new sparse policy. Independent audit PASS.
+
+CoverageK40 omitted35 DeltaI median8.427143nats, range4.047331–10.950431;
+selected40 in-graph diagnostic median2.034651 (not pre-insertion gain).
+Omitted-only DeltaI Spearman: quality0.164706,novelty0.683754,nearest selected
+pair distance0.933053,weak support top3 0.460504,NIS-0.031092. Held-out physical
+p95 remains3.956524m/14.071211deg; no historical result was rewritten.
+
+Ten independent canonical-x0 K41 add-backs: TOP5 IDs105/53/55/100/48,
+BOTTOM5 61/114/62/110/77. Target translation reduction medians1.304242/0.535291m,
+but all75 translation-p95 reductions0.000294/0.000188m; rotation-tail outcomes
+mixed. Original endpoint weak-direction variance reductions0.006471/0.001758;
+DeltaI Spearman with target translation reduction0.539394,global rotation-tail
+reduction-0.224242. Maps remain near K40. Sparse/full joint largest eigenvalue
+ratio median1.000874,logdet difference17.252976; common-mode uncertainty dominates
+largest modes. These are local model diagnostics,not physical calibration.
+
+Decision: **MEASUREMENT_INFORMATION_PARTIALLY_EXPLAINS_SPARSE_FAILURE**.
+Heterogeneity/target effects support partial information loss,not a global
+observability proof or sufficient explanation of global residual tails. Fifteen
+bounded workers PASS,peakRSS435.652MiB;ten figures. Stage15 rotation-screen
+caveats remain. See `docs/CUMULTI_STAGE16_MEASUREMENT_INFORMATION.md`.

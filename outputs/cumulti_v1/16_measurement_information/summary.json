@@ -1,0 +1,196 @@
+{
+  "status": "MEASUREMENT_INFORMATION_PARTIALLY_EXPLAINS_SPARSE_FAILURE",
+  "GT_USED": false,
+  "primary": {
+    "selected": 40,
+    "omitted": 35,
+    "all75_translation_p95_m": 2.786278615067703,
+    "all75_rotation_p95_deg": 11.297416078378578,
+    "heldout_translation_p95_m": 3.9565243676014763,
+    "heldout_rotation_p95_deg": 14.07121132135407
+  },
+  "distributions": [
+    {
+      "selected": false,
+      "metric": "DeltaI",
+      "count": 35,
+      "median": 8.427143430506405,
+      "p90": 10.09121931365251,
+      "p95": 10.293614742470439,
+      "max": 10.950431336779754
+    },
+    {
+      "selected": false,
+      "metric": "weak_support_top3",
+      "count": 35,
+      "median": 1.1586049206979982e-06,
+      "p90": 1.2381576146154378e-05,
+      "p95": 2.1732382558226123e-05,
+      "max": 3.4847651890688654e-05
+    },
+    {
+      "selected": false,
+      "metric": "GICP_quality",
+      "count": 35,
+      "median": 0.6385726490896373,
+      "p90": 0.6996148543452373,
+      "p95": 0.707832202133741,
+      "max": 0.7148947949822614
+    },
+    {
+      "selected": false,
+      "metric": "coverage_novelty",
+      "count": 35,
+      "median": 0.0070308274743103,
+      "p90": 0.014175942337929442,
+      "p95": 0.01590586563336154,
+      "max": 0.0170607468524666
+    },
+    {
+      "selected": false,
+      "metric": "NIS",
+      "count": 35,
+      "median": 0.2125706379726298,
+      "p90": 0.662049738343583,
+      "p95": 0.8318323660117084,
+      "max": 2.107871498272877
+    },
+    {
+      "selected": true,
+      "metric": "DeltaI",
+      "count": 40,
+      "median": 2.0346508353044133,
+      "p90": 2.054392078179271,
+      "p95": 2.062270595693482,
+      "max": 2.078580962388921
+    },
+    {
+      "selected": true,
+      "metric": "weak_support_top3",
+      "count": 40,
+      "median": 1.574086678176183e-08,
+      "p90": 9.556628201161982e-08,
+      "p95": 6.727556635662925e-07,
+      "max": 6.891247579234429e-06
+    },
+    {
+      "selected": true,
+      "metric": "GICP_quality",
+      "count": 40,
+      "median": 0.6495740335389084,
+      "p90": 0.7043850596250635,
+      "p95": 0.7173030488718283,
+      "max": 0.7493432841095745
+    },
+    {
+      "selected": true,
+      "metric": "coverage_novelty",
+      "count": 40,
+      "median": 0.0412594166145938,
+      "p90": 0.2684589211090912,
+      "p95": 0.47815877605098,
+      "max": 1.3486550394462855
+    },
+    {
+      "selected": true,
+      "metric": "NIS",
+      "count": 40,
+      "median": 0.0070916948749011,
+      "p90": 0.04762297310139371,
+      "p95": 0.10692757215798376,
+      "max": 0.1342138076392187
+    }
+  ],
+  "predictive": [
+    {
+      "metric": "all75_translation_p95_reduction",
+      "TOP5_median": 0.0002942910788950037,
+      "BOTTOM5_median": 0.00018775059425069074,
+      "Pearson": 0.37988308740216986,
+      "Spearman": 0.4666666666666666,
+      "count": 10
+    },
+    {
+      "metric": "all75_rotation_p95_reduction",
+      "TOP5_median": -0.00016960173380908827,
+      "BOTTOM5_median": 0.11093364000991812,
+      "Pearson": -0.29696394962037814,
+      "Spearman": -0.22424242424242422,
+      "count": 10
+    },
+    {
+      "metric": "target_translation_reduction",
+      "TOP5_median": 1.3042422820631827,
+      "BOTTOM5_median": 0.5352907714127731,
+      "Pearson": 0.5206222880706562,
+      "Spearman": 0.5393939393939393,
+      "count": 10
+    },
+    {
+      "metric": "target_rotation_reduction",
+      "TOP5_median": 6.113093942338321,
+      "BOTTOM5_median": 3.449651301304105,
+      "Pearson": 0.5281585171978813,
+      "Spearman": 0.5515151515151515,
+      "count": 10
+    },
+    {
+      "metric": "trajectory_translation_p95_m",
+      "TOP5_median": 0.1365718213482816,
+      "BOTTOM5_median": 0.1947183065793072,
+      "Pearson": 0.31046220836199373,
+      "Spearman": 0.2121212121212121,
+      "count": 10
+    },
+    {
+      "metric": "weak_max_eigenvalue_fraction_reduction",
+      "TOP5_median": 0.0020036734275623,
+      "BOTTOM5_median": -0.0001041271105748,
+      "Pearson": 0.6929342008332782,
+      "Spearman": 0.6848484848484848,
+      "count": 10
+    },
+    {
+      "metric": "original_weak_direction_fraction_reduction",
+      "TOP5_median": 0.0064707892719796,
+      "BOTTOM5_median": 0.0017583002365131,
+      "Pearson": 0.5764558780392754,
+      "Spearman": 0.7454545454545454,
+      "count": 10
+    }
+  ],
+  "covariance_ratios": {
+    "max_eigenvalue_sparse_full_ratio": {
+      "median": 1.0008741752255714,
+      "p90": 1.0035232224854913,
+      "p95": 1.0046258149597542,
+      "max": 1.0063793799805818
+    },
+    "translation_trace_sparse_full_ratio": {
+      "median": 1.0012485489585194,
+      "p90": 1.0047558487223516,
+      "p95": 1.0055220872509596,
+      "max": 1.0066480793679322
+    },
+    "rotation_trace_sparse_full_ratio": {
+      "median": 1.0175923749416222,
+      "p90": 1.0270676460518813,
+      "p95": 1.027903610734564,
+      "max": 1.0285457498093458
+    }
+  },
+  "representative_thresholds": {
+    "novelty_median": 0.0191147722625932,
+    "DeltaI_median": 2.061500178508283
+  },
+  "figures": 10,
+  "limitations": [
+    "local frozen linearizations, not global observability",
+    "joint weak directions dominated by common-mode gauge-correlated uncertainty may be weakly seen by relative factors",
+    "mixed rad/metre eigenvectors are coordinate-dependent",
+    "frozen robust graph covariance is not physically calibrated",
+    "in-graph factor scores are not pre-insertion gains",
+    "n=5 groups, shared-variable loops dependent; no significance/causality claims",
+    "Stage15 negative decision and rotation-screen caveats unchanged"
+  ]
+}
