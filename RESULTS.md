@@ -366,3 +366,19 @@ high-DeltaI/poor-tail-reduction cases, loops48/55, both have Huber weight1 and
 small local nonlinearity. N=10 correlations are exploratory, not causal evidence.
 Numerical diagnostic line CLOSED; no new selector or demonstrated sparse policy.
 See `docs/CUMULTI_STAGE17_RELATIVE_MEASUREMENT_GEOMETRY.md`.
+
+## Stage 18 — clean75 progressive mapping presentation (not a new accuracy result)
+
+New `demo/progressive_multi_robot/` replaces the presentation lineage only;
+historical `demo/final_replay/` is unchanged. Uses R1KF150–1999/R3KF234–4179,
+75 clean loops,5796 Pose3 nodes,5794 odometry,one prior,5870 factors. The45
+excluded loops remain excluded. Separate blue/orange local maps transition at
+first detected common place R1KF283/R3KF252 (ID45), through frozen SC/GICP,
+first-loop common-frame initialization and progressive point-cloud reprojection.
+All75 post-loop display states use the unchanged Stage13B persistent policy;
+original checkpoints are reused,missing states are exported by exact-protocol
+replay,not tuned. Dedicated final global bird's-eye scene and batch-reference
+toggle are clearly labelled; no GT,SC/GICP rerun or batch solve in Stage18.
+Stage13B INCREMENTAL_BACKEND_NOT_READY,Stage15 NO_INFORMATIVE_SPARSE_POLICY and
+Stage17 diagnostic-line closure remain unchanged. Presentation validation is
+not deployment readiness,physical accuracy,real-time or distributed SLAM.

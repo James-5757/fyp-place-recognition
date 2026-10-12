@@ -1,0 +1,21 @@
+{
+  "stage18_presentation": "PASS",
+  "checks": 3301,
+  "clean_loops": 75,
+  "excluded_loops": 45,
+  "nodes": 5796,
+  "odometry": 5794,
+  "prior": 1,
+  "factors": 5870,
+  "post_loop_states": 75,
+  "additional_loop_states": 68,
+  "historical_checkpoint_reproduction_max_matrix_difference": 2.923217223838037e-13,
+  "persistent_display_replays": 1,
+  "extra_empty_updates": 0,
+  "GT_loaded": false,
+  "new_scientific_experiments": 0,
+  "scientific_readiness": "Historical INCREMENTAL_BACKEND_NOT_READY unchanged",
+  "numerical_diagnostic_line_closed": true,
+  "screenshots": 13,
+  "browser_assets_total_bytes": 38507416
+}

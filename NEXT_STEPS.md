@@ -207,3 +207,16 @@ The next separately authorized phase is final progressive mapping demo/system
 integration and thesis/report synthesis, using the existing frozen results and
 explicit scientific limitations. No demo or new experiment starts automatically.
 See `docs/CUMULTI_STAGE17_RELATIVE_MEASUREMENT_GEOMETRY.md`.
+
+## Stage 18 — final presentation checkpoint
+
+The new clean75 progressive mapping demo is the final presentation lineage;
+historical120-loop demo stays unchanged. Use the new README and provenance,
+not the older full6180 graph,for supervisor demonstration and dissertation
+figures. Preserve all scientific limitations: default incremental estimate is
+not physically calibrated truth or exact batch equality; sparse-policy negative
+result and numerical diagnostic-line closure are unchanged.
+
+Stop after Stage18. The next separately authorized activity may be presentation
+rehearsal and thesis/report synthesis. Do not automatically start another
+numerical diagnostic,selector experiment,distributed backend or live deployment.

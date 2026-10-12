@@ -195,3 +195,24 @@ single-vs-joint marginal entrywise guard failed near zero; retained failure,
 recovery and block-scaled numerical diagnosis document the unchanged primary
 joint covariance (bitwise equal to Stage16) and frozen policy. No GT, add-back
 rerun, selector, historical-output change or demo. Numerical diagnostic line CLOSED.
+
+## Stage 18 — final progressive clean75 mapping demo integration
+
+Objective: visibly communicate individual local maps,first cross-robot common
+place,global fusion while constraints arrive,and complete top-down global map.
+Input: frozen12D stable local/common trajectories and clean75 measurements,
+Stage13B persistent checkpoint trajectories/maps/event trace/default policy;
+Stage12D Full75 batch as FINAL-only numerical reference. No GT decoded.
+Method: new dependency-free browser dashboard with seven scenes,real SE(3)
+GICP thumbnails,source-coloured XYZ map subsets,current graph counts,newest
+green constraint,playback/scrubbing and final zoom/pan/source toggles. Original
+checkpoints reused; missing post-loop display states exported by one exact
+Stage13B replay,1717 updates,zero extra empty calls,unchanged parameters. Eight
+saved checkpoints are reproduction gates,not tuning targets. No new scientific
+experiment or SC/GICP/batch run. Map protocol frame10/point16/voxel0.5/range1–60.
+Outputs: `demo/progressive_multi_robot/`,three asset/audit/export scripts,
+`outputs/cumulti_v1/18_progressive_demo/` provenance/audit/browser evidence and
+screenshots. First asset packaging resolved a relative LiDAR filename path;
+only Stage18 partial packaging was regenerated,no historical artifact changed.
+Historical demo and original numerical decisions preserved. Stage18 presentation
+completion must not be interpreted as resolving Stage13B numerical caveats.
