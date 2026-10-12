@@ -1,4 +1,33 @@
-# Clean75 progressive multi-robot mapping demo — Stage18
+# Clean75 progressive multi-robot mapping demo — Stage18 / 18.1
+
+## Stage18.1 presentation upgrade
+
+Default **3D MAP VIEW** uses locally bundled Three.js 0.170.0 / MIT. No CDN,
+build step or network dependency. **SYSTEM VIEW** retains the explanatory
+dashboard, numerical caveats, recorded measurements and technical controls.
+
+Play presents about 70 seconds of event-paced replay at 1x (0.5/1/2/4x).
+Before the first loop the two local coordinate frames remain separate; after
+the accepted R1KF283 ↔ R3KF252 measurement, a real common-frame initialization
+is shown, followed by real post-loop states. Robot3 is a reference run, not a
+simultaneously live robot. GICP inset BEFORE/AFTER uses the saved exact SE(3).
+
+TOP/PERSPECTIVE/FOLLOW R1/FOLLOW R3/FIT, OrbitControls drag/pan/wheel, point size,
+source visibility and loop visibility are available. Final automatically uses
+bird's-eye orientation. Follow R3 follows a reference observation marker.
+Marker position/quaternion interpolation is presentation-only; map vertices,
+graph nodes and loop endpoints are never interpolated. Optional opacity fades
+between real states are not optimizer states. Continuous per-scan global map
+growth was intentionally not added; the current real map remains step-held.
+
+Use `?debug=1` only for rehearsal/performance evidence. The normal presentation
+has no diagnostic tables over the 3D world. Local WebGL-capable browsers are
+required; use HTTP, not file://. Versioned frontend URLs avoid mixed old/new
+scripts after an upgrade. See `docs/CUMULTI_STAGE18_1_PRESENTATION_UPGRADE.md`.
+
+Functional/data-integrity verification is separate from smoothness acceptance:
+the automated in-app browser produced ~1 Hz RAF even on the unchanged baseline.
+No 60-FPS claim is made; a normal foreground-browser rehearsal remains required.
 
 This is an **offline deterministic replay of frozen CU-Multi experiments**.
 It is not live SLAM or a distributed Kimera-Multi implementation. The modular

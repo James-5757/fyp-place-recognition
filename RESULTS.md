@@ -382,3 +382,7 @@ toggle are clearly labelled; no GT,SC/GICP rerun or batch solve in Stage18.
 Stage13B INCREMENTAL_BACKEND_NOT_READY,Stage15 NO_INFORMATIVE_SPARSE_POLICY and
 Stage17 diagnostic-line closure remain unchanged. Presentation validation is
 not deployment readiness,physical accuracy,real-time or distributed SLAM.
+
+## Stage18.1 — presentation-only WebGL upgrade
+
+No scientific metric changed. Default offline 3D Map View and retained System View use exact clean75 lineage. The1850-row causal display stream reproduces all eight historical checkpoints within1e-7. Functional/lineage evidence and eleven screenshots are in outputs/cumulti_v1/18_1_presentation_upgrade/. Browser presentation measurements are not SLAM runtime; ~1Hz automated RAF prevents a verified smoothness/60FPS conclusion. Stage18.1 smoothness acceptance remains pending normal foreground-browser rehearsal.

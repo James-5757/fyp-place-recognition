@@ -1,0 +1,358 @@
+{
+  "label": "BROWSER PRESENTATION PERFORMANCE",
+  "mode": "3d",
+  "seconds": 40.01259999996424,
+  "frame_intervals_ms": {
+    "count": 47,
+    "mean": 835.9978723404254,
+    "p95": 1016.6000000000004,
+    "max": 1016.7000000000007
+  },
+  "render_cpu_ms": {
+    "count": 47,
+    "mean": 11.453191485810787,
+    "p95": 22.399999976158142,
+    "max": 26.799999952316284
+  },
+  "approximate_fps": 1.1746299915537108,
+  "long_frames_over_50ms": 39,
+  "counters": {
+    "canvas_resizes": 0,
+    "canvas_redraws": 0,
+    "map_redraws": 0,
+    "graph_redraws": 0,
+    "dom_writes": 230,
+    "geometry_builds": 27,
+    "gpu_render_frames": 47,
+    "prefetch_hits": 131,
+    "state_fetch_waits": 0
+  },
+  "loading": [
+    {
+      "file": "display_bounds.json",
+      "body_bytes": 18305,
+      "fetch_body_ms": 92.90000003576279,
+      "parse_ms": 0.19999998807907104,
+      "total_ms": 93.10000002384186
+    },
+    {
+      "file": "robot1_causal_pose_stream.json",
+      "body_bytes": 306347,
+      "fetch_body_ms": 94,
+      "parse_ms": 9.700000047683716,
+      "total_ms": 103.70000004768372
+    },
+    {
+      "file": "COMMON_INITIAL.json",
+      "body_bytes": 780819,
+      "fetch_body_ms": 105.89999997615814,
+      "parse_ms": 7.699999988079071,
+      "total_ms": 113.59999996423721
+    },
+    {
+      "file": "PRE_FIRST_LOOP.json",
+      "body_bytes": 1419917,
+      "fetch_body_ms": 122.89999997615814,
+      "parse_ms": 9.5,
+      "total_ms": 132.39999997615814
+    },
+    {
+      "file": "FIRST_LOOP.json",
+      "body_bytes": 1423308,
+      "fetch_body_ms": 147,
+      "parse_ms": 5.5,
+      "total_ms": 152.5
+    },
+    {
+      "file": "K2.json",
+      "body_bytes": 1509136,
+      "fetch_body_ms": 160.19999998807907,
+      "parse_ms": 6.199999988079071,
+      "total_ms": 166.39999997615814
+    },
+    {
+      "file": "EVENT_03.json",
+      "body_bytes": 190013,
+      "fetch_body_ms": 175.30000001192093,
+      "parse_ms": 4.300000011920929,
+      "total_ms": 179.60000002384186
+    },
+    {
+      "file": "local_first_encounter_pose.json",
+      "body_bytes": 173,
+      "fetch_body_ms": 183.10000002384186,
+      "parse_ms": 0,
+      "total_ms": 183.10000002384186
+    },
+    {
+      "file": "replay.json",
+      "body_bytes": 5104951,
+      "fetch_body_ms": 186,
+      "parse_ms": 30,
+      "total_ms": 216
+    },
+    {
+      "file": "EVENT_04.json",
+      "body_bytes": 190612,
+      "fetch_body_ms": 6.200000047683716,
+      "parse_ms": 0.8999999761581421,
+      "total_ms": 7.100000023841858
+    },
+    {
+      "file": "K5.json",
+      "body_bytes": 1451630,
+      "fetch_body_ms": 13,
+      "parse_ms": 7.699999988079071,
+      "total_ms": 20.69999998807907
+    },
+    {
+      "file": "EVENT_06.json",
+      "body_bytes": 194633,
+      "fetch_body_ms": 11.199999988079071,
+      "parse_ms": 1.600000023841858,
+      "total_ms": 12.800000011920929
+    },
+    {
+      "file": "EVENT_07.json",
+      "body_bytes": 195345,
+      "fetch_body_ms": 8,
+      "parse_ms": 1,
+      "total_ms": 9
+    },
+    {
+      "file": "EVENT_08.json",
+      "body_bytes": 195423,
+      "fetch_body_ms": 8.899999976158142,
+      "parse_ms": 0.9000000357627869,
+      "total_ms": 9.800000011920929
+    },
+    {
+      "file": "EVENT_09.json",
+      "body_bytes": 195446,
+      "fetch_body_ms": 8.699999988079071,
+      "parse_ms": 0.9000000357627869,
+      "total_ms": 9.600000023841858
+    },
+    {
+      "file": "K10.json",
+      "body_bytes": 1488343,
+      "fetch_body_ms": 16.5,
+      "parse_ms": 6.900000035762787,
+      "total_ms": 23.400000035762787
+    },
+    {
+      "file": "EVENT_11.json",
+      "body_bytes": 195676,
+      "fetch_body_ms": 11.099999964237213,
+      "parse_ms": 1.300000011920929,
+      "total_ms": 12.399999976158142
+    },
+    {
+      "file": "EVENT_12.json",
+      "body_bytes": 195676,
+      "fetch_body_ms": 14,
+      "parse_ms": 2.5,
+      "total_ms": 16.5
+    },
+    {
+      "file": "EVENT_13.json",
+      "body_bytes": 195759,
+      "fetch_body_ms": 13.099999964237213,
+      "parse_ms": 0.9000000357627869,
+      "total_ms": 14
+    },
+    {
+      "file": "EVENT_14.json",
+      "body_bytes": 195942,
+      "fetch_body_ms": 8.100000023841858,
+      "parse_ms": 0.800000011920929,
+      "total_ms": 8.900000035762787
+    },
+    {
+      "file": "EVENT_15.json",
+      "body_bytes": 196100,
+      "fetch_body_ms": 9.800000011920929,
+      "parse_ms": 1.800000011920929,
+      "total_ms": 11.600000023841858
+    },
+    {
+      "file": "EVENT_16.json",
+      "body_bytes": 197434,
+      "fetch_body_ms": 14.399999976158142,
+      "parse_ms": 0.9000000357627869,
+      "total_ms": 15.300000011920929
+    },
+    {
+      "file": "EVENT_17.json",
+      "body_bytes": 197787,
+      "fetch_body_ms": 16,
+      "parse_ms": 1.0999999642372131,
+      "total_ms": 17.099999964237213
+    },
+    {
+      "file": "EVENT_18.json",
+      "body_bytes": 197504,
+      "fetch_body_ms": 13.200000047683716,
+      "parse_ms": 1.199999988079071,
+      "total_ms": 14.400000035762787
+    },
+    {
+      "file": "EVENT_19.json",
+      "body_bytes": 197319,
+      "fetch_body_ms": 15.600000023841858,
+      "parse_ms": 1.899999976158142,
+      "total_ms": 17.5
+    },
+    {
+      "file": "EVENT_21.json",
+      "body_bytes": 197746,
+      "fetch_body_ms": 14,
+      "parse_ms": 1,
+      "total_ms": 15
+    },
+    {
+      "file": "K20.json",
+      "body_bytes": 1525901,
+      "fetch_body_ms": 19.899999976158142,
+      "parse_ms": 10.5,
+      "total_ms": 30.399999976158142
+    },
+    {
+      "file": "EVENT_22.json",
+      "body_bytes": 199405,
+      "fetch_body_ms": 11.399999976158142,
+      "parse_ms": 2.600000023841858,
+      "total_ms": 14
+    },
+    {
+      "file": "EVENT_23.json",
+      "body_bytes": 200284,
+      "fetch_body_ms": 16.100000023841858,
+      "parse_ms": 1.699999988079071,
+      "total_ms": 17.80000001192093
+    },
+    {
+      "file": "EVENT_24.json",
+      "body_bytes": 201247,
+      "fetch_body_ms": 9.699999988079071,
+      "parse_ms": 2.099999964237213,
+      "total_ms": 11.799999952316284
+    },
+    {
+      "file": "EVENT_25.json",
+      "body_bytes": 200890,
+      "fetch_body_ms": 13.399999976158142,
+      "parse_ms": 0.800000011920929,
+      "total_ms": 14.199999988079071
+    },
+    {
+      "file": "EVENT_26.json",
+      "body_bytes": 201928,
+      "fetch_body_ms": 9.800000011920929,
+      "parse_ms": 1,
+      "total_ms": 10.800000011920929
+    },
+    {
+      "file": "EVENT_27.json",
+      "body_bytes": 202393,
+      "fetch_body_ms": 11.699999988079071,
+      "parse_ms": 2,
+      "total_ms": 13.699999988079071
+    },
+    {
+      "file": "EVENT_28.json",
+      "body_bytes": 202655,
+      "fetch_body_ms": 11.100000023841858,
+      "parse_ms": 1,
+      "total_ms": 12.100000023841858
+    },
+    {
+      "file": "EVENT_29.json",
+      "body_bytes": 203827,
+      "fetch_body_ms": 12.699999988079071,
+      "parse_ms": 0.9000000357627869,
+      "total_ms": 13.600000023841858
+    },
+    {
+      "file": "EVENT_30.json",
+      "body_bytes": 204312,
+      "fetch_body_ms": 7.699999988079071,
+      "parse_ms": 2.300000011920929,
+      "total_ms": 10
+    },
+    {
+      "file": "EVENT_31.json",
+      "body_bytes": 205262,
+      "fetch_body_ms": 12.699999988079071,
+      "parse_ms": 1,
+      "total_ms": 13.699999988079071
+    },
+    {
+      "file": "EVENT_32.json",
+      "body_bytes": 205113,
+      "fetch_body_ms": 14.599999964237213,
+      "parse_ms": 1.100000023841858,
+      "total_ms": 15.699999988079071
+    },
+    {
+      "file": "EVENT_33.json",
+      "body_bytes": 205333,
+      "fetch_body_ms": 8.100000023841858,
+      "parse_ms": 2.099999964237213,
+      "total_ms": 10.199999988079071
+    },
+    {
+      "file": "EVENT_34.json",
+      "body_bytes": 205581,
+      "fetch_body_ms": 12.100000023841858,
+      "parse_ms": 0.8999999761581421,
+      "total_ms": 13
+    },
+    {
+      "file": "EVENT_35.json",
+      "body_bytes": 205544,
+      "fetch_body_ms": 17.5,
+      "parse_ms": 3,
+      "total_ms": 20.5
+    },
+    {
+      "file": "EVENT_36.json",
+      "body_bytes": 205563,
+      "fetch_body_ms": 23,
+      "parse_ms": 2.799999952316284,
+      "total_ms": 25.799999952316284
+    },
+    {
+      "file": "EVENT_37.json",
+      "body_bytes": 206425,
+      "fetch_body_ms": 8,
+      "parse_ms": 0.8999999761581421,
+      "total_ms": 8.899999976158142
+    },
+    {
+      "file": "EVENT_38.json",
+      "body_bytes": 207563,
+      "fetch_body_ms": 10.199999988079071,
+      "parse_ms": 1,
+      "total_ms": 11.199999988079071
+    },
+    {
+      "file": "EVENT_39.json",
+      "body_bytes": 207490,
+      "fetch_body_ms": 13.199999988079071,
+      "parse_ms": 1.300000011920929,
+      "total_ms": 14.5
+    },
+    {
+      "file": "K40.json",
+      "body_bytes": 1524196,
+      "fetch_body_ms": 19.5,
+      "parse_ms": 10.699999988079071,
+      "total_ms": 30.19999998807907
+    }
+  ],
+  "time_until_play_enabled_ms": 398.9000000357628,
+  "current_point_count": 4969,
+  "document_visibility": "visible",
+  "measurement_caveat": "Single automated in-app Chromium observation; RAF may be background-throttled. CPU frame cost excludes asynchronous GPU completion and async asset preparation; NOT SLAM performance."
+}

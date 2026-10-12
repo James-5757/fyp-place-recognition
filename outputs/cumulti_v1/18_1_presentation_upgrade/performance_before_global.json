@@ -1,0 +1,68 @@
+{
+  "label": "BROWSER PRESENTATION PERFORMANCE",
+  "baseline": "unmodified accepted Stage18 plus measurement hooks",
+  "duration_s": 40.00359999996424,
+  "frame_intervals_ms": {
+    "count": 63,
+    "mean": 606.7492063492056,
+    "p95": 1016.5,
+    "max": 1016.6999999999534
+  },
+  "approximate_fps": 1.5748582627577599,
+  "render_wall_ms": {
+    "count": 31,
+    "mean": 67.53870967318935,
+    "p95": 286.7000000476837,
+    "max": 501.19999998807907
+  },
+  "long_frames_over_50ms": 39,
+  "canvas_redraws_per_s": 3.799658030780627,
+  "counters": {
+    "dom_mutation_records": 450,
+    "canvas_redraws": 152,
+    "graph_redraws": 30,
+    "canvas_dimension_assignments": 304,
+    "map_redraws": 28
+  },
+  "loading": [
+    {
+      "url": "http://127.0.0.1:8018/benchmark_before/data/K10.json",
+      "body_bytes": 1488343,
+      "body_read_and_parse_ms": 288.2000000476837,
+      "parse_ms": 12.800000011920929
+    },
+    {
+      "url": "http://127.0.0.1:8018/benchmark_before/data/EVENT_11.json",
+      "body_bytes": 195676,
+      "body_read_and_parse_ms": 110.40000003576279,
+      "parse_ms": 3.199999988079071
+    },
+    {
+      "url": "http://127.0.0.1:8018/benchmark_before/data/EVENT_12.json",
+      "body_bytes": 195676,
+      "body_read_and_parse_ms": 111.30000001192093,
+      "parse_ms": 2.099999964237213
+    },
+    {
+      "url": "http://127.0.0.1:8018/benchmark_before/data/EVENT_13.json",
+      "body_bytes": 195759,
+      "body_read_and_parse_ms": 56,
+      "parse_ms": 2.199999988079071
+    },
+    {
+      "url": "http://127.0.0.1:8018/benchmark_before/data/EVENT_14.json",
+      "body_bytes": 195942,
+      "body_read_and_parse_ms": 105.19999998807907,
+      "parse_ms": 1.100000023841858
+    },
+    {
+      "url": "http://127.0.0.1:8018/benchmark_before/data/EVENT_15.json",
+      "body_bytes": 196100,
+      "body_read_and_parse_ms": 110.80000001192093,
+      "parse_ms": 3.199999988079071
+    }
+  ],
+  "bytes_loaded_in_sample": 2467496,
+  "time_until_play_enabled_ms": 20679.099999964237,
+  "measurement_caveat": "Single automated in-app Chromium run; instrumentation/automation/background scheduling may perturb timing; async render wall time includes fetch waits; not SLAM runtime."
+}

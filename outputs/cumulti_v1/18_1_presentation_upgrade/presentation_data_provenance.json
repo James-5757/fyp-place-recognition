@@ -1,0 +1,444 @@
+{
+  "accepted_base": "0447a62210d46a685285b8f6d649d49fd880960d",
+  "clean75_sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+  "map_sources": [
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_36.json",
+      "sha256": "163525e2f94c72f38487a09b3e3c9eb2be091bfea127b6c93fcc05062bbe4957",
+      "bytes": 205563
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_28.json",
+      "sha256": "2cf6fb321a3019333f83f3830f8393a9b18a0b8e7bfed90a29fd9183cf272fac",
+      "bytes": 202655
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_38.json",
+      "sha256": "db965f3fc4f987aa9502b6421e5f8202e6e433b78737f76e268c06ce73eba90b",
+      "bytes": 207563
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_74.json",
+      "sha256": "fe08d6860dc38d3d75990af6d13ee41e854eabb91fc44f6335e8e33dce4f1ce9",
+      "bytes": 226815
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_24.json",
+      "sha256": "f6df039a0abe629a7c24830522029669499cc054c03931b9ba1523953ef53e4e",
+      "bytes": 201247
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_42.json",
+      "sha256": "e20f7bcca8a674fff0092ef07effc4dd810894d0d9779dd03a888691fc389aa3",
+      "bytes": 208688
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_04.json",
+      "sha256": "6a53fc543d2ddbd9a0069828014614b11479b3e7748021aa7f4239def9d23320",
+      "bytes": 190612
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_51.json",
+      "sha256": "f092fab59b5d47b073d4fb0898380937168c0011383a3d7cb134a5132da63177",
+      "bytes": 210947
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/BATCH_FINAL.json",
+      "sha256": "97ac5f6b60e9458637da1456f28614807633c86fb10371e659f3a72a092c23be",
+      "bytes": 1631182
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_30.json",
+      "sha256": "971db9b1381a618c02d0d9aad4985da381aef99e1906d2ed6d821c299f418094",
+      "bytes": 204312
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_12.json",
+      "sha256": "ef1603f2c26a728c005f1684632f7273374e9d4ace6322467a787e0d88e57fce",
+      "bytes": 195676
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_39.json",
+      "sha256": "43108ad1919909dd1cc5acfc3c01e90753200a9c981a042e8923ded009d87de6",
+      "bytes": 207490
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_15.json",
+      "sha256": "271b7034ba9d544e476b5d2739dbba328d067d523e98cf7907ab0ee6d3b9e4a4",
+      "bytes": 196100
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_18.json",
+      "sha256": "2fa6868005d95f771078e4e2f59986aafed51238e947ac05668ee0aee7bdf27b",
+      "bytes": 197504
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_55.json",
+      "sha256": "a461ca1906ffa74369171a6ded39e74631037104e56159c8781638a784e06cf4",
+      "bytes": 215034
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_68.json",
+      "sha256": "842685714f36780628f170c50bcbdcf665a9967c5d2f37b989079359e188ab82",
+      "bytes": 224296
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K2.json",
+      "sha256": "209d7b4c529e2a7d78d9a863071d0de6c2dab814a8b5b449a012a04ac5fac6c8",
+      "bytes": 1509136
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/PRE_FIRST_LOOP.json",
+      "sha256": "ebb167f57f00c2d5e0aa916c7fe44857bf39abea274045847f040ad249c8a169",
+      "bytes": 1419917
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_50.json",
+      "sha256": "7aef29a69190df4fd20559e0e1c77125bf4cdaad8a7fb7b79f66e14a34818971",
+      "bytes": 211079
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_52.json",
+      "sha256": "2b68cb7484a1e2dce8e13b39c6c1560b6684a9fd24529fe7ce6f8545eb59fe41",
+      "bytes": 211827
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_07.json",
+      "sha256": "fb9ee44fbf3821ae03fcd122fc2a667fb9dd907cda56a89ae51a64d88d940127",
+      "bytes": 195345
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_72.json",
+      "sha256": "6f140a59ccd77f823853c4d8fde9f62f79f9bd79e71f7dcd29e8d83b4fadd6aa",
+      "bytes": 225460
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_23.json",
+      "sha256": "7e56bb587c930cf36ca124e48477bcc13370d5123f93c145f5ca7297d749a7e6",
+      "bytes": 200284
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_61.json",
+      "sha256": "6273d4a8edbb04286b5819df759e3d9c7fb55a1ea7285c9126a74abc5950448b",
+      "bytes": 221276
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_17.json",
+      "sha256": "fb2c4d8a24e906209076a9dd7cb898a16b099fd9e755908e828be81a09cedb7b",
+      "bytes": 197787
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_35.json",
+      "sha256": "0c32b28754f25b26ef94380fbe5ffecd17ebe56a160868ebbb52f6c9237ce63a",
+      "bytes": 205544
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K10.json",
+      "sha256": "43361c579d006f527744e33f7c3a29c5f2a567bb853bbf742072a84497bac005",
+      "bytes": 1488343
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_06.json",
+      "sha256": "6d53a236b4da709c913913cc3c41fdd89ea86fcaa60a76c77aa4a0825e2dc907",
+      "bytes": 194633
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_13.json",
+      "sha256": "6e48dca287567747dc40bc4e01e3ff8bd9ae7327a0ef258d7465d3be31a37bd9",
+      "bytes": 195759
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_65.json",
+      "sha256": "46111a86cec9b4189740c487648b3259b498b225dc7f30b549cc17d40ca4a7f6",
+      "bytes": 222434
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_37.json",
+      "sha256": "061a7ac7870fcd6c548ee27dcfc3c8ce6ae8ef98258c2f9ca37cebf4f299a04d",
+      "bytes": 206425
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_45.json",
+      "sha256": "9cf5fb7cf4d5eebab655dbaa9809cb48776d4ab59ad19c26041ab502d7a0d5fb",
+      "bytes": 209683
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_46.json",
+      "sha256": "d39e7cb27b91ee0530112e1a1830bd3c136908264b17100db628f8f6c12fff26",
+      "bytes": 209315
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_54.json",
+      "sha256": "f649fb4afc5b75401079d6fb51c81e8fdf03a26a91acfb3ff9b34be0462d6f01",
+      "bytes": 212901
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_09.json",
+      "sha256": "eaabb1d625505f9ce61fd7f8e75ed0cf884d9a61c2b5f486371dd363e1e6faeb",
+      "bytes": 195446
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_62.json",
+      "sha256": "f4b0fb2da6722103bae991e2945d3f71e404e6d9793b71bca6e7c363a11ddd53",
+      "bytes": 221201
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_41.json",
+      "sha256": "b2fd21e70cb3dce66d88a29d6a333c6dc5ba0c539b8f57fcdb3162b05df2c1b2",
+      "bytes": 208354
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_60.json",
+      "sha256": "b744b162f12baba2993afbba127acc3a812fd55d4daae0eb553eecdd2e464a09",
+      "bytes": 218677
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_43.json",
+      "sha256": "bf1a39fcc4270b968270c4265e4bb04b0aecf44253d942d41b534e27095f9fa1",
+      "bytes": 208661
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_66.json",
+      "sha256": "7c014cad16b571c8590bdf9b7f40841a464102f95d21e12c87680ccf78dcf42b",
+      "bytes": 223088
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_25.json",
+      "sha256": "f5145be94cf69da2527a86f9d5ed25948d2d1d173ec8bc8780d298b6f2b1147c",
+      "bytes": 200890
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_64.json",
+      "sha256": "537063a6fe0d9a6160fb2dc888b5b0e44057c78a0136bead903f9fbb8f1a051c",
+      "bytes": 222195
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K40.json",
+      "sha256": "2862e3dc0d10cc8a85b4cbe20a267405b703c06a9e32ce9eacffb45c1aca70c6",
+      "bytes": 1524196
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_58.json",
+      "sha256": "d35fd9ca37378c13c754956cbec1e175a66849a057591f4b343dc6d63ef61070",
+      "bytes": 217600
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/robot1_causal_pose_stream.json",
+      "sha256": "b35b567960558a140a1bfbbca165eb613c544d4c70f9a377b892326a7818b436",
+      "bytes": 306347
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_33.json",
+      "sha256": "d6bc6d7afc39d7dd8e544aeb6997544153add956abd4cfd0246890cd8939f3b7",
+      "bytes": 205333
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K75.json",
+      "sha256": "fc5e0dc70c26a643d06fd85977de43b18f7c6c1d4cd3165ce43208dc4c8e8d03",
+      "bytes": 1645212
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/local_first_encounter_pose.json",
+      "sha256": "7266e827ed039bef1bffeacd1f60f11192921d6e9f89305ddf5dc65cfa3c8af9",
+      "bytes": 173
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_14.json",
+      "sha256": "31cf8d0d18eb3d207c721ea4787b20d9d351cb5d1aef635aa50f3c40cbfd1b6f",
+      "bytes": 195942
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_26.json",
+      "sha256": "08fbbd917161524c306aea0e6680b08eeb7fdbc4c3e9dec810967aea8fb82c19",
+      "bytes": 201928
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/FIRST_LOOP.json",
+      "sha256": "859f1ba05bffed1377c6021ff35a9e34399c86487222ed59363e1a3b84785ade",
+      "bytes": 1423308
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_57.json",
+      "sha256": "10f44a97e8bbbc931f629e1a6c83760fe71fb17b2c60bf36e10b98090625d57b",
+      "bytes": 216938
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_11.json",
+      "sha256": "c568cd002af9d3365958410355aacf6803ece1d32a3f2e4695bddbfa7d335d5b",
+      "bytes": 195676
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_67.json",
+      "sha256": "ad8c3f9a396d9f9bee895e31f85b58068014ad46792b9ce2a17ea0e057623ea4",
+      "bytes": 223477
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_08.json",
+      "sha256": "c2bde3f72aa2d20e7a6c93ecdd7d71b18b2630f045330f5879a204b664424059",
+      "bytes": 195423
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K20.json",
+      "sha256": "4c99434377ca9da2a0b2fddfa7a68d397494fa75e0542c679f61d5aabd01662b",
+      "bytes": 1525901
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_73.json",
+      "sha256": "29384dc202b6b0d2fd2e33b8f84648ef706f5923fecf2cf4aa7c091ba978dfc6",
+      "bytes": 225861
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_71.json",
+      "sha256": "df7c9f5f00463b5e75b113c76a1029add3adba7a0ca80f8402d5ea281f315888",
+      "bytes": 224944
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_16.json",
+      "sha256": "2c36fac1ada212581b8325479f387b66ec9f0d5a1e9dcda3b49db46a2acd348b",
+      "bytes": 197434
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/replay.json",
+      "sha256": "8c68f9fa1985f06da37152c89438f07de24e0629a3ab025378bc3a8c06162ff4",
+      "bytes": 5104951
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_56.json",
+      "sha256": "c55e35e8b13d605587bcc3fc0f7d2591056832ba8deb256581682a595dbbfff0",
+      "bytes": 215051
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_03.json",
+      "sha256": "fc9464d18bb442addeef11a1a8b29e1c89efad13755e05e5629cfbbc9b25582c",
+      "bytes": 190013
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_21.json",
+      "sha256": "827c40eb94d1def60faae639e7a9d6310cb5fa876d3717c33d1155e346d2db66",
+      "bytes": 197746
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_70.json",
+      "sha256": "31e7dfbabac3c4443cff531f78d7c2c07ab676f240a81496dde2a507378ea389",
+      "bytes": 224646
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/FINAL_STREAM_END.json",
+      "sha256": "d78c939e559bd6734065dc0f22f02b16af5f473162062278cd36d425946e2f44",
+      "bytes": 1631527
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_27.json",
+      "sha256": "8fc594825f96b4d2459d2c3a37949ea948cb2ec22f01c547c15047b2b1f8d331",
+      "bytes": 202393
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_44.json",
+      "sha256": "466693a0f3d09a86b0f54d94101e9acee60328b303f93cd51167fa8a33464a41",
+      "bytes": 208628
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_31.json",
+      "sha256": "217f3c1bceafd19d7c817f95ae327644fa67cea5292eeacd3af6b8b1dd3ddf40",
+      "bytes": 205262
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_34.json",
+      "sha256": "77a3c12584acebe5a4a19384d27a0c1874832c10bdacd72cffbd193f24b074c7",
+      "bytes": 205581
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_69.json",
+      "sha256": "51329c647bd10149248dce839a59aa9020b249359d8ee8ebd6484d42e8f866ff",
+      "bytes": 224381
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_53.json",
+      "sha256": "7f8512bda194d541b56003905732ff50acd7728096c86deb422ec11803f2e3e3",
+      "bytes": 211655
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_59.json",
+      "sha256": "828695c07d7154e6fafb1219dd1ae7a66b3565a157995c8cc737376599abf854",
+      "bytes": 218358
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_63.json",
+      "sha256": "c839c6f3728622db465216d6b8475e6e963eff813f6f6281c6ba94630e860e76",
+      "bytes": 221844
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_47.json",
+      "sha256": "be8d772193f93c3fc10a293abaf67e634f39b5bcf6094cf3dd67929cdec041c5",
+      "bytes": 209453
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_22.json",
+      "sha256": "2402434903447a53140682731bc2b6e26cbb72fda20d03a3af3dc4f325711e75",
+      "bytes": 199405
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_19.json",
+      "sha256": "fb2297d69bd956b30327c809b5746f9bc50a9716bd8d7e3ec5ec44454fb7dd2c",
+      "bytes": 197319
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_32.json",
+      "sha256": "3a5bb32a6fb9e7f8237a31514292e1ae8b9860dd2dfbe602ff5279b993177eb7",
+      "bytes": 205113
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/COMMON_INITIAL.json",
+      "sha256": "828f8c010044efe4f707d0c7cd81b3ba0f3a97f29d5776612100bbe1619b3b83",
+      "bytes": 780819
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_48.json",
+      "sha256": "577eaeb7be516851d1ba89ca27e016036a7529698274f1839cabc8450591ef9c",
+      "bytes": 209843
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_29.json",
+      "sha256": "c1ddf11c751aa6a80858f9907d126554249b0ff966bea2f9ebaf06ecfc217ade",
+      "bytes": 203827
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_49.json",
+      "sha256": "0ec57c796e319957548dcbdc19cafed00d152c2e22a99c42eb861e198402e387",
+      "bytes": 210495
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K5.json",
+      "sha256": "b3a6040ac9416e0992dab64e98aeccb828e55fd2e6540d50b3588032a256e5eb",
+      "bytes": 1451630
+    }
+  ],
+  "pose_stream_method": "one exact historical Stage13B reproduction; current Robot1 pose only; 8 checkpoint gates",
+  "three_version": "0.170.0 (r170)",
+  "point_downsampling": "existing Stage18 subsets; playback <=2500/source, final<=10000/source; no new rounding",
+  "map_coordinates_interpolated": false,
+  "camera_interpolation": "presentation only",
+  "robot_marker_interpolation": "presentation-only between consecutive recorded causal poses; no pre-acceptance use of post-loop pose",
+  "crossfade": "optional visual opacity transition between real recorded states; never an optimizer state",
+  "GT_used": false,
+  "old_demo": {
+    "/home/cas/fyp_place_recognition/demo/final_replay/app.js": "4e557f64359b57805ab9dc3351a62c042c1d05c6ee12f20455f662b20a08fa32",
+    "/home/cas/fyp_place_recognition/demo/final_replay/index.html": "d63fb16acf946348513ac9ac4e73bb99f6f4ff09b99408061f8720f719cee0ef",
+    "/home/cas/fyp_place_recognition/demo/final_replay/README.md": "0a9381d3648b6c2e8e4856065b5b48f91aa4e43b369f5834dfa453cbb9429a80",
+    "/home/cas/fyp_place_recognition/demo/final_replay/styles.css": "11447a3f32deb68f65b98e0d3945f0994e750c2b9dd2d4c8efe9ecadd5c75514",
+    "/home/cas/fyp_place_recognition/demo/final_replay/data/replay.json": "8765b26403f185741de9541ecb405cf3ea3dd9f8419e83ad99601b3a116eedda"
+  },
+  "frozen_decisions": {
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/15_informative_loop_selection/summary.json": "1bfe0083cc9311f254d51062a43d93f565f06ad88637deee420b12727a4330dc",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/17_relative_measurement_geometry/stage17_geometry_decision.json": "fb5ec495ff88416307606163e5249e9370d47c3328eee7f6f9e35b453a255a7c"
+  },
+  "GPU_coordinate_representation": "Float32 vertex buffers for display; scientific JSON values unchanged",
+  "frontend_release": "18.1.10",
+  "frontend_sha256": {
+    "index.html": "ca80d08f020f9b3f4a06219ad7dee3f3fd9fa402efbd7aa4d3bc91c8fcd8a5de",
+    "styles.css": "c07aed3401467423708548cfe9bb281850348a844305cf1598b16ad76162a747",
+    "replay_controller.js": "44d4d17a67c5e90bcbfe6b7fcfca6e249d32f9b64834e94028395ab43573286b",
+    "map3d_view.js": "fbdb4c82691e8a99b1835b2ef414dfe89bd6ea473da818edc32f6628ed278890",
+    "system_view.js": "b91d67a514fbf3d3c4cbcc288bbbaf4f8b42dcd42cd1687229f74274b28da00f"
+  }
+}

@@ -1,0 +1,300 @@
+{
+  "validation_items": {
+    "WEBGL_3D_VIEW_AVAILABLE": "PASS",
+    "SYSTEM_VIEW_STILL_AVAILABLE": "PASS",
+    "ROBOT1_POINT_CLOUD_VISIBLE": "PASS",
+    "ROBOT3_POINT_CLOUD_VISIBLE": "PASS",
+    "ROBOT1_TRAJECTORY_VISIBLE": "PASS",
+    "ROBOT3_TRAJECTORY_VISIBLE": "PASS",
+    "CURRENT_ROBOT_MARKER_VISIBLE": "PASS",
+    "FIRST_COMMON_PLACE_VISIBLE": "PASS",
+    "INTER_ROBOT_LOOP_VISIBLE": "PASS",
+    "TOP_VIEW_AVAILABLE": "PASS",
+    "PERSPECTIVE_VIEW_AVAILABLE": "PASS",
+    "FOLLOW_R1_AVAILABLE": "PASS",
+    "FIT_GLOBAL_MAP_AVAILABLE": "PASS",
+    "FINAL_GLOBAL_MAP_DOMINATES_VIEWPORT": "PASS",
+    "FINAL_BIRD_EYE_VIEW_AVAILABLE": "PASS",
+    "TRUE_XYZ_USED_IN_3D_VIEW": "PASS",
+    "NO_FAKE_HEIGHT": "PASS",
+    "ROBOT3_PREBUILT_REFERENCE_SEMANTICS": "PASS",
+    "NO_FAKE_SIMULTANEOUS_ROBOT3_STREAM": "PASS",
+    "NO_SYNTHETIC_SOLVER_STATE": "PASS",
+    "ROBOT_MARKER_INTERPOLATION_PRESENTATION_ONLY": "PASS",
+    "GLOBAL_MAP_STATES_REAL_RECORDED_STATES": "PASS",
+    "MAP_CROSSFADE_PRESENTATION_ONLY": "PASS",
+    "NO_FUTURE_STATE_USED": "PASS",
+    "STAGE13B_PARAMETERS_UNCHANGED": "PASS",
+    "STAGE15_DECISION_UNCHANGED": "PASS",
+    "STAGE17_DIAGNOSTIC_LINE_CLOSED": "PASS",
+    "DOM_NOT_REBUILT_EVERY_ANIMATION_FRAME": "PASS"
+  },
+  "screenshots": [
+    "01_3d_independent_local_maps.png",
+    "02_3d_first_common_place.png",
+    "03_3d_gicp_verification.png",
+    "04_3d_first_loop.png",
+    "05_3d_common_frame.png",
+    "06_3d_progressive_mapping_K10.png",
+    "07_3d_progressive_mapping_K40.png",
+    "08_3d_progressive_mapping_K75.png",
+    "09_3d_final_perspective.png",
+    "10_3d_final_bird_eye.png",
+    "11_system_view_preserved.png"
+  ],
+  "observations": [
+    {
+      "error": "",
+      "kf": "KF150 · K0",
+      "local_visible": true,
+      "notice": "SEARCHING FOR COMMON PLACE",
+      "state": "PRE_FIRST_LOOP · KF282 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "independent",
+      "local_frames_shown": true
+    },
+    {
+      "error": "",
+      "kf": "KF283 · K0",
+      "local_visible": true,
+      "notice": "COMMON PLACE CANDIDATE",
+      "state": "PRE_FIRST_LOOP · KF282 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "first_candidate",
+      "local_frames_shown": true
+    },
+    {
+      "error": "",
+      "kf": "KF283 · K0",
+      "local_visible": true,
+      "notice": "GICP VERIFYING",
+      "state": "PRE_FIRST_LOOP · KF282 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "GICP_after",
+      "local_frames_shown": true
+    },
+    {
+      "error": "",
+      "kf": "KF283 · K1",
+      "local_visible": false,
+      "notice": "FIRST CROSS-ROBOT LOOP ACCEPTED",
+      "state": "COMMON_FRAME_INITIALIZATION · KF283 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "first_accepted",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF283 · K1",
+      "local_visible": false,
+      "notice": "COMMON FRAME INITIALIZED",
+      "state": "FIRST_LOOP · KF283 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "first_backend",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF638 · K10",
+      "local_visible": false,
+      "notice": "POSE GRAPH UPDATED / MAP REPROJECTED",
+      "state": "K10 · KF638 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "K10",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1014 · K40",
+      "local_visible": false,
+      "notice": "POSE GRAPH UPDATED / MAP REPROJECTED",
+      "state": "K40 · KF1014 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "K40",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1967 · K75",
+      "local_visible": false,
+      "notice": "POSE GRAPH UPDATED / MAP REPROJECTED",
+      "state": "K75 · KF1967 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "K75",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1999 · K75",
+      "local_visible": false,
+      "notice": "FINAL COLLABORATIVE MAP",
+      "state": "FINAL_STREAM_END · KF1999 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "final_perspective",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1999 · K75",
+      "local_visible": false,
+      "notice": "FINAL COLLABORATIVE MAP",
+      "state": "FINAL_STREAM_END · KF1999 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "final_top",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1999 · K75",
+      "local_visible": false,
+      "notice": "FINAL COLLABORATIVE MAP",
+      "state": "FINAL_STREAM_END · KF1999 · real state held between updates",
+      "system_visible": true,
+      "viewport": {
+        "h": 720,
+        "scroll": 1958,
+        "w": 1280,
+        "world": 0
+      },
+      "label": "system_final",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF638 · K10",
+      "local_visible": true,
+      "notice": "POSE GRAPH UPDATED / MAP REPROJECTED",
+      "state": "K10 · KF638 · real state held between updates",
+      "system_visible": true,
+      "viewport": {
+        "h": 720,
+        "scroll": 1771,
+        "w": 1280,
+        "world": 0
+      },
+      "label": "system_K10",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1347 · K56",
+      "local_visible": true,
+      "notice": "COLLABORATIVE MAPPING",
+      "state": "EVENT_56 · KF1327 · real state held between updates",
+      "system_visible": true,
+      "viewport": {
+        "h": 720,
+        "scroll": 1771,
+        "w": 1280,
+        "world": 0
+      },
+      "label": "play_advances",
+      "local_frames_shown": false
+    },
+    {
+      "error": "",
+      "kf": "KF1999 · K75",
+      "local_visible": false,
+      "notice": "FINAL COLLABORATIVE MAP",
+      "state": "FINAL_STREAM_END · KF1999 · real state held between updates",
+      "system_visible": false,
+      "viewport": {
+        "h": 720,
+        "scroll": 720,
+        "w": 1280,
+        "world": 616
+      },
+      "label": "automatic_final_4x",
+      "local_frames_shown": false
+    },
+    {
+      "label": "query_arrived_causality_gate",
+      "phase": "QUERY ARRIVED",
+      "candidate_fields_hidden": true,
+      "thumbnails_hidden": true
+    }
+  ],
+  "controls": {
+    "play_advances": true,
+    "pause_reset": true,
+    "automatic_final_4x": true,
+    "point_size": true,
+    "loop_all_newest_off": true,
+    "source_toggle": true,
+    "gicp_before_after": true,
+    "camera_presets": true,
+    "candidate_hidden_until_SC": true,
+    "automatic_final_camera_top": true
+  },
+  "console_errors_final": [],
+  "scientific_checks_also_require_independent_audit": true,
+  "smoothness_acceptance": "NOT_VERIFIED_AUTOMATION_RAF_THROTTLED",
+  "browser": "Codex in-app Chromium",
+  "limitations": [
+    "Unmodified and upgraded RAF ~1 Hz; exact scheduling cause not established. Do not claim60 FPS or no visual stutter.",
+    "Normal foreground Edge connector attempted but unavailable.",
+    "Viewport API1920x1080 DOM sizing verified; screenshots exported at1280x720 by host.",
+    "System View scrolls by design; screenshot shows K10 dashboard portion."
+  ],
+  "frontend_release": "18.1.10"
+}

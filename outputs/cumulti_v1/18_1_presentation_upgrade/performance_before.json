@@ -1,0 +1,30 @@
+{
+  "label": "BROWSER PRESENTATION PERFORMANCE",
+  "baseline": "unmodified accepted Stage18 plus measurement hooks",
+  "duration_s": 40.015900000035764,
+  "frame_intervals_ms": {
+    "count": 45,
+    "mean": 880.1955555555556,
+    "p95": 1016.5999999999913,
+    "max": 1016.7999999999956
+  },
+  "approximate_fps": 1.124552990185396,
+  "render_wall_ms": {
+    "count": 46,
+    "mean": 9.754347825827805,
+    "p95": 13.400000035762787,
+    "max": 17.399999976158142
+  },
+  "long_frames_over_50ms": 39,
+  "canvas_redraws_per_s": 6.747317941112375,
+  "counters": {
+    "dom_mutation_records": 587,
+    "canvas_redraws": 270,
+    "graph_redraws": 45,
+    "canvas_dimension_assignments": 540
+  },
+  "loading": [],
+  "bytes_loaded_in_sample": 0,
+  "time_until_play_enabled_ms": 20679.099999964237,
+  "measurement_caveat": "Single automated in-app Chromium run; instrumentation/automation/background scheduling may perturb timing; async render wall time includes fetch waits; not SLAM runtime."
+}

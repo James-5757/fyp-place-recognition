@@ -216,3 +216,7 @@ screenshots. First asset packaging resolved a relative LiDAR filename path;
 only Stage18 partial packaging was regenerated,no historical artifact changed.
 Historical demo and original numerical decisions preserved. Stage18 presentation
 completion must not be interpreted as resolving Stage13B numerical caveats.
+
+## Stage18.1 — 2026-10-12 rendering/presentation checkpoint
+
+Objective: separate mapping presentation from scientific explanation and eliminate repeated Canvas resizing/static redraw. Methods: pinned offline Three.js r170,real XYZ GPU geometry,separate local cameras,actual frozen GICP inset,real incremental states,marker-only causal interpolation,preindexed data,bounds,cached Canvas layers,next-three-state prefetch,event-paced77.712-second nominal replay. One exact Stage13B display extraction used1850 rows/1717 updates/75 loops and passed eight checkpoint gates; no new scientific experiment or GT. Inputs and old outputs are immutable. Outputs: frontend,display metadata,independent auditor,11 browser screenshots,before/after presentation JSONs and Stage18.1 doc. Browser/source cache mismatch and an invalid digit-leading CSS selector were repaired. Functional/lineage audit passes separately; smoothness is NOT_VERIFIED because the automated browser RAF remains~1Hz even on baseline. No performance-speedup/60FPS or scientific-readiness claim.

@@ -1,0 +1,15 @@
+{
+  "label": "BROWSER PRESENTATION PERFORMANCE",
+  "state": "K10",
+  "before": 638,
+  "after": 638,
+  "raf_frames": 19,
+  "counter_delta": {
+    "canvas_resizes": 0,
+    "canvas_redraws": 0,
+    "map_redraws": 0,
+    "graph_redraws": 0,
+    "dom_writes": 6
+  },
+  "caveat": "Paused K10, no viewport/source changes; debug HUD DOM writes permitted, scientific static layers should remain untouched."
+}
