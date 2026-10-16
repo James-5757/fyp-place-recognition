@@ -1,0 +1,4 @@
+# Bounded presentation JPEGs are intentional; raw archives and bags stay excluded.
+!rgb/
+!rgb/robot3/
+!rgb/robot3/*.jpg

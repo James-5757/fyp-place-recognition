@@ -237,3 +237,9 @@ numerical diagnostic,selector experiment,distributed backend or live deployment.
 ## Stage18.1 — presentation rehearsal only
 
 The 3D/system rendering upgrade is committed as a presentation change. Before unconditional supervisor-demo acceptance, rehearse normal1x in a foreground WebGL/hardware-accelerated browser and record whether there is obvious stutter; automated in-app~1Hz RAF cannot validate that criterion. Use normal URL without ?debug=1 for presentation. Preserve clean75,excluded45,Stage13B negative readiness,Stage15 negative policy and closed Stage17 line. No Stage19,GT,new loop policy,distributed/live backend or solver retuning automatically.
+
+## Stage20 — current authorized stopping point
+
+The new dual-stream replay is hypothetical normalized time over separate recordings, using availability-gated precomputed frozen loops and a persistent **centralized** iSAM2. Structural readiness does not resolve numerical batch disagreement or historical Stage13B limitations. Use the new Stage20 demo/README/validation evidence for rehearsal; retain Stage19 as a frozen reference. Local sensors progress independently; global visualization is explicitly step-held at actual saved states, never future-map morphing. Do not infer a terrain-only explanation from gauge Z.
+
+Stop after Stage20. Any future distributed backend, communication study, online SC/GICP discovery, solver retuning, loop-selection change or live deployment needs separate authorization. Preserve the frozen75 measurements and all historical stage outcomes. No automatic next research stage.

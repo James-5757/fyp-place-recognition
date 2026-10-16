@@ -1,0 +1,11 @@
+{
+  "status": "AUTHENTIC_LOW_RATE_FORWARD_STREAM",
+  "count": 2011,
+  "total_bytes": 14155304,
+  "seconds": 373.6768489438109,
+  "manifest_sha256": "bc6b0576cdf485e4f2d4d8c332bd402da5d820f80dd297a5e200a6eea8714db5",
+  "raw_unchanged": true,
+  "recorded_rate_hz": 10.027196866332522,
+  "exported_target_hz": 1.0,
+  "header_not_future": true
+}

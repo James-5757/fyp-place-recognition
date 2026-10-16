@@ -405,3 +405,11 @@ not deployment readiness,physical accuracy,real-time or distributed SLAM.
 ## Stage18.1 — presentation-only WebGL upgrade
 
 No scientific metric changed. Default offline 3D Map View and retained System View use exact clean75 lineage. The1850-row causal display stream reproduces all eight historical checkpoints within1e-7. Functional/lineage evidence and eleven screenshots are in outputs/cumulti_v1/18_1_presentation_upgrade/. Browser presentation measurements are not SLAM runtime; ~1Hz automated RAF prevents a verified smoothness/60FPS conclusion. Stage18.1 smoothness acceptance remains pending normal foreground-browser rehearsal.
+
+## Stage20 — hypothetical dual-stream replay
+
+Stage20A DUAL_STREAM_BACKEND_READY is structural only. Independent R1/R3 prefixes grow from KF150/KF234; first ID45 bridge releases at66.501611950s with268 nodes/266 odometry/one loop/one prior (R1KF283/R3KF367). Final exact frozen graph:5796 nodes/5794 odometry/75 loops/one prior/5870 factors,5529 persistent iSAM2 updates,zero extra updates andzero newly catastrophic jumps. First10 eligibility IDs:45,89,90,94,51,53,55,57,59,61. First bridge service142.48698530718684ms including132.4341930449009ms map publication. No online retrieval/GICP rerun or GT tuning.
+
+Numerical batch diagnostic remains FAILED jointly: final translation median/p95=0.12801838436717367/0.7617601789804498m; rotation median/p95=0.05498979368372768/1.0290840352584825deg. Final incremental/batch objectives25.06800539143728/23.840383645478475 do not establish physical accuracy. Unchanged original diagnostic thresholds, same gauge. Stage13B history is not rewritten.
+
+Stage20B uses108 real saved Stage20 states; all75 matching primary checkpoints reproduce with zero translation/rotation difference. Both local maps remain independent, while global maps are explicitly step-held between actual snapshots. Separate recordings on a hypothetical normalized clock, precomputed loop factors and centralized optimization only; no transport, distributed SLAM or live operation. See Stage20 doc and validation artifacts for measured RGB/browser evidence.

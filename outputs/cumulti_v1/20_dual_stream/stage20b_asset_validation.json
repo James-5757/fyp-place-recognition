@@ -1,0 +1,25 @@
+{
+  "status": "PASS",
+  "checks": {
+    "BACKEND_READY": true,
+    "EXACT_DISPLAY_REPRODUCTION": true,
+    "EXACT_EVENT_CLOCK": true,
+    "EXACT_LOOP_ORDER": true,
+    "ONLY_REAL_PREFIX_STATES_NO_FUTURE": true,
+    "NO_PREBUILT_R3_LOCAL_MAP": true,
+    "LOCAL_FRAME_COUNTS": true,
+    "AUTHENTIC_HASHED_CAUSAL_RGB": true,
+    "ROBOT3_RGB_BUDGET": true,
+    "PROTOTYPE_BEFORE_FULL": true,
+    "HISTORICAL_ARTIFACTS_IMMUTABLE": true,
+    "ALL_CHECKPOINT_JUMPS": true,
+    "CENTRALIZED_ONLY": true,
+    "GT_NOT_IN_ASSETS": true
+  },
+  "states": 108,
+  "RGB_counts": {
+    "robot1": 5686,
+    "robot3": 2011
+  },
+  "browser_validation": "separate evidence required"
+}

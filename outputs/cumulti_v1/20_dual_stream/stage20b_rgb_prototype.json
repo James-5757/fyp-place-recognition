@@ -1,0 +1,9 @@
+{
+  "count": 100,
+  "actual_duration_s": 9.904999123,
+  "total_bytes": 714729,
+  "projected_count": 2011,
+  "projected_bytes": 14373200.19,
+  "approved": true,
+  "policy_sha256": "e96a44678f865ac265b7c66982b8fdbd630ad73c3cb7588c26748cc90823a431"
+}

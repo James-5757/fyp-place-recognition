@@ -1,0 +1,11 @@
+{
+  "status": "PASS",
+  "primary_checkpoints": 75,
+  "display_checkpoints": 108,
+  "max_translation_difference_m": 0.0,
+  "max_rotation_difference_rad": 0.0,
+  "event_identity": true,
+  "extra_isam_updates": 0,
+  "policy": "same frozen policy and order; additional display snapshots only; primary timing/numerical result unchanged",
+  "primary_numerical_diagnostics": "retained; not rerun in display extraction"
+}

@@ -1,0 +1,93 @@
+{
+  "status": "DUAL_STREAM_BACKEND_READY",
+  "structural_readiness_only": true,
+  "numerical_batch_agreement_all": false,
+  "finite_estimates": true,
+  "new_catastrophic_steps": 0,
+  "reproducible_event_trace": true,
+  "one_persistent_isam2": true,
+  "updates": 5529,
+  "GT_used": false,
+  "STAGE19_IMMUTABLE": true,
+  "STAGE12D_INPUTS_IMMUTABLE": true,
+  "first_bridge": {
+    "loop_id": 45,
+    "event_index": 267,
+    "normalized_ns": 66501611950,
+    "normalized_time_s": 66.50161195,
+    "current_keyframes": {
+      "robot1": 283,
+      "robot3": 367
+    },
+    "local_nodes": {
+      "robot1": 134,
+      "robot3": 134
+    },
+    "joint_nodes": 268,
+    "odom_factors": 266,
+    "loop_factors": 1,
+    "prior_factors": 1,
+    "components_before": 2,
+    "components_after": 1,
+    "initial_alignment_residual": {
+      "translation_m": 1.432144669219779e-14,
+      "rotation_deg": 1.5905806597954793e-15
+    },
+    "graph_construction_ms": 6.252477876842022,
+    "first_isam2_update_ms": 3.2714339904487133,
+    "estimate_extraction_ms": 0.42410707101225853,
+    "first_map_publication_ms": 132.4341930449009,
+    "first_fusion_service_ms": 142.48698530718684
+  },
+  "first10_loop_ids": [
+    45,
+    89,
+    90,
+    94,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61
+  ],
+  "final_graph": {
+    "nodes": 5796,
+    "odometry": 5794,
+    "loops": 75,
+    "prior": 1,
+    "factors": 5870,
+    "all_factor_indices_exactly_once": true,
+    "factor_measurement_noise_equality": true,
+    "node_key_equality": true,
+    "loop_id_equality": true,
+    "frozen_extrinsic": [
+      [
+        -1.0,
+        0.0,
+        0.0,
+        -0.06286
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.01557
+      ],
+      [
+        0.0,
+        0.0,
+        1.0,
+        0.053345
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "original_timestamps_preserved": true,
+    "PASS": true
+  }
+}

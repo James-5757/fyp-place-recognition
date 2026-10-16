@@ -1,0 +1,121 @@
+{
+  "status": "THREE_MAP_DEMO_READY",
+  "checks": {
+    "STAGE19_IMMUTABLE": true,
+    "STAGE12D_INPUTS_IMMUTABLE": true,
+    "DUAL_STREAM_CLOCK_VALID": true,
+    "R1_LOCAL_STREAM_VALID": true,
+    "R3_LOCAL_STREAM_VALID": true,
+    "NO_FUTURE_R1_POSES": true,
+    "NO_FUTURE_R3_POSES": true,
+    "LOOPS_ELIGIBILITY_GATED": true,
+    "FIRST_BRIDGE_COMPONENTS_2_TO_1": true,
+    "PERSISTENT_GLOBAL_ISAM2": true,
+    "EXACT_ONCE_FACTOR_INSERTION": true,
+    "FINAL_5796_NODES": true,
+    "FINAL_5794_ODOMETRY": true,
+    "FINAL_75_LOOPS": true,
+    "FINAL_ONE_PRIOR": true,
+    "FINAL_GRAPH_EQUALS_CLEAN75": true,
+    "NO_NEW_CATASTROPHIC_JUMPS": true,
+    "BOTH_LOCAL_MAPS_VISIBLE_AFTER_FUSION": true,
+    "ALL_12_CHECKPOINTS_VALIDATED": true,
+    "REAL_STAGE20_PREFIX_MAPS": true,
+    "CAUSAL_OWN_CLOCK_RGB": true
+  },
+  "RGB_REPLAY_STATUS": "AUTHENTIC_LOW_RATE_FORWARD_STREAM",
+  "CENTRALIZED_ONLY": true,
+  "GT_USED_FOR_CONSTRUCTION_OR_SELECTION": false,
+  "REAL_NETWORK_MEASUREMENTS": false,
+  "PRECOMPUTED_FRONTEND_CONSTRAINTS": true,
+  "checkpoint_evidence": 12,
+  "browser_controls": [
+    {
+      "control": "R1 local",
+      "toggle": "PASS"
+    },
+    {
+      "control": "R3 local",
+      "toggle": "PASS"
+    },
+    {
+      "control": "Global",
+      "toggle": "PASS"
+    },
+    {
+      "control": "Follow Robot1",
+      "click": "PASS"
+    },
+    {
+      "control": "Follow Robot3",
+      "click": "PASS"
+    },
+    {
+      "control": "Perspective",
+      "click": "PASS"
+    },
+    {
+      "control": "Top (gauge XY)",
+      "click": "PASS"
+    },
+    {
+      "control": "loop visibility",
+      "options": "PASS"
+    },
+    {
+      "control": "Reset / Seek",
+      "status": "PASS"
+    },
+    {
+      "control": "0.5 / 1 / 2 / 4 speeds",
+      "status": "PASS"
+    },
+    {
+      "control": "Play / Pause",
+      "status": "PASS",
+      "independent_early_progress": true,
+      "late_R1_complete_R3_progress": true
+    }
+  ],
+  "performance": [
+    {
+      "category": "normal_1x_from_start",
+      "wall_ms": 45425,
+      "rendered_frames": 1736,
+      "observed_fps": 38.2168409466153,
+      "start_event": 0,
+      "end_event": 1801,
+      "start_normalized_ns": "0",
+      "end_normalized_ns": "450009097520",
+      "max_image_cache": 24,
+      "max_active_decodes": 2,
+      "decode_errors": 0,
+      "frame_dt_median_ms": 33.30000000000291,
+      "frame_dt_p95_ms": 33.5
+    },
+    {
+      "category": "normal_1x_late_fusion",
+      "wall_ms": 92664,
+      "rendered_frames": 2957,
+      "observed_fps": 31.91099024432358,
+      "start_event": 4097,
+      "end_event": 5795,
+      "start_normalized_ns": "1123502391955",
+      "end_normalized_ns": "1972507870178",
+      "max_image_cache": 24,
+      "max_active_decodes": 2,
+      "decode_errors": 0,
+      "frame_dt_median_ms": 33.30000000001746,
+      "frame_dt_p95_ms": 35.61499999997759
+    }
+  ],
+  "limitations": [
+    "separate recordings, hypothetical normalized simultaneous start",
+    "precomputed loops, no online discovery",
+    "centralized, no network or distributed optimizer",
+    "joint numerical batch agreement FAIL under frozen thresholds",
+    "global visualization step-held at saved actual states, not every input event",
+    "RGB low-rate compressed presentation, not native-rate video",
+    "uniform local LiDAR gauge XYZ, not geographic altitude"
+  ]
+}

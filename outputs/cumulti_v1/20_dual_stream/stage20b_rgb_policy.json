@@ -1,0 +1,10 @@
+{
+  "max_additional_images": 2200,
+  "max_additional_bytes": 25165824,
+  "width": 320,
+  "jpeg_quality": 45,
+  "prototype": "first 10 seconds, native recorded camera rate",
+  "full": "causal floor at each 1-second own-clock tick plus loop endpoints and final; no interpolation",
+  "fallback": "Stage19 sparse authentic references, explicitly sparse; never continuous 10Hz",
+  "GT_used": false
+}

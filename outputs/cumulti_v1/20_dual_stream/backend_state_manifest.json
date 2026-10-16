@@ -1,0 +1,2102 @@
+[
+  {
+    "name": "PRE_FIRST_BRIDGE",
+    "event_index": 266,
+    "normalized_ns": 66498993686,
+    "robot1_kf": 282,
+    "robot3_kf": 367,
+    "K": 0,
+    "global_initialized": false,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/PRE_FIRST_BRIDGE.csv",
+    "sha256": "0e2940e2d0aba149fb1f9bd0ca5598819ce4cd5523bdafa014665fd708ce2e47",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/PRE_FIRST_BRIDGE_robot1.ply",
+        "sha256": "68ec4edb7031430ab5f3f55987c96ba85ec858a57aabc23f3d98661b2941a71a",
+        "bytes": 203255,
+        "points": 16928
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/PRE_FIRST_BRIDGE_robot3.ply",
+        "sha256": "de8d8eafe44299773ca92379100c469c4e450b1afb67edac2546b9088ada64fa",
+        "bytes": 197411,
+        "points": 16441
+      }
+    ],
+    "map_publication_ms": 139.52795509248972
+  },
+  {
+    "name": "FIRST_BRIDGE",
+    "event_index": 267,
+    "normalized_ns": 66501611950,
+    "robot1_kf": 283,
+    "robot3_kf": 367,
+    "K": 1,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/FIRST_BRIDGE.csv",
+    "sha256": "7fb4e86be4f8cd0be901cea677fc14ea0eef1a61f27593eae8be23d153bb269d",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/FIRST_BRIDGE_robot1.ply",
+        "sha256": "68ec4edb7031430ab5f3f55987c96ba85ec858a57aabc23f3d98661b2941a71a",
+        "bytes": 203255,
+        "points": 16928
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/FIRST_BRIDGE_robot3.ply",
+        "sha256": "856d9e5cdc71f759bcaf2e00e959148dbfbde6b52f2dc5931f8a4e111e4e80c8",
+        "bytes": 195899,
+        "points": 16315
+      }
+    ],
+    "map_publication_ms": 132.4341930449009
+  },
+  {
+    "name": "FIRST_POST_BRIDGE_UPDATE",
+    "event_index": 268,
+    "normalized_ns": 67001303540,
+    "robot1_kf": 284,
+    "robot3_kf": 367,
+    "K": 1,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/FIRST_POST_BRIDGE_UPDATE.csv",
+    "sha256": "61b4aeb783c6413ca5b18ccaa93d9bf79809321a17059b72574946ada7c8cbf8",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/FIRST_POST_BRIDGE_UPDATE_robot1.ply",
+        "sha256": "68ec4edb7031430ab5f3f55987c96ba85ec858a57aabc23f3d98661b2941a71a",
+        "bytes": 203255,
+        "points": 16928
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/FIRST_POST_BRIDGE_UPDATE_robot3.ply",
+        "sha256": "856d9e5cdc71f759bcaf2e00e959148dbfbde6b52f2dc5931f8a4e111e4e80c8",
+        "bytes": 195899,
+        "points": 16315
+      }
+    ],
+    "map_publication_ms": 130.88531093671918
+  },
+  {
+    "name": "ROBOT1_FINISHED",
+    "event_index": 3698,
+    "normalized_ns": 924500771226,
+    "robot1_kf": 1999,
+    "robot3_kf": 2082,
+    "K": 1,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/ROBOT1_FINISHED.csv",
+    "sha256": "bb45c7a3095cac63d4d2faedda6d490e4280d435c1497a2ca38834512b84d01c",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/ROBOT1_FINISHED_robot1.ply",
+        "sha256": "ab5b88c1480c2a5d2fa60e6f53b182cab3dd8ce5e896266c269c424da20258e9",
+        "bytes": 3358260,
+        "points": 279845
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/ROBOT1_FINISHED_robot3.ply",
+        "sha256": "c8b7c4520c5b0d34e915233e7cb0b7ef5aaaf907a550f7691def2264247ef649",
+        "bytes": 3839400,
+        "points": 319940
+      }
+    ],
+    "map_publication_ms": 1157.4556580744684
+  },
+  {
+    "name": "DUAL_STREAM_K2",
+    "event_index": 4097,
+    "normalized_ns": 1123502391955,
+    "robot1_kf": 1999,
+    "robot3_kf": 2481,
+    "K": 2,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/DUAL_STREAM_K2.csv",
+    "sha256": "d0bb67c8ae6bc57c7e1ba8f14fecdd798ca9a54501f37751fa423d2e3965c3b4",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K2_robot1.ply",
+        "sha256": "2563b478a7706c437b7cbf412d7ca8c743c1195178e3948a46499e068171efd9",
+        "bytes": 3386532,
+        "points": 282201
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K2_robot3.ply",
+        "sha256": "f155bd5c4384976cbd2d58ec966c2b4b26afc218f43f99dc88f14e4609dd23ff",
+        "bytes": 4644912,
+        "points": 387066
+      }
+    ],
+    "map_publication_ms": 1271.1099148727953
+  },
+  {
+    "name": "LOOP_03",
+    "event_index": 4109,
+    "normalized_ns": 1129505281137,
+    "robot1_kf": 1999,
+    "robot3_kf": 2493,
+    "K": 3,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_03.csv",
+    "sha256": "ace590b57d8629c4efd96ba220fde018cf2816d8f1b721d4de269e4464f4a855",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_03_robot1.ply",
+        "sha256": "689ffccf18dd8db4a9fbcbe0619af3bb7b2454e2d1c9a89eed56481951b61646",
+        "bytes": 3385308,
+        "points": 282099
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_03_robot3.ply",
+        "sha256": "7d6b6f384472b858f98ea1fc00a4f3ea6f318022392cb06b38cafb587839060f",
+        "bytes": 4668564,
+        "points": 389037
+      }
+    ],
+    "map_publication_ms": 1240.9936380572617
+  },
+  {
+    "name": "LOOP_04",
+    "event_index": 4144,
+    "normalized_ns": 1147004675818,
+    "robot1_kf": 1999,
+    "robot3_kf": 2528,
+    "K": 4,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_04.csv",
+    "sha256": "5b112445345d94fa97d7c19f8f1e7f5259dd517ce6c209f448a5314e5218b04d",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_04_robot1.ply",
+        "sha256": "b538a75cd08a463422afada9399ff261a4e05324b33dbaad3b38400c7dff2308",
+        "bytes": 3386148,
+        "points": 282169
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_04_robot3.ply",
+        "sha256": "e5ea40704cd61ea338a9e5ca5b3e5a956c42aed1d2384287dca6fda56ef166a0",
+        "bytes": 4738212,
+        "points": 394841
+      }
+    ],
+    "map_publication_ms": 1289.96407892555
+  },
+  {
+    "name": "DUAL_STREAM_K5",
+    "event_index": 4166,
+    "normalized_ns": 1158005397537,
+    "robot1_kf": 1999,
+    "robot3_kf": 2550,
+    "K": 5,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/DUAL_STREAM_K5.csv",
+    "sha256": "32b6590f4713891aa169240465580ac3670abe64c332081fd1d513f01d09e057",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K5_robot1.ply",
+        "sha256": "c82d6295beffd7a8d936ae0dd7f52db039d777a003c3453e847a8c7353113eb4",
+        "bytes": 3375336,
+        "points": 281268
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K5_robot3.ply",
+        "sha256": "a2807e877f50a1239204f04a3a09dbc027625482491979d2b8d5630929261afd",
+        "bytes": 4814136,
+        "points": 401168
+      }
+    ],
+    "map_publication_ms": 1270.3366028144956
+  },
+  {
+    "name": "LOOP_06",
+    "event_index": 4231,
+    "normalized_ns": 1190507546857,
+    "robot1_kf": 1999,
+    "robot3_kf": 2615,
+    "K": 6,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_06.csv",
+    "sha256": "5a20b46c0a3ef774eaabc9c46bb09b477fe3b84000f5baf44e9995886537a1b3",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_06_robot1.ply",
+        "sha256": "18f9bf49cdd091f853005adaa9c304e7243805860cd9c360ce2c76555060517b",
+        "bytes": 3375564,
+        "points": 281287
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_06_robot3.ply",
+        "sha256": "eaa872aacf6c34f076037cf75e07676e391c57c52687f54e7fc319b15751ffa7",
+        "bytes": 4969320,
+        "points": 414100
+      }
+    ],
+    "map_publication_ms": 1304.8675400204957
+  },
+  {
+    "name": "LOOP_07",
+    "event_index": 4236,
+    "normalized_ns": 1193006918306,
+    "robot1_kf": 1999,
+    "robot3_kf": 2620,
+    "K": 7,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_07.csv",
+    "sha256": "b8119d62e083f9855a42c68d4dac6a6626f63f51e87b6221da3f110dfd718fad",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_07_robot1.ply",
+        "sha256": "9099aae3c1564cc07ab74e4a96459b9f56f96b9ff535d7fa80de5d3cd7e0173e",
+        "bytes": 3366648,
+        "points": 280544
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_07_robot3.ply",
+        "sha256": "3dad570e9f4b794a5cfcd8e9f4936e2932f6392d26e278ca7118ffa3106da5c3",
+        "bytes": 4967676,
+        "points": 413963
+      }
+    ],
+    "map_publication_ms": 1311.3450347445905
+  },
+  {
+    "name": "LOOP_08",
+    "event_index": 4241,
+    "normalized_ns": 1195507140662,
+    "robot1_kf": 1999,
+    "robot3_kf": 2625,
+    "K": 8,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_08.csv",
+    "sha256": "910ed2f9c4d90d47d4e627a33a35df8e3d68bea703c66d01b37d1c36dcc0f2b7",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_08_robot1.ply",
+        "sha256": "ca7ad60dda11f92718304d259a9b95dcb78be9b0d91567d9d052fab6097b92eb",
+        "bytes": 3369804,
+        "points": 280807
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_08_robot3.ply",
+        "sha256": "0594037a3268440ac6d802295ebf5fa96dd4784c4c2ea081e7cfcba34c64959d",
+        "bytes": 4986828,
+        "points": 415559
+      }
+    ],
+    "map_publication_ms": 1302.3733049631119
+  },
+  {
+    "name": "LOOP_09",
+    "event_index": 4244,
+    "normalized_ns": 1197013324060,
+    "robot1_kf": 1999,
+    "robot3_kf": 2628,
+    "K": 9,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_09.csv",
+    "sha256": "9d7482d366183a8911ff151788efecd71550243f395b9425bba24e4593cacd9b",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_09_robot1.ply",
+        "sha256": "9dafd544187bcc9faa58b53e64335cd37cbaf8f97b773364acf21a13bfe4de54",
+        "bytes": 3369756,
+        "points": 280803
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_09_robot3.ply",
+        "sha256": "3d36eff98207b0bf37c96d265d19ac8671f8bdb1591205674713b2bcabd25cc5",
+        "bytes": 4984956,
+        "points": 415403
+      }
+    ],
+    "map_publication_ms": 1306.5998908132315
+  },
+  {
+    "name": "DUAL_STREAM_K10",
+    "event_index": 4262,
+    "normalized_ns": 1206009113574,
+    "robot1_kf": 1999,
+    "robot3_kf": 2646,
+    "K": 11,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/DUAL_STREAM_K10.csv",
+    "sha256": "adc9c8e2b733040fcd0d8295d1f490e8b3439580adff977ab3ba87a9b5f1816c",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K10_robot1.ply",
+        "sha256": "5e827000f0289a01ae30174df08c81d4063622726f66e69d2f5253c22df47739",
+        "bytes": 3368436,
+        "points": 280693
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K10_robot3.ply",
+        "sha256": "07c397d1d5515670b1780546688a0f079098faeb84aa9751e8397a92ee278618",
+        "bytes": 5022708,
+        "points": 418549
+      }
+    ],
+    "map_publication_ms": 1316.989814862609
+  },
+  {
+    "name": "LOOP_12",
+    "event_index": 4270,
+    "normalized_ns": 1210005029170,
+    "robot1_kf": 1999,
+    "robot3_kf": 2654,
+    "K": 12,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_12.csv",
+    "sha256": "926f3f30522b4c1a04149f6b9a66b58de9871394ffa3c38e14f5f342e2ea8caa",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_12_robot1.ply",
+        "sha256": "0e45953373abc4370b9a671cccb971d455e49718ab1610322c2eb9453770d596",
+        "bytes": 3387180,
+        "points": 282255
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_12_robot3.ply",
+        "sha256": "9006a8d9674493793a3afe4ac49c743ca9faa1fd7d0d16b52fc6f2d555fab135",
+        "bytes": 5045664,
+        "points": 420462
+      }
+    ],
+    "map_publication_ms": 1325.679702218622
+  },
+  {
+    "name": "LOOP_13",
+    "event_index": 4294,
+    "normalized_ns": 1222010220148,
+    "robot1_kf": 1999,
+    "robot3_kf": 2678,
+    "K": 13,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_13.csv",
+    "sha256": "fa86017d2c7b7af592fb3081bde0366b6202b1147fc3e7d69ed0b0e0e744ff00",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_13_robot1.ply",
+        "sha256": "a30c657305373b36476753b4f7faf77c93e81eb35f5f61ddb7e2a7fbed44427a",
+        "bytes": 3386616,
+        "points": 282208
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_13_robot3.ply",
+        "sha256": "cd5fa6258c0688612671d474c1461e2f0a069cf10c8ce315b3df6f3a51462ae5",
+        "bytes": 5091048,
+        "points": 424244
+      }
+    ],
+    "map_publication_ms": 1329.2083740234375
+  },
+  {
+    "name": "LOOP_14",
+    "event_index": 4371,
+    "normalized_ns": 1260509394482,
+    "robot1_kf": 1999,
+    "robot3_kf": 2755,
+    "K": 14,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_14.csv",
+    "sha256": "7b7279d9d86682ba0103b149119d9a7d674db30e47aadbc92c2ebcf0b75e0b90",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_14_robot1.ply",
+        "sha256": "1d4439cfc87290ec255e2356d713c191f134fd2e0e8fee37300820369bac9fae",
+        "bytes": 3381180,
+        "points": 281755
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_14_robot3.ply",
+        "sha256": "54fc2c86dcb4f69d4ba4f9571c1ec2b5988df3f64338387c055c2c9487bb3ac0",
+        "bytes": 5284956,
+        "points": 440403
+      }
+    ],
+    "map_publication_ms": 1380.2195112220943
+  },
+  {
+    "name": "LOOP_15",
+    "event_index": 4414,
+    "normalized_ns": 1282013241534,
+    "robot1_kf": 1999,
+    "robot3_kf": 2798,
+    "K": 15,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_15.csv",
+    "sha256": "a0ff8ebbf06792fd291acb1ac614fe1e794440d5a79362cdb7799b7a4f98770f",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_15_robot1.ply",
+        "sha256": "0d0f9dc946b2697ba78869ba648c96c8a1f900a41ce4246b4fbd9ff79e786e23",
+        "bytes": 3379356,
+        "points": 281603
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_15_robot3.ply",
+        "sha256": "30a7b6dc8b4f159c8a22e9859e35230f3e02cc63b1f1e91fedc4734bba8f8af3",
+        "bytes": 5382540,
+        "points": 448535
+      }
+    ],
+    "map_publication_ms": 1385.0697632879019
+  },
+  {
+    "name": "LOOP_16",
+    "event_index": 4435,
+    "normalized_ns": 1292505985966,
+    "robot1_kf": 1999,
+    "robot3_kf": 2819,
+    "K": 16,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_16.csv",
+    "sha256": "208958dc3291161d6758b190a6d6a967d47689ce8805d36109dedbdfe6ea57fc",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_16_robot1.ply",
+        "sha256": "02c1463a6e07f278676a45c808ad72761aaa2115d38fb26426d0e7668eb8758f",
+        "bytes": 3385680,
+        "points": 282130
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_16_robot3.ply",
+        "sha256": "b6af08634211587cdf3096e2391ceed6676ff42a55439b86f2ef0b7c26cd867d",
+        "bytes": 5429940,
+        "points": 452485
+      }
+    ],
+    "map_publication_ms": 1387.4802710488439
+  },
+  {
+    "name": "LOOP_17",
+    "event_index": 4481,
+    "normalized_ns": 1315510341325,
+    "robot1_kf": 1999,
+    "robot3_kf": 2865,
+    "K": 17,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_17.csv",
+    "sha256": "39a7ff91181ee6b14381f3eaa0a17d34c4eb3927225aaf7e4b05aa90b6bc0fbe",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_17_robot1.ply",
+        "sha256": "29caf6a8e9adba4360d0cbc1949487aea8246567c827cd4ea7316816774f465a",
+        "bytes": 3379212,
+        "points": 281591
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_17_robot3.ply",
+        "sha256": "4b712f0e9308d48a602b88c9b019b839d5f86530821d0bd090de67ee99796093",
+        "bytes": 5499888,
+        "points": 458314
+      }
+    ],
+    "map_publication_ms": 1415.062536019832
+  },
+  {
+    "name": "LOOP_18",
+    "event_index": 4524,
+    "normalized_ns": 1337006173269,
+    "robot1_kf": 1999,
+    "robot3_kf": 2908,
+    "K": 18,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_18.csv",
+    "sha256": "92a207bc9639177acd312dc84213d43ed120930cb4c8e9653157e78f65767b4c",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_18_robot1.ply",
+        "sha256": "5805c261e1e264d188a71e4c8d2f90008849e04f6e7435c62d1aeaf22ee7a231",
+        "bytes": 3381456,
+        "points": 281778
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_18_robot3.ply",
+        "sha256": "8bcb8acdfcc2d0d2c2a4d586841d4ffb4b3f6f2d0f6e510d04b1ffeda3cfc13a",
+        "bytes": 5561904,
+        "points": 463482
+      }
+    ],
+    "map_publication_ms": 1426.3529381714761
+  },
+  {
+    "name": "LOOP_19",
+    "event_index": 4546,
+    "normalized_ns": 1348010955258,
+    "robot1_kf": 1999,
+    "robot3_kf": 2930,
+    "K": 19,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_19.csv",
+    "sha256": "83d34ed5c5e3248983f70bf94876fa9e313393f609895c39aa6495051f7607ac",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_19_robot1.ply",
+        "sha256": "0c4dfb809c706c7992202e24f7bd8f9d93d200e1575ee3b653d23fbcae828b21",
+        "bytes": 3377148,
+        "points": 281419
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_19_robot3.ply",
+        "sha256": "c4f519b16631417bb65bc256d895225d83802baf67cbd84df997228cd2a477da",
+        "bytes": 5617296,
+        "points": 468098
+      }
+    ],
+    "map_publication_ms": 1437.2951039113104
+  },
+  {
+    "name": "DUAL_STREAM_K20",
+    "event_index": 4549,
+    "normalized_ns": 1349508052840,
+    "robot1_kf": 1999,
+    "robot3_kf": 2933,
+    "K": 20,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/DUAL_STREAM_K20.csv",
+    "sha256": "fe4f713bf7d8d4ed6b03328bc5639ab1bcb3b4aa821071b2a35d1f4e0b9ab029",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K20_robot1.ply",
+        "sha256": "b3e80f6a5dc1d8beca10fc0188d499b3ff3a016ee6f12883d636cf545cf72d77",
+        "bytes": 3369840,
+        "points": 280810
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K20_robot3.ply",
+        "sha256": "31375acd6e2399c1de7e0b358551988376798140e4d2d6ce6fcfd3075fde1863",
+        "bytes": 5619084,
+        "points": 468247
+      }
+    ],
+    "map_publication_ms": 1431.984371971339
+  },
+  {
+    "name": "LOOP_21",
+    "event_index": 4628,
+    "normalized_ns": 1389008130552,
+    "robot1_kf": 1999,
+    "robot3_kf": 3012,
+    "K": 21,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_21.csv",
+    "sha256": "b0cdf4b0dc377b82548c675a19cb377d35495e438427262545aca4f0c22bed65",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_21_robot1.ply",
+        "sha256": "81356a26a10b292ad0d7b84d8a8556460bb771de56b25536ca62c9807b5d02ed",
+        "bytes": 3365652,
+        "points": 280461
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_21_robot3.ply",
+        "sha256": "a631cce0afc563416b5fb46588b8d9b59c6d2cc5f1602a29a4e2d2702b641b7d",
+        "bytes": 5779164,
+        "points": 481587
+      }
+    ],
+    "map_publication_ms": 1459.7669900394976
+  },
+  {
+    "name": "LOOP_22",
+    "event_index": 4635,
+    "normalized_ns": 1392510004455,
+    "robot1_kf": 1999,
+    "robot3_kf": 3019,
+    "K": 22,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_22.csv",
+    "sha256": "5e346b1006b3be6e6f9a981eb4c46ca60f93aab31f209ab46e7e7f2bca5f63a9",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_22_robot1.ply",
+        "sha256": "0e7e193dc72891395a3eba18fcbf39db58ac07b20b5571e292bcdef12294ac6b",
+        "bytes": 3367680,
+        "points": 280630
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_22_robot3.ply",
+        "sha256": "c8c566ab80db7416b1e7b0bc1b64f65ba268ac83611be9490fd51611f0d98305",
+        "bytes": 5801304,
+        "points": 483432
+      }
+    ],
+    "map_publication_ms": 1475.740334019065
+  },
+  {
+    "name": "LOOP_23",
+    "event_index": 4657,
+    "normalized_ns": 1403504110975,
+    "robot1_kf": 1999,
+    "robot3_kf": 3041,
+    "K": 23,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_23.csv",
+    "sha256": "87500b14669b74288bb437fa15684b699aecaa04c8f1e75eaf18f95ebd716a10",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_23_robot1.ply",
+        "sha256": "51c532698fa2dc5b464c2e009c73abe985f09fc564a8cd2f9fe9286c93e2ba65",
+        "bytes": 3366780,
+        "points": 280555
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_23_robot3.ply",
+        "sha256": "613945611b4e140fcc60cb16180a5bc807747e7f01a2c64b6449e3dd7265f902",
+        "bytes": 5837832,
+        "points": 486476
+      }
+    ],
+    "map_publication_ms": 1472.571955062449
+  },
+  {
+    "name": "LOOP_24",
+    "event_index": 4659,
+    "normalized_ns": 1404520131075,
+    "robot1_kf": 1999,
+    "robot3_kf": 3043,
+    "K": 24,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_24.csv",
+    "sha256": "ffec61e7790137634b50820bef29927f4a3937c009d82b1904cea13334f4b811",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_24_robot1.ply",
+        "sha256": "211dc63367610a328e22ed579e9c4e6976a5b03bb5d672e3f85ea584b0116339",
+        "bytes": 3367596,
+        "points": 280623
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_24_robot3.ply",
+        "sha256": "9e41cf71d01cccbd8349eb4398e6e216c512858488c16072292c953d0c02c5cc",
+        "bytes": 5839524,
+        "points": 486617
+      }
+    ],
+    "map_publication_ms": 1465.1496419683099
+  },
+  {
+    "name": "LOOP_25",
+    "event_index": 4688,
+    "normalized_ns": 1419009715325,
+    "robot1_kf": 1999,
+    "robot3_kf": 3072,
+    "K": 25,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_25.csv",
+    "sha256": "747c9270d97c64fa6a1b1c537eb20b052eb7e7a80c0235b35c657ee60849d986",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_25_robot1.ply",
+        "sha256": "582a63ed524b92a0bb1eecf0607b0a8be87e130e3a59453652643d8610270898",
+        "bytes": 3370032,
+        "points": 280826
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_25_robot3.ply",
+        "sha256": "89da69754445c822804d7ac3102b4fdb4dfd0fc26bae5b4b5f49504610f5f80d",
+        "bytes": 5897256,
+        "points": 491428
+      }
+    ],
+    "map_publication_ms": 1486.2916488200426
+  },
+  {
+    "name": "LOOP_26",
+    "event_index": 4689,
+    "normalized_ns": 1419511519028,
+    "robot1_kf": 1999,
+    "robot3_kf": 3073,
+    "K": 26,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_26.csv",
+    "sha256": "7e21a6cec223c3b3eb9c69a3f016cd057bc7c74d878d37293482e472e807405c",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_26_robot1.ply",
+        "sha256": "326d09a105dcb8be09f1a4dc4fa7599e3a536eeaf361894cfb0264855cd27955",
+        "bytes": 3367932,
+        "points": 280651
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_26_robot3.ply",
+        "sha256": "dbf2be8b71ee52ad5417359abbbc7581094180f6806fff99401896b90316c251",
+        "bytes": 5903388,
+        "points": 491939
+      }
+    ],
+    "map_publication_ms": 1481.8551051430404
+  },
+  {
+    "name": "LOOP_27",
+    "event_index": 4698,
+    "normalized_ns": 1424007122315,
+    "robot1_kf": 1999,
+    "robot3_kf": 3082,
+    "K": 27,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_27.csv",
+    "sha256": "e1046eea793d309837cfceb481b7174e7f0a482014696247303a8c778ca74bd0",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_27_robot1.ply",
+        "sha256": "3cbcab66961a8620e096963c98e9f31ad9e07d1ef91e72c4c6fd21d24cf3ee21",
+        "bytes": 3373776,
+        "points": 281138
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_27_robot3.ply",
+        "sha256": "432630c2e5aa8be976a79d3d9068cbc20e1f1f609f123e6fe6a5581f333a11d5",
+        "bytes": 5922768,
+        "points": 493554
+      }
+    ],
+    "map_publication_ms": 1482.8959349542856
+  },
+  {
+    "name": "LOOP_28",
+    "event_index": 4740,
+    "normalized_ns": 1445017869200,
+    "robot1_kf": 1999,
+    "robot3_kf": 3124,
+    "K": 28,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_28.csv",
+    "sha256": "e83b56916dc3ddf2fb8222d6452bd07a437cd3ca8bbfd0c389dd54d9b5f9ff20",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_28_robot1.ply",
+        "sha256": "3f0424f095eae8e07ca2d350a9795461122e9d3d8ed2c31f9e49bb8ef54c41a1",
+        "bytes": 3372384,
+        "points": 281022
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_28_robot3.ply",
+        "sha256": "374e2e7a4b93977b4dc7467441d624a0e8e73868cdd75f3c1fbf655f33bb56e2",
+        "bytes": 6017112,
+        "points": 501416
+      }
+    ],
+    "map_publication_ms": 1513.30192014575
+  },
+  {
+    "name": "LOOP_29",
+    "event_index": 4746,
+    "normalized_ns": 1448017355866,
+    "robot1_kf": 1999,
+    "robot3_kf": 3130,
+    "K": 29,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_29.csv",
+    "sha256": "e2c266c284a4abc9e9c5b916a2f6470c4d0f31aeb26338ee3123eac8ee8a5d8b",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_29_robot1.ply",
+        "sha256": "8da5f2ca0e58aa048542c6cb76b43f980e97bfdbfb8c86b84442884bf03d1c40",
+        "bytes": 3372804,
+        "points": 281057
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_29_robot3.ply",
+        "sha256": "26a7199da94370a17b9f42b7629a9081473553566a763b65cecdb30126260c6d",
+        "bytes": 6018516,
+        "points": 501533
+      }
+    ],
+    "map_publication_ms": 1518.4002253226936
+  },
+  {
+    "name": "LOOP_30",
+    "event_index": 4784,
+    "normalized_ns": 1467011208069,
+    "robot1_kf": 1999,
+    "robot3_kf": 3168,
+    "K": 30,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_30.csv",
+    "sha256": "d7215fb62f3aa44f56a70aa8a08b7072e9fa4fa082ea9064416b87b419096e7f",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_30_robot1.ply",
+        "sha256": "f407bca2786914d054ae770bad669f1534915dc98331959097b1434410844929",
+        "bytes": 3371664,
+        "points": 280962
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_30_robot3.ply",
+        "sha256": "a3599177b92b65ac4f67f84b88987cfb721a2c23ff1554e4c22b94df6c0dee63",
+        "bytes": 6099780,
+        "points": 508305
+      }
+    ],
+    "map_publication_ms": 1528.338040690869
+  },
+  {
+    "name": "LOOP_31",
+    "event_index": 4790,
+    "normalized_ns": 1470006351923,
+    "robot1_kf": 1999,
+    "robot3_kf": 3174,
+    "K": 31,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_31.csv",
+    "sha256": "f3b0b38f45973584782092d2eb7d0a7068b90a61dda0728c1a47856f801519d6",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_31_robot1.ply",
+        "sha256": "5274908773bbe664c9f129cfd09100da6baf436b74f4e29569a951658db66c09",
+        "bytes": 3371364,
+        "points": 280937
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_31_robot3.ply",
+        "sha256": "f16c3376c967b09ce93a729517727df2bc491281107e974ffdbe2210fff80288",
+        "bytes": 6122448,
+        "points": 510194
+      }
+    ],
+    "map_publication_ms": 1521.7535248957574
+  },
+  {
+    "name": "LOOP_32",
+    "event_index": 4815,
+    "normalized_ns": 1482513926266,
+    "robot1_kf": 1999,
+    "robot3_kf": 3199,
+    "K": 32,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_32.csv",
+    "sha256": "5f5a80bf458d92783e2d409dbe3afda786dfafcf29f39440ebf69d632a623493",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_32_robot1.ply",
+        "sha256": "ba50623f1f2fd88f4f86b2b3b275ceae615f9796ae0f9d6fe0a3593695261cab",
+        "bytes": 3371496,
+        "points": 280948
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_32_robot3.ply",
+        "sha256": "41956d4f8c510b71f873122204d2da81e8ee1a6556929c9af3ad294a9d754beb",
+        "bytes": 6162420,
+        "points": 513525
+      }
+    ],
+    "map_publication_ms": 1528.309386689216
+  },
+  {
+    "name": "LOOP_33",
+    "event_index": 4834,
+    "normalized_ns": 1492012473632,
+    "robot1_kf": 1999,
+    "robot3_kf": 3218,
+    "K": 33,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_33.csv",
+    "sha256": "c2a95ac1ea2878f86094cb8511d850a8a04cb4b93be15dc792b711b92370173c",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_33_robot1.ply",
+        "sha256": "dbf990ba1084cf6e2b8bc7d96e0a92b00ac281238bba9df932b1efc98ad722ad",
+        "bytes": 3369132,
+        "points": 280751
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_33_robot3.ply",
+        "sha256": "336362c32e26998c42754cdde42bf679b2e3ed57ec3bb959ddff678244741500",
+        "bytes": 6204132,
+        "points": 517001
+      }
+    ],
+    "map_publication_ms": 1541.6495837271214
+  },
+  {
+    "name": "LOOP_34",
+    "event_index": 4864,
+    "normalized_ns": 1507008559853,
+    "robot1_kf": 1999,
+    "robot3_kf": 3248,
+    "K": 34,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_34.csv",
+    "sha256": "9c7fe32943d7410f3b5bbcd3cadd6b970dbd85900f8e113cc765719570fdce5d",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_34_robot1.ply",
+        "sha256": "1c9c9ec34461863c2ec5d8f63842f77f4a29e5281c6de03201930222bd433216",
+        "bytes": 3372420,
+        "points": 281025
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_34_robot3.ply",
+        "sha256": "65fe4740c949e754aaba0e7a14e97983e3c410190ce6cb905fcd0eac823c2204",
+        "bytes": 6269844,
+        "points": 522477
+      }
+    ],
+    "map_publication_ms": 1561.7879941128194
+  },
+  {
+    "name": "LOOP_35",
+    "event_index": 4877,
+    "normalized_ns": 1513511520665,
+    "robot1_kf": 1999,
+    "robot3_kf": 3261,
+    "K": 35,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_35.csv",
+    "sha256": "8c2e28025f395c0b8be487006d5a470c0f49f2fd89f3d54c51b8bcb8b4e8d551",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_35_robot1.ply",
+        "sha256": "419f7d408d3839d42d3eed0753b970d789b39b790fd05c6339921ae857f36e70",
+        "bytes": 3373020,
+        "points": 281075
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_35_robot3.ply",
+        "sha256": "0f10039c8730fbe3e8194801a4094179ff2f0d3103b2ff3d7ee61234821cfa0b",
+        "bytes": 6290796,
+        "points": 524223
+      }
+    ],
+    "map_publication_ms": 1568.732428830117
+  },
+  {
+    "name": "LOOP_36",
+    "event_index": 4887,
+    "normalized_ns": 1518519392410,
+    "robot1_kf": 1999,
+    "robot3_kf": 3271,
+    "K": 36,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_36.csv",
+    "sha256": "e030b5b11dc1d6bb0c3a0d9d3fa5162852989f1ebbbf104edf580e0c5136569a",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_36_robot1.ply",
+        "sha256": "28155ab95b1b697a3b9a190531a55f3b963680b038831da0ec92e920647e4260",
+        "bytes": 3374640,
+        "points": 281210
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_36_robot3.ply",
+        "sha256": "ff99e1cdd8dcd93958e569540eddd864e189350b3c498a90d99ac2dfc52ec9b1",
+        "bytes": 6308208,
+        "points": 525674
+      }
+    ],
+    "map_publication_ms": 1572.3270308226347
+  },
+  {
+    "name": "LOOP_37",
+    "event_index": 4892,
+    "normalized_ns": 1521005077173,
+    "robot1_kf": 1999,
+    "robot3_kf": 3276,
+    "K": 37,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_37.csv",
+    "sha256": "df6d593e09186141f5db7022fd5144e9279bb803966cecc3ed2f0ea5dd707b46",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_37_robot1.ply",
+        "sha256": "720e307bbadf30cc37a088605d783a373c4ce6cd03f9361ccc006e1ac7c0e6e2",
+        "bytes": 3374736,
+        "points": 281218
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_37_robot3.ply",
+        "sha256": "04c3c28f85bace698bf5ab8147cc5230bc00a26a65f447d8016bcf714fb4eb5a",
+        "bytes": 6329676,
+        "points": 527463
+      }
+    ],
+    "map_publication_ms": 1551.5160579234362
+  },
+  {
+    "name": "LOOP_38",
+    "event_index": 4963,
+    "normalized_ns": 1556510611187,
+    "robot1_kf": 1999,
+    "robot3_kf": 3347,
+    "K": 38,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_38.csv",
+    "sha256": "0af70779579cfe0f215a2c12be37320b3e2a581f0c068ec89f4f1ac4e19af3d0",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_38_robot1.ply",
+        "sha256": "667c8256e91d371dd5e215c34902767da3e939058e8063bb03862268142b5b64",
+        "bytes": 3374052,
+        "points": 281161
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_38_robot3.ply",
+        "sha256": "247d04182f9e59a6fc7a711f502dd31b47a94be9d80bf18eb6e044dfcb60a0c3",
+        "bytes": 6468348,
+        "points": 539019
+      }
+    ],
+    "map_publication_ms": 1598.33242604509
+  },
+  {
+    "name": "DUAL_STREAM_K40",
+    "event_index": 4974,
+    "normalized_ns": 1562015466358,
+    "robot1_kf": 1999,
+    "robot3_kf": 3358,
+    "K": 41,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/DUAL_STREAM_K40.csv",
+    "sha256": "40d9d53d2411f3b91b6102c2ea0946f87a5d7dbc6f8e629255f04afbcb79eaf3",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K40_robot1.ply",
+        "sha256": "5f20dab7d2404205957aaf52e7b5f7b74451ce14b2ff5ede6aba33cead53d34b",
+        "bytes": 3368328,
+        "points": 280684
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K40_robot3.ply",
+        "sha256": "860607e5ddc135cb80b8dd502acff90b7354070c928eeea169bc01313cbe4cc8",
+        "bytes": 6482880,
+        "points": 540230
+      }
+    ],
+    "map_publication_ms": 1608.9198589324951
+  },
+  {
+    "name": "LOOP_42",
+    "event_index": 4976,
+    "normalized_ns": 1563015035876,
+    "robot1_kf": 1999,
+    "robot3_kf": 3360,
+    "K": 42,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_42.csv",
+    "sha256": "046d336899226205858b584d5e52b0c2cef62b75a3b6c60e09c86a095d092812",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_42_robot1.ply",
+        "sha256": "e48e791f833c46f7b89ff5c5ae67ea1a66708ae0fd446725d0e290815b5523d6",
+        "bytes": 3372132,
+        "points": 281001
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_42_robot3.ply",
+        "sha256": "d866885e25f77263f55f3d63a216c64922bd32acefc3937a02b4f8854f9554fd",
+        "bytes": 6482532,
+        "points": 540201
+      }
+    ],
+    "map_publication_ms": 1602.568225003779
+  },
+  {
+    "name": "LOOP_44",
+    "event_index": 4981,
+    "normalized_ns": 1565519114643,
+    "robot1_kf": 1999,
+    "robot3_kf": 3365,
+    "K": 44,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_44.csv",
+    "sha256": "62aef7b923359e2572fc696c2e18bd7973bec23d85e8cffdf328f76b6ad0d708",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_44_robot1.ply",
+        "sha256": "bb50cde65a9f10d4866eb40bca7a890bec2ebad0fc0e89b858821ca71a2463ec",
+        "bytes": 3366984,
+        "points": 280572
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_44_robot3.ply",
+        "sha256": "7f26c6374bd0ab81bf1afde4cba6903a38c50b46cd7c0d64dafa2a8cf6a0691b",
+        "bytes": 6497172,
+        "points": 541421
+      }
+    ],
+    "map_publication_ms": 1600.7402893155813
+  },
+  {
+    "name": "LOOP_45",
+    "event_index": 4985,
+    "normalized_ns": 1567509672147,
+    "robot1_kf": 1999,
+    "robot3_kf": 3369,
+    "K": 45,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_45.csv",
+    "sha256": "96c9c2afa8122c0fac8644728fc266978c796a12a526b1da2a7fdcb37ef8f0fa",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_45_robot1.ply",
+        "sha256": "2d324727d099c9115a2bf9f75cc442b8a8163d1684491c00b550d56a29426dfb",
+        "bytes": 3370860,
+        "points": 280895
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_45_robot3.ply",
+        "sha256": "0fb5afa55126b84ea865bded9b7073526d8ad6675491c83a0b91bbd4e5dee73f",
+        "bytes": 6499152,
+        "points": 541586
+      }
+    ],
+    "map_publication_ms": 1590.673215687275
+  },
+  {
+    "name": "LOOP_46",
+    "event_index": 4995,
+    "normalized_ns": 1572510395782,
+    "robot1_kf": 1999,
+    "robot3_kf": 3379,
+    "K": 46,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_46.csv",
+    "sha256": "684407ae0641c97c5936dd14552cdf72b507a76d176814ac156ebefcaf59e514",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_46_robot1.ply",
+        "sha256": "c9716d46c8ef98eb0257fe9b50fb8f52fa0a878a36f52c97577117aa2fd442d9",
+        "bytes": 3368412,
+        "points": 280691
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_46_robot3.ply",
+        "sha256": "2721c9529583ed839c9c3d690e4d4a52b82da53077083be03b15c35cb876ad0a",
+        "bytes": 6514812,
+        "points": 542891
+      }
+    ],
+    "map_publication_ms": 1608.333257958293
+  },
+  {
+    "name": "LOOP_47",
+    "event_index": 4998,
+    "normalized_ns": 1574012299442,
+    "robot1_kf": 1999,
+    "robot3_kf": 3382,
+    "K": 47,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_47.csv",
+    "sha256": "6592d4d04b734476bcad994d6102af36b490c3845f610cd629d97b5b07b8fa38",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_47_robot1.ply",
+        "sha256": "85cac11623082992cf74680b038281207264b2d453efb1c10a9f24f366dfd9c5",
+        "bytes": 3369288,
+        "points": 280764
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_47_robot3.ply",
+        "sha256": "a0953aee629c633303ba0f035098b0b40420b62903ef8f696eaa13337892b4cc",
+        "bytes": 6514824,
+        "points": 542892
+      }
+    ],
+    "map_publication_ms": 1620.9271280094981
+  },
+  {
+    "name": "LOOP_49",
+    "event_index": 5015,
+    "normalized_ns": 1582510026742,
+    "robot1_kf": 1999,
+    "robot3_kf": 3399,
+    "K": 49,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_49.csv",
+    "sha256": "877f2daebf342afe3c3dec9c65b34b359eacb22c7a70e100fe82c005e9e32f66",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_49_robot1.ply",
+        "sha256": "2657ea4fe7bc61c94cc5d0b989c9789e8071db5bfb3e3c1e93f26598b340277b",
+        "bytes": 3365004,
+        "points": 280407
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_49_robot3.ply",
+        "sha256": "20beedd75f45c5eadeb35f13b770901a08ba1e9fbd8b015aaf5f8fc0f714f60c",
+        "bytes": 6549744,
+        "points": 545802
+      }
+    ],
+    "map_publication_ms": 1623.3640690334141
+  },
+  {
+    "name": "LOOP_50",
+    "event_index": 5029,
+    "normalized_ns": 1589506250114,
+    "robot1_kf": 1999,
+    "robot3_kf": 3413,
+    "K": 50,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_50.csv",
+    "sha256": "77c59b8a2de410cb272e83a5af373ecb68cefa6f55fa9e35049f4443d29d02df",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_50_robot1.ply",
+        "sha256": "ab44d43d98e2f19d38541c998ccfce7ed86ce67c4fec9607d8e75c644a19c1b6",
+        "bytes": 3363288,
+        "points": 280264
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_50_robot3.ply",
+        "sha256": "9aa8fd9645061610404cacb52eadb15571199cfb5868afbf19505fda71e900b9",
+        "bytes": 6558060,
+        "points": 546495
+      }
+    ],
+    "map_publication_ms": 1622.1132609061897
+  },
+  {
+    "name": "LOOP_51",
+    "event_index": 5033,
+    "normalized_ns": 1591507789286,
+    "robot1_kf": 1999,
+    "robot3_kf": 3417,
+    "K": 51,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_51.csv",
+    "sha256": "ed04bc13454d3dbf3ee335cf0071206dc599e6cb852741356b323c7813179584",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_51_robot1.ply",
+        "sha256": "c29dd79e6e10d11cf52a2c640a591be48cc2a4485541c66e1089c5696e9b368a",
+        "bytes": 3368424,
+        "points": 280692
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_51_robot3.ply",
+        "sha256": "f1589d48727fb7c60bb58dca5001f38d55926e1be03369a4a50800e2cffbe743",
+        "bytes": 6577380,
+        "points": 548105
+      }
+    ],
+    "map_publication_ms": 1683.5719123482704
+  },
+  {
+    "name": "LOOP_52",
+    "event_index": 5042,
+    "normalized_ns": 1596009956531,
+    "robot1_kf": 1999,
+    "robot3_kf": 3426,
+    "K": 52,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_52.csv",
+    "sha256": "863e20c4f79dc4dcb209607bc3191f87036640e44feabc8a6fccdb8b90508174",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_52_robot1.ply",
+        "sha256": "20573700518ee4b67d2516b2e537b8a0e095698c2f8fa17abaf547d06dd3958a",
+        "bytes": 3368664,
+        "points": 280712
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_52_robot3.ply",
+        "sha256": "d2369f3c64f8c1ba9aa7008c5b259d25d4d735c1ee61911b0c8cadd185827521",
+        "bytes": 6593052,
+        "points": 549411
+      }
+    ],
+    "map_publication_ms": 1635.1871429942548
+  },
+  {
+    "name": "LOOP_53",
+    "event_index": 5067,
+    "normalized_ns": 1608514355408,
+    "robot1_kf": 1999,
+    "robot3_kf": 3451,
+    "K": 53,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_53.csv",
+    "sha256": "226a87107879ec25d8e6e73a1760b8879a5555ddded2c3175aef7bc7dbb02a51",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_53_robot1.ply",
+        "sha256": "a42ca96985e9185afe7b816b2341e0f331eb8ee908b82d4171f5c467b7aea4fe",
+        "bytes": 3364560,
+        "points": 280370
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_53_robot3.ply",
+        "sha256": "fb950213ab9c8aeff2501d2d9c082997a0d6265ae7b523cec899df735d13918f",
+        "bytes": 6632064,
+        "points": 552662
+      }
+    ],
+    "map_publication_ms": 1643.7024776823819
+  },
+  {
+    "name": "LOOP_54",
+    "event_index": 5070,
+    "normalized_ns": 1610007879769,
+    "robot1_kf": 1999,
+    "robot3_kf": 3454,
+    "K": 54,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_54.csv",
+    "sha256": "b19a8e8daeb9ea5ce68a608821834db387c2c180d2c98e711201fbe6151c304f",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_54_robot1.ply",
+        "sha256": "0bd4d857f67a186dbae63ba8c47547fde70b87beb2cefd5ce63c9bf5624e9187",
+        "bytes": 3366600,
+        "points": 280540
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_54_robot3.ply",
+        "sha256": "8193643c1d0bfc0dabbe1040e4880b4aa1ff6e124f40eca96bcc6a91f9cde595",
+        "bytes": 6647520,
+        "points": 553950
+      }
+    ],
+    "map_publication_ms": 1628.1002261675894
+  },
+  {
+    "name": "LOOP_55",
+    "event_index": 5077,
+    "normalized_ns": 1613511121916,
+    "robot1_kf": 1999,
+    "robot3_kf": 3461,
+    "K": 55,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_55.csv",
+    "sha256": "0402756e76b56f1ea4771cb0c857a5d3607e49294d44148329e07ce709d4c2dd",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_55_robot1.ply",
+        "sha256": "23a87f31af425bd21d55ad1c791ed0607bab937bd9164089bd1ba6da1496ee2e",
+        "bytes": 3368880,
+        "points": 280730
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_55_robot3.ply",
+        "sha256": "d5ac22fe7667511a4c1cfcbf7f4072cbe8e2cfb55ceeaef15c80a35f2e6090d1",
+        "bytes": 6649260,
+        "points": 554095
+      }
+    ],
+    "map_publication_ms": 1641.9618520885706
+  },
+  {
+    "name": "LOOP_56",
+    "event_index": 5080,
+    "normalized_ns": 1615013772941,
+    "robot1_kf": 1999,
+    "robot3_kf": 3464,
+    "K": 56,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_56.csv",
+    "sha256": "f09c3591428e0ff4fd7b0d163d505f9602d674df7b11a93242297a938f804cdf",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_56_robot1.ply",
+        "sha256": "448a7da1a3a50232c251e1e3b85072a1aa8b7f4f7a3d56d530832894ec25dad2",
+        "bytes": 3367116,
+        "points": 280583
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_56_robot3.ply",
+        "sha256": "8474f433da46ed37844f5c28a3f610a2cd5c0f4419f2c7cc42cb23fc316f821a",
+        "bytes": 6670512,
+        "points": 555866
+      }
+    ],
+    "map_publication_ms": 1615.0756143033504
+  },
+  {
+    "name": "LOOP_57",
+    "event_index": 5110,
+    "normalized_ns": 1630007761099,
+    "robot1_kf": 1999,
+    "robot3_kf": 3494,
+    "K": 57,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_57.csv",
+    "sha256": "f231fb2e8b4b0040c0e159eaf0ec9a91a6c75d3cf89ed7bc0643956263f6d003",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_57_robot1.ply",
+        "sha256": "f0d31cbdfdd83473caf54ead8ee9ff3d03ca329e905765aa35b0b13b973df77a",
+        "bytes": 3366252,
+        "points": 280511
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_57_robot3.ply",
+        "sha256": "4c07186b097e09184292c82c11f6c8c93fdd9ca03fe0145ce282740dead9abc4",
+        "bytes": 6728784,
+        "points": 560722
+      }
+    ],
+    "map_publication_ms": 1646.930277813226
+  },
+  {
+    "name": "LOOP_58",
+    "event_index": 5116,
+    "normalized_ns": 1633007053537,
+    "robot1_kf": 1999,
+    "robot3_kf": 3500,
+    "K": 58,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_58.csv",
+    "sha256": "4ccdca22ad523818e1ee031240c9c5db19176418692550bdda37d3348bdd7ad0",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_58_robot1.ply",
+        "sha256": "19d96cb3650f3173b45cfe9be0018602653fbbae7f96492e3f4c0534173c674d",
+        "bytes": 3358200,
+        "points": 279840
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_58_robot3.ply",
+        "sha256": "acfac3b808af5d55a79fc0af947d593d436e05b22cba2a6a1aad82fb86e71ee2",
+        "bytes": 6726252,
+        "points": 560511
+      }
+    ],
+    "map_publication_ms": 1620.361892040819
+  },
+  {
+    "name": "LOOP_59",
+    "event_index": 5120,
+    "normalized_ns": 1635009107104,
+    "robot1_kf": 1999,
+    "robot3_kf": 3504,
+    "K": 59,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_59.csv",
+    "sha256": "25b9cfedd92370931a5eef45b10bfb6a80bd731fb45031ac475572b8b58c3c4d",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_59_robot1.ply",
+        "sha256": "87691cbec17ec8865612de912ed4c155b04ef099ca4deafd08ca6a9d59ef6242",
+        "bytes": 3357636,
+        "points": 279793
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_59_robot3.ply",
+        "sha256": "fd1b132ac536d92f7c3ca6565a672aeab8b2f2932da1ee0a22cdaff5b9fe4ffd",
+        "bytes": 6741060,
+        "points": 561745
+      }
+    ],
+    "map_publication_ms": 1621.2712288834155
+  },
+  {
+    "name": "LOOP_60",
+    "event_index": 5129,
+    "normalized_ns": 1639506482701,
+    "robot1_kf": 1999,
+    "robot3_kf": 3513,
+    "K": 60,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_60.csv",
+    "sha256": "377ab39aca474dca4307f9b20c08d865b6e4f6d2c313909eefb8f0175b4216ce",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_60_robot1.ply",
+        "sha256": "15589d71b580fac50a44609df9f67121664cd6b0292846e91da5577cf631ca7a",
+        "bytes": 3357408,
+        "points": 279774
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_60_robot3.ply",
+        "sha256": "a7cd1acdd8c5373f467e4011f3d676c76e3deb210c128b7f3cc6c7f209d8e024",
+        "bytes": 6738984,
+        "points": 561572
+      }
+    ],
+    "map_publication_ms": 1628.7388112396002
+  },
+  {
+    "name": "LOOP_61",
+    "event_index": 5138,
+    "normalized_ns": 1644018024823,
+    "robot1_kf": 1999,
+    "robot3_kf": 3522,
+    "K": 61,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_61.csv",
+    "sha256": "3994accb6d9477046d4be73d166e3bc396bfaefd933667a225249c178da281db",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_61_robot1.ply",
+        "sha256": "7234845806087c6095459cebf239684d561d4eb10847a6057d6f4510884b889d",
+        "bytes": 3359208,
+        "points": 279924
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_61_robot3.ply",
+        "sha256": "996f234888d3f5540de80cef23162f66f13a3bac25ba3d07a033dc22b0e38146",
+        "bytes": 6753648,
+        "points": 562794
+      }
+    ],
+    "map_publication_ms": 1629.6117980964482
+  },
+  {
+    "name": "LOOP_62",
+    "event_index": 5141,
+    "normalized_ns": 1645508081308,
+    "robot1_kf": 1999,
+    "robot3_kf": 3525,
+    "K": 62,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_62.csv",
+    "sha256": "574cc2ca448f8de28193562713efc34715536d1ed87e7684ad72614ceaabda78",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_62_robot1.ply",
+        "sha256": "4db5cdb482b217bae8f5547315d2126056018f8715ae17239e1f88929faa3e8d",
+        "bytes": 3358356,
+        "points": 279853
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_62_robot3.ply",
+        "sha256": "01df2186780e62d7c87a44c34151bf41416d0efee20a0cff9ced8d593e274a0f",
+        "bytes": 6770724,
+        "points": 564217
+      }
+    ],
+    "map_publication_ms": 1654.0549108758569
+  },
+  {
+    "name": "LOOP_63",
+    "event_index": 5145,
+    "normalized_ns": 1647515973685,
+    "robot1_kf": 1999,
+    "robot3_kf": 3529,
+    "K": 63,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_63.csv",
+    "sha256": "93d6de430eda9882d196ebe017184ae23ea6fcbe57116cd9c087e0edd21e0dba",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_63_robot1.ply",
+        "sha256": "289b76ff5b506c5b08c0506ca2add055c0701b6d6e67e0d3e50d4f36e37526b7",
+        "bytes": 3357672,
+        "points": 279796
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_63_robot3.ply",
+        "sha256": "09d75d5c49781a4f4b4c6bb2793bf8ad3e04b3f0b535bffea10681d8f209f714",
+        "bytes": 6769956,
+        "points": 564153
+      }
+    ],
+    "map_publication_ms": 1641.0200586542487
+  },
+  {
+    "name": "LOOP_64",
+    "event_index": 5151,
+    "normalized_ns": 1650504267992,
+    "robot1_kf": 1999,
+    "robot3_kf": 3535,
+    "K": 64,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_64.csv",
+    "sha256": "2cf1b458fb1138c06050785e778fed4a5f40949a5f35741c02fd62b343030271",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_64_robot1.ply",
+        "sha256": "4f20a5be9544f2da58b7c29434e247df8a130cf5063d920865943fd49eaa695f",
+        "bytes": 3355200,
+        "points": 279590
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_64_robot3.ply",
+        "sha256": "4124f95739ec0b114f88be9012ba4f1f5ca70a219a27ffb0abcbc46faa455a38",
+        "bytes": 6787560,
+        "points": 565620
+      }
+    ],
+    "map_publication_ms": 1635.7509880326688
+  },
+  {
+    "name": "LOOP_65",
+    "event_index": 5229,
+    "normalized_ns": 1689506909004,
+    "robot1_kf": 1999,
+    "robot3_kf": 3613,
+    "K": 65,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_65.csv",
+    "sha256": "1edd358f6aa1bad5247d397304fbaf5b523589686432b17c1870ddd5382203ac",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_65_robot1.ply",
+        "sha256": "e836e313c7f1e39fbb35c2c5706b426bb19a32f56c31d0a44c40554372c92b82",
+        "bytes": 3363000,
+        "points": 280240
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_65_robot3.ply",
+        "sha256": "2aa1ce3e8b3802f9eb4b391ebdc5511e938d53553b8880102a8c269c1e9ff558",
+        "bytes": 6917868,
+        "points": 576479
+      }
+    ],
+    "map_publication_ms": 1682.5815341435373
+  },
+  {
+    "name": "LOOP_66",
+    "event_index": 5261,
+    "normalized_ns": 1705510509530,
+    "robot1_kf": 1999,
+    "robot3_kf": 3645,
+    "K": 66,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_66.csv",
+    "sha256": "c01620973a6977983396df8bf2cec4fc2a8f1fb4ab925a78705c851613ca09bb",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_66_robot1.ply",
+        "sha256": "ed8f486200a7a92a8ba1b19f89a3797f75d8bd30c0cb879049249e4acad30d80",
+        "bytes": 3359184,
+        "points": 279922
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_66_robot3.ply",
+        "sha256": "d921d0b172e5a601449a47ce64e061b689103b04c525e2d0ffad45c4d5d376d3",
+        "bytes": 6986028,
+        "points": 582159
+      }
+    ],
+    "map_publication_ms": 1691.3866642862558
+  },
+  {
+    "name": "LOOP_67",
+    "event_index": 5288,
+    "normalized_ns": 1719008552600,
+    "robot1_kf": 1999,
+    "robot3_kf": 3672,
+    "K": 67,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_67.csv",
+    "sha256": "5447551e561546baf398b3cd8284c569641ab7dd204652e82e7b4f36f56f435b",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_67_robot1.ply",
+        "sha256": "d65887ace943366a40b92ef90554ee66f646ebe359d59ea434e4a853508c5413",
+        "bytes": 3356484,
+        "points": 279697
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_67_robot3.ply",
+        "sha256": "252d582734c0b130be1c0cb9f402ad9d47e611a1ec53f3741a9b9b4f438b5543",
+        "bytes": 7026468,
+        "points": 585529
+      }
+    ],
+    "map_publication_ms": 1711.90390503034
+  },
+  {
+    "name": "LOOP_68",
+    "event_index": 5302,
+    "normalized_ns": 1726005581900,
+    "robot1_kf": 1999,
+    "robot3_kf": 3686,
+    "K": 68,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_68.csv",
+    "sha256": "7925f3ada4db3cadabcc1d55d0c58d351ac8aa7dd03803ae4fa31d683495781d",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_68_robot1.ply",
+        "sha256": "cb610cf7a3b9569132270aa1ee7bbf86dba0b295f27daef978b172910580e7ec",
+        "bytes": 3358680,
+        "points": 279880
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_68_robot3.ply",
+        "sha256": "d24816806422f8dab4b82e3e282a36dcd045e871f66003c45b1c1b68f941715a",
+        "bytes": 7070904,
+        "points": 589232
+      }
+    ],
+    "map_publication_ms": 1696.3147851638496
+  },
+  {
+    "name": "LOOP_69",
+    "event_index": 5358,
+    "normalized_ns": 1754009769510,
+    "robot1_kf": 1999,
+    "robot3_kf": 3742,
+    "K": 69,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_69.csv",
+    "sha256": "102532e91e9406218d159ec5e8db02f5b73c1ff4ac2213b1c4dd9252bc34d7d7",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_69_robot1.ply",
+        "sha256": "edbfb8b9d7c3b885af723208982efffe52d5bcb741d584ad9b3795881dbb21d1",
+        "bytes": 3360888,
+        "points": 280064
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_69_robot3.ply",
+        "sha256": "c4299b57bd97420395ed5aed3ac6fdf223774acdc1e0a477b03e1e86aebc749f",
+        "bytes": 7166832,
+        "points": 597226
+      }
+    ],
+    "map_publication_ms": 1734.1196238994598
+  },
+  {
+    "name": "LOOP_70",
+    "event_index": 5380,
+    "normalized_ns": 1765005445438,
+    "robot1_kf": 1999,
+    "robot3_kf": 3764,
+    "K": 70,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_70.csv",
+    "sha256": "e70293b4c7792a3299f7e5a2c91102b478feb3527a326e10292a1bd7684905a9",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_70_robot1.ply",
+        "sha256": "e29ed992415e3c98a8f4658344a9ae3abedae620e44c8f37682ef22cee81b963",
+        "bytes": 3359748,
+        "points": 279969
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_70_robot3.ply",
+        "sha256": "9c4ffb1bae9e13f609f34f0f140f2b4b1a85e5282b2e9ec1c0cad7577e7c29eb",
+        "bytes": 7209624,
+        "points": 600792
+      }
+    ],
+    "map_publication_ms": 1735.8275172300637
+  },
+  {
+    "name": "LOOP_71",
+    "event_index": 5387,
+    "normalized_ns": 1768518007162,
+    "robot1_kf": 1999,
+    "robot3_kf": 3771,
+    "K": 71,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_71.csv",
+    "sha256": "076c8f01c9a16b1966a62e8efa625ced3dd8a17448acb1dd1d45ad1d91dea8ff",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_71_robot1.ply",
+        "sha256": "a1187718d6166b4bac7739a81eaa0c4b69f240c4de67e965cf29377b9c09317e",
+        "bytes": 3363024,
+        "points": 280242
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_71_robot3.ply",
+        "sha256": "1742d03ec7a77460c85a8c6100a4ec9bbfb71685f9ab216062f165108e476328",
+        "bytes": 7208940,
+        "points": 600735
+      }
+    ],
+    "map_publication_ms": 1733.6998018436134
+  },
+  {
+    "name": "LOOP_72",
+    "event_index": 5395,
+    "normalized_ns": 1772507614693,
+    "robot1_kf": 1999,
+    "robot3_kf": 3779,
+    "K": 72,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_72.csv",
+    "sha256": "f4b8c8166da6b03b0e05a5a1f4cc9adcf9be3a2014b510a2ed112d36f03d0ae9",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_72_robot1.ply",
+        "sha256": "816aa44493f47790ded9ac44a669d646a20e88c8e55d820aecd15d0023395c48",
+        "bytes": 3362400,
+        "points": 280190
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_72_robot3.ply",
+        "sha256": "b78557f22ffdade7d0ef4809093cb8fc593331126296de7cd4c98a15579c417e",
+        "bytes": 7238376,
+        "points": 603188
+      }
+    ],
+    "map_publication_ms": 1715.8075496554375
+  },
+  {
+    "name": "LOOP_73",
+    "event_index": 5418,
+    "normalized_ns": 1784005603536,
+    "robot1_kf": 1999,
+    "robot3_kf": 3802,
+    "K": 73,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_73.csv",
+    "sha256": "890a48d8293b695a2e791cde8f7e368ada8e955cac47b2ee839a2285d58598ae",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_73_robot1.ply",
+        "sha256": "69bacb549d3824aadb6b9f4326d2173af3151d4fedeea63b141f5dd4f0a0cf69",
+        "bytes": 3361860,
+        "points": 280145
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_73_robot3.ply",
+        "sha256": "0ced79a6d58072430ff9c5c164dd6655758ff198e018b6c21e68c7a70805f5c1",
+        "bytes": 7276272,
+        "points": 606346
+      }
+    ],
+    "map_publication_ms": 1752.7958629652858
+  },
+  {
+    "name": "LOOP_74",
+    "event_index": 5479,
+    "normalized_ns": 1814505340164,
+    "robot1_kf": 1999,
+    "robot3_kf": 3863,
+    "K": 74,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/LOOP_74.csv",
+    "sha256": "78180d79a6081327530e7e4c6f91db1dae41fe5bd2178146581ad01d2ed61bd2",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_74_robot1.ply",
+        "sha256": "c1b8b2e179a46362446a778178203d9b284c0c08e02ca75cfb7e3d9ce414c7e6",
+        "bytes": 3359172,
+        "points": 279921
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/LOOP_74_robot3.ply",
+        "sha256": "4681d99680b730f5fee0fcfd8b1cf3c020efe9934385862f0af01dc0a45a192b",
+        "bytes": 7380732,
+        "points": 615051
+      }
+    ],
+    "map_publication_ms": 1771.2520780041814
+  },
+  {
+    "name": "DUAL_STREAM_K75",
+    "event_index": 5792,
+    "normalized_ns": 1971008126066,
+    "robot1_kf": 1999,
+    "robot3_kf": 4176,
+    "K": 75,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/DUAL_STREAM_K75.csv",
+    "sha256": "e83e1974b4a97f76d185c4d1286c52abcbcb138b44cb40942762cd312b7285dd",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K75_robot1.ply",
+        "sha256": "c01486cc3673423ff354dc5642c80691ef49db4365dc7daede2f2b9a6151fdb4",
+        "bytes": 3372768,
+        "points": 281054
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/DUAL_STREAM_K75_robot3.ply",
+        "sha256": "40a2770394bb80d4deb3ac9e7e67c98efd9458fe0f8a9ab0005bfe2f3f9a8dc5",
+        "bytes": 7979232,
+        "points": 664926
+      }
+    ],
+    "map_publication_ms": 1900.4757651127875
+  },
+  {
+    "name": "ROBOT3_FINISHED",
+    "event_index": 5795,
+    "normalized_ns": 1972507870178,
+    "robot1_kf": 1999,
+    "robot3_kf": 4179,
+    "K": 75,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/ROBOT3_FINISHED.csv",
+    "sha256": "a3d9fb3cd24578605deabf0c658f0770c4edcb7839b9d21f1dd8a0204823b5bc",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/ROBOT3_FINISHED_robot1.ply",
+        "sha256": "c01486cc3673423ff354dc5642c80691ef49db4365dc7daede2f2b9a6151fdb4",
+        "bytes": 3372768,
+        "points": 281054
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/ROBOT3_FINISHED_robot3.ply",
+        "sha256": "7367d829691da1656371ed1e68fff41e152232ec29804b472fbe8babc702e99c",
+        "bytes": 7979232,
+        "points": 664926
+      }
+    ],
+    "map_publication_ms": 1879.0036691352725
+  },
+  {
+    "name": "FINAL",
+    "event_index": 5795,
+    "normalized_ns": 1972507870178,
+    "robot1_kf": 1999,
+    "robot3_kf": 4179,
+    "K": 75,
+    "global_initialized": true,
+    "trajectory": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/states/FINAL.csv",
+    "sha256": "a3d9fb3cd24578605deabf0c658f0770c4edcb7839b9d21f1dd8a0204823b5bc",
+    "maps": [
+      {
+        "robot": "robot1",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/FINAL_robot1.ply",
+        "sha256": "c01486cc3673423ff354dc5642c80691ef49db4365dc7daede2f2b9a6151fdb4",
+        "bytes": 3372768,
+        "points": 281054
+      },
+      {
+        "robot": "robot3",
+        "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/20_dual_stream/maps/FINAL_robot3.ply",
+        "sha256": "7367d829691da1656371ed1e68fff41e152232ec29804b472fbe8babc702e99c",
+        "bytes": 7979232,
+        "points": 664926
+      }
+    ],
+    "map_publication_ms": 1859.479749109596
+  }
+]

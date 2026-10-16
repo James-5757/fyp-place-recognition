@@ -1,0 +1,108 @@
+{
+  "baseline": "ee11e20925da35e369a562a598a5761bc68b5cf7",
+  "clock": "each original timestamp minus own first retained timestamp, exact integer ns",
+  "event_sort": [
+    "normalized_ns",
+    "robot_id",
+    "original_keyframe_id"
+  ],
+  "loop_sort": [
+    "release_event_index",
+    "frozen_loop_id"
+  ],
+  "loop_release": "after both endpoint events; release=max(endpoint event positions)",
+  "archived_frontend": "AVAILABILITY-GATED REPLAY OF PRECOMPUTED LOOP FACTORS",
+  "simultaneous_physical_robots": false,
+  "independent_local_graphs": "anchored odometry chains; exact frozen sequential composition, no local optimization required",
+  "central_prior": "only Robot1 KF150",
+  "isam2": {
+    "UTC": "2026-10-08T12:20:30.992977+00:00",
+    "defaults_unchanged": true,
+    "parameters": {
+      "relinearizeSkip": 10,
+      "enableRelinearization": true,
+      "evaluateNonlinearError": false,
+      "cacheLinearizedFactors": true,
+      "enableDetailedResults": false,
+      "enablePartialRelinearizationCheck": false,
+      "findUnusedFactorSlots": false,
+      "factorization": "CHOLESKY",
+      "relinearizationThreshold": "0.1 (verified installed parameter print; scalar getter unavailable)",
+      "wildfireThreshold": 0.001
+    },
+    "parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+    "available_api": [
+      "Factorization",
+      "cacheLinearizedFactors",
+      "enableDetailedResults",
+      "enablePartialRelinearizationCheck",
+      "enableRelinearization",
+      "evaluateNonlinearError",
+      "factorization",
+      "findUnusedFactorSlots",
+      "getFactorization",
+      "print",
+      "relinearizeSkip",
+      "setFactorization",
+      "setOptimizationParams",
+      "setRelinearizeThreshold"
+    ],
+    "threshold_getter": "UNAVAILABLE",
+    "optimization": "installed default GaussNewton",
+    "one_update_per_event": true,
+    "extra_empty_updates": 0,
+    "estimate_method": "calculateEstimate (default wildfire behavior)",
+    "GT_used": false
+  },
+  "extra_empty_updates": 0,
+  "agreement_diagnostic": {
+    "UTC": "2026-10-08T12:20:30.999385+00:00",
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0,
+    "same_gauge_no_alignment": true,
+    "not_GT_accuracy": true,
+    "no_threshold_changes": true,
+    "GT_used": false
+  },
+  "checkpoint_rules": [
+    "PRE_FIRST_BRIDGE",
+    "FIRST_BRIDGE",
+    "FIRST_POST_BRIDGE_UPDATE",
+    "DUAL_STREAM_K2",
+    "DUAL_STREAM_K5",
+    "DUAL_STREAM_K10",
+    "DUAL_STREAM_K20",
+    "DUAL_STREAM_K40",
+    "DUAL_STREAM_K75",
+    "ROBOT1_FINISHED",
+    "ROBOT3_FINISHED",
+    "FINAL"
+  ],
+  "batch_initialization": "frozen first-bridge canonical local/common x0 restricted to exactly available nodes; default12D LM",
+  "integrity": {
+    "absolute_translation_xyz_m": 100.0,
+    "new_lineage_jump": "post XYZ>5x Stage12C frozen XY step limit AND pre-common XYZ<=5x same limit",
+    "thresholds_fitted_to_clean_result": false
+  },
+  "map_protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5,
+    "range_m": [
+      1,
+      60
+    ]
+  },
+  "GT_used": false,
+  "NETWORK_COMMUNICATION": "NETWORK_COMMUNICATION_NOT_MEASURED",
+  "typed_message_categories": [
+    "LOCAL_KEYFRAME_METADATA",
+    "ODOMETRY_FACTOR",
+    "LOOP_CONSTRAINT",
+    "MAP_CHUNK_REQUEST",
+    "MAP_CHUNK_RESPONSE"
+  ],
+  "network_payloads_serialized": false
+}

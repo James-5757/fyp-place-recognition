@@ -1,0 +1,44 @@
+{
+  "status": "DUAL_STREAM_BACKEND_READY",
+  "first10": [
+    45,
+    89,
+    90,
+    94,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61
+  ],
+  "first": {
+    "loop_id": 45,
+    "event_index": 267,
+    "normalized_ns": 66501611950,
+    "normalized_time_s": 66.50161195,
+    "current_keyframes": {
+      "robot1": 283,
+      "robot3": 367
+    },
+    "local_nodes": {
+      "robot1": 134,
+      "robot3": 134
+    },
+    "joint_nodes": 268,
+    "odom_factors": 266,
+    "loop_factors": 1,
+    "prior_factors": 1,
+    "components_before": 2,
+    "components_after": 1,
+    "initial_alignment_residual": {
+      "translation_m": 1.432144669219779e-14,
+      "rotation_deg": 1.5905806597954793e-15
+    },
+    "graph_construction_ms": 6.252477876842022,
+    "first_isam2_update_ms": 3.2714339904487133,
+    "estimate_extraction_ms": 0.42410707101225853,
+    "first_map_publication_ms": 132.4341930449009,
+    "first_fusion_service_ms": 142.48698530718684
+  }
+}

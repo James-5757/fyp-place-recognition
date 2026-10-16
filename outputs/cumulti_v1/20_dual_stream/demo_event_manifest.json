@@ -1,0 +1,2696 @@
+{
+  "jumps": {
+    "PRE_FIRST_BRIDGE": 266,
+    "FIRST_BRIDGE": 267,
+    "FIRST_POST_BRIDGE_UPDATE": 268,
+    "ROBOT1_FINISHED": 3698,
+    "DUAL_STREAM_K2": 4097,
+    "DUAL_STREAM_K5": 4166,
+    "DUAL_STREAM_K10": 4262,
+    "DUAL_STREAM_K20": 4549,
+    "DUAL_STREAM_K40": 4974,
+    "DUAL_STREAM_K75": 5792,
+    "ROBOT3_FINISHED": 5795,
+    "FINAL": 5795
+  },
+  "states": [
+    {
+      "name": "PERIODIC_0000",
+      "file": "PERIODIC_0000.json",
+      "kf": 150,
+      "r3kf": 234,
+      "K": 0,
+      "event_index": 1,
+      "normalized_ns": "0",
+      "global_initialized": false
+    },
+    {
+      "name": "PERIODIC_0060",
+      "file": "PERIODIC_0060.json",
+      "kf": 270,
+      "r3kf": 353,
+      "K": 0,
+      "event_index": 240,
+      "normalized_ns": "60001929669",
+      "global_initialized": false
+    },
+    {
+      "name": "PRE_FIRST_BRIDGE",
+      "file": "PRE_FIRST_BRIDGE.json",
+      "kf": 282,
+      "r3kf": 367,
+      "K": 0,
+      "event_index": 266,
+      "normalized_ns": "66498993686",
+      "global_initialized": false
+    },
+    {
+      "name": "FIRST_BRIDGE",
+      "file": "FIRST_BRIDGE.json",
+      "kf": 283,
+      "r3kf": 367,
+      "K": 1,
+      "event_index": 267,
+      "normalized_ns": "66501611950",
+      "global_initialized": true
+    },
+    {
+      "name": "FIRST_POST_BRIDGE_UPDATE",
+      "file": "FIRST_POST_BRIDGE_UPDATE.json",
+      "kf": 284,
+      "r3kf": 367,
+      "K": 1,
+      "event_index": 268,
+      "normalized_ns": "67001303540",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0120",
+      "file": "PERIODIC_0120.json",
+      "kf": 390,
+      "r3kf": 474,
+      "K": 1,
+      "event_index": 481,
+      "normalized_ns": "120002742478",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0180",
+      "file": "PERIODIC_0180.json",
+      "kf": 509,
+      "r3kf": 594,
+      "K": 1,
+      "event_index": 720,
+      "normalized_ns": "180001733638",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0240",
+      "file": "PERIODIC_0240.json",
+      "kf": 629,
+      "r3kf": 714,
+      "K": 1,
+      "event_index": 960,
+      "normalized_ns": "240000910656",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0300",
+      "file": "PERIODIC_0300.json",
+      "kf": 749,
+      "r3kf": 834,
+      "K": 1,
+      "event_index": 1200,
+      "normalized_ns": "300002125324",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0360",
+      "file": "PERIODIC_0360.json",
+      "kf": 870,
+      "r3kf": 954,
+      "K": 1,
+      "event_index": 1441,
+      "normalized_ns": "360002781795",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0420",
+      "file": "PERIODIC_0420.json",
+      "kf": 990,
+      "r3kf": 1074,
+      "K": 1,
+      "event_index": 1681,
+      "normalized_ns": "420006146988",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0480",
+      "file": "PERIODIC_0480.json",
+      "kf": 1109,
+      "r3kf": 1194,
+      "K": 1,
+      "event_index": 1920,
+      "normalized_ns": "480003043799",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0540",
+      "file": "PERIODIC_0540.json",
+      "kf": 1230,
+      "r3kf": 1314,
+      "K": 1,
+      "event_index": 2161,
+      "normalized_ns": "540002465026",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0600",
+      "file": "PERIODIC_0600.json",
+      "kf": 1350,
+      "r3kf": 1433,
+      "K": 1,
+      "event_index": 2400,
+      "normalized_ns": "600000246951",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0660",
+      "file": "PERIODIC_0660.json",
+      "kf": 1470,
+      "r3kf": 1553,
+      "K": 1,
+      "event_index": 2640,
+      "normalized_ns": "660002824003",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0720",
+      "file": "PERIODIC_0720.json",
+      "kf": 1590,
+      "r3kf": 1673,
+      "K": 1,
+      "event_index": 2880,
+      "normalized_ns": "720003223040",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0780",
+      "file": "PERIODIC_0780.json",
+      "kf": 1710,
+      "r3kf": 1794,
+      "K": 1,
+      "event_index": 3121,
+      "normalized_ns": "780005314906",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0840",
+      "file": "PERIODIC_0840.json",
+      "kf": 1830,
+      "r3kf": 1913,
+      "K": 1,
+      "event_index": 3360,
+      "normalized_ns": "840000703588",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0900",
+      "file": "PERIODIC_0900.json",
+      "kf": 1950,
+      "r3kf": 2034,
+      "K": 1,
+      "event_index": 3601,
+      "normalized_ns": "900003663072",
+      "global_initialized": true
+    },
+    {
+      "name": "ROBOT1_FINISHED",
+      "file": "ROBOT1_FINISHED.json",
+      "kf": 1999,
+      "r3kf": 2082,
+      "K": 1,
+      "event_index": 3698,
+      "normalized_ns": "924500771226",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_0960",
+      "file": "PERIODIC_0960.json",
+      "kf": 1999,
+      "r3kf": 2154,
+      "K": 1,
+      "event_index": 3770,
+      "normalized_ns": "960003779673",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1020",
+      "file": "PERIODIC_1020.json",
+      "kf": 1999,
+      "r3kf": 2274,
+      "K": 1,
+      "event_index": 3890,
+      "normalized_ns": "1020002747491",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1080",
+      "file": "PERIODIC_1080.json",
+      "kf": 1999,
+      "r3kf": 2394,
+      "K": 1,
+      "event_index": 4010,
+      "normalized_ns": "1080000700338",
+      "global_initialized": true
+    },
+    {
+      "name": "DUAL_STREAM_K2",
+      "file": "DUAL_STREAM_K2.json",
+      "kf": 1999,
+      "r3kf": 2481,
+      "K": 2,
+      "event_index": 4097,
+      "normalized_ns": "1123502391955",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_03",
+      "file": "LOOP_03.json",
+      "kf": 1999,
+      "r3kf": 2493,
+      "K": 3,
+      "event_index": 4109,
+      "normalized_ns": "1129505281137",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1140",
+      "file": "PERIODIC_1140.json",
+      "kf": 1999,
+      "r3kf": 2514,
+      "K": 3,
+      "event_index": 4130,
+      "normalized_ns": "1140005237885",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_04",
+      "file": "LOOP_04.json",
+      "kf": 1999,
+      "r3kf": 2528,
+      "K": 4,
+      "event_index": 4144,
+      "normalized_ns": "1147004675818",
+      "global_initialized": true
+    },
+    {
+      "name": "DUAL_STREAM_K5",
+      "file": "DUAL_STREAM_K5.json",
+      "kf": 1999,
+      "r3kf": 2550,
+      "K": 5,
+      "event_index": 4166,
+      "normalized_ns": "1158005397537",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_06",
+      "file": "LOOP_06.json",
+      "kf": 1999,
+      "r3kf": 2615,
+      "K": 6,
+      "event_index": 4231,
+      "normalized_ns": "1190507546857",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_07",
+      "file": "LOOP_07.json",
+      "kf": 1999,
+      "r3kf": 2620,
+      "K": 7,
+      "event_index": 4236,
+      "normalized_ns": "1193006918306",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_08",
+      "file": "LOOP_08.json",
+      "kf": 1999,
+      "r3kf": 2625,
+      "K": 8,
+      "event_index": 4241,
+      "normalized_ns": "1195507140662",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_09",
+      "file": "LOOP_09.json",
+      "kf": 1999,
+      "r3kf": 2628,
+      "K": 9,
+      "event_index": 4244,
+      "normalized_ns": "1197013324060",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1200",
+      "file": "PERIODIC_1200.json",
+      "kf": 1999,
+      "r3kf": 2634,
+      "K": 9,
+      "event_index": 4250,
+      "normalized_ns": "1200002876648",
+      "global_initialized": true
+    },
+    {
+      "name": "DUAL_STREAM_K10",
+      "file": "DUAL_STREAM_K10.json",
+      "kf": 1999,
+      "r3kf": 2646,
+      "K": 11,
+      "event_index": 4262,
+      "normalized_ns": "1206009113574",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_12",
+      "file": "LOOP_12.json",
+      "kf": 1999,
+      "r3kf": 2654,
+      "K": 12,
+      "event_index": 4270,
+      "normalized_ns": "1210005029170",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_13",
+      "file": "LOOP_13.json",
+      "kf": 1999,
+      "r3kf": 2678,
+      "K": 13,
+      "event_index": 4294,
+      "normalized_ns": "1222010220148",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1260",
+      "file": "PERIODIC_1260.json",
+      "kf": 1999,
+      "r3kf": 2754,
+      "K": 13,
+      "event_index": 4370,
+      "normalized_ns": "1260010924458",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_14",
+      "file": "LOOP_14.json",
+      "kf": 1999,
+      "r3kf": 2755,
+      "K": 14,
+      "event_index": 4371,
+      "normalized_ns": "1260509394482",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_15",
+      "file": "LOOP_15.json",
+      "kf": 1999,
+      "r3kf": 2798,
+      "K": 15,
+      "event_index": 4414,
+      "normalized_ns": "1282013241534",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_16",
+      "file": "LOOP_16.json",
+      "kf": 1999,
+      "r3kf": 2819,
+      "K": 16,
+      "event_index": 4435,
+      "normalized_ns": "1292505985966",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_17",
+      "file": "LOOP_17.json",
+      "kf": 1999,
+      "r3kf": 2865,
+      "K": 17,
+      "event_index": 4481,
+      "normalized_ns": "1315510341325",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1320",
+      "file": "PERIODIC_1320.json",
+      "kf": 1999,
+      "r3kf": 2874,
+      "K": 17,
+      "event_index": 4490,
+      "normalized_ns": "1320011407513",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_18",
+      "file": "LOOP_18.json",
+      "kf": 1999,
+      "r3kf": 2908,
+      "K": 18,
+      "event_index": 4524,
+      "normalized_ns": "1337006173269",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_19",
+      "file": "LOOP_19.json",
+      "kf": 1999,
+      "r3kf": 2930,
+      "K": 19,
+      "event_index": 4546,
+      "normalized_ns": "1348010955258",
+      "global_initialized": true
+    },
+    {
+      "name": "DUAL_STREAM_K20",
+      "file": "DUAL_STREAM_K20.json",
+      "kf": 1999,
+      "r3kf": 2933,
+      "K": 20,
+      "event_index": 4549,
+      "normalized_ns": "1349508052840",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1380",
+      "file": "PERIODIC_1380.json",
+      "kf": 1999,
+      "r3kf": 2994,
+      "K": 20,
+      "event_index": 4610,
+      "normalized_ns": "1380007454031",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_21",
+      "file": "LOOP_21.json",
+      "kf": 1999,
+      "r3kf": 3012,
+      "K": 21,
+      "event_index": 4628,
+      "normalized_ns": "1389008130552",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_22",
+      "file": "LOOP_22.json",
+      "kf": 1999,
+      "r3kf": 3019,
+      "K": 22,
+      "event_index": 4635,
+      "normalized_ns": "1392510004455",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_23",
+      "file": "LOOP_23.json",
+      "kf": 1999,
+      "r3kf": 3041,
+      "K": 23,
+      "event_index": 4657,
+      "normalized_ns": "1403504110975",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_24",
+      "file": "LOOP_24.json",
+      "kf": 1999,
+      "r3kf": 3043,
+      "K": 24,
+      "event_index": 4659,
+      "normalized_ns": "1404520131075",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_25",
+      "file": "LOOP_25.json",
+      "kf": 1999,
+      "r3kf": 3072,
+      "K": 25,
+      "event_index": 4688,
+      "normalized_ns": "1419009715325",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_26",
+      "file": "LOOP_26.json",
+      "kf": 1999,
+      "r3kf": 3073,
+      "K": 26,
+      "event_index": 4689,
+      "normalized_ns": "1419511519028",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_27",
+      "file": "LOOP_27.json",
+      "kf": 1999,
+      "r3kf": 3082,
+      "K": 27,
+      "event_index": 4698,
+      "normalized_ns": "1424007122315",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1440",
+      "file": "PERIODIC_1440.json",
+      "kf": 1999,
+      "r3kf": 3114,
+      "K": 27,
+      "event_index": 4730,
+      "normalized_ns": "1440016723762",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_28",
+      "file": "LOOP_28.json",
+      "kf": 1999,
+      "r3kf": 3124,
+      "K": 28,
+      "event_index": 4740,
+      "normalized_ns": "1445017869200",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_29",
+      "file": "LOOP_29.json",
+      "kf": 1999,
+      "r3kf": 3130,
+      "K": 29,
+      "event_index": 4746,
+      "normalized_ns": "1448017355866",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_30",
+      "file": "LOOP_30.json",
+      "kf": 1999,
+      "r3kf": 3168,
+      "K": 30,
+      "event_index": 4784,
+      "normalized_ns": "1467011208069",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_31",
+      "file": "LOOP_31.json",
+      "kf": 1999,
+      "r3kf": 3174,
+      "K": 31,
+      "event_index": 4790,
+      "normalized_ns": "1470006351923",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_32",
+      "file": "LOOP_32.json",
+      "kf": 1999,
+      "r3kf": 3199,
+      "K": 32,
+      "event_index": 4815,
+      "normalized_ns": "1482513926266",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_33",
+      "file": "LOOP_33.json",
+      "kf": 1999,
+      "r3kf": 3218,
+      "K": 33,
+      "event_index": 4834,
+      "normalized_ns": "1492012473632",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1500",
+      "file": "PERIODIC_1500.json",
+      "kf": 1999,
+      "r3kf": 3234,
+      "K": 33,
+      "event_index": 4850,
+      "normalized_ns": "1500012797990",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_34",
+      "file": "LOOP_34.json",
+      "kf": 1999,
+      "r3kf": 3248,
+      "K": 34,
+      "event_index": 4864,
+      "normalized_ns": "1507008559853",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_35",
+      "file": "LOOP_35.json",
+      "kf": 1999,
+      "r3kf": 3261,
+      "K": 35,
+      "event_index": 4877,
+      "normalized_ns": "1513511520665",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_36",
+      "file": "LOOP_36.json",
+      "kf": 1999,
+      "r3kf": 3271,
+      "K": 36,
+      "event_index": 4887,
+      "normalized_ns": "1518519392410",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_37",
+      "file": "LOOP_37.json",
+      "kf": 1999,
+      "r3kf": 3276,
+      "K": 37,
+      "event_index": 4892,
+      "normalized_ns": "1521005077173",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_38",
+      "file": "LOOP_38.json",
+      "kf": 1999,
+      "r3kf": 3347,
+      "K": 38,
+      "event_index": 4963,
+      "normalized_ns": "1556510611187",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1560",
+      "file": "PERIODIC_1560.json",
+      "kf": 1999,
+      "r3kf": 3354,
+      "K": 38,
+      "event_index": 4970,
+      "normalized_ns": "1560013094009",
+      "global_initialized": true
+    },
+    {
+      "name": "DUAL_STREAM_K40",
+      "file": "DUAL_STREAM_K40.json",
+      "kf": 1999,
+      "r3kf": 3358,
+      "K": 41,
+      "event_index": 4974,
+      "normalized_ns": "1562015466358",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_42",
+      "file": "LOOP_42.json",
+      "kf": 1999,
+      "r3kf": 3360,
+      "K": 42,
+      "event_index": 4976,
+      "normalized_ns": "1563015035876",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_44",
+      "file": "LOOP_44.json",
+      "kf": 1999,
+      "r3kf": 3365,
+      "K": 44,
+      "event_index": 4981,
+      "normalized_ns": "1565519114643",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_45",
+      "file": "LOOP_45.json",
+      "kf": 1999,
+      "r3kf": 3369,
+      "K": 45,
+      "event_index": 4985,
+      "normalized_ns": "1567509672147",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_46",
+      "file": "LOOP_46.json",
+      "kf": 1999,
+      "r3kf": 3379,
+      "K": 46,
+      "event_index": 4995,
+      "normalized_ns": "1572510395782",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_47",
+      "file": "LOOP_47.json",
+      "kf": 1999,
+      "r3kf": 3382,
+      "K": 47,
+      "event_index": 4998,
+      "normalized_ns": "1574012299442",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_49",
+      "file": "LOOP_49.json",
+      "kf": 1999,
+      "r3kf": 3399,
+      "K": 49,
+      "event_index": 5015,
+      "normalized_ns": "1582510026742",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_50",
+      "file": "LOOP_50.json",
+      "kf": 1999,
+      "r3kf": 3413,
+      "K": 50,
+      "event_index": 5029,
+      "normalized_ns": "1589506250114",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_51",
+      "file": "LOOP_51.json",
+      "kf": 1999,
+      "r3kf": 3417,
+      "K": 51,
+      "event_index": 5033,
+      "normalized_ns": "1591507789286",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_52",
+      "file": "LOOP_52.json",
+      "kf": 1999,
+      "r3kf": 3426,
+      "K": 52,
+      "event_index": 5042,
+      "normalized_ns": "1596009956531",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_53",
+      "file": "LOOP_53.json",
+      "kf": 1999,
+      "r3kf": 3451,
+      "K": 53,
+      "event_index": 5067,
+      "normalized_ns": "1608514355408",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_54",
+      "file": "LOOP_54.json",
+      "kf": 1999,
+      "r3kf": 3454,
+      "K": 54,
+      "event_index": 5070,
+      "normalized_ns": "1610007879769",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_55",
+      "file": "LOOP_55.json",
+      "kf": 1999,
+      "r3kf": 3461,
+      "K": 55,
+      "event_index": 5077,
+      "normalized_ns": "1613511121916",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_56",
+      "file": "LOOP_56.json",
+      "kf": 1999,
+      "r3kf": 3464,
+      "K": 56,
+      "event_index": 5080,
+      "normalized_ns": "1615013772941",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1620",
+      "file": "PERIODIC_1620.json",
+      "kf": 1999,
+      "r3kf": 3474,
+      "K": 56,
+      "event_index": 5090,
+      "normalized_ns": "1620009634538",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_57",
+      "file": "LOOP_57.json",
+      "kf": 1999,
+      "r3kf": 3494,
+      "K": 57,
+      "event_index": 5110,
+      "normalized_ns": "1630007761099",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_58",
+      "file": "LOOP_58.json",
+      "kf": 1999,
+      "r3kf": 3500,
+      "K": 58,
+      "event_index": 5116,
+      "normalized_ns": "1633007053537",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_59",
+      "file": "LOOP_59.json",
+      "kf": 1999,
+      "r3kf": 3504,
+      "K": 59,
+      "event_index": 5120,
+      "normalized_ns": "1635009107104",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_60",
+      "file": "LOOP_60.json",
+      "kf": 1999,
+      "r3kf": 3513,
+      "K": 60,
+      "event_index": 5129,
+      "normalized_ns": "1639506482701",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_61",
+      "file": "LOOP_61.json",
+      "kf": 1999,
+      "r3kf": 3522,
+      "K": 61,
+      "event_index": 5138,
+      "normalized_ns": "1644018024823",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_62",
+      "file": "LOOP_62.json",
+      "kf": 1999,
+      "r3kf": 3525,
+      "K": 62,
+      "event_index": 5141,
+      "normalized_ns": "1645508081308",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_63",
+      "file": "LOOP_63.json",
+      "kf": 1999,
+      "r3kf": 3529,
+      "K": 63,
+      "event_index": 5145,
+      "normalized_ns": "1647515973685",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_64",
+      "file": "LOOP_64.json",
+      "kf": 1999,
+      "r3kf": 3535,
+      "K": 64,
+      "event_index": 5151,
+      "normalized_ns": "1650504267992",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1680",
+      "file": "PERIODIC_1680.json",
+      "kf": 1999,
+      "r3kf": 3594,
+      "K": 64,
+      "event_index": 5210,
+      "normalized_ns": "1680011138942",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_65",
+      "file": "LOOP_65.json",
+      "kf": 1999,
+      "r3kf": 3613,
+      "K": 65,
+      "event_index": 5229,
+      "normalized_ns": "1689506909004",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_66",
+      "file": "LOOP_66.json",
+      "kf": 1999,
+      "r3kf": 3645,
+      "K": 66,
+      "event_index": 5261,
+      "normalized_ns": "1705510509530",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_67",
+      "file": "LOOP_67.json",
+      "kf": 1999,
+      "r3kf": 3672,
+      "K": 67,
+      "event_index": 5288,
+      "normalized_ns": "1719008552600",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_68",
+      "file": "LOOP_68.json",
+      "kf": 1999,
+      "r3kf": 3686,
+      "K": 68,
+      "event_index": 5302,
+      "normalized_ns": "1726005581900",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1740",
+      "file": "PERIODIC_1740.json",
+      "kf": 1999,
+      "r3kf": 3714,
+      "K": 68,
+      "event_index": 5330,
+      "normalized_ns": "1740008583604",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_69",
+      "file": "LOOP_69.json",
+      "kf": 1999,
+      "r3kf": 3742,
+      "K": 69,
+      "event_index": 5358,
+      "normalized_ns": "1754009769510",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_70",
+      "file": "LOOP_70.json",
+      "kf": 1999,
+      "r3kf": 3764,
+      "K": 70,
+      "event_index": 5380,
+      "normalized_ns": "1765005445438",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_71",
+      "file": "LOOP_71.json",
+      "kf": 1999,
+      "r3kf": 3771,
+      "K": 71,
+      "event_index": 5387,
+      "normalized_ns": "1768518007162",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_72",
+      "file": "LOOP_72.json",
+      "kf": 1999,
+      "r3kf": 3779,
+      "K": 72,
+      "event_index": 5395,
+      "normalized_ns": "1772507614693",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_73",
+      "file": "LOOP_73.json",
+      "kf": 1999,
+      "r3kf": 3802,
+      "K": 73,
+      "event_index": 5418,
+      "normalized_ns": "1784005603536",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1800",
+      "file": "PERIODIC_1800.json",
+      "kf": 1999,
+      "r3kf": 3834,
+      "K": 73,
+      "event_index": 5450,
+      "normalized_ns": "1800009476342",
+      "global_initialized": true
+    },
+    {
+      "name": "LOOP_74",
+      "file": "LOOP_74.json",
+      "kf": 1999,
+      "r3kf": 3863,
+      "K": 74,
+      "event_index": 5479,
+      "normalized_ns": "1814505340164",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1860",
+      "file": "PERIODIC_1860.json",
+      "kf": 1999,
+      "r3kf": 3954,
+      "K": 74,
+      "event_index": 5570,
+      "normalized_ns": "1860013397729",
+      "global_initialized": true
+    },
+    {
+      "name": "PERIODIC_1920",
+      "file": "PERIODIC_1920.json",
+      "kf": 1999,
+      "r3kf": 4074,
+      "K": 74,
+      "event_index": 5690,
+      "normalized_ns": "1920009660998",
+      "global_initialized": true
+    },
+    {
+      "name": "DUAL_STREAM_K75",
+      "file": "DUAL_STREAM_K75.json",
+      "kf": 1999,
+      "r3kf": 4176,
+      "K": 75,
+      "event_index": 5792,
+      "normalized_ns": "1971008126066",
+      "global_initialized": true
+    },
+    {
+      "name": "ROBOT3_FINISHED",
+      "file": "ROBOT3_FINISHED.json",
+      "kf": 1999,
+      "r3kf": 4179,
+      "K": 75,
+      "event_index": 5795,
+      "normalized_ns": "1972507870178",
+      "global_initialized": true
+    },
+    {
+      "name": "FINAL",
+      "file": "FINAL.json",
+      "kf": 1999,
+      "r3kf": 4179,
+      "K": 75,
+      "event_index": 5795,
+      "normalized_ns": "1972507870178",
+      "global_initialized": true
+    }
+  ],
+  "first10": [
+    45,
+    89,
+    90,
+    94,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61
+  ],
+  "base_compression": 10,
+  "global_pose_policy": "latest actual saved state at/before selected event; step-held and explicitly labelled, no interpolation",
+  "local_pose_policy": "each own arrived immutable local prefix",
+  "sources": [
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000234_lidar_1722894326626535261.npy",
+      "sha256": "f644e7398be7694cfd46298d9804c2bbb00e494630d69e676649dd12789fedcc"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000244_lidar_1722894331677008888.npy",
+      "sha256": "636441f886a3dd43b80eb1b24b3646140bc5650e887aa3207000fd407d521b73"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000254_lidar_1722894336676780769.npy",
+      "sha256": "065af62933cb8f7e0028b26e5d2560d7ae25a245a8db092d7aadf7cd02d7ebe2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000264_lidar_1722894341675676757.npy",
+      "sha256": "64fd37ad51f18dd9ff298f2198d0a68c44bcb26d8e646c0de077932229ef484a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000274_lidar_1722894346624364101.npy",
+      "sha256": "16c238e920fb670d4bf8252410133e805d46d5ed879958370ad29cab924463c7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000284_lidar_1722894351627991292.npy",
+      "sha256": "9108335f23c3eb2c9c89c4fa3eabbd6e38a230debd323c948f07e62497f088b1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000294_lidar_1722894356674447342.npy",
+      "sha256": "66b6e49d84d213fc0bd42c5422fed95acf7c478bbe4b5383006e4d6044445505"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000304_lidar_1722894361624758758.npy",
+      "sha256": "d0bea9ead87549dd37c287084110b576fc5858b27b205ef0dfd8db0e8c20c271"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000314_lidar_1722894366675487232.npy",
+      "sha256": "60aeb3be58bd8eb56aa5cc514cf9c07cb1952c75287e425ed25aebc72dd0948d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000324_lidar_1722894371624798606.npy",
+      "sha256": "7302cc5ad85d0aeb43d879d1e1614130447c04339e1aca39c92b27e74b4dc325"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000334_lidar_1722894376676002439.npy",
+      "sha256": "d1aad3e15a3b1fea1712f433c95f94f2f916939f842eed5d3128d846f66189f1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000344_lidar_1722894381625389733.npy",
+      "sha256": "096389b63ef6df174fd47a74f06d6ac6da8d84c0f7d4843c3520976e4afe76b8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000354_lidar_1722894386675829761.npy",
+      "sha256": "09f901a87b2dd043b7bbeb6b23621002c51a1168f71156dc17a4987f71632281"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000364_lidar_1722894391624668717.npy",
+      "sha256": "9a4505401897f852052f76169332679abcb4a1e6053ef0381a2376de1ecfb452"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000374_lidar_1722894396627389944.npy",
+      "sha256": "989a07e62c02f493e7c3a18bc465e361f8cf8083b9cb075db068564b53b4ef25"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000384_lidar_1722894401628754080.npy",
+      "sha256": "40f76646b22a6850d79a8c9dcbcf0ea19ba0991ef2c522227bb9b7ddfb94055d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000394_lidar_1722894406625973713.npy",
+      "sha256": "a124d5976f099fa3b54193fb837f842b1a59c9084623fe41ebd75480568429fe"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000404_lidar_1722894411623820341.npy",
+      "sha256": "b89cb1cc5897732d58cf4bce44cd8dafda67d1e13f903c44c943a9b2637e58c6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000414_lidar_1722894416674542858.npy",
+      "sha256": "dcbe5c6f9b05c3b71448621c0ea8bd752a6c65905baf148433bb8a0cb5f23361"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000424_lidar_1722894421623622710.npy",
+      "sha256": "8f073cf766beaa4837fb6ac1742d17385501fcc4c9e581fd96d9153ecf749593"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000434_lidar_1722894426675557617.npy",
+      "sha256": "618a6a9f0e339f90ef2a3cc4c6cda8e7d7e26f9ffe9407c15cb6400f831e7e3b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000444_lidar_1722894431625293053.npy",
+      "sha256": "bca5dd86da17d1371fffb9b1a4155bad706e4a83a70eca16d6e96f12a5e272ef"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000454_lidar_1722894436623647143.npy",
+      "sha256": "af1934cfc3f6cdaf6b77d30bd3ce3951460f58ed2199355f88eb461cb58b09d7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000464_lidar_1722894441624914574.npy",
+      "sha256": "a92dbd2eaec14de77ccd7eb98f326ad189aff31f3198b1e7ec3fadbf56767a9d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000474_lidar_1722894446625153913.npy",
+      "sha256": "6db0c4267d615b30ac05a585b05d4b88e94d5a49be94c7d2d03dfdd66df1cb9f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000484_lidar_1722894451623632878.npy",
+      "sha256": "61c6cd03bc80673eb3430e74cb8279547d281ad64a66fd2671919d34ccf391d1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000494_lidar_1722894456625605197.npy",
+      "sha256": "7801b5736297a6b0cc95234078f4af12baaac00d6f943705af3ade2ca418e7eb"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000504_lidar_1722894461628318478.npy",
+      "sha256": "903fa966aa3d8fb5d9fa3495ee8b8924adc57f797a9c67eef80a971dac4b1bb0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000514_lidar_1722894466625051876.npy",
+      "sha256": "afca81e5587ff5216c86d0cfcdf9662a6e136b15895d94b899c3b228da91fdbf"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000524_lidar_1722894471624372089.npy",
+      "sha256": "416053cd4cc79048053855ca38518031e1858c7441f585c0b32a2944e781856f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000534_lidar_1722894476624711790.npy",
+      "sha256": "a35c7d9bcaec5d68f84f21cdf8f310fcd144a559d243b356d91b2994699fbacf"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000544_lidar_1722894481674675069.npy",
+      "sha256": "8413fb5d7695d392b930e98d815d1ee3f08d7c382ad3c8302af31b8991e2eca9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000554_lidar_1722894486631304373.npy",
+      "sha256": "9d7f7bdda2bbc4ad322392ecb9b72fea322e68162aa8c0799f3862754bcd3e64"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000564_lidar_1722894491675407322.npy",
+      "sha256": "a729d835f30471aa311aaba007292b77c21abb6ac8e83dee575b163b52a4f2e6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000574_lidar_1722894496624256901.npy",
+      "sha256": "67caf79fcbbde3d7bf9399949995f407765ad9161768f6aab57f78cde6a8e1c3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000584_lidar_1722894501625646087.npy",
+      "sha256": "ab8705c55d0efc52a8eb35fe1ac58c299d69a3d961052366ebce9a8d9aec46df"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000594_lidar_1722894506628268899.npy",
+      "sha256": "0b8e02ea5c7ae45a238416abcaae55d2db348702cb87bf742f78c3cbe03a493c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000604_lidar_1722894511627809300.npy",
+      "sha256": "ccb5e1921fc6273ccbdb4c138cd475bf62b3424b71f24a9752528ba618213ceb"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000614_lidar_1722894516628125237.npy",
+      "sha256": "17c5b5459a4a4b0162ab8c419b6830e5eee32ca0184f19dcb43a6ddc7a704778"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000624_lidar_1722894521626062725.npy",
+      "sha256": "e0c038bfdbe7e0f15de751ea35004cf85852573a52d4bc228873ced546ccfd54"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000634_lidar_1722894526624044250.npy",
+      "sha256": "faefd473bbd31d9b1c76e7aac4843a13b11de8e626fadfe9d1d0f3cbc303dc5c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000644_lidar_1722894531680334273.npy",
+      "sha256": "18bff7a8627002c9f4ba34526ab59b043a62afbb8c0faf0e2aabe21be1052503"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000654_lidar_1722894536623968128.npy",
+      "sha256": "e984830459fae1817bd009fb3d9c2acaba586073b40bb71f85598a465c39f4f1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000664_lidar_1722894541627605221.npy",
+      "sha256": "8fcb168291bf1b3d63dc98c13755670ec0bc85cdb22a6bfa4de44a6b23fb950e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000674_lidar_1722894546627291921.npy",
+      "sha256": "4286ddf1ada15d6c62d8d2128c26e12609aa978575494167bef18d823bfa277e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000684_lidar_1722894551629551450.npy",
+      "sha256": "93fff002e7df39f934d8ec779208324d47a0f5292e7ce99da1559ba81daec7dc"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000694_lidar_1722894556626500973.npy",
+      "sha256": "6980cabe921617d4c75f85ee02bd7536415ae93c27edfa2778d90b5ec7a8a77c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000704_lidar_1722894561626132755.npy",
+      "sha256": "5e363d60390b6c5e5352968f30a9b9062d9ea093b9e97b8e157964096df7bb59"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000714_lidar_1722894566627445917.npy",
+      "sha256": "35febe7d6aece25b913d6a2b09b4788d32164bd3bd59f0b3edfd16861cdcf0d7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000724_lidar_1722894571625655265.npy",
+      "sha256": "f12bc6438349eba73b8e355aa5cd7c6a4e4d44628da690a045e61637eb8f3b47"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000734_lidar_1722894576623604909.npy",
+      "sha256": "bc5ea9e9da60c1407e7ffcad2f09e14f5f12dd3c3433745f168edae8198466fc"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000744_lidar_1722894581628987158.npy",
+      "sha256": "dcfaf15e79372661641fe81335d317bb315e5fb81faba3aa406eaa6168cb574d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000754_lidar_1722894586625971568.npy",
+      "sha256": "af73280b82aafbf4fb4a30c50871dbddfe44616d9fe489590a34dd44ac3ad7a8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000764_lidar_1722894591624944721.npy",
+      "sha256": "204c364e0413d214ee442812a7c07cdc07546a00be95fd2a77ac2094b8e6c919"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000774_lidar_1722894596626579702.npy",
+      "sha256": "333df1f1905efe77d345cbccbce0b59891eaa8dec3144228d720fe5497bd77b8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000784_lidar_1722894601625357995.npy",
+      "sha256": "b5269b4af887460e6c584da3bd88ccc6afd459d385045a57de60690b970032b7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000794_lidar_1722894606625566192.npy",
+      "sha256": "f4cac2f5f0642839fc6fd286bdb3036231eb4f27dd8cee6c57b3dd44d6b2ba3c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000804_lidar_1722894611628645055.npy",
+      "sha256": "f56385bd83197601f1310f9e237ed3386912ce10b11958860fe3cfadf641dc69"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000814_lidar_1722894616628542398.npy",
+      "sha256": "e9f8f2e896b53d2983a4f973543fba5aced4ec478f4149804d7c78a93222a9c1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000824_lidar_1722894621624630698.npy",
+      "sha256": "aae4e62eecdb05baf1159d1552e49647fb1b3af999595995950721a4c1de6019"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000834_lidar_1722894626628660585.npy",
+      "sha256": "246c9636fba61e68c5a24daeba3277233a4b7c93606d7c183c6321ddd3d72c19"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000844_lidar_1722894631624596128.npy",
+      "sha256": "a1e3469a8179a7c7ae4a8c2b5c23c619f4edb77e073de07f1a04302bc8f8c11f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000854_lidar_1722894636624624177.npy",
+      "sha256": "0da46f6f18f3250a2d60230649ea012cdec5d7a5814c4a6d34732a0f54110606"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000864_lidar_1722894641624781314.npy",
+      "sha256": "04c3b1c74968df59add2b6d5b2e864953e480a0c3613b9cc700d29f2e3eacd81"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000874_lidar_1722894646628268550.npy",
+      "sha256": "412e5b8ed8ad9041c7ab489d1189d72c5548e444de31fee8f071775527e73650"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000884_lidar_1722894651624029193.npy",
+      "sha256": "e08a92d91b5bd5445f5af493a9a966d1793a39b240b354c060072123145289fc"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000894_lidar_1722894656626101439.npy",
+      "sha256": "7d4254d65ab732558ae8380d24ec844fda77b3ff5676afb0ced993aeea66dd44"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000904_lidar_1722894661625089485.npy",
+      "sha256": "51ed811bb626d364bfdbcb46d6992616566d5e9b2a1bf550508b35964bbe5d12"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000914_lidar_1722894666627186206.npy",
+      "sha256": "85dad3ce204a2ea09b727d65e79d9006b6d44df1bb2601d0b8231095e127fd29"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000924_lidar_1722894671628620862.npy",
+      "sha256": "b9d3aa53c7866754f6878d64dccf8d0d12d6264246b6e8dda11ed3717675153b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000934_lidar_1722894676625681994.npy",
+      "sha256": "74a82606c132853db7308829732fcef5310064e730119db5b54baeffb4aa89c0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000944_lidar_1722894681624771762.npy",
+      "sha256": "1550c26c34186be8ab392f370f407a4d98f14df47da5dba0f214109ccae9e384"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000954_lidar_1722894686626088202.npy",
+      "sha256": "0188f0f72572f160bef8de7a1f32d94efb330503d1386e316ff3a84e9e21bc7d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000964_lidar_1722894691627258242.npy",
+      "sha256": "0cbcb5e06f0896d38ceb3098b98bd8857edd507c1ff17b0ec095f8fa9882970f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000974_lidar_1722894696625003610.npy",
+      "sha256": "00d3af29bb1b63cf14805bfd1d4db57e1e8115eb9a2c0ed2a28a251e253d2809"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000984_lidar_1722894701627155121.npy",
+      "sha256": "4ed40c22bc09af17fa886b9ddfa002b1bfc1e5463c8f2a51b25cac06c0e6942a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/000994_lidar_1722894706629267673.npy",
+      "sha256": "3d8a2aedb6c8ff58a9c55e1327fa50fb86423c21231146cc855aa97754e8cc30"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001004_lidar_1722894711625737044.npy",
+      "sha256": "b7ddbb040b44eec996598531b71ee131769b0fe95ddf9d48ebbc404d6a882945"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001014_lidar_1722894716633259856.npy",
+      "sha256": "448c328f00c9004880dfa44d2e963c66e3b4cf7f4055182ca1d7367bf83bfe68"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001024_lidar_1722894721627306857.npy",
+      "sha256": "6f6296f43d29fa4af60a82b0e6b943659873550ff490cfc5f9ef8ce0cbc22de5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001034_lidar_1722894726628283505.npy",
+      "sha256": "c501a73c16fb279f0873a422511f557475c0583d463ce249429b4c4d51f1f34f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001044_lidar_1722894731626297845.npy",
+      "sha256": "90cc0f5b19c834540b065d17175f53c6d8cc108d823ab50e18d7dafdac706941"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001054_lidar_1722894736625142433.npy",
+      "sha256": "900046ae3670f73e5dfe719753e52597c27701066eb2e95552b8712a8cb28ef2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001064_lidar_1722894741626760880.npy",
+      "sha256": "e10821dab67c7819df6dd0e1922c72933e8cd1a1dcd494797d7ef6253dbd713f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001074_lidar_1722894746623652886.npy",
+      "sha256": "ec8a36e0b85dfaf736353d9e1c0c34ed1fa6e05839388bf682086346baaeaa68"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001084_lidar_1722894751628211709.npy",
+      "sha256": "1b13edd9fa3b4e037df86e585637f41948d91e44c95d9845601d9d788c5ca33a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001094_lidar_1722894756625115784.npy",
+      "sha256": "f25d5dbb2f8ba1ffb835ab2fcc4a0552bd8400ca1a5c9e5370cb28604df64e99"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001104_lidar_1722894761627087533.npy",
+      "sha256": "83f5312ab75d81cb1ae39839ffd3a81766192fa9087f21e570695c33b95c48e5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001114_lidar_1722894766627291703.npy",
+      "sha256": "48771965831c9975aa1157e5a96423f928118df3e8437b69766d04a8320d851c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001124_lidar_1722894771628022071.npy",
+      "sha256": "90d1282c3b97e6d722ac85b475b830a024c51478cb3da21d46fc5348fb627cf4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001134_lidar_1722894776635632781.npy",
+      "sha256": "a1076da2f38f2a4d01ea4f4318f208f91a14b08f59e353b7480c547f25e10ad8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001144_lidar_1722894781628355730.npy",
+      "sha256": "e2ca9773850d0fd0be6591792b0a49aa0d3db109614fd39522b74fa3ac276bfd"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001154_lidar_1722894786624710680.npy",
+      "sha256": "d1acbfbdb25a7f174454a2a31105537b6adf2a71191695345491eac242eabd95"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001164_lidar_1722894791632823145.npy",
+      "sha256": "361eb68780e58fa6653bdb59f4526477d6877ccdeca362c0dac272f4f1bdcd42"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001174_lidar_1722894796625048164.npy",
+      "sha256": "e859fe452c250a14f1eafa64ae187b1848d46c64870834c0b44879a8e6489cff"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001184_lidar_1722894801628459299.npy",
+      "sha256": "78cafed89a39a9da1166ead7c7e8a32fe64f0ac7d5cba77dc72980cbbad97404"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001194_lidar_1722894806629579060.npy",
+      "sha256": "9a3e91655c7ccce7c11c36a3031b42a9938105a49eb0554363c5ac7c391d439b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001204_lidar_1722894811626081473.npy",
+      "sha256": "3445158baccd02546ffb04c57a03a6cb14f7fae2b8acedfbc1422ebfbb9bb2c1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001214_lidar_1722894816627782533.npy",
+      "sha256": "1a9182d018c4f44e18b87cfdd37ddcd05cb84a5155091e5c421d32f19d12de42"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001224_lidar_1722894821625010068.npy",
+      "sha256": "582d7875d95f6e2034708274ad006e33097b5441297257906e74f3c334ae3a5c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001234_lidar_1722894826628568480.npy",
+      "sha256": "a0d0607842d59cc8ebb43569d03a47c234613a165455f0a4305ef4dbaeb74404"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001244_lidar_1722894831625147586.npy",
+      "sha256": "baa86534f052002b6ae8912618a354e6e8aeb553c684448ac67c07cdf3214387"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001254_lidar_1722894836626678100.npy",
+      "sha256": "b35bcbb270a8607be5123beb599c95e47cc08d57d59d1e1e3f3a42cd7f4fae5e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001264_lidar_1722894841624824752.npy",
+      "sha256": "3c3d6e780490294ae85c1b10a246c1d74e6fd411d1746598931c5ea9f1590966"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001274_lidar_1722894846625917356.npy",
+      "sha256": "1d343773802f5768636510f9a7abb77be79d93aca4ea5e5e4ecb7e3010939537"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001284_lidar_1722894851625803049.npy",
+      "sha256": "a049dd354a6a6cacf1b98e58b055340129930c5f3ba1f204c751962917fd5683"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001294_lidar_1722894856625268859.npy",
+      "sha256": "bfeaf2988c49da100e48b321fca7494703ae67c0b2685bede8d24ea3433a017b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001304_lidar_1722894861628014773.npy",
+      "sha256": "0d6025cc45131f56b4d7fa745dffee9850200dbd0126ed620cd7dab6090f411e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001314_lidar_1722894866623803206.npy",
+      "sha256": "e8fd1ab70fe2ec26876288d674441c827d72504be947ed53d984323fb300d75a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001324_lidar_1722894871627764215.npy",
+      "sha256": "fd688fe978518c30c572b9213f391ef5710cce53d653722fa6e91bd7c42b4b24"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001334_lidar_1722894876625912316.npy",
+      "sha256": "0d7f416151f2789ba66c9e8f4b6313514ffcc0412ec6cca829cac8a4bdf66f2e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001344_lidar_1722894881630915277.npy",
+      "sha256": "9d52127f68d3c7fb3af9ef906799cd900f5d8a145c762dc8dff4bda6905786f5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001354_lidar_1722894886625881099.npy",
+      "sha256": "c9475ad1308e6f8b4595d1c4ae106d956d6c5d99b7e2bd278573e23e0250e616"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001364_lidar_1722894891627071416.npy",
+      "sha256": "4e1c691ab773efff98e1e8b9ec672f7adee875c1487e214fc4cc17b594887e3c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001374_lidar_1722894896627900265.npy",
+      "sha256": "2cb1c677bd51fc577517c8b49fd1cffdd1be25e246b069db5e7e57e5f9921369"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001384_lidar_1722894901625985782.npy",
+      "sha256": "cfd9c6e52b68b60f34c8d14bc2b9f5add343ebf88f7ce8d59797343bbad69279"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001394_lidar_1722894906624958963.npy",
+      "sha256": "3307183a93f5be4efc773e54d2ba6a128031ac87cbbb5554369f142483d9a3c7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001404_lidar_1722894911628799153.npy",
+      "sha256": "cc3ffb10cf7451dfcffcd2da32a2239cb960b745aa6bcc381ba452f44a35561d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001414_lidar_1722894916627665332.npy",
+      "sha256": "b2faceac0f1811214d0415ee492a23e947085fd1f54cce6e3d236ef405d3dd96"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001424_lidar_1722894921629773307.npy",
+      "sha256": "f8c0fbb602ca5f11b26ffc3435a58cfedfac110dea7298ddad4dbe6af82333c0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001434_lidar_1722894926627647180.npy",
+      "sha256": "f5926b4b42739d7f0323f3bdcabb89df9e6cb76dc8bdf8cd3289460e261a43bc"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001444_lidar_1722894931626182862.npy",
+      "sha256": "7e20fbb67ba2d95330796546bf7b567295c47d1246eeeb19899a4f6350ac5387"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001454_lidar_1722894936626041259.npy",
+      "sha256": "59901f9c0dfbeced1403d6e34786eb8790f751d671cb2fc8b769483d45a84edf"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001464_lidar_1722894941637802874.npy",
+      "sha256": "c3e6c32be3521c5c765054e327a929e6e31d2b38dbb9877fc84017b92e38e849"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001474_lidar_1722894946628933661.npy",
+      "sha256": "a6f932fdb97710ca07530e7a0a5b71982ea80f2a24ed51a8a75e86e8ba171013"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001484_lidar_1722894951628029539.npy",
+      "sha256": "c4b2b4c08e6ea5dc2d9e0ec25adc0505d73fecc4d7635a160f66813b805363d5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001494_lidar_1722894956630511541.npy",
+      "sha256": "1761eefc43b704fc6188288f9404fda4b85c6545ebf8ea1fb805832f162c56c4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001504_lidar_1722894961629024382.npy",
+      "sha256": "f4a92e35ac89c2aa3c8cb96284028a062e5d2c722b7baa1c0e237af9ac7f7dbf"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001514_lidar_1722894966626190746.npy",
+      "sha256": "69f6bf106924727c65542b83758bf26fe328a2188f7efc8763f0c1e9767bee90"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001524_lidar_1722894971627550279.npy",
+      "sha256": "3f984647990e09901452f73d38cd8f45a23a0d7135f110c38a8762dc2990c983"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001534_lidar_1722894976627306713.npy",
+      "sha256": "06517a23aeeb063664e01034f9525ddce52d5059a3347b3bb7f4aa6e26e1eec9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001544_lidar_1722894981627668282.npy",
+      "sha256": "c5609d55c5ab9737f0bcb9df2fcc784f740f266a9d25a4806c6360458e010763"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001554_lidar_1722894986631100965.npy",
+      "sha256": "f492a2755457bc8f12c046b29883a48c7524eda7709b8cfba2f03a239e02bcec"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001564_lidar_1722894991627237374.npy",
+      "sha256": "1e55bd8fcb623716809328c281da1202ef4a8aa3c21f652be28327e32f963411"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001574_lidar_1722894996631866757.npy",
+      "sha256": "dd05f2cc9384300f3c7f85ee28cacdb07d67c2300c074d98d4e6594928482bad"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001584_lidar_1722895001628808631.npy",
+      "sha256": "88299d0df2b720e124c0a8fb6ad24f1f5c11aaea27c54acdfd286f71904f0a61"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001594_lidar_1722895006630977134.npy",
+      "sha256": "6b7d94f5852f94623962436716e77e8622a4853fa28e834cb6648a2a7d6816f4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001604_lidar_1722895011626204579.npy",
+      "sha256": "0de20535f3de1b78e1d54ee4fc4df24b32527fead4b9b10f6348b56d3aa03447"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001614_lidar_1722895016634934593.npy",
+      "sha256": "56fcbcbace5cf20858de85dbc518efe97e049e33cfad6296e076736e75e33870"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001624_lidar_1722895021631120277.npy",
+      "sha256": "aed8ba56dd46920c0545db469adcf6edd06a11a6ed41e985da3dcb3f38e57d17"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001634_lidar_1722895026629989639.npy",
+      "sha256": "2f497dfb56521d685c39bfe38efba2676233992b693029bfc633f6024d067537"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001644_lidar_1722895031630795358.npy",
+      "sha256": "7d8de32a5f43ea53929df83d3eec72e0cd1f67c1496e05e2237bb1d71d397fc4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001654_lidar_1722895036629622233.npy",
+      "sha256": "5f295ce468086ea4ca7a075d4fc05a40e1a23540a8be10806692bbb490174100"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001664_lidar_1722895041631515185.npy",
+      "sha256": "57ecb5de4277592d642dc70d4c370ff060e211aeec56ffd1a35589c50c30d27c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001674_lidar_1722895046630940402.npy",
+      "sha256": "213230e7568c54414fb0c9a78e8723a24d2f6587db46201fb81e41ec9a3d55ee"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001684_lidar_1722895051629305756.npy",
+      "sha256": "a526fde0209803ea8c04001d0ab50cd677fa5c10c94b696003a7f9855c8d06d7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001694_lidar_1722895056632560972.npy",
+      "sha256": "609262b3f9b049984555d210b9105eba894dc661c22a1ec4744bb79343b28730"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001704_lidar_1722895061627024857.npy",
+      "sha256": "c39e7050fa5899426ea20708f135fc8009239edaf41b75f9e51a3ff222ac940a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001714_lidar_1722895066629746709.npy",
+      "sha256": "0ceaf147f9ee6346f92eaac9b43bc8d24aa53610f1292baa9789eaf8346e6ab3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001724_lidar_1722895071628341817.npy",
+      "sha256": "0be1b1bbb79a6b1cf4aba83500277e4e95a1b5f389e832c602939a9288baad52"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001734_lidar_1722895076631017302.npy",
+      "sha256": "5edc7647787debe9e39568f3704aebd76a1dd456740e51ef01ec07250655c5db"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001744_lidar_1722895081629731719.npy",
+      "sha256": "c9a3755f9476bff85194c8321dcd2b9f39ee9d75534b32dfbd375580955cb89a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001754_lidar_1722895086628356935.npy",
+      "sha256": "818fac95bf740e9a2df28868df441fdc058be25c8e60af63aa2006fa6b5cf508"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001764_lidar_1722895091632709982.npy",
+      "sha256": "ace27824c021d5118e2c7f8da945cadd71c283f06fa35be308b3c410ff0eb074"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001774_lidar_1722895096633617113.npy",
+      "sha256": "fab3074fd986ea6eccde8cfe8ac6b5be45b8bfd1852772401a6203303fdfe4a2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001784_lidar_1722895101633150910.npy",
+      "sha256": "be6ecfcb1cdaae7be08a6998881d22a38d736fb3950edfc5444c6e99d6222e67"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001794_lidar_1722895106631850167.npy",
+      "sha256": "bec513be317d0bda59a69b1139034f9f7f1f27ef302fdbfd1072482cd2948ae3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001804_lidar_1722895111630699586.npy",
+      "sha256": "d6871ac80f8a05e16f53fddf6aabc8cf29196261652ec4f46915ec496b1efc43"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001814_lidar_1722895116629912224.npy",
+      "sha256": "0e4c479bb440e6b02b3cc401aec5cf4c2cfc967d9a349575d15b73b2b7591588"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001824_lidar_1722895121630756355.npy",
+      "sha256": "99c56ba6df893d25af21c7e497d83469b4330462b0e422cbdcb0e5249700c444"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001834_lidar_1722895126630556628.npy",
+      "sha256": "4896e392735e74745bcd36e918142332485fd104c8ef193df0cd820f147a9441"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001844_lidar_1722895131630697186.npy",
+      "sha256": "edf370f98cfd791f75019abf26cad761df9cb74e4e59fb952fffbb69a100f75d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001854_lidar_1722895136629797102.npy",
+      "sha256": "191038b4a8d6c32cece0e2e26faa382c0d44a9cdefa71f935af5b7a21a60c937"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001864_lidar_1722895141631620104.npy",
+      "sha256": "2ce1321a827862a77295568b3e3165a647c385e4686463050d08aae30445760a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001874_lidar_1722895146630485867.npy",
+      "sha256": "1aa97ac6535fc07a7fcac710a640570a14e4885aee36544704fd72e12ca6965f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001884_lidar_1722895151637767923.npy",
+      "sha256": "d84fb79d2a4dbf93cc3214dbf4c9efc2d8ef7e24018569d50c19168a5298b535"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001894_lidar_1722895156629152530.npy",
+      "sha256": "6313f5dbe438d7463a375201f1e21073ba6e09882f4edb42ba94920816ab42c3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001904_lidar_1722895161628036158.npy",
+      "sha256": "45a15d7a97f24a159fd7830679416a13a36bebfd97e3b062af597987741af792"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001914_lidar_1722895166632403331.npy",
+      "sha256": "2420a4a273abfaf05953b2849c15c108ad626e026f2dc6b2d3123aca892c37f7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001924_lidar_1722895171629474223.npy",
+      "sha256": "97a1b2348a57ddcba42ba14b9bad3d7dfcd3900e9d7b279b4e7c622750f737c4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001934_lidar_1722895176631418492.npy",
+      "sha256": "2a43b2979b40e97d9f1cc8c0100dbde8a6ea924078304c7181046179538cad36"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001944_lidar_1722895181630766207.npy",
+      "sha256": "de21a2166c62d4062efd7c8640f2258503f7fcc68feaf3ec6733ab5b54d6823a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001954_lidar_1722895186631822346.npy",
+      "sha256": "1b9c78d42660a9a2fe36a067772887b9ba312ef444df165a5ab67053de3b017f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001964_lidar_1722895191629525344.npy",
+      "sha256": "b69471d34ab232164515b9e9fbb7c779e5be5556e0f41338f1cf57db9acd05a7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001974_lidar_1722895196629613442.npy",
+      "sha256": "7aa9d38b444dd7a9e5a9dcdb51c6521552e2b6c82c357f353df9ca7f615d193d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001984_lidar_1722895201640022210.npy",
+      "sha256": "bb8e130c338862a009f24b41bb491a08e505f04b731ea663d18881be9fd128ab"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/001994_lidar_1722895206632250264.npy",
+      "sha256": "3918bca90799a1e944f3784f04c9fca335bc04ab4c001ba5be75d1e29c36bea6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002004_lidar_1722895211634290677.npy",
+      "sha256": "1a8f9554c368a0dbb71ae3f1bcb8df34b0e051021bedc2df8ae250a7288d02e6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002014_lidar_1722895216629090183.npy",
+      "sha256": "647cd826d2b6fbdce1c83d99701fce4cb991e80aaba9514e24934763a17be368"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002024_lidar_1722895221631047030.npy",
+      "sha256": "877c96e8ddccff90fa6e0f4f0e724c09d0e74c87f6760a50cce2c52f2c98ecdb"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002034_lidar_1722895226630198333.npy",
+      "sha256": "d10a6b54f649c2eb09aac6633fa8aa718abf422ab6b2e0badb2c2bf33e116716"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002044_lidar_1722895231633149051.npy",
+      "sha256": "4ef4d702680decb6bac7d8daa7b8132ff64b6324c50bd8814492c68e42b60ee9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002054_lidar_1722895236631023443.npy",
+      "sha256": "2121ac6e34e4fa1e5cc8aed61719c506744146fcb5837e2e3da9a2cc3a33ca05"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002064_lidar_1722895241630182870.npy",
+      "sha256": "e7cf7da3871bc4406e427b199b156be6bff226c5e97a1f29c90334f2ca65c178"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002074_lidar_1722895246633707347.npy",
+      "sha256": "8ef3de86cb1d1e1c0959869572b32bbe6c3a3326d029a7288ad7d1d84e609023"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002084_lidar_1722895251628349626.npy",
+      "sha256": "181020486c43d16b899669883e2a3120be6f9fa38fc809956a9eb629f8f8b07d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002094_lidar_1722895256630268239.npy",
+      "sha256": "43ff05cbbba2645e2132c2bb31b6527766d135a925cef83046f023be15e4cf3c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002104_lidar_1722895261631053005.npy",
+      "sha256": "3fd56a913387c2642e0213c854cad96e59c95b480488fc0acc07b89892d01fd4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002114_lidar_1722895266629319471.npy",
+      "sha256": "7ae8426b3bb3cccf257a3df45975a523f0a17cbb0428cbd8378530523abc4f87"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002124_lidar_1722895271632806739.npy",
+      "sha256": "0aef5ea8576ee54149cc98f8fbe45c0d2722368c2327d6cc350ccd46b5d61aa9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002134_lidar_1722895276633218750.npy",
+      "sha256": "65fbda99332588dda994b7b17202c4b8b0c4a58de17c7cd9f9f52edcc60c7793"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002144_lidar_1722895281632297644.npy",
+      "sha256": "b7b60cc766ab9ff8fac69b87888c306265fa6eb310d0c6fe00a511d8211ee4c8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002154_lidar_1722895286630314934.npy",
+      "sha256": "f53b5292d22acd950f8edc76258ca6c70e5682280a1d0b728ad295e1ab5e9592"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002164_lidar_1722895291637334034.npy",
+      "sha256": "960d93fd77b5673a10cac1a94ee8922c02bb6c2141139f5136bb96019c0c193d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002174_lidar_1722895296630397192.npy",
+      "sha256": "23f436c1d5f7454fb1f9f093efe6da01bedc036c5131c5e2bbaae6e8e64ccba2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002184_lidar_1722895301630218574.npy",
+      "sha256": "13ac74f9d4de207cdd089f7ba0612c28af6df2ba4613e542e417a4f68e315633"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002194_lidar_1722895306628434489.npy",
+      "sha256": "8852300f28356b61434a6aaf004c13970f2286eba08ff5669dcd070bc0add835"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002204_lidar_1722895311637506571.npy",
+      "sha256": "03f9b2efdb0eb2b5f38e86d94c9486c7f44969d1a2207796e967f848f40a889b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002214_lidar_1722895316630351938.npy",
+      "sha256": "a71bbe59f3081c3e5c669d34652023cc42a0de193ee421ec6111047d2e3a9759"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002224_lidar_1722895321632792279.npy",
+      "sha256": "4523120d3ece639d028cb897994208539dc407bd1f33c141bdfe28847abd5a1a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002234_lidar_1722895326630762651.npy",
+      "sha256": "153da5c7074fbee50bd26695066e71b0f8242ae984a343fae412761014762249"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002244_lidar_1722895331632927859.npy",
+      "sha256": "72e86b28f3247e8b8b723162de6d2b4bbd249f5ce7440f497e985a67d6a09648"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002254_lidar_1722895336631642113.npy",
+      "sha256": "5ba8575aebee7a43f4b0efe18e5fcc98f727a726b41080e6068e072333a275c5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002264_lidar_1722895341632060813.npy",
+      "sha256": "ad77d365ce5ed4182e8fad760106cd9439c2b118480e9234da5a0a48e0cfdfef"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002274_lidar_1722895346629282752.npy",
+      "sha256": "d86c46c09d3174166c3460c542c65261c3f57f84c21463e396a08acdd17f0ce4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002284_lidar_1722895351629236541.npy",
+      "sha256": "008328abb0dc555de32ef984c9f3b7f0c11dd08bf90a54895bbe1a11833181c7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002294_lidar_1722895356630020610.npy",
+      "sha256": "fff665ef68c32a79aaa37439ac716235d8ba1dc2f26b03070050ee7366f82ec8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002304_lidar_1722895361634053960.npy",
+      "sha256": "fedfc3c92114506b638ec338045b612571efa59cc46b92a711feae44a4dfd881"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002314_lidar_1722895366629253282.npy",
+      "sha256": "2ff600beb189c3d4a2f84fa152ef1ebd7f3bd23fc92d1fe27872ae8af2240079"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002324_lidar_1722895371632595976.npy",
+      "sha256": "85946857d0cec160733532fa6019e5a715e4212731d4c6800877a86913c9770a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002334_lidar_1722895376629409481.npy",
+      "sha256": "124021ec14c178059ae6ffcb815beb42e583ee094737d56ec7f1bf8d90b9c820"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002344_lidar_1722895381628812830.npy",
+      "sha256": "8762a91dc7552dc7fa8c2520c5de3aa135f307752b61a2d729e89e5d212a2897"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002354_lidar_1722895386631144772.npy",
+      "sha256": "18c03ed4a8f8ae2ff023f78227908a3b5e8a825e1fba86f365847dc1fcfdc88f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002364_lidar_1722895391628629145.npy",
+      "sha256": "00210384beefb295ac143d9897317d2017613c842ba77afa0d3ca2208be02d93"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002374_lidar_1722895396629904012.npy",
+      "sha256": "d4b86407439b6a53546348f54c9c8afa9c3814f05e941365b783de7558b71dc2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002384_lidar_1722895401630751617.npy",
+      "sha256": "a64a3063a4a63455dbf17b41b366504c2e1b1f3b6a409ee7db0b326adbb62565"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002394_lidar_1722895406627235599.npy",
+      "sha256": "6eaed1c17b324fbd22b1821bbbb36f96823713a3c7006769f4981c3b67a7bff5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002404_lidar_1722895411638861530.npy",
+      "sha256": "b03f874998e58fa771b8a6b5a29b0a7ba63185deb114f18bde9311bfb4ea89f4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002414_lidar_1722895416631009304.npy",
+      "sha256": "3e0e4c525c871dd7f8c7bf5b74540fd39a9f065fd40903bd7658aaab8d13b1c1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002424_lidar_1722895421628200031.npy",
+      "sha256": "941ba99cd2ad14f712b442fa2fff8a4c499cc712a9399a3e64418b68eb8c2735"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002434_lidar_1722895426628733595.npy",
+      "sha256": "e1a49e5dcda311e89195199fea127723a16257857f62ef7a3b6d89047fb7640d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002444_lidar_1722895431629805175.npy",
+      "sha256": "dd5bc26049cc0166790cfbf9b4089d90dde9c6e9a86c02ae0ca664becfeb00f3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002454_lidar_1722895436629004184.npy",
+      "sha256": "4312b3906d10cf62e21f412178aee1e23852f5195da955c0eebf5263baab134f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002464_lidar_1722895441630829137.npy",
+      "sha256": "dbddf241646bccd6d891919256076f00e6ec65be7710c7ac0e286da165f7fbd5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002474_lidar_1722895446633460052.npy",
+      "sha256": "19d53fba634ea92981407f251b0c6809c99379a1dbc4ae776d8dded5aaf2b99c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002484_lidar_1722895451629586007.npy",
+      "sha256": "bdea64540f5ecb912f342b467b82e59c445d78b17975d5d33d16d4eab15c4392"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002494_lidar_1722895456633838015.npy",
+      "sha256": "430c5df192ef7f27a676e0ae14cd9ae69ceb58ee71641ffd00861ac46103cd41"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002504_lidar_1722895461632780451.npy",
+      "sha256": "4f193aeafaac20ccbff0fb12206df3642417ea289600eb88f5117646d4ab13c7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002514_lidar_1722895466631773146.npy",
+      "sha256": "244d543f93aad02246ad83100ea5c76087ab707771ec2436c5f98b72da940fec"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002524_lidar_1722895471634711650.npy",
+      "sha256": "525d92a0a1f59e23d6ccfb1646c06740227a0bf561b5a7d15f5699fa3c9af4b2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002534_lidar_1722895476631604178.npy",
+      "sha256": "321972125c4dfb54e0d92ad05ed72c38414ccdae4dea13117af3857342cde077"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002544_lidar_1722895481634904756.npy",
+      "sha256": "05bb99f65c6c9d8dc933974e0146ecbc55be389baffcec2e4c5f20552ab9ffa3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002554_lidar_1722895486632993750.npy",
+      "sha256": "96972c7567996e89e3f1b5ec24467d5461ffa7a6f7bf7791305d2e6e73a6d5ab"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002564_lidar_1722895491637723826.npy",
+      "sha256": "91d6579f64300a3623260442734e5267e3e47071c94ce6685af1fcc1cf1eb94d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002574_lidar_1722895496633830866.npy",
+      "sha256": "77491199ca352b043376ff48fbbba20996e9faf0a32c2a656658c004fbe5f975"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002584_lidar_1722895501632702377.npy",
+      "sha256": "937bb1fca6e1e575661011b1c3955da5262bc4d31c9bc979ba41aa111fa03fb1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002594_lidar_1722895506634233771.npy",
+      "sha256": "34ce19ba97c8c977c2ac5bd4cd4ecb87b2a4a50265063f3f34994301353a141f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002604_lidar_1722895511636655983.npy",
+      "sha256": "4810d3eab9037f362319bd1e256fc4f728ab540bd31c4680ad9c5953ce95a244"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002614_lidar_1722895516632020645.npy",
+      "sha256": "c69f0ac46c83665783346d25004c15d65dc5830812a1a60212f90cf069c2030f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002624_lidar_1722895521633248158.npy",
+      "sha256": "5f8f5b58d66cffaec115748e71a355435508a1a7c13e78efd3085d27c91824a3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002634_lidar_1722895526629411909.npy",
+      "sha256": "53ef38d51fa461392050aaf3f2fdb3d1e850dc5c5b07443ad07e77b7c88d8e88"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002644_lidar_1722895531631861901.npy",
+      "sha256": "77fb08556324718f471dcde80af0d8e236b9753e3f426814098df55d829c12ca"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002654_lidar_1722895536631564431.npy",
+      "sha256": "ea1139e3325ef70a08ff9835aac08df836ba8e457754787efd0a1a181283f9f4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002664_lidar_1722895541639277739.npy",
+      "sha256": "fa9ff0618c1daf0047e22b080bb05e141ca20c113f54c51d00bdde800825bbe9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002674_lidar_1722895546631867918.npy",
+      "sha256": "57b58ef54d56e83f50937ed8288f13cbe71dc2ca86bb03795a91ddb809267930"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002684_lidar_1722895551632088597.npy",
+      "sha256": "6b4b1174c4c7e9f4fcf6071c6b2386bebbe035db8c9b808e74cadfc5dff09cba"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002694_lidar_1722895556634313915.npy",
+      "sha256": "c464eec6fa35175aaca4d47c48c46c92bd8380a283942a4ddcd88c920ffa9913"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002704_lidar_1722895561635157667.npy",
+      "sha256": "0b1c2b832744990034d3c817e93fcc05b92ecc1fe2e8a82cc404a871f478f8c5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002714_lidar_1722895566632206393.npy",
+      "sha256": "254e8a4446468d2a8f283b3a0f336b2fdc857a8a37e5ec2ec0f344a6e67c1c0c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002724_lidar_1722895571632454461.npy",
+      "sha256": "c3ead4102d7383c20d444b3b6d23406ec80c6cd0e83c6755a611ca5683c38616"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002734_lidar_1722895576635837328.npy",
+      "sha256": "22d794354c43a3aa4c8cd2620862ca48a9e55c1a9ac21219e30d8c314197b3f0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002744_lidar_1722895581632094345.npy",
+      "sha256": "eace5bf0dc10b4d98a9d90568f7079249649501c26970869fcead90cc1d40a44"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002754_lidar_1722895586637459719.npy",
+      "sha256": "aa260ef97412c22f01a35036d4cbb68567f1b4bf83d8735585f14be1d6a633a0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002764_lidar_1722895591632741439.npy",
+      "sha256": "722250ababdf27015bf94e2a0243ef8631718015207d6663240430ffaa7aee40"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002774_lidar_1722895596632451406.npy",
+      "sha256": "274579b4993a98f4bef3f0f6598d1b8b06137784f2e0b7a802936e5f177ba2e4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002784_lidar_1722895601643970191.npy",
+      "sha256": "209b4d04dfcfe9e7c7e2a77bff5cb76c400bdfe7ae56b871dd64f3fc636c6cb9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002794_lidar_1722895606633679943.npy",
+      "sha256": "8cf42a20bdac835a44aef32eb9756f93e3a345293570a740a5485ef09909efa0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002804_lidar_1722895611633968136.npy",
+      "sha256": "18b54a773b14829f298caf9c60e993c1b84bf3d70fed1eddd82bce432a84dfe9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002814_lidar_1722895616631527025.npy",
+      "sha256": "8e25ce08d3610b6bbb7ab943deba16c727cacce350a3998f5872972d1b95d76c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002824_lidar_1722895621633876030.npy",
+      "sha256": "0ba43c67842eb3cc1d3e7160cfd6bc71996df2ca5714f61f08cd37b752a9453c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002834_lidar_1722895626635408192.npy",
+      "sha256": "1d24f08ff1e7262c4bdcaa00b1b1bf5da063a33566769f5d711861b703f513c3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002844_lidar_1722895631633808086.npy",
+      "sha256": "e331ea43167b1e5934d9a910e6a9590c02f0736e9b2a2d0bacb957fc3b3eb9fa"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002854_lidar_1722895636634812658.npy",
+      "sha256": "9f6ad591c194b0c6ccaef49beffe0f4d3b0d51c51e80195c377ab91391ea5dca"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002864_lidar_1722895641644392737.npy",
+      "sha256": "cc1cafac7862e36d27e150fb1aa74e30e26ba170e3f44742ad4db7ff78c559a8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002874_lidar_1722895646637942774.npy",
+      "sha256": "ec6599528588d47d12e737435d6be5c347dce724e4e121765bf5f4cb15ece936"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002884_lidar_1722895651637894575.npy",
+      "sha256": "51c0f52a86aab0ffb8a5d2691d7e55c4372498490c32428ad8057eb287c6e944"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002894_lidar_1722895656634858333.npy",
+      "sha256": "7023ab4ed5b9437f5ddf4d076bc98c99a52cd1fe10cc029cd986ea9eab42f634"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002904_lidar_1722895661633556128.npy",
+      "sha256": "5a7843d6aa0a4eb23ee3d4f8e53c6b419be33b38abd3e6d61cedcbe4071350a9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002914_lidar_1722895666637384925.npy",
+      "sha256": "679e4737e34e39747ec9f8b334ca345cc5e327b6e19d3cd6b9ad7fd742c1b37d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002924_lidar_1722895671636704547.npy",
+      "sha256": "839b2cb6e808c2eae2860be4bf0c009d3c681d58a97a414afa510130689ff684"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002934_lidar_1722895676635600647.npy",
+      "sha256": "36b4a5563971eca818796405d99f41dc006f9af61e56a96ce4217b9a465c541d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002944_lidar_1722895681633462157.npy",
+      "sha256": "99681443c3a52fef80a3d4dc409ea834feab2f5461ca117025f302dcb2483b8c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002954_lidar_1722895686635219778.npy",
+      "sha256": "f6829a4ad07918a8ca3caa34b2fdb9cf155970b8651e82d145e02af857e0e74b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002964_lidar_1722895691633360248.npy",
+      "sha256": "15e57ca7e1e87fd0599bf113caa10f7c68c6f058d6fbcb7ee5a9d9a634825af9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002974_lidar_1722895696636243416.npy",
+      "sha256": "bdc3375139b8f45f4e3f56be75a73ad986a251f504e4d42bfd8d056be29571c0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002984_lidar_1722895701637020295.npy",
+      "sha256": "4d6bc4919c04c4942d2cfcff35da7a63b271f6964969ef76cb584883c9c69240"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/002994_lidar_1722895706633989292.npy",
+      "sha256": "2eaf9c02e3f774cc8a6833ce99c82ffecdbdf0e487329700b9084b365b85a67b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003004_lidar_1722895711635109292.npy",
+      "sha256": "33a8c0ad34bcf6603067a29201571a5667d3457dde0e12fc28ca543ddcf2bdfa"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003014_lidar_1722895716632537330.npy",
+      "sha256": "c5a6d4cd2af56d4af1937dae01c3d24fb9f6519d76f961f76ed9234e7c36dda9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003024_lidar_1722895721632585967.npy",
+      "sha256": "8fdf56220580f456e3cda6630b75a4b15fb28106d8d4957f1fa9a9d992a3a00b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003034_lidar_1722895726635011155.npy",
+      "sha256": "f2cde15d10b8d44d118cc53e96b0d617be47075fd1a1278908bde62613c659c6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003044_lidar_1722895731632004035.npy",
+      "sha256": "822ff689d324334acbff41b1d24dbc94a3c1c8de63ab09b90bbf2e62a0193e38"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003054_lidar_1722895736640887368.npy",
+      "sha256": "8c7e53d58db2f59e82f0771037443fce6d88a44dfb8c815dd57c7d8f2b10c99e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003064_lidar_1722895741638008758.npy",
+      "sha256": "9136d29b1a8f0bfeba9888b610ac175b1c3266db46481a9d7e71e3b40e8453f7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003074_lidar_1722895746632656782.npy",
+      "sha256": "a789549b0e207f4745cbc93f19ba592574bcaebab4171fd19bed3040ca333350"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003084_lidar_1722895751636112672.npy",
+      "sha256": "1a8d1c535fb054f4ff1b1558d278bb242f0621fdbab4278880ab07272d31296e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003094_lidar_1722895756640890663.npy",
+      "sha256": "70deb6ec61d6c4fdcd6ba8ca9e81c4de2016af9a9662c417aeceadde0cfb3208"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003104_lidar_1722895761636731775.npy",
+      "sha256": "96258f8f45047a36df807d431ff90ea263bfb5cc9e9c2894e3a25cf37aed65c7"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003114_lidar_1722895766643259023.npy",
+      "sha256": "ee8bc13bf4d6e298f03a65ee031e0620af513c35501d49423ee1575626c8c18c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003124_lidar_1722895771644404461.npy",
+      "sha256": "b984b64cd0270df93262e219ad53feaaff297fb7147de60a596302270de40607"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003134_lidar_1722895776643714745.npy",
+      "sha256": "dfb618482d6aa4bccc10fe5fe345315eda1b426318852c3dd31a86136c714e04"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003144_lidar_1722895781635932553.npy",
+      "sha256": "8aed1bfb7849083644af2b195e8feb89c281648d936dce1f37fd78d0bf271663"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003154_lidar_1722895786644417570.npy",
+      "sha256": "7ad5b171ef994a30c84c869ab4934f82b26982198677fbd59f64a21413229d06"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003164_lidar_1722895791641573490.npy",
+      "sha256": "86df54d649a5e9b1aaee89a4adcf1c7a1ab164fc903b2e69f438ed6da9fea455"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003174_lidar_1722895796632887184.npy",
+      "sha256": "1ff5225c3a81e98781a2b0b961339445d76004c8be4f952deef30f89070a9b5c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003184_lidar_1722895801632810221.npy",
+      "sha256": "df7440c3df17fa1acf6df5f73e5d766ddc263867450cd8dd6b29fe9b734ee3cd"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003194_lidar_1722895806640387915.npy",
+      "sha256": "3313ad99ca01e5b9d8a30214a9bbcd0df8e553f85bd2e23a65defd5004693d17"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003204_lidar_1722895811636525890.npy",
+      "sha256": "ab45d5498a8d9fdba834c00f983ba4200f5993306b20cb202331d75af290d3f0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003214_lidar_1722895816640726728.npy",
+      "sha256": "27498ef72cfb49a113430928b4a42d5b4ffd000511340055d2758a18cef9a48a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003224_lidar_1722895821633254570.npy",
+      "sha256": "b0a3e52677a0abf5fecded3799d14520707f4445aae5d1c978389cbfbbd7c75e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003234_lidar_1722895826639333251.npy",
+      "sha256": "60a68f1ab1802fb85b2e9eea9b2b74c81126a6ba7a6081c229fdf31bb5fec851"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003244_lidar_1722895831634230187.npy",
+      "sha256": "f142b26babcecda52fb5909576f2bd9d576df3f65c802227c517fafbd5b8287b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003254_lidar_1722895836639566564.npy",
+      "sha256": "32c588a1b1392e9cd068344371b361643b0ec85e5b426890c605710282d54640"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003264_lidar_1722895841636315883.npy",
+      "sha256": "6b595e7224ce544f085152db7155251768e477be2befa296126947620590d7b8"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003274_lidar_1722895846632501981.npy",
+      "sha256": "7cb1dac4452414996ccfa32fc75a1192af217d625da02617289d2ca7714061c4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003284_lidar_1722895851632686315.npy",
+      "sha256": "6dfffadb2d7fa0a8be0d0d8f60b1ea841f29c3fbae2c265ea9b061709784c9aa"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003294_lidar_1722895856637291111.npy",
+      "sha256": "06e7c1faa5f6f97331b13290d078aeb4b6d68481aea8387c5c5b57410be58d5e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003304_lidar_1722895861631027797.npy",
+      "sha256": "6add2c1933f3e3823714eecbd9e82f03a967d891c408f1534f783d699d08a1da"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003314_lidar_1722895866634848878.npy",
+      "sha256": "73ba784afd1dd5fa1c0fb5579b54d318165af8644eebf73950081628f6dd04f3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003324_lidar_1722895871636986871.npy",
+      "sha256": "28f21853cb8924cfc16e10bde7734d32d9408c80f4ec2b5f3c1e6ee9960f8e25"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003334_lidar_1722895876641618635.npy",
+      "sha256": "63641141f339d60a117df33fbe631d435508b77912cff2f867565b2892e2f18c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003344_lidar_1722895881632614034.npy",
+      "sha256": "d583254aafc05e3ea92481d1490dc83997202bd1117229d22f288c1afce908b2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003354_lidar_1722895886639629270.npy",
+      "sha256": "1f2d67988909690ccec5df8be5b4830bd4e15c038bc5ba01ef5d6225a6e0a835"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003364_lidar_1722895891636785207.npy",
+      "sha256": "19cf5e49e59c2b2deeca28e4ac84bc1e23dae9fd14bec57d896571e861217ed0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003374_lidar_1722895896633158078.npy",
+      "sha256": "62cfe9a948c9b5551d34b054a76fc7f1dcadb7519b2335f35e75c6a17ddce604"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003384_lidar_1722895901635951896.npy",
+      "sha256": "1db7a292516d35a6e4128548cf987f2d6a7917ab38d2718f6a3d88c4e807a064"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003394_lidar_1722895906634510302.npy",
+      "sha256": "2eda79c5e21c808a3ccafc4b81b66fbe30e6e8e167f9d11e548f5aa1134b189d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003404_lidar_1722895911633624170.npy",
+      "sha256": "ec9d0994d0dff9be7d89560817f9d166a53068c826ffd234642f52adc149aea1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003414_lidar_1722895916636545919.npy",
+      "sha256": "c8164c8f3734425cdf91f159bc2d0d098ee602cf1a4b24ef6a1386266c85cf55"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003424_lidar_1722895921633190860.npy",
+      "sha256": "8cdcc18e81334a2f943656ffbdedb451b0277a486a1e64eb8990878796d9eed2"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003434_lidar_1722895926635754310.npy",
+      "sha256": "496450286113c7fa44bfeef95b21a434da42eeba457d943b86711ea4f7674d94"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003444_lidar_1722895931633389577.npy",
+      "sha256": "c463c7a843f6169bd076899c4f11853faeb3f7801094807ffb1175898e5fe76e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003454_lidar_1722895936634415030.npy",
+      "sha256": "20bfe86f0cfe8abdec55d02f73a8986b0a260d4be495d5da5435596b28e9e3de"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003464_lidar_1722895941640308202.npy",
+      "sha256": "5ce87e7d665be473d1bc0fec58975db3473ed6609a650302c57f2ada66827a05"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003474_lidar_1722895946636169799.npy",
+      "sha256": "96a4b4219ca1b2f5fce5b96a98f8f80c0c4cea5f6892c7d5cb6859bfdb240413"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003484_lidar_1722895951639858551.npy",
+      "sha256": "179da7c3b24c0989896411ae3ad85894de68dd60fc429c7124c50b8c220c6fff"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003494_lidar_1722895956634296360.npy",
+      "sha256": "9b32f4ee13a2d5f78f4baa9923e186271f89a4218a0b23182ad9824efb8d3942"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003504_lidar_1722895961635642365.npy",
+      "sha256": "6e90ea3e09a09828ce12887d768b2f9541a209069a2e3b8330e0d81cc7ef1c25"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003514_lidar_1722895966631665980.npy",
+      "sha256": "145850ba14d7c015ba5aed8b68cb4cfae345c7d2ac5c37dcfebcd53688a5d24f"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003524_lidar_1722895971635304765.npy",
+      "sha256": "f80575972e87eff23d90a42df1478b3f060625edd8a4008457eae5e500a46103"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003534_lidar_1722895976637502521.npy",
+      "sha256": "ea6e228311edb114013ab73a56514991a1b2653078ca0e243441b4d54508d771"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003544_lidar_1722895981635469483.npy",
+      "sha256": "8ff007898b3011bba5afa798e9b15181a519d4e65f743e2613f240e7c112a836"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003554_lidar_1722895986636530569.npy",
+      "sha256": "df3e8f6cde320ec2257343d8ee79e04be6ec43abe389af9148cb5c48b77ec21b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003564_lidar_1722895991650772853.npy",
+      "sha256": "827b8d6a39921a64cc965a438d59cabe540e31234622187bf384fe96b19a9e6c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003574_lidar_1722895996632378803.npy",
+      "sha256": "8b7d55cb37c8a268e201db23df4131c904f0e69f4b429bd9eef516fe605cc853"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003584_lidar_1722896001636856814.npy",
+      "sha256": "567005c999424dd60f73e50881b3419a3834cd4bed422f49b963b5c96c463ca4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003594_lidar_1722896006637674203.npy",
+      "sha256": "eb8914526e589702197e927db8d08ce9bb818c0100880b3ad87788f17331e51c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003604_lidar_1722896011632338723.npy",
+      "sha256": "aeb374454be78def381672118f6e96ff6c8ddf4fccad27a8849825e80b1f8505"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003614_lidar_1722896016637345855.npy",
+      "sha256": "1c8087d2a217aa09a95b7ffafe7db97d01b037562aaa9b27f803a3146d43006d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003624_lidar_1722896021637768576.npy",
+      "sha256": "17c1f7a2c8403f01fb2c078781be997da65f78749dfc20d354594885c4608217"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003634_lidar_1722896026636751656.npy",
+      "sha256": "ed37e7d18e369cc0e036430694f30aad09bd339e53aa4921f78b6ace69192bfd"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003644_lidar_1722896031634116648.npy",
+      "sha256": "06befc47ffa605d5e1a240b5e8ae60b8e99381fc6ef597a09911425ead8aabe3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003654_lidar_1722896036630904854.npy",
+      "sha256": "58392aa9b1c46309306c17f64dee0ef9f1560ba57a165865ded70fe5d62aa4be"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003664_lidar_1722896041631618076.npy",
+      "sha256": "c30f0a6cd9b310c62464218b992ce5c5b829e156889b10bfbf0e1c4b925b204c"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003674_lidar_1722896046632907560.npy",
+      "sha256": "656af4129527d3a8ea4a49b0800caa4e6a603f4fdeea5e5e97491a1dc660d332"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003684_lidar_1722896051633115110.npy",
+      "sha256": "dace01005db457ab0aa669a4b7506d1c4cd5c217ec869d1326980173fec12e5d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003694_lidar_1722896056636118443.npy",
+      "sha256": "b0575e67cc7c2e56092480c2b09f708269b0dfa95c5239018048b65a1575f4e6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003704_lidar_1722896061635034564.npy",
+      "sha256": "418f127d4f52bf4fdbc505701f82b05cc98ba2c4ec9a3bc2ac03c75d8b4520fb"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003714_lidar_1722896066635118865.npy",
+      "sha256": "078b6b49be2be215f459ae3b7316b2828ccb4a2d0f1a6e11444dbd16bff19bda"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003724_lidar_1722896071631902750.npy",
+      "sha256": "46e393e097017b079ec2da82e0af7f677f2c3c482dc395483c5996db0d4f619b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003734_lidar_1722896076633530718.npy",
+      "sha256": "d1f3b54bff79e7508375cf74c2cdaa450947888b185126923b556eaee8d096a3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003744_lidar_1722896081635109664.npy",
+      "sha256": "a4c860e374b84195c96c434c13e0d889b403f8a06c72eb7d53e3b6e6ee3bb2a9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003754_lidar_1722896086630291023.npy",
+      "sha256": "90b5be35bc4bb8d65712c6f5ac6cb66337ee7a89ad7b0dafc6b14cb841bc564a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003764_lidar_1722896091631980699.npy",
+      "sha256": "41d9a590704be79dfee61654e8f62762719a7f469c736d9c6409f886d25aa5a1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003774_lidar_1722896096633738985.npy",
+      "sha256": "c5750e434cf233f77b968f113586fbaf79c16f833783b575eb2005c80327c908"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003784_lidar_1722896101635768335.npy",
+      "sha256": "cb48dbddf1a38329792b146c3b87328eaa3d3bb09df40aabd1800a514e1de540"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003794_lidar_1722896106644606596.npy",
+      "sha256": "6eccdd25b6a6b4cfb5ac741e693abe5609549c65f93e2761a1d3bc16b38a9e4a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003804_lidar_1722896111633880196.npy",
+      "sha256": "ef03edfcbd1ad24d710816b8957224db8c20555878e96dd58086337a6a91f6c4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003814_lidar_1722896116630781330.npy",
+      "sha256": "a7a31ef74b802df93e44061686a40e37ad6757db6aeec4e936c0a991c8618866"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003824_lidar_1722896121633159936.npy",
+      "sha256": "552a45d5963f5737ea14833b2dbad6829db3fc918678a08165dcec742f1a3acb"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003834_lidar_1722896126636011603.npy",
+      "sha256": "1fc8d2e41f85c2cead5fb238a2c7ee601640ae9e7df073e6fbff203f71c65289"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003844_lidar_1722896131630226613.npy",
+      "sha256": "1cb2e78d78807d3e96cbaed52d7b6389fc9063879f9860c0b69f983025965435"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003854_lidar_1722896136637460127.npy",
+      "sha256": "a74656e366ce503cb6e22a2266e4bfd630c84256336ad124b811c9029881fbff"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003864_lidar_1722896141636753029.npy",
+      "sha256": "8a74d15d8550fd82b5ce58b674c880fd9b19a4a6be2438c4748bbbb6ea18808e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003874_lidar_1722896146634498162.npy",
+      "sha256": "26360ba414b3ab3d5316356f1f853676192f2d102d76bbedf3b4476e35518d82"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003884_lidar_1722896151633476406.npy",
+      "sha256": "355face561f9281b5a121e10a6ab19b3f29ef75cffae5b4cfc3521baf3a97c9b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003894_lidar_1722896156635017438.npy",
+      "sha256": "b1c08f0b70895bfe5205b6c1d5dac2d42cf7a34341ddbe27c1cd79e2ef3e7173"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003904_lidar_1722896161632180126.npy",
+      "sha256": "e377b6dd51dd8b0b734287a5231ce2fc0a072103610a1dfa6ddb4cd06191cf84"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003914_lidar_1722896166631273449.npy",
+      "sha256": "f14704a5c2a8ba32c863ab67294d33a03d24ff69c5b3f597572c1e109004cbcd"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003924_lidar_1722896171635301974.npy",
+      "sha256": "3a561b6e7f2177c28c948e062306de922278757e28b3852335d1b53317b7d590"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003934_lidar_1722896176637618748.npy",
+      "sha256": "315ac206db5a8b8c29226711dcf8f8855ae750c0254a6837b2ce6a252dce0af3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003944_lidar_1722896181632796926.npy",
+      "sha256": "dffcaf5dfb7bdf5ede5a2d5df69dc083aa5f1a7c9708dffbab143bf93705429e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003954_lidar_1722896186639932990.npy",
+      "sha256": "ef810724a125ebacf2b0072134caca875ebcfa024856bf6c6878fce625dc863a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003964_lidar_1722896191635420632.npy",
+      "sha256": "2a06769cb619bee93716ca87d73301d1f5eabecf95717d286f234b88507b8e3e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003974_lidar_1722896196638289675.npy",
+      "sha256": "03d92e7c04f44de29d74eb806fab135638f3b154126705cbf72fb7767bc1fa87"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003984_lidar_1722896201636451502.npy",
+      "sha256": "4956c7cf0ecaeb5af929cbad14f07e4159596bf13944c876875143b001661b44"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/003994_lidar_1722896206634427477.npy",
+      "sha256": "19113d1085a5f6b6f51af0b584f9cbafc154296c39e600744fd8e5855cbdfc01"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004004_lidar_1722896211632605319.npy",
+      "sha256": "2ecea9b74542d355338628968f9ee18434b4d213d9580a5d887cf7c5c232deb5"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004014_lidar_1722896216635069318.npy",
+      "sha256": "e6016b239630a9a804f88992bb6f9a8609df7f7024fa98fd9e45bbdec516194b"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004024_lidar_1722896221633456698.npy",
+      "sha256": "10dde254c956fbc159f693ffc8b2ce0c09e6520f41b15176e4f8bc34cdd73ce4"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004034_lidar_1722896226634603757.npy",
+      "sha256": "9651cf9d47faf4992990aaf8f866f180199c6bc0a067d95a728d8afb74edcbf0"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004044_lidar_1722896231636983098.npy",
+      "sha256": "693985291914398a255de6a4a1fb2e057c2a93ac4c695a41e91fde8100c6b043"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004054_lidar_1722896236641599834.npy",
+      "sha256": "4701f699340b785e4f84139b085418233efb123a671ac9340053541fc221b4b6"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004064_lidar_1722896241638315692.npy",
+      "sha256": "e805557507f6d0dcf21c326e034860446d41b64d308ebba46bd40f8a8c370ffb"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004074_lidar_1722896246636196259.npy",
+      "sha256": "5df29957e0ceea4db69c3168ca7d46472f3ab8742b2b043f6792a7e2c08713ba"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004084_lidar_1722896251635350563.npy",
+      "sha256": "71b7642db8f9fc589a13017258dcf3a374c06d7ceacec71b7560bfba27305b5a"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004094_lidar_1722896256632868478.npy",
+      "sha256": "3834e6f37248a1b8764c6f29dc846d7aa83cb09b153786d40de2a4865d9f6890"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004104_lidar_1722896261632608254.npy",
+      "sha256": "d57338a7321022859fb21015afe4ab8cc47e35e181d44b0ae14bac698dafa5b1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004114_lidar_1722896266634271999.npy",
+      "sha256": "28abdca2314a51b252fc227cb6af17fdc9229fd195f9de4a01a004a023f02030"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004124_lidar_1722896271638057769.npy",
+      "sha256": "f5c60e9ea938efd7b6f5d9996896e6e371375ae254d870ac18578ff668281b7e"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004134_lidar_1722896276636775868.npy",
+      "sha256": "2c93dc68f9c47f05ff1ba476c1b90862db1969232ab5b921a6ab3787edd799c1"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004144_lidar_1722896281632225966.npy",
+      "sha256": "2989f9ae8d869693f5693c68eb0d29aa309c8a2660d54e43b5d9b0d23a0b692d"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004154_lidar_1722896286637225788.npy",
+      "sha256": "5c5b4842384fc428f46c9899059a68b5942033d01581b0b5b75033e1ae10f6f9"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004164_lidar_1722896291632692016.npy",
+      "sha256": "9bc8bcccf75428fb48c6659da0a41822208a5088e918ebabd350b67cb45fb500"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/lidar/004174_lidar_1722896296631527443.npy",
+      "sha256": "a0bc60c19cf51e8e1efc9fb465d4a5d58af83b8f87a9e361eeeece5bfc499fda"
+    }
+  ],
+  "GT_used": false
+}

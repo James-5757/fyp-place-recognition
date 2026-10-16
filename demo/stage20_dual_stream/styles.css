@@ -1,0 +1,2 @@
+@import url('../stage19_rgb_three_map/styles.css');
+#worldCanvas{height:max(330px,calc(100vh - 425px))}#story span{max-width:58%;font-size:11px}#viewControls{gap:7px}#encounter{color:#b5d9cc}#eventInfo{font-variant-numeric:tabular-nums}#jumps button{font-size:10px}#panels small{display:block;max-width:95%;background:#081019c9}#scene{font-size:14px}#clock{color:#7fc7ea}#timeLabel{min-width:120px}footer{position:relative}#performance{font-size:10px}

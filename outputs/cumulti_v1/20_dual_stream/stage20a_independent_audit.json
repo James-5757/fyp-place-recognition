@@ -1,0 +1,32 @@
+{
+  "status": "PASS",
+  "checks": {
+    "robot1_retained_count": true,
+    "robot3_retained_count": true,
+    "exact_event_schedule": true,
+    "exact_loop_eligibility_order": true,
+    "all_event_prefixes_no_future_exact_once": true,
+    "first_bridge_not_prebuilt": true,
+    "final_graph_exact": true,
+    "historical_hashes_unchanged": true,
+    "no_catastrophic_jump": true,
+    "synthetic_tests": true,
+    "local_graph_progress": true,
+    "RGB_no_future": true,
+    "snapshots_finite_prefix_only": true
+  },
+  "events": 5796,
+  "loops": 75,
+  "first10_loop_ids": [
+    45,
+    89,
+    90,
+    94,
+    51,
+    53,
+    55,
+    57,
+    59,
+    61
+  ]
+}

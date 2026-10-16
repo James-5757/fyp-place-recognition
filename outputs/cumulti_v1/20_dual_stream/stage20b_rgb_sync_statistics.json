@@ -1,0 +1,30 @@
+{
+  "robot1": {
+    "exported": 5686,
+    "total_bytes": 50053427,
+    "keyframe_causal_display_age_ms": {
+      "median": 38.9026315,
+      "p95": 98.73809415,
+      "max": 130.517312
+    },
+    "exported_image_nearest_lidar_error_ms": {
+      "median": 94.480766,
+      "p95": 232.4683045,
+      "max": 251.241853
+    }
+  },
+  "robot3": {
+    "exported": 2011,
+    "total_bytes": 14155304,
+    "keyframe_causal_display_age_ms": {
+      "median": 127.737403,
+      "p95": 596.9674145,
+      "max": 770.082234
+    },
+    "exported_image_nearest_lidar_error_ms": {
+      "median": 60.708526,
+      "p95": 109.991897,
+      "max": 227.22944
+    }
+  }
+}

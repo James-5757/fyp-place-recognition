@@ -1,0 +1,39 @@
+{
+  "nodes": 5796,
+  "odometry": 5794,
+  "loops": 75,
+  "prior": 1,
+  "factors": 5870,
+  "all_factor_indices_exactly_once": true,
+  "factor_measurement_noise_equality": true,
+  "node_key_equality": true,
+  "loop_id_equality": true,
+  "frozen_extrinsic": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      -0.06286
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.01557
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.053345
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "original_timestamps_preserved": true,
+  "PASS": true
+}

@@ -1,0 +1,36 @@
+{
+  "startup_ms": 173.79999999701977,
+  "samples": [
+    {
+      "category": "normal_1x_from_start",
+      "wall_ms": 45425,
+      "rendered_frames": 1736,
+      "observed_fps": 38.2168409466153,
+      "start_event": 0,
+      "end_event": 1801,
+      "start_normalized_ns": "0",
+      "end_normalized_ns": "450009097520",
+      "max_image_cache": 24,
+      "max_active_decodes": 2,
+      "decode_errors": 0,
+      "frame_dt_median_ms": 33.30000000000291,
+      "frame_dt_p95_ms": 33.5
+    },
+    {
+      "category": "normal_1x_late_fusion",
+      "wall_ms": 92664,
+      "rendered_frames": 2957,
+      "observed_fps": 31.91099024432358,
+      "start_event": 4097,
+      "end_event": 5795,
+      "start_normalized_ns": "1123502391955",
+      "end_normalized_ns": "1972507870178",
+      "max_image_cache": 24,
+      "max_active_decodes": 2,
+      "decode_errors": 0,
+      "frame_dt_median_ms": 33.30000000001746,
+      "frame_dt_p95_ms": 35.61499999997759
+    }
+  ],
+  "scope": "this foreground Edge/browser/device sample only; RAF includes browser scheduling, not end-to-end scientific backend latency; no universal 60FPS claim"
+}

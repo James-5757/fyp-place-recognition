@@ -1,0 +1,21 @@
+{
+  "stage19_manifest_sha256": "ab8b83cbac170d2d6b2d3a9e6a7516b2aa58e4494059c728bf09184fb0dcbe03",
+  "read_columns": [
+    "keyframe_id",
+    "lidar_timestamp_ns",
+    "lidar_file"
+  ],
+  "keyframe_tables": [
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/keyframes.csv",
+      "sha256": "a5720e59d2b93c27fc6f48e99fbd4e73062ec7b129334b8c7bd9aea75b15b690",
+      "Stage18_hash_match": true
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/keyframes.csv",
+      "sha256": "b88fe6212a1f8d4bbe13d5ac0bb04f4637381cfb57089efbe34ff15e59e734ea",
+      "Stage18_hash_match": true
+    }
+  ],
+  "GT_columns_decoded": false
+}

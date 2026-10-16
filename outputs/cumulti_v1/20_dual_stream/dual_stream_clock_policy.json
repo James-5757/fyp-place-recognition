@@ -1,0 +1,13 @@
+{
+  "normalized_ns": "timestamp_ns - own first retained timestamp",
+  "origins": {
+    "robot1": "1722894275697938011",
+    "robot3": "1722894326626535261"
+  },
+  "tie_break": [
+    "normalized_ns",
+    "robot_id",
+    "original_keyframe_id"
+  ],
+  "not_physical_simultaneity": true
+}
