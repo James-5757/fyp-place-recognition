@@ -1,0 +1,12 @@
+{
+  "command": "node --experimental-default-type=module src/demo/test_stage19_rgb.mjs",
+  "runtime": "Node.js v22.21.0, Windows",
+  "status": "PASS",
+  "causal_floor": true,
+  "explicit_historical_reference": true,
+  "seek_token": true,
+  "missing_state": true,
+  "bounded_cache": true,
+  "cache": 24,
+  "max_active": 2
+}

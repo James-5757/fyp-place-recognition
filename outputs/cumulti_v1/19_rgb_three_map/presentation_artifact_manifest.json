@@ -1,0 +1,38 @@
+{
+  "demo/stage19_rgb_three_map/controller.js": {
+    "bytes": 9895,
+    "sha256": "3db8d858782a9d43ad951cad2ee388ef2077dccc694cc0a798906f291d597266"
+  },
+  "demo/stage19_rgb_three_map/.gitignore": {
+    "bytes": 151,
+    "sha256": "fd308bb6d14ba1ae3f25316aee9f653063f581fcf672773f009a87bd92f937e3"
+  },
+  "demo/stage19_rgb_three_map/index.html": {
+    "bytes": 4491,
+    "sha256": "763d44b09a255634d39a45ad5e69770f68feb3ba25631f9e0cfa876c3ec235f9"
+  },
+  "demo/stage19_rgb_three_map/rgb_manifest.json": {
+    "bytes": 4105773,
+    "sha256": "ab8b83cbac170d2d6b2d3a9e6a7516b2aa58e4494059c728bf09184fb0dcbe03"
+  },
+  "demo/stage19_rgb_three_map/README.md": {
+    "bytes": 3284,
+    "sha256": "38770c14a2d66eec8e0543f03c79d2e4518b413734ce4ada21b4be24932e1dfb"
+  },
+  "demo/stage19_rgb_three_map/rgb_replay.js": {
+    "bytes": 4394,
+    "sha256": "a83ea73486fea4e563d9459989f6991415a4d05ab59d1810bd3323fb0ca38845"
+  },
+  "demo/stage19_rgb_three_map/three_maps.js": {
+    "bytes": 6193,
+    "sha256": "d1241fe988a73e25f80c82f3e8d1bfc378c1180e847a1f743e926bd1551bc679"
+  },
+  "demo/stage19_rgb_three_map/styles.css": {
+    "bytes": 2747,
+    "sha256": "04decf99e30162b1ad4a5fbde273eddcd2e11f48fc6dbe3fff922d5d2dd7fc76"
+  },
+  "demo/stage19_rgb_three_map/local_maps.json": {
+    "bytes": 4838514,
+    "sha256": "65367ae18972af278e333bc2dcca7912ac41944a7c55f3b1ba5720c88a505f0e"
+  }
+}

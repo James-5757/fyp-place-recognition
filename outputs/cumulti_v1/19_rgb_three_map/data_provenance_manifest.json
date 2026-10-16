@@ -1,0 +1,1385 @@
+{
+  "baseline": "bf30e1a23ee7b7ccb58d095949d443ab0ee2a7dd",
+  "sources": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv",
+      "sha256": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297",
+      "role": "frozen independent local Pose3"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000150_lidar_1722894275697938011.npy",
+      "sha256": "f8e5ba852dcc6e7b3a36ef6e7d87ae08e1e97421eb2727b29bf20131fa8ce0f6",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000160_lidar_1722894280697653887.npy",
+      "sha256": "705580790ba4532b5ad79311776a407ff7ded0bf6f3f2cc59b0fb49e65356b27",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000170_lidar_1722894285700169670.npy",
+      "sha256": "3308cd8bd2b65bed621308de5933951ee88bd79101c1bbb021e40f3ceaac0a33",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000180_lidar_1722894290698060223.npy",
+      "sha256": "b7f9ccf8ff633d98ee38b4ebf08e54df49f376a19cdf6f7a7c626dd3e4ebe8a9",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000190_lidar_1722894295698366224.npy",
+      "sha256": "bdcd9b6254787b79f0f7b342faeffa85e40abed9d926d513f2075af1297bf1e8",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000200_lidar_1722894300698886003.npy",
+      "sha256": "6de6f77fd600c36a557367ed0953770d4fd85d773d1bcb46aabf9f3ff99b8edc",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000210_lidar_1722894305699129509.npy",
+      "sha256": "1f4436ee55e760f9d9b8e3c0dc1f9e2e6373fdb6be3689dcde5173e5f64f1300",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000220_lidar_1722894310697443557.npy",
+      "sha256": "2d104c2258e0bda9a6477dfe96498e1e3c9c0fb53cc758b91daa65f03c53eb94",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000230_lidar_1722894315699018470.npy",
+      "sha256": "3b9054d86113fb457dace4588300aa3a9c9f517614079902c286c988361c2ee7",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000240_lidar_1722894320698718619.npy",
+      "sha256": "7fe5b1b891f33859b8d25d785e22f0955ece2566de055c72f5bd72a4a74857d2",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000250_lidar_1722894325699861421.npy",
+      "sha256": "a99215c8e8666770a0d0e4ec3562d24753ed6908140b803f4774680702add327",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000260_lidar_1722894330699494556.npy",
+      "sha256": "20544f23cb5aef710666fad08a27e5267f333b473073a7e267b6d45f3af2ae0a",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000270_lidar_1722894335699867680.npy",
+      "sha256": "03bead1657d5d106b823c3897d4648afbad8e70fbe75e10e423716c0f1a33dda",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000280_lidar_1722894340699485089.npy",
+      "sha256": "a3b018433ca9ec795ffdbc86ae56e5ce44a3b2db9f8fa6e18e5a8dc017d5a648",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000290_lidar_1722894345701858526.npy",
+      "sha256": "d7111da91776d7adb3cc5bf9eb891cf9952640be0a5506420342bbfd990062bd",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000300_lidar_1722894350701879085.npy",
+      "sha256": "c14e351943cbfcf65c5e5b50f77a801e34c462c3bfdd4e78218d3ecc712994d3",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000310_lidar_1722894355701728377.npy",
+      "sha256": "ec1ab566fcd7c9783fc2c42f9c5871ff70558a65d89fa57767a99e4c8e378775",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000320_lidar_1722894360698927035.npy",
+      "sha256": "aa4fbb78475397cda35125cbd7d7117cad24a80413139b2122fadfa6c2da8bf9",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000330_lidar_1722894365702375489.npy",
+      "sha256": "42b17aff3da4a7afcd3350511d95a25c1c3bf9d2be877dd56e2366cb96611977",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000340_lidar_1722894370705413624.npy",
+      "sha256": "2fa7beebb3a8639c7c4e6f121251844598d51585e261ada924c93e8b69ab589e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000350_lidar_1722894375701559747.npy",
+      "sha256": "6d9559639c883944ebabe1f45ae2ebf344e33eae22e900de97de0d9658c7bfa3",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000360_lidar_1722894380702115833.npy",
+      "sha256": "330906b6f22f546516f3a528df2c5a5a888cd6e805413b9940a6147f35875b55",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000370_lidar_1722894385701441421.npy",
+      "sha256": "9d3e1fb48718a38db9571dfded8a5f663a5947425aa304b2619138dbdc26cb55",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000380_lidar_1722894390702267850.npy",
+      "sha256": "79e93cc172399e08c42525e4360191d96917886bd71d4c19b423c293aacef3b3",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000390_lidar_1722894395700680489.npy",
+      "sha256": "2b1be14a1c648d5de51fec93fa18c0d0a80d179054fefd8780e25bb434aad4e0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000400_lidar_1722894400702183068.npy",
+      "sha256": "f3aa3e9bbdd38fac3ea6bf21f968cd60cae90a5bb1eefba6105cc14e2ebc46fe",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000410_lidar_1722894405701877463.npy",
+      "sha256": "7feca1210264bdf1779b2800d5d8fcdd392cba892d59e9267d7680bcae7cdc18",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000420_lidar_1722894410701299721.npy",
+      "sha256": "283b32b8ae4c8274b0785ff62333a9e06ea74911269171058d934e8a1beddb40",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000430_lidar_1722894415699958046.npy",
+      "sha256": "7e270a2898eb56b954a7be2fee22aa2b42688b791107b38a40eeead4cbe90a17",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000440_lidar_1722894420702136363.npy",
+      "sha256": "2a0591bf5cf6dacf843dfb4c07fa75ad9f349db4cb047de27f3b5a3fb7b3298b",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000450_lidar_1722894425700470103.npy",
+      "sha256": "f275d35c52597453e6ed4d612da94aea379a8afccc7cdbb9be09b55de1c6dd30",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000460_lidar_1722894430701878548.npy",
+      "sha256": "cc1811e4ca141932568e1ed4243607779864345ede8925a32dc56ab2f92bea22",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000470_lidar_1722894435701427461.npy",
+      "sha256": "b6db4eb10d74f2f19145c6cf3e24cf31ed6c9155c81d5460660b5dbaaec0bf18",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000480_lidar_1722894440701702903.npy",
+      "sha256": "e3f9a2e0a3bad1dddc69e9c0105a57133cfcae67160b6275d2a22528ed30af62",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000490_lidar_1722894445702170375.npy",
+      "sha256": "8c2a703c1dbde745aecb7bed57ad71f1e55e13cff21884393c443cda23bd541d",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000500_lidar_1722894450701315870.npy",
+      "sha256": "548b7b41c75dcd565fa3b4bc77be4a42bbba4417c42dd72c98a9d0112c12e5a5",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000510_lidar_1722894455701068605.npy",
+      "sha256": "8c3009a338fcc9097761cce9e0ec766ac3e3d1c3f5988ab01531931638f7c87e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000520_lidar_1722894460700533158.npy",
+      "sha256": "7062abdc7a0371212bc717d446944b7ba0bb39f5cf757db1e025d8a6b0280b54",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000530_lidar_1722894465706953380.npy",
+      "sha256": "6322f6cba24074dabe5fbc2f7bc129e334809831a52e25b286adb902b6deb8f8",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000540_lidar_1722894470701220984.npy",
+      "sha256": "98a168dfa23f7b94bcb75f533a6738d38a0a00df672d6560a856bafbd040dd2b",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000550_lidar_1722894475700923727.npy",
+      "sha256": "885f6c81c2cf326b02ad85df8ef41db96af31bc163cc1196eae5848f2446f863",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000560_lidar_1722894480703077783.npy",
+      "sha256": "4d2944df7315a0cc556f559245a18b221bdb4b41aad2ede622ffdc084a89a577",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000570_lidar_1722894485703286239.npy",
+      "sha256": "a82945dee0f90bf1e87d7e7b623e33c040b088cf5eb9d08ecc864f0a9f38316f",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000580_lidar_1722894490701855324.npy",
+      "sha256": "ddb10b8fcb43fd1f2f3aa061f693a666eaaeaaecb59048300747b86f6d09de14",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000590_lidar_1722894495703160412.npy",
+      "sha256": "5e52bb2e488b8a0f2664dd83eb76b64ca3e18992d3ebb97273de69aeec023836",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000600_lidar_1722894500701659830.npy",
+      "sha256": "b4cc2a5fea1b99666c4624323b70535d82e289b33ab1c3ba90482d7200b9dfc7",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000610_lidar_1722894505703487313.npy",
+      "sha256": "beb60f42df945368cf92db3831158cabccd0be22b71d86a783098a816f6e54c5",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000620_lidar_1722894510699155782.npy",
+      "sha256": "cd4b58268fdc290ead8eba9bda6775b764e86a0e693ede6a40309431caa31361",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000630_lidar_1722894515702222811.npy",
+      "sha256": "5ab391a8a318413ec7ded8b0326da524d3063b14bd338a6844289a6d3470bc18",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000640_lidar_1722894520701907843.npy",
+      "sha256": "f9f7ff750ee238ddf24be6e735f96fff743ff7cdd11a37b2d818b2e6336348d5",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000650_lidar_1722894525703120217.npy",
+      "sha256": "e6f2dee6d97410a98ce264930ea404d817114b52509a81c37c2385984a240909",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000660_lidar_1722894530701696254.npy",
+      "sha256": "dc1ef75f9012b13e0f753cee38b73a5a1f2767b6cf25ad44ee58b96e16417ea9",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000670_lidar_1722894535700031771.npy",
+      "sha256": "ea7d79097bafddf46cf7c72f6316525a8574d16e1e937657e8761f8ece3bf307",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000680_lidar_1722894540699586021.npy",
+      "sha256": "616bbb54f00d6353b4986a43e1bf39bef99c86ec03cb5b3cfe6cc4b363483b80",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000690_lidar_1722894545701484342.npy",
+      "sha256": "4ed88dafebf097550eff1f09311778817d4e29ac683531a128483206c53c6144",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000700_lidar_1722894550704367695.npy",
+      "sha256": "69bf91ddf3f9c337cbfaf479e82a73ee759dcd6642d5eee9a7802da511c923e4",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000710_lidar_1722894555701431825.npy",
+      "sha256": "68097bfdd4c8a0fb3532aab34e4a36d889e9ee50a3f3cc571059eddb7962759c",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000720_lidar_1722894560700890531.npy",
+      "sha256": "52640c4c91a6f098e1bc033f110d8ee30d9b461582cfa894fa9b1d9b75e25904",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000730_lidar_1722894565703266830.npy",
+      "sha256": "2bffb3596802dc805caaf1546ef83879522e3f886826f8c4a78a22512365d2a2",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000740_lidar_1722894570703801530.npy",
+      "sha256": "171a9cfa79316409caa0447020ea15f98a3bf3ca650418bad8246a5a3c0e6257",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000750_lidar_1722894575702901735.npy",
+      "sha256": "05d1a22c2b6894277bfc8546a166c6a37cb34a2170e1f4fc7f8f4de131d58862",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000760_lidar_1722894580701616216.npy",
+      "sha256": "8e6c8a594114e239795755abb0ea629d4a0e1f92e4877bec40b53a8f212ff85f",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000770_lidar_1722894585706478564.npy",
+      "sha256": "2d0f39419a60df32cf6cbb480c10eafdb59f84f891b26e011b3a819c22ca1001",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000780_lidar_1722894590704310402.npy",
+      "sha256": "c667dbd0ef74341d4b045c1a569c3077161397435dd4d16db3f2dc393b2a7ad9",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000790_lidar_1722894595701149908.npy",
+      "sha256": "519d6e521f1978980b2f071d318dc5bd42d7fe4f46d98cd3706e7542783278e0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000800_lidar_1722894600703098431.npy",
+      "sha256": "c5801b0ce39c4b26080fa1fa3804fd62d86222369c72ce3facb59af05a6a41a8",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000810_lidar_1722894605699794482.npy",
+      "sha256": "24dc89ec6213a128f9aced2e789f41a9ee2fea3cf78a1bb814b7ec76533b98e5",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000820_lidar_1722894610701648182.npy",
+      "sha256": "1a144a5a42dbef92f7264c9900ff9289f0ec22c6dce5d1a49b8a9f98e8d92e56",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000830_lidar_1722894615704292370.npy",
+      "sha256": "d727a82a1ada48abdcac97b475963213460239b4bc9dedf02e3af00078d10444",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000840_lidar_1722894620701144896.npy",
+      "sha256": "b7234c11927e33649e310de827918efda49f500910b6cd4280aa4ae50fae66b0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000850_lidar_1722894625700664111.npy",
+      "sha256": "e71b23c2321dd6172586cf35663311ba271c325c250133e29f27a083ce3ee40e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000860_lidar_1722894630699309733.npy",
+      "sha256": "8303fb11fb84e12c1ce219695d7e62756749229f8058d22ca81a85150a623f8d",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000870_lidar_1722894635700719806.npy",
+      "sha256": "f91714dc339a3eaf1e97ada3c895a5bdd7e54b51fc975dd1dd03cc6e46a39907",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000880_lidar_1722894640700648600.npy",
+      "sha256": "c32010da98dd479f9348e1877d1a62cf5eb21b2bef603af772ee6be4a2223654",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000890_lidar_1722894645701728226.npy",
+      "sha256": "4e2a57f47cd6d78d7dd996bbeb6f42c2027d4c73dc2e1b1f93f17dbbe3c288be",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000900_lidar_1722894650704126459.npy",
+      "sha256": "ec608275f3d168d664df7d6267078d931507837aa8c228c66efd816be7d194e2",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000910_lidar_1722894655702645532.npy",
+      "sha256": "3d74b3bc3799cddbcbdf02addfe5a0b770030e4e7ada946efac2e215b067b0c1",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000920_lidar_1722894660700735796.npy",
+      "sha256": "67e0e58efe83f267c812658c94eeaa59550fe9cb086f59b2a6e68efc77d2d3e0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000930_lidar_1722894665700872846.npy",
+      "sha256": "09ccb3b2759d4a03d127ba6a907b4f6b56041c33018a39bc0656e5f8342b4e7a",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000940_lidar_1722894670701661944.npy",
+      "sha256": "4104e87c2022d73207b85c0a8f9b42b5c269dc6f33ac846cc45cec85a4908a42",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000950_lidar_1722894675703485223.npy",
+      "sha256": "fcc16a96aaf94f1f97d11fadff23ec2f824d7d851c14133f0c8f1daf84d88008",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000960_lidar_1722894680701973947.npy",
+      "sha256": "22895239dfede90f4c3d0b09ef7c9faa13c5ae693f6f474edcb31442a5175c06",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000970_lidar_1722894685705435133.npy",
+      "sha256": "639ec04816e89a308d44df54ca40919cba5229683b01e92a693beb1e742f8816",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000980_lidar_1722894690698612694.npy",
+      "sha256": "e751497de68b6ea7eb25fba7f504a4c3f3587bbe9036a9d4022832415c9b52ea",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/000990_lidar_1722894695704084999.npy",
+      "sha256": "09003ad9ca4ca5138229f4e0b0c6dbcfc3f29a0ea795ef37241df43e6e2b5524",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001000_lidar_1722894700703874433.npy",
+      "sha256": "4c6aba1c77369e1437aa0f0c5760b8ba0b31aca1775f5cea26501c9916d18290",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001010_lidar_1722894705700018926.npy",
+      "sha256": "bd188eed39a8c2ffa4aa541e767753ba67f7ced535de1a30f39c5ec73fd7a2ad",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001020_lidar_1722894710699489181.npy",
+      "sha256": "65edfae0d45606d5b52d0a284fa5d1f1afd42ae2d6839c2e752c58b30b0f10c7",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001030_lidar_1722894715702179169.npy",
+      "sha256": "5a622c52c19a096a58a2b4d14c382784404dba6940e324a9c62394efc86e6ac7",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001040_lidar_1722894720703131008.npy",
+      "sha256": "e27a6ec18fa7a194a6685bf301260f9b469b3f4d069c4ba54391c3d19e7c4b68",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001050_lidar_1722894725699352921.npy",
+      "sha256": "3719a49bb793aaac45f301ae33d791b6919b8af68caa9569a2721a7bdcaa2ebd",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001060_lidar_1722894730699353478.npy",
+      "sha256": "577e9c462e8bf3e096922b8c69a4f85f40ea353024bdc7ff85b58fb19e99019b",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001070_lidar_1722894735702492002.npy",
+      "sha256": "b78414dd81153fbb1b329431054dd56b13dd9dafcc6bebccdab1ea6c363734d4",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001080_lidar_1722894740699370885.npy",
+      "sha256": "4c36070cc5f15cf0e7a23ccaa4588094eff87ab3c2d418b9610b2d4626db86fc",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001090_lidar_1722894745700544456.npy",
+      "sha256": "1449499a9e8a953e531370985b3e5179c62216e3165479dc7ff1cdc6505bb453",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001100_lidar_1722894750696857631.npy",
+      "sha256": "9b74f6ea9c548d815fb223e57e4af635fd7e0cfc5b979cafbe61540ffaf9a22b",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001110_lidar_1722894755714352185.npy",
+      "sha256": "e3ca87c6ca956d3c517caa713e91b6c88e2b26787b701ab3664b03f11ae55895",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001120_lidar_1722894760701939869.npy",
+      "sha256": "8524adc2511e70b0b603ac8e2e85db9bfbb180fa56370efee3138675752e3cbe",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001130_lidar_1722894765701765199.npy",
+      "sha256": "31198d08fbfc3938cbca940af46512fcf91e692f30353bc37de94d201915a8a9",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001140_lidar_1722894770701789492.npy",
+      "sha256": "ce4655e5aec8f6e811c275df6db0d6b301e9cfe5a3b3b9b92bdc3439e3149466",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001150_lidar_1722894775707566844.npy",
+      "sha256": "96cc68a0ae8b9ad4921146117deb61c240a8a1aea557452331d4f38aa3251d35",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001160_lidar_1722894780697255743.npy",
+      "sha256": "bacbfd21a97ba59e98f522c9457d5c444e19dd136c903e0a413625009fb3cb97",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001170_lidar_1722894785701120761.npy",
+      "sha256": "f5cae54d474936e13be4a9941d8e77bed4efac13e2a1cd10ae977c9177e6475b",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001180_lidar_1722894790699748153.npy",
+      "sha256": "9267bfdd09866eac0f9347aadf5924cedebcd100fdc811361b2cbd2aafb95358",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001190_lidar_1722894795697273296.npy",
+      "sha256": "74efd8d6cb43c2a1ffca51188688a1f21f4d9049a81e4c1a35e3e166bde51c38",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001200_lidar_1722894800698759419.npy",
+      "sha256": "6d0e24ddd9b0108f8435a19903a43459bf54c9ad0c4df64fd73f0b5405b3a755",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001210_lidar_1722894805700545006.npy",
+      "sha256": "ca3cf70df72531ccee68d7f796aa66a26b92ed2899061a707775ca80aa504c1c",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001220_lidar_1722894810702508723.npy",
+      "sha256": "d8a2e0d917a7392273fc3edab8f7ef0e0341c644362bea55c8ac687be7d9a329",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001230_lidar_1722894815700403037.npy",
+      "sha256": "c33dc0541865bdd32c3313f4075d781f8e1cd391589a1ec6f28591d1ac30fd69",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001240_lidar_1722894820698794108.npy",
+      "sha256": "66bd457d8f08418907ff333ed1c0efae2baf8983b339d62f4f38bbabee8feb28",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001250_lidar_1722894825699393137.npy",
+      "sha256": "ff7bf4a340c4bb910e1910d161d9280ea73ee3bca755ef23a25386e3d7b819d1",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001260_lidar_1722894830702068633.npy",
+      "sha256": "732d2fe203da48408fabb1ba13df299fa073e7451e7b0e4b379e6ba475050d06",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001270_lidar_1722894835709898519.npy",
+      "sha256": "f9d104e7e0f5804310b66accf63808e4ee7ad4076433f03bd9d4d8f800d45c98",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001280_lidar_1722894840703842503.npy",
+      "sha256": "123efdd849c6e67340ac1b81825c6e1ffec027bf0b3ea1d426a4acdcb31fcf59",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001290_lidar_1722894845708495700.npy",
+      "sha256": "6c096e71db49f41b1725d0a1f75e6fadcdf768075234bdc680443b429382ff6d",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001300_lidar_1722894850703933181.npy",
+      "sha256": "6ad490007b71fc26307f5b20827a71c24ab589897def3232deb963bc922fed3b",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001310_lidar_1722894855704532867.npy",
+      "sha256": "17af8ee8ebd9fdded0db49c42884c960a72134952c77d858890e1d996998f0e5",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001320_lidar_1722894860698014930.npy",
+      "sha256": "34171ab934b2520057daa78993b39dad3114d4b6f7f9554c1bd889a086745db7",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001330_lidar_1722894865699155599.npy",
+      "sha256": "2932d3602777cb683d34834f4d0bb00d5a32f44ea36566f050cd53f6c354ab30",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001340_lidar_1722894870700843363.npy",
+      "sha256": "c63eeddcd1fea38fa13de99867e876450fe7fa211fc99015125c0d3690c8aeb9",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001350_lidar_1722894875698184962.npy",
+      "sha256": "92c202c991f8e55f0904a0bd5c6c11e801b508ce2eb942fd91dc0ad8224e0737",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001360_lidar_1722894880703141814.npy",
+      "sha256": "16838b2c78e9f0d55299891520ed1b4a2359997c1c0accb0108fb919702f0448",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001370_lidar_1722894885702175683.npy",
+      "sha256": "38feecf67382e172ba7428277b17b0e56d6c3fc372f7f8b61531e7c96cd9b396",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001380_lidar_1722894890703040374.npy",
+      "sha256": "96c154dba276eb0eb5e9a627970093afd8e9750990cb03fc54cad7a9cabc3a0e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001390_lidar_1722894895698808036.npy",
+      "sha256": "44439cb26e6c48e7df67c674b40398d0f3f68c15d190b42b044116357913f2ee",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001400_lidar_1722894900698933244.npy",
+      "sha256": "78bc1ac847fa0d0dea2de5c0d4d8d8fbf58389f847849f047a1a28d9e734d2b2",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001410_lidar_1722894905697117609.npy",
+      "sha256": "ffb079e599b4cfe1c2cf772f82af1d9e87343411f41bf36576f77f479f389fc2",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001420_lidar_1722894910700828598.npy",
+      "sha256": "3ec014ba2421a87b5e3f6cdf154f21cde82dfff7750796c840c0aec7e56c7387",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001430_lidar_1722894915699058782.npy",
+      "sha256": "0a2a3308f2acb372b6ea6b615a3e086632fbf8a29a5fff9bed9ad47ab4b2a68f",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001440_lidar_1722894920696339130.npy",
+      "sha256": "c8d913631373ffaffa5e6be424f947462441dec1b0e879b49a92af4960671943",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001450_lidar_1722894925700096025.npy",
+      "sha256": "9c70f99f0ddb94c08cacf40bfc7a7bec93cf2d04296768cf66cfa3cd9482ef55",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001460_lidar_1722894930706728390.npy",
+      "sha256": "b6d35c2f5fbcca76629d09a7bb9636af20950f34c6f2e6e5d82232e781d326dc",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001470_lidar_1722894935700762014.npy",
+      "sha256": "08bbce13a63eca9efb376db8d17566514ba7f6d4b053ce3f3e988e3459e10bd1",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001480_lidar_1722894940705104641.npy",
+      "sha256": "ba6b079ffbbf27c14c013b0096dc776884a8953fa2f4af00dc6b66cd9b1d2e2d",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001490_lidar_1722894945703543679.npy",
+      "sha256": "b3cdc9c1cc07b2384603ffec21b4df3a9ab1180e237b634898d84ab358fc45c0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001500_lidar_1722894950699512824.npy",
+      "sha256": "098feadfb50a14a73831206fa00438d1370ed23ab830644763b5fcb94a999421",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001510_lidar_1722894955703457841.npy",
+      "sha256": "2728cb8e8edf62a0054be617e1228ea3cf6418a7457867a35928879c7bb39907",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001520_lidar_1722894960704418785.npy",
+      "sha256": "cad6cf005873b9b7032927f31b25875836e59ca9acc60009231350cf541cad54",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001530_lidar_1722894965698954909.npy",
+      "sha256": "836844d5d57dc3a78a03bd2e27d1a6297f9ed296b497cbf5fca341b4e1059ab8",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001540_lidar_1722894970699835533.npy",
+      "sha256": "99c945e77f8e570f9e00e7ba4210ca9623c1b6bc956ea8ab6a0bf0766694ee94",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001550_lidar_1722894975696242049.npy",
+      "sha256": "dff2e903c84e9efdb22f975f62301606a29bc3b1b6216e28bb951be1c10980a0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001560_lidar_1722894980699677406.npy",
+      "sha256": "1aff19d7a8590a0f372c8257f064d40854b3687a839dc9c790d3df65299229ae",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001570_lidar_1722894985701237999.npy",
+      "sha256": "45b683cc69568cd3851350f05d90c2295c2cac1df2654de5088499c909a3e606",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001580_lidar_1722894990699893938.npy",
+      "sha256": "75cf004350037885869ca374490ff0cc7c9767dc4e5be700236cf45ec5ff5de2",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001590_lidar_1722894995701161051.npy",
+      "sha256": "4d8d2dcd49e22e464699c836e94d890ac4629c43e11883b41edc5a1e7f937bc7",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001600_lidar_1722895000701121404.npy",
+      "sha256": "16955864493680db615b8a83721367716a1704fb485dbe4ce1419893aaeec6d0",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001610_lidar_1722895005703972578.npy",
+      "sha256": "8d70bbbb0251456784f61aba1ed0618f7f0e6951b14905c77e8cfce8fe3b49a3",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001620_lidar_1722895010702893558.npy",
+      "sha256": "9636fbc264c9bdd91fcd4f8fd28d7d91ddbe1aac18053ae5edad3b750275f6d8",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001630_lidar_1722895015700213441.npy",
+      "sha256": "f89926249998b909cef1c6b4ddc3af05fa39ac4de3331f49c7632adb6bdf0835",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001640_lidar_1722895020700055920.npy",
+      "sha256": "3679ac73dd0a603d8e817731d39413f1b9ed29ceeca65f41ca782a5704c7ece1",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001650_lidar_1722895025700664507.npy",
+      "sha256": "ca7d7dafb965f87c93e502d2a8e48908ef9c8ad0265255f2e2e876b74bda5cbe",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001660_lidar_1722895030709620560.npy",
+      "sha256": "71ed9a57b4146e52458143c0d496f187159938d307f2914362c9c0ecbdead942",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001670_lidar_1722895035700500874.npy",
+      "sha256": "c9a333f3f02daa17d421e20cb10e9a2e0dbb636766a272b6a9cdcc6c7a1d87c3",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001680_lidar_1722895040705909083.npy",
+      "sha256": "db9ed084ff61b4b4931626c515fc405062f99b7d6eb5d8c08919c15d5e0919d6",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001690_lidar_1722895045701392843.npy",
+      "sha256": "1a1f2d9ec889e706943f0bb8bc9e7df9dfe43e453e9989f0449c0f5a704ca5cb",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001700_lidar_1722895050704242506.npy",
+      "sha256": "7f008b3df7266fd42a0c20f7d932f93646906bda142027804c6c11c4190a6774",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001710_lidar_1722895055696730793.npy",
+      "sha256": "c3bca70ee7dfa3f783f1e6abec5bac1e8dc352a6b550320e415d502495373d37",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001720_lidar_1722895060703405073.npy",
+      "sha256": "ce6c278a1942ed19056f34f0a484c6030ffd76343b2421e20c48dcb3ac21db6d",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001730_lidar_1722895065695203397.npy",
+      "sha256": "ea44bdba12939c4367ed81180cbc767668cddfb94f30ff8693bfea02c11df6be",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001740_lidar_1722895070699220083.npy",
+      "sha256": "d4f7001096d7290c35fc727542540df0b07e5eccc2a35c67558525c48fd76703",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001750_lidar_1722895075701271912.npy",
+      "sha256": "708862d3a79b48141b09d1d8135bce0b97cbed7ed4519717c1beb408e07383fe",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001760_lidar_1722895080698422395.npy",
+      "sha256": "b650b9ba0f90d01cbf2c332cb1cfb63ca435efb86949ca067af2e80fa00887d5",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001770_lidar_1722895085696356865.npy",
+      "sha256": "4888b97525b165b17e592c7a6dc2564001d789b943c65dafb99c83732daa3458",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001780_lidar_1722895090699793578.npy",
+      "sha256": "bd4bad28a1f44121543d495bd25e3e1e57aa56e99af604138fb70947841ece8e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001790_lidar_1722895095700602609.npy",
+      "sha256": "cfb30d946340aa2489bf9489df0708c3368a7db9bb7317eb61bd3a2ab1d5ec56",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001800_lidar_1722895100698820651.npy",
+      "sha256": "ec80cfbcde78b70c7b8b28b0406f8598055ed5e865209b09c13cf179c799c7e1",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001810_lidar_1722895105702641844.npy",
+      "sha256": "18df4855026cbd55a176c8457a2f33069f9300325b3d3f46820a57a9462ab5fc",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001820_lidar_1722895110699901729.npy",
+      "sha256": "3499430b0b072160001935da5396a61b2d505e2e26c5ae8c053d05dda6cd0722",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001830_lidar_1722895115698641599.npy",
+      "sha256": "0e72e29cfe120e2e22050c2da25d1ea6d5999eaf32e76fb6d851c1fc409cf892",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001840_lidar_1722895120706242828.npy",
+      "sha256": "400d25360b7fddf751709ae47391be3645e0c65f16ad3d945a7d3801b8f4434e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001850_lidar_1722895125702320860.npy",
+      "sha256": "f7b997cbfa2cd29fc7453406b0268abc498794e95d6f8af88ad1c72b7e62c977",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001860_lidar_1722895130698968042.npy",
+      "sha256": "dfaa18dfa52b7655b56f05b14478b89bb7ac867594c50924c0a0d8725a4ddf6c",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001870_lidar_1722895135701931433.npy",
+      "sha256": "56605881af09b7bac88db6c03e286d9265fc550d7d39b438b95d202758992342",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001880_lidar_1722895140705847620.npy",
+      "sha256": "df2dbf2a6a8c5b914c9101081f0910358ba7e69f0b89335e2d7ca55f3b4aee4e",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001890_lidar_1722895145701185709.npy",
+      "sha256": "4138bff2e2eb6ec67e52c63b0e56c95e52ee0fb4b85873f7b585a35ab82cc06d",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001900_lidar_1722895150700299597.npy",
+      "sha256": "99ff357cd153800358c482b0b1fcab1dfc3b1cf2bfcd50b5b1202ef4f2f437c4",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001910_lidar_1722895155696353382.npy",
+      "sha256": "5b2a99f0d4c33bbaef0fed0ebe22303697f2a39417f4de0b0c58dd0f723f6616",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001920_lidar_1722895160698441546.npy",
+      "sha256": "bb317480d53f0a67dcdd57e79093fc30db92e64741cbdc5ac267026bc15bf1fb",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001930_lidar_1722895165704301200.npy",
+      "sha256": "5c491c4dae7b74e2e8f60e4bd5c753715aee65682aec70fc4eb1479fedce24cb",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001940_lidar_1722895170702210334.npy",
+      "sha256": "8f417a477df4dc66cb48f4fc3e410aadf985501a58ee52f46f430cb545e5ad04",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001950_lidar_1722895175697579423.npy",
+      "sha256": "e8823fef25fc3130c245bf2c86d5e1187ce4347622bf113c0328465a9de8c856",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001960_lidar_1722895180696821242.npy",
+      "sha256": "84afedafd9ac63fd5d015151e49a347c532b4833b64528393d772d61edeb9491",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001970_lidar_1722895185699297172.npy",
+      "sha256": "3f7abb4bc16224c0be6a43125f209af3aa81cef8a2d4e9a0a902442e91fae376",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001980_lidar_1722895190700045030.npy",
+      "sha256": "0daa802e5d60dace8d194ab181174d123402962e45ea82e5808dbbc6020528ca",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/lidar/001990_lidar_1722895195697797222.npy",
+      "sha256": "ae60271af16455b2e894b325908a6c649d2e150b4934b98bf8dcaf645eceb214",
+      "role": "read-only local LiDAR display subset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/BATCH_FINAL.json",
+      "sha256": "97ac5f6b60e9458637da1456f28614807633c86fb10371e659f3a72a092c23be",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/COMMON_INITIAL.json",
+      "sha256": "828f8c010044efe4f707d0c7cd81b3ba0f3a97f29d5776612100bbe1619b3b83",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_03.json",
+      "sha256": "fc9464d18bb442addeef11a1a8b29e1c89efad13755e05e5629cfbbc9b25582c",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_04.json",
+      "sha256": "6a53fc543d2ddbd9a0069828014614b11479b3e7748021aa7f4239def9d23320",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_06.json",
+      "sha256": "6d53a236b4da709c913913cc3c41fdd89ea86fcaa60a76c77aa4a0825e2dc907",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_07.json",
+      "sha256": "fb9ee44fbf3821ae03fcd122fc2a667fb9dd907cda56a89ae51a64d88d940127",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_08.json",
+      "sha256": "c2bde3f72aa2d20e7a6c93ecdd7d71b18b2630f045330f5879a204b664424059",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_09.json",
+      "sha256": "eaabb1d625505f9ce61fd7f8e75ed0cf884d9a61c2b5f486371dd363e1e6faeb",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_11.json",
+      "sha256": "c568cd002af9d3365958410355aacf6803ece1d32a3f2e4695bddbfa7d335d5b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_12.json",
+      "sha256": "ef1603f2c26a728c005f1684632f7273374e9d4ace6322467a787e0d88e57fce",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_13.json",
+      "sha256": "6e48dca287567747dc40bc4e01e3ff8bd9ae7327a0ef258d7465d3be31a37bd9",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_14.json",
+      "sha256": "31cf8d0d18eb3d207c721ea4787b20d9d351cb5d1aef635aa50f3c40cbfd1b6f",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_15.json",
+      "sha256": "271b7034ba9d544e476b5d2739dbba328d067d523e98cf7907ab0ee6d3b9e4a4",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_16.json",
+      "sha256": "2c36fac1ada212581b8325479f387b66ec9f0d5a1e9dcda3b49db46a2acd348b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_17.json",
+      "sha256": "fb2c4d8a24e906209076a9dd7cb898a16b099fd9e755908e828be81a09cedb7b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_18.json",
+      "sha256": "2fa6868005d95f771078e4e2f59986aafed51238e947ac05668ee0aee7bdf27b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_19.json",
+      "sha256": "fb2297d69bd956b30327c809b5746f9bc50a9716bd8d7e3ec5ec44454fb7dd2c",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_21.json",
+      "sha256": "827c40eb94d1def60faae639e7a9d6310cb5fa876d3717c33d1155e346d2db66",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_22.json",
+      "sha256": "2402434903447a53140682731bc2b6e26cbb72fda20d03a3af3dc4f325711e75",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_23.json",
+      "sha256": "7e56bb587c930cf36ca124e48477bcc13370d5123f93c145f5ca7297d749a7e6",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_24.json",
+      "sha256": "f6df039a0abe629a7c24830522029669499cc054c03931b9ba1523953ef53e4e",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_25.json",
+      "sha256": "f5145be94cf69da2527a86f9d5ed25948d2d1d173ec8bc8780d298b6f2b1147c",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_26.json",
+      "sha256": "08fbbd917161524c306aea0e6680b08eeb7fdbc4c3e9dec810967aea8fb82c19",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_27.json",
+      "sha256": "8fc594825f96b4d2459d2c3a37949ea948cb2ec22f01c547c15047b2b1f8d331",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_28.json",
+      "sha256": "2cf6fb321a3019333f83f3830f8393a9b18a0b8e7bfed90a29fd9183cf272fac",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_29.json",
+      "sha256": "c1ddf11c751aa6a80858f9907d126554249b0ff966bea2f9ebaf06ecfc217ade",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_30.json",
+      "sha256": "971db9b1381a618c02d0d9aad4985da381aef99e1906d2ed6d821c299f418094",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_31.json",
+      "sha256": "217f3c1bceafd19d7c817f95ae327644fa67cea5292eeacd3af6b8b1dd3ddf40",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_32.json",
+      "sha256": "3a5bb32a6fb9e7f8237a31514292e1ae8b9860dd2dfbe602ff5279b993177eb7",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_33.json",
+      "sha256": "d6bc6d7afc39d7dd8e544aeb6997544153add956abd4cfd0246890cd8939f3b7",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_34.json",
+      "sha256": "77a3c12584acebe5a4a19384d27a0c1874832c10bdacd72cffbd193f24b074c7",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_35.json",
+      "sha256": "0c32b28754f25b26ef94380fbe5ffecd17ebe56a160868ebbb52f6c9237ce63a",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_36.json",
+      "sha256": "163525e2f94c72f38487a09b3e3c9eb2be091bfea127b6c93fcc05062bbe4957",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_37.json",
+      "sha256": "061a7ac7870fcd6c548ee27dcfc3c8ce6ae8ef98258c2f9ca37cebf4f299a04d",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_38.json",
+      "sha256": "db965f3fc4f987aa9502b6421e5f8202e6e433b78737f76e268c06ce73eba90b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_39.json",
+      "sha256": "43108ad1919909dd1cc5acfc3c01e90753200a9c981a042e8923ded009d87de6",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_41.json",
+      "sha256": "b2fd21e70cb3dce66d88a29d6a333c6dc5ba0c539b8f57fcdb3162b05df2c1b2",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_42.json",
+      "sha256": "e20f7bcca8a674fff0092ef07effc4dd810894d0d9779dd03a888691fc389aa3",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_43.json",
+      "sha256": "bf1a39fcc4270b968270c4265e4bb04b0aecf44253d942d41b534e27095f9fa1",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_44.json",
+      "sha256": "466693a0f3d09a86b0f54d94101e9acee60328b303f93cd51167fa8a33464a41",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_45.json",
+      "sha256": "9cf5fb7cf4d5eebab655dbaa9809cb48776d4ab59ad19c26041ab502d7a0d5fb",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_46.json",
+      "sha256": "d39e7cb27b91ee0530112e1a1830bd3c136908264b17100db628f8f6c12fff26",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_47.json",
+      "sha256": "be8d772193f93c3fc10a293abaf67e634f39b5bcf6094cf3dd67929cdec041c5",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_48.json",
+      "sha256": "577eaeb7be516851d1ba89ca27e016036a7529698274f1839cabc8450591ef9c",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_49.json",
+      "sha256": "0ec57c796e319957548dcbdc19cafed00d152c2e22a99c42eb861e198402e387",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_50.json",
+      "sha256": "7aef29a69190df4fd20559e0e1c77125bf4cdaad8a7fb7b79f66e14a34818971",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_51.json",
+      "sha256": "f092fab59b5d47b073d4fb0898380937168c0011383a3d7cb134a5132da63177",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_52.json",
+      "sha256": "2b68cb7484a1e2dce8e13b39c6c1560b6684a9fd24529fe7ce6f8545eb59fe41",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_53.json",
+      "sha256": "7f8512bda194d541b56003905732ff50acd7728096c86deb422ec11803f2e3e3",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_54.json",
+      "sha256": "f649fb4afc5b75401079d6fb51c81e8fdf03a26a91acfb3ff9b34be0462d6f01",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_55.json",
+      "sha256": "a461ca1906ffa74369171a6ded39e74631037104e56159c8781638a784e06cf4",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_56.json",
+      "sha256": "c55e35e8b13d605587bcc3fc0f7d2591056832ba8deb256581682a595dbbfff0",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_57.json",
+      "sha256": "10f44a97e8bbbc931f629e1a6c83760fe71fb17b2c60bf36e10b98090625d57b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_58.json",
+      "sha256": "d35fd9ca37378c13c754956cbec1e175a66849a057591f4b343dc6d63ef61070",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_59.json",
+      "sha256": "828695c07d7154e6fafb1219dd1ae7a66b3565a157995c8cc737376599abf854",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_60.json",
+      "sha256": "b744b162f12baba2993afbba127acc3a812fd55d4daae0eb553eecdd2e464a09",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_61.json",
+      "sha256": "6273d4a8edbb04286b5819df759e3d9c7fb55a1ea7285c9126a74abc5950448b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_62.json",
+      "sha256": "f4b0fb2da6722103bae991e2945d3f71e404e6d9793b71bca6e7c363a11ddd53",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_63.json",
+      "sha256": "c839c6f3728622db465216d6b8475e6e963eff813f6f6281c6ba94630e860e76",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_64.json",
+      "sha256": "537063a6fe0d9a6160fb2dc888b5b0e44057c78a0136bead903f9fbb8f1a051c",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_65.json",
+      "sha256": "46111a86cec9b4189740c487648b3259b498b225dc7f30b549cc17d40ca4a7f6",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_66.json",
+      "sha256": "7c014cad16b571c8590bdf9b7f40841a464102f95d21e12c87680ccf78dcf42b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_67.json",
+      "sha256": "ad8c3f9a396d9f9bee895e31f85b58068014ad46792b9ce2a17ea0e057623ea4",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_68.json",
+      "sha256": "842685714f36780628f170c50bcbdcf665a9967c5d2f37b989079359e188ab82",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_69.json",
+      "sha256": "51329c647bd10149248dce839a59aa9020b249359d8ee8ebd6484d42e8f866ff",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_70.json",
+      "sha256": "31e7dfbabac3c4443cff531f78d7c2c07ab676f240a81496dde2a507378ea389",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_71.json",
+      "sha256": "df7c9f5f00463b5e75b113c76a1029add3adba7a0ca80f8402d5ea281f315888",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_72.json",
+      "sha256": "6f140a59ccd77f823853c4d8fde9f62f79f9bd79e71f7dcd29e8d83b4fadd6aa",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_73.json",
+      "sha256": "29384dc202b6b0d2fd2e33b8f84648ef706f5923fecf2cf4aa7c091ba978dfc6",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/EVENT_74.json",
+      "sha256": "fe08d6860dc38d3d75990af6d13ee41e854eabb91fc44f6335e8e33dce4f1ce9",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/FINAL_STREAM_END.json",
+      "sha256": "d78c939e559bd6734065dc0f22f02b16af5f473162062278cd36d425946e2f44",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/FIRST_LOOP.json",
+      "sha256": "859f1ba05bffed1377c6021ff35a9e34399c86487222ed59363e1a3b84785ade",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K10.json",
+      "sha256": "43361c579d006f527744e33f7c3a29c5f2a567bb853bbf742072a84497bac005",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K2.json",
+      "sha256": "209d7b4c529e2a7d78d9a863071d0de6c2dab814a8b5b449a012a04ac5fac6c8",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K20.json",
+      "sha256": "4c99434377ca9da2a0b2fddfa7a68d397494fa75e0542c679f61d5aabd01662b",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K40.json",
+      "sha256": "2862e3dc0d10cc8a85b4cbe20a267405b703c06a9e32ce9eacffb45c1aca70c6",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K5.json",
+      "sha256": "b3a6040ac9416e0992dab64e98aeccb828e55fd2e6540d50b3588032a256e5eb",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/K75.json",
+      "sha256": "fc5e0dc70c26a643d06fd85977de43b18f7c6c1d4cd3165ce43208dc4c8e8d03",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/PRE_FIRST_LOOP.json",
+      "sha256": "ebb167f57f00c2d5e0aa916c7fe44857bf39abea274045847f040ad249c8a169",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/display_bounds.json",
+      "sha256": "9d3e02619f745b141a54fb2f256694346ea02fe60533c6ee4fad4225ce84e034",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/geometry_manifest.json",
+      "sha256": "7dc4dd285b8f2d47840e25a1783e4e59eb93aa9a314528e9cde5239f7da52ccb",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/local_first_encounter_pose.json",
+      "sha256": "7266e827ed039bef1bffeacd1f60f11192921d6e9f89305ddf5dc65cfa3c8af9",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/replay.json",
+      "sha256": "8c68f9fa1985f06da37152c89438f07de24e0629a3ab025378bc3a8c06162ff4",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/demo/progressive_multi_robot/data/robot1_causal_pose_stream.json",
+      "sha256": "b35b567960558a140a1bfbbca165eb613c544d4c70f9a377b892326a7818b436",
+      "role": "accepted Stage18.1 immutable asset"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/ordered_rank1_clean_loops.csv",
+      "sha256": "69c4ed4c744392edba309b92a5b84abc9b34aa4200c37542d56881a0f114d44e",
+      "role": "frozen loop/policy lineage, read-only"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/13b_incremental_isam2/isam2_parameter_policy.json",
+      "sha256": "27d986efa2ef3ddf1913131eaa2b3799ac7c1c0f7324fd77433363aa7e801308",
+      "role": "frozen loop/policy lineage, read-only"
+    }
+  ],
+  "offline_only_sources": [
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv",
+      "sha256": "7545b9c0487afdef3dc3310ed1f5ad18c2a291c11e2bba23c414838b5133e4ab",
+      "role": "offline height diagnosis only; never browser assets"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv",
+      "sha256": "e7c2c5440a992f0929d7fa331146036a8f25df7eff805a4a10e67d8ff5030003",
+      "role": "offline height diagnosis only; never browser assets"
+    }
+  ],
+  "raw_modified": false,
+  "solver_runs": 0,
+  "retrieval_runs": 0,
+  "GICP_runs": 0,
+  "clean_loops": 75,
+  "excluded": 45,
+  "graph_nodes": 5796,
+  "GT_not_in_demo": true
+}

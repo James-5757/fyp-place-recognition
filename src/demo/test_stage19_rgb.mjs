@@ -1,0 +1,22 @@
+// Pure unit test for our presentation code; no browser automation or scientific run.
+import assert from 'node:assert/strict';
+import {RGBReplay} from '../../demo/stage19_rgb_three_map/rgb_replay.js';
+const elements=new Map();
+globalThis.document={getElementById(id){if(!elements.has(id))elements.set(id,{hidden:false,textContent:'',src:''});return elements.get(id);}};
+globalThis.Image=class{set src(v){this.value=v;}get src(){return this.value;}async decode(){await new Promise(r=>setTimeout(r,2));}};
+const rows=Array.from({length:80},(_,i)=>({file:'image'+i,rgb_timestamp_ns:String(1000+i*100),abs_sync_error_ns:'50',keyframe_id:i}));
+const m={frames:{robot1:rows,robot3:[{...rows[3],rgb_message_index:3}]},robots:{robot3:{keyframe_rgb_indices:{252:3}}}};
+const replay=new RGBReplay(m);
+assert.equal(replay.floor('robot1',999n),null);
+assert.equal(replay.floor('robot1',1050n).file,'image0');
+assert.equal(replay.floor('robot1',1100n).file,'image1');
+rows[1].header_timestamp_ns='1200';assert.equal(replay.floor('robot1',1100n).file,'image0');delete rows[1].header_timestamp_ns;
+assert.equal(replay.reference(252).file,'image3');assert.equal(replay.reference(253),null);
+await replay.show('robot1',rows[1],1100n,null);assert.equal(replay.current.robot1.file,'image1');
+const old=replay.show('robot1',rows[2],1300n,null),latest=replay.show('robot1',rows[3],1300n,null);
+await Promise.all([old,latest]);assert.equal(replay.current.robot1.file,'image3');
+await replay.show('robot1',null,999n,null);assert.equal(replay.current.robot1.status,'MISSING');assert.equal(elements.get('rgb1').hidden,true);
+await Promise.all(rows.map(row=>replay.load(row).catch(()=>null)));
+for(const row of rows)await replay.load(row);
+assert.ok(replay.cache.size<=24);assert.ok(replay.active<=2);assert.ok(replay.queue.length<=6);
+console.log(JSON.stringify({status:'PASS',causal_floor:true,explicit_historical_reference:true,seek_token:true,missing_state:true,bounded_cache:true,cache:replay.cache.size,max_active:replay.metrics.max_active}));

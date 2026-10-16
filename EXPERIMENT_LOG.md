@@ -1,5 +1,24 @@
 # Experiment log
 
+## Stage 19 — 2026-10-15 presentation / RGB integration
+
+Objective: persistent independent R1/R3 local maps plus real progressive global
+map and authentic front-camera observations. Inputs: accepted bf30e1a Stage18.1
+assets, frozen local Pose3/LiDAR, existing read-only R1/R3 RGB ZIPs. Method:
+prototype then gated bounded JPEG export; bag-clock associations preserve header
+timestamps and IDs, causal R1 floor selection, explicit historical R3 references;
+three scissored Three.js scenes, bounded image prefetch/LRU/seek tokens. No raw
+redownload, SC/GICP or optimizer run. Independent audit/unit/browser tests and
+performance evidence accompany the new Stage19-only outputs and documentation.
+
+Separate offline-only height diagnosis uses reference poses solely to examine
+the terrain hypothesis: KF0-relative LiDAR gauge orientation dominates apparent
+hundreds-of-metres Z span; terrain has much smaller real elevation changes.
+Diagnostic rigid transforms never enter maps/graph or RGB selection. Existing
+75 loops,45 exclusions,iSAM2 estimates and Stage13–17 decisions remain frozen.
+No dual stream/distributed/live system was started. See the Stage19 report for
+exact export costs,clock limitations,checkpoints and measured presentation cost.
+
 ## Latest entry — 28. Stage 13D (2026-10-09)
 
 Objective: isolate targeted iSAM2 convergence behavior and audit suspicious

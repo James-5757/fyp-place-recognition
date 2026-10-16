@@ -1,5 +1,24 @@
 # Results
 
+## Stage 19 — persistent three maps / authentic RGB (presentation only)
+
+New independent `demo/stage19_rgb_three_map/` preserves accepted Stage18.1.
+R1/R3 local maps remain visible in independent frozen local frames after global
+fusion. Authentic ROS2 color observations use explicit bag/header nanoseconds,
+causal R1 image selection and historical-only R3 candidate observations. No SC,
+GICP, solver, frozen graph/loop or historical result changes. Prototype/full
+export costs, exact image counts/hashes/sync statistics, browser checkpoint
+evidence and independent validation are in `outputs/cumulti_v1/19_rgb_three_map/`.
+
+Offline height diagnosis finds gauge Z is not altitude: local Z spans296.914/
+363.867m versus reference elevation spans7.426/12.771m; diagnostic no-scale
+rigid alignment yields vertical RMSE0.212/0.457m. The dominant apparent steep
+height effect is coordinate-gauge orientation, not terrain alone. No GT-derived
+alignment enters the demo. Camera header/bag clock differences remain a
+synchronization limitation; display is not calibrated exposure-time hardware
+sync or simultaneous live robots. Historical backend/sparse negative decisions
+remain unchanged. See `docs/CUMULTI_STAGE19_RGB_THREE_MAP_DEMO.md`.
+
 ## Stage 13D — targeted convergence and counter-validity audit (verified)
 
 Independent D0/D1/D2 runners preserve the frozen graph, noise and gauge. D0

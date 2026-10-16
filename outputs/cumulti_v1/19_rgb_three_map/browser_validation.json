@@ -1,0 +1,395 @@
+{
+  "checkpoints": {
+    "PRE_FIRST_LOOP": {
+      "clock": "Recorded R1 bag ns: 1722894275697938011 · demo 0s · event-paced, NOT sensor seconds",
+      "global": "UNALIGNED — no overlay / no future global map",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/000750_1722894275651987605.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/001259_1722894326641462449.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 0 / 75 · R1 KF150",
+      "time": "KF150 · K0",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "FIRST_LOOP": {
+      "clock": "Recorded R1 bag ns: 1722894342199549961 · demo 20s · event-paced, NOT sensor seconds",
+      "global": "FIRST_LOOP · actual frozen state KF283 / K1 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/001415_1722894342156252783.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/001349_1722894335639661853.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 1 / 75 · R1 KF283",
+      "time": "KF283 · K1",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "K2": {
+      "clock": "Recorded R1 bag ns: 1722894389700196223 · demo 34s · event-paced, NOT sensor seconds",
+      "global": "K2 · actual frozen state KF378 / K2 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/001890_1722894389658697435.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/014735_1722895674614242565.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 2 / 75 · R1 KF378",
+      "time": "KF378 · K2",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "K5": {
+      "clock": "Recorded R1 bag ns: 1722894456699265923 · demo 52s · event-paced, NOT sensor seconds",
+      "global": "K5 · actual frozen state KF512 / K5 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/002560_1722894456662303422.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/015445_1722895745669617815.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 5 / 75 · R1 KF512",
+      "time": "KF512 · K5",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "K10": {
+      "clock": "Recorded R1 bag ns: 1722894519701830239 · demo 72s · event-paced, NOT sensor seconds",
+      "global": "K10 · actual frozen state KF638 / K10 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/003190_1722894519667371709.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/017729_1722895974101537688.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 10 / 75 · R1 KF638",
+      "time": "KF638 · K10",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "K20": {
+      "clock": "Recorded R1 bag ns: 1722894532704343255 · demo 82s · event-paced, NOT sensor seconds",
+      "global": "K20 · actual frozen state KF664 / K20 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/003320_1722894532666231586.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/017585_1722895959645124572.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 20 / 75 · R1 KF664",
+      "time": "KF664 · K20",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "K40": {
+      "clock": "Recorded R1 bag ns: 1722894707703296238 · demo 140s · event-paced, NOT sensor seconds",
+      "global": "K40 · actual frozen state KF1014 / K40 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/005070_1722894707682059305.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/016080_1722895809129397849.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 40 / 75 · R1 KF1014",
+      "time": "KF1014 · K40",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "K75": {
+      "clock": "Recorded R1 bag ns: 1722895184199143510 · demo 282s · event-paced, NOT sensor seconds",
+      "global": "K75 · actual frozen state KF1967 / K75 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/009832_1722895184112891823.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/020961_1722896297666452612.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 75 / 75 · R1 KF1967",
+      "time": "KF1967 · K75",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    },
+    "FINAL": {
+      "clock": "Recorded R1 bag ns: 1722895200198709237 · demo 286s · event-paced, NOT sensor seconds",
+      "global": "FINAL_STREAM_END · actual frozen state KF1999 / K75 (step-held)",
+      "images": [
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot1/009992_1722895200112170638.jpg",
+          "visible": true,
+          "width": 384
+        },
+        {
+          "src": "http://127.0.0.1:8021/stage19_rgb_three_map/rgb/robot3/020961_1722896297666452612.jpg",
+          "visible": true,
+          "width": 384
+        }
+      ],
+      "panels": [
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.671875
+        },
+        {
+          "bottom": 504,
+          "height": 443,
+          "top": 61,
+          "width": 505.65625
+        }
+      ],
+      "status": "Current accepted clean loops: 75 / 75 · R1 KF1999",
+      "time": "KF1999 · K75",
+      "three_panels_visible": true,
+      "rgb_ready": true,
+      "causal_rgb": true,
+      "state_consistent": true
+    }
+  },
+  "controls": {
+    "reset": true,
+    "seek": true,
+    "speed": true,
+    "play_pause": true,
+    "checkpoint_jumps": true
+  },
+  "browser": "Edge extension, local HTTP, actual recorded assets",
+  "missing_state_observed_during_local_asset_copy": true,
+  "first_candidate": {
+    "quality": "—",
+    "r3": "Historical KF252 · RGB 1722894335639661853 · |Δ LiDAR| 14.12 ms"
+  }
+}

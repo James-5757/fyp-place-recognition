@@ -1,5 +1,18 @@
 # Next steps
 
+## Current presentation checkpoint — Stage 19 (2026-10-15)
+
+Use `scripts/run_stage19_demo.sh` and `/stage19_rgb_three_map/` for the persistent
+three-map/authentic RGB presentation; Stage18.1 remains separately available.
+Serve the demo parent directory, not the new child alone. Review the Stage19
+validation,performance and clock-offset limitations before supervisor rehearsal.
+Gauge XY/Z is not automatically gravity-aligned ENU; do not explain the large
+displayed Z span as terrain alone or silently flatten/GT-align scientific poses.
+
+Stop after Stage19. Do not automatically start dual-stream scheduling,
+distributed/live SLAM, visual pose estimation, new loop selection or numerical
+retuning. Preserve all frozen factors/estimates and Stage13B/15/17 caveats.
+
 ## Current update — after Stage 13D (2026-10-09)
 
 Decision: **NUMERICAL_DISCREPANCY_PARTIALLY_EXPLAINED**. No tested diagnostic

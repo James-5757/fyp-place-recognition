@@ -1,0 +1,74 @@
+{
+  "robots": {
+    "robot1": {
+      "local_z_min": -56.28294443618506,
+      "local_z_max": 240.6306588696316,
+      "local_z_span_m": 296.91360330581665,
+      "final_z_span_m": 299.90191235295833,
+      "local_max_abs_adjacent_dz_m": 1.1405890816822648,
+      "local_adjacent_dz_p95_m": 0.8644983133301138,
+      "local_max_xy_step_m": 1.1276515267705258,
+      "offline_reference_z_span_m": 7.425606839582315,
+      "offline_reference_max_abs_adjacent_dz_m": 0.3654985865518938,
+      "offline_rigid_alignment_rotation": [
+        [
+          0.00034952595095346164,
+          -0.7632684777542358,
+          -0.6460813483597411
+        ],
+        [
+          -0.26102509684379344,
+          0.6236134082125557,
+          -0.7368664844564503
+        ],
+        [
+          0.965331951532372,
+          0.16890100048327553,
+          -0.19901425925408137
+        ]
+      ],
+      "offline_gauge_z_vs_reference_up_deg": 101.4793215228004,
+      "offline_rigid_aligned_z_rmse_m": 0.21218730885459156,
+      "offline_rigid_aligned_z_correlation": 0.9944721395743382,
+      "max_gt_sync_ms": 24.845824,
+      "GT_used_only_for": "offline height hypothesis analysis; never in display/selection/optimization"
+    },
+    "robot3": {
+      "local_z_min": -71.28700016532093,
+      "local_z_max": 292.5800165105611,
+      "local_z_span_m": 363.86701667588204,
+      "final_z_span_m": 364.06435492848533,
+      "local_max_abs_adjacent_dz_m": 1.6974974069744064,
+      "local_adjacent_dz_p95_m": 0.8763530792668472,
+      "local_max_xy_step_m": 1.470415657340353,
+      "offline_reference_z_span_m": 12.770748908023506,
+      "offline_reference_max_abs_adjacent_dz_m": 0.11862368342531227,
+      "offline_rigid_alignment_rotation": [
+        [
+          -0.002337808471960785,
+          -0.7607423051762993,
+          -0.6490498284158154
+        ],
+        [
+          -0.26410601503243364,
+          0.6264757315990589,
+          -0.7333322374893337
+        ],
+        [
+          0.9644908229087702,
+          0.16970357342282127,
+          -0.2023811989595101
+        ]
+      ],
+      "offline_gauge_z_vs_reference_up_deg": 101.67623971686653,
+      "offline_rigid_aligned_z_rmse_m": 0.4569673144457789,
+      "offline_rigid_aligned_z_correlation": 0.9898812547291695,
+      "max_gt_sync_ms": 24.795392,
+      "GT_used_only_for": "offline height hypothesis analysis; never in display/selection/optimization"
+    }
+  },
+  "display": "true XYZ / uniform metric scale; perspective can accentuate slope, no Z exaggeration",
+  "coordinate_source": "Stage12D: inverse(first EKF pose @ IMU_FROM_LIDAR) @ (EKF pose @ IMU_FROM_LIDAR); KF0-relative LiDAR axes, not gravity-aligned ENU",
+  "conclusion": "Dominant apparent hundreds-of-metres elevation is coordinate-gauge orientation, not terrain: rigid diagnostic alignment reduces vertical discrepancy to sub-metre. Real reference elevation also varies. Residual drift/noise/optimization deformation are not ruled out. No flattening, GT display alignment or scientific pose edits.",
+  "GT_access": "only offline diagnosis, not RGB/local map export"
+}

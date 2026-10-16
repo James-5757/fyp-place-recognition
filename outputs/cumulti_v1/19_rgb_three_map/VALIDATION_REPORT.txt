@@ -1,0 +1,7 @@
+STAGE19: PASS
+13837/13837 checks pass
+
+GT: offline height diagnosis only, never presentation alignment or tuning
+SC/GICP/optimizer reruns: 0
+LIVE / DISTRIBUTED: NOT_RUN
+SMOOTHNESS: foreground rehearsal still required; see performance.json
