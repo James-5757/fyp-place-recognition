@@ -1,0 +1,296 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 0,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 105,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 210,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 315,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 420,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 526,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 631,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 736,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 841,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 946,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1052,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1157,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1262,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1367,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1472,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1578,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1683,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1788,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1893,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot1",
+      "keyframe_id": 1999,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 0,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 219,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 439,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 659,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 879,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 1099,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 1319,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 1539,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 1759,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 1979,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 2199,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 2419,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 2639,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 2859,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 3079,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 3299,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 3519,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 3739,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 3959,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    },
+    {
+      "robot_id": "robot3",
+      "keyframe_id": 4179,
+      "exact_consumed_XYZ": true,
+      "preprocessed_points_bitwise_equal": true,
+      "SC_bitwise_equal": true
+    }
+  ],
+  "stored_shape_contract": "frozen loader requires Nx4; receiver adapter restores a fourth zero intensity column before calling unchanged loader",
+  "transport": "XYZ float32 lossless for all consumed coordinate fields; NOT lossless preservation of unused original intensity",
+  "actual_backend_pair": [
+    0,
+    87
+  ],
+  "actual_backend_max_matrix_difference": 0.0,
+  "actual_backend_quality_difference": 0.0,
+  "voxel_crop_parameters_unchanged": true,
+  "XYZI_alternative": "separately measured, preserves all original four fields",
+  "no_algorithm_file_modified": true
+}

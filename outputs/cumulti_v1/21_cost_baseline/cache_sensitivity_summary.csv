@@ -1,0 +1,6 @@
+mode,capacity,descriptor_accesses,cache_hits,cache_misses,evictions,max_resident_items,modelled_max_payload_resident_bytes,measured_Python_index_overhead_bytes,measured_logical_cache_lookup_ms,total_serialized_bytes,total_messages,scope
+B1_FULL_SC_DESCRIPTOR_FIRST,None,0,0,0,0,0,0,128,0.0,224467723,4898,"same100 query shortlist accesses; protocol-simulated cache IDs, no measured remote cache or network"
+B2_RING_KEY_HIERARCHICAL,UNBOUNDED,100100,95886,4214,0,4214,20227200,701976,24.698619,224897867,13326,"same100 query shortlist accesses; protocol-simulated cache IDs, no measured remote cache or network"
+B2_RING_KEY_HIERARCHICAL_NONE,NONE,100100,0,100100,0,0,0,128,24.772737,694355723,205098,"same100 query shortlist accesses; protocol-simulated cache IDs, no measured remote cache or network"
+B2_RING_KEY_HIERARCHICAL_LRU128,128,100100,220,99880,99752,128,614400,28320,99.259155,693278603,204658,"same100 query shortlist accesses; protocol-simulated cache IDs, no measured remote cache or network"
+B2_RING_KEY_HIERARCHICAL_LRU1000,1000,100100,47377,52723,51723,1000,4800000,222648,75.857629,462397931,110344,"same100 query shortlist accesses; protocol-simulated cache IDs, no measured remote cache or network"

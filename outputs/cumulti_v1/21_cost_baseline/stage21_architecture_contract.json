@@ -1,0 +1,35 @@
+{
+  "status": "PROTOCOL_SIMULATION_NOT_NETWORK",
+  "common_workload": "all4180 R3 database keyframes, prebuilt before R1 query phase; the same original100 query IDs and frozen173 attempted pairs for B0/B1/B2",
+  "B0": {
+    "sensor_clouds": "full original float32 XYZ, no crop/voxel before upload; intensity verified unused by frozen SC/GICP",
+    "trigger": "cloud arrival implicitly requests retrieval, no redundant request",
+    "descriptor_extraction_location": "central",
+    "cloud_cache": "all database uploads retained"
+  },
+  "B1": {
+    "database_sync": "all R3 full SC descriptors",
+    "query": "R1 full SC upload plus explicit CANDIDATE_REQUEST",
+    "geometric": "central requests query cloud once and candidate clouds in frozen attempt order; unbounded received-cloud cache",
+    "descriptor_extraction_location": "robot-local proxy, measured on server host"
+  },
+  "B2": {
+    "database_sync": "all R3 Ring Keys",
+    "query": "R1 Ring Key + CANDIDATE_REQUEST; central requests query full SC and each actual M1000 shortlist full SC on cache miss",
+    "cache": "UNBOUNDED primary; NONE/LRU128/LRU1000 sensitivity, no selection/ranking change",
+    "geometric": "same frozen requests and cloud cache as B1"
+  },
+  "B3": {
+    "scope": "ORACLE LOWER BOUND; separate Stage20 dual stream, not a common frontend-workload competitor",
+    "updates": "5796 initial/relative odometry messages plus75 archived loops; initial R3 pose is node metadata, NOT a second global prior",
+    "producer": "robot1 logical oracle producer for frozen inter-robot constraints; no claim of online discovery on robot1"
+  },
+  "shared": {
+    "operation_locations": "retrieval/GICP/iSAM2 are central; descriptor extraction logical location depends on mode; all new timing measurements physically on server",
+    "missing": "sensor acquisition/EKF creation cost, physical robot CPU, real transport, correction/map distribution policy NOT_MEASURED",
+    "no_automatic_downlink": "GLOBAL_POSE_CORRECTION/MAP_CHUNK schemas measured separately; no invented send cadence or ACKs",
+    "byte_rules": "actual entire encoded buffers, application framing included; raw NPY/ZIP sizes never network counts",
+    "compressed": "actual zlib1 length for each logical message; no packet/link overhead",
+    "rate": "query-phase bytes / actual span of100 original query timestamps; DB synchronization phase reported separately, not assigned fictitious instantaneous bandwidth"
+  }
+}

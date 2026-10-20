@@ -1,0 +1,1632 @@
+{
+  "baseline": "5e9316b4bdd9c7a6fc412ad0ba5515f5adf23cf2",
+  "source_commits": {
+    "stage8_accepted": "15f5cae174405f4cf5f0c3bba5c2b72e5454361d",
+    "stage9_frontend": "c52354db7ddc74f7d42ab422486e5eb2922dcf50",
+    "stage20": "5e9316b4bdd9c7a6fc412ad0ba5515f5adf23cf2"
+  },
+  "scenarios": [
+    "HISTORICAL_PREBUILT_FRONTEND: all4180 R3 database + original100 R1 query slice; common B0/B1/B2 workload",
+    "DUAL_STREAM_ARCHIVED_FACTOR_REPLAY: B3 only,5796 initial/relative odometry updates +75 frozen loops"
+  ],
+  "queries": [
+    0,
+    20,
+    40,
+    60,
+    80,
+    100,
+    121,
+    141,
+    161,
+    181,
+    201,
+    222,
+    242,
+    262,
+    282,
+    302,
+    323,
+    343,
+    363,
+    383,
+    403,
+    424,
+    444,
+    464,
+    484,
+    504,
+    524,
+    545,
+    565,
+    585,
+    605,
+    625,
+    646,
+    666,
+    686,
+    706,
+    726,
+    747,
+    767,
+    787,
+    807,
+    827,
+    848,
+    868,
+    888,
+    908,
+    928,
+    949,
+    969,
+    989,
+    1009,
+    1029,
+    1049,
+    1070,
+    1090,
+    1110,
+    1130,
+    1150,
+    1171,
+    1191,
+    1211,
+    1231,
+    1251,
+    1272,
+    1292,
+    1312,
+    1332,
+    1352,
+    1373,
+    1393,
+    1413,
+    1433,
+    1453,
+    1474,
+    1494,
+    1514,
+    1534,
+    1554,
+    1574,
+    1595,
+    1615,
+    1635,
+    1655,
+    1675,
+    1696,
+    1716,
+    1736,
+    1756,
+    1776,
+    1797,
+    1817,
+    1837,
+    1857,
+    1877,
+    1898,
+    1918,
+    1938,
+    1958,
+    1978,
+    1999
+  ],
+  "frozen_gicp_attempts": [
+    {
+      "query": 0,
+      "candidate": 87,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6259682976466973
+    },
+    {
+      "query": 20,
+      "candidate": 117,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6492324084827674
+    },
+    {
+      "query": 40,
+      "candidate": 87,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6194797219107497
+    },
+    {
+      "query": 60,
+      "candidate": 87,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6090661363053795
+    },
+    {
+      "query": 60,
+      "candidate": 89,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.6151406363881405
+    },
+    {
+      "query": 80,
+      "candidate": 87,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6168898773251005
+    },
+    {
+      "query": 100,
+      "candidate": 87,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.5897251576063262
+    },
+    {
+      "query": 100,
+      "candidate": 76,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.5955861002774757
+    },
+    {
+      "query": 100,
+      "candidate": 80,
+      "rank": 3,
+      "shift": 0,
+      "quality": 0.5914044395324926
+    },
+    {
+      "query": 121,
+      "candidate": 83,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.4260295054303472
+    },
+    {
+      "query": 121,
+      "candidate": 86,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.4283138193238116
+    },
+    {
+      "query": 121,
+      "candidate": 84,
+      "rank": 3,
+      "shift": 0,
+      "quality": 0.4219895874759505
+    },
+    {
+      "query": 141,
+      "candidate": 90,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6195809301294771
+    },
+    {
+      "query": 161,
+      "candidate": 87,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6107710940094605
+    },
+    {
+      "query": 181,
+      "candidate": 131,
+      "rank": 1,
+      "shift": 3,
+      "quality": 0.5960137565143857
+    },
+    {
+      "query": 181,
+      "candidate": 134,
+      "rank": 2,
+      "shift": 57,
+      "quality": 0.628640491806958
+    },
+    {
+      "query": 201,
+      "candidate": 164,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6054467102712258
+    },
+    {
+      "query": 201,
+      "candidate": 165,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.585296797025077
+    },
+    {
+      "query": 201,
+      "candidate": 161,
+      "rank": 3,
+      "shift": 1,
+      "quality": 0.5636641873102466
+    },
+    {
+      "query": 222,
+      "candidate": 190,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.5507742206617948
+    },
+    {
+      "query": 222,
+      "candidate": 192,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.5709886901518196
+    },
+    {
+      "query": 222,
+      "candidate": 191,
+      "rank": 3,
+      "shift": 0,
+      "quality": 0.5534652897752479
+    },
+    {
+      "query": 242,
+      "candidate": 217,
+      "rank": 1,
+      "shift": 57,
+      "quality": 0.5557559384247973
+    },
+    {
+      "query": 242,
+      "candidate": 220,
+      "rank": 2,
+      "shift": 57,
+      "quality": 0.5801228959758797
+    },
+    {
+      "query": 242,
+      "candidate": 218,
+      "rank": 3,
+      "shift": 57,
+      "quality": 0.5739214685342965
+    },
+    {
+      "query": 262,
+      "candidate": 240,
+      "rank": 1,
+      "shift": 59,
+      "quality": 0.6596481005154544
+    },
+    {
+      "query": 282,
+      "candidate": 252,
+      "rank": 1,
+      "shift": 3,
+      "quality": 0.7480294949865768
+    },
+    {
+      "query": 302,
+      "candidate": 264,
+      "rank": 1,
+      "shift": 11,
+      "quality": 0.6780027396650062
+    },
+    {
+      "query": 323,
+      "candidate": 2930,
+      "rank": 1,
+      "shift": 44,
+      "quality": 0.5898595066928477
+    },
+    {
+      "query": 323,
+      "candidate": 2927,
+      "rank": 2,
+      "shift": 39,
+      "quality": 0.6047730354692427
+    },
+    {
+      "query": 323,
+      "candidate": 2929,
+      "rank": 3,
+      "shift": 42,
+      "quality": 0.5985641248723701
+    },
+    {
+      "query": 343,
+      "candidate": 2927,
+      "rank": 1,
+      "shift": 39,
+      "quality": 0.6488875593129428
+    },
+    {
+      "query": 363,
+      "candidate": 2927,
+      "rank": 1,
+      "shift": 39,
+      "quality": 0.6521099447932448
+    },
+    {
+      "query": 383,
+      "candidate": 2933,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6652649978305057
+    },
+    {
+      "query": 403,
+      "candidate": 2953,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6014572750316906
+    },
+    {
+      "query": 403,
+      "candidate": 3042,
+      "rank": 2,
+      "shift": 58,
+      "quality": 0.3034453249453021
+    },
+    {
+      "query": 403,
+      "candidate": 3043,
+      "rank": 3,
+      "shift": 58,
+      "quality": 0.3207444413796314
+    },
+    {
+      "query": 424,
+      "candidate": 2975,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6238453341138394
+    },
+    {
+      "query": 444,
+      "candidate": 2997,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6816294062100412
+    },
+    {
+      "query": 464,
+      "candidate": 3024,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6169202125887705
+    },
+    {
+      "query": 484,
+      "candidate": 3044,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.5690299593753606
+    },
+    {
+      "query": 484,
+      "candidate": 3045,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.5867310783787291
+    },
+    {
+      "query": 484,
+      "candidate": 3046,
+      "rank": 3,
+      "shift": 0,
+      "quality": 0.5913859048175468
+    },
+    {
+      "query": 504,
+      "candidate": 3067,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6703388332406492
+    },
+    {
+      "query": 524,
+      "candidate": 3081,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6556854575599551
+    },
+    {
+      "query": 545,
+      "candidate": 3613,
+      "rank": 1,
+      "shift": 43,
+      "quality": 0.6174543408952905
+    },
+    {
+      "query": 565,
+      "candidate": 2542,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6623038112465216
+    },
+    {
+      "query": 585,
+      "candidate": 2559,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6905815109945287
+    },
+    {
+      "query": 605,
+      "candidate": 2579,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.6784200518699888
+    },
+    {
+      "query": 625,
+      "candidate": 2603,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.7125060553368494
+    },
+    {
+      "query": 646,
+      "candidate": 2628,
+      "rank": 1,
+      "shift": 0,
+      "quality": 0.7066129091752023
+    },
+    {
+      "query": 666,
+      "candidate": 3500,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6233996540144922
+    },
+    {
+      "query": 686,
+      "candidate": 3480,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6041484878435428
+    },
+    {
+      "query": 686,
+      "candidate": 3479,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.6150843812939039
+    },
+    {
+      "query": 706,
+      "candidate": 3461,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6249460705286216
+    },
+    {
+      "query": 726,
+      "candidate": 3441,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6151801990321332
+    },
+    {
+      "query": 747,
+      "candidate": 3425,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6274953061141216
+    },
+    {
+      "query": 767,
+      "candidate": 3410,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5514816938880751
+    },
+    {
+      "query": 767,
+      "candidate": 3411,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.4807308932267529
+    },
+    {
+      "query": 767,
+      "candidate": 3409,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5968991031530788
+    },
+    {
+      "query": 787,
+      "candidate": 3392,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6465314215363663
+    },
+    {
+      "query": 807,
+      "candidate": 3376,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6030441120955897
+    },
+    {
+      "query": 807,
+      "candidate": 3378,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.5626294315766572
+    },
+    {
+      "query": 807,
+      "candidate": 3377,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5758638239715108
+    },
+    {
+      "query": 827,
+      "candidate": 3360,
+      "rank": 1,
+      "shift": 28,
+      "quality": 0.6653141363611097
+    },
+    {
+      "query": 848,
+      "candidate": 3357,
+      "rank": 1,
+      "shift": 39,
+      "quality": 0.5620655837498485
+    },
+    {
+      "query": 848,
+      "candidate": 3355,
+      "rank": 2,
+      "shift": 37,
+      "quality": 0.5906855116875745
+    },
+    {
+      "query": 848,
+      "candidate": 3356,
+      "rank": 3,
+      "shift": 39,
+      "quality": 0.5836823658768886
+    },
+    {
+      "query": 868,
+      "candidate": 3354,
+      "rank": 1,
+      "shift": 25,
+      "quality": 0.6355336533987281
+    },
+    {
+      "query": 888,
+      "candidate": 3822,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6866604471443073
+    },
+    {
+      "query": 908,
+      "candidate": 3800,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.7104750855456929
+    },
+    {
+      "query": 928,
+      "candidate": 3783,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6673713455132839
+    },
+    {
+      "query": 949,
+      "candidate": 3770,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6491433066553659
+    },
+    {
+      "query": 969,
+      "candidate": 3250,
+      "rank": 1,
+      "shift": 26,
+      "quality": 0.628728779447819
+    },
+    {
+      "query": 989,
+      "candidate": 3745,
+      "rank": 1,
+      "shift": 24,
+      "quality": 0.5850420177843056
+    },
+    {
+      "query": 989,
+      "candidate": 3744,
+      "rank": 2,
+      "shift": 23,
+      "quality": 0.5982292036593133
+    },
+    {
+      "query": 989,
+      "candidate": 3746,
+      "rank": 3,
+      "shift": 26,
+      "quality": 0.5698809169702419
+    },
+    {
+      "query": 1009,
+      "candidate": 3210,
+      "rank": 1,
+      "shift": 33,
+      "quality": 0.5746708703351283
+    },
+    {
+      "query": 1009,
+      "candidate": 3211,
+      "rank": 2,
+      "shift": 33,
+      "quality": 0.5695938586616757
+    },
+    {
+      "query": 1009,
+      "candidate": 3209,
+      "rank": 3,
+      "shift": 33,
+      "quality": 0.5792354666601236
+    },
+    {
+      "query": 1029,
+      "candidate": 3183,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.5917500013819974
+    },
+    {
+      "query": 1029,
+      "candidate": 3182,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.5723161207793902
+    },
+    {
+      "query": 1029,
+      "candidate": 3185,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.580080201094906
+    },
+    {
+      "query": 1049,
+      "candidate": 3674,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6545905292240487
+    },
+    {
+      "query": 1070,
+      "candidate": 2483,
+      "rank": 1,
+      "shift": 56,
+      "quality": 0.6086684364577699
+    },
+    {
+      "query": 1070,
+      "candidate": 2484,
+      "rank": 2,
+      "shift": 57,
+      "quality": 0.6169323140390331
+    },
+    {
+      "query": 1090,
+      "candidate": 3124,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6108607274034069
+    },
+    {
+      "query": 1110,
+      "candidate": 3626,
+      "rank": 1,
+      "shift": 28,
+      "quality": 0.5814703389770455
+    },
+    {
+      "query": 1110,
+      "candidate": 3105,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.6045629178250582
+    },
+    {
+      "query": 1110,
+      "candidate": 3104,
+      "rank": 3,
+      "shift": 31,
+      "quality": 0.5912478921412585
+    },
+    {
+      "query": 1130,
+      "candidate": 3089,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6094645037823772
+    },
+    {
+      "query": 1150,
+      "candidate": 3069,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6229809447266341
+    },
+    {
+      "query": 1171,
+      "candidate": 3037,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.593116671836273
+    },
+    {
+      "query": 1171,
+      "candidate": 3038,
+      "rank": 2,
+      "shift": 29,
+      "quality": 0.6031548220239564
+    },
+    {
+      "query": 1171,
+      "candidate": 3039,
+      "rank": 3,
+      "shift": 28,
+      "quality": 0.603942754649928
+    },
+    {
+      "query": 1191,
+      "candidate": 3019,
+      "rank": 1,
+      "shift": 32,
+      "quality": 0.6863962492649999
+    },
+    {
+      "query": 1211,
+      "candidate": 2999,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6423290325959684
+    },
+    {
+      "query": 1231,
+      "candidate": 2983,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6327158886978788
+    },
+    {
+      "query": 1251,
+      "candidate": 2973,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6227400392544662
+    },
+    {
+      "query": 1272,
+      "candidate": 2955,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6571593429380876
+    },
+    {
+      "query": 1292,
+      "candidate": 2940,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6546746321851624
+    },
+    {
+      "query": 1312,
+      "candidate": 2930,
+      "rank": 1,
+      "shift": 37,
+      "quality": 0.6535564485870091
+    },
+    {
+      "query": 1332,
+      "candidate": 2904,
+      "rank": 1,
+      "shift": 32,
+      "quality": 0.6642772657500022
+    },
+    {
+      "query": 1352,
+      "candidate": 2894,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.5518611469387867
+    },
+    {
+      "query": 1352,
+      "candidate": 2887,
+      "rank": 2,
+      "shift": 29,
+      "quality": 0.6122011158793629
+    },
+    {
+      "query": 1373,
+      "candidate": 2865,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.7035806606797284
+    },
+    {
+      "query": 1393,
+      "candidate": 2848,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6720077908517539
+    },
+    {
+      "query": 1413,
+      "candidate": 2825,
+      "rank": 1,
+      "shift": 32,
+      "quality": 0.618592250796953
+    },
+    {
+      "query": 1433,
+      "candidate": 2810,
+      "rank": 1,
+      "shift": 28,
+      "quality": 0.6462120999994297
+    },
+    {
+      "query": 1453,
+      "candidate": 2789,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6484476099079934
+    },
+    {
+      "query": 1474,
+      "candidate": 2769,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6194107316642774
+    },
+    {
+      "query": 1494,
+      "candidate": 2748,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5948570088093184
+    },
+    {
+      "query": 1494,
+      "candidate": 2746,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.5657797371706508
+    },
+    {
+      "query": 1494,
+      "candidate": 2745,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5572376962224925
+    },
+    {
+      "query": 1514,
+      "candidate": 2731,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.5386884327675225
+    },
+    {
+      "query": 1514,
+      "candidate": 2727,
+      "rank": 2,
+      "shift": 29,
+      "quality": 0.5358421313816355
+    },
+    {
+      "query": 1514,
+      "candidate": 2728,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5409888596296786
+    },
+    {
+      "query": 1534,
+      "candidate": 2714,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5696740615750477
+    },
+    {
+      "query": 1534,
+      "candidate": 2713,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.5828529000435672
+    },
+    {
+      "query": 1534,
+      "candidate": 2715,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5684121077281394
+    },
+    {
+      "query": 1554,
+      "candidate": 2696,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5922906902092849
+    },
+    {
+      "query": 1554,
+      "candidate": 2697,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.5918338659848877
+    },
+    {
+      "query": 1554,
+      "candidate": 2695,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.571350027288886
+    },
+    {
+      "query": 1574,
+      "candidate": 2682,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5991857289660285
+    },
+    {
+      "query": 1574,
+      "candidate": 2680,
+      "rank": 2,
+      "shift": 29,
+      "quality": 0.6075945330904936
+    },
+    {
+      "query": 1574,
+      "candidate": 2681,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5979500142320091
+    },
+    {
+      "query": 1595,
+      "candidate": 2663,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6068929442686437
+    },
+    {
+      "query": 1595,
+      "candidate": 2662,
+      "rank": 2,
+      "shift": 28,
+      "quality": 0.591331944735435
+    },
+    {
+      "query": 1595,
+      "candidate": 2664,
+      "rank": 3,
+      "shift": 29,
+      "quality": 0.5892969778205746
+    },
+    {
+      "query": 1615,
+      "candidate": 3498,
+      "rank": 1,
+      "shift": 36,
+      "quality": 0.6240898021753423
+    },
+    {
+      "query": 1635,
+      "candidate": 3476,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5768933372768316
+    },
+    {
+      "query": 1635,
+      "candidate": 3478,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.5712659240636723
+    },
+    {
+      "query": 1635,
+      "candidate": 3477,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5800148179891375
+    },
+    {
+      "query": 1655,
+      "candidate": 3457,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.614351119578911
+    },
+    {
+      "query": 1675,
+      "candidate": 3437,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.6129761637936916
+    },
+    {
+      "query": 1696,
+      "candidate": 3415,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6429760712955074
+    },
+    {
+      "query": 1716,
+      "candidate": 3399,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6446890753246042
+    },
+    {
+      "query": 1736,
+      "candidate": 3387,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.6040094415795508
+    },
+    {
+      "query": 1736,
+      "candidate": 3386,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.5820114693879164
+    },
+    {
+      "query": 1736,
+      "candidate": 3385,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.5282983519721044
+    },
+    {
+      "query": 1756,
+      "candidate": 3370,
+      "rank": 1,
+      "shift": 30,
+      "quality": 0.5859558746855753
+    },
+    {
+      "query": 1756,
+      "candidate": 3369,
+      "rank": 2,
+      "shift": 30,
+      "quality": 0.5729833849817666
+    },
+    {
+      "query": 1756,
+      "candidate": 3371,
+      "rank": 3,
+      "shift": 30,
+      "quality": 0.580951784298354
+    },
+    {
+      "query": 1776,
+      "candidate": 3365,
+      "rank": 1,
+      "shift": 32,
+      "quality": 0.6170708129492646
+    },
+    {
+      "query": 1797,
+      "candidate": 3855,
+      "rank": 1,
+      "shift": 7,
+      "quality": 0.6641743124903342
+    },
+    {
+      "query": 1817,
+      "candidate": 3872,
+      "rank": 1,
+      "shift": 1,
+      "quality": 0.5972180419961124
+    },
+    {
+      "query": 1817,
+      "candidate": 3871,
+      "rank": 2,
+      "shift": 1,
+      "quality": 0.6491502647270266
+    },
+    {
+      "query": 1837,
+      "candidate": 3881,
+      "rank": 1,
+      "shift": 6,
+      "quality": 0.5723756872325393
+    },
+    {
+      "query": 1837,
+      "candidate": 3882,
+      "rank": 2,
+      "shift": 6,
+      "quality": 0.5750074364246359
+    },
+    {
+      "query": 1837,
+      "candidate": 3883,
+      "rank": 3,
+      "shift": 6,
+      "quality": 0.5385635975819663
+    },
+    {
+      "query": 1857,
+      "candidate": 2886,
+      "rank": 1,
+      "shift": 2,
+      "quality": 0.1779027481442006
+    },
+    {
+      "query": 1857,
+      "candidate": 2888,
+      "rank": 2,
+      "shift": 0,
+      "quality": 0.1704879233817448
+    },
+    {
+      "query": 1857,
+      "candidate": 2889,
+      "rank": 3,
+      "shift": 0,
+      "quality": 0.1875128405919144
+    },
+    {
+      "query": 1877,
+      "candidate": 4027,
+      "rank": 1,
+      "shift": 29,
+      "quality": 0.1513455329004911
+    },
+    {
+      "query": 1877,
+      "candidate": 2896,
+      "rank": 2,
+      "shift": 12,
+      "quality": 0.1240861046620735
+    },
+    {
+      "query": 1877,
+      "candidate": 4028,
+      "rank": 3,
+      "shift": 28,
+      "quality": 0.1600111826933198
+    },
+    {
+      "query": 1898,
+      "candidate": 4027,
+      "rank": 1,
+      "shift": 1,
+      "quality": 0.2959010394850146
+    },
+    {
+      "query": 1898,
+      "candidate": 4029,
+      "rank": 2,
+      "shift": 1,
+      "quality": 0.2314618643896324
+    },
+    {
+      "query": 1898,
+      "candidate": 4028,
+      "rank": 3,
+      "shift": 1,
+      "quality": 0.2312071035975566
+    },
+    {
+      "query": 1918,
+      "candidate": 4079,
+      "rank": 1,
+      "shift": 21,
+      "quality": 0.3271431450157297
+    },
+    {
+      "query": 1918,
+      "candidate": 4077,
+      "rank": 2,
+      "shift": 21,
+      "quality": 0.3331946443250235
+    },
+    {
+      "query": 1918,
+      "candidate": 4078,
+      "rank": 3,
+      "shift": 21,
+      "quality": 0.3336472550536627
+    },
+    {
+      "query": 1938,
+      "candidate": 4145,
+      "rank": 1,
+      "shift": 59,
+      "quality": 0.2971776228813193
+    },
+    {
+      "query": 1938,
+      "candidate": 4142,
+      "rank": 2,
+      "shift": 1,
+      "quality": 0.3004637346828296
+    },
+    {
+      "query": 1938,
+      "candidate": 4144,
+      "rank": 3,
+      "shift": 59,
+      "quality": 0.3050675678379394
+    },
+    {
+      "query": 1958,
+      "candidate": 4176,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.607723500911158
+    },
+    {
+      "query": 1958,
+      "candidate": 4162,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.6110413539586033
+    },
+    {
+      "query": 1978,
+      "candidate": 4176,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.6073632622848607
+    },
+    {
+      "query": 1978,
+      "candidate": 4173,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.6059904323690973
+    },
+    {
+      "query": 1978,
+      "candidate": 4154,
+      "rank": 3,
+      "shift": 31,
+      "quality": 0.6082732595132124
+    },
+    {
+      "query": 1999,
+      "candidate": 4176,
+      "rank": 1,
+      "shift": 31,
+      "quality": 0.601013818667262
+    },
+    {
+      "query": 1999,
+      "candidate": 4173,
+      "rank": 2,
+      "shift": 31,
+      "quality": 0.6018794631379648
+    },
+    {
+      "query": 1999,
+      "candidate": 4154,
+      "rank": 3,
+      "shift": 31,
+      "quality": 0.6042570563330352
+    }
+  ],
+  "cloud_samples": {
+    "robot1": [
+      0,
+      105,
+      210,
+      315,
+      420,
+      526,
+      631,
+      736,
+      841,
+      946,
+      1052,
+      1157,
+      1262,
+      1367,
+      1472,
+      1578,
+      1683,
+      1788,
+      1893,
+      1999
+    ],
+    "robot3": [
+      0,
+      219,
+      439,
+      659,
+      879,
+      1099,
+      1319,
+      1539,
+      1759,
+      1979,
+      2199,
+      2419,
+      2639,
+      2859,
+      3079,
+      3299,
+      3519,
+      3739,
+      3959,
+      4179
+    ]
+  },
+  "M": 1000,
+  "quality_threshold": 0.6091,
+  "gicp": {
+    "voxel": 0.75,
+    "coarse": 3.0,
+    "fine": 1.0,
+    "iterations": 30,
+    "min_range": 2.0,
+    "max_range": 50.0,
+    "min_height": -3.0,
+    "max_height": 5.0
+  },
+  "warmup": {
+    "retrieval_queries": 10,
+    "GICP_pairs": 3,
+    "descriptor_frames": 3
+  },
+  "repeats": {
+    "frontend": 2,
+    "representative_payload": 3
+  },
+  "workload_limit": {
+    "max_wall_seconds": 1800,
+    "max_queries": 100,
+    "no_posthoc_expansion": true
+  },
+  "compression": "zlib1 whole message, lossless; primary uncompressed bytes",
+  "cache": {
+    "primary_descriptors": "unbounded server response cache within this finite slice",
+    "sensitivity": [
+      "NONE",
+      128,
+      1000,
+      "UNBOUNDED"
+    ],
+    "pointcloud": "unbounded logical transferred-cloud cache within slice; physical serializer buffers LRU16",
+    "gicp": "historical per-call backend LRU64, fresh invocation per frozen attempted pair"
+  },
+  "serialization": {
+    "status": "COST_STUDY_PROTOCOL_NOT_DEPLOYED",
+    "byte_order": "little endian",
+    "header_format": "<4sBBBBB3xqqqQI",
+    "header_bytes": 48,
+    "header_fields": [
+      "magic4",
+      "version_u8",
+      "type_u8",
+      "sender_u8",
+      "receiver_u8",
+      "robot_u8",
+      "padding3",
+      "keyframe_i64",
+      "event_i64",
+      "original_source_timestamp_ns_i64",
+      "payload_length_u64",
+      "CRC32_u32"
+    ],
+    "addressing": {
+      "0": "central",
+      "1": "robot1",
+      "3": "robot3"
+    },
+    "payloads": {
+      "RING_KEY_UPLOAD": "20 float32 values; dimensions fixed by schema",
+      "FULL_SC_DESCRIPTOR_UPLOAD": "20x60 float32 row-major",
+      "FULL_SC_DESCRIPTOR_RESPONSE": "20x60 float32 row-major",
+      "FULL_SC_DESCRIPTOR_REQUEST": "empty body; target robot/KF in header",
+      "CANDIDATE_REQUEST": "<HBB: M=1000, TopK=3, database robot=3",
+      "POINT_CLOUD_REQUEST": "u8 requested field count=3 (XYZ); target in header",
+      "POINT_CLOUD_RESPONSE": "<IB3x count/fields/pad + original float32 XYZ; XYZI alternative benchmarked, intensity not consumed by frozen GICP",
+      "LOOP_CONSTRAINT": "<Bqq candidate robot/query KF/candidate KF + 16 float64 SE3 + 6 float64 tangent sigmas [rx,ry,rz,tx,ty,tz] + float64 Huber delta",
+      "ODOMETRY_UPDATE": "<Bq kind/previousKF + 16 float64 SE3 + 6 float64 tangent sigmas; kind0 relative odom,1 global prior/initial R1,2 initial R3 local pose (not central prior)",
+      "GLOBAL_POSE_CORRECTION": "7 float64 XYZ+xyzw; header identifies robot/KF; schema/microtest only, not simulated send",
+      "MAP_CHUNK": "same point encoding as cloud, from actual Stage20 map; microbenchmark only, no assumed distribution schedule",
+      "ACK_OR_CONTROL": "u8 status; synthetic schema test only; no unnecessary ACK invented"
+    },
+    "network_bytes_actually_transmitted": "NOT_MEASURED",
+    "transport_packet_headers": "NOT_MEASURED; header is application framing only",
+    "compression": "independent zlib level1 entire message; uncompressed is primary",
+    "source_hash": "offline trace provenance only; not an uncounted transmitted field"
+  },
+  "timing": "perf_counter_ns wall + process_time_ns CPU; first-observed load is OS_CACHE_UNKNOWN, never claimed drop-cache cold; nested exclusive preprocessing = same-call cloud inclusive minus its own np.load time",
+  "CPU": {
+    "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+    "cpu_model": "INTEL(R) XEON(R) GOLD 6530",
+    "logical_cpus": 128,
+    "affinity": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127
+    ],
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1"
+    },
+    "executable": "/home/cas/fyp_robot13_geometry_20260915/.venv/bin/python"
+  },
+  "memory": "resource.ru_maxrss process high-water MiB; /proc/self/status when applicable; process CPU/wall ratio is utilization, never energy",
+  "GT": "no GT in scheduling, payloads, retrieval, GICP, graph or tuning; existing historical offline_true_pair read only AFTER fixed sample for descriptive coverage",
+  "comparison": "B0/B1/B2 common prebuilt100 workload; B3 separate oracle, not percentage-comparable. No end-to-end sum mixing historical frontend and Stage20 backend.",
+  "network": {
+    "NETWORK_BYTES_ACTUALLY_TRANSMITTED": "NOT_MEASURED",
+    "NETWORK_LATENCY": "NOT_MEASURED",
+    "PACKET_LOSS": "NOT_MEASURED",
+    "WIRELESS_BANDWIDTH": "NOT_MEASURED"
+  },
+  "descriptor_shapes": {
+    "robot1": {
+      "shape": [
+        2000,
+        20,
+        60
+      ],
+      "dtype": "float32",
+      "ring_key_shape": [
+        2000,
+        20
+      ]
+    },
+    "robot3": {
+      "shape": [
+        4180,
+        20,
+        60
+      ],
+      "dtype": "float32",
+      "ring_key_shape": [
+        4180,
+        20
+      ]
+    }
+  },
+  "stop": "mandatory input/roundtrip/retrieval-equivalence/immutability failure stops; missing historical full trace explicitly scoped, never fabricated"
+}

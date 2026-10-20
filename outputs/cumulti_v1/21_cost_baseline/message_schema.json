@@ -1,0 +1,43 @@
+{
+  "status": "COST_STUDY_PROTOCOL_NOT_DEPLOYED",
+  "byte_order": "little endian",
+  "header_format": "<4sBBBBB3xqqqQI",
+  "header_bytes": 48,
+  "header_fields": [
+    "magic4",
+    "version_u8",
+    "type_u8",
+    "sender_u8",
+    "receiver_u8",
+    "robot_u8",
+    "padding3",
+    "keyframe_i64",
+    "event_i64",
+    "original_source_timestamp_ns_i64",
+    "payload_length_u64",
+    "CRC32_u32"
+  ],
+  "addressing": {
+    "0": "central",
+    "1": "robot1",
+    "3": "robot3"
+  },
+  "payloads": {
+    "RING_KEY_UPLOAD": "20 float32 values; dimensions fixed by schema",
+    "FULL_SC_DESCRIPTOR_UPLOAD": "20x60 float32 row-major",
+    "FULL_SC_DESCRIPTOR_RESPONSE": "20x60 float32 row-major",
+    "FULL_SC_DESCRIPTOR_REQUEST": "empty body; target robot/KF in header",
+    "CANDIDATE_REQUEST": "<HBB: M=1000, TopK=3, database robot=3",
+    "POINT_CLOUD_REQUEST": "u8 requested field count=3 (XYZ); target in header",
+    "POINT_CLOUD_RESPONSE": "<IB3x count/fields/pad + original float32 XYZ; XYZI alternative benchmarked, intensity not consumed by frozen GICP",
+    "LOOP_CONSTRAINT": "<Bqq candidate robot/query KF/candidate KF + 16 float64 SE3 + 6 float64 tangent sigmas [rx,ry,rz,tx,ty,tz] + float64 Huber delta",
+    "ODOMETRY_UPDATE": "<Bq kind/previousKF + 16 float64 SE3 + 6 float64 tangent sigmas; kind0 relative odom,1 global prior/initial R1,2 initial R3 local pose (not central prior)",
+    "GLOBAL_POSE_CORRECTION": "7 float64 XYZ+xyzw; header identifies robot/KF; schema/microtest only, not simulated send",
+    "MAP_CHUNK": "same point encoding as cloud, from actual Stage20 map; microbenchmark only, no assumed distribution schedule",
+    "ACK_OR_CONTROL": "u8 status; synthetic schema test only; no unnecessary ACK invented"
+  },
+  "network_bytes_actually_transmitted": "NOT_MEASURED",
+  "transport_packet_headers": "NOT_MEASURED; header is application framing only",
+  "compression": "independent zlib level1 entire message; uncompressed is primary",
+  "source_hash": "offline trace provenance only; not an uncounted transmitted field"
+}

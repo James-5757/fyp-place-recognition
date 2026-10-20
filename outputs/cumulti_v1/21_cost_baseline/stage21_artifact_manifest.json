@@ -1,0 +1,208 @@
+{
+  "files": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/stage21_measurement_policy.json",
+      "bytes": 30758,
+      "sha256": "1b227fc6ca4956b9cb152b5bc0b0d9a0232ae1dd1bcf022094344f66edf67e00",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/stage21_input_inventory.json",
+      "bytes": 746270,
+      "sha256": "31ef43ce7cd81dcd9e38a3cf38d9b6da6ecb2fa55986ef2575d302c971a98aed",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/stage21_source_provenance.json",
+      "bytes": 746323,
+      "sha256": "d839c7c762da63fbfbcdd3a7c099f7cc1356a70660991674fa7474bca15b285f",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/stage21_input_hashes.json",
+      "bytes": 2411250,
+      "sha256": "febe58aaf0e8f5aa443df51e8a569904e12c045c4187fe2b3f7fb100b394ae31",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/message_schema.json",
+      "bytes": 2055,
+      "sha256": "5107fa4bd7edc6473dd66095b2b9118eecf5276a3ce558a1b0cc1ab05409ff6b",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/message_serialization_tests.json",
+      "bytes": 536,
+      "sha256": "a5fa762364e4c4dd661f880916c3ed2c66aeb2f5910fe9400801e429611363c7",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/descriptor_payload_metrics.csv",
+      "bytes": 32179,
+      "sha256": "9974a0520fb5fdfab1dd8cf87167b9508b42e9a9be701a39a2af55d50c824a73",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/pointcloud_payload_metrics.csv",
+      "bytes": 54407,
+      "sha256": "0c8e6aa0437fe521f502b81da49505fcc81ce15ad4af80c4d08ff64706759ab5",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/message_trace_by_mode.csv",
+      "bytes": 149591059,
+      "sha256": "4423d0cb78a755216e9d12d5c7ced53372212be5c7b7d08414660c55c08b18bb",
+      "storage": "SERVER_ONLY_FULL_TRACE"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/communication_summary_by_mode.csv",
+      "bytes": 2955,
+      "sha256": "0b0490abefb5d0c7a20ee89471da97f7b95a92249d4b1d0ebe27fe8d8f4385c3",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/frontend_benchmark_queries.csv",
+      "bytes": 39568,
+      "sha256": "7cd832ef3303afc765b5a76249b839226c37c7ab383b27b845c9ecd3d715c1f6",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/frontend_benchmark_summary.csv",
+      "bytes": 6580,
+      "sha256": "718946b2784179aefca439063329f823cef15c1eab1c0ddd5f0a806e7b48d732",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/backend_cost_summary.csv",
+      "bytes": 3309,
+      "sha256": "32eb0b97972848d5c4fbb85063554ce8432439d8123bba3997f7b0effa4330c3",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/architecture_compute_split.csv",
+      "bytes": 5593,
+      "sha256": "7594cf2f3e4c81e0cdfe1825c4ca0b109a27151ffc44598bfac1ba86def96493",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/candidate_availability_audit.csv",
+      "bytes": 850844,
+      "sha256": "03d4830d00a850d6318a3e1cf11c0de70930eb5d005f08222bacba04393bb651",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/cache_sensitivity_summary.csv",
+      "bytes": 1218,
+      "sha256": "964e94eb04a7b66dd5ea16c07e9215be39a25209fd36fa0186ae3100f6a3c56d",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/cost_comparison_table.csv",
+      "bytes": 3756,
+      "sha256": "0522072fbad5158340fed5529b87df273369957d86794b68ecd94d9eec65f137",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/stage21_baseline_decision.json",
+      "bytes": 3197,
+      "sha256": "d25b1d051a05a400385be1452dfbd89c7a93dabcfde386f192af6467c36a28ef",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/summary.json",
+      "bytes": 30927,
+      "sha256": "76a6ce1cba2a00ec1b833e683f0a589aede2cd554c593d882a1f7e034ae2efac",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/VALIDATION_REPORT.txt",
+      "bytes": 1214,
+      "sha256": "dc1c8b096bddf2069850aa23f1796b080e8f06b4a80cfead3fc5bb2de4a91523",
+      "storage": "LIGHTWEIGHT_VERSIONED_RESULT"
+    }
+  ],
+  "figures": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/01_descriptor_payload_comparison.png",
+      "sha256": "08783c0d054df4f3dae68da487e55d5c1a5be6b592d321711d85c43439d96d3e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/02_pointcloud_payload_distribution.png",
+      "sha256": "d6f43252e8c612f3420eaac0d3b171c186eb0913e585b5c9ba2f3b1bfba4ae51"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/03_communication_bytes_by_mode.png",
+      "sha256": "2b1f175d38ca5f17ce59031cd132c4a326f299be6237b4f339639993150a5337"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/04_message_category_breakdown.png",
+      "sha256": "5fa6d0bf980110e838cfee5aa707ee0a9490dfc4368e978dd6bd2f5e11cf4545"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/05_frontend_compute_breakdown.png",
+      "sha256": "8daef74adb427a914647006ff86b031e49f12a9f9ea225dff6b362b9ae1276c0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/06_backend_compute_breakdown.png",
+      "sha256": "6835570863e24bc235ef2035602700b1821825949fd0558c63ede87a9975988e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/07_sc_gicp_latency_distribution.png",
+      "sha256": "a01259730e030a65f7cc8d44b35306713c5c3929fa80e919ffdf40be8d7de2d2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/08_cache_sensitivity.png",
+      "sha256": "820ce2b8fa706330db3ed6ddfc39bf965718799f1faa9f6941ef06aab69664c0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/09_communication_vs_compute_baseline.png",
+      "sha256": "f51f065e487e488386af933ae6e8c0d1c3b52faea53a52d2fd3ae75ce0371961"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/10_causal_candidate_availability.png",
+      "sha256": "fd4d3bbca906395c75cc341d57a286d7b1c66fdd88f97b4e1f5a613c0471d8f4"
+    }
+  ],
+  "experiment_code": [
+    {
+      "path": "src/cumulti/audit_stage21_costs.py",
+      "sha256": "6ff5bf9f075ed55f1cae2a1a5c859d4ae617d72a04dc20890d18bb989edb7911"
+    },
+    {
+      "path": "src/cumulti/check_stage21_staging.py",
+      "sha256": "cca86a91c57ab20ff61fafb62d459c4ddcbe9a16c83b62e706a9f1136084ea6c"
+    },
+    {
+      "path": "src/cumulti/finalize_stage21_costs.py",
+      "sha256": "cf31d4cd3569e3ddcc60c4cc06a86ccc95fb374850c5669ca0324b9b42378ec3"
+    },
+    {
+      "path": "src/cumulti/prepare_stage21_policy.py",
+      "sha256": "6f878e7f447392579bd157f73812114bbae54c74f63df44feac8f4c36410ac9e"
+    },
+    {
+      "path": "src/cumulti/run_stage21_frontend.py",
+      "sha256": "b97eabc4b1bd7d0581bd941a0e8277e99ab5f923aa40fa6f60e8a5fd446f7503"
+    },
+    {
+      "path": "src/cumulti/run_stage21_payloads.py",
+      "sha256": "ac694c2d0dc410c4328325075149d5cc747e877b8829af5f80bba3288250a8d0"
+    },
+    {
+      "path": "src/cumulti/run_stage21_protocols.py",
+      "sha256": "3452b243479210b1e18d1cda757360fe1cb28da38f01ed83c916b726251a448c"
+    },
+    {
+      "path": "src/cumulti/stage21_wire.py",
+      "sha256": "cc45659e031b4ff777c440e8048aded9b06ff5a7f2adcb872267d5b2ece96f3b"
+    },
+    {
+      "path": "src/cumulti/summarize_stage21_costs.py",
+      "sha256": "34918bc1709062c807c4019076214dce6fd52454d275dd41e11105ebf3ab3a50"
+    },
+    {
+      "path": "src/cumulti/validate_stage21_consumed_fields.py",
+      "sha256": "cf0a4cb0932541e38912e8d1ea45eebafdb4f233541cd00428631a4271b93001"
+    }
+  ]
+}

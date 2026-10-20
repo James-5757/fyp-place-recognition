@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "completed_queries": 200,
+  "unique_queries": 100,
+  "actual_GICP_calls": 346,
+  "warmup_excluded": true,
+  "exact_top3_matches_frozen": true,
+  "descriptor_extraction_bitwise_matches_frozen": true,
+  "quality_gate_disagreements": 0,
+  "algorithm_files_modified": false,
+  "instrumentation": "temporary wrappers around actual np.load, per-miss cloud decorator and Open3D coarse/fine calls; same-call nested timing, no unrelated-mean subtraction",
+  "timing_overhead_included": true,
+  "GT_used": false,
+  "peak_RSS_mib": 527.8984375
+}

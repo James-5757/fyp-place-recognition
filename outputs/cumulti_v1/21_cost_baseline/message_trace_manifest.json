@@ -1,0 +1,13 @@
+{
+  "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/21_cost_baseline/message_trace_by_mode.csv",
+  "size": 149591059,
+  "sha256": "4423d0cb78a755216e9d12d5c7ced53372212be5c7b7d08414660c55c08b18bb",
+  "rows": 548475,
+  "storage": "full event-level trace server-only; commit category/architecture summaries and an indexed preview, never a fabricated truncated full trace",
+  "actual_buffers": true,
+  "events_are": "PROTOCOL_SIMULATED_SEND_EVENTS",
+  "network": "NOT_MEASURED",
+  "catalog_source_sha256": "4efa336e4e661f1eedbb165a3d7e6c06ede40c7313e0855cd702b3c5d4449706",
+  "frozen_loop_roundtrips": 75,
+  "graph_reoptimized": false
+}

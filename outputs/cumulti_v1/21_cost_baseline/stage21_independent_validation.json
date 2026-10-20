@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "checks": {
+    "HISTORICAL_STAGES_IMMUTABLE": true,
+    "SERIALIZATION_ROUNDTRIP_PASS": true,
+    "SC_DESCRIPTOR_SHAPES_VERIFIED": true,
+    "RING_KEY_BYTES_VERIFIED": true,
+    "POINT_CLOUD_ENCODINGS_VALID": true,
+    "CLOUD_BYTES_ACTUALLY_SERIALIZED": true,
+    "MESSAGE_COUNTS_TRACEABLE": true,
+    "CACHE_POLICY_EXPLICIT": true,
+    "INDEPENDENT_ENCODED_LENGTH_AND_COMPRESSION_CHECK": true,
+    "FRONTEND_TIMINGS_GROUNDED": true,
+    "GICP_PARAMETERS_FROZEN": true,
+    "STAGE20_TIMINGS_REUSED_CORRECTLY": true,
+    "CAUSAL_AVAILABILITY_DISTINGUISHED": true,
+    "NO_INVENTED_NETWORK_LATENCY": true,
+    "NO_INVENTED_BANDWIDTH": true,
+    "NO_GT_TUNING": true,
+    "NO_NEW_LOOP_SELECTION": true,
+    "NO_NEW_DISTRIBUTED_OPTIMIZER": true,
+    "STAGE20_DEMO_UNCHANGED": true,
+    "TEN_FIGURES_EXIST": true
+  },
+  "independently_checked_buffers": 190,
+  "full_trace_rows": 548475,
+  "full_trace_SHA256": "4423d0cb78a755216e9d12d5c7ced53372212be5c7b7d08414660c55c08b18bb",
+  "historical_context_files": "append-only updates permitted; all historical science/demo inputs stay byte-identical",
+  "measurement_network_distinction": true,
+  "unsupported": [
+    "full2000 historical M1000 access trace MISSING_SOURCE; exact new100-query trace available",
+    "true wireless/network/physical robot CPU/energy unavailable",
+    "online dual-stream SC/GICP discovery unimplemented"
+  ]
+}

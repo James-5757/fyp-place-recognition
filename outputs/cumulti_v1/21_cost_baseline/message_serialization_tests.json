@@ -1,0 +1,16 @@
+{
+  "status": "PASS",
+  "tests": {
+    "robot1_ring_key_matches_frozen": true,
+    "robot3_ring_key_matches_frozen": true,
+    "corrupt_CRC_rejected": true,
+    "truncation_rejected": true,
+    "descriptor_float32_lossless": true,
+    "pointcloud_XYZ_XYZI_lossless": true,
+    "source_timestamp_int64_exact": true,
+    "all12_message_types_roundtrip": true
+  },
+  "header_bytes": 48,
+  "compression": "whole message zlib1 roundtrip checked for every measured buffer",
+  "fixtures": "schema unit tests; not simulated protocol traffic"
+}

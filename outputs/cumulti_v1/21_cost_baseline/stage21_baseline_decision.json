@@ -1,0 +1,61 @@
+{
+  "status": "COST_BASELINE_READY",
+  "scope": "REPRODUCIBLE_DECLARED_SLICE_COST_BASELINE_NOT_OPTIMIZATION_OR_ONLINE_NETWORK_SUCCESS",
+  "baseline": "5e9316b4bdd9c7a6fc412ad0ba5515f5adf23cf2",
+  "mandatory_validation": {
+    "HISTORICAL_STAGES_IMMUTABLE": true,
+    "SERIALIZATION_ROUNDTRIP_PASS": true,
+    "SC_DESCRIPTOR_SHAPES_VERIFIED": true,
+    "RING_KEY_BYTES_VERIFIED": true,
+    "POINT_CLOUD_ENCODINGS_VALID": true,
+    "CLOUD_BYTES_ACTUALLY_SERIALIZED": true,
+    "MESSAGE_COUNTS_TRACEABLE": true,
+    "CACHE_POLICY_EXPLICIT": true,
+    "INDEPENDENT_ENCODED_LENGTH_AND_COMPRESSION_CHECK": true,
+    "FRONTEND_TIMINGS_GROUNDED": true,
+    "GICP_PARAMETERS_FROZEN": true,
+    "STAGE20_TIMINGS_REUSED_CORRECTLY": true,
+    "CAUSAL_AVAILABILITY_DISTINGUISHED": true,
+    "NO_INVENTED_NETWORK_LATENCY": true,
+    "NO_INVENTED_BANDWIDTH": true,
+    "NO_GT_TUNING": true,
+    "NO_NEW_LOOP_SELECTION": true,
+    "NO_NEW_DISTRIBUTED_OPTIMIZER": true,
+    "STAGE20_DEMO_UNCHANGED": true,
+    "TEN_FIGURES_EXIST": true
+  },
+  "frontend_coverage": {
+    "unique_queries": 100,
+    "repeats": 2,
+    "actual_query_invocations": 200,
+    "actual_GICP_calls": 346,
+    "frozen_attempts_per_repeat": 173,
+    "measured_full_descriptor_accesses_per_repeat": 100000
+  },
+  "communication_scope": "B0/B1/B2:4180 prebuilt R3 frames + same100 R1 queries; B3:5796 dual-stream updates +75 archived loops, separate oracle",
+  "full_historical2000_request_reconstruction": "INCOMPLETE_MISSING_SOURCE; new100-query exact M1000 access trace is complete",
+  "raw_cloud_catalog_count": 4280,
+  "factor_measurements_changed": false,
+  "stage20_reoptimized": false,
+  "network": {
+    "NETWORK_BYTES_ACTUALLY_TRANSMITTED": "NOT_MEASURED",
+    "NETWORK_LATENCY": "NOT_MEASURED",
+    "PACKET_LOSS": "NOT_MEASURED",
+    "WIRELESS_BANDWIDTH": "NOT_MEASURED",
+    "PHYSICAL_ROBOT_CPU": "NOT_MEASURED",
+    "ENERGY": "NOT_MEASURED"
+  },
+  "limitations": [
+    "prebuilt frontend and dual-stream archived replay are not a joint online system",
+    "transport XYZ is lossless only for consumed coordinates; unused intensity is omitted explicitly, Nx4 adapter independently validated; XYZI alternative preserves all stored fields",
+    "first-observed/warm process loading does not control Linux page cache; no storage-cold claim",
+    "all new compute on server; logical robot placement is a proxy, no onboard timing",
+    "raw sampled clouds all65536 points; no manufactured size diversity",
+    "full143MB trace and per-pair intermediates are server-only with hashes; preview is explicitly partial",
+    "application framing is not TCP/IP/link/packet overhead; compression CPU recorded separately",
+    "Stage20 numerical batch-agreement limitation preserved",
+    "map/correction send cadence unavailable: no traffic invented"
+  ],
+  "Stage22_hypothesis": "explicit full-SC cache residency and geometric-verification cloud-miss cost should be included in a future budget-aware query/candidate cost objective; Ring Key bytes alone are an inadequate objective. Test fixed-quality/causal availability constraints before introducing any selection.",
+  "stop": "STOP_AFTER_STAGE21_NO_SELECTOR_NO_DISTRIBUTED_SLAM_NO_STAGE22"
+}

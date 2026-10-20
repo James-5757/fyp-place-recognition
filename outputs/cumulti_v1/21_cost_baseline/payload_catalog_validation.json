@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "all_B0_clouds_actually_serialized": 4280,
+  "expected": 4280,
+  "all_point_values_lossless": true,
+  "seconds": null,
+  "completion_note": "map-report function argument corrected after completed cloud catalog; no cloud numbers overwritten",
+  "peak_RSS_mib": 129.69140625,
+  "not_network_measurement": true
+}

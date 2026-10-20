@@ -1,0 +1,38 @@
+#!/usr/bin/env python3
+"""Finalize only from measured/imported/explicitly modelled Stage21 evidence."""
+import json,platform,resource,sys,zlib
+import numpy as np,pandas as pd,scipy
+from prepare_stage21_policy import ROOT,OUT,dump,sha
+from summarize_stage21_costs import stats
+
+def main():
+    audit=json.loads((OUT/'stage21_independent_validation.json').read_text());assert audit['status']=='PASS'
+    messages=pd.read_csv(OUT/'message_trace_by_mode.csv',usecols=['mode','message_type','serialization_time_ms','deserialization_time_ms','compression_time_ms','decompression_time_ms','serialization_cpu_ms'])
+    codec=[]
+    for (mode,kind),rows in messages.groupby(['mode','message_type']):
+        for col in ['serialization_time_ms','deserialization_time_ms','compression_time_ms','decompression_time_ms','serialization_cpu_ms']:codec.append(dict(mode=mode,message_type=kind,metric=col,status='MEASURED_BUFFER_CPU_OR_WALL_NOT_NETWORK',**stats(rows[col])))
+    pd.DataFrame(codec).to_csv(OUT/'serialization_cost_summary.csv',index=False)
+    # Presentation examples are deterministic first-three per mode/category,
+    # never a favorable timing subsample or a replacement for the full trace.
+    selected={}
+    for chunk in pd.read_csv(OUT/'message_trace_by_mode.csv',chunksize=50000,dtype={'source_timestamp_ns':'str','logical_time_ns':'str'}):
+        for key,g in chunk.groupby(['mode','message_type'],sort=False):
+            rows=selected.setdefault(key,[])
+            if len(rows)<3:rows.extend(g.head(3-len(rows)).to_dict('records'))
+    pd.DataFrame([r for rows in selected.values() for r in rows]).to_csv(OUT/'message_trace_examples_FIRST3_PER_MODE_CATEGORY.csv',index=False)
+    comm=pd.read_csv(OUT/'communication_summary_by_mode.csv');front=pd.read_csv(OUT/'frontend_benchmark_summary.csv');back=pd.read_csv(OUT/'backend_cost_summary.csv');av=pd.read_csv(OUT/'candidate_availability_audit.csv');cache=pd.read_csv(OUT/'cache_sensitivity_summary.csv');trace=json.loads((OUT/'message_trace_manifest.json').read_text());coverage=json.loads((OUT/'frontend_sample_coverage.json').read_text())
+    import open3d
+    frontend_info=json.loads((OUT/'frontend_instrumentation.json').read_text())
+    dump('stage21_runtime_environment.json',dict(python=sys.version,executable=sys.executable,numpy=np.__version__,scipy=scipy.__version__,open3d=open3d.__version__,zlib_compile_version=zlib.ZLIB_VERSION,zlib_runtime_version=zlib.ZLIB_RUNTIME_VERSION,platform=platform.platform(),thread_environment=json.loads((OUT/'stage21_measurement_policy.json').read_text())['CPU']['thread_environment'],frontend_peak_RSS_mib=frontend_info['peak_RSS_mib'],memory_notes='frontend process highwater from its actual instrumentation; postprocessing highwater is separate; no physical robot or power measurement',current_postprocessing_peak_RSS_mib=resource.getrusage(resource.RUSAGE_SELF).ru_maxrss/1024))
+    # No unsupported full-run count or wireless timing is filled with zero.
+    decision=dict(status='COST_BASELINE_READY',scope='REPRODUCIBLE_DECLARED_SLICE_COST_BASELINE_NOT_OPTIMIZATION_OR_ONLINE_NETWORK_SUCCESS',baseline='5e9316b4bdd9c7a6fc412ad0ba5515f5adf23cf2',mandatory_validation=audit['checks'],frontend_coverage=dict(unique_queries=100,repeats=2,actual_query_invocations=200,actual_GICP_calls=346,frozen_attempts_per_repeat=173,measured_full_descriptor_accesses_per_repeat=100000),communication_scope='B0/B1/B2:4180 prebuilt R3 frames + same100 R1 queries; B3:5796 dual-stream updates +75 archived loops, separate oracle',full_historical2000_request_reconstruction='INCOMPLETE_MISSING_SOURCE; new100-query exact M1000 access trace is complete',raw_cloud_catalog_count=4280,factor_measurements_changed=False,stage20_reoptimized=False,network={k:'NOT_MEASURED' for k in ['NETWORK_BYTES_ACTUALLY_TRANSMITTED','NETWORK_LATENCY','PACKET_LOSS','WIRELESS_BANDWIDTH','PHYSICAL_ROBOT_CPU','ENERGY']},limitations=['prebuilt frontend and dual-stream archived replay are not a joint online system','transport XYZ is lossless only for consumed coordinates; unused intensity is omitted explicitly, Nx4 adapter independently validated; XYZI alternative preserves all stored fields','first-observed/warm process loading does not control Linux page cache; no storage-cold claim','all new compute on server; logical robot placement is a proxy, no onboard timing','raw sampled clouds all65536 points; no manufactured size diversity','full143MB trace and per-pair intermediates are server-only with hashes; preview is explicitly partial','application framing is not TCP/IP/link/packet overhead; compression CPU recorded separately','Stage20 numerical batch-agreement limitation preserved','map/correction send cadence unavailable: no traffic invented'],Stage22_hypothesis='explicit full-SC cache residency and geometric-verification cloud-miss cost should be included in a future budget-aware query/candidate cost objective; Ring Key bytes alone are an inadequate objective. Test fixed-quality/causal availability constraints before introducing any selection.',stop='STOP_AFTER_STAGE21_NO_SELECTOR_NO_DISTRIBUTED_SLAM_NO_STAGE22')
+    dump('stage21_baseline_decision.json',decision)
+    def safe(rows):return json.loads(pd.DataFrame(rows).to_json(orient='records'))
+    primary=comm[comm.primary_mode];summary=dict(decision=decision['status'],communication=safe(primary),frontend=safe(front),backend=safe(back),cache=safe(cache),causal_availability=safe(av.groupby(['source_scope','status']).size().rename('count').reset_index()),sample_coverage=coverage,full_trace=dict(rows=trace['rows'],sha256=trace['sha256'],server_path=trace['path']),scope_notes=decision['limitations'],Stage22_hypothesis=decision['Stage22_hypothesis'])
+    dump('summary.json',summary)
+    lines=[k+': '+('PASS' if v else 'FAIL') for k,v in audit['checks'].items()]+['BASELINE_DECISION: '+decision['status'],'COMMUNICATION: ACTUAL_ENCODED_BUFFER_LENGTHS + PROTOCOL_SIMULATED_SEND_EVENTS','NETWORK_BYTES_ACTUALLY_TRANSMITTED: NOT_MEASURED','NETWORK_LATENCY: NOT_MEASURED','PACKET_LOSS: NOT_MEASURED','WIRELESS_BANDWIDTH: NOT_MEASURED','FULL_HISTORICAL2000_M1000_ACCESS_TRACE: MISSING_SOURCE / INCOMPLETE','NEW100_QUERY_M1000_ACCESS_TRACE: COMPLETE_MEASURED','SC_GICP_PROTOCOL: HISTORICAL_PREBUILT_FRONTEND','BACKEND_PROTOCOL: DUAL_STREAM_ARCHIVED_FACTOR_REPLAY','STAGE20_NUMERICAL_BATCH_AGREEMENT: HISTORICAL_FAIL_PRESERVED','STAGE22: NOT_STARTED']
+    (OUT/'VALIDATION_REPORT.txt').write_text('\n'.join(lines)+'\n')
+    required=['stage21_measurement_policy.json','stage21_input_inventory.json','stage21_source_provenance.json','stage21_input_hashes.json','message_schema.json','message_serialization_tests.json','descriptor_payload_metrics.csv','pointcloud_payload_metrics.csv','message_trace_by_mode.csv','communication_summary_by_mode.csv','frontend_benchmark_queries.csv','frontend_benchmark_summary.csv','backend_cost_summary.csv','architecture_compute_split.csv','candidate_availability_audit.csv','cache_sensitivity_summary.csv','cost_comparison_table.csv','stage21_baseline_decision.json','summary.json','VALIDATION_REPORT.txt']
+    dump('stage21_artifact_manifest.json',dict(files=[dict(path=str(OUT/n),bytes=(OUT/n).stat().st_size,sha256=sha(OUT/n),storage='SERVER_ONLY_FULL_TRACE' if n=='message_trace_by_mode.csv' else 'LIGHTWEIGHT_VERSIONED_RESULT') for n in required],figures=[dict(path=str(p),sha256=sha(p)) for p in sorted(OUT.glob('[0-9][0-9]_*.png'))],experiment_code=[dict(path=str(p.relative_to(ROOT)),sha256=sha(p)) for p in sorted((ROOT/'src/cumulti').glob('*stage21*.py'))]))
+    print(decision['status']);print(primary[['mode','total_messages','total_serialized_bytes','total_compressed_bytes']].to_string(index=False))
+if __name__=='__main__':main()
