@@ -7,3 +7,14 @@ The documented formal split uses frame step 5, split 2500, gap 100, Robot A thro
 Existing layout: src/ contains retrieval, BEV/RGB/temporal, VLM, analysis and canonical-v2 code; outputs/ contains historical metrics and generated artefacts; data/, models/ and archive/ are private/large and ignored. README_zh.md is the detailed original report.
 
 The next stage is CU-Multi Main Campus robot1/robot2. Its first milestone is a separate 100-keyframe-per-robot adapter/validation; it must not overwrite KITTI outputs/canonical_v2. Scan Context remains the candidate anchor. The historical frozen Top-20-to-Top-5 filtering fusion is 0.6*SC + 0.4*Cross-Max; 0.7 SC was a secondary ranking ablation.
+
+## Stage22A — causal frontend context
+
+The current research direction is communication/computation-efficient
+collaborative LiDAR SLAM. Stage22A replaces archived clean75 discovery
+assumptions with actually computed causal bidirectional SC and new GICP
+measurements over5796 normalized R1/R3 arrivals. Decision: CAUSAL_ONLINE_GRAPH_READY; backend
+CAUSAL_ONLINE_GRAPH_READY. This is separate-recording replay, not live dual robots or
+decentralized optimization. Historical frozen results remain unchanged.
+Read the Stage22A doc and RESULTS for coverage, numerical and offline-accuracy
+limitations. GT is offline only; Stage22B is not automatically authorized.

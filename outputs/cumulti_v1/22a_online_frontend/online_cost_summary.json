@@ -1,0 +1,21 @@
+{
+  "status": "MEASURED_BUFFERS_SIMULATED_SENDS",
+  "events": 5796,
+  "messages": 29267,
+  "serialized_application_bytes": 6107977604,
+  "compressed_application_bytes": 4211894087,
+  "cloud_cache_hits": 24738,
+  "cloud_cache_misses": 5796,
+  "modelled_unbounded_cloud_cache_raw_bytes": 6077546496,
+  "physical_actual_GICP_calls": 15267,
+  "physical_actual_GICP_harness_seconds": 6413.994504254,
+  "attempts_in_chronological_log": 15267,
+  "physical_GICP_cache": "unchanged64/fresh per teammate call; logical protocol cache is a different model",
+  "accounting_scope": "all actual Stage22A calls including pilot; pilot-only tail attempts are NOT completed full-prefix verification when capped",
+  "full_descriptor_requests": 0,
+  "full_descriptor_request_reason": "B1 full-descriptor-first baseline, every arriving descriptor published once; no RingKey-only communication claim",
+  "NETWORK_BYTES_ACTUALLY_TRANSMITTED": "NOT_MEASURED",
+  "measured_accounting_elapsed_s": 161.86915724212304,
+  "peak_RSS_accounting_process_mib": 375.28125,
+  "physical_robot_memory_or_CPU": "NOT_MEASURED"
+}

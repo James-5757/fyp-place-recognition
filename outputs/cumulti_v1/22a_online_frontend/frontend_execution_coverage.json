@@ -1,0 +1,15 @@
+{
+  "status": "ONLINE_GICP_VERIFICATION_READY",
+  "events_total": 5796,
+  "queries_verified": 5796,
+  "fraction": 1.0,
+  "actual_calls": 15267,
+  "accepted_candidates": 1088,
+  "rejected_candidates": 14179,
+  "independent_loops": 288,
+  "duplicates": 800,
+  "actual_call_wall_seconds": 6413.994504254,
+  "physical_actual_calls_including_pilot": 15267,
+  "budget_used_seconds": 6413.994504253994,
+  "peak_RSS_mib": 534.96875
+}

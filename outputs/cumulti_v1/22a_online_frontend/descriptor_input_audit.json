@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "scans": 5796,
+  "fields": [
+    "x",
+    "y",
+    "z",
+    "intensity"
+  ],
+  "dtype": "float32",
+  "points_min": 65536,
+  "points_max": 65536,
+  "all_lidar_SHA256_match": true,
+  "node_frame": "LiDAR/os_sensor",
+  "IMU_from_LiDAR": [
+    [
+      -1.0,
+      0.0,
+      0.0,
+      -0.06286
+    ],
+    [
+      0.0,
+      -1.0,
+      0.0,
+      0.01557
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.053345
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "GT_used": false
+}

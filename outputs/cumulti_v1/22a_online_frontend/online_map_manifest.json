@@ -1,0 +1,18 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/maps/online_robot1.ply",
+      "bytes": 3387000,
+      "sha256": "5542f6a79dd8c53dc3c834815643fd6e56fffb37fc0a62793493f7a099492637"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/maps/online_robot3.ply",
+      "bytes": 7970940,
+      "sha256": "acc67a91e3d010111bb906f1524eeb4b453801248648a3556cd0e20033766462"
+    }
+  ],
+  "frame_stride": 10,
+  "point_stride": 16,
+  "voxel_m": 0.5,
+  "GT_used": false
+}

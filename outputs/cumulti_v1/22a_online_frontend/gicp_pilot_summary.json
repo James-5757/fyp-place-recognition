@@ -1,0 +1,16 @@
+{
+  "status": "PILOT_COMPLETE",
+  "queries": 150,
+  "actual_calls": 389,
+  "direction_counts": {
+    "robot1": 48,
+    "robot3": 102
+  },
+  "actual_harness_seconds": 164.28256553499997,
+  "projection_kind": "MODELLED_PROJECTION",
+  "projected_full_seconds": 6347.878332272398,
+  "frozen_cap_seconds": 7200,
+  "full_run_fits_budget": true,
+  "pilot_results_reused_exactly_once": true,
+  "elapsed_s": 166.83826975990087
+}

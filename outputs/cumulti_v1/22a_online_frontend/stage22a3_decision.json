@@ -1,0 +1,8 @@
+{
+  "status": "CAUSAL_ONLINE_GRAPH_READY",
+  "structural_status": "PASS",
+  "numerical_status": "PASS",
+  "reason": "original numerical agreement gates passed",
+  "new_graph_only": true,
+  "GT_used": false
+}

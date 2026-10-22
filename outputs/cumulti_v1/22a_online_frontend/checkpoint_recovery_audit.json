@@ -1,0 +1,21 @@
+{
+  "status": "SAFE_TO_RESUME",
+  "durable_actual_calls": 7289,
+  "uncertain_attempts": [],
+  "actual_call_budget_used_seconds": 3153.8712122599904,
+  "frozen_total_cap_seconds": 7200,
+  "remaining_budget_seconds": 4046.1287877400096,
+  "measurements_rerun": 0,
+  "prior_progress": {
+    "phase": "full",
+    "completed_queries": 2400,
+    "last_event": 2399,
+    "actual_call_seconds_used": 3153.8712122599864,
+    "unique_actual_calls": 7289,
+    "accepted_representatives": 15,
+    "elapsed_invocation_s": 3017.056223775726
+  },
+  "interruption": "SSH connection reset; old verification process no longer running; prior finish-only waiter timed out",
+  "recovery": "reuse hash-verified event/rank receipts; chronological replay rebuilds duplicate state without rerunning GICP",
+  "GT_used": false
+}

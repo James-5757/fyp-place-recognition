@@ -1,0 +1,12 @@
+{
+  "status": "PRECONDITION_PASSED",
+  "decision_hashes": {
+    "stage22a1_decision.json": "259bda0d0f26255bc0099d1bb87fd068c8f86e2b7dac352a1cb28db994d08483",
+    "stage22a2_decision.json": "0b8485b709815441a137f878c4832015db6a7b1f23b8bb23b14bb19e139d0389",
+    "stage22a3_decision.json": "63445afa7d15535d7bff8d9c36618ed61a8c6e334fa4fd176c91ae0193ffe9e8",
+    "online_verified_loops.csv": "254f6e05366cac4d944522268700ef66e734368613990bb71391a4d17aa9e8ba",
+    "online_loop_discovery_trace.csv": "893a3472d44a709065be28a3651e05bcdf76a5aff0c6870307cbe22671063462"
+  },
+  "GT_read_after_decisions": true,
+  "entry_unix_ns": 1792637116061571247
+}

@@ -1,0 +1,2 @@
+status,same_new_graph,same_gauge,incremental_error,batch_error,batch_runtime_ms,batch_iterations,translation_median_m,translation_p95_m,rotation_median_deg,rotation_p95_deg
+PASS,True,True,62.722240434685716,62.721744323710155,371.046774,7,0.06511990898426709,0.28182270300043777,0.025723181729514873,0.15502069166218144

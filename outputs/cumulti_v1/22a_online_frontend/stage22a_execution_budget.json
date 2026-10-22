@@ -1,0 +1,11 @@
+{
+  "full_GICP_execution_cap_seconds": 7200,
+  "cap_includes_actual_pilot_and_full_attempt_wall_seconds": true,
+  "pilot_queries": 150,
+  "pilot_selection": "linspace(0,5795,150,dtype=int) before outcomes",
+  "pilot_projection_multiplier": 38.64,
+  "cap_change_allowed": false,
+  "RSS_limit_GiB": 8,
+  "decision": "run full only if pilot projected actual harness wall <=7200s",
+  "available_disk": "Filesystem      Size  Used Avail Use% Mounted on\n/dev/sda2       879G  456G  379G  55% /\n"
+}

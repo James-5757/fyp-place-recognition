@@ -1,0 +1,8 @@
+{
+  "phase": "FINISHED",
+  "status": "ONLINE_GICP_VERIFICATION_READY",
+  "completed_queries": 5796,
+  "actual_calls": 15267,
+  "admitted_representatives": 288,
+  "backend_status": "CAUSAL_ONLINE_GRAPH_READY"
+}

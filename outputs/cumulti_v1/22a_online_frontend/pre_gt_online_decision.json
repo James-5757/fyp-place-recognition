@@ -1,0 +1,27 @@
+{
+  "frontend": "ONLINE_GICP_VERIFICATION_READY",
+  "backend": {
+    "status": "CAUSAL_ONLINE_GRAPH_READY",
+    "structural_status": "PASS",
+    "numerical_status": "PASS",
+    "reason": "original numerical agreement gates passed",
+    "new_graph_only": true,
+    "GT_used": false
+  },
+  "frozen_result_hashes": {
+    "online_rejected_candidates.csv": "26391b01e83aafa5c9b9c79b74163ca4a157bbb9d057365d67fcac484c24adeb",
+    "online_verification_queries.csv": "b1bab222ad9a3e386a7d382e65f6700835d44cbde15ba2bba3bb51fd1bd2de84",
+    "online_incremental_trajectory.csv": "ae33a242fe4e6dfdeb03c05124512f4d6042b8905b6c3e7428d06d7b41f4cc5b",
+    "online_loop_discovery_trace.csv": "893a3472d44a709065be28a3651e05bcdf76a5aff0c6870307cbe22671063462",
+    "online_verified_loops.csv": "254f6e05366cac4d944522268700ef66e734368613990bb71391a4d17aa9e8ba",
+    "online_loop_residuals.csv": "2f3048771eeb1939dd37e448ff19e7fb05e8ba38e03d4283c6678a7e83beb534",
+    "online_retrieval_latency.csv": "10fac64a948181bf9c1a2bafa0d01c9775ac21683f48906fca3ffaa220bbbd44",
+    "online_batch_trajectory.csv": "d057b4fa58108f439671c6f5b41a66f0812f18e08d28b9216b3b685ba856f4cb",
+    "online_incremental_vs_batch.csv": "5e668d1f71235c62974e2a163e8ae2dd46978da19cd888847d444c09b07bb9b8",
+    "online_map_consistency.csv": "89f0b4cdcaa7c8d551cc6109ef3838356da6845ba8d67db435dde9cba7a9e254",
+    "online_gicp_attempts.csv": "cf598b5a77fbb411aa60054a9c6a879a91f902f6784bdb330c8ccca6ced2ee03",
+    "online_candidate_trace.csv": "dd02e08980049fbc266f68710385da23da4473441697c2f81fd9b6436d7ea2fd",
+    "online_backend_event_trace.csv": "bf1b5be0db2078319cd2ffbec9f9ece4ce66cab348070206d50729e690d5b7a5"
+  },
+  "GT_read_yet": false
+}

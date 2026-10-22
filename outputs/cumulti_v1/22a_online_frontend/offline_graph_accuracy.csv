@@ -1,0 +1,13 @@
+condition,metric,use,scope,ATE_RMSE_m,translation_RMSE_m,rotation_RMSE_deg,samples
+online_incremental,ATE_joint_rigid,OFFLINE_ONLY,joint,21.159290154292304,,,
+online_incremental,ATE_joint_rigid,OFFLINE_ONLY,robot1,16.550035122586134,,,
+online_incremental,ATE_joint_rigid,OFFLINE_ONLY,robot3,23.004426781847982,,,
+online_incremental,RPE_interval10,OFFLINE_ONLY,robot1,,9.44595862076807,5.3198276131785205,1840.0
+online_incremental,RPE_interval10,OFFLINE_ONLY,robot3,,10.970280912471562,7.544587814330818,3936.0
+online_incremental,RPE_interval10,OFFLINE_ONLY,combined,,10.508719900107113,6.914011461697604,5776.0
+online_batch,ATE_joint_rigid,OFFLINE_ONLY,joint,21.159532386601718,,,
+online_batch,ATE_joint_rigid,OFFLINE_ONLY,robot1,16.55111397402947,,,
+online_batch,ATE_joint_rigid,OFFLINE_ONLY,robot3,23.004390147218082,,,
+online_batch,RPE_interval10,OFFLINE_ONLY,robot1,,9.445902824568249,5.319671731764001,1840.0
+online_batch,RPE_interval10,OFFLINE_ONLY,robot3,,10.970247674207853,7.544450659410087,3936.0
+online_batch,RPE_interval10,OFFLINE_ONLY,combined,,10.508680278534007,6.913871266949531,5776.0

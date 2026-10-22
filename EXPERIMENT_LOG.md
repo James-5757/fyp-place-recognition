@@ -253,3 +253,16 @@ Objective: establish attributable cost baselines, not tune a selector. Inputs: S
 Results: COST_BASELINE_READY for the declared slice. B0/B1/B2 bytes3366168640/224467723/224897867; B3 different oracle1369143. New retrieval/GICP means20.435896ms/query and86.836912ms/attempt; harness index/I/O handling is225.440720ms/attempt and nonzero historical map-publication median1565.260211ms/event. No end-to-end sum or wireless/energy claim. Original historical2000-query M1000 access trace is MISSING_SOURCE; new100-query trace is actual and complete. Unbounded B2 fetches4214 descriptors, almost the full database; no cache/selector optimization is chosen. Independent full548475-row arithmetic/hash audit and190 independently encoded-buffer checks pass;10 figures generated. Input-audit source lookup, map-report argument and NumPy-boolean JSON handling were repaired without changing samples/parameters or reselecting results; catalog wall duration unavailable after report recovery remains null.
 
 Outputs: isolated Stage21 modules, `scripts/run_stage21_cost_baseline.sh`, `outputs/cumulti_v1/21_cost_baseline/` and Stage21 doc. Full143MiB message trace and pair intermediates remain server-only with provenance/hashes; no raw clouds/bags/credentials committed. Historical stages/demos,75 measurements/noise, timestamps and numerical limitations preserved. Stop after21; future hypothesis is cache-aware full-SC and geometric-verification resource accounting under fixed-quality/causal constraints, not an implemented Stage22 method.
+
+## Stage22A — causal bidirectional online frontend (2026-10-21)
+
+CAUSAL_ONLINE_GRAPH_READY. Actual SC processed all5796 events in both directions; two real-scan
+passes match bitwise descriptors and scientific candidate hashes, zero future
+candidates. GICP coverage 5796/5796, 15267 actual
+calls, 288 independent causal representative loops and
+800 suppressed duplicates. Backend CAUSAL_ONLINE_GRAPH_READY; numerical
+PASS. Serialized simulated-protocol bytes
+6107977604; actual networking NOT_MEASURED. New
+results/GT-free decisions persisted before offline GT/archive comparison;
+no oracle75 guidance, core changes, demo changes or GT retuning. See
+`docs/CUMULTI_STAGE22A_ONLINE_FRONTEND.md` and own independent validation.

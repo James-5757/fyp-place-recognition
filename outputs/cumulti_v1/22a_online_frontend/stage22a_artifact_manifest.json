@@ -1,0 +1,392 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/01_dynamic_database_growth.png",
+      "bytes": 61211,
+      "sha256": "8aa9178f07ffeb603d1560fd91ef74c04cf0051dcfc6413324a6b83be2dbb992"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/02_bidirectional_candidate_timeline.png",
+      "bytes": 128189,
+      "sha256": "be0d6fcd7cc34bbe4cd7fae7f57381c56d9ec0dbce90be2c7db0dfdbd8dc8efa"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/03_future_candidate_leakage_audit.png",
+      "bytes": 30763,
+      "sha256": "414459e706afd98ca7d3d9bd597bd1b992ab635e8d9f6ca32cf9e2e643e10ead"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/04_online_SC_latency.png",
+      "bytes": 58458,
+      "sha256": "0500753a3118212e22bbf99c2ed7251471b94adc076c6dcc545a7927d394a7df"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/05_GICP_calls_and_runtime.png",
+      "bytes": 210727,
+      "sha256": "2ec13bf2aa07b30d7ad98e89de6b2911b917fe4fd8dff513705fdba7d1d2726f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/06_online_loop_discovery_timeline.png",
+      "bytes": 43917,
+      "sha256": "5d007bea2d68343033981298623540e5dee1abb881f29753cc32c4ab2e15260f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/07_online_vs_archived_loop_coverage.png",
+      "bytes": 35312,
+      "sha256": "15c7ee3a58dc5fe46a2aa09d9964879836cb6b0c9f109a2612b87f9375140602"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/08_compute_cost_per_query.png",
+      "bytes": 90059,
+      "sha256": "c79a454cef952ad5708fbdfe2e4fcf9adb8fc55a94eca4685079325c1bd12d83"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/09_protocol_byte_cost.png",
+      "bytes": 79687,
+      "sha256": "803a67ac256a6997032832544d71ca6f78de5219e57941063041ccd3be607bdd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/10_online_graph_growth.png",
+      "bytes": 55283,
+      "sha256": "412c905965e04147f879402b960327ac1e73b153bd1f262206144da26256d04e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/11_first_discovered_loop_fusion.png",
+      "bytes": 49324,
+      "sha256": "34a0b88bc1084e8bcaacf335261cc49ef44d6d5815bdc1f9e75d23c782e9cf98"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/VALIDATION_REPORT.txt",
+      "bytes": 821,
+      "sha256": "63fa804007a91593eb49557ac2ba00162d9485ea97e0b8fe66186685161be594"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/bidirectional_retrieval_summary.json",
+      "bytes": 728,
+      "sha256": "fd8cb749f400c9186de833e1141a0fe272aebca57ca30c5c9f23a39bb89072c9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/causal_timeline_audit.csv",
+      "bytes": 80092,
+      "sha256": "1186e153d823f5aee80895c463190d3fc2074c67d6addb7c427df3acaa2621e9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/checkpoint_recovery_audit.json",
+      "bytes": 802,
+      "sha256": "842494b095d502b15659a750d46c9f01a5b50740da6525558b10edfec4903288"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/database_growth.csv",
+      "bytes": 198870,
+      "sha256": "6981d66b0b8a32fffa562c146c29ff78d62104c55cde81341765719d18ad9dc8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/descriptor_input_audit.json",
+      "bytes": 525,
+      "sha256": "9fbd7b486877d1948ddeb3a6d04861e1df90baaf33485fe5a449eef9f31be004"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/dual_stream_event_schedule.csv",
+      "bytes": 288618,
+      "sha256": "34118ebf4ab016cba1436a46a84108c0211902cb4ad57d2b6d753c235f004677"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/figure_validation.json",
+      "bytes": 113,
+      "sha256": "796e39fd5678ef8fcd5ae7311f313e7fcc93c4e8e3a39bd29153714bc573fb44"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/first_online_bridge.json",
+      "bytes": 829,
+      "sha256": "6f5d9d00fe1b28e33706542e110b1408dcd267c1b989df21ff91aca57385b5b3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/frontend_execution_coverage.json",
+      "bytes": 426,
+      "sha256": "fa1e2326f5524d808f0d7adf5dd3ec2906e9c8d2846f257620127cb02bc8a5ed"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/gicp_full_invocation_wall.json",
+      "bytes": 415,
+      "sha256": "32cadd548ea0270e564600b62bee755d124dbb91ce5fd8334e7b8d637d0a8649"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/gicp_pilot_pairs.csv",
+      "bytes": 75111,
+      "sha256": "3eaf405ea1717f3357324f068be5d88d4ae934272ac677e9ab129db182c84d18"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/gicp_pilot_queries.csv",
+      "bytes": 7818,
+      "sha256": "e32dde3e99902c65f3e82c26a75ca4f18c5e1611e658f544a5fc5a2bb7e635b3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/gicp_pilot_summary.json",
+      "bytes": 420,
+      "sha256": "d67fbfb6890a0997946294b9a2b9d56af74a3c9be2211a131fb1c862de1f8064"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/gicp_pilot_timing.csv",
+      "bytes": 376623,
+      "sha256": "0b18117facd770a512ab19d5133d93e974b28ac1b2b10242f5a3d4e8c7f4a21c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/independent_audit_checks.csv",
+      "bytes": 4114202,
+      "sha256": "7df2ee1de4728cf87f64bf260e2aad798a7f1e504daf66655a434c306df9aea1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/independent_validation.json",
+      "bytes": 163,
+      "sha256": "f05976892f26a9fa66a9a1b79c440be153937ed9f1926e732fb00cc110950e79"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/lidar_input_manifest.csv",
+      "bytes": 1018513,
+      "sha256": "b9f7257afd37e1d1dc1d3a10c1ec84ad6cb8075511dab73325099f04907ae48b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_admitted_labels.csv",
+      "bytes": 29212,
+      "sha256": "5cfc9ad8f81e25bda88ba4d534daa78f069b9cfa488ef42c1924cb692381c4f2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_archive_comparison_summary.json",
+      "bytes": 209,
+      "sha256": "aa402df1841edd7363f6ae1c177fb2c63211b6483d6d8a95b314f240e3891315"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_causal_query_evaluation.csv",
+      "bytes": 406425,
+      "sha256": "e3046601254a2889e351bdd42565673cd9a1f6b6c47835af03a86d224dea2309"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_evaluation_audit.json",
+      "bytes": 133,
+      "sha256": "6bf9aaa53252df639dbb349ae213aa6812a4fde1ab3d89afb24726c4efab68eb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_evaluation_entry.json",
+      "bytes": 645,
+      "sha256": "b628be80761a65ba8fe09540d00b18baaaf9471170887019db0baad74cfc3529"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_frontend_accuracy.csv",
+      "bytes": 1379,
+      "sha256": "f5e0a72b2314b4b3aa3f67d973f4ecfc0e04957902801ad0c26fcfc031288984"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_geometrically_accepted_including_duplicates_labels.csv",
+      "bytes": 108217,
+      "sha256": "bec893eecacf6881cb46cbd547685585ed349fa29f92ffd02f8dfbc5849b415e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/offline_graph_accuracy.csv",
+      "bytes": 1102,
+      "sha256": "176ee1b2835edc9364ff3f3fd57fd60a9ec852637e05ed5d8451ae547463258f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_backend_event_trace.csv",
+      "bytes": 405239,
+      "sha256": "bf1b5be0db2078319cd2ffbec9f9ece4ce66cab348070206d50729e690d5b7a5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_backend_policy.json",
+      "bytes": 1174,
+      "sha256": "a20539c85ae3bba4e8b585901903590851ed1ddb338eadc8f28b5e8410b21a40"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_batch_trajectory.csv",
+      "bytes": 977468,
+      "sha256": "d057b4fa58108f439671c6f5b41a66f0812f18e08d28b9216b3b685ba856f4cb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_candidate_trace.csv",
+      "bytes": 2909724,
+      "sha256": "dd02e08980049fbc266f68710385da23da4473441697c2f81fd9b6436d7ea2fd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_communication_cost.csv",
+      "bytes": 601351,
+      "sha256": "e0cf1dd82b7f6cb1731df5b53e191d8992204c36cf3f36965e361182c011c68a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_cost_summary.json",
+      "bytes": 1089,
+      "sha256": "75c99fceb781aea57d5cd3566ddd3a63f4c9d0b0c3e46b0e2fb04316d8a9c1c9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_frontend_compute_cost.csv",
+      "bytes": 722102,
+      "sha256": "258b7950db73c86eb1ed0b6ead5092b10eae1f204660f55074732c55b591094a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_gicp_attempts.csv",
+      "bytes": 14742785,
+      "sha256": "cf598b5a77fbb411aa60054a9c6a879a91f902f6784bdb330c8ccca6ced2ee03"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_graph_integrity.json",
+      "bytes": 378,
+      "sha256": "81aa1e4319a62bf103d3ea080edccf453a9280945e7dc4edd643b3f245ec8708"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_incremental_trajectory.csv",
+      "bytes": 977504,
+      "sha256": "ae33a242fe4e6dfdeb03c05124512f4d6042b8905b6c3e7428d06d7b41f4cc5b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_incremental_vs_batch.csv",
+      "bytes": 320,
+      "sha256": "5e668d1f71235c62974e2a163e8ae2dd46978da19cd888847d444c09b07bb9b8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_loop_discovery_trace.csv",
+      "bytes": 1110654,
+      "sha256": "893a3472d44a709065be28a3651e05bcdf76a5aff0c6870307cbe22671063462"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_loop_residuals.csv",
+      "bytes": 12403,
+      "sha256": "2f3048771eeb1939dd37e448ff19e7fb05e8ba38e03d4283c6678a7e83beb534"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_map_consistency.csv",
+      "bytes": 143,
+      "sha256": "89f0b4cdcaa7c8d551cc6109ef3838356da6845ba8d67db435dde9cba7a9e254"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_map_manifest.json",
+      "bytes": 568,
+      "sha256": "f63060b9283a93babadaa14ce2dc1c2d2734ea488abbdef857c4ed381427feb1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_pair_availability_and_discovery.csv",
+      "bytes": 1838763,
+      "sha256": "6554ceb6bcb2d2dcb9476e72c811a451c51d49d621f946df512804e4bd754a30"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_protocol_category_summary.csv",
+      "bytes": 718,
+      "sha256": "e40213b2f63d78df4ed1777203cb606b8e5bbeab758bfa856d21203cc5edf69d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_protocol_message_trace.csv",
+      "bytes": 4258699,
+      "sha256": "4ee278e83daa51ba227afef70c9957c65d7d293f12c9c1da52553ebf3f451c11"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_rejected_candidates.csv",
+      "bytes": 13685397,
+      "sha256": "26391b01e83aafa5c9b9c79b74163ca4a157bbb9d057365d67fcac484c24adeb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_retrieval_latency.csv",
+      "bytes": 697350,
+      "sha256": "10fac64a948181bf9c1a2bafa0d01c9775ac21683f48906fca3ffaa220bbbd44"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_verification_queries.csv",
+      "bytes": 299158,
+      "sha256": "b1bab222ad9a3e386a7d382e65f6700835d44cbde15ba2bba3bb51fd1bd2de84"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_verified_loops.csv",
+      "bytes": 294370,
+      "sha256": "254f6e05366cac4d944522268700ef66e734368613990bb71391a4d17aa9e8ba"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_vs_archived_loop_comparison.csv",
+      "bytes": 4835,
+      "sha256": "268518f4b42e21d0dcc04182b1b2090efa29f3378d6c01d1805d0a30caada18e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/physical_GICP_execution_trace.csv",
+      "bytes": 14895904,
+      "sha256": "c896108766211bfeda6fd9df4a792f86f62f7edbfef044ee422e460ef26c3afd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/policy_lock.json",
+      "bytes": 532,
+      "sha256": "fe124a4492e7740f48ebe2ead4738de175f253012ddcb1dd131f71fb56b101bb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/pre_gt_online_decision.json",
+      "bytes": 1698,
+      "sha256": "c23af53db8138fdc16f11632e80ae191a67c2b4a6bdf4804f4aa78d8f5fbb6a8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/retrieval_repeat_latency.csv",
+      "bytes": 696598,
+      "sha256": "845dc74a114d74f30d84276f4a1e01540c73018b9fe40e6b7640b063ebda851f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a1_decision.json",
+      "bytes": 489,
+      "sha256": "259bda0d0f26255bc0099d1bb87fd068c8f86e2b7dac352a1cb28db994d08483"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a2_decision.json",
+      "bytes": 1010,
+      "sha256": "0b8485b709815441a137f878c4832015db6a7b1f23b8bb23b14bb19e139d0389"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a3_decision.json",
+      "bytes": 208,
+      "sha256": "63445afa7d15535d7bff8d9c36618ed61a8c6e334fa4fd176c91ae0193ffe9e8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a_execution_budget.json",
+      "bytes": 494,
+      "sha256": "daacd17316599c2e5bdc7fb88bb7b6590bb49dd98b274153ab260aafa6a429d0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a_final_decision.json",
+      "bytes": 5590,
+      "sha256": "83217f9a2bd127e248b42fc6f3482f1294044c2b8684949dfa59113d03330e82"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a_input_manifest.json",
+      "bytes": 1388918,
+      "sha256": "050d8abbad854bb9e2ffda27c62908d989c010eebb5fd2e50a7ff167fbac445e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/stage22a_policy.json",
+      "bytes": 3986,
+      "sha256": "67eb9d3cccb7cfa976f9e6f12f1fccf18e271617a2a87743fcad8e8478fe7368"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/summary.json",
+      "bytes": 5590,
+      "sha256": "83217f9a2bd127e248b42fc6f3482f1294044c2b8684949dfa59113d03330e82"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/synthetic_unit_tests.json",
+      "bytes": 70,
+      "sha256": "b642ad11b956484b4abd27cc08b21ee3c07c70a56b6b07a264f9b7751476b0a0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/transformation_direction_audit.json",
+      "bytes": 265,
+      "sha256": "9296e348284eb0a6551c587faad648e43714ef3ac83d17fbf5df7dc0101ce35d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/verification.lock",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/verification_progress.json",
+      "bytes": 210,
+      "sha256": "6a2948feee28bd7bbd7417341a01f80031c233c5ff8ddec109d3663448a5b871"
+    }
+  ],
+  "attempt_directory": {
+    "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/attempts",
+    "files": 61068,
+    "bytes": 51910261,
+    "sha256_of_sorted_filename_space_sha256_LF": "9eff90e98c3e32e1d5496e76e55a2c02e7965d6eb1bc57c41027a5f80091455e"
+  },
+  "raw_inputs": "server-only, never committed",
+  "figures": 11
+}

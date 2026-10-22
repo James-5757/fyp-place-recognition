@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "reason": null,
+  "nodes": 5796,
+  "odometry": 5794,
+  "loops": 288,
+  "prior": 1,
+  "factors": 6083,
+  "expected_final_nodes": 5796,
+  "expected_final_odom": 5794,
+  "expected_final_factors": 6083,
+  "independent_discovered_loops": 288,
+  "exact_once": true,
+  "persistent_ISAM2": true,
+  "elapsed_s": 96.43689548783004,
+  "peak_RSS_mib": 489.8828125
+}

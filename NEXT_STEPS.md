@@ -249,3 +249,12 @@ Stop after Stage20. Any future distributed backend, communication study, online 
 Stage21 COST_BASELINE_READY applies to measured buffer sizes, a fixed100-query prebuilt-frontend workload and a separate Stage20 oracle-update workload. It is not a deployed communication-efficient online SLAM result. Preserve the original missing-network, causal-availability and numerical-readiness caveats. Full-SC cache misses and geometric cloud requests, not Ring-Key bytes alone, dominate important parts of the communication accounting; original index/manifest overhead and map publication are significant compute costs.
 
 A separately authorized Stage22 may test cache- and verification-cost-aware prioritization with fixed quality, an explicit causal frontend and realistic resource assumptions. Do not infer that the unbounded reference cache is an accepted optimal policy. Lossy/preprocessed cloud transport requires new validation before claiming no quality loss. No new selector, distributed optimizer, wireless throughput/energy claim, GT tuning or Stage22 run starts automatically. Stop after Stage21.
+
+## Stage22A — authorized stopping point
+
+Decision CAUSAL_ONLINE_GRAPH_READY. Preserve all frozen historical stages and the new causal
+frontend results. Stage22B is not started or automatically authorized. Any
+budget/selector/graph admission or solver policy change requires an independent
+predeclared follow-up; never tune against the offline GT results. Distinguish
+actual algorithm execution from hypothetical normalized dual-stream timing and
+protocol-simulated sends. See Stage22A doc for coverage and readiness limitations.

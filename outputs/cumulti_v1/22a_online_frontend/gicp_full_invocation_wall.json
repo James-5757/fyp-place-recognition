@@ -1,0 +1,7 @@
+{
+  "measured_wall_seconds": 3298.527620272711,
+  "scope": "resumed verification subprocess invocation ONLY, including receipt replay and new attempts; excludes disconnected downtime and initial invocation",
+  "previous_measured_wall_to_last_durable_checkpoint_seconds": 3017.056223775726,
+  "sum_of_recorded_working_wall_windows_seconds": 6315.583844048437,
+  "sum_is_not_uninterrupted_end_to_end_latency": true
+}

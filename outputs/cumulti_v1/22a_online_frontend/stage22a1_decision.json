@@ -1,0 +1,15 @@
+{
+  "status": "CAUSAL_RETRIEVAL_READY",
+  "candidate_trace_sha256": "dd02e08980049fbc266f68710385da23da4473441697c2f81fd9b6436d7ea2fd",
+  "scientific_sha256": "471483d0d7c3b2ad5def393d28bce8d961a3ed4f46e669369b55d7ba9b73f749",
+  "requirements": [
+    "5796 actual arrivals",
+    "two dynamic databases",
+    "query before own append",
+    "no future indices",
+    "bitwise descriptors",
+    "two real-scan deterministic passes",
+    "runtime oracle access guard"
+  ],
+  "GT_used": false
+}

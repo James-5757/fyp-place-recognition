@@ -1,0 +1,39 @@
+{
+  "discovery_event": 200,
+  "normalized_time_ns": 50001923410,
+  "query_robot": "robot1",
+  "query_keyframe_id": 250,
+  "candidate_robot": "robot3",
+  "candidate_keyframe_id": 235,
+  "canonical_robot1_kf": 250,
+  "canonical_robot3_kf": 235,
+  "translation_residual_m": 1.464821375527116e-14,
+  "rotation_residual_rad": 2.802531543882101e-17,
+  "common_frame_transform": [
+    [
+      0.7065163738039425,
+      -0.7076934238603759,
+      -0.0021520621985807314,
+      7.34997606439574
+    ],
+    [
+      0.7076964662352445,
+      0.7065153282038994,
+      0.0013426433197370365,
+      -16.219132856942927
+    ],
+    [
+      0.0005702850825774972,
+      -0.0024716063026267165,
+      0.9999967829634305,
+      -1.4996215393483254
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "archived_id_forced": false
+}

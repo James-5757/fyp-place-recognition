@@ -421,3 +421,16 @@ Decision COST_BASELINE_READY for the declared finite workloads, not online/netwo
 Ring Key/full SC are80/4800 raw bytes and128/4848 application bytes after48-byte framing. All4280 full XYZ clouds were actually serialized (786488B each), not projected from a ZIP or browser caps. Unused intensity omission and an explicit Nx4 receive adapter are documented;40-cloud preprocessing/SC equivalence and one real backend pair pass exactly. XYZI all-field representation is separately measured. B2 cache misses are4214 unbounded,52723 LRU1000,99880 LRU128 and100100 without caching; small Ring-Key uploads alone do not describe exact M1000 retrieval traffic.
 
 New fixed-slice timing (100 queries x2,346 GICP calls; all frozen Top3 and quality decisions match): R1 SC extraction mean1.624028ms/frame, M1000 retrieval20.435896ms/query, GICP86.836912ms/attempt, manifest/index/CSV overhead225.440720ms/attempt, Rank1/Top3 sequential harness means331.262856/570.253815ms. Original Stage9 integrated387.851245/672.204225ms stays unchanged. Stage20 backend costs are imported separately, not summed into an online pipeline. Clean75 availability audit finds1 candidate available/74 future at query time; historical numerical limitations and all frozen factors remain unchanged. See `docs/CUMULTI_STAGE21_COST_BASELINE.md`.
+
+## Stage22A — causal bidirectional online frontend (2026-10-21)
+
+CAUSAL_ONLINE_GRAPH_READY. Actual SC processed all5796 events in both directions; two real-scan
+passes match bitwise descriptors and scientific candidate hashes, zero future
+candidates. GICP coverage 5796/5796, 15267 actual
+calls, 288 independent causal representative loops and
+800 suppressed duplicates. Backend CAUSAL_ONLINE_GRAPH_READY; numerical
+PASS. Serialized simulated-protocol bytes
+6107977604; actual networking NOT_MEASURED. New
+results/GT-free decisions persisted before offline GT/archive comparison;
+no oracle75 guidance, core changes, demo changes or GT retuning. See
+`docs/CUMULTI_STAGE22A_ONLINE_FRONTEND.md` and own independent validation.

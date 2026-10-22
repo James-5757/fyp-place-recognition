@@ -1,0 +1,24 @@
+{
+  "status": "CAUSAL_RETRIEVAL_READY",
+  "events": 5796,
+  "queries": {
+    "robot1_to_robot3": 1850,
+    "robot3_to_robot1": 3946
+  },
+  "candidate_rows": 17379,
+  "no_candidate_queries": 1,
+  "future_candidates": 0,
+  "descriptor_bitwise_checks": 11592,
+  "two_pass_candidate_sha256": [
+    "471483d0d7c3b2ad5def393d28bce8d961a3ed4f46e669369b55d7ba9b73f749",
+    "471483d0d7c3b2ad5def393d28bce8d961a3ed4f46e669369b55d7ba9b73f749"
+  ],
+  "repeat_deterministic": true,
+  "KD": "rebuilt per query, cost included",
+  "retrieval_wall_ms": 116352.11312599988,
+  "descriptor_compute_ms": 9836.585246000011,
+  "elapsed_two_pass_s": 257.0553985526785,
+  "peak_RSS_mib": 293.11328125,
+  "GT_access": false,
+  "archive_access": false
+}

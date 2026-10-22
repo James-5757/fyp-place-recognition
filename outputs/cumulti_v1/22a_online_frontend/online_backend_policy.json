@@ -1,0 +1,30 @@
+{
+  "isam2_parameter_text": "\ntype:              ISAM2GaussNewtonParams\nwildfireThreshold: 0.001\nrelinearizeThreshold:              0.1\nrelinearizeSkip:                   10\nenableRelinearization:             1\nevaluateNonlinearError:            0\nfactorization:                     CHOLESKY\ncacheLinearizedFactors:            1\nenableDetailedResults:             0\nenablePartialRelinearizationCheck: 0\nfindUnusedFactorSlots:             0\n",
+  "LM": {
+    "getMaxIterations": 100,
+    "getRelativeErrorTol": 1e-05,
+    "getAbsoluteErrorTol": 1e-05,
+    "getErrorTol": 0.0,
+    "getlambdaInitial": 1e-05,
+    "getlambdaFactor": 10.0,
+    "getlambdaLowerBound": 0.0,
+    "getlambdaUpperBound": 100000.0,
+    "getLinearSolverType": "MULTIFRONTAL_CHOLESKY",
+    "getOrderingType": "COLAMD",
+    "getDiagonalDamping": false
+  },
+  "extra_empty_updates": 0,
+  "initialization": "first newly discovered causal admissible loop; only arrived prefixes",
+  "noise_sigmas": [
+    0.08726646259971647,
+    0.08726646259971647,
+    0.08726646259971647,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "Huber": 1.345,
+  "prior_sigma": 1e-06,
+  "anchor": "robot1 KF150",
+  "GT_used": false
+}

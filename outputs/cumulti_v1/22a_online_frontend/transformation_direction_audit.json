@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "forward": "T_R1_from_R3",
+  "reverse": "inverse(T_R3_from_R1), full matrix inverse",
+  "factor": "X_R1.between(X_R3)=T_R1_from_R3",
+  "quaternions": "xyzw at CSV boundary; matrix internal",
+  "synthetic_composition_and_factor_test": true
+}

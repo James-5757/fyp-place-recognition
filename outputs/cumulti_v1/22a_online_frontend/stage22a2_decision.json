@@ -1,0 +1,26 @@
+{
+  "status": "ONLINE_GICP_VERIFICATION_READY",
+  "coverage": {
+    "status": "ONLINE_GICP_VERIFICATION_READY",
+    "events_total": 5796,
+    "queries_verified": 5796,
+    "fraction": 1.0,
+    "actual_calls": 15267,
+    "accepted_candidates": 1088,
+    "rejected_candidates": 14179,
+    "independent_loops": 288,
+    "duplicates": 800,
+    "actual_call_wall_seconds": 6413.994504254,
+    "physical_actual_calls_including_pilot": 15267,
+    "budget_used_seconds": 6413.994504253994,
+    "peak_RSS_mib": 534.96875
+  },
+  "frozen_results": {
+    "online_verified_loops.csv": "254f6e05366cac4d944522268700ef66e734368613990bb71391a4d17aa9e8ba",
+    "online_rejected_candidates.csv": "26391b01e83aafa5c9b9c79b74163ca4a157bbb9d057365d67fcac484c24adeb",
+    "online_loop_discovery_trace.csv": "893a3472d44a709065be28a3651e05bcdf76a5aff0c6870307cbe22671063462",
+    "online_gicp_attempts.csv": "cf598b5a77fbb411aa60054a9c6a879a91f902f6784bdb330c8ccca6ced2ee03"
+  },
+  "GT_used": false,
+  "archived_loops_used": false
+}

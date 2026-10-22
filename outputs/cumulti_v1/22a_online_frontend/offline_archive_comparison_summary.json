@@ -1,0 +1,8 @@
+{
+  "archive_count": 75,
+  "exact_overlap": 6,
+  "new_exact_pairs_not_in_archive": 282,
+  "archive_ever_shortlisted": 59,
+  "archive_actually_verified": 40,
+  "archive_overlap_is_ground_truth_recall": false
+}
