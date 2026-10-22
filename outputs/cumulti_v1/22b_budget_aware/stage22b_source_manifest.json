@@ -1,0 +1,24 @@
+{
+  "baseline_commit": "c929fc55a9f42c149ce571205618da73db7d4bc5",
+  "scope": "Final reproducible implementation snapshot; earlier immutable scientific predeclarations are in policy_lock.json. Engineering repairs are separately documented.",
+  "files": {
+    "src/cumulti/stage22b/test_stage22b.py": "6be22d46acbcc284a3a35b040ffded0653593e2581584c174a649c4dfe47668c",
+    "src/cumulti/stage22b/validate.py": "0412116aea8ac398409986483c072e5b3d349539620b6116fbfed0204394bc39",
+    "src/cumulti/stage22b/graph.py": "61fefba2ba7ae05db4b8f3b65a372fa0377f28a67ff32befc1bd0a2dba550ab1",
+    "src/cumulti/stage22b/preflight_recovery.json": "bf0d8ce02cdb2f4dc8cd8fce4a2333cb730b584e56246a869ebd76e5418fb132",
+    "src/cumulti/stage22b/common.py": "e14a468091e9a78e3e4cf12d936c3aa9b47c4567781c83550c3e8816a3a6afff",
+    "src/cumulti/stage22b/commit_results.py": "62ae839daee4b6aa8b68e29912b85f9698d45f4297e5c0ccd0b4e5690dd81129",
+    "src/cumulti/stage22b/timing_recovery_policy.json": "365b921db6cc40e21f2af2088a1ac419c1ad492c9fc77b0d9fb401807588cc52",
+    "src/cumulti/stage22b/run.py": "9aaa883e2ae3b064143adbeb5d6f6275bd65ca02d00074d277b3ebcad37ed795",
+    "src/cumulti/stage22b/actual.py": "e44f564fadde67e94e6d2df4023ffa9cade9b41072c56809318de5f509f25f87",
+    "src/cumulti/stage22b/freeze.py": "da3cf04d383a901bbf118d78a830fd0bf93c96ce893932ccbb6db59c90eeaf69",
+    "src/cumulti/stage22b/evaluate.py": "d40ce4349184f05042a088d39c0b8326bf7f9d7b26fcde69f64e382fc524d589",
+    "src/cumulti/stage22b/report.py": "8e932b175409743685db7dacccb4007e8e15d2211a597c737fcc57346849124f",
+    "src/cumulti/stage22b/replay.py": "d9646975e7302b6e0c744954c9a7072b78f51b54afb81666a16f0969739135bd",
+    "src/cumulti/stage22b/repair_cache_sensitivity.py": "9ea50c127a79216a389bb4de1e27b93eae302c72059deef274ecc7db23fb6043",
+    "src/cumulti/stage22b/environment.py": "8c7c16be16fd266efa7e930c27fc5ab4397b39a8763daecb7efb728b5c002557",
+    "src/cumulti/stage22b/communication.py": "5c54c02f967578a68db8650d09885d40b408b14303a6360b212149a472cd5dad",
+    "src/cumulti/stage22b/schema_audit.py": "5b84628a9cc90cea2282881536bfcb8d17da30b7bdc35223ec5e66f6feaf8467",
+    "scripts/run_stage22b_budget_aware.sh": "d203e05c488aeda200277eefc8cb32098454630176cf0870abe709b36ba1ebe4"
+  }
+}

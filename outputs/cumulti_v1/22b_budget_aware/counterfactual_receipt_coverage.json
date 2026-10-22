@@ -1,0 +1,10 @@
+{
+  "evidence_type": "MEASURED_RECEIPTS_COUNTERFACTUAL_REPLAY",
+  "candidate_pairs": 17379,
+  "measured_pairs": 15267,
+  "unknown_pairs": 2112,
+  "unknown_reason": "Historical early stopping, never imputed",
+  "receipt_identity": "event/rank, query/candidate IDs, direction, exact raw cloud hashes, frozen GICP source/config and inverse SE3 convention",
+  "all_actual_receipts_hash_verified": true,
+  "all_raw_clouds_hash_verified": true
+}

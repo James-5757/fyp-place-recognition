@@ -1,0 +1,5 @@
+scope,period,queries,robot1_queries,robot3_queries,positive_overlap_queries,baseline_geometric_positive_queries
+dev,both_progressing,1000,500,500,59,56
+dev,after_R1_finishes,0,0,0,0,0
+heldout,both_progressing,2599,1300,1299,0,0
+heldout,after_R1_finishes,2097,0,2097,1411,1000

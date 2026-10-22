@@ -266,3 +266,30 @@ PASS. Serialized simulated-protocol bytes
 results/GT-free decisions persisted before offline GT/archive comparison;
 no oracle75 guidance, core changes, demo changes or GT retuning. See
 `docs/CUMULTI_STAGE22A_ONLINE_FRONTEND.md` and own independent validation.
+
+## Stage22B — 2026-10-22 causal budget-aware verification experiment
+
+Authorized independent study from c929fc55. New code only under
+`src/cumulti/stage22b/`; new launcher and `22b_budget_aware` outputs. Original
+Stage22A inputs, actual receipts, raw cloud hashes and message catalog audited;
+input/policy/budget/split/acceptance files frozen before experiment selection.
+Development events0–999,100-event embargo,holdout1100–5795; utility threshold
+chosen only on development measured geometric outcomes, not GT. Primary rank
+prefixes, causal duplicate reconstruction and hard cumulative/rolling budgets
+are independently audited. Unknown historically early-stopped ranks remain
+unknown, never imputed. Six controls/main policies plus16 P5 budget conditions.
+
+Baseline exact reproduction succeeds. Actual120-query frozen slice has762
+comparable GICP pairs,all equivalent;1 extra confirmed actual pair after a
+wrapper-reporting failure is preserved and separately counted. Initial wrong
+interpreter import failed before any registration. Engineering repairs retain
+scientific parameters, sample IDs, original backend implementation and frozen
+decision hashes. LRU request planning now accounts for a query eviction of an
+old candidate; obsolete sensitivity output is retained with repair provenance.
+
+Predeclared P5 C75/B80 saves43.36%calls/31.57%modeled bytes but loses22.79pp
+geometric recall and1.31pp precision. Numerical P1/P2 failures remain failures.
+Post-freeze GT reveals absent positive heldout dual-progress/R1-direction
+coverage; no new balanced split is invented. Generalization promotion stops:
+EXPERIMENT_INCOMPLETE, with observed-scope negative results retained. Original
+stages/demos/GICP/noise/wire schema remain immutable. No Stage22C is launched.

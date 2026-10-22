@@ -1,0 +1,205 @@
+{
+  "status": "PASS",
+  "checks": 2185914,
+  "policies": 21,
+  "baseline_reproduction": "EXACT_RECEIPTS_AND_NUMERICAL_TRAJECTORY",
+  "actual_benchmark_equivalence": true,
+  "historical_inputs_unchanged": true,
+  "GT_not_used_for_selection": true,
+  "no_unknown_outcome_imputation": true,
+  "posthoc_policy_changes": false,
+  "policy_audits": [
+    {
+      "policy": "P0_FULL_TOP3",
+      "status": "PASS",
+      "calls": 15267,
+      "loops": 288,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": false
+    },
+    {
+      "policy": "P1_FIXED_TOP1",
+      "status": "PASS",
+      "calls": 5795,
+      "loops": 280,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": false
+    },
+    {
+      "policy": "P2_FIXED_TOP2",
+      "status": "PASS",
+      "calls": 10545,
+      "loops": 285,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": false
+    },
+    {
+      "policy": "P3_SC_CONFIDENCE_GATE",
+      "status": "PASS",
+      "calls": 14079,
+      "loops": 288,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": false
+    },
+    {
+      "policy": "P4_CAUSAL_REDUNDANCY_GATE",
+      "status": "PASS",
+      "calls": 14323,
+      "loops": 286,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": false
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C100_B100",
+      "status": "PASS",
+      "calls": 10666,
+      "loops": 271,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C100_B80",
+      "status": "PASS",
+      "calls": 8650,
+      "loops": 231,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C100_B60",
+      "status": "PASS",
+      "calls": 6079,
+      "loops": 192,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C100_B40",
+      "status": "PASS",
+      "calls": 3265,
+      "loops": 140,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C75_B100",
+      "status": "PASS",
+      "calls": 9486,
+      "loops": 269,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "status": "PASS",
+      "calls": 8647,
+      "loops": 231,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C75_B60",
+      "status": "PASS",
+      "calls": 6079,
+      "loops": 192,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C75_B40",
+      "status": "PASS",
+      "calls": 3265,
+      "loops": 140,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C50_B100",
+      "status": "PASS",
+      "calls": 7248,
+      "loops": 261,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C50_B80",
+      "status": "PASS",
+      "calls": 6978,
+      "loops": 232,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C50_B60",
+      "status": "PASS",
+      "calls": 5976,
+      "loops": 189,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C50_B40",
+      "status": "PASS",
+      "calls": 3265,
+      "loops": 140,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C25_B100",
+      "status": "PASS",
+      "calls": 3816,
+      "loops": 224,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C25_B80",
+      "status": "PASS",
+      "calls": 3816,
+      "loops": 214,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C25_B60",
+      "status": "PASS",
+      "calls": 3709,
+      "loops": 180,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    },
+    {
+      "policy": "P5_BUDGET_AWARE_C25_B40",
+      "status": "PASS",
+      "calls": 3072,
+      "loops": 147,
+      "measured_prefix": true,
+      "causal_cache_and_admission": true,
+      "budgets_verified": true
+    }
+  ],
+  "feature_metadata_caveat": "latest_state_event is prior-event watermark, not a full state freshness timestamp; cache state may include earlier verified ranks of the same event. Exact per-rank cache reconstruction independently passes.",
+  "physical_network": "NOT_MEASURED",
+  "scope": "Causal/factor/cache audit only; full communication validation remains pending"
+}

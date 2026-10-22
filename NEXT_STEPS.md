@@ -258,3 +258,24 @@ budget/selector/graph admission or solver policy change requires an independent
 predeclared follow-up; never tune against the offline GT results. Distinguish
 actual algorithm execution from hypothetical normalized dual-stream timing and
 protocol-simulated sends. See Stage22A doc for coverage and readiness limitations.
+
+## Stage22B — current stopping point (supersedes authorization notes above)
+
+The separately authorized budget-aware experiment is implemented and measured.
+Do not promote its P5 policy: cost reductions lose too much query quality.
+Full accepted Stage22A remains the reference. P1/P2 numerical failures and
+near-zero byte savings must not be hidden by call-count improvements.
+
+The frozen chronological holdout has no positive dual-progress/R1-direction
+queries. Overall generalization status remains EXPERIMENT_INCOMPLETE; do not
+retroactively rebalance this now-GT-exposed route or loosen noninferiority
+limits. A future separately authorized study needs another independent route
+or recording with meaningful positive overlap in both directions/phases and
+a prospectively frozen validation protocol before proposing a publishable
+budget-aware algorithm. Transport/cloud representation changes require their
+own verification rather than assumed geometric equivalence.
+
+See `docs/CUMULTI_STAGE22B_BUDGET_AWARE.md` for complete evidence scopes,
+negative findings,actual vs receipt-based runtime,cache sensitivity and mapping
+diagnostics. STOP AFTER STAGE22B. No visual SLAM,third robot,distributed
+optimization,new demo or automatic follow-up experiment.

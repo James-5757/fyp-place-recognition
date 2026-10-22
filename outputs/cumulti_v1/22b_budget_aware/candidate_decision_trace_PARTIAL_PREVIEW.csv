@@ -1,0 +1,13 @@
+policy,event_index,candidate_rank,execute,reason,geometrically_accepted,cloud_misses,variable_bytes
+P0_FULL_TOP3,1,1,True,VERIFIED,False,2.0,2097362.0
+P0_FULL_TOP3,2,1,True,VERIFIED,False,1.0,1048681.0
+P0_FULL_TOP3,3,1,True,VERIFIED,False,1.0,1048681.0
+P0_FULL_TOP3,3,2,True,VERIFIED,False,0.0,0.0
+P0_FULL_TOP3,4,1,True,VERIFIED,False,1.0,1048681.0
+P0_FULL_TOP3,4,2,True,VERIFIED,False,0.0,0.0
+P0_FULL_TOP3,5,1,True,VERIFIED,False,1.0,1048681.0
+P0_FULL_TOP3,5,2,True,VERIFIED,False,0.0,0.0
+P0_FULL_TOP3,5,3,True,VERIFIED,False,0.0,0.0
+P0_FULL_TOP3,6,1,True,VERIFIED,False,1.0,1048681.0
+P0_FULL_TOP3,6,2,True,VERIFIED,False,0.0,0.0
+P0_FULL_TOP3,6,3,True,VERIFIED,False,0.0,0.0

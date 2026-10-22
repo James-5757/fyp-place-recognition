@@ -1,0 +1,9 @@
+{
+  "threshold": 0.5,
+  "development_proxy_feasible": true,
+  "main_finalist": "P5_BUDGET_AWARE_C75_B80",
+  "GT_used": false,
+  "grid_changed": false,
+  "development_search_sha256": "b013f5cdbc34af60555e41f87db4e0b2e4b580130b740201a7f5dff5ac09ef43",
+  "frozen_unix_ns": 1792672520277105303
+}

@@ -1,0 +1,12 @@
+{
+  "reason": "One actual call completed and wrote a raw teammate CSV, but original actual_call helper could not return timing because the wrapper passed pre-existing measurement fields as candidate fields",
+  "confirmed_executed_before_recovery": 1,
+  "pair": [48, 1],
+  "known_registration_seconds": 0.11483913008123636,
+  "known_pair_wall_seconds": 0.12039393605664372,
+  "outer_harness_and_CPU_time": "NOT_MEASURED",
+  "plan": "Preserve the failed reporting directory separately. Run the identical frozen query/pair plan with candidate-only schema. Declare the confirmed extra call separately from the complete comparable timing sample. No unknown execution is silently retried.",
+  "policy_parameters_or_query_identifiers_changed": false,
+  "heldout_results_used": false,
+  "extension": "Engineering timing recovery only; no new candidate selection or scientific parameter change"
+}

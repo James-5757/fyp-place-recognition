@@ -434,3 +434,36 @@ PASS. Serialized simulated-protocol bytes
 results/GT-free decisions persisted before offline GT/archive comparison;
 no oracle75 guidance, core changes, demo changes or GT retuning. See
 `docs/CUMULTI_STAGE22A_ONLINE_FRONTEND.md` and own independent validation.
+
+## Stage22B — budget-aware verification (2026-10-22; independent study)
+
+Frozen source c929fc55; all5796 events/15267 measured attempts/1088 geometric
+acceptances/288 admitted loops/6107977604 bytes reproduced exactly from causal
+receipts, including duplicate re-admission. Six primary policies and16 P5
+budget combinations preserve retrieval, GICP, noise, scheduler and wire schema.
+
+The predeclared P5 C75/B80 uses8647 pairs (43.3615% fewer),4179439052 simulated
+application bytes (31.5741% fewer),753 geometric acceptances and231 admitted
+loops (223 offline-GT positive,8 negative). Geometric precision/recall is
+0.957503/0.490476 versus reference0.970588/0.718367: unacceptable quality loss,
+not a joint savings success. P1/P2 save calls but virtually no cloud bytes;
+both fail the original same-graph numerical median gate (0.126423/0.135283m
+versus0.10m). P3 retains the288-loop graph but saves only7.78%calls/3.76%bytes.
+No gates were relaxed or extra solver updates added.
+
+Actual reduced-workload verification completed313/283/166 pairs for P0/P3/P5
+on the same frozen120-query slice; all match original acceptance/transforms.
+762 comparable timed pairs plus1 confirmed reporting-failure execution are
+counted separately (763 physical verification pairs total). Full-stream fresh
+frontend runtime is not measured; receipt projections and actual graph solves
+remain separately labeled. Communication is simulated sends with measured
+binary buffers, not wireless traffic. Finite-LRU eviction accounting was
+corrected separately; primary unbounded decisions remain unchanged.
+
+Overall status **EXPERIMENT_INCOMPLETE** for the requested generalization
+claim: frozen4696-event holdout has zero positive queries in2599
+both-progressing events; all1411 positive queries are after R1 finishes.
+No GT-based rebalancing or retuning is performed. The observed-scope findings
+remain useful negative evidence, not BUDGET_AWARE_POLICY_READY. Full per-policy
+graph, ATE/RPE, map consistency, empirical gates and validation are in
+`docs/CUMULTI_STAGE22B_BUDGET_AWARE.md` and its isolated outputs. STOP AFTER22B.

@@ -1,0 +1,23 @@
+{
+  "compute_fractions": [
+    1,
+    0.75,
+    0.5,
+    0.25
+  ],
+  "communication_fractions": [
+    1,
+    0.8,
+    0.6,
+    0.4
+  ],
+  "reference_calls": 15267,
+  "reference_application_bytes": 6107977604,
+  "cumulative": "floor(fraction*same full Stage22A workload); calls exact cap, application bytes include fixed baseline publication",
+  "rolling": "last100 events, floor(300*compute_fraction) calls; fixed publication plus cloud/loop bytes <= floor(100*baseline_bytes_per_event*communication_fraction)",
+  "per_query_calls": 3,
+  "estimated_loop_reserve_bytes": 249,
+  "predicted_cpu": "reported separately, primary hard constraint uses calls not realized historical runtime",
+  "fixed_descriptor_publication": true,
+  "do_not_silently_exceed": true
+}

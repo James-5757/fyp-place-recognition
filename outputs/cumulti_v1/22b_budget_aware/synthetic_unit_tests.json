@@ -1,0 +1,6 @@
+{
+  "status": "PASS",
+  "tests": 9,
+  "source_sha256": "6be22d46acbcc284a3a35b040ffded0653593e2581584c174a649c4dfe47668c",
+  "data_scope": "synthetic, no GT"
+}

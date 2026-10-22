@@ -1,0 +1,28 @@
+{
+  "artifacts": [
+    {
+      "full_file": "candidate_decision_trace.csv",
+      "bytes": 22085162,
+      "sha256": "9aee92e23e30aa9c1569a662da7c88f212d3c68b0552f594fece627db909199e",
+      "preview": "candidate_decision_trace_PARTIAL_PREVIEW.csv",
+      "preview_rows": 12,
+      "full_artifact_location": "server-only; preview is not full experiment coverage"
+    },
+    {
+      "full_file": "causal_feature_table.csv",
+      "bytes": 78893564,
+      "sha256": "cc40ade6a803f224c13735ba904d35bb2bca354989e5728d0369f0798efe25d7",
+      "preview": "causal_feature_table_PARTIAL_PREVIEW.csv",
+      "preview_rows": 12,
+      "full_artifact_location": "server-only; preview is not full experiment coverage"
+    },
+    {
+      "full_file": "verified_loops_by_policy.csv",
+      "bytes": 4857096,
+      "sha256": "bf2ff464c28c61f2e54ad8259269ece504520f2ad1f3d8eaffdba6557a4f0253",
+      "preview": "verified_loops_by_policy_PARTIAL_PREVIEW.csv",
+      "preview_rows": 12,
+      "full_artifact_location": "server-only; preview is not full experiment coverage"
+    }
+  ]
+}

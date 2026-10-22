@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "inputs": {
+    "outputs/cumulti_v1/21_cost_baseline/message_schema.json": {
+      "sha256": "5107fa4bd7edc6473dd66095b2b9118eecf5276a3ce558a1b0cc1ab05409ff6b",
+      "source_commit": "70512f89a44ec887512624a717a6df312a79d9b9"
+    },
+    "outputs/cumulti_v1/21_cost_baseline/cloud_wire_catalog.csv": {
+      "sha256": "4efa336e4e661f1eedbb165a3d7e6c06ede40c7313e0855cd702b3c5d4449706",
+      "source_commit": "70512f89a44ec887512624a717a6df312a79d9b9"
+    }
+  },
+  "policy_freeze_provenance": "Both schema and catalog hashes already in original protected_worktree snapshot; this is an explicit conformance explanation, not a new policy input",
+  "raw_overlap_hash_checks": 4038,
+  "Stage21_catalog_mode": "XYZ (3 fields);786488 encoded bytes/cloud",
+  "Stage22A_and_22B_primary_mode": "Unchanged lossless XYZI (4 fields);1048632 encoded bytes/cloud, plus49-byte request",
+  "format": "same Stage21 variable-field-count binary container and48-byte framing",
+  "transfer_feature": "All primary clouds use the same fixed65536x4 float32 format;1048681 bytes/miss is a constant workload model. No variable future per-frame cloud size is used to rank.",
+  "historical_XYZ_sizes_used_for_new_budget": false,
+  "transport_changed": false
+}

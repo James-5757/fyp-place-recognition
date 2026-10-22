@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "primary_policies": 6,
+  "exact_P0_bytes_and_compression_reproduced": true,
+  "new_full_variable_buffers_encoded": true,
+  "cache_sensitivity_raw_bytes": "PROTOCOL_SIMULATED exact uncompressed catalog lengths; no wireless or compression claim"
+}

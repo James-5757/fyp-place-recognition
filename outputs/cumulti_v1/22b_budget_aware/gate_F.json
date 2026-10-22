@@ -1,0 +1,10 @@
+{
+  "status": "COMPLETED_WITH_COVERAGE_LIMITATION",
+  "representative_positive_coverage": false,
+  "heldout_generalization_gate": "FAIL_POSITIVE_DIRECTION_AND_PHASE_COVERAGE",
+  "independent_policy_selection": true,
+  "retuning": false,
+  "caveat": "single chronological holdout on same route; very early genuine opportunities reside in development, not heldout; not independent geography",
+  "evidence_type": "OFFLINE_GT_EVALUATION",
+  "frozen_decision_sha256": "b00f2e1acc64735fae3dda06f6587d71a4004a6d670186fc47a52d2a17ae772e"
+}

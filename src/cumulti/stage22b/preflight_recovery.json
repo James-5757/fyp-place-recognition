@@ -1,0 +1,9 @@
+{
+  "failure": "Native GTSAM interpreter lacks Open3D",
+  "location": "run_stage22a_verification.actual_call import open3d before manifest creation, team.run or registration",
+  "actual_GICP_calls_before_failure": 0,
+  "raw_csv_present": false,
+  "action": "Preserve e0048_r1.intent.json as e0048_r1.aborted_preflight.json; rerun the unchanged plan in the original Stage22A GEOMETRY interpreter",
+  "scientific_parameters_changed": false,
+  "uncertain_measurement_repeated": false
+}

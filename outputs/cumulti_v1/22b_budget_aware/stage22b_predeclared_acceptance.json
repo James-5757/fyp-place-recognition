@@ -1,0 +1,22 @@
+{
+  "attempt_reduction_min": 0.25,
+  "application_byte_reduction_min": 0.2,
+  "recall_drop_max": 0.02,
+  "precision_drop_max": 0.01,
+  "joint_ATE_ratio_max": 1.05,
+  "no_new_catastrophic_jump": true,
+  "proper_factor_convention": true,
+  "same_graph_agreement": {
+    "translation_median_m": 0.1,
+    "translation_p95_m": 0.5,
+    "rotation_median_deg": 0.5,
+    "rotation_p95_deg": 2.0
+  },
+  "assessed_scopes": [
+    "full",
+    "heldout"
+  ],
+  "quality_recall_denominator": "causal queries with at least one already-arrived opposite GT frame within d_xy<5m",
+  "no_posthoc_relaxation": true,
+  "overall_ready_requires_all_gates": true
+}

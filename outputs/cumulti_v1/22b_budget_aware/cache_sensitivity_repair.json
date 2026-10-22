@@ -1,0 +1,8 @@
+{
+  "reason": "A query miss can evict an old candidate between two accesses. Simulate request sequence rather than set-membership-only planning.",
+  "primary_unbounded_results_unchanged": true,
+  "GT_used": false,
+  "old_sha256": "53e047f92f0dc3b826fbff980dcae9d0b6faa43ec41d84ca9a26cb5642667c3f",
+  "new_sha256": "dffb84998fdb8cc24e0f0c4648c3a5aed6f8915011c5d0be7adfa42ca2f16ba5",
+  "scope": "finite LRU sensitivity accounting and its budget-responsive choices only; bug is not a new policy or tuned parameter"
+}

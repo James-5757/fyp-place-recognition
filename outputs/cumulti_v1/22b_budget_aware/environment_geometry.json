@@ -1,0 +1,24 @@
+{
+  "recorded_unix_ns": 1792673642876201345,
+  "scope": "post-run environment metadata; not per-call profiling",
+  "python": "3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]",
+  "executable": "/home/cas/fyp_robot13_geometry_20260915/.venv/bin/python",
+  "machine": "x86_64",
+  "kernel": "6.8.0-138-generic",
+  "cpu_model": "INTEL(R) XEON(R) GOLD 6530",
+  "logical_CPUs": 128,
+  "host_RAM_bytes": 270079496192,
+  "versions": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.3",
+    "scipy": "1.15.3",
+    "open3d": "0.19.0",
+    "gtsam": null
+  },
+  "threads": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "actual_physical_robot_CPU_memory": "NOT_MEASURED"
+}

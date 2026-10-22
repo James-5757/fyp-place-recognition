@@ -1,0 +1,7 @@
+{
+  "C": "PASS",
+  "D": "PASS",
+  "E": "PASS",
+  "dev_proxy_feasible": true,
+  "explanation": "No GT optimization; infeasible proxy target is retained as negative evidence, not relaxed."
+}

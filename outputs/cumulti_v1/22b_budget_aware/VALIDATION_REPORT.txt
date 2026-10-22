@@ -1,0 +1,7 @@
+Independent artifact audit: PASS
+Scientific decision: EXPERIMENT_INCOMPLETE
+Primary policies:6; P5 budget levels:16
+Actual comparable GICP calls:762; additional confirmed reporting-failure calls:1
+Full frontend evidence:MEASURED_RECEIPTS_COUNTERFACTUAL_REPLAY
+Communication:PROTOCOL_SIMULATED, not wireless measurement
+No heldout retuning or threshold relaxation. See per-policy quality and numerical gates.

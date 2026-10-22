@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "evidence_type": "ACTUAL_EXECUTED",
+  "full_stream_reexecuted": false,
+  "queries_per_policy": 120,
+  "coverage": {
+    "P0_FULL_TOP3": {
+      "planned": 313,
+      "completed": 313,
+      "status": "COMPLETE"
+    },
+    "P3_SC_CONFIDENCE_GATE": {
+      "planned": 283,
+      "completed": 283,
+      "status": "COMPLETE"
+    },
+    "P5_BUDGET_AWARE_C75_B80": {
+      "planned": 166,
+      "completed": 166,
+      "status": "COMPLETE"
+    }
+  },
+  "actual_calls": 762,
+  "additional_confirmed_reporting_failure_calls": 1,
+  "total_physical_GICP_calls": 763,
+  "wall_seconds": 325.09644025191665,
+  "peak_RSS_mib": 438.0703125,
+  "actual_network_bytes": "NOT_MEASURED"
+}

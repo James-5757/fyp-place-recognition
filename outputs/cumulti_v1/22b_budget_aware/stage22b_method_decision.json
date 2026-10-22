@@ -1,0 +1,16 @@
+{
+  "status": "EXPERIMENT_INCOMPLETE",
+  "empirical_scope_status": "NO_POLICY_MET_NONINFERIORITY",
+  "selected_policy": null,
+  "predeclared_main_candidate": "P5_BUDGET_AWARE_C75_B80",
+  "representative_holdout_coverage": false,
+  "methods_satisfying_joint_thresholds": [],
+  "quality_valid_compute_only": [],
+  "holdout_used_to_reselect": false,
+  "parameters_relaxed": false,
+  "negative_findings_retained": true,
+  "actual_execution_calls": 763,
+  "timed_comparable_calls": 762,
+  "evidence_caveat": "Full frontend results are measured-receipt counterfactuals. Actual GICP is120-query slice only. Backends newly executed. Message sends simulated; variable buffers actually encoded for six primary policies.",
+  "no_policy_claimed_publishable_without_replication": true
+}
