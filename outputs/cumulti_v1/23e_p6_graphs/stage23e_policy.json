@@ -1,0 +1,68 @@
+{
+  "order": [
+    "insertion_event",
+    "discovery_event",
+    "rank",
+    "robot1_kf",
+    "robot3_kf"
+  ],
+  "insertion_clock": "insertion_event ONLY; discovery_event remains query identity",
+  "nodes": 5796,
+  "odometry": 5794,
+  "loops": {
+    "P6_D0": 246,
+    "P6_D1": 223,
+    "P6_D2": 215,
+    "P6_D3": 211
+  },
+  "factors": {
+    "P6_D0": 6041,
+    "P6_D1": 6018,
+    "P6_D2": 6010,
+    "P6_D3": 6006
+  },
+  "noise_sigmas": [
+    0.08726646259971647,
+    0.08726646259971647,
+    0.08726646259971647,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "Huber": 1.345,
+  "prior_sigma": 1e-06,
+  "anchor": "robot1 KF150",
+  "ISAM2": "exact frozen Stage22A defaults; persistent; no empty updates",
+  "LM": "exact frozen Stage22A/22B and Stage12D settings; Stage22D-compatible in brief refers to these existing files (no Stage22D solver exists)",
+  "new_GICP_calls": 0,
+  "GT_before_all_four_graph_freeze": false,
+  "event_trajectory_format": "server-only ZIP of float64 Nx4x4 NPY states for EVERY event; rows robot1 ascending then robot3 ascending; prefix IDs in event trace; pre-bridge states independently LOCAL_ONLY",
+  "map_protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5,
+    "range_m": [
+      1,
+      60
+    ],
+    "display_cap_per_robot": 25000
+  },
+  "evaluation_label": "RETROSPECTIVE_GT_EXPOSED_RECORDING",
+  "split": {
+    "dev": [
+      0,
+      999
+    ],
+    "embargo": [
+      1000,
+      1099
+    ],
+    "heldout": [
+      1100,
+      5795
+    ]
+  },
+  "heldout_graph_metric_rule": "same ONE joint full-trajectory alignment; subset only arrived event IDs; no region/robot/scope refitting",
+  "RPE_subset_rule": "both interval10 endpoints inside the same requested scope/region; combined is union of robot samples",
+  "baseline_evaluation": "READ FROZEN P0/P5 METRICS ONLY; unavailable scoped baseline metrics remain unavailable"
+}

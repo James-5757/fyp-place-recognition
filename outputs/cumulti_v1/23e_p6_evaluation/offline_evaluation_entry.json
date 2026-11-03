@@ -1,0 +1,13 @@
+{
+  "label": "RETROSPECTIVE_GT_EXPOSED_RECORDING",
+  "all_four_graphs_frozen_before_GT": true,
+  "pre_gt_freeze_sha256": "c71f8b40095344d14acb7c503b7ea55942ad29a0fb97d91daa91514a37cbe465",
+  "frozen_unix_ns": 1793716095923395092,
+  "GT_entry_unix_ns": 1793716140881259908,
+  "evaluator_sha256": "d9c0b615dcfbdf35749eb172e11fd39511ca2b6805846d38fabd80bb8f7a9e66",
+  "backend_source_sha256": "df797594ec9296f4584063303bbe1ad55c9f0a08651d9d1fc2b58125d1eea5f3",
+  "engineering_repair_sha256": "090849a46ecffdaf96f7d5cdf801bdcae0238daa1f4bf046eafe75ae5e1140e8",
+  "gates_sha256": "e10030c62a740e7c28ffe61d1197456c6702729f22d1b723d60a5df3fd1a06b1",
+  "region_assets_sha256": "0ba2b26805df37fc266fddd50f951efffa6698f3925dc27aca09c2697e1c7005",
+  "no_GT_retuning": true
+}

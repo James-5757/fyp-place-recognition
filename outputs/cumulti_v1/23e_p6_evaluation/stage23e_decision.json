@@ -1,0 +1,17 @@
+{
+  "P6_GRAPH_RECONSTRUCTION": "PASS",
+  "P6_INCREMENTAL_BATCH_AGREEMENT": "FAIL",
+  "P6_RETROSPECTIVE_MAPPING_QUALITY": "NO_POLICY_PASSED_ALL_ORIGINAL_GATES",
+  "P6_COMMUNICATION_EFFICIENCY": "ALL_PASS_P0_COST_GATES_BUT_ALL_COST_MORE_THAN_P5",
+  "P6_INDEPENDENT_VALIDATION": "NOT_RUN",
+  "STAGE23_FINAL_INDEPENDENT_VALIDATION": "NO_GO_INSUFFICIENT_BIDIRECTIONAL_COVERAGE",
+  "label": "RETROSPECTIVE_GT_EXPOSED_RECORDING",
+  "new_GICP_calls": 0,
+  "GT_based_retuning": false,
+  "policy_promoted": false,
+  "matched_budget_experiment": "NOT_RUN",
+  "matched_budget_followup_candidates": [],
+  "candidate_caveat": "lower incremental ATE on this exposed route only, not a selected policy, universal mapping improvement or matched-budget result",
+  "baseline_metrics": "copied frozen P0/P5 tables; no re-evaluation",
+  "stopping_point": "Stage23E complete; no automatic matched-budget or independent experiment"
+}

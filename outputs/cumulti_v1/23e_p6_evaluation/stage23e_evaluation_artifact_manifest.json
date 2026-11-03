@@ -1,0 +1,58 @@
+{
+  "offline_evaluation_entry.json": {
+    "bytes": 764,
+    "sha256": "3c141e178e0d5ff5f57b88b56f2f9578f39b4eac42ea8a492728cfff4fc74701"
+  },
+  "p6_loop_residual_summary.csv": {
+    "bytes": 885,
+    "sha256": "4377ec14e1c6a03a718ed4cf5ce194ba768b28b5afe8cc08fd7a4c6c363334b1"
+  },
+  "p6_graph_accuracy.csv": {
+    "bytes": 21131,
+    "sha256": "80b8d12821f045fd8b6bec28fdb97f3336548ae643f3270bbd180e348560f8df"
+  },
+  "application_bytes_vs_ATE.png": {
+    "bytes": 56015,
+    "sha256": "871effdbbbccc43d9f01f072c25b6b0ca86ed5ae6c178c6cd9ce8fbab5b10c7c"
+  },
+  "attempts_vs_admitted_factors.png": {
+    "bytes": 55989,
+    "sha256": "9ae1c724b338cbcb855274d6b08e896227769b61d1ae13fb4c3727372d6094ab"
+  },
+  "p6_factor_quality.csv": {
+    "bytes": 5613,
+    "sha256": "451836a35b46b22a00c5060562d06e3d589c4d403cf0895bf90f2cf279ebb47a"
+  },
+  "p6_factor_labels.csv": {
+    "bytes": 91052,
+    "sha256": "f4d1839d14a4fcbf55185231598465e25dff46feef56009b4b9770107fe14b3b"
+  },
+  "application_bytes_vs_recall.png": {
+    "bytes": 52802,
+    "sha256": "567ee4346f1a7613ba15d6e19ad9055b5bf72acd73cfac386033cab4136abe7a"
+  },
+  "communication_vs_map_consistency.png": {
+    "bytes": 63605,
+    "sha256": "f89654073646e7595b786336d09eb1d37be732821a694eee3b7181ca7bca132b"
+  },
+  "p6_gate_results.json": {
+    "bytes": 5626,
+    "sha256": "690022e587c131ecc084a09d39dcca1e3001b529a7ed7407a7bb10443fc95515"
+  },
+  "p6_query_quality.csv": {
+    "bytes": 5257,
+    "sha256": "5f19def81bb650018f671d99216cd647b2f1d0c854691604949d50676dff5514"
+  },
+  "stage23e_decision.json": {
+    "bytes": 910,
+    "sha256": "b909d453e07e73883117d61796688c80ab091677a320b7ea2657e5d8d10844e5"
+  },
+  "p6_region_accuracy.csv": {
+    "bytes": 60900,
+    "sha256": "d2a7e91578e74a0a5cc201020889aab49228c6055c55ac91be48f727ca7e89eb"
+  },
+  "p6_pareto_comparison.csv": {
+    "bytes": 2043,
+    "sha256": "78623883132912876947f64006b435241092304046aceb2a7d25832e97ba4aed"
+  }
+}

@@ -1,0 +1,94 @@
+{
+  "status": "PASS",
+  "policies": [
+    {
+      "policy": "P6_D0",
+      "status": "PASS",
+      "nodes": 5796,
+      "odometry": 5794,
+      "loops": 246,
+      "factors": 6041,
+      "components": 1,
+      "ledger_exact": true,
+      "delayed_factors": 0,
+      "insertion_event_backdating_absent": true,
+      "objectives_recomputed_without_solving": {
+        "incremental": 57.66806512652677,
+        "batch": 57.66772969752537
+      },
+      "archive_crc_all_events": true,
+      "archive_states": 5796,
+      "independently_inspected_state_matrices": 260,
+      "archive_matrix_inspection": "all insertion events plus before/at bridge, periodic500 and FINAL; backend runtime checks all events",
+      "maps_hashes_match": true
+    },
+    {
+      "policy": "P6_D1",
+      "status": "PASS",
+      "nodes": 5796,
+      "odometry": 5794,
+      "loops": 223,
+      "factors": 6018,
+      "components": 1,
+      "ledger_exact": true,
+      "delayed_factors": 223,
+      "insertion_event_backdating_absent": true,
+      "objectives_recomputed_without_solving": {
+        "incremental": 57.44400520005068,
+        "batch": 57.44324307264723
+      },
+      "archive_crc_all_events": true,
+      "archive_states": 5796,
+      "independently_inspected_state_matrices": 234,
+      "archive_matrix_inspection": "all insertion events plus before/at bridge, periodic500 and FINAL; backend runtime checks all events",
+      "maps_hashes_match": true
+    },
+    {
+      "policy": "P6_D2",
+      "status": "PASS",
+      "nodes": 5796,
+      "odometry": 5794,
+      "loops": 215,
+      "factors": 6010,
+      "components": 1,
+      "ledger_exact": true,
+      "delayed_factors": 111,
+      "insertion_event_backdating_absent": true,
+      "objectives_recomputed_without_solving": {
+        "incremental": 52.21280421760571,
+        "batch": 52.212507877305164
+      },
+      "archive_crc_all_events": true,
+      "archive_states": 5796,
+      "independently_inspected_state_matrices": 218,
+      "archive_matrix_inspection": "all insertion events plus before/at bridge, periodic500 and FINAL; backend runtime checks all events",
+      "maps_hashes_match": true
+    },
+    {
+      "policy": "P6_D3",
+      "status": "PASS",
+      "nodes": 5796,
+      "odometry": 5794,
+      "loops": 211,
+      "factors": 6006,
+      "components": 1,
+      "ledger_exact": true,
+      "delayed_factors": 126,
+      "insertion_event_backdating_absent": true,
+      "objectives_recomputed_without_solving": {
+        "incremental": 52.593233868188825,
+        "batch": 52.59300840381899
+      },
+      "archive_crc_all_events": true,
+      "archive_states": 5796,
+      "independently_inspected_state_matrices": 204,
+      "archive_matrix_inspection": "all insertion events plus before/at bridge, periodic500 and FINAL; backend runtime checks all events",
+      "maps_hashes_match": true
+    }
+  ],
+  "all_graphs_frozen_before_GT": true,
+  "new_GICP_calls": 0,
+  "no_optimizer_reruns": true,
+  "independent_scientific_validation": "NOT_RUN",
+  "scope": "artifact and mathematics audit on exposed historical recording, not geographic generalization"
+}

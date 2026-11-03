@@ -1,0 +1,2 @@
+status,same_graph,same_gauge,incremental_error,batch_initial_error,batch_error,batch_runtime_ms,batch_iterations,max_iterations_reached,termination,translation_median_m,translation_p95_m,rotation_median_deg,rotation_p95_deg
+PASS,True,True,52.21280421761248,14338.382904775526,52.21250787730525,361.52063962072134,7,False,native optimize returned normally; no parameter retuning,0.05209462379202241,0.2601723566010391,0.017904251545578096,0.14017506832617777

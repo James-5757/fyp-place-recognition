@@ -1,0 +1,5 @@
+policy,attempt_reduction,application_byte_reduction,recall,precision,joint_ATE,no_new_catastrophic_jump,proper_factor_convention,incremental_batch_agreement,all_original_gates_pass,ATE_ratio_vs_P0
+P6_D0,True,True,False,True,True,True,True,False,False,0.9787380787145821
+P6_D1,True,True,False,True,True,True,True,True,False,0.9881410072078219
+P6_D2,True,True,False,True,True,True,True,True,False,0.9882846374776317
+P6_D3,True,True,False,True,True,True,True,True,False,0.9968146408095637

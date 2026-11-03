@@ -1,0 +1,8 @@
+{
+  "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D0/event_trajectories_float64.zip",
+  "bytes": 1567307123,
+  "sha256": "665f37fb431f81b0c68aca6b140a81f957a0cda519d32682c97c672d43c96487",
+  "states": 5796,
+  "precision": "float64 matrices; row order robot1 ascending then robot3 ascending; endpoints in event trace",
+  "before_bridge": "independent local frames; NOT a common graph"
+}

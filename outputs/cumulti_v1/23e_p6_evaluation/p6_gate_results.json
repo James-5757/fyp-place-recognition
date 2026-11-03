@@ -1,0 +1,173 @@
+{
+  "limits": {
+    "attempt_reduction_min": 0.25,
+    "application_byte_reduction_min": 0.2,
+    "recall_drop_max": 0.02,
+    "precision_drop_max": 0.01,
+    "joint_ATE_ratio_max": 1.05,
+    "no_new_catastrophic_jump": true,
+    "proper_factor_convention": true,
+    "same_graph_agreement": {
+      "translation_median_m": 0.1,
+      "translation_p95_m": 0.5,
+      "rotation_median_deg": 0.5,
+      "rotation_p95_deg": 2.0
+    },
+    "assessed_scopes": [
+      "full",
+      "heldout"
+    ],
+    "quality_recall_denominator": "causal queries with at least one already-arrived opposite GT frame within d_xy<5m",
+    "no_posthoc_relaxation": true,
+    "overall_ready_requires_all_gates": true
+  },
+  "original_gate_source_sha256": "e10030c62a740e7c28ffe61d1197456c6702729f22d1b723d60a5df3fd1a06b1",
+  "assessment": "same original full/heldout query gates and FULL incremental joint ATE ratio; heldout graph ATE additionally reported but no invented baseline",
+  "policies": [
+    {
+      "policy": "P6_D0",
+      "checks": {
+        "attempt_reduction": true,
+        "application_byte_reduction": true,
+        "recall": false,
+        "precision": true,
+        "joint_ATE": true,
+        "no_new_catastrophic_jump": true,
+        "proper_factor_convention": true,
+        "incremental_batch_agreement": false
+      },
+      "all_original_gates_pass": false,
+      "scope_quality": {
+        "full": {
+          "recall": 0.5210884353741496,
+          "precision": 0.9635220125786164,
+          "recall_drop": 0.19727891156462585,
+          "precision_drop": 0.00706622271550128,
+          "recall_gate": false,
+          "precision_gate": true
+        },
+        "heldout": {
+          "recall": 0.5124025513819985,
+          "precision": 0.96271637816245,
+          "recall_drop": 0.19631467044649187,
+          "precision_drop": 0.007215726590217186,
+          "recall_gate": false,
+          "precision_gate": true
+        }
+      },
+      "ATE_ratio_vs_P0": 0.9787380787145821,
+      "ATE_improves_vs_P5": false,
+      "extra_bytes_vs_P5": 643893869,
+      "interpretation": "RETROSPECTIVE_GT_EXPOSED_RECORDING"
+    },
+    {
+      "policy": "P6_D1",
+      "checks": {
+        "attempt_reduction": true,
+        "application_byte_reduction": true,
+        "recall": false,
+        "precision": true,
+        "joint_ATE": true,
+        "no_new_catastrophic_jump": true,
+        "proper_factor_convention": true,
+        "incremental_batch_agreement": true
+      },
+      "all_original_gates_pass": false,
+      "scope_quality": {
+        "full": {
+          "recall": 0.536734693877551,
+          "precision": 0.9987341772151899,
+          "recall_drop": 0.18163265306122445,
+          "precision_drop": -0.028145941921072226,
+          "recall_gate": false,
+          "precision_gate": true
+        },
+        "heldout": {
+          "recall": 0.5194897236002834,
+          "precision": 1.0,
+          "recall_drop": 0.18922749822820695,
+          "precision_drop": -0.030067895247332777,
+          "recall_gate": false,
+          "precision_gate": true
+        }
+      },
+      "ATE_ratio_vs_P0": 0.9881410072078219,
+      "ATE_improves_vs_P5": false,
+      "extra_bytes_vs_P5": 642839461,
+      "interpretation": "RETROSPECTIVE_GT_EXPOSED_RECORDING"
+    },
+    {
+      "policy": "P6_D2",
+      "checks": {
+        "attempt_reduction": true,
+        "application_byte_reduction": true,
+        "recall": false,
+        "precision": true,
+        "joint_ATE": true,
+        "no_new_catastrophic_jump": true,
+        "proper_factor_convention": true,
+        "incremental_batch_agreement": true
+      },
+      "all_original_gates_pass": false,
+      "scope_quality": {
+        "full": {
+          "recall": 0.5285714285714286,
+          "precision": 0.9974326059050064,
+          "recall_drop": 0.18979591836734688,
+          "precision_drop": -0.026844370610888735,
+          "recall_gate": false,
+          "precision_gate": true
+        },
+        "heldout": {
+          "recall": 0.5279943302622254,
+          "precision": 0.9986595174262735,
+          "recall_drop": 0.18072289156626498,
+          "precision_drop": -0.028727412673606234,
+          "recall_gate": false,
+          "precision_gate": true
+        }
+      },
+      "ATE_ratio_vs_P0": 0.9882846374776317,
+      "ATE_improves_vs_P5": false,
+      "extra_bytes_vs_P5": 648080874,
+      "interpretation": "RETROSPECTIVE_GT_EXPOSED_RECORDING"
+    },
+    {
+      "policy": "P6_D3",
+      "checks": {
+        "attempt_reduction": true,
+        "application_byte_reduction": true,
+        "recall": false,
+        "precision": true,
+        "joint_ATE": true,
+        "no_new_catastrophic_jump": true,
+        "proper_factor_convention": true,
+        "incremental_batch_agreement": true
+      },
+      "all_original_gates_pass": false,
+      "scope_quality": {
+        "full": {
+          "recall": 0.5340136054421769,
+          "precision": 0.9974587039390089,
+          "recall_drop": 0.18435374149659856,
+          "precision_drop": -0.026870468644891288,
+          "recall_gate": false,
+          "precision_gate": true
+        },
+        "heldout": {
+          "recall": 0.5315379163713678,
+          "precision": 0.9986684420772304,
+          "recall_drop": 0.17717930545712257,
+          "precision_drop": -0.028736337324563155,
+          "recall_gate": false,
+          "precision_gate": true
+        }
+      },
+      "ATE_ratio_vs_P0": 0.9968146408095637,
+      "ATE_improves_vs_P5": false,
+      "extra_bytes_vs_P5": 647031197,
+      "interpretation": "RETROSPECTIVE_GT_EXPOSED_RECORDING"
+    }
+  ],
+  "label": "RETROSPECTIVE_GT_EXPOSED_RECORDING"
+}

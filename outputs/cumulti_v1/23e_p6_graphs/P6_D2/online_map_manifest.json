@@ -1,0 +1,63 @@
+{
+  "artifacts": [
+    {
+      "condition": "incremental",
+      "robot": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D2/maps/incremental_robot1.ply",
+      "points": 282593,
+      "bytes": 3391236,
+      "sha256": "ee1053505d1a8fc45d0cd30b0376b1b0537d635355ff0a2bcef40df0dd2664eb"
+    },
+    {
+      "condition": "incremental",
+      "robot": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D2/maps/incremental_robot3.ply",
+      "points": 663393,
+      "bytes": 7960836,
+      "sha256": "72bc4bc9c96703486c95160e5e8f4dc270ba61f7da87424a62f0e86480e406e8"
+    },
+    {
+      "condition": "incremental",
+      "robot": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D2/maps/incremental_merged.ply",
+      "points": 921682,
+      "bytes": 11060304,
+      "sha256": "282b78e600f90643cd957f5447ef704919862114785378c4849cdac188c30adf"
+    },
+    {
+      "condition": "batch",
+      "robot": "robot1",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D2/maps/batch_robot1.ply",
+      "points": 282507,
+      "bytes": 3390204,
+      "sha256": "4eff84e6e8ee424325206920f6ea14e7399ad99194f8e4d8a4ecfaea3abec21e"
+    },
+    {
+      "condition": "batch",
+      "robot": "robot3",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D2/maps/batch_robot3.ply",
+      "points": 663171,
+      "bytes": 7958172,
+      "sha256": "232335e54aeb3a2bc51498f53ddca76a3054a2ba1f9f0160cceb89feef07a59c"
+    },
+    {
+      "condition": "batch",
+      "robot": "merged",
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23e_p6_graphs/P6_D2/maps/batch_merged.ply",
+      "points": 921346,
+      "bytes": 11056272,
+      "sha256": "4a2135f6a982d877e0341fbb93ffdb852cc55bca9577fd8384cbaeed70a13d60"
+    }
+  ],
+  "frame_stride": 10,
+  "point_stride": 16,
+  "range_m": [
+    1,
+    60
+  ],
+  "voxel_m": 0.5,
+  "source_scan_count": 580,
+  "source_scan_inventory_sha256": "5a26d9226d2b854b47897d63bd646a0c7d8179865920e378caeb824a048ddf45",
+  "GT_used": false,
+  "elapsed_s": 12.000557322055101
+}

@@ -1,0 +1,7 @@
+{
+  "all_P6_full_query_recall_higher_than_P5": true,
+  "all_P6_full_query_precision_higher_than_P5": true,
+  "any_P6_full_incremental_joint_ATE_lower_than_P5": false,
+  "all_P6_use_more_bytes_than_P5": true,
+  "interpretation": "query-verification gains relative to P5 do not demonstrate better global map accuracy; individual regional/RPE/NN changes remain separate"
+}

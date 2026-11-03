@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "reason": null,
+  "nodes": 5796,
+  "odometry": 5794,
+  "loops": 246,
+  "prior": 1,
+  "factors": 6041,
+  "expected_factors": 6041,
+  "exact_once": true,
+  "persistent_ISAM2": true,
+  "extra_empty_updates": 0,
+  "components": 1,
+  "new_catastrophic_jumps": 0,
+  "finite_proper_SE3": true,
+  "event_states": 5796,
+  "first_bridge_insertion_event": 203,
+  "first_bridge_discovery_event": 203,
+  "runtime_including_audit_state_export_maps_s": 131.71473478339612,
+  "peak_RSS_MiB": 462.18359375,
+  "GT_used": false,
+  "new_GICP_calls": 0
+}

@@ -1,0 +1,7 @@
+{
+  "original_execution_sha256": "d9c0b615dcfbdf35749eb172e11fd39511ca2b6805846d38fabd80bb8f7a9e66",
+  "corrected_source_sha256": "815cdab1deaffb08478ddb0abf94e1da3539e7b1ba04e1f45e9c7cbc19e17665",
+  "reason": "optional engineering-repair SHA is null on a clean replay; original accepted execution had the journal, so its metadata and every numeric formula/result are unchanged",
+  "scientific_formulas_changed": false,
+  "optimizer_or_GT_evaluator_rerun": false
+}
