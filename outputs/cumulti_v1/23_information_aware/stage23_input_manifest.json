@@ -1,0 +1,247 @@
+{
+  "frozen_references": {
+    "Stage22A": "c929fc55a9f42c149ce571205618da73db7d4bc5",
+    "Stage22B": "bd3a67859c9412c8aab8ed8da66d1cf96f77101e"
+  },
+  "inputs": {
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_candidate_trace.csv": {
+      "bytes": 2909724,
+      "sha256": "dd02e08980049fbc266f68710385da23da4473441697c2f81fd9b6436d7ea2fd"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/online_gicp_attempts.csv": {
+      "bytes": 14742785,
+      "sha256": "cf598b5a77fbb411aa60054a9c6a879a91f902f6784bdb330c8ccca6ced2ee03"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/receipt_input_index.csv": {
+      "bytes": 3080817,
+      "sha256": "94a4b124b0ac26c9019cfa7a382665d29144def0d9de256521ec132accf1b4a6"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/gicp_actual_replay_timings.csv": {
+      "bytes": 227180,
+      "sha256": "76b49f8bb49ea9684bdf2113c847cc1180b2da010c2ba95a06ffa126297d51a4"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policy_comparison_full.csv": {
+      "bytes": 9969,
+      "sha256": "c0553b43ce43548f6e7467c76a6fb9c95d66018ee247ded283a315153bdbbc55"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv": {
+      "bytes": 982171,
+      "sha256": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P0_FULL_TOP3/online_verified_loops.csv": {
+      "bytes": 293275,
+      "sha256": "68416442e4d173dc55e149e6ff4808ac46414169e65ce8b7fa8ee6a20a02a4be"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P0_FULL_TOP3/online_batch_trajectory.csv": {
+      "bytes": 977468,
+      "sha256": "d057b4fa58108f439671c6f5b41a66f0812f18e08d28b9216b3b685ba856f4cb"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P0_FULL_TOP3/online_incremental_vs_batch.csv": {
+      "bytes": 320,
+      "sha256": "51c1fe59670cf184574e4e7f1cc1c814e708bd0a32dc9c2eca64643fd90a10c4"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P0_FULL_TOP3/online_map_manifest.json": {
+      "bytes": 606,
+      "sha256": "d0bb415ad7344d90aa04df0bbc6d4a29a7ae3f83d138f5c7915a682672939a7d"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P5_BUDGET_AWARE_C75_B80/online_verified_loops.csv": {
+      "bytes": 235207,
+      "sha256": "8aa40c290e0abfe7fa1901110b633e5f2b1bf29e0242a0a533c10878277b3afc"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P5_BUDGET_AWARE_C75_B80/online_batch_trajectory.csv": {
+      "bytes": 977420,
+      "sha256": "32e093700cf817649e8c478da783735a8653267ada13352cb1637250475db745"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P5_BUDGET_AWARE_C75_B80/online_incremental_vs_batch.csv": {
+      "bytes": 317,
+      "sha256": "0ed59bdd204c94cc5576cdc50a26dae0b7aebc897cd22b3234a024ce357958b7"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P5_BUDGET_AWARE_C75_B80/online_map_manifest.json": {
+      "bytes": 628,
+      "sha256": "050cb4f634c97e71b074a5b18885ac016a1417064ca003e83a9939d1b9616f16"
+    },
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/keyframes.csv": {
+      "bytes": 547588,
+      "sha256": "a5720e59d2b93c27fc6f48e99fbd4e73062ec7b129334b8c7bd9aea75b15b690"
+    },
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/keyframes.csv": {
+      "bytes": 1415107,
+      "sha256": "b88fe6212a1f8d4bbe13d5ac0bb04f4637381cfb57089efbe34ff15e59e734ea"
+    },
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot2/keyframes.csv": {
+      "bytes": 610268,
+      "sha256": "9f35dcce66f63cb9fac3203cbb50e58564ab25ce7f134218ccb476a36c0697e3"
+    },
+    "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv": {
+      "bytes": 3178418,
+      "sha256": "7545b9c0487afdef3dc3310ed1f5ad18c2a291c11e2bba23c414838b5133e4ab"
+    },
+    "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv": {
+      "bytes": 6613696,
+      "sha256": "e7c2c5440a992f0929d7fa331146036a8f25df7eff805a4a10e67d8ff5030003"
+    },
+    "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_utm_poses.csv": {
+      "bytes": 3535092,
+      "sha256": "89e416d2e8764133d690b0f31249608aa5d037d914fd8d2231e2ba0e2c60d52d"
+    },
+    "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_utm_poses.csv": {
+      "bytes": 8770201,
+      "sha256": "314971200efd09a6432bf72f76357450c57bf31bb32212b8ddc94e8a69798baf"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P0_FULL_TOP3/online_backend_policy.json": {
+      "bytes": 1174,
+      "sha256": "a20539c85ae3bba4e8b585901903590851ed1ddb338eadc8f28b5e8410b21a40"
+    },
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P5_BUDGET_AWARE_C75_B80/online_backend_policy.json": {
+      "bytes": 1174,
+      "sha256": "a20539c85ae3bba4e8b585901903590851ed1ddb338eadc8f28b5e8410b21a40"
+    }
+  },
+  "historical_before": {
+    "files": 64530,
+    "bytes": 602345163,
+    "sorted_path_SHA256_digest": "9041f5023cf31b22ce3cca660759d87213f4f8a5d6986a097a22c7919c7a16fa",
+    "bytecode_caches_excluded": true
+  },
+  "existing_git_status": " M demo/final_replay/app.js\n M outputs/cumulti_v1/10_3_solver_audit/nontrivial_small_graph_sanity.json\n?? demo/progressive_multi_robot/benchmark_before/\n?? scripts/run_stage23_information_aware.sh\n?? src/cumulti/stage23/\n",
+  "branch": "main",
+  "new_branch_created": false,
+  "reason": "worktree dirty; preserve existing changes and do not activate conditional clean-worktree branch creation",
+  "allowed_new_paths": [
+    "src/cumulti/stage23/",
+    "outputs/cumulti_v1/23_information_aware/",
+    "docs/CUMULTI_STAGE23_INFORMATION_AWARE.md",
+    "scripts/run_stage23_information_aware.sh"
+  ],
+  "GT_role": "offline eligibility and retrospective labels only",
+  "no_expensive_experiments": true,
+  "raw_files_metadata_only": [
+    {
+      "path": "/home/cas/CU-Multi/raw/calib/robot_description.zip",
+      "bytes": 54498054,
+      "mtime_ns": 1788940979593266887,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+      "bytes": 24940875791,
+      "mtime_ns": 1788947789910803748,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+      "bytes": 16873044643,
+      "mtime_ns": 1788949451096482623,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_rel_poses.zip",
+      "bytes": 475926938,
+      "mtime_ns": 1788948649960302913,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv",
+      "bytes": 3178418,
+      "mtime_ns": 1788948751099422846,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+      "bytes": 137411022,
+      "mtime_ns": 1788948709767586355,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar.zip",
+      "bytes": 30271098044,
+      "mtime_ns": 1788977745377075613,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar_labels.zip",
+      "bytes": 95299168,
+      "mtime_ns": 1788948735469860758,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_depth.zip",
+      "bytes": 28651916729,
+      "mtime_ns": 1788947797294391284,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_rgb.zip",
+      "bytes": 17013445067,
+      "mtime_ns": 1788977211709238005,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_rel_poses.zip",
+      "bytes": 590882905,
+      "mtime_ns": 1788948591270029488,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_utm_poses.csv",
+      "bytes": 3535092,
+      "mtime_ns": 1788948744913595867,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_imu_gps.zip",
+      "bytes": 153475060,
+      "mtime_ns": 1788948690202143450,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar.zip",
+      "bytes": 34227901694,
+      "mtime_ns": 1788948433717911829,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar_labels.zip",
+      "bytes": 101977837,
+      "mtime_ns": 1788948723261204554,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+      "bytes": 33987903251,
+      "mtime_ns": 1789379414616028784,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip",
+      "bytes": 2176736950,
+      "mtime_ns": 1790064013162664133,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv",
+      "bytes": 6613696,
+      "mtime_ns": 1789130354842588126,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip",
+      "bytes": 289456005,
+      "mtime_ns": 1790152374346774111,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip",
+      "bytes": 57036299311,
+      "mtime_ns": 1789384419746852508,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_utm_poses.csv",
+      "bytes": 8770201,
+      "mtime_ns": 1789130610024907902,
+      "integrity_scope": "presence/size metadata only; not a full archive CRC or raw-data hash rescan"
+    }
+  ],
+  "calibration_archive_sha256": "ecd2cd70be74b44f38d5250099dc272848bcfb25abd290dbbf3ed98071c84e05"
+}

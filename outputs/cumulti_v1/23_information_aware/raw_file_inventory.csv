@@ -1,0 +1,22 @@
+path,bytes,mtime_ns,integrity_scope
+/home/cas/CU-Multi/raw/calib/robot_description.zip,54498054,1788940979593266887,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip,24940875791,1788947789910803748,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip,16873044643,1788949451096482623,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_rel_poses.zip,475926938,1788948649960302913,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv,3178418,1788948751099422846,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip,137411022,1788948709767586355,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar.zip,30271098044,1788977745377075613,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar_labels.zip,95299168,1788948735469860758,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_depth.zip,28651916729,1788947797294391284,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_rgb.zip,17013445067,1788977211709238005,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_rel_poses.zip,590882905,1788948591270029488,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_utm_poses.csv,3535092,1788948744913595867,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_imu_gps.zip,153475060,1788948690202143450,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar.zip,34227901694,1788948433717911829,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar_labels.zip,101977837,1788948723261204554,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip,33987903251,1789379414616028784,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip,2176736950,1790064013162664133,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv,6613696,1789130354842588126,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip,289456005,1790152374346774111,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip,57036299311,1789384419746852508,presence/size metadata only; not a full archive CRC or raw-data hash rescan
+/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_utm_poses.csv,8770201,1789130610024907902,presence/size metadata only; not a full archive CRC or raw-data hash rescan

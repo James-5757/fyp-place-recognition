@@ -1,0 +1,1555 @@
+{
+  "robot1": {
+    "archives": {
+      "lidar": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar.zip",
+        "bytes": 30271098044,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot1_main_campus_lidar/metadata.yaml",
+            "topics": [
+              {
+                "topic_metadata": {
+                  "name": "robot1/ouster/metadata",
+                  "type": "std_msgs/msg/String",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 1
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot1/ouster/imu",
+                  "type": "sensor_msgs/msg/Imu",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 99982
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot1/ouster/points",
+                  "type": "sensor_msgs/msg/PointCloud2",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 19998
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894199916656452
+            },
+            "duration": {
+              "nanoseconds": 1000605045340
+            }
+          }
+        ]
+      },
+      "camera_rgb": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+        "bytes": 16873044643,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot1_main_campus_camera_rgb/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 9997,
+                "topic_metadata": {
+                  "name": "robot1/camera/color/camera_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/CameraInfo",
+                  "type_description_hash": "RIHS01_b303399feda782bcc44e57b8eec9baaa9e0e5a7cd4a89fee8cffe588d6dc93ed"
+                }
+              },
+              {
+                "message_count": 9997,
+                "topic_metadata": {
+                  "name": "robot1/camera/color/image_raw",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Image",
+                  "type_description_hash": "RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47"
+                }
+              },
+              {
+                "message_count": 9996,
+                "topic_metadata": {
+                  "name": "robot1/camera/color/metadata",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "realsense2_camera/msg/Metadata",
+                  "type_description_hash": "RIHS01_fdcd710bbfa243fcc15b0ad0bce5622eb351e5bee6315c39d1117016ac6cc88a"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894200686904080
+            },
+            "duration": {
+              "nanoseconds": 999824494583
+            }
+          }
+        ]
+      },
+      "gt_rel_poses": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_rel_poses.zip",
+        "bytes": 475926938,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot1_main_campus_gt_rel_poses/metadata.yaml",
+            "topics": [
+              {
+                "topic_metadata": {
+                  "name": "/tf",
+                  "type": "tf2_msgs/msg/TFMessage",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 19998
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot1/lio_sam/mapping/path",
+                  "type": "nav_msgs/msg/Path",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 4000
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot1/lio_sam/mapping/odometry",
+                  "type": "nav_msgs/msg/Odometry",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 0
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894200589321216
+            },
+            "duration": {
+              "nanoseconds": 999849209344
+            }
+          }
+        ]
+      },
+      "imu_gps": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+        "bytes": 137411022,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot1_main_campus_imu_gps/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 501461,
+                "topic_metadata": {
+                  "name": "robot1/imu/pressure",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/FluidPressure",
+                  "type_description_hash": "RIHS01_22dfb2b145a0bd5a31a1ac3882a1b32148b51d9b2f3bab250290d66f3595bc32"
+                }
+              },
+              {
+                "message_count": 501459,
+                "topic_metadata": {
+                  "name": "robot1/imu/mag",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/MagneticField",
+                  "type_description_hash": "RIHS01_e80f32f56a20486c9923008fc1a1db07bbb273cbbf6a5b3bfa00835ee00e4dff"
+                }
+              },
+              {
+                "message_count": 501460,
+                "topic_metadata": {
+                  "name": "robot1/imu/data",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_1/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_1/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_1/velocity_ecef",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_1/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_2/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_2/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_2/velocity_ecef",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_2/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 2006,
+                "topic_metadata": {
+                  "name": "robot1/gnss_2/time",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/TimeReference",
+                  "type_description_hash": "RIHS01_dd66e84cf40bbb5d5a40472e6ecf2675a031334d4c426abdb2ad41801a8efc99"
+                }
+              },
+              {
+                "message_count": 100281,
+                "topic_metadata": {
+                  "name": "robot1/ekf/imu/data",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 100281,
+                "topic_metadata": {
+                  "name": "robot1/ekf/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 100280,
+                "topic_metadata": {
+                  "name": "robot1/ekf/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 100280,
+                "topic_metadata": {
+                  "name": "robot1/ekf/dual_antenna_heading",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_26432f9803e43727d3c8f668d1fdb3c630f548af631e2f4e31382371bfea3b6e"
+                }
+              },
+              {
+                "message_count": 100279,
+                "topic_metadata": {
+                  "name": "robot1/ekf/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 100279,
+                "topic_metadata": {
+                  "name": "robot1/ekf/odometry_map",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 200558,
+                "topic_metadata": {
+                  "name": "robot1/mip/ekf/gnss_position_aiding_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+                  "type_description_hash": "RIHS01_cca5a57ae31e428d300b91de3c1556ed9cc2ac9ef6e2ef8d75e3d6c1810ec2ae"
+                }
+              },
+              {
+                "message_count": 100279,
+                "topic_metadata": {
+                  "name": "robot1/mip/ekf/gnss_dual_antenna_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+                  "type_description_hash": "RIHS01_5e98c4b8c5208486fb2aacaa985b4624b91a358f33c7b30616ed2bc589a40c25"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_1/fix_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+                  "type_description_hash": "RIHS01_5569a8aaa043c96940be61c9094d630012acb8aa62dc254870b3f3f698fd73ae"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_1/sbas_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+                  "type_description_hash": "RIHS01_2f3c4a50f72ded177aad3c4361f66e2d9483b5356f6812ec24734decfcba11df"
+                }
+              },
+              {
+                "message_count": 4010,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_1/rf_error_detection",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+                  "type_description_hash": "RIHS01_9f3c888bdf9fea8416d37832fea6443610be97c0990440b06184ce17d1aa9b72"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/gnss_1/time",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/TimeReference",
+                  "type_description_hash": "RIHS01_dd66e84cf40bbb5d5a40472e6ecf2675a031334d4c426abdb2ad41801a8efc99"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/mip/sensor/overrange_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+                  "type_description_hash": "RIHS01_7f040ee24f4051458adec66f195294ed6cf37b1bc2f4ee5fa5dea665c88dbe5d"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/ekf/status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+                  "type_description_hash": "RIHS01_ef7dc0ddd9558fd78f80f47ed568772557edff1f50fb36b0a71e35de8db08c26"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/mip/ekf/status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+                  "type_description_hash": "RIHS01_fb1ad8a6aef6a7e3b7e88fab966fa683cf75868fc22e95a4973993cc4ff11537"
+                }
+              },
+              {
+                "message_count": 4010,
+                "topic_metadata": {
+                  "name": "robot1/mip/ekf/multi_antenna_offset_correction",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+                  "type_description_hash": "RIHS01_7b0a56df7dd51b4810d32a4ea24780313eb92f8c9ce1e84410b92855b18f1685"
+                }
+              },
+              {
+                "message_count": 11676,
+                "topic_metadata": {
+                  "name": "robot1/mip/ekf/aiding_measurement_summary",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+                  "type_description_hash": "RIHS01_9af762bee4060e3eeb05c61c0529b74dd7f6b1797970c9c872dc084b5b8d9ea1"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_2/fix_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+                  "type_description_hash": "RIHS01_5569a8aaa043c96940be61c9094d630012acb8aa62dc254870b3f3f698fd73ae"
+                }
+              },
+              {
+                "message_count": 4010,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_2/rf_error_detection",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+                  "type_description_hash": "RIHS01_9f3c888bdf9fea8416d37832fea6443610be97c0990440b06184ce17d1aa9b72"
+                }
+              },
+              {
+                "message_count": 2005,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_2/sbas_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+                  "type_description_hash": "RIHS01_2f3c4a50f72ded177aad3c4361f66e2d9483b5356f6812ec24734decfcba11df"
+                }
+              },
+              {
+                "message_count": 1003,
+                "topic_metadata": {
+                  "name": "robot1/mip/gnss_corrections/rtk_corrections_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+                  "type_description_hash": "RIHS01_0439bc1a2f3e00c5687467f6e84e4029a6dc836d68b26819f2b5099f22fe1395"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894197598199927
+            },
+            "duration": {
+              "nanoseconds": 1002924100791
+            }
+          }
+        ]
+      }
+    },
+    "RGB_sync": {
+      "rows": 2000,
+      "absolute_offset_ms_median": 24.8666075,
+      "absolute_offset_ms_p95": 47.17767075
+    },
+    "GT_pose_fields": [
+      "timestamp",
+      "x",
+      "y",
+      "z",
+      "qx",
+      "qy",
+      "qz",
+      "qw"
+    ],
+    "GT_unit": "decimal Unix seconds; UTM reference solution",
+    "GT_source": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv"
+  },
+  "robot2": {
+    "archives": {
+      "lidar": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar.zip",
+        "bytes": 34227901694,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot2_main_campus_lidar/metadata.yaml",
+            "topics": [
+              {
+                "topic_metadata": {
+                  "name": "robot2/ouster/metadata",
+                  "type": "std_msgs/msg/String",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 1
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot2/ouster/imu",
+                  "type": "sensor_msgs/msg/Imu",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 111486
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot2/ouster/points",
+                  "type": "sensor_msgs/msg/PointCloud2",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 22299
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894199768371823
+            },
+            "duration": {
+              "nanoseconds": 1115796200309
+            }
+          }
+        ]
+      },
+      "camera_rgb": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_rgb.zip",
+        "bytes": 17013445067,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot2_main_campus_camera_rgb/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 11149,
+                "topic_metadata": {
+                  "name": "robot2/camera/color/camera_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/CameraInfo",
+                  "type_description_hash": "RIHS01_b303399feda782bcc44e57b8eec9baaa9e0e5a7cd4a89fee8cffe588d6dc93ed"
+                }
+              },
+              {
+                "message_count": 11149,
+                "topic_metadata": {
+                  "name": "robot2/camera/color/image_raw",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Image",
+                  "type_description_hash": "RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47"
+                }
+              },
+              {
+                "message_count": 11149,
+                "topic_metadata": {
+                  "name": "robot2/camera/color/metadata",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "realsense2_camera/msg/Metadata",
+                  "type_description_hash": "RIHS01_fdcd710bbfa243fcc15b0ad0bce5622eb351e5bee6315c39d1117016ac6cc88a"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894200690280566
+            },
+            "duration": {
+              "nanoseconds": 1114864437472
+            }
+          }
+        ]
+      },
+      "gt_rel_poses": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_rel_poses.zip",
+        "bytes": 590882905,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot2_main_campus_gt_rel_poses/metadata.yaml",
+            "topics": [
+              {
+                "topic_metadata": {
+                  "name": "/tf",
+                  "type": "tf2_msgs/msg/TFMessage",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 22299
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot2/lio_sam/mapping/path",
+                  "type": "nav_msgs/msg/Path",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 4460
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot2/lio_sam/mapping/odometry",
+                  "type": "nav_msgs/msg/Odometry",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 0
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894200590348052
+            },
+            "duration": {
+              "nanoseconds": 1114904212480
+            }
+          }
+        ]
+      },
+      "imu_gps": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_imu_gps.zip",
+        "bytes": 153475060,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot2_main_campus_imu_gps/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 558997,
+                "topic_metadata": {
+                  "name": "robot2/imu/data",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 558997,
+                "topic_metadata": {
+                  "name": "robot2/imu/mag",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/MagneticField",
+                  "type_description_hash": "RIHS01_e80f32f56a20486c9923008fc1a1db07bbb273cbbf6a5b3bfa00835ee00e4dff"
+                }
+              },
+              {
+                "message_count": 558997,
+                "topic_metadata": {
+                  "name": "robot2/imu/pressure",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/FluidPressure",
+                  "type_description_hash": "RIHS01_22dfb2b145a0bd5a31a1ac3882a1b32148b51d9b2f3bab250290d66f3595bc32"
+                }
+              },
+              {
+                "message_count": 111797,
+                "topic_metadata": {
+                  "name": "robot2/ekf/imu/data",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 111797,
+                "topic_metadata": {
+                  "name": "robot2/ekf/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 111797,
+                "topic_metadata": {
+                  "name": "robot2/ekf/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 111797,
+                "topic_metadata": {
+                  "name": "robot2/ekf/dual_antenna_heading",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_26432f9803e43727d3c8f668d1fdb3c630f548af631e2f4e31382371bfea3b6e"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/ekf/status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+                  "type_description_hash": "RIHS01_ef7dc0ddd9558fd78f80f47ed568772557edff1f50fb36b0a71e35de8db08c26"
+                }
+              },
+              {
+                "message_count": 111788,
+                "topic_metadata": {
+                  "name": "robot2/mip/ekf/gnss_dual_antenna_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+                  "type_description_hash": "RIHS01_5e98c4b8c5208486fb2aacaa985b4624b91a358f33c7b30616ed2bc589a40c25"
+                }
+              },
+              {
+                "message_count": 223576,
+                "topic_metadata": {
+                  "name": "robot2/mip/ekf/gnss_position_aiding_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+                  "type_description_hash": "RIHS01_cca5a57ae31e428d300b91de3c1556ed9cc2ac9ef6e2ef8d75e3d6c1810ec2ae"
+                }
+              },
+              {
+                "message_count": 111786,
+                "topic_metadata": {
+                  "name": "robot2/ekf/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 111786,
+                "topic_metadata": {
+                  "name": "robot2/ekf/odometry_map",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_1/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_1/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_1/velocity_ecef",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_1/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_1/time",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/TimeReference",
+                  "type_description_hash": "RIHS01_dd66e84cf40bbb5d5a40472e6ecf2675a031334d4c426abdb2ad41801a8efc99"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_1/fix_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+                  "type_description_hash": "RIHS01_5569a8aaa043c96940be61c9094d630012acb8aa62dc254870b3f3f698fd73ae"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_1/sbas_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+                  "type_description_hash": "RIHS01_2f3c4a50f72ded177aad3c4361f66e2d9483b5356f6812ec24734decfcba11df"
+                }
+              },
+              {
+                "message_count": 4472,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_1/rf_error_detection",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+                  "type_description_hash": "RIHS01_9f3c888bdf9fea8416d37832fea6443610be97c0990440b06184ce17d1aa9b72"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_2/fix_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+                  "type_description_hash": "RIHS01_5569a8aaa043c96940be61c9094d630012acb8aa62dc254870b3f3f698fd73ae"
+                }
+              },
+              {
+                "message_count": 4472,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_2/rf_error_detection",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+                  "type_description_hash": "RIHS01_9f3c888bdf9fea8416d37832fea6443610be97c0990440b06184ce17d1aa9b72"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_2/sbas_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+                  "type_description_hash": "RIHS01_2f3c4a50f72ded177aad3c4361f66e2d9483b5356f6812ec24734decfcba11df"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_2/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_2/velocity_ecef",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_2/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_2/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 2236,
+                "topic_metadata": {
+                  "name": "robot2/gnss_2/time",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/TimeReference",
+                  "type_description_hash": "RIHS01_dd66e84cf40bbb5d5a40472e6ecf2675a031334d4c426abdb2ad41801a8efc99"
+                }
+              },
+              {
+                "message_count": 2235,
+                "topic_metadata": {
+                  "name": "robot2/mip/sensor/overrange_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+                  "type_description_hash": "RIHS01_7f040ee24f4051458adec66f195294ed6cf37b1bc2f4ee5fa5dea665c88dbe5d"
+                }
+              },
+              {
+                "message_count": 2235,
+                "topic_metadata": {
+                  "name": "robot2/mip/ekf/status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+                  "type_description_hash": "RIHS01_fb1ad8a6aef6a7e3b7e88fab966fa683cf75868fc22e95a4973993cc4ff11537"
+                }
+              },
+              {
+                "message_count": 4470,
+                "topic_metadata": {
+                  "name": "robot2/mip/ekf/multi_antenna_offset_correction",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+                  "type_description_hash": "RIHS01_7b0a56df7dd51b4810d32a4ea24780313eb92f8c9ce1e84410b92855b18f1685"
+                }
+              },
+              {
+                "message_count": 12268,
+                "topic_metadata": {
+                  "name": "robot2/mip/ekf/aiding_measurement_summary",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+                  "type_description_hash": "RIHS01_9af762bee4060e3eeb05c61c0529b74dd7f6b1797970c9c872dc084b5b8d9ea1"
+                }
+              },
+              {
+                "message_count": 1118,
+                "topic_metadata": {
+                  "name": "robot2/mip/gnss_corrections/rtk_corrections_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+                  "type_description_hash": "RIHS01_0439bc1a2f3e00c5687467f6e84e4029a6dc836d68b26819f2b5099f22fe1395"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894197598199883
+            },
+            "duration": {
+              "nanoseconds": 1117975308936
+            }
+          }
+        ]
+      }
+    },
+    "RGB_sync": null,
+    "GT_pose_fields": [
+      "timestamp",
+      "x",
+      "y",
+      "z",
+      "qx",
+      "qy",
+      "qz",
+      "qw"
+    ],
+    "GT_unit": "decimal Unix seconds; UTM reference solution",
+    "GT_source": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_utm_poses.csv"
+  },
+  "robot3": {
+    "archives": {
+      "lidar": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip",
+        "bytes": 57036299311,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot3_main_campus_lidar/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 1,
+                "topic_metadata": {
+                  "name": "robot3/ouster/metadata",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "std_msgs/msg/String",
+                  "type_description_hash": "RIHS01_df668c740482bbd48fb39d76a70dfd4bd59db1288021743503259e948f6b1a18"
+                }
+              },
+              {
+                "message_count": 208946,
+                "topic_metadata": {
+                  "name": "robot3/ouster/imu",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 41793,
+                "topic_metadata": {
+                  "name": "robot3/ouster/points",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/PointCloud2",
+                  "type_description_hash": "RIHS01_9198cabf7da3796ae6fe19c4cb3bdd3525492988c70522628af5daa124bae2b5"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894208639326795
+            },
+            "duration": {
+              "nanoseconds": 2090616118564
+            }
+          }
+        ]
+      },
+      "camera_rgb": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+        "bytes": 33987903251,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot3_main_campus_camera_rgb/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 20977,
+                "topic_metadata": {
+                  "name": "robot3/camera/color/camera_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/CameraInfo",
+                  "type_description_hash": "RIHS01_b303399feda782bcc44e57b8eec9baaa9e0e5a7cd4a89fee8cffe588d6dc93ed"
+                }
+              },
+              {
+                "message_count": 20977,
+                "topic_metadata": {
+                  "name": "robot3/camera/color/image_raw",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Image",
+                  "type_description_hash": "RIHS01_d31d41a9a4c4bc8eae9be757b0beed306564f7526c88ea6a4588fb9582527d47"
+                }
+              },
+              {
+                "message_count": 20977,
+                "topic_metadata": {
+                  "name": "robot3/camera/color/metadata",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "realsense2_camera/msg/Metadata",
+                  "type_description_hash": "RIHS01_fdcd710bbfa243fcc15b0ad0bce5622eb351e5bee6315c39d1117016ac6cc88a"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894200726155654
+            },
+            "duration": {
+              "nanoseconds": 2098519245631
+            }
+          }
+        ]
+      },
+      "gt_rel_poses": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip",
+        "bytes": 2176736950,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot3_main_campus_gt_rel_poses/metadata.yaml",
+            "topics": [
+              {
+                "topic_metadata": {
+                  "name": "/tf",
+                  "type": "tf2_msgs/msg/TFMessage",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 41793
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot3/lio_sam/mapping/path",
+                  "type": "nav_msgs/msg/Path",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 8359
+              },
+              {
+                "topic_metadata": {
+                  "name": "robot3/lio_sam/mapping/odometry",
+                  "type": "nav_msgs/msg/Odometry",
+                  "serialization_format": "cdr",
+                  "offered_qos_profiles": ""
+                },
+                "message_count": 0
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894209564245237
+            },
+            "duration": {
+              "nanoseconds": 2089609902080
+            }
+          }
+        ]
+      },
+      "imu_gps": {
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip",
+        "bytes": 289456005,
+        "status": "CENTRAL_DIRECTORY_AND_METADATA_READ",
+        "metadata": [
+          {
+            "member": "robot3_main_campus_imu_gps/metadata.yaml",
+            "topics": [
+              {
+                "message_count": 1050826,
+                "topic_metadata": {
+                  "name": "robot3/imu/pressure",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/FluidPressure",
+                  "type_description_hash": "RIHS01_22dfb2b145a0bd5a31a1ac3882a1b32148b51d9b2f3bab250290d66f3595bc32"
+                }
+              },
+              {
+                "message_count": 1050826,
+                "topic_metadata": {
+                  "name": "robot3/imu/data",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 1050826,
+                "topic_metadata": {
+                  "name": "robot3/imu/mag",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/MagneticField",
+                  "type_description_hash": "RIHS01_e80f32f56a20486c9923008fc1a1db07bbb273cbbf6a5b3bfa00835ee00e4dff"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_1/fix_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+                  "type_description_hash": "RIHS01_5569a8aaa043c96940be61c9094d630012acb8aa62dc254870b3f3f698fd73ae"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_1/sbas_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+                  "type_description_hash": "RIHS01_2f3c4a50f72ded177aad3c4361f66e2d9483b5356f6812ec24734decfcba11df"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/gnss_1/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/gnss_1/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/gnss_1/velocity_ecef",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/gnss_1/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/gnss_1/time",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/TimeReference",
+                  "type_description_hash": "RIHS01_dd66e84cf40bbb5d5a40472e6ecf2675a031334d4c426abdb2ad41801a8efc99"
+                }
+              },
+              {
+                "message_count": 210153,
+                "topic_metadata": {
+                  "name": "robot3/ekf/imu/data",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/Imu",
+                  "type_description_hash": "RIHS01_7d9a00ff131080897a5ec7e26e315954b8eae3353c3f995c55faf71574000b5b"
+                }
+              },
+              {
+                "message_count": 210153,
+                "topic_metadata": {
+                  "name": "robot3/ekf/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 210153,
+                "topic_metadata": {
+                  "name": "robot3/ekf/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 210153,
+                "topic_metadata": {
+                  "name": "robot3/ekf/dual_antenna_heading",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_26432f9803e43727d3c8f668d1fdb3c630f548af631e2f4e31382371bfea3b6e"
+                }
+              },
+              {
+                "message_count": 210153,
+                "topic_metadata": {
+                  "name": "robot3/ekf/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 210153,
+                "topic_metadata": {
+                  "name": "robot3/ekf/odometry_map",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 420288,
+                "topic_metadata": {
+                  "name": "robot3/mip/ekf/gnss_position_aiding_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+                  "type_description_hash": "RIHS01_cca5a57ae31e428d300b91de3c1556ed9cc2ac9ef6e2ef8d75e3d6c1810ec2ae"
+                }
+              },
+              {
+                "message_count": 210143,
+                "topic_metadata": {
+                  "name": "robot3/mip/ekf/gnss_dual_antenna_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+                  "type_description_hash": "RIHS01_5e98c4b8c5208486fb2aacaa985b4624b91a358f33c7b30616ed2bc589a40c25"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/mip/ekf/status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+                  "type_description_hash": "RIHS01_fb1ad8a6aef6a7e3b7e88fab966fa683cf75868fc22e95a4973993cc4ff11537"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/ekf/status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+                  "type_description_hash": "RIHS01_ef7dc0ddd9558fd78f80f47ed568772557edff1f50fb36b0a71e35de8db08c26"
+                }
+              },
+              {
+                "message_count": 8406,
+                "topic_metadata": {
+                  "name": "robot3/mip/ekf/multi_antenna_offset_correction",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+                  "type_description_hash": "RIHS01_7b0a56df7dd51b4810d32a4ea24780313eb92f8c9ce1e84410b92855b18f1685"
+                }
+              },
+              {
+                "message_count": 24451,
+                "topic_metadata": {
+                  "name": "robot3/mip/ekf/aiding_measurement_summary",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+                  "type_description_hash": "RIHS01_9af762bee4060e3eeb05c61c0529b74dd7f6b1797970c9c872dc084b5b8d9ea1"
+                }
+              },
+              {
+                "message_count": 4203,
+                "topic_metadata": {
+                  "name": "robot3/mip/sensor/overrange_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+                  "type_description_hash": "RIHS01_7f040ee24f4051458adec66f195294ed6cf37b1bc2f4ee5fa5dea665c88dbe5d"
+                }
+              },
+              {
+                "message_count": 2101,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_corrections/rtk_corrections_status",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+                  "type_description_hash": "RIHS01_0439bc1a2f3e00c5687467f6e84e4029a6dc836d68b26819f2b5099f22fe1395"
+                }
+              },
+              {
+                "message_count": 8404,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_1/rf_error_detection",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+                  "type_description_hash": "RIHS01_9f3c888bdf9fea8416d37832fea6443610be97c0990440b06184ce17d1aa9b72"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_2/fix_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+                  "type_description_hash": "RIHS01_5569a8aaa043c96940be61c9094d630012acb8aa62dc254870b3f3f698fd73ae"
+                }
+              },
+              {
+                "message_count": 8404,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_2/rf_error_detection",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+                  "type_description_hash": "RIHS01_9f3c888bdf9fea8416d37832fea6443610be97c0990440b06184ce17d1aa9b72"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/gnss_2/llh_position",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/NavSatFix",
+                  "type_description_hash": "RIHS01_62223ab3fe210a15976021da7afddc9e200dc9ec75231c1b6a557fc598a65404"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/gnss_2/velocity",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/gnss_2/velocity_ecef",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+                  "type_description_hash": "RIHS01_77b67434531e6529b7a0091357b186b6ebdb17fd9ffd3e0c7ce9d3fb11a44563"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/gnss_2/odometry_earth",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "nav_msgs/msg/Odometry",
+                  "type_description_hash": "RIHS01_3cc97dc7fb7502f8714462c526d369e35b603cfc34d946e3f2eda2766dfec6e0"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/gnss_2/time",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "sensor_msgs/msg/TimeReference",
+                  "type_description_hash": "RIHS01_dd66e84cf40bbb5d5a40472e6ecf2675a031334d4c426abdb2ad41801a8efc99"
+                }
+              },
+              {
+                "message_count": 4202,
+                "topic_metadata": {
+                  "name": "robot3/mip/gnss_2/sbas_info",
+                  "offered_qos_profiles": "",
+                  "serialization_format": "cdr",
+                  "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+                  "type_description_hash": "RIHS01_2f3c4a50f72ded177aad3c4361f66e2d9483b5356f6812ec24734decfcba11df"
+                }
+              }
+            ],
+            "start": {
+              "nanoseconds_since_epoch": 1722894197598199934
+            },
+            "duration": {
+              "nanoseconds": 2101661979193
+            }
+          }
+        ]
+      }
+    },
+    "RGB_sync": {
+      "rows": 4180,
+      "absolute_offset_ms_median": 27.552269000000003,
+      "absolute_offset_ms_p95": 46.90003285
+    },
+    "GT_pose_fields": [
+      "timestamp",
+      "x",
+      "y",
+      "z",
+      "qx",
+      "qy",
+      "qz",
+      "qw"
+    ],
+    "GT_unit": "decimal Unix seconds; UTM reference solution",
+    "GT_source": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv"
+  },
+  "robot4": {
+    "archives": {
+      "lidar": {
+        "status": "MISSING",
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_lidar.zip"
+      },
+      "camera_rgb": {
+        "status": "MISSING",
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_camera_rgb.zip"
+      },
+      "gt_rel_poses": {
+        "status": "MISSING",
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_rel_poses.zip"
+      },
+      "imu_gps": {
+        "status": "MISSING",
+        "path": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_imu_gps.zip"
+      }
+    },
+    "RGB_sync": null,
+    "GT_pose_fields": [
+      "timestamp",
+      "x",
+      "y",
+      "z",
+      "qx",
+      "qy",
+      "qz",
+      "qw"
+    ],
+    "GT_unit": "decimal Unix seconds; UTM reference solution",
+    "GT_source": "/home/cas/CU-Multi/raw/main_campus/robot4/robot4_main_campus_gt_utm_poses.csv"
+  }
+}

@@ -1,0 +1,86 @@
+{
+  "outputs": [
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/bidirectional_overlap_coverage.csv",
+      "bytes": 8510,
+      "sha256": "c5c06675e738b640c53005db5a5e64f0985c61b01ae4fcc992540867a77911aa"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/candidate_measurement_coverage.csv",
+      "bytes": 2944165,
+      "sha256": "3fd10887ae4b48d5e54c9b9a67f5bbe11a42ed805cf5d899a96b7d7ca176f348"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/coordinate_frame_audit.json",
+      "bytes": 22159,
+      "sha256": "2a673ceaf470e559e9242dda3dfbc456493ce866ebb74df839294f2675bfd00c"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/dataset_route_inventory.csv",
+      "bytes": 1420,
+      "sha256": "e4b3a2ba329712216d6059a0332badb657ed334b5ebec7b31a33d7cd22504693"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/dataset_sensor_metadata.json",
+      "bytes": 65252,
+      "sha256": "a2581d18fc1767f602ce4243ea45f43479d02be46e83e118785e4f33c6c159f5"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/leave_one_out_plan.csv",
+      "bytes": 45325,
+      "sha256": "dd626c001c734d882b1a60bbcd1d319fbd27e0c08fa7311c8c9d6e2dd0c156e5"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/missing_loop_linearized_information.csv",
+      "bytes": 29696,
+      "sha256": "15f83a15c0a8f87fcc03b2f5dccbe3e5411e7a45978af02251cb4ace94a8d31e"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/missing_loop_summary.json",
+      "bytes": 590,
+      "sha256": "57bbe85b3a810850520ceea3b10987bd3a861cdc64c05e8fd68da0ac7d2d802b"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/missing_loop_temporal_clusters.csv",
+      "bytes": 1460,
+      "sha256": "af83e2629b322266564b42bdc9052716f4d3413388ff83216362f393384a7cc3"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/raw_file_inventory.csv",
+      "bytes": 3838,
+      "sha256": "160640166144ed2b512b631d1e57d362c0debc9750b5fabafa1609390159a23f"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/stage22b_missing_loop_audit.csv",
+      "bytes": 96371,
+      "sha256": "5f5831c39fe68810f3b69898e11c4721a332e48adec24c3834375e907cf435b5"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/stage23_input_manifest.json",
+      "bytes": 12083,
+      "sha256": "fa4705cadedc1627653cfa7b95c3662a2e7ee5e160f793f27893ce0094925e0f"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/stage23_preflight_report.json",
+      "bytes": 5295,
+      "sha256": "97adf61e508471884faa091e4e55c1bdec510b3a39475d0da69b4d1e88a5daa3"
+    },
+    {
+      "path": "outputs/cumulti_v1/23_information_aware/stage23_protocol_draft.json",
+      "bytes": 3308,
+      "sha256": "cd545a6b0d65c297b516882af9843de455698037968b5727d715a497b82c29cc"
+    }
+  ],
+  "sources": [
+    {
+      "path": "src/cumulti/stage23/finalize_plan.py",
+      "sha256": "66817e40bc0b9610db01e84011bd9b16019bd339bf3196afc9505f3601f19ce9"
+    },
+    {
+      "path": "src/cumulti/stage23/preflight.py",
+      "sha256": "f1a88b571339f3f27a35dedb13ceddc9fc75ad7360f331d12417ff4c40a65155"
+    }
+  ],
+  "documentation_sha256": "d919a5ae5e77fd05bdd9058b3219719ef992d121d4281d06bd5ab2c208c64564",
+  "launcher_sha256": "197fd4ed9fea72b6bb9a07f42e93fb5bb1e598e78266c8d4bf3683ee11d5b6fd"
+}

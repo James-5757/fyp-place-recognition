@@ -1,0 +1,106 @@
+{
+  "status": "PHASE0_PREFLIGHT_COMPLETE",
+  "dataset_eligibility": "NO_GO",
+  "eligibility_targets": {
+    "positive_queries_each_direction": 100,
+    "both_progressing_positive_queries_each_direction": 50,
+    "independent_development_and_final_test_required": true,
+    "targets_weakened": false
+  },
+  "reason": "Frozen stable R1/R3 fails the bidirectional/dual-progress targets. R2/R4 is recording-disjoint but R4 has GT only, and stable odometry starts for R2/R4 are not validated. No qualified independent development/final-test split is available; targets are unchanged.",
+  "candidate_development": "existing exposed R1/R3 only for exploratory retrospective diagnostics; not a new heldout benchmark",
+  "candidate_final_test": "Conditional R2/R4 recording-disjoint candidate: full-recording GT coverage passes, but actual R4 sensors/odometry and stable starts are missing or unaudited. Same-campus recordings do not demonstrate cross-route generalization.",
+  "missing_loop_diagnosis": {
+    "geometrically_true_query_loss": 335,
+    "net_admitted_true_factor_loss": 57,
+    "P0_true_factors_absent_P5": 141,
+    "P5_only_true_factors": 84,
+    "common_factors": 147,
+    "P0_only_factors": 141,
+    "P5_only_factors": 84,
+    "missing_first_bridge": 0,
+    "missing_unique_region": 8,
+    "missing_P5_uncovered_region": 4,
+    "missing_time_clusters": 7,
+    "largest_missing_time_cluster": 48,
+    "shared_initializer_pair": [
+      250,
+      235
+    ],
+    "initializer_not_removed_in_any_planned_case": true,
+    "GT_role": "retrospective cohort label only, not online feature or future policy selection"
+  },
+  "candidate_registry": {
+    "total_candidates": 17379,
+    "actual_historical_measured": 15267,
+    "Stage22B_actual_reexecuted_unique": 313,
+    "historical_receipt_only": 14954,
+    "never_measured": 2112,
+    "potential_new_execution_upper_bound": 2112,
+    "Stage23_actual_registrations": 0,
+    "not_inferred_from_SC_GT_or_neighbors": true
+  },
+  "linearized_diagnostic": {
+    "status": "COMPLETED_SPARSE_LINEARIZATION_ONLY",
+    "factors": 6026,
+    "nodes": 5796,
+    "diagnosed_missing_true_factors": 141,
+    "elapsed_s": 0.23013361264020205,
+    "peak_RSS_mib": 164.125,
+    "optimization_calls": 0,
+    "full_dense_Hessian_created": false,
+    "online_selector_implemented": false
+  },
+  "leave_one_out_cost_estimate": {
+    "status": "MODELLED_PROJECTION_NOT_EXECUTED",
+    "solves": 142,
+    "reference_measured_batch_ms": 380.077422,
+    "solver_only_serial_seconds_1x": 53.970993924000005,
+    "solver_only_serial_seconds_10x": 539.70993924,
+    "measured_sparse_preflight_peak_RSS_mib": 164.125,
+    "proposed_future_serial_RSS_cap_GiB": 2,
+    "dense_Hessian_bytes_to_avoid": 9674961408,
+    "model_excludes": "map reprojection/NN/evaluation/I/O and nonlinear convergence variation; not a guaranteed runtime",
+    "proposed_compute_cap_seconds": 1800,
+    "proposed_workers": 1,
+    "authorization_status": "PLANNED_ONLY_NOT_RUN"
+  },
+  "historical_stages_unchanged": true,
+  "historical_after": {
+    "files": 64530,
+    "bytes": 602345163,
+    "sorted_path_SHA256_digest": "9041f5023cf31b22ce3cca660759d87213f4f8a5d6986a097a22c7919c7a16fa",
+    "bytecode_caches_excluded": true
+  },
+  "full_GICP_runs": 0,
+  "full_pose_graph_optimization_runs": 0,
+  "selector_implemented": false,
+  "NEXT_STEPS_modified": false,
+  "branch_created": false,
+  "elapsed_s": 43.15235240291804,
+  "recommended_next_action": "Stop algorithm promotion. Obtain independent multi-robot recording(s), audit eligibility with unchanged targets, then separately authorize protocol freeze/selector implementation and prospective development/test experiment.",
+  "technical_risks": [
+    "causal overlap depends on exact start normalization; not physically simultaneous recordings",
+    "GT exposure prevents relabeling old data as blind heldout",
+    "regional odometry bins depend on gauge/path drift; not physical coverage guarantee",
+    "actual current-loop transform/outcome unavailable before GICP; retrospective DeltaI is not a causal feature",
+    "unknown early-stopped ranks require new real GICP, not imputation",
+    "submodular guarantees do not automatically transfer to changing causal graphs, robust state-dependent weights and shared cloud/cache costs",
+    "R2 stable odometry and R4 sensor availability unresolved",
+    "P0/P5 regional/factor losses are net changes, not equivalent to query recall loss"
+  ],
+  "independence_definition": "Source-disjoint per-robot logs, independent missions/sessions and geographic routes are distinct. R2/R4 has disjoint robot logs, but independent acquisition-session provenance is NOT established. A different geographic route is preferred, not silently added as a mandatory numerical eligibility target.",
+  "independent_validation": "PASS: frozen dataset/input hashes, both-direction counts, identity-set arithmetic, unknown-rank accounting, finite sparse information and historical digest all agree",
+  "linearized_information_summary": {
+    "nominal_DeltaI_nats": {
+      "median": 4.07653199094208,
+      "p95": 7.311950871461021,
+      "max": 9.570933828684211
+    },
+    "diagnostic_robust_DeltaI_nats": {
+      "median": 4.061938945498891,
+      "p95": 6.99045651327083,
+      "max": 8.892258780389975
+    }
+  }
+}

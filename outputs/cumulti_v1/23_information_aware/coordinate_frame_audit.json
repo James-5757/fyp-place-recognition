@@ -1,0 +1,698 @@
+{
+  "URDF_source": "/home/cas/CU-Multi/raw/calib/robot_description.zip",
+  "URDFs": [
+    {
+      "member": "robot_description/urdf/robot1.urdf",
+      "robot_name": "hunter_robot",
+      "joints": [
+        {
+          "name": "robot1_os_sensor_to_ouster_riser",
+          "parent": "robot1_os_sensor",
+          "child": "robot1_ouster_riser_plate",
+          "origin": {
+            "xyz": "0 0 -0.05",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot1_ouster_riser_to_mountplate",
+          "parent": "robot1_ouster_riser_plate",
+          "child": "robot1_mounting_plate",
+          "origin": {
+            "xyz": "-0.02286 0 -0.0175",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot1_mountplate_to_chassis",
+          "parent": "robot1_mounting_plate",
+          "child": "robot1_chassis",
+          "origin": {
+            "xyz": "-0.35 0 -0.08",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot1_chassis_to_base_link",
+          "parent": "robot1_chassis",
+          "child": "robot1_base_link",
+          "origin": {
+            "xyz": "0 0 0",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot1_mountplate_to_imu",
+          "parent": "robot1_mounting_plate",
+          "child": "robot1_imu_link",
+          "origin": {
+            "rpy": "0 0 3.14159266",
+            "xyz": "-0.04 0.01557 0.014155000000000001"
+          }
+        },
+        {
+          "name": "robot1_imu_to_gnss_1",
+          "parent": "robot1_imu_link",
+          "child": "robot1_gnss_1_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 0.187165 -0.21559"
+          }
+        },
+        {
+          "name": "robot1_imu_to_gnss_2",
+          "parent": "robot1_imu_link",
+          "child": "robot1_gnss_2_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 -0.161923 -0.21559"
+          }
+        },
+        {
+          "name": "robot1_mountplate_to_realsense",
+          "parent": "robot1_mounting_plate",
+          "child": "robot1_camera_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.2 -0.02 -0.023"
+          }
+        },
+        {
+          "name": "robot1_left_front_shock",
+          "parent": "robot1_chassis",
+          "child": "robot1_left_steering_link",
+          "origin": {
+            "xyz": "0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot1_left_steering_joint",
+          "parent": "robot1_left_steering_link",
+          "child": "robot1_left_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot1_left_front_axle",
+          "parent": "robot1_left_front_axle_carrier",
+          "child": "robot1_left_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot1_right_front_shock",
+          "parent": "robot1_chassis",
+          "child": "robot1_right_steering_link",
+          "origin": {
+            "xyz": "0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot1_right_steering_joint",
+          "parent": "robot1_right_steering_link",
+          "child": "robot1_right_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot1_right_front_axle",
+          "parent": "robot1_right_front_axle_carrier",
+          "child": "robot1_right_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot1_left_rear_shock",
+          "parent": "robot1_chassis",
+          "child": "robot1_left_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot1_left_rear_axle",
+          "parent": "robot1_left_rear_axle_carrier",
+          "child": "robot1_left_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot1_right_rear_shock",
+          "parent": "robot1_chassis",
+          "child": "robot1_right_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot1_right_rear_axle",
+          "parent": "robot1_right_rear_axle_carrier",
+          "child": "robot1_right_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        }
+      ]
+    },
+    {
+      "member": "robot_description/urdf/robot4.urdf",
+      "robot_name": "hunter_robot",
+      "joints": [
+        {
+          "name": "robot4_os_sensor_to_ouster_riser",
+          "parent": "robot4_os_sensor",
+          "child": "robot4_ouster_riser_plate",
+          "origin": {
+            "xyz": "0 0 -0.05",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot4_ouster_riser_to_mountplate",
+          "parent": "robot4_ouster_riser_plate",
+          "child": "robot4_mounting_plate",
+          "origin": {
+            "xyz": "-0.02286 0 -0.0175",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot4_mountplate_to_chassis",
+          "parent": "robot4_mounting_plate",
+          "child": "robot4_chassis",
+          "origin": {
+            "xyz": "-0.35 0 -0.08",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot4_chassis_to_base_link",
+          "parent": "robot4_chassis",
+          "child": "robot4_base_link",
+          "origin": {
+            "xyz": "0 0 0",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot4_mountplate_to_imu",
+          "parent": "robot4_mounting_plate",
+          "child": "robot4_imu_link",
+          "origin": {
+            "rpy": "0 0 3.14159266",
+            "xyz": "-0.04 0.01557 0.014155000000000001"
+          }
+        },
+        {
+          "name": "robot4_imu_to_gnss_1",
+          "parent": "robot4_imu_link",
+          "child": "robot4_gnss_1_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 0.187165 -0.21559"
+          }
+        },
+        {
+          "name": "robot4_imu_to_gnss_2",
+          "parent": "robot4_imu_link",
+          "child": "robot4_gnss_2_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 -0.161923 -0.21559"
+          }
+        },
+        {
+          "name": "robot4_mountplate_to_realsense",
+          "parent": "robot4_mounting_plate",
+          "child": "robot4_camera_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.2 -0.02 -0.023"
+          }
+        },
+        {
+          "name": "robot4_left_front_shock",
+          "parent": "robot4_chassis",
+          "child": "robot4_left_steering_link",
+          "origin": {
+            "xyz": "0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot4_left_steering_joint",
+          "parent": "robot4_left_steering_link",
+          "child": "robot4_left_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot4_left_front_axle",
+          "parent": "robot4_left_front_axle_carrier",
+          "child": "robot4_left_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot4_right_front_shock",
+          "parent": "robot4_chassis",
+          "child": "robot4_right_steering_link",
+          "origin": {
+            "xyz": "0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot4_right_steering_joint",
+          "parent": "robot4_right_steering_link",
+          "child": "robot4_right_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot4_right_front_axle",
+          "parent": "robot4_right_front_axle_carrier",
+          "child": "robot4_right_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot4_left_rear_shock",
+          "parent": "robot4_chassis",
+          "child": "robot4_left_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot4_left_rear_axle",
+          "parent": "robot4_left_rear_axle_carrier",
+          "child": "robot4_left_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot4_right_rear_shock",
+          "parent": "robot4_chassis",
+          "child": "robot4_right_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot4_right_rear_axle",
+          "parent": "robot4_right_rear_axle_carrier",
+          "child": "robot4_right_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        }
+      ]
+    },
+    {
+      "member": "robot_description/urdf/robot2.urdf",
+      "robot_name": "hunter_robot",
+      "joints": [
+        {
+          "name": "robot2_os_sensor_to_ouster_riser",
+          "parent": "robot2_os_sensor",
+          "child": "robot2_ouster_riser_plate",
+          "origin": {
+            "xyz": "0 0 -0.05",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot2_ouster_riser_to_mountplate",
+          "parent": "robot2_ouster_riser_plate",
+          "child": "robot2_mounting_plate",
+          "origin": {
+            "xyz": "-0.02286 0 -0.0175",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot2_mountplate_to_chassis",
+          "parent": "robot2_mounting_plate",
+          "child": "robot2_chassis",
+          "origin": {
+            "xyz": "-0.35 0 -0.08",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot2_chassis_to_base_link",
+          "parent": "robot2_chassis",
+          "child": "robot2_base_link",
+          "origin": {
+            "xyz": "0 0 0",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot2_mountplate_to_imu",
+          "parent": "robot2_mounting_plate",
+          "child": "robot2_imu_link",
+          "origin": {
+            "rpy": "0 0 3.14159266",
+            "xyz": "-0.04 0.01557 0.014155000000000001"
+          }
+        },
+        {
+          "name": "robot2_imu_to_gnss_1",
+          "parent": "robot2_imu_link",
+          "child": "robot2_gnss_1_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 0.187165 -0.21559"
+          }
+        },
+        {
+          "name": "robot2_imu_to_gnss_2",
+          "parent": "robot2_imu_link",
+          "child": "robot2_gnss_2_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 -0.161923 -0.21559"
+          }
+        },
+        {
+          "name": "robot2_mountplate_to_realsense",
+          "parent": "robot2_mounting_plate",
+          "child": "robot2_camera_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.2 -0.02 -0.023"
+          }
+        },
+        {
+          "name": "robot2_left_front_shock",
+          "parent": "robot2_chassis",
+          "child": "robot2_left_steering_link",
+          "origin": {
+            "xyz": "0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot2_left_steering_joint",
+          "parent": "robot2_left_steering_link",
+          "child": "robot2_left_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot2_left_front_axle",
+          "parent": "robot2_left_front_axle_carrier",
+          "child": "robot2_left_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot2_right_front_shock",
+          "parent": "robot2_chassis",
+          "child": "robot2_right_steering_link",
+          "origin": {
+            "xyz": "0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot2_right_steering_joint",
+          "parent": "robot2_right_steering_link",
+          "child": "robot2_right_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot2_right_front_axle",
+          "parent": "robot2_right_front_axle_carrier",
+          "child": "robot2_right_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot2_left_rear_shock",
+          "parent": "robot2_chassis",
+          "child": "robot2_left_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot2_left_rear_axle",
+          "parent": "robot2_left_rear_axle_carrier",
+          "child": "robot2_left_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot2_right_rear_shock",
+          "parent": "robot2_chassis",
+          "child": "robot2_right_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot2_right_rear_axle",
+          "parent": "robot2_right_rear_axle_carrier",
+          "child": "robot2_right_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        }
+      ]
+    },
+    {
+      "member": "robot_description/urdf/robot3.urdf",
+      "robot_name": "hunter_robot",
+      "joints": [
+        {
+          "name": "robot3_os_sensor_to_ouster_riser",
+          "parent": "robot3_os_sensor",
+          "child": "robot3_ouster_riser_plate",
+          "origin": {
+            "xyz": "0 0 -0.05",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot3_ouster_riser_to_mountplate",
+          "parent": "robot3_ouster_riser_plate",
+          "child": "robot3_mounting_plate",
+          "origin": {
+            "xyz": "-0.02286 0 -0.0175",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot3_mountplate_to_chassis",
+          "parent": "robot3_mounting_plate",
+          "child": "robot3_chassis",
+          "origin": {
+            "xyz": "-0.35 0 -0.08",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot3_chassis_to_base_link",
+          "parent": "robot3_chassis",
+          "child": "robot3_base_link",
+          "origin": {
+            "xyz": "0 0 0",
+            "rpy": "0 0 0"
+          }
+        },
+        {
+          "name": "robot3_mountplate_to_imu",
+          "parent": "robot3_mounting_plate",
+          "child": "robot3_imu_link",
+          "origin": {
+            "rpy": "0 0 3.14159266",
+            "xyz": "-0.04 0.01557 0.014155000000000001"
+          }
+        },
+        {
+          "name": "robot3_imu_to_gnss_1",
+          "parent": "robot3_imu_link",
+          "child": "robot3_gnss_1_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 0.187165 -0.21559"
+          }
+        },
+        {
+          "name": "robot3_imu_to_gnss_2",
+          "parent": "robot3_imu_link",
+          "child": "robot3_gnss_2_antenna_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.699328 -0.161923 -0.21559"
+          }
+        },
+        {
+          "name": "robot3_mountplate_to_realsense",
+          "parent": "robot3_mounting_plate",
+          "child": "robot3_camera_link",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0.2 -0.02 -0.023"
+          }
+        },
+        {
+          "name": "robot3_left_front_shock",
+          "parent": "robot3_chassis",
+          "child": "robot3_left_steering_link",
+          "origin": {
+            "xyz": "0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot3_left_steering_joint",
+          "parent": "robot3_left_steering_link",
+          "child": "robot3_left_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot3_left_front_axle",
+          "parent": "robot3_left_front_axle_carrier",
+          "child": "robot3_left_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot3_right_front_shock",
+          "parent": "robot3_chassis",
+          "child": "robot3_right_steering_link",
+          "origin": {
+            "xyz": "0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot3_right_steering_joint",
+          "parent": "robot3_right_steering_link",
+          "child": "robot3_right_front_axle_carrier",
+          "origin": {
+            "rpy": "0 0 0",
+            "xyz": "0 0 0"
+          }
+        },
+        {
+          "name": "robot3_right_front_axle",
+          "parent": "robot3_right_front_axle_carrier",
+          "child": "robot3_right_front_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot3_left_rear_shock",
+          "parent": "robot3_chassis",
+          "child": "robot3_left_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot3_left_rear_axle",
+          "parent": "robot3_left_rear_axle_carrier",
+          "child": "robot3_left_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        },
+        {
+          "name": "robot3_right_rear_shock",
+          "parent": "robot3_chassis",
+          "child": "robot3_right_rear_axle_carrier",
+          "origin": {
+            "xyz": "-0.2875                     -0.24500000000000002                    -0.275"
+          }
+        },
+        {
+          "name": "robot3_right_rear_axle",
+          "parent": "robot3_right_rear_axle_carrier",
+          "child": "robot3_right_rear_wheel",
+          "origin": {
+            "rpy": "1.57079633 0 0"
+          }
+        }
+      ]
+    }
+  ],
+  "frozen_R1_R3_convention": {
+    "robot1_start_keyframe": 150,
+    "robot3_start_keyframe": 234,
+    "stable_start_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12c_dataset_stability/stable_segment_selection.json",
+    "stable_start_source_sha256": "f5c274ed004593ecee8bd6b2c44241372fee41431ccef171a922a373adeeb010",
+    "node_frame": "LiDAR/os_sensor; exact Stage10.3 IMU-to-LiDAR convention",
+    "node_ids": "original (robot_id,keyframe_id), preserved in GTSAM symbols and exported CSVs",
+    "local_coordinate_gauge": "exact Stage10.3 KF0-relative local matrices; retained values are not rebased or repaired",
+    "graph_anchor": "Robot1 KF150 at its frozen local Pose3",
+    "odometry_source": "raw ekf/odometry_map, nearest frozen LiDAR timestamps; T_world_imu @ T_imu_lidar; same Stage10.3 helper",
+    "odometry_factor": "Z_i,i+1 = X_i^-1 X_i+1, only sequential retained IDs",
+    "odometry_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "robust": false
+    },
+    "loop_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/10_2_pgo_policy_selection/rank1_sanitized_edges.csv",
+    "loop_source_sha256": "65fb62d7895e68b817d6ede8ff9acfd4b6a9d8e2219c1194b7b7ff6226e8c7d3",
+    "loop_filter": "query robot1 KF>=150 AND candidate robot3 KF>=234; no other filtering",
+    "expected_loops_from_stage12c": 75,
+    "loop_noise": {
+      "translation_sigma_m": 1.0,
+      "rotation_sigma_deg": 5.0,
+      "Huber_delta": 1.345
+    },
+    "loop_transform": "Z_qc=T_query_from_candidate=X_query^-1 X_candidate",
+    "default_initialization": "FIRST_ARRIVAL_INIT; accepted only when frozen equivalence diagnostics pass",
+    "arrival_order": "query_timestamp, query_keyframe_id, candidate_keyframe_id; separate-run R1->R3 replay query order",
+    "optimizer": "GTSAM 4.2 Pose3 LevenbergMarquardtOptimizer, unchanged documented default parameters",
+    "noise_tangent_order": "[rx,ry,rz,tx,ty,tz]",
+    "map_protocol": {
+      "frame_stride": 10,
+      "point_stride": 16,
+      "voxel_m": 0.5,
+      "frame_stride_origin": "first retained keyframe per robot",
+      "range_filter_m": [
+        1,
+        60
+      ]
+    },
+    "catastrophic_integrity_rule": {
+      "absolute_translation_xyz_m": 100.0,
+      "new_lineage_jump": "post XYZ>5x Stage12C frozen XY step limit AND pre-common XYZ<=5x same limit",
+      "thresholds_fitted_to_clean_result": false
+    },
+    "GT_used": false
+  },
+  "GT_world": "UTM reference coordinates shared numerical domain; exact EPSG/zone not independently declared here",
+  "unknowns": [
+    "R2 EKF stability/local frame needs original odometry audit",
+    "R4 sensor timestamps/extrinsics need sensor data; GT alone cannot validate them"
+  ],
+  "ROS_message_frame_evidence": "Stage12C R1/R3 EKF parent robot{1,3}_map / imu_link; zip metadata alone does not expose per-message frame_id"
+}

@@ -1,0 +1,20 @@
+{
+  "geometrically_true_query_loss": 335,
+  "net_admitted_true_factor_loss": 57,
+  "P0_true_factors_absent_P5": 141,
+  "P5_only_true_factors": 84,
+  "common_factors": 147,
+  "P0_only_factors": 141,
+  "P5_only_factors": 84,
+  "missing_first_bridge": 0,
+  "missing_unique_region": 8,
+  "missing_P5_uncovered_region": 4,
+  "missing_time_clusters": 7,
+  "largest_missing_time_cluster": 48,
+  "shared_initializer_pair": [
+    250,
+    235
+  ],
+  "initializer_not_removed_in_any_planned_case": true,
+  "GT_role": "retrospective cohort label only, not online feature or future policy selection"
+}
