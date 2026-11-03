@@ -1,0 +1,91 @@
+{
+  "status": "COMPLETE",
+  "formula": "confidence +0.1 margin +0.1 novelty -0.1 redundancy -0.05 predicted_cpu -0.05 predicted_transfer",
+  "normalizations": {
+    "SC_q05": 0.3016754537820816,
+    "SC_q95": 0.6585811376571655,
+    "clip": [
+      0,
+      1
+    ],
+    "margin_scale": 0.1,
+    "novelty_scale_KF": [
+      30,
+      50
+    ],
+    "transfer_scale_bytes": 2097362,
+    "cpu_scale_ms": 421.033007
+  },
+  "weights": {
+    "confidence": 1.0,
+    "margin": 0.1,
+    "novelty": 0.1,
+    "redundancy": 0.1,
+    "cpu": 0.05,
+    "transfer": 0.05
+  },
+  "frozen_threshold": 0.5,
+  "max_utility_reconstruction_error": 4.440892098500626e-16,
+  "weights_origin": "heuristic predeclared scalarization; no theoretical mapping-utility derivation or calibration; threshold development-tested events0:999 with measured acceptance, no GT",
+  "absolute_contribution_medians": {
+    "confidence": 0.6354266229700936,
+    "margin": 0.0055335760116577,
+    "novelty": 0.1,
+    "redundancy": 0.0,
+    "CPU": 0.04991409675868952,
+    "transfer": 0.025
+  },
+  "drop_one_term_threshold_flip_counts_fixed_state": {
+    "confidence": 13326,
+    "margin": 103,
+    "novelty": 2193,
+    "redundancy": 10,
+    "CPU": 729,
+    "transfer": 330
+  },
+  "sensitivity_scope": "descriptive frozen states only; not rerun policies, GT optimization or independent ablations",
+  "decision_rows": 17379,
+  "rejected_candidate_rows": 8732,
+  "rejected_queries": 3293,
+  "rejection_reasons": {
+    "UTILITY_BELOW_THRESHOLD": 4037,
+    "COMMUNICATION_BUDGET": 3173,
+    "STOP_AT_GEOMETRIC_ACCEPTANCE": 1472,
+    "COMPUTE_BUDGET": 50
+  },
+  "busy_rejection_rows": 3279,
+  "unused_rolling_capacity_events": 5747,
+  "remaining_global_bytes": 706943031,
+  "budget_rejections_by_direction": {
+    "robot1": 846,
+    "robot3": 2377
+  },
+  "known_original_GICP_attempts": 15267,
+  "unknown_original_candidate_combinations": 2112,
+  "GT_used": false,
+  "reference": {
+    "policy": "P5_BUDGET_AWARE_C75_B80",
+    "events": 5796,
+    "attempts": 8647,
+    "geometrically_accepted": 753,
+    "admitted": 231,
+    "receipt_cpu_ms": 3710434.8903490067,
+    "receipt_harness_ms": 3690706.672452001,
+    "application_bytes": 4179439052,
+    "descriptor_bytes": 28099008,
+    "point_cloud_bytes": 4149630717,
+    "factor_update_bytes": 1407987,
+    "cloud_cache_hits": 13337,
+    "cloud_cache_misses": 3957,
+    "cache_capacity": "unbounded",
+    "compute_fraction": 0.75,
+    "communication_fraction": 0.8,
+    "utility_threshold": 0.5,
+    "attempt_reduction": 0.43361498657234554,
+    "application_byte_reduction": 0.31574093374819123,
+    "evidence_type": "MEASURED_RECEIPTS_COUNTERFACTUAL_REPLAY",
+    "communication_evidence_type": "PROTOCOL_SIMULATED",
+    "compressed_application_bytes": null,
+    "compressed_scope": "NOT_MEASURED until actual serializer replay; no compression projection"
+  }
+}

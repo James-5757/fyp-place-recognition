@@ -1,0 +1,20 @@
+{
+  "meaning": "descriptive after trace freeze, not scheduler inputs",
+  "nonexecuted_candidate_rows": 8732,
+  "early_stop_rows_not_budget_rejections": 1472,
+  "actually_denied_query_count": 2552,
+  "first_denial_reasons": {
+    "UTILITY_BELOW_THRESHOLD": 1379,
+    "COMMUNICATION_BUDGET": 1153,
+    "COMPUTE_BUDGET": 20
+  },
+  "first_denials_during_busy_windows": 1224,
+  "busy_first_denials_with_later_100event_capacity": 1147,
+  "known_nonexecuted_rows": 6620,
+  "unknown_nonexecuted_rows": 2112,
+  "known_denied_rows": 6620,
+  "unknown_denied_rows": 640,
+  "events_with_two_uncached_cloud_headroom": 2821,
+  "P5_first_bridge_event": 200,
+  "P5_covered_odometry_bin_pairs": 49
+}

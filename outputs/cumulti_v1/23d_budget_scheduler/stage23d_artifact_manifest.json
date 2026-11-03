@@ -1,0 +1,172 @@
+{
+  "outputs/cumulti_v1/23d_policy_map_compare/paired_trajectory_difference.csv": {
+    "bytes": 1387395,
+    "sha256": "f609c18c9ba0b19c112cabdfdda8a0d43d3acc4d2b28ef00c3f3b0e6d5b68f48",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/paired_trajectory_summary.csv": {
+    "bytes": 942,
+    "sha256": "f79948487122ee27ba70b70f7ac7492953110cbaa2bd007e232ccae03c47417e",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/map_comparison_validation.json": {
+    "bytes": 1537,
+    "sha256": "012a7cf198175b71c83f4dcc9f6e1a496c0757b4f4cc85870f7a9cfd6dbe03e1",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/regional_comparison.csv": {
+    "bytes": 30961,
+    "sha256": "ff72d86182fa85f5b7adcbde1ebc5067e92d3df3e3b939ec5562a9acae738b74",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/demo_asset_manifest.json": {
+    "bytes": 2197,
+    "sha256": "6e64da25c612158c4bdfe048db2f4d122251c02eb1ecaf1019c6d13fa931b761",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/browser_validation.json": {
+    "bytes": 1577,
+    "sha256": "7dca91697fa4687050721c38702e8c04178daee28a317f76dfe1563a1e4a0b9e",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/batch_gauge_xy.png": {
+    "bytes": 281239,
+    "sha256": "903e2156b6d14f9f543ae3b422f2f22ca4a60bd97f731ba0d2daba9fb70ae804",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/final_incremental.png": {
+    "bytes": 260336,
+    "sha256": "ce558a6ae0ae55559034a355aeb0f5bcb483b61c179df425d07d4c7f5a809e49",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/historical_integrity_inventory.json.gz": {
+    "bytes": 3444487,
+    "sha256": "0e51803b98dfd7aee39e83f2e45c639f48c6357f7151ad9843a4a66a806ecc0e",
+    "server_only": true
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/comparison_input_manifest.json": {
+    "bytes": 204133,
+    "sha256": "5a26d9226d2b854b47897d63bd646a0c7d8179865920e378caeb824a048ddf45",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/regional_overlay.png": {
+    "bytes": 546100,
+    "sha256": "6dd11732ece0e6f7d49d3cd98082437c772b3f99cc12c835dfdb8e77bfe0f3dd",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_policy_map_compare/source_matched_map_consistency.json": {
+    "bytes": 27815,
+    "sha256": "a0d6f27be4d5eec81ade1354833d2b4809260fedb192769ac08accd035c11910",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/stage23d_decision.json": {
+    "bytes": 777,
+    "sha256": "acd65eaf035b7f6a99e97431f7cf79c5779d2882059fec6af8392b690b968b16",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/receipt_compute_summary.csv": {
+    "bytes": 628,
+    "sha256": "2622924cdd77a8a16c88fd4507f9449b876a77e80bf7def6c8060c40b110acf0",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/engineering_recovery.json": {
+    "bytes": 527,
+    "sha256": "dcbcd6f94680eca09be5f2b3d1a2841b4a6ee6ab2bb26182601cfc2dbdc61045",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/scheduler_synthetic_tests.json": {
+    "bytes": 454,
+    "sha256": "446c824553ba3b303e95593736d055ba591389a97a4e199ae61ec0391e086c37",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p5_rejection_analysis.csv": {
+    "bytes": 2062479,
+    "sha256": "074357b46def73bc4d21f33acc17cb0f2616033f3a73584a2af26138f72c625e",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/scheduler_trace_freeze.json": {
+    "bytes": 987,
+    "sha256": "c349e3f8d0e0081d18eb873d77d4612b9aaaeab23d642e6e90c7290bc3635541",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p6_verified_factors.csv": {
+    "bytes": 440808,
+    "sha256": "476a490b787a2912e61b9f1e46424990b0786008780c9f7eaca6713799d30bab",
+    "server_only": true
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p6_budget_event_trace.csv": {
+    "bytes": 1823988,
+    "sha256": "b28e15595fbdc8e4ed05c43ffff5956e089ebb911df0b537efde0cbdff940b24",
+    "server_only": true
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p5_utility_audit.json": {
+    "bytes": 2861,
+    "sha256": "c8bac6218a577eb76dad8fb12d3e869c7e76b4eb4ba6ea34e1fdda2f9bba3286",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/scheduler_causal_validation.json": {
+    "bytes": 2786,
+    "sha256": "3a466b49d610af4a30e95099ffa1dc78efaff5720bd69c5b6e8b5d717f50cefd",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p5_utility_components.csv": {
+    "bytes": 1726297,
+    "sha256": "8ed2b9dd1d1ccced79458f923c1eae80694410f92757f80474aeb4f7ded40441",
+    "server_only": true
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p5_rejection_receipt_availability.csv": {
+    "bytes": 2108275,
+    "sha256": "d1c12c2f9aae7c218bcab4f920d0b19df65975e11c4fc9cd4641c17ac16ddffb",
+    "server_only": true
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p6_ablation_comparison.csv": {
+    "bytes": 2291,
+    "sha256": "dea3c4d42a33da518dc648ef859623e4dda32bf9bd503a65af936374c985a290",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p5_postfreeze_rejection_summary.json": {
+    "bytes": 682,
+    "sha256": "314ae28c83ae6e4258cdf05f75276c3588922c5073b6938186022ebf193cd7a4",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p6_budget_event_trace.csv.gz": {
+    "bytes": 294977,
+    "sha256": "258627326ce2b3a3b7452f398f8d261234a0dcef89bdf1f7c8e8f80fe41b1ee8",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p5_rolling_budget_timeline.csv": {
+    "bytes": 520383,
+    "sha256": "8c9763d8160fcb7076945e6d52a49f8d1f83c344178cce93c67762229b7a82c3",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/unknown_gicp_extension_plan.csv": {
+    "bytes": 67,
+    "sha256": "46924685a8f00b2abff9d2297dde40d263c57b4223520e314a3eb68799568164",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/resource_comparison_summary.csv": {
+    "bytes": 2353,
+    "sha256": "718b694fecca78d0d36ff13f0441f55ec32d10b1b1106d6c0b5f190e75c24c16",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/trace_archive_manifest.json": {
+    "bytes": 717,
+    "sha256": "865746799368be74c970b2f325927dd89d22b5a5fba62a4786968033a09082f9",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/scheduler_predeclared_policy.json": {
+    "bytes": 2650,
+    "sha256": "ede8f3b4b967bff0afc0b9dddec6654db1590b0fea696f18fe6ee5e87f35a426",
+    "server_only": false
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p6_queue_event_trace.csv": {
+    "bytes": 17603836,
+    "sha256": "199310d2dcaec77abefe80439d4036e33fdcdf3ed95397c2e4fe99aa86f9486e",
+    "server_only": true
+  },
+  "outputs/cumulti_v1/23d_budget_scheduler/p6_queue_event_trace.csv.gz": {
+    "bytes": 1898225,
+    "sha256": "17898878bb6ad15df579076e23684f8a8d2868554a4e50adddc30d70ab9be78a",
+    "server_only": false
+  }
+}

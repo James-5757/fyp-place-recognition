@@ -1,0 +1,42 @@
+{
+  "name": "P6_DEFERRED_LEXICOGRAPHIC",
+  "frozen_reference": "5ed035d891053c93a22321fb6a809f849ceb20d1",
+  "max_queue_queries": 256,
+  "max_age_events": 100,
+  "window_events": 100,
+  "compute_fraction": 0.75,
+  "communication_fraction": 0.8,
+  "cache_capacity": "unbounded SAME as frozen P5",
+  "cloud_request_response_bytes": 1048681,
+  "loop_bytes": 249,
+  "coverage": "own admitted canonical endpoint pair bins from frozen non-GT local odometry arc length /50m",
+  "coverage_bin_m": 50,
+  "priority_classes": [
+    "no admitted bridge yet",
+    "previously uncovered endpoint-bin pair",
+    "cached or lower transfer cost",
+    "remaining rank/confidence"
+  ],
+  "tie_break": "class, optional direction attempts/arrivals, transfer, original rank, descending confidence, discovery event, canonical IDs",
+  "eligibility": "finite original SC candidates, both endpoints arrived; sequential original ranks only; no GT/quality gate",
+  "ablations": [
+    "P5_FROZEN",
+    "P6_D0_IMMEDIATE_CONTROL",
+    "P6_D1_DEFERRED_ONLY",
+    "P6_D2_DEFERRED_COVERAGE",
+    "P6_D3_DEFERRED_COVERAGE_DIRECTION"
+  ],
+  "D0_D1": "same non-weighted eligibility and FIFO order; D0 drops at event end, D1 queues",
+  "D2": "same as D1 plus explicit bridge/coverage/cached lexicographic priority",
+  "D3": "same as D2 plus least-served direction attempts/arrivals within a priority class; not a weighted score",
+  "P5_comparison_caveat": "D1 versus P5 changes weighted eligibility too; D0 isolates queue benefit within P6 family",
+  "duplicate_rule": "drop a new query whose current canonical identity is already pending; after resolution allow fresh original receipt attempts, suppress graph neighborhoods exactly delta3/delta5",
+  "rank_dependency": "only rank1 initially; after measured failure unlock next original rank; any geometric success closes query even if graph-duplicate; expiration/invalid/drop closes remaining ranks",
+  "unknown_rule": "commit selection before receipt access; missing receipt halts that policy at first unresolved decision, never continue with guessed state",
+  "budget": "same frozen cumulative calls and application bytes, last100 call/byte caps, fixed full-stream publication reserved;249 bytes reserved pre-attempt; released if not graph-admitted",
+  "CPU_cap": "historical hard compute unit is calls; additional predicted-ms caps = call caps * max frozen predicted per-call ms, identical for all P6 variants and redundant, NOT a new physical CPU-time guarantee",
+  "queue_parameters": "engineering hypotheses frozen before running, not GT tuned",
+  "new_GICP_calls": 0,
+  "new_backend_solves": 0,
+  "no_GT_policy_selection": true
+}

@@ -1,0 +1,1010 @@
+[
+  {
+    "state": "P0_incremental",
+    "region": "ALL",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 946475,
+        "median": 2.8912481816786046,
+        "p95": 124.60041384825193,
+        "max": 200.16068298638749
+      },
+      "within5m": {
+        "n": 532952,
+        "median": 1.1346840774246791,
+        "p95": 3.59328990385539,
+        "max": 4.999924473167674
+      },
+      "within5m_fraction": 0.5630914709844422,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_0",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 84201,
+        "median": 1.308789637645478,
+        "p95": 32.32488688460501,
+        "max": 44.42089700553783
+      },
+      "within5m": {
+        "n": 65397,
+        "median": 0.8763459761721929,
+        "p95": 3.594865526355097,
+        "max": 4.998952307420696
+      },
+      "within5m_fraction": 0.7766772366123917,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_1",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 89066,
+        "median": 1.3754735659153214,
+        "p95": 31.395295199775003,
+        "max": 49.73881642859843
+      },
+      "within5m": {
+        "n": 70762,
+        "median": 1.0025623336542595,
+        "p95": 3.324334852649108,
+        "max": 4.997803418926052
+      },
+      "within5m_fraction": 0.7944894797116745,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_2",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 209263,
+        "median": 1.469506905775009,
+        "p95": 7.594883100202251,
+        "max": 58.40202570042757
+      },
+      "within5m": {
+        "n": 192683,
+        "median": 1.3326523287500085,
+        "p95": 3.5943238491927056,
+        "max": 4.999920124921178
+      },
+      "within5m_fraction": 0.9207695579247167,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_3",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 46075,
+        "median": 1.5586569929319687,
+        "p95": 4.291969073095979,
+        "max": 17.591448985731244
+      },
+      "within5m": {
+        "n": 44857,
+        "median": 1.5290794764872904,
+        "p95": 4.062010799781406,
+        "max": 4.999378915005208
+      },
+      "within5m_fraction": 0.9735648399348887,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_4",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 199287,
+        "median": 1.0648345398236363,
+        "p95": 10.299854276980343,
+        "max": 39.88202514092719
+      },
+      "within5m": {
+        "n": 181551,
+        "median": 0.9539077177560943,
+        "p95": 3.520136382663834,
+        "max": 4.999924473167674
+      },
+      "within5m_fraction": 0.911002724713604,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_5",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 41404,
+        "median": 1.904476192644107,
+        "p95": 5.7504066608094435,
+        "max": 24.393238802435967
+      },
+      "within5m": {
+        "n": 38624,
+        "median": 1.7875678726688968,
+        "p95": 3.918476920323833,
+        "max": 4.998197104812794
+      },
+      "within5m_fraction": 0.9328567288184716,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "GROUP_CLUSTER_6",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 107395,
+        "median": 1.7308306518615508,
+        "p95": 22.951093538020988,
+        "max": 47.39784351318565
+      },
+      "within5m": {
+        "n": 82647,
+        "median": 1.2160646988871253,
+        "p95": 3.763677387196189,
+        "max": 4.999414875371892
+      },
+      "within5m_fraction": 0.7695609665254435,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "ROUTE_BIN_R1_12_R3_30",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 22821,
+        "median": 9.101067125470067,
+        "p95": 38.58439888590029,
+        "max": 44.42089700553783
+      },
+      "within5m": {
+        "n": 9658,
+        "median": 2.023306373381671,
+        "p95": 3.9549591432592788,
+        "max": 4.999877105212332
+      },
+      "within5m_fraction": 0.4232066955873976,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "ROUTE_BIN_R1_9_R3_42",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26260,
+        "median": 3.8175762377400937,
+        "p95": 25.804228075269386,
+        "max": 58.47255884371486
+      },
+      "within5m": {
+        "n": 15326,
+        "median": 1.93732743589855,
+        "p95": 4.603010168682612,
+        "max": 4.998637855779117
+      },
+      "within5m_fraction": 0.5836252856054837,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "ROUTE_BIN_R1_6_R3_43",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 21541,
+        "median": 19.486113935642678,
+        "p95": 44.580194525672084,
+        "max": 56.26384204741703
+      },
+      "within5m": {
+        "n": 3963,
+        "median": 1.210069268657864,
+        "p95": 4.801982616935124,
+        "max": 4.997383606771775
+      },
+      "within5m_fraction": 0.18397474583352677,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_incremental",
+    "region": "ROUTE_BIN_R1_9_R3_48",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26444,
+        "median": 8.900160580552487,
+        "p95": 40.258580778717175,
+        "max": 50.42754508983734
+      },
+      "within5m": {
+        "n": 6566,
+        "median": 2.3694141578701085,
+        "p95": 4.786617349200707,
+        "max": 4.998352974033778
+      },
+      "within5m_fraction": 0.24829829072757525,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "ALL",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 946416,
+        "median": 2.8778241953693637,
+        "p95": 124.80817159429097,
+        "max": 200.04187563294536
+      },
+      "within5m": {
+        "n": 533620,
+        "median": 1.1235199365712507,
+        "p95": 3.6047039859391887,
+        "max": 4.9999941208804435
+      },
+      "within5m_fraction": 0.5638323950567192,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_0",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 84177,
+        "median": 1.3068698176476363,
+        "p95": 32.4001504747865,
+        "max": 44.98317395554963
+      },
+      "within5m": {
+        "n": 65143,
+        "median": 0.8688580897725452,
+        "p95": 3.5368920947335543,
+        "max": 4.999023528725297
+      },
+      "within5m_fraction": 0.7738812264632857,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_1",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 89316,
+        "median": 1.4083093614087319,
+        "p95": 31.58034965449788,
+        "max": 48.73363967323763
+      },
+      "within5m": {
+        "n": 71068,
+        "median": 1.024027655197175,
+        "p95": 3.4131521561306233,
+        "max": 4.997473362958087
+      },
+      "within5m_fraction": 0.7956917013748936,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_2",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 209303,
+        "median": 1.485721205842252,
+        "p95": 7.712276180519819,
+        "max": 58.28169435653191
+      },
+      "within5m": {
+        "n": 192218,
+        "median": 1.3396703343593703,
+        "p95": 3.6042689394706295,
+        "max": 4.999838232996386
+      },
+      "within5m_fraction": 0.9183719296904488,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_3",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 46115,
+        "median": 1.4661435905614044,
+        "p95": 4.3241927692257,
+        "max": 17.628879322103405
+      },
+      "within5m": {
+        "n": 44973,
+        "median": 1.4357016179528594,
+        "p95": 4.154962161907674,
+        "max": 4.999887724437216
+      },
+      "within5m_fraction": 0.9752358234847663,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_4",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 199590,
+        "median": 1.0826888226997538,
+        "p95": 10.407532051983715,
+        "max": 40.70900576643577
+      },
+      "within5m": {
+        "n": 181129,
+        "median": 0.9629187352545048,
+        "p95": 3.555668791084683,
+        "max": 4.999895751935623
+      },
+      "within5m_fraction": 0.9075053860413849,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_5",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 41441,
+        "median": 1.9237702669781596,
+        "p95": 5.728684381713178,
+        "max": 25.283000252635816
+      },
+      "within5m": {
+        "n": 38730,
+        "median": 1.805061478725495,
+        "p95": 3.96892003027635,
+        "max": 4.999669745605509
+      },
+      "within5m_fraction": 0.9345816944571801,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "GROUP_CLUSTER_6",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 107679,
+        "median": 1.7477398641161952,
+        "p95": 22.800350109550628,
+        "max": 46.42546872106772
+      },
+      "within5m": {
+        "n": 82687,
+        "median": 1.179640800621194,
+        "p95": 3.8162487015820874,
+        "max": 4.9999468459193155
+      },
+      "within5m_fraction": 0.7679027479824293,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "ROUTE_BIN_R1_12_R3_30",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 22732,
+        "median": 9.312591708077889,
+        "p95": 38.62735304365367,
+        "max": 44.98317395554963
+      },
+      "within5m": {
+        "n": 9547,
+        "median": 2.2270929811920057,
+        "p95": 4.091012688923105,
+        "max": 4.997773263468455
+      },
+      "within5m_fraction": 0.41998064402604257,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "ROUTE_BIN_R1_9_R3_42",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26158,
+        "median": 3.907615358513552,
+        "p95": 25.222271062971917,
+        "max": 58.64498321499685
+      },
+      "within5m": {
+        "n": 15085,
+        "median": 1.9886852597388462,
+        "p95": 4.616148802800595,
+        "max": 4.99991978520946
+      },
+      "within5m_fraction": 0.5766878201697377,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "ROUTE_BIN_R1_6_R3_43",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 21559,
+        "median": 19.423541964413484,
+        "p95": 44.80015135048762,
+        "max": 56.070203634000485
+      },
+      "within5m": {
+        "n": 4212,
+        "median": 1.2304922511607568,
+        "p95": 4.903737690906769,
+        "max": 4.999882048139342
+      },
+      "within5m_fraction": 0.19537084280346956,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_incremental",
+    "region": "ROUTE_BIN_R1_9_R3_48",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26369,
+        "median": 8.902596754084678,
+        "p95": 39.64954450258551,
+        "max": 50.29485762901411
+      },
+      "within5m": {
+        "n": 6667,
+        "median": 2.179852928993114,
+        "p95": 4.751563735953946,
+        "max": 4.998851288112241
+      },
+      "within5m_fraction": 0.25283476809890404,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "ALL",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 946377,
+        "median": 2.89157504555213,
+        "p95": 124.6717079074603,
+        "max": 200.47681380318295
+      },
+      "within5m": {
+        "n": 532932,
+        "median": 1.1340712805827715,
+        "p95": 3.5925690861273902,
+        "max": 4.99995050737165
+      },
+      "within5m_fraction": 0.5631286474629033,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_0",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 84222,
+        "median": 1.3066857796528923,
+        "p95": 32.341001694121246,
+        "max": 44.420817853592766
+      },
+      "within5m": {
+        "n": 65408,
+        "median": 0.87516086462871,
+        "p95": 3.5935916985710357,
+        "max": 4.999569937990337
+      },
+      "within5m_fraction": 0.7766141863171143,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_1",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 89071,
+        "median": 1.374104142831007,
+        "p95": 31.398873492578407,
+        "max": 49.73814845301232
+      },
+      "within5m": {
+        "n": 70760,
+        "median": 1.0030596758722692,
+        "p95": 3.3231479229794405,
+        "max": 4.997453577406431
+      },
+      "within5m_fraction": 0.794422427052576,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_2",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 209250,
+        "median": 1.4685138496305652,
+        "p95": 7.593933069959929,
+        "max": 58.40337664008052
+      },
+      "within5m": {
+        "n": 192653,
+        "median": 1.3308897312534276,
+        "p95": 3.5943081360552154,
+        "max": 4.999708954992238
+      },
+      "within5m_fraction": 0.9206833930704899,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_3",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 45981,
+        "median": 1.5585680443136065,
+        "p95": 4.288165677438503,
+        "max": 17.5915391176473
+      },
+      "within5m": {
+        "n": 44784,
+        "median": 1.5291710160121232,
+        "p95": 4.0636752299879735,
+        "max": 4.999103235928536
+      },
+      "within5m_fraction": 0.9739675083186533,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_4",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 199223,
+        "median": 1.0644053097285542,
+        "p95": 10.28466366079264,
+        "max": 39.869337026760384
+      },
+      "within5m": {
+        "n": 181546,
+        "median": 0.9536787973140206,
+        "p95": 3.520958035430937,
+        "max": 4.9999113309105585
+      },
+      "within5m_fraction": 0.9112702850574482,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_5",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 41403,
+        "median": 1.9004662344060919,
+        "p95": 5.745852756200417,
+        "max": 24.368461537742636
+      },
+      "within5m": {
+        "n": 38629,
+        "median": 1.7848663968569196,
+        "p95": 3.9181656419755346,
+        "max": 4.999692061635137
+      },
+      "within5m_fraction": 0.9330000241528391,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "GROUP_CLUSTER_6",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 107285,
+        "median": 1.7313156701676666,
+        "p95": 22.934986764825037,
+        "max": 47.398855517404535
+      },
+      "within5m": {
+        "n": 82553,
+        "median": 1.21655286609978,
+        "p95": 3.760771401037748,
+        "max": 4.999790296783364
+      },
+      "within5m_fraction": 0.7694738313836976,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "ROUTE_BIN_R1_12_R3_30",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 22830,
+        "median": 9.097686473083387,
+        "p95": 38.59067364082379,
+        "max": 44.420817853592766
+      },
+      "within5m": {
+        "n": 9687,
+        "median": 2.0214817104475498,
+        "p95": 3.954538264474324,
+        "max": 4.999501479505364
+      },
+      "within5m_fraction": 0.4243101182654402,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "ROUTE_BIN_R1_9_R3_42",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26278,
+        "median": 3.801803158761827,
+        "p95": 25.684576874427464,
+        "max": 58.472461814639246
+      },
+      "within5m": {
+        "n": 15376,
+        "median": 1.9366358889930437,
+        "p95": 4.607965758772384,
+        "max": 4.998604524796101
+      },
+      "within5m_fraction": 0.5851282441586118,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "ROUTE_BIN_R1_6_R3_43",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 21522,
+        "median": 19.52199524840164,
+        "p95": 44.60276689342467,
+        "max": 56.26368190957005
+      },
+      "within5m": {
+        "n": 3964,
+        "median": 1.2015720545548814,
+        "p95": 4.795713557703672,
+        "max": 4.998717433396176
+      },
+      "within5m_fraction": 0.1841836260570579,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P0_batch",
+    "region": "ROUTE_BIN_R1_9_R3_48",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26441,
+        "median": 8.900191519604148,
+        "p95": 40.213140671082236,
+        "max": 50.42772151521529
+      },
+      "within5m": {
+        "n": 6537,
+        "median": 2.362916651733886,
+        "p95": 4.786077120599276,
+        "max": 4.998473433559739
+      },
+      "within5m_fraction": 0.24722968117696004,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "ALL",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 946476,
+        "median": 2.8809475296999336,
+        "p95": 124.95299792855506,
+        "max": 200.35182236323146
+      },
+      "within5m": {
+        "n": 533407,
+        "median": 1.1238255657730623,
+        "p95": 3.603436727441253,
+        "max": 4.999670820379403
+      },
+      "within5m_fraction": 0.5635716066757107,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_0",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 84224,
+        "median": 1.306214155234363,
+        "p95": 32.422513697606,
+        "max": 44.98529223193203
+      },
+      "within5m": {
+        "n": 65197,
+        "median": 0.8691220291438772,
+        "p95": 3.536105932475161,
+        "max": 4.999828292203373
+      },
+      "within5m_fraction": 0.7740905205167173,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_1",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 89285,
+        "median": 1.4068522104133139,
+        "p95": 31.588976018045116,
+        "max": 48.737042290126425
+      },
+      "within5m": {
+        "n": 71113,
+        "median": 1.024379884901454,
+        "p95": 3.412391795452879,
+        "max": 4.998409001367268
+      },
+      "within5m_fraction": 0.7964719717757742,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_2",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 209341,
+        "median": 1.4872135632886934,
+        "p95": 7.716511913083843,
+        "max": 58.279719410380146
+      },
+      "within5m": {
+        "n": 192244,
+        "median": 1.3403648656078089,
+        "p95": 3.6036300783699846,
+        "max": 4.999973880222429
+      },
+      "within5m_fraction": 0.918329424240832,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_3",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 46048,
+        "median": 1.4657234451817054,
+        "p95": 4.324142760191152,
+        "max": 17.63004820417917
+      },
+      "within5m": {
+        "n": 44908,
+        "median": 1.4352971435416864,
+        "p95": 4.151280589537259,
+        "max": 4.999411492166096
+      },
+      "within5m_fraction": 0.9752432244614315,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_4",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 199331,
+        "median": 1.082215531445862,
+        "p95": 10.402576333296317,
+        "max": 40.69638209345398
+      },
+      "within5m": {
+        "n": 180879,
+        "median": 0.9633044191325048,
+        "p95": 3.5531665693245382,
+        "max": 4.999113860596968
+      },
+      "within5m_fraction": 0.9074303545359227,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_5",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 41412,
+        "median": 1.924638771410423,
+        "p95": 5.725417021503486,
+        "max": 25.28300413229005
+      },
+      "within5m": {
+        "n": 38691,
+        "median": 1.8032464454374855,
+        "p95": 3.970947356126081,
+        "max": 4.999654536243974
+      },
+      "within5m_fraction": 0.9342944074181396,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "GROUP_CLUSTER_6",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 107557,
+        "median": 1.7481737001510753,
+        "p95": 22.797638365269567,
+        "max": 46.42570311974993
+      },
+      "within5m": {
+        "n": 82562,
+        "median": 1.1789229216977524,
+        "p95": 3.817162588466475,
+        "max": 4.999670820379403
+      },
+      "within5m_fraction": 0.7676115919930827,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "ROUTE_BIN_R1_12_R3_30",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 22749,
+        "median": 9.298601867452163,
+        "p95": 38.639355792604455,
+        "max": 44.98529223193203
+      },
+      "within5m": {
+        "n": 9570,
+        "median": 2.2270765580213916,
+        "p95": 4.094862895331596,
+        "max": 4.999278864099364
+      },
+      "within5m_fraction": 0.42067783199261505,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "ROUTE_BIN_R1_9_R3_42",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26180,
+        "median": 3.8986041617883282,
+        "p95": 25.245494732365916,
+        "max": 58.64397558199593
+      },
+      "within5m": {
+        "n": 15130,
+        "median": 1.9808858930790327,
+        "p95": 4.61599317780396,
+        "max": 4.999722019505296
+      },
+      "within5m_fraction": 0.577922077922078,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "ROUTE_BIN_R1_6_R3_43",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 21515,
+        "median": 19.3825521398607,
+        "p95": 44.76789806648689,
+        "max": 56.07148074479103
+      },
+      "within5m": {
+        "n": 4203,
+        "median": 1.2339429692294972,
+        "p95": 4.905476986720759,
+        "max": 4.9998928958281015
+      },
+      "within5m_fraction": 0.19535207994422496,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  },
+  {
+    "state": "P5_batch",
+    "region": "ROUTE_BIN_R1_9_R3_48",
+    "metric": {
+      "status": "GT_FREE_DIAGNOSTIC",
+      "all_points": {
+        "n": 26370,
+        "median": 8.907662861681207,
+        "p95": 39.66900186617427,
+        "max": 50.29426920062002
+      },
+      "within5m": {
+        "n": 6659,
+        "median": 2.171086879321245,
+        "p95": 4.7460123797444425,
+        "max": 4.999565675173534
+      },
+      "within5m_fraction": 0.25252180508153205,
+      "interpretation": "NN includes non-overlap; not literal alignment error or accuracy"
+    }
+  }
+]

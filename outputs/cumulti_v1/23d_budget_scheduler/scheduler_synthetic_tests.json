@@ -1,0 +1,12 @@
+{
+  "status": "PASS",
+  "tests": {
+    "cached_contexts_exactly_match_original_scan_semantics": true,
+    "accepted_rank1_never_reads_unknown_rank2": true,
+    "rolling_cap_blocks_then_queue_expires": true,
+    "unknown_selected_outcome_halts_without_imputation": true,
+    "future_endpoint_rejected": true,
+    "hard_global_byte_cap_never_overridden": true
+  },
+  "scope": "synthetic control-flow fixtures only; no executed GICP or scientific factor"
+}

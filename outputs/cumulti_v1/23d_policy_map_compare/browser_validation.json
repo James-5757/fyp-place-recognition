@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "checks": {
+    "actual_file_loading": true,
+    "side_by_side_identity": true,
+    "camera_rotation_synchronization": true,
+    "camera_zoom_synchronization": true,
+    "camera_pan_synchronization": true,
+    "overlay_toggle": true,
+    "loop_identity_toggle": true,
+    "seven_temporal_four_route_regions": true,
+    "batch_real_trajectory_toggle": true,
+    "buffers_cached_across_switches": true,
+    "map_visibility_toggle": true,
+    "explicit_final_only_not_live": true,
+    "resource_cleanup": true,
+    "no_browser_errors": true
+  },
+  "errors": [],
+  "failed_requests": [],
+  "browser_version": "147.0.7727.15",
+  "url": "http://127.0.0.1:8024/stage23d_policy_map_compare/",
+  "headless": true,
+  "renderer": "software ANGLE SwiftShader; not foreground/GPU smoothness validation",
+  "presentation_metrics": {
+    "loadedAssets": 8,
+    "bufferBuilds": 8,
+    "frames": 183,
+    "errors": [],
+    "disposed": false,
+    "startup_ms": 483.09999999403954
+  },
+  "total_browser_test_s": 6.675935000006575,
+  "scientific_runtime_measured": false,
+  "screenshots": {
+    "batch_gauge_xy.png": {
+      "bytes": 281239,
+      "sha256": "903e2156b6d14f9f543ae3b422f2f22ca4a60bd97f731ba0d2daba9fb70ae804"
+    },
+    "final_incremental.png": {
+      "bytes": 260336,
+      "sha256": "ce558a6ae0ae55559034a355aeb0f5bcb483b61c179df425d07d4c7f5a809e49"
+    },
+    "regional_overlay.png": {
+      "bytes": 546100,
+      "sha256": "6dd11732ece0e6f7d49d3cd98082437c772b3f99cc12c835dfdb8e77bfe0f3dd"
+    }
+  }
+}

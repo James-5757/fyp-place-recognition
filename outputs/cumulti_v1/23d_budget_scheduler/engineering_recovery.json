@@ -1,0 +1,15 @@
+{
+  "reason": "cache unchanged candidate contexts across budget denials; invalidate after every executed outcome; same priorities/budgets/ranks/eligibility, no scientific tuning",
+  "interrupted_process_CPU_s": 324.23,
+  "new_GICP_calls": 0,
+  "new_backend_calls": 0,
+  "pre_change_completed_D0": {
+    "calls": 10386,
+    "application_bytes": 4823332921,
+    "admitted": 246,
+    "first_bridge_event": 203
+  },
+  "earlier_repairs": [
+    "native receipt canonical_transform is already a JSON list; no measurement change"
+  ]
+}

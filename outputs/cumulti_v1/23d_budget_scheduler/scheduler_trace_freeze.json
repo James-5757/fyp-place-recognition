@@ -1,0 +1,16 @@
+{
+  "GT_read": false,
+  "sha256": {
+    "p5_rejection_analysis.csv": "074357b46def73bc4d21f33acc17cb0f2616033f3a73584a2af26138f72c625e",
+    "p6_verified_factors.csv": "476a490b787a2912e61b9f1e46424990b0786008780c9f7eaca6713799d30bab",
+    "p6_budget_event_trace.csv": "b28e15595fbdc8e4ed05c43ffff5956e089ebb911df0b537efde0cbdff940b24",
+    "p5_utility_components.csv": "8ed2b9dd1d1ccced79458f923c1eae80694410f92757f80474aeb4f7ded40441",
+    "p6_ablation_comparison.csv": "dea3c4d42a33da518dc648ef859623e4dda32bf9bd503a65af936374c985a290",
+    "p5_rolling_budget_timeline.csv": "8c9763d8160fcb7076945e6d52a49f8d1f83c344178cce93c67762229b7a82c3",
+    "unknown_gicp_extension_plan.csv": "46924685a8f00b2abff9d2297dde40d263c57b4223520e314a3eb68799568164",
+    "p6_queue_event_trace.csv": "199310d2dcaec77abefe80439d4036e33fdcdf3ed95397c2e4fe99aa86f9486e"
+  },
+  "new_GICP_calls": 0,
+  "new_backend_solves": 0,
+  "final_independent_validation": "NO_GO_INSUFFICIENT_BIDIRECTIONAL_COVERAGE"
+}

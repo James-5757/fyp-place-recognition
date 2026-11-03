@@ -1,0 +1,5 @@
+policy,predicted_CPU_ms,sum_existing_receipt_CPU_ms,meaning
+P6_D0_IMMEDIATE_CONTROL,4365068.635759001,4400319.159751,"historical receipt timing projection, NOT new GICP execution or scheduler runtime"
+P6_D1_DEFERRED_ONLY,4586938.631083,4581108.625734,"historical receipt timing projection, NOT new GICP execution or scheduler runtime"
+P6_D2_DEFERRED_COVERAGE,4517144.921861,4553120.513155,"historical receipt timing projection, NOT new GICP execution or scheduler runtime"
+P6_D3_DEFERRED_COVERAGE_DIRECTION,4665791.727789001,4687897.2577909995,"historical receipt timing projection, NOT new GICP execution or scheduler runtime"

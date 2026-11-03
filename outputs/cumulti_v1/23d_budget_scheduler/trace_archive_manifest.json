@@ -1,0 +1,18 @@
+{
+  "p6_queue_event_trace.csv": {
+    "original_sha256": "199310d2dcaec77abefe80439d4036e33fdcdf3ed95397c2e4fe99aa86f9486e",
+    "archive": "p6_queue_event_trace.csv.gz",
+    "archive_sha256": "17898878bb6ad15df579076e23684f8a8d2868554a4e50adddc30d70ab9be78a",
+    "original_bytes": 17603836,
+    "archive_bytes": 1898225,
+    "lossless_roundtrip": true
+  },
+  "p6_budget_event_trace.csv": {
+    "original_sha256": "b28e15595fbdc8e4ed05c43ffff5956e089ebb911df0b537efde0cbdff940b24",
+    "archive": "p6_budget_event_trace.csv.gz",
+    "archive_sha256": "258627326ce2b3a3b7452f398f8d261234a0dcef89bdf1f7c8e8f80fe41b1ee8",
+    "original_bytes": 1823988,
+    "archive_bytes": 294977,
+    "lossless_roundtrip": true
+  }
+}

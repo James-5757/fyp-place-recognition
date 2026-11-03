@@ -1,0 +1,88 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_four_P6_traces_independently_reconstructed": true,
+    "synthetic_control_flow_and_scan_equivalence": true,
+    "frozen_P0_P5_unchanged_and_same_map_gauge": true,
+    "selected_unknowns_never_imputed": true,
+    "optimized_scan_preserves_completed_pre_recovery_D0": true
+  },
+  "details": [
+    {
+      "policy": "P6_D0_IMMEDIATE_CONTROL",
+      "status": "PASS",
+      "verified_calls": 10386,
+      "exact_application_bytes": 4823332921,
+      "admitted_pairs": 246,
+      "admitted_directions": {
+        "robot1": 12,
+        "robot3": 234
+      },
+      "max_rolling_calls": 225,
+      "max_rolling_bytes": 83365822,
+      "rank_dependencies_preserved": true,
+      "cache_reconstructed": true,
+      "no_future_endpoints": true
+    },
+    {
+      "policy": "P6_D1_DEFERRED_ONLY",
+      "status": "PASS",
+      "verified_calls": 10911,
+      "exact_application_bytes": 4822278513,
+      "admitted_pairs": 223,
+      "admitted_directions": {
+        "robot1": 15,
+        "robot3": 208
+      },
+      "max_rolling_calls": 225,
+      "max_rolling_bytes": 83365573,
+      "rank_dependencies_preserved": true,
+      "cache_reconstructed": true,
+      "no_future_endpoints": true
+    },
+    {
+      "policy": "P6_D2_DEFERRED_COVERAGE",
+      "status": "PASS",
+      "verified_calls": 10752,
+      "exact_application_bytes": 4827519926,
+      "admitted_pairs": 215,
+      "admitted_directions": {
+        "robot1": 9,
+        "robot3": 206
+      },
+      "max_rolling_calls": 225,
+      "max_rolling_bytes": 83365075,
+      "rank_dependencies_preserved": true,
+      "cache_reconstructed": true,
+      "no_future_endpoints": true
+    },
+    {
+      "policy": "P6_D3_DEFERRED_COVERAGE_DIRECTION",
+      "status": "PASS",
+      "verified_calls": 11102,
+      "exact_application_bytes": 4826470249,
+      "admitted_pairs": 211,
+      "admitted_directions": {
+        "robot1": 9,
+        "robot3": 202
+      },
+      "max_rolling_calls": 225,
+      "max_rolling_bytes": 83365324,
+      "rank_dependencies_preserved": true,
+      "cache_reconstructed": true,
+      "no_future_endpoints": true
+    }
+  ],
+  "hard_limits": {
+    "calls": 11450,
+    "bytes": 4886382083,
+    "roll_calls": 225,
+    "roll_bytes": 84306109
+  },
+  "cache": "same unbounded central logical cache as frozen P5",
+  "rolling_CPU": "predicted CPU ceiling, redundant with225-call cap; actual physical CPU latency not guaranteed",
+  "unknown_source_combinations_unchanged": 2112,
+  "unknown_plan_empty_reason": "sequential original rank dependencies stop after the same measured geometric success; no need to infer historically unmeasured higher ranks",
+  "GT_used": false,
+  "scope": "causal scheduler correctness/accounting, NOT P6 map accuracy or independent validation"
+}

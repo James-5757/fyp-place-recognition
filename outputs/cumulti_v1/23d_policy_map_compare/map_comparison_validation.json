@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "checks": {
+    "P0_incremental": {
+      "finite_proper_SE3": true,
+      "nodes": 5796,
+      "odometry": 5794,
+      "anchor_matrix_max_abs_error": 0.0,
+      "gauge": "original robot1 KF150 LiDAR prior; metric XYZ, not ENU"
+    },
+    "P5_incremental": {
+      "finite_proper_SE3": true,
+      "nodes": 5796,
+      "odometry": 5794,
+      "anchor_matrix_max_abs_error": 0.0,
+      "gauge": "original robot1 KF150 LiDAR prior; metric XYZ, not ENU"
+    },
+    "P0_batch": {
+      "finite_proper_SE3": true,
+      "nodes": 5796,
+      "odometry": 5794,
+      "anchor_matrix_max_abs_error": 0.0,
+      "gauge": "original robot1 KF150 LiDAR prior; metric XYZ, not ENU"
+    },
+    "P5_batch": {
+      "finite_proper_SE3": true,
+      "nodes": 5796,
+      "odometry": 5794,
+      "anchor_matrix_max_abs_error": 1.1102230246251565e-16,
+      "gauge": "original robot1 KF150 LiDAR prior; metric XYZ, not ENU"
+    }
+  },
+  "raw_LiDAR_reconstruction_matches_both_incremental_PLYs": true,
+  "shared_keyframe_ids_timestamps_raw_points": true,
+  "same_frame_stride_point_stride_voxel": true,
+  "independent_best_fit_or_GT_transform": false,
+  "XYZ_rescaled_or_flattened": false,
+  "loop_counts": [
+    288,
+    231,
+    147,
+    141,
+    84
+  ],
+  "progressive": "PROGRESSIVE_STATE_EXPORT_REQUIRED",
+  "display_cap_per_source": 25000,
+  "complete_geometry_scope": "full per-source voxel maps reconstructed on server; browser deterministic capped subsets",
+  "elapsed_s": 53.43849843367934,
+  "peak_RSS_MiB": 508.05078125
+}

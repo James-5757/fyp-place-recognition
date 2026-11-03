@@ -1,0 +1,54 @@
+{
+  "demo/stage23d_policy_map_compare/app.js": {
+    "bytes": 10047,
+    "sha256": "f9afb7cc989f3e66d05ea2d9d2acab9475c086d6f8d5e7b4e2151b27be003998"
+  },
+  "demo/stage23d_policy_map_compare/index.html": {
+    "bytes": 3859,
+    "sha256": "d542ddb7004350aab61b1da255ecd54697f3706e80b80f1bf1bffe247b4d5b6e"
+  },
+  "demo/stage23d_policy_map_compare/data.json": {
+    "bytes": 3658072,
+    "sha256": "0ba2b26805df37fc266fddd50f951efffa6698f3925dc27aca09c2697e1c7005"
+  },
+  "demo/stage23d_policy_map_compare/README.md": {
+    "bytes": 1709,
+    "sha256": "641952e7e228693b728eb187af9e15e3d3008d394b10badd2e3a077d5834e626"
+  },
+  "demo/stage23d_policy_map_compare/styles.css": {
+    "bytes": 2836,
+    "sha256": "8b59fc2970c80ad4193c8b3f13247d60672623d64d1fa7b3a9673a7f3de4af5e"
+  },
+  "demo/stage23d_policy_map_compare/assets/P5_batch_robot3.f32": {
+    "bytes": 300000,
+    "sha256": "af8fde13a4aa9a906d24de1c396e2b408044af479aefd69b5f375e46052fcfbc"
+  },
+  "demo/stage23d_policy_map_compare/assets/P0_incremental_robot1.f32": {
+    "bytes": 300000,
+    "sha256": "e8d0d4ecdd24bd7dac1a6e2279088498866bea3b360df38b8f3f3be7839604b5"
+  },
+  "demo/stage23d_policy_map_compare/assets/P0_batch_robot3.f32": {
+    "bytes": 300000,
+    "sha256": "3b3958ac51294e50dfaadf6e15e3880e8eeacd286b5490b7e561fc91dcee11a9"
+  },
+  "demo/stage23d_policy_map_compare/assets/P0_incremental_robot3.f32": {
+    "bytes": 300000,
+    "sha256": "fb4e5ba0065faf806564ad429be68680b3474d5e239c428494ca083dc3309eef"
+  },
+  "demo/stage23d_policy_map_compare/assets/P5_incremental_robot3.f32": {
+    "bytes": 300000,
+    "sha256": "5416d27eaedd970cc6977869d36a172b0cfa9b1bb4f34fdcff0857e5d2475796"
+  },
+  "demo/stage23d_policy_map_compare/assets/P5_incremental_robot1.f32": {
+    "bytes": 300000,
+    "sha256": "176625e2ae69348a4ba7b0b0c3b2002209e25b6b86b656d659113d80bad98499"
+  },
+  "demo/stage23d_policy_map_compare/assets/P0_batch_robot1.f32": {
+    "bytes": 300000,
+    "sha256": "e854028b75ab15091cb5edd648c328356a8cca644e78dbc0c2edc6f31139d2cd"
+  },
+  "demo/stage23d_policy_map_compare/assets/P5_batch_robot1.f32": {
+    "bytes": 300000,
+    "sha256": "9894a6de33518dd1e2d6a973ebd52bb2cc5e71fc56b46761c448a739e43c8069"
+  }
+}
