@@ -1,0 +1,47 @@
+{
+  "STAGE23B_DIAGNOSTICS": "COMPLETE",
+  "STAGE23_FINAL_INDEPENDENT_VALIDATION": "NO_GO_INSUFFICIENT_BIDIRECTIONAL_COVERAGE",
+  "exact_set_counts": {
+    "P0": 288,
+    "P5": 231,
+    "intersection": 147,
+    "P0_only": 141,
+    "P5_only": 84
+  },
+  "cases_completed": 159,
+  "cases_planned": 159,
+  "P0_LOO": 141,
+  "P5_selected_LOO": 7,
+  "temporal_groups": 7,
+  "common_support_groups": 2,
+  "nonconverged_or_failed": 0,
+  "all_finite": true,
+  "baseline_reproduction": [
+    {
+      "case": "BASE_P0",
+      "frozen_reproduction_translation_max_m": 5.728578676879116e-14,
+      "frozen_reproduction_rotation_max_rad": 5.75156979735403e-16
+    },
+    {
+      "case": "BASE_P5",
+      "frozen_reproduction_translation_max_m": 5.731332139511976e-14,
+      "frozen_reproduction_rotation_max_rad": 6.933362267937479e-16
+    }
+  ],
+  "initialization_noise_solver_unchanged": true,
+  "common_only_graph_reproduction_max_abs": 0.0,
+  "feature_Jacobian_finite_difference_max_abs": 1.1102230246251565e-09,
+  "GT_free_features_causal_and_unchanged": true,
+  "unknown_GICP_results_imputed": 0,
+  "new_GICP_calls": 0,
+  "selector_trained": false,
+  "historical_and_Stage23A_hashes_unchanged": true,
+  "NEXT_STEPS_unchanged": true,
+  "pilot_actual_solver_s": 5.176854290999472,
+  "total_actual_solver_s": 69.47162942960858,
+  "solver_peak_RSS_mib": 180.23046875,
+  "offline_evaluation_elapsed_s": 122.777423475869,
+  "GT_free_feature_elapsed_s": 12.817603444680572,
+  "GT_evaluation_only_after_feature_and_solve_freeze": true,
+  "independent_algorithm_readiness_claimed": false
+}

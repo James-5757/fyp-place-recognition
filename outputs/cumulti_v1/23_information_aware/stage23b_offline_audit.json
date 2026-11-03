@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "feature_file_unchanged": true,
+  "GT_after_feature_and_solver_freeze": true,
+  "new_optimization_after_GT": false,
+  "case_metrics": 159,
+  "map_rows": 106,
+  "elapsed_evaluation_s": 122.777423475869,
+  "GT_pose_convention": "existing Stage22B reference CSV Pose3; fixed sensor-frame bias not newly calibrated"
+}

@@ -1,0 +1,3377 @@
+{
+  "status": "FROZEN_BEFORE_DIAGNOSTICS",
+  "cases": [
+    {
+      "name": "BASE_P0",
+      "policy": "P0_FULL_TOP3",
+      "remove": [],
+      "kind": "BASELINE"
+    },
+    {
+      "name": "BASE_P5",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [],
+      "kind": "BASELINE"
+    },
+    {
+      "name": "LOO_P0_1120_2527",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1120,
+          2527
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_546_2529",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          546,
+          2529
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_554_2533",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          554,
+          2533
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_559_2536",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          559,
+          2536
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_563_2540",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          563,
+          2540
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_571_2546",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          571,
+          2546
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_575_2550",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          575,
+          2550
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_579_2553",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          579,
+          2553
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_583_2557",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          583,
+          2557
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_587_2561",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          587,
+          2561
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_591_2565",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          591,
+          2565
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_595_2569",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          595,
+          2569
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_599_2573",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          599,
+          2573
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 0
+    },
+    {
+      "name": "LOO_P0_652_2636",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          652,
+          2636
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_656_2641",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          656,
+          2641
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_660_2645",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          660,
+          2645
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1610_2650",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1610,
+          2650
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1605_2654",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1605,
+          2654
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1601_2657",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1601,
+          2657
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1597_2661",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1597,
+          2661
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1593_2665",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1593,
+          2665
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1582_2674",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1582,
+          2674
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1578_2678",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1578,
+          2678
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1572_2683",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1572,
+          2683
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 1
+    },
+    {
+      "name": "LOO_P0_1495_2745",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1495,
+          2745
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1491_2750",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1491,
+          2750
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1488_2756",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1488,
+          2756
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1484_2761",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1484,
+          2761
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1479_2765",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1479,
+          2765
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1474_2769",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1474,
+          2769
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1467_2774",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1467,
+          2774
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1463_2779",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1463,
+          2779
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1458_2782",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1458,
+          2782
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1454_2787",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1454,
+          2787
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1450_2791",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1450,
+          2791
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1445_2796",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1445,
+          2796
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1441_2802",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1441,
+          2802
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1437_2806",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1437,
+          2806
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1432_2811",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1432,
+          2811
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1411_2824",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1411,
+          2824
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1410_2830",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1410,
+          2830
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1406_2834",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1406,
+          2834
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1401_2839",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1401,
+          2839
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1397_2843",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1397,
+          2843
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1393_2846",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1393,
+          2846
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1390_2852",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1390,
+          2852
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1386_2854",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1386,
+          2854
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1372_2866",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1372,
+          2866
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1363_2874",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1363,
+          2874
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1349_2894",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1349,
+          2894
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1340_2897",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1340,
+          2897
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_383_2932",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          383,
+          2932
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_433_2983",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          433,
+          2983
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1184_3025",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1184,
+          3025
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1180_3029",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1180,
+          3029
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_488_3050",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          488,
+          3050
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_492_3055",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          492,
+          3055
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_496_3059",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          496,
+          3059
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_500_3062",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          500,
+          3062
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_504_3066",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          504,
+          3066
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_508_3070",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          508,
+          3070
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_513_3072",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          513,
+          3072
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_517_3075",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          517,
+          3075
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_538_3093",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          538,
+          3093
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 2
+    },
+    {
+      "name": "LOO_P0_1055_3154",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1055,
+          3154
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 3
+    },
+    {
+      "name": "LOO_P0_1051_3158",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1051,
+          3158
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 3
+    },
+    {
+      "name": "LOO_P0_974_3246",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          974,
+          3246
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_967_3251",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          967,
+          3251
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_955_3260",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          955,
+          3260
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_950_3263",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          950,
+          3263
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_945_3266",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          945,
+          3266
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_941_3268",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          941,
+          3268
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_933_3273",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          933,
+          3273
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_928_3278",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          928,
+          3278
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_923_3282",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          923,
+          3282
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_919_3286",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          919,
+          3286
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_915_3290",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          915,
+          3290
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_911_3293",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          911,
+          3293
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_876_3349",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          876,
+          3349
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_870_3353",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          870,
+          3353
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_845_3356",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          845,
+          3356
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_827_3360",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          827,
+          3360
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_816_3368",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          816,
+          3368
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_811_3373",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          811,
+          3373
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1748_3379",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1748,
+          3379
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1718_3398",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1718,
+          3398
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1697_3414",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1697,
+          3414
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1693_3418",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1693,
+          3418
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1688_3423",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1688,
+          3423
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_747_3425",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          747,
+          3425
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1684_3428",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1684,
+          3428
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_741_3430",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          741,
+          3430
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1680_3433",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1680,
+          3433
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1676_3437",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1676,
+          3437
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_724_3442",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          724,
+          3442
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_720_3447",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          720,
+          3447
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_716_3452",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          716,
+          3452
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1655_3457",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1655,
+          3457
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_704_3463",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          704,
+          3463
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_700_3466",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          700,
+          3466
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_696_3469",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          696,
+          3469
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_692_3473",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          692,
+          3473
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_688_3478",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          688,
+          3478
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_684_3481",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          684,
+          3481
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_680_3484",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          680,
+          3484
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_675_3488",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          675,
+          3488
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_667_3495",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          667,
+          3495
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_616_3548",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          616,
+          3548
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_612_3553",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          612,
+          3553
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_608_3557",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          608,
+          3557
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_604_3562",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          604,
+          3562
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_599_3567",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          599,
+          3567
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_594_3572",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          594,
+          3572
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_589_3577",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          589,
+          3577
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 4
+    },
+    {
+      "name": "LOO_P0_1055_3670",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1055,
+          3670
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 5
+    },
+    {
+      "name": "LOO_P0_1051_3673",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1051,
+          3673
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 5
+    },
+    {
+      "name": "LOO_P0_973_3748",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          973,
+          3748
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_968_3760",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          968,
+          3760
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_963_3762",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          963,
+          3762
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_958_3765",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          958,
+          3765
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_954_3767",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          954,
+          3767
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_949_3770",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          949,
+          3770
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_945_3773",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          945,
+          3773
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_940_3775",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          940,
+          3775
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_935_3779",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          935,
+          3779
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_931_3781",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          931,
+          3781
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_926_3784",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          926,
+          3784
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_922_3787",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          922,
+          3787
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_918_3790",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          918,
+          3790
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_914_3794",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          914,
+          3794
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_910_3797",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          910,
+          3797
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_906_3801",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          906,
+          3801
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_902_3804",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          902,
+          3804
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_876_3843",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          876,
+          3843
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_874_3849",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          874,
+          3849
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_1802_3860",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1802,
+          3860
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_1807_3864",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1807,
+          3864
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_1815_3870",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1815,
+          3870
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_1820_3873",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1820,
+          3873
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_1824_3877",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1824,
+          3877
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "LOO_P0_1830_3880",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1830,
+          3880
+        ]
+      ],
+      "kind": "LOO_P0",
+      "cluster": 6
+    },
+    {
+      "name": "GROUP_CLUSTER_0",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1120,
+          2527
+        ],
+        [
+          546,
+          2529
+        ],
+        [
+          554,
+          2533
+        ],
+        [
+          559,
+          2536
+        ],
+        [
+          563,
+          2540
+        ],
+        [
+          571,
+          2546
+        ],
+        [
+          575,
+          2550
+        ],
+        [
+          579,
+          2553
+        ],
+        [
+          583,
+          2557
+        ],
+        [
+          587,
+          2561
+        ],
+        [
+          591,
+          2565
+        ],
+        [
+          595,
+          2569
+        ],
+        [
+          599,
+          2573
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 0
+    },
+    {
+      "name": "GROUP_CLUSTER_1",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          652,
+          2636
+        ],
+        [
+          656,
+          2641
+        ],
+        [
+          660,
+          2645
+        ],
+        [
+          1610,
+          2650
+        ],
+        [
+          1605,
+          2654
+        ],
+        [
+          1601,
+          2657
+        ],
+        [
+          1597,
+          2661
+        ],
+        [
+          1593,
+          2665
+        ],
+        [
+          1582,
+          2674
+        ],
+        [
+          1578,
+          2678
+        ],
+        [
+          1572,
+          2683
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 1
+    },
+    {
+      "name": "GROUP_CLUSTER_2",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1495,
+          2745
+        ],
+        [
+          1491,
+          2750
+        ],
+        [
+          1488,
+          2756
+        ],
+        [
+          1484,
+          2761
+        ],
+        [
+          1479,
+          2765
+        ],
+        [
+          1474,
+          2769
+        ],
+        [
+          1467,
+          2774
+        ],
+        [
+          1463,
+          2779
+        ],
+        [
+          1458,
+          2782
+        ],
+        [
+          1454,
+          2787
+        ],
+        [
+          1450,
+          2791
+        ],
+        [
+          1445,
+          2796
+        ],
+        [
+          1441,
+          2802
+        ],
+        [
+          1437,
+          2806
+        ],
+        [
+          1432,
+          2811
+        ],
+        [
+          1411,
+          2824
+        ],
+        [
+          1410,
+          2830
+        ],
+        [
+          1406,
+          2834
+        ],
+        [
+          1401,
+          2839
+        ],
+        [
+          1397,
+          2843
+        ],
+        [
+          1393,
+          2846
+        ],
+        [
+          1390,
+          2852
+        ],
+        [
+          1386,
+          2854
+        ],
+        [
+          1372,
+          2866
+        ],
+        [
+          1363,
+          2874
+        ],
+        [
+          1349,
+          2894
+        ],
+        [
+          1340,
+          2897
+        ],
+        [
+          383,
+          2932
+        ],
+        [
+          433,
+          2983
+        ],
+        [
+          1184,
+          3025
+        ],
+        [
+          1180,
+          3029
+        ],
+        [
+          488,
+          3050
+        ],
+        [
+          492,
+          3055
+        ],
+        [
+          496,
+          3059
+        ],
+        [
+          500,
+          3062
+        ],
+        [
+          504,
+          3066
+        ],
+        [
+          508,
+          3070
+        ],
+        [
+          513,
+          3072
+        ],
+        [
+          517,
+          3075
+        ],
+        [
+          538,
+          3093
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 2
+    },
+    {
+      "name": "GROUP_CLUSTER_3",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1055,
+          3154
+        ],
+        [
+          1051,
+          3158
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 3
+    },
+    {
+      "name": "GROUP_CLUSTER_4",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          974,
+          3246
+        ],
+        [
+          967,
+          3251
+        ],
+        [
+          955,
+          3260
+        ],
+        [
+          950,
+          3263
+        ],
+        [
+          945,
+          3266
+        ],
+        [
+          941,
+          3268
+        ],
+        [
+          933,
+          3273
+        ],
+        [
+          928,
+          3278
+        ],
+        [
+          923,
+          3282
+        ],
+        [
+          919,
+          3286
+        ],
+        [
+          915,
+          3290
+        ],
+        [
+          911,
+          3293
+        ],
+        [
+          876,
+          3349
+        ],
+        [
+          870,
+          3353
+        ],
+        [
+          845,
+          3356
+        ],
+        [
+          827,
+          3360
+        ],
+        [
+          816,
+          3368
+        ],
+        [
+          811,
+          3373
+        ],
+        [
+          1748,
+          3379
+        ],
+        [
+          1718,
+          3398
+        ],
+        [
+          1697,
+          3414
+        ],
+        [
+          1693,
+          3418
+        ],
+        [
+          1688,
+          3423
+        ],
+        [
+          747,
+          3425
+        ],
+        [
+          1684,
+          3428
+        ],
+        [
+          741,
+          3430
+        ],
+        [
+          1680,
+          3433
+        ],
+        [
+          1676,
+          3437
+        ],
+        [
+          724,
+          3442
+        ],
+        [
+          720,
+          3447
+        ],
+        [
+          716,
+          3452
+        ],
+        [
+          1655,
+          3457
+        ],
+        [
+          704,
+          3463
+        ],
+        [
+          700,
+          3466
+        ],
+        [
+          696,
+          3469
+        ],
+        [
+          692,
+          3473
+        ],
+        [
+          688,
+          3478
+        ],
+        [
+          684,
+          3481
+        ],
+        [
+          680,
+          3484
+        ],
+        [
+          675,
+          3488
+        ],
+        [
+          667,
+          3495
+        ],
+        [
+          616,
+          3548
+        ],
+        [
+          612,
+          3553
+        ],
+        [
+          608,
+          3557
+        ],
+        [
+          604,
+          3562
+        ],
+        [
+          599,
+          3567
+        ],
+        [
+          594,
+          3572
+        ],
+        [
+          589,
+          3577
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 4
+    },
+    {
+      "name": "GROUP_CLUSTER_5",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          1055,
+          3670
+        ],
+        [
+          1051,
+          3673
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 5
+    },
+    {
+      "name": "GROUP_CLUSTER_6",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          973,
+          3748
+        ],
+        [
+          968,
+          3760
+        ],
+        [
+          963,
+          3762
+        ],
+        [
+          958,
+          3765
+        ],
+        [
+          954,
+          3767
+        ],
+        [
+          949,
+          3770
+        ],
+        [
+          945,
+          3773
+        ],
+        [
+          940,
+          3775
+        ],
+        [
+          935,
+          3779
+        ],
+        [
+          931,
+          3781
+        ],
+        [
+          926,
+          3784
+        ],
+        [
+          922,
+          3787
+        ],
+        [
+          918,
+          3790
+        ],
+        [
+          914,
+          3794
+        ],
+        [
+          910,
+          3797
+        ],
+        [
+          906,
+          3801
+        ],
+        [
+          902,
+          3804
+        ],
+        [
+          876,
+          3843
+        ],
+        [
+          874,
+          3849
+        ],
+        [
+          1802,
+          3860
+        ],
+        [
+          1807,
+          3864
+        ],
+        [
+          1815,
+          3870
+        ],
+        [
+          1820,
+          3873
+        ],
+        [
+          1824,
+          3877
+        ],
+        [
+          1830,
+          3880
+        ]
+      ],
+      "kind": "TEMPORAL_GROUP",
+      "cluster": 6
+    },
+    {
+      "name": "P0_COMMON_ONLY",
+      "policy": "P0_FULL_TOP3",
+      "remove": [
+        [
+          383,
+          2932
+        ],
+        [
+          433,
+          2983
+        ],
+        [
+          488,
+          3050
+        ],
+        [
+          492,
+          3055
+        ],
+        [
+          496,
+          3059
+        ],
+        [
+          500,
+          3062
+        ],
+        [
+          504,
+          3066
+        ],
+        [
+          508,
+          3070
+        ],
+        [
+          513,
+          3072
+        ],
+        [
+          517,
+          3075
+        ],
+        [
+          538,
+          3093
+        ],
+        [
+          546,
+          2529
+        ],
+        [
+          554,
+          2533
+        ],
+        [
+          559,
+          2536
+        ],
+        [
+          563,
+          2540
+        ],
+        [
+          571,
+          2546
+        ],
+        [
+          575,
+          2550
+        ],
+        [
+          579,
+          2553
+        ],
+        [
+          583,
+          2557
+        ],
+        [
+          587,
+          2561
+        ],
+        [
+          589,
+          3577
+        ],
+        [
+          591,
+          2565
+        ],
+        [
+          594,
+          3572
+        ],
+        [
+          595,
+          2569
+        ],
+        [
+          599,
+          2573
+        ],
+        [
+          599,
+          3567
+        ],
+        [
+          604,
+          3562
+        ],
+        [
+          608,
+          3557
+        ],
+        [
+          612,
+          3553
+        ],
+        [
+          616,
+          3548
+        ],
+        [
+          652,
+          2636
+        ],
+        [
+          656,
+          2641
+        ],
+        [
+          660,
+          2645
+        ],
+        [
+          667,
+          3495
+        ],
+        [
+          675,
+          3488
+        ],
+        [
+          680,
+          3484
+        ],
+        [
+          684,
+          3481
+        ],
+        [
+          688,
+          3478
+        ],
+        [
+          692,
+          3473
+        ],
+        [
+          696,
+          3469
+        ],
+        [
+          700,
+          3466
+        ],
+        [
+          704,
+          3463
+        ],
+        [
+          716,
+          3452
+        ],
+        [
+          720,
+          3447
+        ],
+        [
+          724,
+          3442
+        ],
+        [
+          741,
+          3430
+        ],
+        [
+          747,
+          3425
+        ],
+        [
+          811,
+          3373
+        ],
+        [
+          816,
+          3368
+        ],
+        [
+          827,
+          3360
+        ],
+        [
+          845,
+          3356
+        ],
+        [
+          870,
+          3353
+        ],
+        [
+          874,
+          3849
+        ],
+        [
+          876,
+          3349
+        ],
+        [
+          876,
+          3843
+        ],
+        [
+          902,
+          3804
+        ],
+        [
+          906,
+          3801
+        ],
+        [
+          910,
+          3797
+        ],
+        [
+          911,
+          3293
+        ],
+        [
+          914,
+          3794
+        ],
+        [
+          915,
+          3290
+        ],
+        [
+          918,
+          3790
+        ],
+        [
+          919,
+          3286
+        ],
+        [
+          922,
+          3787
+        ],
+        [
+          923,
+          3282
+        ],
+        [
+          926,
+          3784
+        ],
+        [
+          928,
+          3278
+        ],
+        [
+          931,
+          3781
+        ],
+        [
+          933,
+          3273
+        ],
+        [
+          935,
+          3779
+        ],
+        [
+          940,
+          3775
+        ],
+        [
+          941,
+          3268
+        ],
+        [
+          945,
+          3266
+        ],
+        [
+          945,
+          3773
+        ],
+        [
+          949,
+          3770
+        ],
+        [
+          950,
+          3263
+        ],
+        [
+          954,
+          3767
+        ],
+        [
+          955,
+          3260
+        ],
+        [
+          958,
+          3765
+        ],
+        [
+          963,
+          3762
+        ],
+        [
+          967,
+          3251
+        ],
+        [
+          968,
+          3760
+        ],
+        [
+          973,
+          3748
+        ],
+        [
+          974,
+          3246
+        ],
+        [
+          1051,
+          3158
+        ],
+        [
+          1051,
+          3673
+        ],
+        [
+          1055,
+          3154
+        ],
+        [
+          1055,
+          3670
+        ],
+        [
+          1120,
+          2527
+        ],
+        [
+          1180,
+          3029
+        ],
+        [
+          1184,
+          3025
+        ],
+        [
+          1340,
+          2897
+        ],
+        [
+          1349,
+          2894
+        ],
+        [
+          1363,
+          2874
+        ],
+        [
+          1372,
+          2866
+        ],
+        [
+          1386,
+          2854
+        ],
+        [
+          1390,
+          2852
+        ],
+        [
+          1393,
+          2846
+        ],
+        [
+          1397,
+          2843
+        ],
+        [
+          1401,
+          2839
+        ],
+        [
+          1406,
+          2834
+        ],
+        [
+          1410,
+          2830
+        ],
+        [
+          1411,
+          2824
+        ],
+        [
+          1432,
+          2811
+        ],
+        [
+          1437,
+          2806
+        ],
+        [
+          1441,
+          2802
+        ],
+        [
+          1445,
+          2796
+        ],
+        [
+          1450,
+          2791
+        ],
+        [
+          1454,
+          2787
+        ],
+        [
+          1458,
+          2782
+        ],
+        [
+          1463,
+          2779
+        ],
+        [
+          1467,
+          2774
+        ],
+        [
+          1474,
+          2769
+        ],
+        [
+          1479,
+          2765
+        ],
+        [
+          1484,
+          2761
+        ],
+        [
+          1488,
+          2756
+        ],
+        [
+          1491,
+          2750
+        ],
+        [
+          1495,
+          2745
+        ],
+        [
+          1572,
+          2683
+        ],
+        [
+          1578,
+          2678
+        ],
+        [
+          1582,
+          2674
+        ],
+        [
+          1593,
+          2665
+        ],
+        [
+          1597,
+          2661
+        ],
+        [
+          1601,
+          2657
+        ],
+        [
+          1605,
+          2654
+        ],
+        [
+          1610,
+          2650
+        ],
+        [
+          1655,
+          3457
+        ],
+        [
+          1676,
+          3437
+        ],
+        [
+          1680,
+          3433
+        ],
+        [
+          1684,
+          3428
+        ],
+        [
+          1688,
+          3423
+        ],
+        [
+          1693,
+          3418
+        ],
+        [
+          1697,
+          3414
+        ],
+        [
+          1718,
+          3398
+        ],
+        [
+          1748,
+          3379
+        ],
+        [
+          1802,
+          3860
+        ],
+        [
+          1807,
+          3864
+        ],
+        [
+          1815,
+          3870
+        ],
+        [
+          1820,
+          3873
+        ],
+        [
+          1824,
+          3877
+        ],
+        [
+          1830,
+          3880
+        ]
+      ],
+      "kind": "SUPPORT_GROUP"
+    },
+    {
+      "name": "P5_COMMON_ONLY",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          383,
+          2933
+        ],
+        [
+          433,
+          2984
+        ],
+        [
+          490,
+          3053
+        ],
+        [
+          495,
+          3058
+        ],
+        [
+          499,
+          3061
+        ],
+        [
+          503,
+          3065
+        ],
+        [
+          510,
+          3071
+        ],
+        [
+          560,
+          2538
+        ],
+        [
+          577,
+          2552
+        ],
+        [
+          582,
+          2555
+        ],
+        [
+          586,
+          2559
+        ],
+        [
+          589,
+          3579
+        ],
+        [
+          596,
+          2571
+        ],
+        [
+          601,
+          3565
+        ],
+        [
+          605,
+          3561
+        ],
+        [
+          609,
+          3555
+        ],
+        [
+          655,
+          2640
+        ],
+        [
+          667,
+          3496
+        ],
+        [
+          677,
+          3486
+        ],
+        [
+          681,
+          3483
+        ],
+        [
+          686,
+          3479
+        ],
+        [
+          702,
+          3464
+        ],
+        [
+          722,
+          3444
+        ],
+        [
+          827,
+          3361
+        ],
+        [
+          876,
+          3846
+        ],
+        [
+          903,
+          3803
+        ],
+        [
+          907,
+          3800
+        ],
+        [
+          911,
+          3796
+        ],
+        [
+          912,
+          3291
+        ],
+        [
+          915,
+          3793
+        ],
+        [
+          917,
+          3287
+        ],
+        [
+          919,
+          3789
+        ],
+        [
+          922,
+          3283
+        ],
+        [
+          923,
+          3786
+        ],
+        [
+          926,
+          3279
+        ],
+        [
+          928,
+          3783
+        ],
+        [
+          932,
+          3780
+        ],
+        [
+          948,
+          3264
+        ],
+        [
+          948,
+          3771
+        ],
+        [
+          954,
+          3261
+        ],
+        [
+          956,
+          3766
+        ],
+        [
+          961,
+          3763
+        ],
+        [
+          964,
+          3253
+        ],
+        [
+          965,
+          3761
+        ],
+        [
+          1052,
+          3157
+        ],
+        [
+          1179,
+          3030
+        ],
+        [
+          1183,
+          3026
+        ],
+        [
+          1340,
+          2898
+        ],
+        [
+          1349,
+          2895
+        ],
+        [
+          1363,
+          2877
+        ],
+        [
+          1387,
+          2853
+        ],
+        [
+          1394,
+          2845
+        ],
+        [
+          1399,
+          2842
+        ],
+        [
+          1404,
+          2835
+        ],
+        [
+          1409,
+          2831
+        ],
+        [
+          1411,
+          2825
+        ],
+        [
+          1430,
+          2812
+        ],
+        [
+          1435,
+          2808
+        ],
+        [
+          1440,
+          2803
+        ],
+        [
+          1444,
+          2798
+        ],
+        [
+          1448,
+          2792
+        ],
+        [
+          1453,
+          2790
+        ],
+        [
+          1456,
+          2784
+        ],
+        [
+          1461,
+          2781
+        ],
+        [
+          1466,
+          2777
+        ],
+        [
+          1473,
+          2771
+        ],
+        [
+          1481,
+          2762
+        ],
+        [
+          1485,
+          2757
+        ],
+        [
+          1491,
+          2753
+        ],
+        [
+          1569,
+          2684
+        ],
+        [
+          1575,
+          2681
+        ],
+        [
+          1581,
+          2677
+        ],
+        [
+          1594,
+          2664
+        ],
+        [
+          1599,
+          2659
+        ],
+        [
+          1604,
+          2655
+        ],
+        [
+          1608,
+          2652
+        ],
+        [
+          1681,
+          3432
+        ],
+        [
+          1686,
+          3426
+        ],
+        [
+          1691,
+          3419
+        ],
+        [
+          1696,
+          3415
+        ],
+        [
+          1716,
+          3399
+        ],
+        [
+          1805,
+          3862
+        ],
+        [
+          1815,
+          3871
+        ],
+        [
+          1830,
+          3881
+        ]
+      ],
+      "kind": "SUPPORT_GROUP"
+    },
+    {
+      "name": "LOO_P5_560_2538",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          560,
+          2538
+        ]
+      ],
+      "kind": "LOO_P5"
+    },
+    {
+      "name": "LOO_P5_1491_2753",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          1491,
+          2753
+        ]
+      ],
+      "kind": "LOO_P5"
+    },
+    {
+      "name": "LOO_P5_1409_2831",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          1409,
+          2831
+        ]
+      ],
+      "kind": "LOO_P5"
+    },
+    {
+      "name": "LOO_P5_499_3061",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          499,
+          3061
+        ]
+      ],
+      "kind": "LOO_P5"
+    },
+    {
+      "name": "LOO_P5_1691_3419",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          1691,
+          3419
+        ]
+      ],
+      "kind": "LOO_P5"
+    },
+    {
+      "name": "LOO_P5_961_3763",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          961,
+          3763
+        ]
+      ],
+      "kind": "LOO_P5"
+    },
+    {
+      "name": "LOO_P5_1830_3881",
+      "policy": "P5_BUDGET_AWARE_C75_B80",
+      "remove": [
+        [
+          1830,
+          3881
+        ]
+      ],
+      "kind": "LOO_P5"
+    }
+  ],
+  "pilot_names": [
+    "LOO_P0_1051_3158",
+    "LOO_P0_1051_3673",
+    "LOO_P0_1120_2527",
+    "LOO_P0_1393_2846",
+    "LOO_P0_1411_2824",
+    "LOO_P0_1601_2657",
+    "LOO_P0_1684_3428",
+    "LOO_P0_559_2536",
+    "LOO_P0_575_2550",
+    "LOO_P0_747_3425",
+    "LOO_P0_911_3293",
+    "LOO_P0_918_3790",
+    "LOO_P0_973_3748",
+    "LOO_P0_974_3246"
+  ],
+  "budget": {
+    "total_solver_wall_cap_s": 900,
+    "feature_cap_s": 180,
+    "RSS_cap_GiB": 2,
+    "pilot_full_projection_limit_s": 900
+  },
+  "reference_reproduction_translation_max_m": 1e-07,
+  "reference_reproduction_rotation_max_rad": 1e-07,
+  "initialization": "EXACT original per-policy first bridge/local odometry initialization; original chronological graph factor order",
+  "LM_parameters": {
+    "getMaxIterations": 100,
+    "getRelativeErrorTol": 1e-05,
+    "getAbsoluteErrorTol": 1e-05,
+    "getErrorTol": 0.0,
+    "getlambdaInitial": 1e-05,
+    "getlambdaFactor": 10.0,
+    "getlambdaLowerBound": 0.0,
+    "getlambdaUpperBound": 100000.0,
+    "getLinearSolverType": "MULTIFRONTAL_CHOLESKY",
+    "getOrderingType": "COLAMD",
+    "getDiagonalDamping": false
+  },
+  "region": "union of frozen local odometry +/-50m around removed endpoints, evaluated with ONE joint rigid alignment; no independent regional alignment",
+  "GT_inter_robot_error": "fixed union372 measured pair IDs; CSV reference Pose3 convention unchanged from Stage22B; no new extrinsic assumption or retuning",
+  "GT_free_features": "strict earlier P0 factor prefix, common-odometry linearization after first bridge; full joint cross-correlation; predicted measurement=current causal pose between, not actual current GICP transform",
+  "GT_free_scope": "causal prefix-odometry proxy, not optimized ISAM2 posterior or calibrated physical uncertainty; observed current quality is separate realized diagnostic",
+  "map_protocol": {
+    "frame_stride": 10,
+    "point_stride": 16,
+    "voxel_m": 0.5,
+    "range_m": [
+      1,
+      60
+    ]
+  },
+  "map_cases": "baselines, seven temporal groups, both common-only support groups and seven selected P5 removals; full LOO maps not regenerated",
+  "criticality_primary": "signed delta joint ATE; regional metrics are paired same-cohort deltas; TopK positives require delta>0, no fitted materiality threshold",
+  "final_independent_validation": "NO_GO_INSUFFICIENT_BIDIRECTIONAL_COVERAGE",
+  "no_selector": true,
+  "GT_freeze": "GT-free feature file and all solve plans/results written before offline GT evaluator",
+  "GT_free_evaluation_pairs": "all372 known union pairs; no unknown GICP imputation"
+}

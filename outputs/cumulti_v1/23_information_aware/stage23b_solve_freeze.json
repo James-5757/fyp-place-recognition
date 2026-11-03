@@ -1,0 +1,9 @@
+{
+  "cases_completed": 159,
+  "cases_planned": 159,
+  "solver_results_sha256": "f9a09f1221d50d1545c337ba42774955b643a770225344d3b8c51801ee280228",
+  "features_sha256": "40d339ba258947fde12684fd24fa46365ae4b687e72de9d3b59b6afbf2f4ad2d",
+  "GT_used": false,
+  "elapsed_solver_s": 69.47162942960858,
+  "nonconverged": 0
+}

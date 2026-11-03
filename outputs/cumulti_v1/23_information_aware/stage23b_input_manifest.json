@@ -1,0 +1,40 @@
+{
+  "preserved_Stage23A": {
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23_preflight_report.json": "97adf61e508471884faa091e4e55c1bdec510b3a39475d0da69b4d1e88a5daa3",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/raw_file_inventory.csv": "160640166144ed2b512b631d1e57d362c0debc9750b5fabafa1609390159a23f",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/dataset_route_inventory.csv": "e4b3a2ba329712216d6059a0332badb657ed334b5ebec7b31a33d7cd22504693",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/bidirectional_overlap_coverage.csv": "c5c06675e738b640c53005db5a5e64f0985c61b01ae4fcc992540867a77911aa",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23_input_manifest.json": "fa4705cadedc1627653cfa7b95c3662a2e7ee5e160f793f27893ce0094925e0f",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/coordinate_frame_audit.json": "2a673ceaf470e559e9242dda3dfbc456493ce866ebb74df839294f2675bfd00c",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/missing_loop_linearized_information.csv": "15f83a15c0a8f87fcc03b2f5dccbe3e5411e7a45978af02251cb4ace94a8d31e",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23_protocol_draft.json": "cd545a6b0d65c297b516882af9843de455698037968b5727d715a497b82c29cc",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/missing_loop_temporal_clusters.csv": "af83e2629b322266564b42bdc9052716f4d3413388ff83216362f393384a7cc3",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/leave_one_out_plan.csv": "dd626c001c734d882b1a60bbcd1d319fbd27e0c08fa7311c8c9d6e2dd0c156e5",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/missing_loop_summary.json": "57bbe85b3a810850520ceea3b10987bd3a861cdc64c05e8fd68da0ac7d2d802b",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage22b_missing_loop_audit.csv": "5f5831c39fe68810f3b69898e11c4721a332e48adec24c3834375e907cf435b5",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/dataset_sensor_metadata.json": "a2581d18fc1767f602ce4243ea45f43479d02be46e83e118785e4f33c6c159f5",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/candidate_measurement_coverage.csv": "3fd10887ae4b48d5e54c9b9a67f5bbe11a42ed805cf5d899a96b7d7ca176f348",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23_artifact_manifest.json": "e7de719b25725c917a275b12a1d1276eb20051c83a6bb60c42646ffd2ea7a585",
+    "/home/cas/fyp_place_recognition/docs/CUMULTI_STAGE23_INFORMATION_AWARE.md": "d919a5ae5e77fd05bdd9058b3219719ef992d121d4281d06bd5ab2c208c64564",
+    "/home/cas/fyp_place_recognition/scripts/run_stage23_information_aware.sh": "197fd4ed9fea72b6bb9a07f42e93fb5bb1e598e78266c8d4bf3683ee11d5b6fd",
+    "/home/cas/fyp_place_recognition/NEXT_STEPS.md": "4360a11d06ec9ea91895e558ade72a61b6fcc6ca7939a3011ac1e643592afc7b",
+    "/home/cas/fyp_place_recognition/RESULTS.md": "d9d941219a2d859a1faf10d6491f72eabef2b12428c7d93f434acd28fae50912",
+    "/home/cas/fyp_place_recognition/EXPERIMENT_LOG.md": "c1b4825ccd3132663a410a8136640c1cc7dba67fdb9287e95d0c896e8f534756",
+    "/home/cas/fyp_place_recognition/src/cumulti/stage23/preflight.py": "f1a88b571339f3f27a35dedb13ceddc9fc75ad7360f331d12417ff4c40a65155",
+    "/home/cas/fyp_place_recognition/src/cumulti/stage23/finalize_plan.py": "66817e40bc0b9610db01e84011bd9b16019bd339bf3196afc9505f3601f19ce9"
+  },
+  "historical": {
+    "files": 64530,
+    "bytes": 602345163,
+    "sorted_path_SHA256_digest": "9041f5023cf31b22ce3cca660759d87213f4f8a5d6986a097a22c7919c7a16fa",
+    "bytecode_caches_excluded": true
+  },
+  "inputs": {
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P0_FULL_TOP3/online_verified_loops.csv": "68416442e4d173dc55e149e6ff4808ac46414169e65ce8b7fa8ee6a20a02a4be",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/policies/P5_BUDGET_AWARE_C75_B80/online_verified_loops.csv": "8aa40c290e0abfe7fa1901110b633e5f2b1bf29e0242a0a533c10878277b3afc",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/12d_clean_backend/clean_local_trajectory.csv": "64f917ce4282f7d69909f89e8c2225d637e52f66596a97c5c0c47be4fce97297",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22a_online_frontend/dual_stream_event_schedule.csv": "34118ebf4ab016cba1436a46a84108c0211902cb4ad57d2b6d753c235f004677",
+    "/home/cas/fyp_place_recognition/outputs/cumulti_v1/22b_budget_aware/stage22b_experiment_policy.json": "9d641dc81368e50bb60354e1ab0b91f2071e79528421f487075fb72b07188bfa"
+  },
+  "policy_sha256": "0895a411b988136e52752c0f3b5f0115a32d1728bdb66994d3cb4d150ec156a2"
+}

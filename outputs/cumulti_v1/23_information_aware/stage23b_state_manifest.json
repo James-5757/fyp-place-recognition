@@ -1,0 +1,800 @@
+{
+  "artifacts": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1484_2761.npz",
+      "bytes": 539152,
+      "sha256": "8d426190ff097c0053effee9d05ac10b9d4cd1fd4ee1b10e8af186255b999d73"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/P0_COMMON_ONLY.npz",
+      "bytes": 539198,
+      "sha256": "7e4d3f9958cfd8cf73f24b391c4ec82954e13dab7d2c54337a18b388f7ecee20"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1467_2774.npz",
+      "bytes": 539074,
+      "sha256": "a2aac6e939f2afa08c8bd7e1d2bd5c0478f2db2908bc21b4daa278ee4e4c92bb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1479_2765.npz",
+      "bytes": 539133,
+      "sha256": "fef22d880256ac58b2e084528af7d69f9c73bf9b5a2d912eeaae17a599f2c65f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1605_2654.npz",
+      "bytes": 539169,
+      "sha256": "682e6e5f94aef073b24bd8f30bdb29d35e13f9368df112a4b593c05e0a952f71"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_973_3748.npz",
+      "bytes": 539098,
+      "sha256": "4d363b0ce54d96302bb0dc62a4232c20f44c44f9cf20e12ca103717ebe2f5f9f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1349_2894.npz",
+      "bytes": 539163,
+      "sha256": "82cafcb09d59f3f1f0da61a5a0ca43c8210107e749e043040e0404e3c0d76fd7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1572_2683.npz",
+      "bytes": 539129,
+      "sha256": "8ab631f381a20915feb17136aaf7e421cb4713ae2e204dead018af75093fe9a0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1463_2779.npz",
+      "bytes": 539200,
+      "sha256": "e64e69efcab160cf7aeb5a94a30dd27e60cd905b62d647deaec2edeafdf40407"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1474_2769.npz",
+      "bytes": 539178,
+      "sha256": "9dea2cf11e934170133d7aab70c57889d9ebf7d885c78a2a4d2266f4124ee3a3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_716_3452.npz",
+      "bytes": 539109,
+      "sha256": "5947565a08ac7ad9068b0386a2b94441daae1180085bf0649299c83b4d0182e5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1445_2796.npz",
+      "bytes": 539123,
+      "sha256": "cee82d3afd98951e1b70b5edf98bcd6fd026b7619aec71804bd9cbd6b6d16498"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1055_3154.npz",
+      "bytes": 539050,
+      "sha256": "5b21d78b89fc0cca249751be5119c9d84f96cfc5a0444542a981aeefcb8e57cc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_500_3062.npz",
+      "bytes": 539101,
+      "sha256": "b77d60e78bf290a8eb99f85b9686bb68620c32280ad31a9abac6901154c11cc1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1393_2846.npz",
+      "bytes": 539168,
+      "sha256": "0f61347ad6ece92c0f03221bab11c83ebdbe1ab126a05de80cca8162480ecde5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_583_2557.npz",
+      "bytes": 539134,
+      "sha256": "405d571b97548a474a37cbadacd96b49affeef733b80105adda0fd371398d75a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_968_3760.npz",
+      "bytes": 539171,
+      "sha256": "9bedbf3549fc0a67cd2db75f3a39a40fc3285ee1669f156a217fa323fc9ac5ec"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_811_3373.npz",
+      "bytes": 539171,
+      "sha256": "91f2b6542cbdc4962df05f7d0c92368d3f8ab396395167d28b0b78802b9e9b71"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_560_2538.npz",
+      "bytes": 539137,
+      "sha256": "a52615fa09efb32bbea8f96a72aa07e0cbe97be86accd6d999df8c8d4c196050"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1697_3414.npz",
+      "bytes": 539022,
+      "sha256": "11b5a2214c1b23d57ac29731849378b3b2ee480d8a4b9a856f52deb174d2d93c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_918_3790.npz",
+      "bytes": 539097,
+      "sha256": "7747b789fc3544f875497f51d6f7583902d176f9a9a367fc45d0a47ef529502e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1051_3158.npz",
+      "bytes": 539197,
+      "sha256": "fc17c58cf8a9d389479279af29db0b4fe1bfba275a10e804e56720fdf9dfedeb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_941_3268.npz",
+      "bytes": 539193,
+      "sha256": "91f376fa96b69dfdaa0ab1a1fdcefa96d1fda2e8cdb2193a585f64f9fd44f492"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1578_2678.npz",
+      "bytes": 539111,
+      "sha256": "737064a149c92b5bd080fb4b597daaf0429aaa695a2e454b2f45e8ef9c5cf9b7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_1.npz",
+      "bytes": 539122,
+      "sha256": "2af9c11ae39bad1b93f7d00d53a5ebc72dbc982c2bb70e9f10e16b6bfdfa1e0d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_604_3562.npz",
+      "bytes": 539114,
+      "sha256": "5a8363c048471b9e4bbda4b6bcf3caf98538b6b5e527121fa59a198e6a197cf5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_2.npz",
+      "bytes": 539102,
+      "sha256": "1dd51d57b247f8c7a852ae0c6217d52c532258f6d2489f47b977950011c84943"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_546_2529.npz",
+      "bytes": 539156,
+      "sha256": "1843f1cac9eaf77f067d6bb0177d3187e35a9f8ed6a4ddc1d55773c9649b74ef"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_508_3070.npz",
+      "bytes": 539113,
+      "sha256": "aecaf3f21fac092606133ef819c75d7e5e019dd681d2f85e7f7e7a28f2a07ce3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_492_3055.npz",
+      "bytes": 539026,
+      "sha256": "8e8dbe192c8a39fd5c92446aed51776b1be4f58e164281d7230040ca57fce30d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/P5_COMMON_ONLY.npz",
+      "bytes": 539198,
+      "sha256": "7e4d3f9958cfd8cf73f24b391c4ec82954e13dab7d2c54337a18b388f7ecee20"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_692_3473.npz",
+      "bytes": 539175,
+      "sha256": "4afe061fda0cf57f92f1b3381c32920254e73fd1590b7914a1f8beb52a4df0c0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_922_3787.npz",
+      "bytes": 539136,
+      "sha256": "df673a1532acd622ab246f696a13ff6c31271f50d4a40f084e03151ca0558921"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1055_3670.npz",
+      "bytes": 539188,
+      "sha256": "9cc9da62eba1f55dae17ff5b2a9ace1cd224c853f27ec7b6452d918a09a52678"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1340_2897.npz",
+      "bytes": 539148,
+      "sha256": "a812717835c41de4405b392057b454cb2a0f89bb7447f6b25f75d22df4209017"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_660_2645.npz",
+      "bytes": 539174,
+      "sha256": "7b3ef1fec49729c18e7fa4718a286f2a934e05eb85e4521061e5b2d120dcdc43"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_504_3066.npz",
+      "bytes": 539164,
+      "sha256": "fd22f92ae30bdf124d6ba6c59c7674b15657598fab3bc4287fb170c1a7c975df"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_874_3849.npz",
+      "bytes": 539151,
+      "sha256": "0ce5cd805c9334a623c5658134c1f3279e93626b8214f16f160c92704d014045"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1184_3025.npz",
+      "bytes": 539163,
+      "sha256": "6461de17667f355e228e4fd6be5598e85bb5e031462a8b068e7c4ef181274f91"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1610_2650.npz",
+      "bytes": 539242,
+      "sha256": "752cf1b34cc40b2b517f1ea4109b2c6e813b2c490bf9b81769517b4688070efc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1593_2665.npz",
+      "bytes": 539171,
+      "sha256": "7b79ef76d723b58c8614675ef0c338f57f550504e6640ccf504229e2a5e387f0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1807_3864.npz",
+      "bytes": 539127,
+      "sha256": "8623b244de9226a80d7c25e983bbcb3a506c7d1677a7d914c6b918c8a5123fb0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_517_3075.npz",
+      "bytes": 539219,
+      "sha256": "1e56ec42b4eed439d0ead341638ec6f233864506c27c0ad1a955645a990bb9b5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_931_3781.npz",
+      "bytes": 539167,
+      "sha256": "336ac2a1530ea36c86bc21066a8058bdc7feeacc972a7ad28c343f4c2ca8cfea"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_599_3567.npz",
+      "bytes": 539113,
+      "sha256": "7b97eee06260d0e0a6d920ba16de78c45c282c25efc24cdb81b63f2b494cb93c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_595_2569.npz",
+      "bytes": 539167,
+      "sha256": "5a1e62d08b0bea00af92c5f370a050fefdbd8bdfeb273b3b75125168a956301b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_741_3430.npz",
+      "bytes": 539226,
+      "sha256": "91d742f658b6a47220753f65dca472e31647d4d9b964d98c3c3a9ac0d0cbb852"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1802_3860.npz",
+      "bytes": 539179,
+      "sha256": "14a5c40744e9dfd074b1101bf70c5264d6d6b06d7edb8bd9fd983d99eb101aab"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_940_3775.npz",
+      "bytes": 539127,
+      "sha256": "48beeb3d40e0d9021bd69539a8f67c630ff5c051de772bbbdafc42b68deaee53"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1597_2661.npz",
+      "bytes": 539142,
+      "sha256": "338673b1810148cf1bbf41ef9f6465e21bb8539431a092244744c42352904a1d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_954_3767.npz",
+      "bytes": 539112,
+      "sha256": "94bf3767fca784618a655ba84576d43037ac408c34cc59daa4b89503dec9c97a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1582_2674.npz",
+      "bytes": 539119,
+      "sha256": "d3fde3062448e7763e7a966f032d84d9dfabd1ef38ed80fe412bcd5abc52df3d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1441_2802.npz",
+      "bytes": 539179,
+      "sha256": "178452bc11a16541be36477c031578d3f099496512ae4cd1d060ae8a9448cb7f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1450_2791.npz",
+      "bytes": 539179,
+      "sha256": "17eca4901391c11124c45459b09e4e6e923c5899d3129b038c4606690663c720"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1390_2852.npz",
+      "bytes": 539105,
+      "sha256": "fc8bf3d13f2bf2370473fed5b4d17062dec0d94e37a6563f792c370a5f6977ce"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_599_2573.npz",
+      "bytes": 539073,
+      "sha256": "80eab87980839668c308c830f12fcb7e3e424e3bfa2391c8c1dd122522ad1175"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_499_3061.npz",
+      "bytes": 539156,
+      "sha256": "951a65da377845e3f8daf947ec001438ef51b43dff88ed3424324448cc7e266f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1693_3418.npz",
+      "bytes": 539177,
+      "sha256": "26581e8f656d18b7cd2eb6275494f5bdde434fba10c9568704227495bd1afdc5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_949_3770.npz",
+      "bytes": 539162,
+      "sha256": "d873409f2675c086ab09c50fb09d78bd04d096df67b25322b0723e154d913a06"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_704_3463.npz",
+      "bytes": 539088,
+      "sha256": "c1bd41c81a6de23cfd9fc0abb52e7c7e970a01ea6c1031bb6552818727010cc0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1411_2824.npz",
+      "bytes": 539272,
+      "sha256": "52aeb370deab30f89d56fa42b4f3f2d5f2ac4a3f7d718f7094dc6048026b2932"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1820_3873.npz",
+      "bytes": 539128,
+      "sha256": "145c86f79caae74b4bc207c5e42baab2cea6016fcb176c1d36ea18317852e84b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_608_3557.npz",
+      "bytes": 539025,
+      "sha256": "0d9275654d4721fa7ad44d7623d267928114ea042f4f60fc0a8e3f23a6195c22"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_575_2550.npz",
+      "bytes": 539143,
+      "sha256": "50ddbe67b28bd53161e37d5820f07f65c90d5ebac05d1e3e24d08aed48ad50c9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_926_3784.npz",
+      "bytes": 539179,
+      "sha256": "2be45ff1c99ff23b055fa7c4f4e97ec2bf7d056be3e5ecd881d4f89777898726"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1718_3398.npz",
+      "bytes": 539283,
+      "sha256": "f7e7de26cc764dbac58376310fa4c0f6726c0d5ed190038388fa520c510839f9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_700_3466.npz",
+      "bytes": 539102,
+      "sha256": "7e0cfc94100573b749e433a91c43c1c462bb70d39612a5f17cffb1b846e66557"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_945_3773.npz",
+      "bytes": 539100,
+      "sha256": "aa8b80e9ec84cad075f1f917f50e288a324ce617aeb56be56ba45e7792f82d12"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_538_3093.npz",
+      "bytes": 539173,
+      "sha256": "a0735a4d8477517bd04bfd92a38939af7a922783e629e0b9be57c13140d461e4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_919_3286.npz",
+      "bytes": 539014,
+      "sha256": "b84222e6b8cec8782506ea8c6d85a7bd57064fe8e34078d3092f5ff97c21d74f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1488_2756.npz",
+      "bytes": 539176,
+      "sha256": "2c5e15b37361c113c481ed3af0d213433f4844007c84f17491c098eacd645b13"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_0.npz",
+      "bytes": 539233,
+      "sha256": "bdc576bad2cf2a3efbe95f3f38927502d1e8217977080e405fe7e77ff143e171"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1051_3673.npz",
+      "bytes": 539241,
+      "sha256": "6f2aa5bb288282b4c4c1652c50a0ee29703753314e281af284b16366267c9705"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_876_3843.npz",
+      "bytes": 539179,
+      "sha256": "97919d9b08c6850473b0d644f12b51088cf8c9b71c83e1f83c6857e537774fa2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_961_3763.npz",
+      "bytes": 539223,
+      "sha256": "07e961c158b6fc49d271783f8ef1fab7b87d903d508718135e04959e18902490"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_1491_2753.npz",
+      "bytes": 539112,
+      "sha256": "26589cf8191c3f29ce3d53ab8c6c80b4fff43ad42aeaa5f80960a91c8c5a9e1f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1410_2830.npz",
+      "bytes": 539088,
+      "sha256": "5cb2d37c8f688cf5ab1e8a86d5bc152c5287bd1d5bac3b78ed97835340ffd6cb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_845_3356.npz",
+      "bytes": 539122,
+      "sha256": "b68e8579112a0922814e80497a6bc16065d14247f90d493728a59389e71af7f5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1680_3433.npz",
+      "bytes": 539134,
+      "sha256": "b2bebb54d7e35966a02dbe5b23daa24e006f315168b989cc1d046ed63f03989b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_652_2636.npz",
+      "bytes": 539169,
+      "sha256": "56ddba4e7e2f06ae11b239fb6442c1f49f79528883f2337cb6b7caf97e0ce64d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_816_3368.npz",
+      "bytes": 539052,
+      "sha256": "8cce35d8f9e7b148d37ea6ba0570fee8a3a7814ddda7fc5483d20a88b80bd096"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_914_3794.npz",
+      "bytes": 539168,
+      "sha256": "85307d272b16910c03e0c076071bca63606dc9579859f5c0920a91f97209fcac"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_902_3804.npz",
+      "bytes": 539194,
+      "sha256": "4063f60440c68c8f6b17dc2ee8579693597e3b4ca1748244b662ccd7edabe587"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_724_3442.npz",
+      "bytes": 539098,
+      "sha256": "930971769617c95d05a0f0e2e51a9b412ab7a5e27dca9a38c8eee9b2341bdebd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_571_2546.npz",
+      "bytes": 539159,
+      "sha256": "617988de4baa7ba3cd6fcbaa60d97550f621754c120b5bed3f02a2923425aa94"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_958_3765.npz",
+      "bytes": 539216,
+      "sha256": "1aee01252e1f0fcb792e47df8c6160b1c4f5e47f67526d0edd0064335c798cc1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_3.npz",
+      "bytes": 539233,
+      "sha256": "4b5a253e7e597d2f9024981e52bf35ecd1c2013f3967f08ff73ff20031252f3c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_945_3266.npz",
+      "bytes": 539109,
+      "sha256": "4aaa8b72bd6601807efe162d7b70b0bec2499ad95f05715456bd9e80153eb6a9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1824_3877.npz",
+      "bytes": 539164,
+      "sha256": "7a8e57fe0e0c20660d2bb67e9ad88638fa6fed9405428011e84ef67943990a27"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_963_3762.npz",
+      "bytes": 539162,
+      "sha256": "2a415909af0bd5b0d82d24b19abae679631f2c54277c18546f712b23ac0937ef"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_579_2553.npz",
+      "bytes": 539099,
+      "sha256": "d446685cf8462deb0faec2afe9d480a5a25b09fc2695f019222da178ecf09159"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_720_3447.npz",
+      "bytes": 539166,
+      "sha256": "c5dd99ca883abd7b08dda4bc633f796fdaf61d2c1f5a661e9227c49f24605f9e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/BASE_P5.npz",
+      "bytes": 539223,
+      "sha256": "25d432b286c44f58228d8e049cd181150f872932af9ffd2c11add40f4e607e01"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1655_3457.npz",
+      "bytes": 539036,
+      "sha256": "34d7e8aef8590fedfd70e7a0217c5257d920ac99eeec34ba09fd6304ec5cd3b9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_923_3282.npz",
+      "bytes": 539109,
+      "sha256": "b35e011db61bf8b8ff2d7ff99ae3c20cd44c33eb9a32c63be821bec5877324c9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_4.npz",
+      "bytes": 539152,
+      "sha256": "1001600eac5b28ac21ef312e9103376b2f2d24b1564961671cc7ed11e9fd26fe"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_612_3553.npz",
+      "bytes": 539119,
+      "sha256": "cf7553d1a2ea629c2399cfbf00732a48033632ee3c77ec8cc914df9ea5c44428"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_955_3260.npz",
+      "bytes": 539168,
+      "sha256": "2ff7f1b640bbc1329d876a0e8e78fc8a82c0eb27ed561b397d7cc9576e7e09fe"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_696_3469.npz",
+      "bytes": 539172,
+      "sha256": "2def9d40303c80462de2e557b878b7d7ea1db5936b2b073fa4cbe6c1f95b557c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_559_2536.npz",
+      "bytes": 539118,
+      "sha256": "7831100c80c19a9f2085b772526818ebaa3c7bd1b354756dcac4c7e3fcc16e99"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1180_3029.npz",
+      "bytes": 539177,
+      "sha256": "77066e409e8f18517e4406f7026b806cff3afa88b233862a9e1805abe793fb51"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_589_3577.npz",
+      "bytes": 539291,
+      "sha256": "cd285c61c0eb812de43e070b6aa1969cb635485b53e424f92f1490cbe92b5c49"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1406_2834.npz",
+      "bytes": 539113,
+      "sha256": "bbbd4147788c0837898fcef79bb958486327df44e28f61a02203c422f62a234e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_6.npz",
+      "bytes": 539126,
+      "sha256": "cb5de73d9dfdc6baba5b0bf8c853d467c257e9c28a0c1554176d4f3b2935bc74"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_488_3050.npz",
+      "bytes": 539148,
+      "sha256": "6bc09e8879d8fd588a72c064beece4ad449db33acbd3cde4f409578cea8297fb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1372_2866.npz",
+      "bytes": 539035,
+      "sha256": "13ae7cfac3d289379e97c3d2ca151b51c3486b328355f36f0dd52ff273862020"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/GROUP_CLUSTER_5.npz",
+      "bytes": 539311,
+      "sha256": "02db3592a5f7362c59e7ce954c13c691f76079702c30ae0588982784bf46b496"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_876_3349.npz",
+      "bytes": 539073,
+      "sha256": "27639627868264a7002fc1a9e940c4dddc15454d58815733c19a851685f055a9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_680_3484.npz",
+      "bytes": 539105,
+      "sha256": "525e5aa9623191cc9a70400822f7de797624f3da0312a5b18ebc9dc2de11b215"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1432_2811.npz",
+      "bytes": 539128,
+      "sha256": "d7784e6e1c463c0b7a5e9fd2ae343e5bee3ab939797a75bac9ef7e98a719073c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_594_3572.npz",
+      "bytes": 539172,
+      "sha256": "8eeac2578ebaccce386762619f6ebbc78971f9795a27f2ca26ab930e43976408"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_747_3425.npz",
+      "bytes": 539167,
+      "sha256": "bd1d5134b3928cac2f70d4ad8f9fda68fc2854d2a4195f1014503aef69e2662e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_911_3293.npz",
+      "bytes": 539128,
+      "sha256": "4f3e4ede3a82454f8d044cf47eff42e906ad94378e055d654eb88b8283637834"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_915_3290.npz",
+      "bytes": 539262,
+      "sha256": "ee934350c598cb21aba227f14b015ca3267a7d6e57b0f30feb5104a3d5b59373"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/BASE_P0.npz",
+      "bytes": 539097,
+      "sha256": "7867ef775df57363256f809b7b28a355368592da34d921a07fd240eec5d2166f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_675_3488.npz",
+      "bytes": 539141,
+      "sha256": "2b207cd99573fbecb530d5111f4c0ccecb168ac84e3d6223930916f93eb6d20a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_950_3263.npz",
+      "bytes": 539124,
+      "sha256": "a7b07240853a4fc280c42718ff02711407c9b3d03f4fcf4071950996c7ee6c27"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1688_3423.npz",
+      "bytes": 539083,
+      "sha256": "0f866738221e8c36769dc224668b242d56b14bd77814fcce46b50c3fbeaff839"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_906_3801.npz",
+      "bytes": 539157,
+      "sha256": "92727701075ae28a7dc7168bd7ad22467d71c5ae9e1c267aa0195b48c91d5fc5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1363_2874.npz",
+      "bytes": 539151,
+      "sha256": "d1aeb9a73ece65bbaddf8c21666af622ef81e04c707d8275c52d77b3aed11136"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_827_3360.npz",
+      "bytes": 539080,
+      "sha256": "fd8bbaaae716a8e0e76e33c7bfe577fec4d89843b9538cd1e1aadc9d4c3b7570"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_513_3072.npz",
+      "bytes": 539163,
+      "sha256": "94136a4933dfc79a82a2ee38a09a549129e5abefc91a878279811c51833d3001"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_967_3251.npz",
+      "bytes": 539082,
+      "sha256": "c8018042afa7ef541b82d00eae887a4901e48235a398d668bc90a0922111f083"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_383_2932.npz",
+      "bytes": 539135,
+      "sha256": "069dd334b748da620c043b124a68f6f3c1117c1050a2e81c87133f41e876a3b3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1458_2782.npz",
+      "bytes": 539155,
+      "sha256": "66687eb7d03886979f5224c715e3d6bb21ebf69c875c97ff59ec79e9cfbece06"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1491_2750.npz",
+      "bytes": 539178,
+      "sha256": "0348646b56503571bcb329dec338927620a4e467222d534850c67ef3123c0bd1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1437_2806.npz",
+      "bytes": 539170,
+      "sha256": "38d9b4a4347f98c61d81a186b7650d77e308e643146d198a7219d328fde60475"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1601_2657.npz",
+      "bytes": 539162,
+      "sha256": "4ac42bb68dff25e635b8f912390cc11915fc7a6a3bfdeb95e5dd68d8eba16f6c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1397_2843.npz",
+      "bytes": 539184,
+      "sha256": "9a89381992a403411d7829dc17edd62211828ac916cc2aab2877d0d765e78c79"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_496_3059.npz",
+      "bytes": 539211,
+      "sha256": "a559417a2da2b58f57fb5a73279f698214e2844f4e030f84f7ed6a480f70991c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_563_2540.npz",
+      "bytes": 539107,
+      "sha256": "b866c1113a0175181961101ea32561a938286d6e6cd98e93730f2a0604582df9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_616_3548.npz",
+      "bytes": 539160,
+      "sha256": "ae2fc94aacbb8ace47a717a493d8508559ce860b402218fb429df179f140426c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_1409_2831.npz",
+      "bytes": 539094,
+      "sha256": "54bdb6efd7c8eeec16224ae0133476ad85e0d45293fdbb6c37bb359a8ba945e4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_870_3353.npz",
+      "bytes": 539115,
+      "sha256": "0ebb5a41bf6f73615b9594ef8c5db430d068ba92f1f2a4d1c705bf35e7c530fe"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_1830_3881.npz",
+      "bytes": 539247,
+      "sha256": "92c11d3dbf84456dc15f1f125f5c65f910bcbaf1308fcb2ec9fea3933144f85a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P5_1691_3419.npz",
+      "bytes": 539120,
+      "sha256": "56f3d24d06f648b15a3d5931f049aed3d23c3cd9bd06e4c55f1b69dce7a127bc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1401_2839.npz",
+      "bytes": 539157,
+      "sha256": "f8c274c0c5117d606333d77e2aee70347fbaecfb311ccaf313635d17109766fd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_974_3246.npz",
+      "bytes": 539190,
+      "sha256": "44987bae9a58ba8fd35638038a2cb170805a62f37ac022769fd201d7362aa054"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_933_3273.npz",
+      "bytes": 539187,
+      "sha256": "57ab82fe029c0070d0b7ff1014afb8b54671a0c27fbf6cd0ec45c3a323ebabbd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1120_2527.npz",
+      "bytes": 539113,
+      "sha256": "e66266421fe2eee3cb9d57d8886fd8d106c00289f236aef7f74114b2c60842c3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1495_2745.npz",
+      "bytes": 539174,
+      "sha256": "eadb13c5edcc49a8d69954747da7a77f5afdc9114505c6ca4180308f89875d6e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1676_3437.npz",
+      "bytes": 539148,
+      "sha256": "facadcddd25d1d386922d32b32643f04ac053ce8fadd4dca5dee7dfddf7e719f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_433_2983.npz",
+      "bytes": 539049,
+      "sha256": "351ee446f9d0e119a1f6a5a2fc9e69b53663cc3e6fa69072214b5185a0a5dfe3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1386_2854.npz",
+      "bytes": 539149,
+      "sha256": "bd34d8214218a6ad9965e74156a732d2852ff17a2c55737cd61e77b428a7664b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_591_2565.npz",
+      "bytes": 539125,
+      "sha256": "23104cf66be6d7453f84fa403df5418b77758ab5d16f298ad9c3c96e5eee81da"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_928_3278.npz",
+      "bytes": 539100,
+      "sha256": "84457c3a9bb0a9544e0a0ebb684d7ea140cce90b6ae829153a48d5979e841ef2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_667_3495.npz",
+      "bytes": 539085,
+      "sha256": "6ebdca3ffb2446112b80208b3f2f02425d4acd0d57491cb123232b06f2f69772"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1684_3428.npz",
+      "bytes": 539087,
+      "sha256": "de35bc04392e6effddec3053ec455b2a15e38cce4c6840a812c4e04bbe2832dc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_688_3478.npz",
+      "bytes": 539273,
+      "sha256": "6b2ecc98f7bc57c1706238e91b89dcbf0aa4941f7c667f9ada478bc2020bb775"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1815_3870.npz",
+      "bytes": 539139,
+      "sha256": "d948be4f6e746451c0be5c007798ac8018e94d0d9c8cdb9a571c0b5942fbc191"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_554_2533.npz",
+      "bytes": 539083,
+      "sha256": "6698bb2eb167befff2311f716fb48f1338f886302812cc8da94780465e1626b3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1748_3379.npz",
+      "bytes": 539174,
+      "sha256": "4a1fec544705e12fae0cf8831c1fb2b08befeefdb3d0652201dfbb9e3fc63056"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_587_2561.npz",
+      "bytes": 539118,
+      "sha256": "37cdc7964ed6a9e53b6515c170b587e0cb0cf0bb81ff59967847ec8b1ba7ae9a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_935_3779.npz",
+      "bytes": 539144,
+      "sha256": "32ab75a5a55fd1e73a40454897a7540df7b62cd791f48f0fd8de043a8bc1fba7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1830_3880.npz",
+      "bytes": 539091,
+      "sha256": "f64827e04fa2a2d316ce053236e8a0aabadc48e19e0ceee96491b936b928a544"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_656_2641.npz",
+      "bytes": 539166,
+      "sha256": "fa998f54ad5d0dec70a0a4412ccd7f719af14b9cadd7857afcb3363a4d9b8fbb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_1454_2787.npz",
+      "bytes": 539161,
+      "sha256": "84e3f42271cfb5423b14bee513e4f89e5ed83c8b6214d07aa1233c4beecd7c6a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_684_3481.npz",
+      "bytes": 539147,
+      "sha256": "8a8b4895cfce615f927fa05d2f993c6d81edf19c922673ad9c990eac9ad5a0d6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/23_information_aware/stage23b_states/LOO_P0_910_3797.npz",
+      "bytes": 539190,
+      "sha256": "e0aeb8fe0d88e8b55674eb84ee04ff13e340962b9bf7c3b38720d8697bc1a405"
+    }
+  ],
+  "server_only": true
+}
