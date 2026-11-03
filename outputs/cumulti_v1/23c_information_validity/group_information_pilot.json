@@ -1,0 +1,38 @@
+{
+  "cases": [
+    {
+      "case": "GROUP_CLUSTER_3",
+      "factors": 2,
+      "joint_endpoint_dimensions": 24,
+      "measurement_dimensions": 12,
+      "exact_fixed_Gaussian_group_information_nats": 17.08296435434645,
+      "sum_individual_addition_information_same_base_nats": 22.11739442548286,
+      "information_redundancy_nats": 5.034430071136409,
+      "mean_original_prefix_nominal_information": 12.429598209737751,
+      "runtime_s": 0.07270173262804747,
+      "linearization": "frozen full P0 Batch, RETROSPECTIVE_ONLY",
+      "Gaussian_weights": "actual frozen robust factor linearizations at the SAME values; no across-solution monotonicity claim",
+      "global_dense_information_matrix": false
+    },
+    {
+      "case": "GROUP_CLUSTER_0",
+      "factors": 13,
+      "joint_endpoint_dimensions": 156,
+      "measurement_dimensions": 78,
+      "exact_fixed_Gaussian_group_information_nats": 75.12804701545508,
+      "sum_individual_addition_information_same_base_nats": 92.64564671637888,
+      "information_redundancy_nats": 17.517599700923796,
+      "mean_original_prefix_nominal_information": 10.629216975158899,
+      "runtime_s": 0.08852493297308683,
+      "linearization": "frozen full P0 Batch, RETROSPECTIVE_ONLY",
+      "Gaussian_weights": "actual frozen robust factor linearizations at the SAME values; no across-solution monotonicity claim",
+      "global_dense_information_matrix": false
+    }
+  ],
+  "projection_model": "nonnegative constant+cubic fitted to TIMING ONLY, not GT outcomes",
+  "modelled_all_group_seconds": 1.9091099460463326,
+  "actual_pilot_seconds": 0.1612266656011343,
+  "peak_RSS_mib": 207.37109375,
+  "frozen_cap_s": 900,
+  "feasible": true
+}

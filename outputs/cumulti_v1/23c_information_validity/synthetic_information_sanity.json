@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "fixed_logdet_before": 4.605170185988092,
+  "fixed_logdet_after": 9.230142999272363,
+  "fixed_PSD_information_gain_nats": 2.312486406642136,
+  "covariance_trace_before": 1.02,
+  "covariance_trace_after": 0.019803921568627453,
+  "unbiased_expected_squared_error_trace": 1.02,
+  "unbiased_monte_carlo_MSE": 1.008292674098855,
+  "unbiased_realized_error": 0.0,
+  "biased_realized_error": 3.960978446028694,
+  "gauge_nullity": 1,
+  "unanchored_global_covariance": "UNDEFINED_NO_FAKE_INVERSE",
+  "Pose3_tangent_order": "rx ry rz tx ty tz",
+  "Pose3_exact_Logmap_Jacobian_max_error": 8.091609049465376e-10,
+  "joint_cross_block_norm": 0.066332495807108,
+  "relative_covariance_error_ignoring_cross": 0.5932958789676532,
+  "sparse_solve_residual": 4.860382394438714e-12,
+  "anchored_toy_condition_number": 102.03019898020393,
+  "full_dense_global_graph_matrix": false,
+  "scope": "fixed-linearization Gaussian identity, NOT nonlinear robust global monotonicity or real measurement bias diagnosis"
+}

@@ -1,0 +1,33 @@
+{
+  "additional_calculation_cap_s": 900,
+  "RSS_cap_GiB": 2,
+  "new_nonlinear_solver_calls": 0,
+  "new_GICP_calls": 0,
+  "pilot_groups": [
+    "GROUP_CLUSTER_3",
+    "GROUP_CLUSTER_0"
+  ],
+  "representatives": "unchanged14 Stage23B pilot IDs; no GT-driven case selection",
+  "cohorts": {
+    "P0_only": 141,
+    "P5_only": 84,
+    "common": 147,
+    "total": 372
+  },
+  "bootstrap_seed": 2303,
+  "bootstrap_replicates": 1000,
+  "primary_bootstrap": "seven frozen Stage23B missing-loop temporal clusters resampled with replacement; preserve within-cluster dependence; CI exploratory with only7 clusters",
+  "secondary_bootstrap": "IID factors, explicitly dependence-ignoring sensitivity",
+  "top_K": [
+    10,
+    20
+  ],
+  "small_N_rule": "n<20: no bootstrap CI, exploratory correlation only",
+  "state_rule": "never substitute full/future optimized values for a missing prior-event optimized state",
+  "fixed_information": "sparse robust Gaussian factor Jacobians at frozen full-P0 Batch reference, with the SAME values for full/removed-group graph; group covariance preserves joint cross-blocks",
+  "nonlinear_comparison": "read already solved frozen LOO states; no new optimize; state+robust reweight effects not uniquely causally separated",
+  "group_information": "exact fixed-Gaussian logdet joint addition to graph without group; compare sum individual additions to that SAME group-removed base",
+  "signed_impact": "unchanged Stage23B signed deltas; no clipping negatives or fitting cutoffs",
+  "predictions": "no optimized combination, learned weights, thresholds, classifier or deployed selector",
+  "independent_validation": "NO_GO_INSUFFICIENT_BIDIRECTIONAL_COVERAGE"
+}

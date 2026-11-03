@@ -1,0 +1,11 @@
+{
+  "status": "COMPLETE",
+  "representatives": 14,
+  "exact_groups": 7,
+  "new_nonlinear_optimization_calls": 0,
+  "new_GICP_calls": 0,
+  "elapsed_s": 5.026064827106893,
+  "peak_RSS_mib": 221.109375,
+  "dense_global_matrix": false,
+  "GT_used": false
+}

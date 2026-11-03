@@ -1,0 +1,11 @@
+offline_GT_positive,field,n,median,p95,threshold_fitted
+False,GICP_quality,8,0.6222392152104113,0.6290048045631653,False
+False,GICP_fitness,8,0.8828571704345183,0.8894965405564551,False
+False,GICP_RMSE,8,0.4169396503548066,0.42647579427923,False
+False,pre_insertion_normalized_residual,8,47.28793502194894,47.898447802227174,False
+False,full_P0_diagnostic_huber_weight,8,1.0,1.0,False
+True,GICP_quality,364,0.6428540461982604,0.6973109726265874,False
+True,GICP_fitness,364,0.8936856927337731,0.9495130983339986,False
+True,GICP_RMSE,364,0.3844782608521957,0.4145749439049079,False
+True,pre_insertion_normalized_residual,363,51.69938784172924,88.83888269736019,False
+True,full_P0_diagnostic_huber_weight,364,1.0,1.0,False

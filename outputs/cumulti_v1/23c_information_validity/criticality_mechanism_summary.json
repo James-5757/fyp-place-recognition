@@ -1,0 +1,51 @@
+{
+  "primary_conclusion": "NOMINAL_INFORMATION_PROXY_NOT_SUPPORTED",
+  "additional_observations": [
+    "GROUP_INTERACTION_IMPORTANT"
+  ],
+  "scope": "RETROSPECTIVE_EXPLORATORY only; no optimized feature combination, cutoff, weights or model fitted",
+  "original_nominal_correlation": {
+    "cohort": "P0_ONLY",
+    "predictor": "nominal_info_nats",
+    "target": "delta_joint_ATE_RMSE_m",
+    "availability": "PRE_VERIFICATION",
+    "n": 141,
+    "Spearman_rho": -0.24460379297058946,
+    "uncorrected_p": 0.0034646086178863286,
+    "CI_method": "CLUSTER",
+    "CI_95_low": -0.441428171311671,
+    "CI_95_high": -0.20226824355913636,
+    "bootstrap_valid_replicates": 1000,
+    "top_K": 10,
+    "top_K_exact_overlap": 0.1,
+    "random_overlap_reference": 0.07092198581560284,
+    "status": "RETROSPECTIVE_EXPLORATORY",
+    "CI_caveat": "7 exposed-route clusters are NOT independent recording replication; IID ignores dependence; no feature/model selection"
+  },
+  "cohorts": {
+    "P0_only": 141,
+    "P5_only": 84,
+    "common": 147,
+    "total": 372
+  },
+  "direct_LOO_outcomes": {
+    "P0_only": 141,
+    "P5_only": 7,
+    "P5_only_missing": 77,
+    "common_missing": 147
+  },
+  "existing_temporal_groups": 7,
+  "false_factor_count": 8,
+  "unknown_GICP_candidates_unchanged": 2112,
+  "actual_optimized_causal_state": "OPTIMIZED_CAUSAL_STATE_NOT_AVAILABLE",
+  "new_GICP_calls": 0,
+  "new_nonlinear_solver_calls": 0,
+  "regression_or_selector_fitted": false,
+  "final_independent_validation": "NO_GO_INSUFFICIENT_BIDIRECTIONAL_COVERAGE",
+  "fixed_removal_cov_components_nonnegative": true,
+  "max_cov_decomposition_closure_error": 7.815970093361102e-14,
+  "robust_state_attribution": "combined observational decomposition only; no unique percent contribution or controlled robust-weight intervention",
+  "maximum_group_nonadditivity_m": 0.26597086308427015,
+  "analysis_elapsed_s": 4.261639281176031,
+  "recommended_next_P6": "prospective communication-aware P5 improvements, cache reuse, explicit coverage constraints and budget scheduling; do not promote information-first ranking from these GT-exposed data"
+}

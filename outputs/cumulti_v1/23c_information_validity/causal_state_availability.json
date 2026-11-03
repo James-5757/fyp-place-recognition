@@ -1,0 +1,10 @@
+{
+  "status": "OPTIMIZED_CAUSAL_STATE_NOT_AVAILABLE",
+  "P0_P5_available_states": "final full trajectories only; Stage23B ablation states all final full5796-node states",
+  "Stage20_snapshots": "actual earlier states exist but belong to archived75 graph, NOT P0/P5; rejected as replacements",
+  "final_states_used_as_causal": false,
+  "prefix_model": "unchanged Stage23B common-odometry prefix; earlier first-bridge initialization only",
+  "quality_rows": 372,
+  "prefix_quality_file": "causal_prefix_measurement_residuals.csv",
+  "prefix_quality_sha256": "32791faf10fafe56f07ce4f41b0be21070efb38efa8e886654c2bc73eac5c37c"
+}

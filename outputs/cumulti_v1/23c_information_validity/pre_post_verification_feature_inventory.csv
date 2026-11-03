@@ -1,0 +1,22 @@
+feature,availability,GT_used,caveat
+SC_score,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+SC_rank,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+SC_confidence_frozen,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+estimated_transfer_bytes,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+coverage_gain,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+original_prefix_nominal_information,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+original_prefix_uncertainty,PRE_VERIFICATION,False,"frozen earlier reference prefix/cache; common-odometry proxy, not an optimized posterior"
+GICP_fitness,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+GICP_RMSE,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+GICP_quality,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+canonical_transform,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+pre_insertion_residual,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+normalized_residual,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+pre_insertion_huber_if_added,POST_VERIFICATION,False,pre-insertion means AFTER current registration and BEFORE factor insertion; never a pre-exchange selector input
+full_batch_robust_weight,RETROSPECTIVE_GRAPH_ANALYSIS,False,"complete frozen graph/states, never substitutes for causal prefix"
+fixed_full_graph_information,RETROSPECTIVE_GRAPH_ANALYSIS,False,"complete frozen graph/states, never substitutes for causal prefix"
+nonlinear_LOO_covariance_change,RETROSPECTIVE_GRAPH_ANALYSIS,False,"complete frozen graph/states, never substitutes for causal prefix"
+exact_group_information,RETROSPECTIVE_GRAPH_ANALYSIS,False,"complete frozen graph/states, never substitutes for causal prefix"
+signed_delta_ATE,OFFLINE_GT_EVALUATION,True,not a selector feature or independently validated training target
+regional_GT_error,OFFLINE_GT_EVALUATION,True,not a selector feature or independently validated training target
+offline_false_label,OFFLINE_GT_EVALUATION,True,not a selector feature or independently validated training target

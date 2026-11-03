@@ -1,0 +1,15 @@
+{
+  "reason": "separate immutable causal-prefix artifact from subsequently augmented retrospective quality table; no math/input/threshold change",
+  "previous_calculation": {
+    "status": "COMPLETE",
+    "representatives": 14,
+    "exact_groups": 7,
+    "new_nonlinear_optimization_calls": 0,
+    "new_GICP_calls": 0,
+    "elapsed_s": 5.582214917987585,
+    "peak_RSS_mib": 221.37109375,
+    "dense_global_matrix": false,
+    "GT_used": false
+  },
+  "new_nonlinear_or_GICP_calls": 0
+}
