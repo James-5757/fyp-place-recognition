@@ -14,6 +14,13 @@ Three persistent panels keep local coordinates immutable. Before the bridge, the
 
 Play/Pause/Reset/Seek, 0.5x/1x/2x/4x, camera follow/top/perspective, panel/provenance/trajectory/loop toggles and twelve checkpoint jumps are provided. The base compression is 10 recorded seconds per demonstration second; the speed multiplier does not change stream timing ratios. R1 completes before the late R3 constraints become available. K thresholds may be crossed by multiple loops in one event: the displayed **actual K** is authoritative (e.g. K10 checkpoint can contain 11 loops).
 
+All three panels render XYZ point clouds in 3D. Stage20 keeps the selected
+Perspective or Top preset when changing saved states, including FINAL; it does
+not automatically switch only the global panel to a top-down view at the end.
+Use Perspective for an oblique 3D view, Top (gauge XY) for a bird's-eye view,
+left-drag within a panel to orbit, right-drag to pan, and the wheel to zoom.
+Camera movement does not change scientific poses, point coordinates or timing.
+
 R1 reuses Stage19 authentic forward images. R3 adds a bounded approximately 1 Hz stream, not a 10 Hz video. Images use each robot's own original bag/header timestamps; the last exported frame at/before that sensor time is shown. Missing images are explicit. JPEG decoding is on demand with two in flight, six queued and 24 cached images; global JSON state cache is bounded to three. Browser point clouds are deterministic subsets. RGB is not an optimizer input.
 
 The 75 loop factors are precomputed frozen SC/GICP results, released only after both endpoints arrive. This does **not** implement causally online retrieval, retrospective search, distributed consensus or real network communication. Structural backend readiness does not imply numerical batch agreement or physical position accuracy. Historical numerical caveats remain visible. Gauge XYZ is not guaranteed geographic up; no vertical exaggeration or flattening is applied.

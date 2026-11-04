@@ -9,7 +9,12 @@ export class DualMaps extends ThreeMaps {
   // prefixes and both current markers are explicitly set from the event below.
   const changed=this.lastGlobal!==s.file;
   super.setState(s,{pre:!initialized,kf:k1,final:index===5795,event:null,phase:'STREAM'});
-  if(changed&&initialized&&this.mode==='top')this.preset('top');
+  // Stage19 deliberately frames FINAL from above. In Stage20, keep the
+  // selected camera preset across saved-state changes, including FINAL.
+  if(changed&&initialized&&['perspective','top'].includes(this.mode)){
+   const b=this.bounds[s.file]?.global||this.bounds['FINAL_STREAM_END.json'].global;
+   this.fitCamera(this.camera,b,this.mode,false);
+  }
   this.dualEnds=[k1,k3];this.currentEvent=e;
   for(const [i,robot]of robots.entries()){
    const end=this.dualEnds[i],n=Math.max(0,end-starts[i]+1),rows=this.local.trajectory[robot];
