@@ -1,4 +1,4 @@
-import {DualMaps} from './dual_maps.js';
+import {DualMaps} from './dual_maps.js?v=global-controls-20261104';
 import {RGBReplay} from '../stage19_rgb_three_map/rgb_replay.js';
 const $=id=>document.getElementById(id),json=async p=>{const r=await fetch(p);if(!r.ok)throw Error(`${p}: HTTP ${r.status}`);return r.json();};
 const perf={webgl_resizes:0,geometry_builds:0,map_state_swaps:0,gpu_render_frames:0,frame_ms:[],state_load_ms:[],startup_ms:0};
