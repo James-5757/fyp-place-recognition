@@ -20,6 +20,10 @@ not automatically switch only the global panel to a top-down view at the end.
 Use Perspective for an oblique 3D view, Top (gauge XY) for a bird's-eye view,
 left-drag within a panel to orbit, right-drag to pan, and the wheel to zoom.
 Camera movement does not change scientific poses, point coordinates or timing.
+Manual interaction exits Follow mode and preserves the global camera across
+saved-state changes. Select a camera preset again to resume automatic framing
+or following. Global mouse controls are bound to the visible overlay panel,
+using the pinned OrbitControls version's explicit `domElement` assignment.
 
 R1 reuses Stage19 authentic forward images. R3 adds a bounded approximately 1 Hz stream, not a 10 Hz video. Images use each robot's own original bag/header timestamps; the last exported frame at/before that sensor time is shown. Missing images are explicit. JPEG decoding is on demand with two in flight, six queued and 24 cached images; global JSON state cache is bounded to three. Browser point clouds are deterministic subsets. RGB is not an optimizer input.
 
