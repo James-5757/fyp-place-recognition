@@ -1,0 +1,3330 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "name": "robot1_complete_RGB_timeline",
+      "passed": true
+    },
+    {
+      "name": "robot1_independent_camera_keyframes",
+      "passed": true
+    },
+    {
+      "name": "000000.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000000.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000003.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000003.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000005.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000005.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000007.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000007.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000009.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000009.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000011.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000011.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000013.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000013.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000015.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000015.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000017.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000017.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000019.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000019.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000021.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000021.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000023.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000023.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000025.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000025.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000027.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000027.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000029.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000029.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000031.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000031.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000033.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000033.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000035.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000035.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000037.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000037.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000039.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000039.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000041.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000041.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000043.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000043.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000045.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000045.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000047.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000047.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000049.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000049.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000051.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000051.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000053.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000053.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000055.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000055.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000057.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000057.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000059.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000059.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000061.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000061.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000063.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000063.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000065.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000065.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000067.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000067.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000069.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000069.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000071.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000071.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000073.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000073.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000075.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000075.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000077.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000077.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000079.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000079.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000081.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000081.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000083.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000083.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000085.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000085.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000087.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000087.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000089.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000089.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000091.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000091.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000093.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000093.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000095.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000095.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000097.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000097.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000099.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000099.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000101.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000101.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000103.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000103.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000105.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000105.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000107.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000107.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000109.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000109.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000111.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000111.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000113.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000113.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000115.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000115.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000117.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000117.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000119.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000119.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001201.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001201.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001203.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001203.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001205.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001205.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001207.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001207.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001209.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001209.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001211.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001211.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001213.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001213.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001215.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001215.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001217.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001217.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001219.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001219.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001221.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001221.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001223.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001223.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001225.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001225.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001227.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001227.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001229.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001229.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001231.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001231.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001233.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001233.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001235.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001235.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001237.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001237.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001239.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001239.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001241.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001241.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001243.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001243.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001245.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001245.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001247.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001247.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001249.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001249.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001251.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001251.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001253.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001253.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001255.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001255.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001257.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001257.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001259.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001259.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001261.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001261.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001263.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001263.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001265.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001265.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001267.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001267.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001269.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001269.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001271.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001271.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001273.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001273.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001275.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001275.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001277.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001277.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001279.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001279.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001281.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001281.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001283.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001283.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001285.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001285.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001287.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001287.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001289.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001289.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001291.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001291.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001293.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001293.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001295.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001295.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001297.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001297.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001299.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001299.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001301.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001301.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001303.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001303.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001305.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001305.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001307.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001307.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001309.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001309.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001311.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001311.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001313.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001313.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001315.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001315.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001317.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001317.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001319.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001319.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002401.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002401.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002403.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002403.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002405.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002405.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002407.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002407.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002409.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002409.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002411.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002411.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002413.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002413.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002415.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002415.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002417.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002417.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002419.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002419.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002421.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002421.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002423.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002423.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002425.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002425.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002427.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002427.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002429.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002429.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002431.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002431.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002433.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002433.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002435.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002435.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002437.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002437.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002439.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002439.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002441.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002441.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002443.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002443.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002445.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002445.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002447.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002447.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002449.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002449.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002451.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002451.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002453.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002453.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002455.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002455.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002457.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002457.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002459.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002459.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002461.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002461.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002463.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002463.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002465.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002465.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002467.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002467.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002469.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002469.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002471.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002471.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002473.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002473.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002475.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002475.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002477.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002477.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002479.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002479.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002481.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002481.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002483.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002483.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002485.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002485.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002487.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002487.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002489.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002489.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002491.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002491.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002493.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002493.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002495.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002495.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002497.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002497.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002499.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002499.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002501.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002501.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002503.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002503.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002505.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002505.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002507.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002507.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002509.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002509.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002511.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002511.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002513.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002513.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002515.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002515.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002517.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002517.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002519.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002519.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "robot1_native_CameraInfo_resolution",
+      "passed": true
+    },
+    {
+      "name": "robot3_complete_RGB_timeline",
+      "passed": true
+    },
+    {
+      "name": "robot3_independent_camera_keyframes",
+      "passed": true
+    },
+    {
+      "name": "000000.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000000.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000002.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000002.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000004.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000004.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000006.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000006.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000008.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000008.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000010.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000010.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000012.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000012.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000014.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000014.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000016.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000016.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000018.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000018.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000020.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000020.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000022.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000022.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000024.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000024.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000026.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000026.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000028.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000028.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000030.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000030.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000032.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000032.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000034.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000034.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000036.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000036.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000038.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000038.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000040.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000040.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000042.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000042.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000044.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000044.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000046.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000046.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000048.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000048.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000050.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000050.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000052.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000052.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000054.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000054.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000056.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000056.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000058.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000058.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000060.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000060.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000062.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000062.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000064.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000064.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000066.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000066.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000068.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000068.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000070.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000070.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000073.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000073.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000074.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000074.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000076.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000076.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000078.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000078.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000080.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000080.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000082.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000082.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000084.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000084.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000086.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000086.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000088.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000088.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000090.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000090.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000092.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000092.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000094.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000094.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000096.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000096.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000098.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000098.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000100.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000100.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000102.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000102.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000104.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000104.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000106.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000106.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000108.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000108.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000110.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000110.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000112.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000112.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000114.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000114.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000116.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000116.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "000118.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "000118.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001200.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001200.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001202.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001202.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001204.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001204.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001206.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001206.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001208.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001208.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001210.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001210.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001212.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001212.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001214.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001214.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001216.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001216.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001218.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001218.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001220.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001220.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001222.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001222.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001224.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001224.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001226.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001226.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001228.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001228.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001230.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001230.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001232.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001232.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001234.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001234.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001236.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001236.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001238.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001238.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001240.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001240.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001242.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001242.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001244.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001244.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001246.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001246.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001248.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001248.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001250.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001250.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001252.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001252.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001254.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001254.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001256.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001256.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001258.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001258.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001260.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001260.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001262.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001262.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001264.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001264.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001266.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001266.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001268.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001268.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001270.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001270.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001272.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001272.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001274.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001274.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001276.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001276.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001278.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001278.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001280.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001280.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001282.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001282.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001284.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001284.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001286.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001286.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001288.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001288.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001290.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001290.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001292.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001292.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001294.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001294.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001296.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001296.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001298.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001298.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001300.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001300.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001302.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001302.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001304.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001304.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001306.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001306.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001308.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001308.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001310.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001310.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001312.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001312.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001314.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001314.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001316.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001316.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "001318.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "001318.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002400.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002400.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002402.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002402.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002404.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002404.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002406.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002406.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002408.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002408.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002410.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002410.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002412.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002412.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002414.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002414.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002416.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002416.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002418.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002418.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002420.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002420.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002422.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002422.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002424.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002424.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002426.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002426.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002428.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002428.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002430.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002430.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002432.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002432.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002434.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002434.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002436.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002436.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002438.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002438.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002440.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002440.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002442.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002442.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002444.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002444.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002446.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002446.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002448.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002448.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002450.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002450.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002452.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002452.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002454.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002454.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002456.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002456.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002458.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002458.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002460.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002460.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002462.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002462.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002464.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002464.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002466.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002466.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002468.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002468.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002470.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002470.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002472.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002472.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002474.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002474.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002476.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002476.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002478.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002478.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002480.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002480.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002482.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002482.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002484.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002484.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002486.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002486.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002488.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002488.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002490.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002490.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002492.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002492.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002494.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002494.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002496.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002496.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002498.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002498.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002500.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002500.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002502.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002502.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002504.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002504.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002506.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002506.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002508.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002508.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002510.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002510.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002512.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002512.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002514.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002514.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002516.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002516.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "002518.jpg_hash",
+      "passed": true
+    },
+    {
+      "name": "002518.jpg_decode",
+      "passed": true
+    },
+    {
+      "name": "robot3_native_CameraInfo_resolution",
+      "passed": true
+    },
+    {
+      "name": "six_actual_native_windows",
+      "passed": true
+    },
+    {
+      "name": "robot1_000_012_track_count",
+      "passed": true
+    },
+    {
+      "name": "robot1_000_012_finite_poses",
+      "passed": true
+    },
+    {
+      "name": "robot1_000_012_unit_rotations",
+      "passed": true
+    },
+    {
+      "name": "robot1_000_012_native_read_guard_audit",
+      "passed": true
+    },
+    {
+      "name": "robot1_000_012_no_metric_scale",
+      "passed": true
+    },
+    {
+      "name": "robot1_000_012_missing_poses_explicit",
+      "passed": true
+    },
+    {
+      "name": "robot1_120_132_track_count",
+      "passed": true
+    },
+    {
+      "name": "robot1_120_132_finite_poses",
+      "passed": true
+    },
+    {
+      "name": "robot1_120_132_unit_rotations",
+      "passed": true
+    },
+    {
+      "name": "robot1_120_132_native_read_guard_audit",
+      "passed": true
+    },
+    {
+      "name": "robot1_120_132_no_metric_scale",
+      "passed": true
+    },
+    {
+      "name": "robot1_120_132_missing_poses_explicit",
+      "passed": true
+    },
+    {
+      "name": "robot1_240_252_track_count",
+      "passed": true
+    },
+    {
+      "name": "robot1_240_252_finite_poses",
+      "passed": true
+    },
+    {
+      "name": "robot1_240_252_unit_rotations",
+      "passed": true
+    },
+    {
+      "name": "robot1_240_252_native_read_guard_audit",
+      "passed": true
+    },
+    {
+      "name": "robot1_240_252_no_metric_scale",
+      "passed": true
+    },
+    {
+      "name": "robot1_240_252_missing_poses_explicit",
+      "passed": true
+    },
+    {
+      "name": "robot3_000_012_track_count",
+      "passed": true
+    },
+    {
+      "name": "robot3_000_012_finite_poses",
+      "passed": true
+    },
+    {
+      "name": "robot3_000_012_unit_rotations",
+      "passed": true
+    },
+    {
+      "name": "robot3_000_012_native_read_guard_audit",
+      "passed": true
+    },
+    {
+      "name": "robot3_000_012_no_metric_scale",
+      "passed": true
+    },
+    {
+      "name": "robot3_000_012_missing_poses_explicit",
+      "passed": true
+    },
+    {
+      "name": "robot3_120_132_track_count",
+      "passed": true
+    },
+    {
+      "name": "robot3_120_132_finite_poses",
+      "passed": true
+    },
+    {
+      "name": "robot3_120_132_unit_rotations",
+      "passed": true
+    },
+    {
+      "name": "robot3_120_132_native_read_guard_audit",
+      "passed": true
+    },
+    {
+      "name": "robot3_120_132_no_metric_scale",
+      "passed": true
+    },
+    {
+      "name": "robot3_120_132_missing_poses_explicit",
+      "passed": true
+    },
+    {
+      "name": "robot3_240_252_track_count",
+      "passed": true
+    },
+    {
+      "name": "robot3_240_252_finite_poses",
+      "passed": true
+    },
+    {
+      "name": "robot3_240_252_unit_rotations",
+      "passed": true
+    },
+    {
+      "name": "robot3_240_252_native_read_guard_audit",
+      "passed": true
+    },
+    {
+      "name": "robot3_240_252_no_metric_scale",
+      "passed": true
+    },
+    {
+      "name": "robot3_240_252_missing_poses_explicit",
+      "passed": true
+    },
+    {
+      "name": "72_image_only_candidates",
+      "passed": true
+    },
+    {
+      "name": "geometry_counts_bounded",
+      "passed": true
+    },
+    {
+      "name": "no_metric_visual_factors",
+      "passed": true
+    },
+    {
+      "name": "native_and_Python_no_forbidden_sensor_reads",
+      "passed": true
+    },
+    {
+      "name": "GT_open_rejected_before_read",
+      "passed": true
+    },
+    {
+      "name": "12_actual_semantic_images",
+      "passed": true
+    },
+    {
+      "name": "robot1_000000.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot1_000000.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot1_000071.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot1_000071.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot1_001223.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot1_001223.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot1_001295.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot1_001295.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot1_002447.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot1_002447.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot1_002519.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot1_002519.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot3_000000.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot3_000000.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot3_000070.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot3_000070.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot3_001222.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot3_001222.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot3_001294.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot3_001294.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot3_002446.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot3_002446.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "robot3_002518.npz_semantic_confidence_hash",
+      "passed": true
+    },
+    {
+      "name": "robot3_002518.npz_probability_and_unknown",
+      "passed": true
+    },
+    {
+      "name": "pixel_distributions_sum_one",
+      "passed": true
+    },
+    {
+      "name": "no_guessed_projection",
+      "passed": true
+    },
+    {
+      "name": "synthetic_projection_tests",
+      "passed": true
+    },
+    {
+      "name": "P5_trajectory_frozen",
+      "passed": true
+    },
+    {
+      "name": "source_scan_selection580",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/README.md_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/assets/P5_incremental_robot1.f32_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/assets/P5_incremental_robot3.f32_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/data.json_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/index.html_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_000000_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_000000_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_000071_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_000071_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_001223_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_001223_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_001295_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_001295_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_002447_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_002447_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_002519_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot1_002519_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_000000_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_000000_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_000070_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_000070_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_001222_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_001222_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_001294_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_001294_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_002446_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_002446_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_002518_rgb.jpg_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/samples/robot3_002518_semantic.png_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/styles.css_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "demo/stage24_rgb_semantic/viewer.js_asset_hash",
+      "passed": true
+    },
+    {
+      "name": "all_3D_attributes_unknown",
+      "passed": true
+    },
+    {
+      "name": "historical_files_unchanged",
+      "passed": true
+    }
+  ],
+  "scope": "artifact/data/dependency correctness; does NOT promote blocked RGB/semantic3D mapping or vision-only multi-robot SLAM"
+}

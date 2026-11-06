@@ -1,0 +1,61 @@
+{
+  "ORB_SLAM3": {
+    "source": "https://github.com/UZ-SLAMLab/ORB_SLAM3",
+    "revision": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+    "installation": "existing SDK from /home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3; read-only reuse, no reinstall",
+    "actual_tested_library": "local build with existing external-project patches (including sparse map export), not claimed bit-identical upstream wheel",
+    "requirements": "C++14/Eigen/OpenCV/Pangolin/DBoW2/g2o; actual native dependencies found and linked; no GPU required for this CPU pilot",
+    "RGBD_adapter": "TUM association file RGB+registered depth, correct K/D/resolution/depth units/fps; current camera point clouds require independently verified z-buffer/registration adapter",
+    "monocular_adapter": "actual color CameraInfo;640x400 K scaled0.5;D unchanged;original camera timestamps;5Hz sampled windows;no IMU",
+    "pose_export": "camera-to-local T_world_camera as inverse TrackMonocular T_camera_world; valid tracking only; keyframe TUM export",
+    "map_export": "upstream sparse landmark API; installed SDK additionally has SaveSparseMapPLY (not run here)",
+    "scale": "arbitrary monocular scale; each new native Atlas/map may have its own gauge; use explicit Sim3 only in future, no scale oracle",
+    "license": "GPLv3; dependent library licenses apply; binaries/vocabulary NOT committed"
+  },
+  "MASt3R_SLAM": {
+    "source": "https://github.com/rmurai0610/MASt3R-SLAM",
+    "license_source": "https://github.com/rmurai0610/MASt3R-SLAM/blob/main/LICENSE.md",
+    "checkpoint_notice": "https://github.com/naver/mast3r/blob/mast3r_sfm/CHECKPOINTS_NOTICE",
+    "compatibility": "official Python3.11 + matching CUDA PyTorch2.5.1/torchvision0.20.1 + compiled/submodule dependencies; existing isolated3.10 CPU GTSAM env is not the target",
+    "reference_hardware": "official experiments RTX4090; minimum VRAM NOT_SPECIFIED_OR_BENCHMARKED here; current server no available NVIDIA runtime discovered",
+    "input": "RGB image folders/video; known intrinsics optional; no LiDAR needed; learned3D/metric priors must not be confused with directly observed depth or ground-truth metric scale",
+    "export": "official mast3r_slam/evaluate.py save_traj and PLY reconstruction export inspected",
+    "license": "CC BY-NC-SA4.0 code; checkpoint/submodule terms separate; research/commercial redistribution constraints require review",
+    "installed": false,
+    "executed": false
+  },
+  "segmentation": {
+    "source": "https://huggingface.co/nvidia/segformer-b0-finetuned-ade-512-512",
+    "revision": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+    "license_source": "https://github.com/NVlabs/SegFormer/blob/master/LICENSE",
+    "license": "custom NVIDIA SegFormer terms; model card links upstream license; use restricted to this documented research, no weights committed",
+    "environment": "/home/cas/.venvs/fyp_stage24; separate venv layered over installed Python packages; overrides only in new venv; fyp_slam and fyp_gtsam not modified"
+  },
+  "primary_source_retrieval": "official README/LICENSE/model config and export code retrieved; SHA provenance below. No third-party framework benchmarks inferred.",
+  "retrieved_primary_source_hashes": {
+    "segformer_license.txt": {
+      "bytes": 4065,
+      "sha256": "f549820c06519e3105e5174a2fd7285224ffd2268a7f879a843b1a255fd04a61"
+    },
+    "segformer_config.txt": {
+      "bytes": 6884,
+      "sha256": "209caa9091e4632f7c8883c11170cd08ad29af68b23c09590aa4a5befb1a2a7f"
+    },
+    "mast3r_export.txt": {
+      "bytes": 3498,
+      "sha256": "50c5b2d2f972ccc077edb7b64c289dffa0382eb0199e8097c4838a306c02a6ac"
+    },
+    "mast3r_license.txt": {
+      "bytes": 346,
+      "sha256": "20d8d11941179f7659c7d47e6e5ec7e1af5153605f5af4a4d70eb16c145662b9"
+    },
+    "mast3r_readme.txt": {
+      "bytes": 5545,
+      "sha256": "a82a0125520e6e596ddb925c0b5494aba7473c54b5df9c665228e30699a1dab3"
+    },
+    "segformer_card.txt": {
+      "bytes": 3189,
+      "sha256": "a738172c9395b26f14e1981f6a95885085cc1239210446d752bf30ad6a9b8538"
+    }
+  }
+}

@@ -1,0 +1,1985 @@
+{
+  "artifacts": [
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_progress.log",
+      "bytes": 334,
+      "sha256": "1de972970a9f1178f56a400bce7fb05a17743816fd19c171f8f5abf26fafbd4e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot3_000000.npz",
+      "bytes": 856200,
+      "sha256": "091932f88200db0b82da55e5d699eda3eea5d873d7ff18439d4ba7df40ddecd7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot1_001295.npz",
+      "bytes": 846133,
+      "sha256": "feeeebd0d215dd24d38c884ce64a5bafc4286772165ed0b8041b71b0de2f5f6f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot1_000071.npz",
+      "bytes": 763128,
+      "sha256": "1eb7a7f26fc31eba6018a73503dd414410b0a2f4daa5e4bccf3e7fd33090d07b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot3_001294.npz",
+      "bytes": 845949,
+      "sha256": "8e259a1fb104df7739db144589247cb5a507849fa035d728e330f8f6d9406b2d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot1_000000.npz",
+      "bytes": 731944,
+      "sha256": "8b8b901e341f04b2ac427ec951f8e536c9f4086d6e3e8eb00c5624c0b1ac8d39"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot1_002519.npz",
+      "bytes": 755764,
+      "sha256": "d7fcb570a542085e15bab0e3d9533d2c1d51f32c584516b4564d80f8d50efd60"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot1_002447.npz",
+      "bytes": 747431,
+      "sha256": "4eee3533aa243ac1466cae73449e3eaa7c7a7cdaf13a1cfadd49f4b6bd5982e9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot3_002446.npz",
+      "bytes": 885095,
+      "sha256": "4dba8fa72ae6e434205b198dad0a992267972ba090deb23e18f3670450f79c9f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot3_001222.npz",
+      "bytes": 797918,
+      "sha256": "fccf323bd692e93e92458381aa2607af9d8420556b2f6945d845eb8a2038c03d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot3_002518.npz",
+      "bytes": 853423,
+      "sha256": "bf1282af10f7e702f0140079421dc91700b6347b727baf329b04e4742e9cc7b1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot3_000070.npz",
+      "bytes": 704916,
+      "sha256": "2cbe5f98ef9ba526deb084f712883dce0b3b5ee7578a5e47b5d5e0606fb0bfdb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24a_rgb_semantic/segmentation_arrays/robot1_001223.npz",
+      "bytes": 709820,
+      "sha256": "4141cf6a4648878c0ebdc705913e1d2bd4334821d15d56f342122cec8c47b094"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/reproduction_resume.log",
+      "bytes": 1428,
+      "sha256": "c715638425bcc8c45d706f43e058725cd02c70e8374eaf3ae30e0c723bb9cdfe"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/engineering_depth_schema_failure.log",
+      "bytes": 512,
+      "sha256": "cb1b58ca0e60105ffc270cd04ad2a97dc7a4a19754ea5fc3561ee8933b3f6da0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/native_build.log",
+      "bytes": 48029,
+      "sha256": "f0740a85739493262888f57c1c5fc8190ac71a09a9f91473369cb24936fcb09c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/engineering_adapter_syntax_progress.log",
+      "bytes": 391,
+      "sha256": "93c6b78ce446e0ed5d09635d216965dff983574a6e86ea0d661a167ee35a8a83"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/pilot_progress.log",
+      "bytes": 210,
+      "sha256": "f003cf7c0ec35ca22bc771bf39ef37a840c5763b15b7c70e7b4c7f2530659b13"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/engineering_pretracking_loader_progress.log",
+      "bytes": 1389,
+      "sha256": "bac6c3bdb90c7865f57d7caf92c82ed55af23fb3fb4c921ea671a7ab0fd44cbc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/depth_audit_progress.log",
+      "bytes": 51,
+      "sha256": "11704560b03a0cb399a6583d242074270a500c01a72d1ff5126e016186317bfc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/depth_work/extraction_receipt.json",
+      "bytes": 236,
+      "sha256": "888e2cf0d74d3ab46b3a879474e5d482803a3edc1b2f881f5fd8d0df792bd135"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/engineering_pretracking_loader_failure/native_file_access.log",
+      "bytes": 114211,
+      "sha256": "1c6d9ea5e96b0320b1e05d50b614b66428cc1409a9d909798f120e21abd05f13"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/engineering_pretracking_loader_failure/stdout.log",
+      "bytes": 1759,
+      "sha256": "d81687252c517d1d1f1ff72092dadb8f8765fc7aaf478645a96d5df745d93aee"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001299.jpg",
+      "bytes": 54551,
+      "sha256": "662ed1c25d0f4d5a3170d3fe6ab850aeb9ae3593653fe5aa967460949d3d4440"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000087.jpg",
+      "bytes": 60741,
+      "sha256": "2776382ab4b798776c998a20012412a15a9a4e5cb632ae34650d6e976ea1c239"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002449.jpg",
+      "bytes": 46286,
+      "sha256": "4a5443adb06b7864aba8a91bc097c692463236bbf2c446dfd0906d165074033b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001305.jpg",
+      "bytes": 55154,
+      "sha256": "2b3a4a8a3b313bad63ebc3183dab8a5b59b607a1171d349a5e25b7875d9b61e5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000023.jpg",
+      "bytes": 70392,
+      "sha256": "5c1731494d59d68f26fafd9d0ae7f5450f570886c465f87387486e0ce2be8fd5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002419.jpg",
+      "bytes": 46410,
+      "sha256": "64b888674bb04b880e6a3dd1bb0b8e30706aaeefef00d3e5f7f6035a82f6877f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000021.jpg",
+      "bytes": 70256,
+      "sha256": "4d8d91de780dc34d871b1997064eecf475011236c07a59f4c7f46397405ae78b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000011.jpg",
+      "bytes": 10554,
+      "sha256": "1375eb10824fa7443035cc049e97d62bc3e8db041f87edf05da094c58444bee5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000035.jpg",
+      "bytes": 66675,
+      "sha256": "5e8d162b014930c0cd1eefd104f75f9cbfd37dd21659156e27f8a2e28df72538"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000025.jpg",
+      "bytes": 69723,
+      "sha256": "ee5b7642ee522dce3cea2feb738a97423df8f4d46735c0ea5f252be944d18df3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000037.jpg",
+      "bytes": 66668,
+      "sha256": "0319e5d3e350e98837b7319df8504e3542a21dc01e322093121584d36202c852"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000039.jpg",
+      "bytes": 65029,
+      "sha256": "a14465f7f90c441208818429a54232104b20af258855e0da6b6ce0fa12d27799"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001207.jpg",
+      "bytes": 49947,
+      "sha256": "534b3f25fcfe6bff382e13172684678773d4bec88076bd89fd2f9787ad811f1b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000059.jpg",
+      "bytes": 63113,
+      "sha256": "d3c4337c8f1094a452d2a15ec034290451247bae4b9d36a1f713644081bfc9b9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001227.jpg",
+      "bytes": 50939,
+      "sha256": "568c58197c9dd18363af30506e35b1c483abf860b5372ca0ee2f54936a503c91"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001293.jpg",
+      "bytes": 54655,
+      "sha256": "f4283b75de4b5dac7ac103daf0ea6e608818710ee11c8ea62655db019fadb465"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002511.jpg",
+      "bytes": 47342,
+      "sha256": "741d3c905dd4fff6e65eb863939e648d922084f19f7ba30b03ac86ccccaffa67"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000045.jpg",
+      "bytes": 63233,
+      "sha256": "c72a04b03082ea3fbe780d15f0a4319d5b592a757a8d433115e696fb8ae635e8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002453.jpg",
+      "bytes": 47319,
+      "sha256": "6c8cdf7007e0457b405243e4efd4ebb943d52eb7ac9e0097a30dfbb6b6a6a349"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000077.jpg",
+      "bytes": 60850,
+      "sha256": "edff209156742eb738967ba3b4e0c5564c57d9ae69072e9816b1163423f3eb6e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001259.jpg",
+      "bytes": 57742,
+      "sha256": "a9bc948ec1498d8e3281ce4cdd40c170351afe03e072c4969050ae0861a6c5a7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002483.jpg",
+      "bytes": 48126,
+      "sha256": "28b0409c3b7d567d5e9ba35609be6fdde01dc2e1c218db5d4d2ed60822f9474d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002415.jpg",
+      "bytes": 45787,
+      "sha256": "e367ab01f7b842cda8794234441f70881e99ea6d14e62d0b027d9cd2c1f157f8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002451.jpg",
+      "bytes": 47439,
+      "sha256": "61a45fd2c63743de350cdbb058d0c1163dffac1a5ca81084f5b41aa992cd8585"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001249.jpg",
+      "bytes": 57229,
+      "sha256": "e875a386ae1439705d5e2d3e4f846e91e1ce277d5cbe9f6bf8403d06820edb59"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000097.jpg",
+      "bytes": 60580,
+      "sha256": "a1ff8875f2b1593c3a0a1f1aabc5d25fa43033a0f84002f1ee5494022a4af705"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002407.jpg",
+      "bytes": 47332,
+      "sha256": "dd1115e9fad02f0f6617b76c07987f15c7e25cf11c0d75815c560a8cb6631246"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002421.jpg",
+      "bytes": 46977,
+      "sha256": "ef3fce767c70db1bade85cb956656770bded6da3f8a87a0253a4ad76c969ba93"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000107.jpg",
+      "bytes": 60624,
+      "sha256": "6531fd7725b2684643a07b58c43cb7f8f78b563e7df87fe7defe4db9c228670f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000111.jpg",
+      "bytes": 60645,
+      "sha256": "ebbf1bb6cbf1045f44f89ddff48b326bba1f88a287ce0290d83f7fd7bf173a6c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002515.jpg",
+      "bytes": 47607,
+      "sha256": "ab157af4fc77951303246166abcbab4dea904da797003fb09e17b80bd7ad0309"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000075.jpg",
+      "bytes": 60892,
+      "sha256": "0ede78b6af874069047cb3d31a7aaa2f1c5d9dfb6c3c229078ccdc9c774152c8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002447.jpg",
+      "bytes": 45825,
+      "sha256": "28a67fbe52806ca598675b3334548d18053fecd25cab1aac50e40ce57e760dd2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000073.jpg",
+      "bytes": 60987,
+      "sha256": "996f1325266abbe859347f4f6cbf0f44d4def49b70f1af0265e806fb43552fa8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002469.jpg",
+      "bytes": 47743,
+      "sha256": "3803746f8651a411e14d9e1a03c36b34076fa0f0fe4a7f0ff0952bd499d791ad"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001255.jpg",
+      "bytes": 58958,
+      "sha256": "f5f33edc6b962aa124e832a65ca827c56754554459e2abdcdb7e374afbf0070b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002417.jpg",
+      "bytes": 46303,
+      "sha256": "6d28661b297a3efc30a54c653f5e9c74d7736da46d3cd53ded4dea7905bbf7cf"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001315.jpg",
+      "bytes": 55603,
+      "sha256": "fc8ca5ffda3b835ee556de111ae8a717b200fa43b09ac73e7cb7ba2047d55349"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002519.jpg",
+      "bytes": 47774,
+      "sha256": "8342bf2f16607ba7a021147f4a0858617e8ae37b97468c9b4798b62a8394083d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000105.jpg",
+      "bytes": 60573,
+      "sha256": "34603170c18e7c5920eefc10a9860c4d33c91d5e442aaa96c7ed57a7909794a0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001235.jpg",
+      "bytes": 53311,
+      "sha256": "bf9c6fd0d5ad65fdf9fd15fec1c0e5a53f34658fde156979adf8ef57a637d923"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001289.jpg",
+      "bytes": 53371,
+      "sha256": "38f365793572de7d31b7271821bc60f1f94d39efef0726359e7e5b6c85b22a3d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000101.jpg",
+      "bytes": 60555,
+      "sha256": "d0eb8e73f4ee975ff5e72db07c5d5a6d9d340692b97b8ae7e7a7df61adb3de4b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000027.jpg",
+      "bytes": 69750,
+      "sha256": "4a207c9b34a38f5970e42399cd798f2885bc9087e4c8332a93e6097a4543e924"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002465.jpg",
+      "bytes": 46670,
+      "sha256": "3441c76b8d6ac0835683c169e1e5725ce1454e6e2b6541221836b9ec58e74575"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002459.jpg",
+      "bytes": 48170,
+      "sha256": "fb614754be715827d03b62ddb9b68fc03d52dd459da0966e4f4f0b1ae9a761b0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002501.jpg",
+      "bytes": 44831,
+      "sha256": "dbd2d65881daa9c3858f00a549bc577d36e23fcc307143af4abcae50077f39b1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002405.jpg",
+      "bytes": 46971,
+      "sha256": "f60ad672552972bd56063805b6bbb844d59bdab235f69e33e8771c31e9315ccb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001253.jpg",
+      "bytes": 58328,
+      "sha256": "018b76eaecd16a0a9a8d144c56b087a80bde11bf44226ca9e2aee05abf31ced7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001245.jpg",
+      "bytes": 56140,
+      "sha256": "b79337de7adda34d2c271df5ac24cde0dee87e6776faef6ee55fbf00062e565d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002497.jpg",
+      "bytes": 46568,
+      "sha256": "d5f45cee5cced13bee152c328dbead93709788ac94428af0ebcc694d17d1fee3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000051.jpg",
+      "bytes": 63293,
+      "sha256": "81af6e9cb8322387a5dbd5badabff48fea7d48645e5b625a6cf2a89b2b061b16"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000119.jpg",
+      "bytes": 60541,
+      "sha256": "85ed67f01777b15d3e65c5b8cc00e04a143f245e5f5160f4ae15b6cd97606190"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000009.jpg",
+      "bytes": 10367,
+      "sha256": "4e10532c2e4a5b7099c3af1ae534ef98b1c64d39351589e576e18ee937bf1779"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002409.jpg",
+      "bytes": 46395,
+      "sha256": "144458a3baff018745cecf7ad588466ddcb003d62718181abab7890b4e5e89b5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001291.jpg",
+      "bytes": 53133,
+      "sha256": "c47112504ee57eb2253397453d38c714fde77feab6d6b215443f4fc209225251"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000091.jpg",
+      "bytes": 60729,
+      "sha256": "91c96ccc0d4800733e2c9a386ace4ce87c5105426ac467378af802537e1f0ca6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002439.jpg",
+      "bytes": 44358,
+      "sha256": "470c9394afd0adec90b07425fee360323013b06d01d339e229480515c8d32d7a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000057.jpg",
+      "bytes": 63190,
+      "sha256": "5d23b4f46cf35d8bf7f35cbcef95225a735c3b9940430fe6eb0e95bfc718bbf9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000029.jpg",
+      "bytes": 69002,
+      "sha256": "20e2046f5749f1e98059e337cc33fa13bf059a383d3a4e808885dc5945dbceff"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001301.jpg",
+      "bytes": 53249,
+      "sha256": "e7fb85aa0b72385e6b9cb02ad967a8a973da3ad4ac7a686b902a2221787c8d97"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001309.jpg",
+      "bytes": 56382,
+      "sha256": "58f76048d532a302cbf9946ccc3ae626d25c10eaa7e89e91dcbd8d03c4bc5664"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001285.jpg",
+      "bytes": 53263,
+      "sha256": "ff8e6f52852c3f17f20f82c5d6c8ec4e929e551df3271149edf052056d8554ee"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000053.jpg",
+      "bytes": 63126,
+      "sha256": "084c0d62e953d8ea53e746720134f51eafefbd7fe1150f2f92023bacf7c00393"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000003.jpg",
+      "bytes": 5630,
+      "sha256": "f765e7ec87ca136e311fdc46da0c32fe2d4af84c2e0c4392eb5b221c0ab70882"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002499.jpg",
+      "bytes": 46438,
+      "sha256": "1b9833b387ea3c400c88399d9a6a05c5f3afe1b3bd794c4e393d3a480f87e35b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000079.jpg",
+      "bytes": 60875,
+      "sha256": "9ec826e1af090c07f5caf5681fffbc2fb770a098e68a50524373c6ffc26a4a43"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001213.jpg",
+      "bytes": 49631,
+      "sha256": "79d592fd85ea9831f0a3b5d933be375519e63f6433734a345d301f7a9cc07b9e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001281.jpg",
+      "bytes": 59166,
+      "sha256": "fa315c691f956c5fec8fa2c519f521280d207ad342d8cbc0bdf0b116aaa16362"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002493.jpg",
+      "bytes": 45782,
+      "sha256": "b349b557d382308c618656f3d484980c8bb7944a72a5c80d0c60423fec0489bb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001277.jpg",
+      "bytes": 60933,
+      "sha256": "4e5c93f083c7f147631e320761c91ca28ab41c08122c6391fde8df483732e634"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001217.jpg",
+      "bytes": 48919,
+      "sha256": "9ec31587a7ad80d8a90447541ff240b48dd095abefac181a15c4df6eef56bf97"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002513.jpg",
+      "bytes": 47305,
+      "sha256": "3e494f7b9e35acf5b6c3228bd0ffa41b219ad123114d95385fdb4bd699d36d6e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002437.jpg",
+      "bytes": 45774,
+      "sha256": "0239079b8bcd90fd5aa6a890505fb48da45d726b7921ed0886f0b137aadc5cfc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001263.jpg",
+      "bytes": 57777,
+      "sha256": "44089dcbc9f8bcd1751e357446da95e00a2489b0ada5361c70e9a4f725999d4c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001303.jpg",
+      "bytes": 54115,
+      "sha256": "70781a13e5e8e5cb4af37961440b80ac524d139d7f0e6c040623433af74ae3a2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000049.jpg",
+      "bytes": 63087,
+      "sha256": "11bac3626622e410bc594a008eb9c79d9ae6e9b0dd4ddfd94765172ce1a1e35a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000093.jpg",
+      "bytes": 60644,
+      "sha256": "2b8026cd45384df2d37a2e72c0adcddc194e5ad559313f6ee02d429c66540518"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002505.jpg",
+      "bytes": 45918,
+      "sha256": "ca909da35930b9645cfa8411d82aa07a020c2aea0ed55d496e9031fb8bbad816"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001231.jpg",
+      "bytes": 53626,
+      "sha256": "268a9b8a9e6e5bb02702d948c7e765d1f48d8e8ed3264f1615aa17d6ca1d5b47"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001233.jpg",
+      "bytes": 53712,
+      "sha256": "545cf59e0b132a66c9f0d0a62dd59c9a21bc8b83baa57cfa18269fe4a4c03b1c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002433.jpg",
+      "bytes": 46498,
+      "sha256": "d99806e5366f2d9ed05013f894827146336f51a4044bc3f9ee20b70d9b252f86"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002509.jpg",
+      "bytes": 46519,
+      "sha256": "924a5b038c5624978bd4121a7a16118a1f33c3e58e199e76d79805b94855836a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001265.jpg",
+      "bytes": 57090,
+      "sha256": "a98aef7c9abcec8351bcb4c6fbebcf72d75beb102d3adf7f4d760a221af90639"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000041.jpg",
+      "bytes": 65069,
+      "sha256": "c0eec6eb67494e62215a297f081dd7980d16459912025420a07f1134b408203a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002477.jpg",
+      "bytes": 46870,
+      "sha256": "853710a35f781d845a351bf5b625c3c98b0362883bddd520175c51245a04bdc8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000085.jpg",
+      "bytes": 60833,
+      "sha256": "93c4ba1e9ed53dab173d0d18e69b37264b5d3f658750de887bd46f59d2b1388b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001267.jpg",
+      "bytes": 55968,
+      "sha256": "b1708ca4f7441ffb408fef5bbc063df8645e54d9378d825c7b9cfaa92f999e5c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001295.jpg",
+      "bytes": 54920,
+      "sha256": "5287caf58570b66e994f8348a7a6e835cc2c745971f420aaf25a8309b848b2e0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002431.jpg",
+      "bytes": 44905,
+      "sha256": "3a37b7658443310f482c0a25501602e4121a327a76c863fe9350535e8cd55f8b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002479.jpg",
+      "bytes": 48122,
+      "sha256": "b2ca56f0781fc0b7908a9f0f60d7091469bf973ee43fcb893dc8a01eb4891a56"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001261.jpg",
+      "bytes": 57054,
+      "sha256": "38f8effee2ac13e9760569927200675ff2c15347ea8c68c33e8ff350732cb6c4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002445.jpg",
+      "bytes": 46636,
+      "sha256": "118be9cc82542fc18983ee9fba455605755132d5215c1766100c750f3038814d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001313.jpg",
+      "bytes": 55770,
+      "sha256": "de254c3b0e2f8b5a4712871c2c40887fcb6837f10377776d0ab528f41501b9a6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001239.jpg",
+      "bytes": 54207,
+      "sha256": "e23d04ad261daadbf48417a6cd05c831c0a9dbbe8719bee1b96fab8eed07d804"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001279.jpg",
+      "bytes": 61807,
+      "sha256": "cfb3a2c3a76c7ab6e89dec0e051261a9d68c71a1ad4afe07e966ab406d986be2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001219.jpg",
+      "bytes": 49544,
+      "sha256": "b386459a90901450a3c00664a4abb604aedc75324554be873627471cc8387d06"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000095.jpg",
+      "bytes": 60643,
+      "sha256": "050bbcd793b9d3d6a6e4b53b44da80c4fbbab90a24fc4ce84a4f6c30a44fe6e4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001209.jpg",
+      "bytes": 50668,
+      "sha256": "228e29bd56456b81f0762dc1e247cfb97994950370cc0abb0a60b3c2d60cf70f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000019.jpg",
+      "bytes": 70316,
+      "sha256": "83e3a3239586846369e2ae329f8fc0c25f49d97c6b80bd818d0ed6a33a859a66"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002461.jpg",
+      "bytes": 48680,
+      "sha256": "cc03ad06886a0f6e277d576b8d617fa0676f8ffdf49996cbd450047985ec4ec8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000047.jpg",
+      "bytes": 63188,
+      "sha256": "7d390bfa33a32f2fcad7c77cdd350341c7cd75742d21f23e068577da20084440"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001201.jpg",
+      "bytes": 50796,
+      "sha256": "d5a04ac9e432866f3e8497513e6719b5d7119bdd35156456d4618c2e38ba9827"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001271.jpg",
+      "bytes": 54426,
+      "sha256": "b08e2aef8ccd79f50b6e82f41ea344ad98c6be5652c286a6642216cc2ec035d0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002443.jpg",
+      "bytes": 44467,
+      "sha256": "45ffef9df91095344fbb17f6cdd201877a9886a7dc9332d11cabdb3854f8b9f3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001257.jpg",
+      "bytes": 58317,
+      "sha256": "0c20dd9a1cb5337ea44126c56082432635f61869d90f7e348b460877933b1bfa"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002455.jpg",
+      "bytes": 47753,
+      "sha256": "ab431cfd474b245b824f4424e1571e3b33067faf46b941e01e2cd3666def20da"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002471.jpg",
+      "bytes": 48689,
+      "sha256": "7ce6fa2dcce6afd74953ce6e06bc6cfc6132bdaf403c83fee406c7bee7a2a2c5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002401.jpg",
+      "bytes": 47706,
+      "sha256": "d1b7e4c39d9bf442cf294016fe1f89c162220b49a0ef5f60c8055a9f9fb33d94"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000065.jpg",
+      "bytes": 63050,
+      "sha256": "e992badc013f9cf3792e33eee319cd8a75152bcdbca3dfb10612d12460d6f5f2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001311.jpg",
+      "bytes": 56443,
+      "sha256": "617cc246a3017c6182940c00afb1f53d80eccffccc007d2ffd87488886ea61a7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002411.jpg",
+      "bytes": 45845,
+      "sha256": "46ec3ca8b960538b551d86af25fb94376ad17e1309a95b49437b527cf9092460"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002491.jpg",
+      "bytes": 46440,
+      "sha256": "0a28788b4203cdb0a45c0b629ecbf17ec93bae8522fd08a8a8a091940817ad42"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002467.jpg",
+      "bytes": 48031,
+      "sha256": "145f89ecc910a1cd86a91d9a32e028746306f005206888d4422ac80fa074cd18"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002517.jpg",
+      "bytes": 47783,
+      "sha256": "4577f8a11cb881650edbaddaabe70ada59a3710867a8ff934de3d0c5335de81c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002413.jpg",
+      "bytes": 46079,
+      "sha256": "fd7c8527d6cb1c885d90bb19fa3a527220eb6f3273084fa761565a679ec4453a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002425.jpg",
+      "bytes": 46617,
+      "sha256": "ca1723ebcec1805c0c402aec4dda14c5970f1fafd5373120d8881bbba4dafb99"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001221.jpg",
+      "bytes": 50409,
+      "sha256": "ceb89afaf854b28c419c712a0469c55a83ef7dc24bc20bbf99454479557220f8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001283.jpg",
+      "bytes": 55484,
+      "sha256": "77e4d0e24bfa0b1d1f7125791f1ee218967f8c18f4423e3f16e868a97f38d1b2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000013.jpg",
+      "bytes": 51970,
+      "sha256": "037cd30d6c76f5a57acb80ba88a96da1bdb3eb8113bb51b52f2fef205347b51a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000103.jpg",
+      "bytes": 60616,
+      "sha256": "f10744106da56180b06d197694629a49c84a85008e7efb7fa52e236746209e92"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002481.jpg",
+      "bytes": 48130,
+      "sha256": "96fe204f5e84f9884016880342aee1d15f94efbe6dca40e81e08fc522f92a310"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001237.jpg",
+      "bytes": 53934,
+      "sha256": "519e1ad121f3070f1384e1b465726e980325bdc165e79018111d89fd4e163bd6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001307.jpg",
+      "bytes": 56338,
+      "sha256": "785b134ff363bf09a8f5fc20aa40bc72b4c07af6a65d7c96896c77f8d7061a16"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001251.jpg",
+      "bytes": 57732,
+      "sha256": "b3d0fca719f537dc96ce20a8f2e75b341795f286905ff696f9fe50b527f26307"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000005.jpg",
+      "bytes": 5525,
+      "sha256": "40061ddeac03cef32eb9e0bd0c6cbf41b75e8b3f7a9f637ed3387006cfb36e01"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001319.jpg",
+      "bytes": 55472,
+      "sha256": "5ec41dd763007fa7b4f8065a1b64504858dae4296dc62b14a900c118dbec2a76"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000089.jpg",
+      "bytes": 60819,
+      "sha256": "626154628cb6df72071003dc06459f68e6852e3c1e95a1f60e648585b94eedf9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001241.jpg",
+      "bytes": 54908,
+      "sha256": "c12c64c053dac66b0987c58bbe1f3a5b6df956750fb4e5e782158e00b758b930"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001211.jpg",
+      "bytes": 50207,
+      "sha256": "46063123dab4b1f5547ddcde3cc6c571dfd0a8759820048bfd403093d193ca08"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001223.jpg",
+      "bytes": 51411,
+      "sha256": "f05742bf57635f511f8f6439001927a45908abd7616e38925cbcf0119e0380d1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002503.jpg",
+      "bytes": 45403,
+      "sha256": "c9e95061f35f1b056b0c5204791c91da90cac1abd48a74df0d5dfaa73fd6b9c9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002473.jpg",
+      "bytes": 47731,
+      "sha256": "ea9b8dd6c58fd8e61cd9fbf549cf02aebbffec27d64d7d159db7f5d9980fd6cb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000017.jpg",
+      "bytes": 53734,
+      "sha256": "ad5204fc95e04653d62d4843159a1ecab36aa5be98fe5e40d85fee46b5a4dc9d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000067.jpg",
+      "bytes": 63066,
+      "sha256": "16b37013a196ffd09de9bc675575cafc18ae6ff8ada7c178f45b8ab081e213b8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000063.jpg",
+      "bytes": 63128,
+      "sha256": "8909fe6fa3db61cefbaec9547367aa3546973c77923ea6b538b3314ead1048a8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000083.jpg",
+      "bytes": 60769,
+      "sha256": "03eb7471f70afe3620627478f68fc2edd409a7c69cfea8bd3eff01d1f490a26a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000055.jpg",
+      "bytes": 63244,
+      "sha256": "e1bf2856419b9e5c3b1b8de44f830d801632526e0d8c459572b9e40aa8300531"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001317.jpg",
+      "bytes": 55552,
+      "sha256": "13326ffb34c695f7d4574d2087362aea2d1d829a098874e396c01a8c14d40a71"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002489.jpg",
+      "bytes": 46840,
+      "sha256": "1fc9e8acd79dae84dc27125e1d39458965ad31d952e6563d51b0c54ab63e0818"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001287.jpg",
+      "bytes": 52530,
+      "sha256": "eacb247f81b4f252255eccd72cc2ba7de620b684f34fab76a69f65c853e93039"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001273.jpg",
+      "bytes": 54978,
+      "sha256": "3948bbfd57a2a842ca248d5544140f64506cdb62eb7eea3b96fd9a7e4c2e145b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002485.jpg",
+      "bytes": 45514,
+      "sha256": "0c477aff89b8a4b56353f5a80bed66451830a690dfecc38bda24ff0959e0ec46"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002427.jpg",
+      "bytes": 44506,
+      "sha256": "c4ee3796509164d638ee86dd01da3f2900859bd779c681f1e656653368d97d54"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001269.jpg",
+      "bytes": 54834,
+      "sha256": "1c06849afe7ee7f918f02fd31587509d2b9be9cdc10e95d5a183b48d6bf73594"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002441.jpg",
+      "bytes": 45668,
+      "sha256": "24d3719fc9bb7f881e0bfd11eac7a28a25e3577321a5d415456b6b5eb8dbd4d0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002435.jpg",
+      "bytes": 45728,
+      "sha256": "bcf9f57238faacfc6c4a8f1b47e85c384c8a0c4737b8030335be6b8332e7fd89"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001275.jpg",
+      "bytes": 61005,
+      "sha256": "4e37d8e69e37de085855e334ec7244aad91e0cd3ae846a08306e54e80e6c60f1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000115.jpg",
+      "bytes": 60619,
+      "sha256": "d9d5202337e67652f45eac09c2caa3cd92366ab4cc3cf1272ebf5b95b80cef44"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001229.jpg",
+      "bytes": 51621,
+      "sha256": "cc02de4cf6e813b768b605ff0c1c614087e2ca9354f451d24edce751fbe5bca2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002457.jpg",
+      "bytes": 48512,
+      "sha256": "c62f21120cd9863e156ada5f9a9587daaaa130fe5a6a90d4dbd223c58754c5c8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002429.jpg",
+      "bytes": 45958,
+      "sha256": "896730497d079fa258c527390465c00253bd0c1dd9e4df6782b200f540c89c43"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000033.jpg",
+      "bytes": 66645,
+      "sha256": "843a6e3f53b3eebc2ae2fbf80885be6861ab9e71718bd98b472d6e3f560753a9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000015.jpg",
+      "bytes": 52655,
+      "sha256": "df5347fb7f448a8f0649be79f325278af9d132623cca82767da34852fe30577a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000031.jpg",
+      "bytes": 68020,
+      "sha256": "1b2d7ed1a55bd2ff6ebef4c8e98bc105768aa7f32be640c7f4b3992b31486d11"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002507.jpg",
+      "bytes": 46707,
+      "sha256": "0fe817309fadee476950cbe39982723daf17fac39c2ffa5ca800d793885b1c96"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000117.jpg",
+      "bytes": 60542,
+      "sha256": "3a4fbe2e473d9abed66f8de79e35ccc84ba2f61f66669c42bc4d439d212ec27b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001297.jpg",
+      "bytes": 54127,
+      "sha256": "88e6c654a992b653334e1c76d6d8b65bd8e7b9cfd6392ba1fc4fcd76146a9b6b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002463.jpg",
+      "bytes": 47724,
+      "sha256": "3f4642c97c3e98b5e4998e86c4720b94065ee3be9cf50fa12fd90aae68b9834f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001243.jpg",
+      "bytes": 55732,
+      "sha256": "4c978b467e03ea35c590831f2e60a2712557c14e14b53a67466731aeda3a3ba4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000000.jpg",
+      "bytes": 5394,
+      "sha256": "ed7d73e0f6a1855054de6359d52348266dfda336ce36eb689dad8ba996c35b8f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002495.jpg",
+      "bytes": 46013,
+      "sha256": "76cad6ad3f0d7487ba9bd6f148c5fad347de1c7a876ce51a17f6026fa5718f2c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002475.jpg",
+      "bytes": 48494,
+      "sha256": "c22e806fa0ee3635b9d9a8142619a39d5807f98cbc7af84938f7ed4b60143caa"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001225.jpg",
+      "bytes": 51581,
+      "sha256": "329042f6b888ae566c1e9f1af2a2116cb2ed3d725423822b64c73e93ad8d9334"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000043.jpg",
+      "bytes": 63322,
+      "sha256": "393d93bb4b9bbc6467be16b84ee2954f760d018eb28e9a4d0bb4b64e2502291f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000113.jpg",
+      "bytes": 60574,
+      "sha256": "e368871ff7cd389b18b9f8bc30c5ae495d756c2cb2d8f3f85fdf78168bc161be"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000109.jpg",
+      "bytes": 60654,
+      "sha256": "eddbdb049579ad759a9ccea0be2e2dd2506b64a730f31ccbda9d8409c8732932"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001247.jpg",
+      "bytes": 55886,
+      "sha256": "419a042d599b06a121b19912d9afff752366b79b85ed2a917bd443d0f17bfdbf"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002423.jpg",
+      "bytes": 46460,
+      "sha256": "ac7b27110a42b5149e073a828ef7fabe50c7d8b1899eb86969a02305f5c2657c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000071.jpg",
+      "bytes": 60931,
+      "sha256": "f387050f7b818d9128323cbdfeedcd84b3a2301bc156722be07ac4e1f74f5b2a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000007.jpg",
+      "bytes": 10609,
+      "sha256": "b15e8ab64bf17a5c5c0e92e00bea0383f9682d2334db42e5da14630f4dde1673"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001203.jpg",
+      "bytes": 50993,
+      "sha256": "1c8ac45cbcef8270a182445edb59d4fc32726f179e7ba2bc58533c7d526420a6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001215.jpg",
+      "bytes": 51120,
+      "sha256": "77b9cdcd980d99c4c9e2954c9864e95f6e2afd2c4589cdf5187796c1ef809ca2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000069.jpg",
+      "bytes": 60978,
+      "sha256": "bbb59adeb20675d25197b9be9f968d93eb4701e03a3546651b6ed0f8dc5af756"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000061.jpg",
+      "bytes": 63257,
+      "sha256": "f318fd3d32785ef7ced788970a7a7f0cceb9176029b791dc0bf623601b4a5843"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002487.jpg",
+      "bytes": 46573,
+      "sha256": "561e99da4d361866d70f63ce405a7b1b09b4f3a03a3579206fc09f24b51ad58f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000081.jpg",
+      "bytes": 60877,
+      "sha256": "a80bc0f6294364d28ca2bbf13ea380f1f5c4457bbb39a7fa2f027614d460363e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002403.jpg",
+      "bytes": 46440,
+      "sha256": "b3d952852ae664993afd4a1bd7f9af0ec13097074dcd0d9a0774d98f197d943b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001205.jpg",
+      "bytes": 49506,
+      "sha256": "0baed8c781545d7bb6aa1c0827e14e1c28aaf8702e1373a1a9c840b04252ce45"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000099.jpg",
+      "bytes": 60624,
+      "sha256": "4482179febe1544db443ce692d8dac6dd4ee0595ed1ed862565efece4bf43885"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001316.jpg",
+      "bytes": 44628,
+      "sha256": "d59dc54af101f1ef45afa8ae2076e69e4748cd217b21f2592ffbf4602016cc94"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002442.jpg",
+      "bytes": 42606,
+      "sha256": "47304863b0964baea7cb0f92d8564a9b39ce3ed3b3da8f21c873400fc64fca7d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000108.jpg",
+      "bytes": 52614,
+      "sha256": "9b598e400c7d376b40d6de81389d882e2066811f55e609dcf794c3b4a49b4ecf"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002518.jpg",
+      "bytes": 36892,
+      "sha256": "f1719bbaa0ec1bf4edb34e1142d2add3355781f89deaff7756da4e91c82ce614"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000038.jpg",
+      "bytes": 55033,
+      "sha256": "ab865752559d7c05ed21a7bb5b483a36495db9b817219f5a3b279fc94c131c35"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001228.jpg",
+      "bytes": 61117,
+      "sha256": "f13f405cd0e4c6e5726e1256e2d5ee6ec527e98e919b4eeaab5eb3dfa69e82b3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002440.jpg",
+      "bytes": 42378,
+      "sha256": "5235e38df7e20c3d18cc3563d2876e1b90877b754023497a0f878bcb6e556d6e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002490.jpg",
+      "bytes": 44833,
+      "sha256": "7dbfbe09953eb89fa032e0b1b952db66c230b536113e4a780d3e1ed834fd85c8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000062.jpg",
+      "bytes": 52873,
+      "sha256": "927564516a1d542988a829ea792e62f2cd3001218d2bbe5b4fb7abdfb7d735fc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002498.jpg",
+      "bytes": 38359,
+      "sha256": "1ad14fcd93d6ffe4c0e23374f0c0c35bd9ead9e1f74337e9ccf3cf5b4081dc7f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002486.jpg",
+      "bytes": 43398,
+      "sha256": "c84aaf8185bdcf5c65305bddaf8b38e924a123ddb834217108c639f55bbe8ffc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001310.jpg",
+      "bytes": 44051,
+      "sha256": "0d9062262fad871d80923c04a13c6c681afd9b80706285f13c351bf4c77e6f5b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000084.jpg",
+      "bytes": 52603,
+      "sha256": "9269c858aebb626afbb0062236e8a82a256544a56b55b81afba90aa2c0861a42"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001206.jpg",
+      "bytes": 57853,
+      "sha256": "5204f86c94853aed3228dffdaf01e62e5da2d8dead5b0960e727c5b261c9e11f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002454.jpg",
+      "bytes": 44048,
+      "sha256": "646878d6276787ecaffbd426740ec83818b5b4901923f9b07285e80088eaac0c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001220.jpg",
+      "bytes": 59149,
+      "sha256": "d63c8ff5ef7c9918517733a7d8208fafd946ce3aa9e216b09dd646a30a153f88"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002460.jpg",
+      "bytes": 44544,
+      "sha256": "4c0204e0a3c942873ad0d37e3a00389406cb3704c18f2016e091f330771678b1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000112.jpg",
+      "bytes": 52582,
+      "sha256": "36b3ad6f9e7ec7492dc5cb0014a6217907b8a3f6775b6f1e4bee3db30e1347bc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000114.jpg",
+      "bytes": 52529,
+      "sha256": "555716c92d6442f329135154410b8a1f2b86bf279f384afb1174b682a2946f77"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001308.jpg",
+      "bytes": 45228,
+      "sha256": "dd1d838699e5e96abc9c482694de19a971631f3c88d27c3c290364d88832cb34"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000026.jpg",
+      "bytes": 58375,
+      "sha256": "508990bf8c542f55fa30a4f4858fbfa59702cabfc70c0406614fdb8a3bca2c1c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000056.jpg",
+      "bytes": 53175,
+      "sha256": "c8715c77e28f2c8029aa8d05f3f818eaaa0634a664624923436eb3fb4023f889"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001236.jpg",
+      "bytes": 61280,
+      "sha256": "b7f59b6efcbb9990f44b776ca2f0fa195507f49e27aeb44f73c116135938e74a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001224.jpg",
+      "bytes": 59918,
+      "sha256": "5b7bcf3f5c483d7d9f62c6a03d87e2ea5df97d270a0eb87ed7445bb024c66fe6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001284.jpg",
+      "bytes": 49086,
+      "sha256": "328b684439f8c7460dbb7c0a01fcbeec949c0667563e8d24f43ddb34dd28398c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000014.jpg",
+      "bytes": 41648,
+      "sha256": "521d847f79a629bdf5af5aa2922567a4e1e983e2cac2b94fe2337e6d97276e4f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002502.jpg",
+      "bytes": 37634,
+      "sha256": "5ba126783e45de8d83d400d60acce6a2ca710e7e421a7119b440093c17ab397d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000040.jpg",
+      "bytes": 54254,
+      "sha256": "db2a2be800a45de2d2d5eff8cb28cff327fafffeadddfb602340651af65d546b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000074.jpg",
+      "bytes": 52669,
+      "sha256": "b99293fcb73725cf041ff6b57495e82d722420448314a973e2d0768681dca1a7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000073.jpg",
+      "bytes": 52636,
+      "sha256": "2db6686b0e70ef870c00c861b4f124693aad5be19c5f45149eb00a39327bb3f9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002404.jpg",
+      "bytes": 51630,
+      "sha256": "39351d1fdd1edb122148d017b7ad2a153d929a8b1dcfc4f1fe5e6e50d05251d3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000028.jpg",
+      "bytes": 57848,
+      "sha256": "2ed30682b69daca0e6c7b2b54d3e6ab2b126e06211f14804eebccf79e4c202ca"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001200.jpg",
+      "bytes": 59924,
+      "sha256": "ca413292c73fff670516e508b0c144dd21cd3bcbce3a2c3a5d4a3ab1e32c6df1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001290.jpg",
+      "bytes": 47685,
+      "sha256": "ebd216b5c46dec8752cf8bc78f7acdcfa3ca23b46882612e61344a000714859f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001300.jpg",
+      "bytes": 47209,
+      "sha256": "b0a033d1c10cc078b5f12c7ba382733dd9921de645b0f827ef587396829da1f4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000094.jpg",
+      "bytes": 52737,
+      "sha256": "ab7cab8d045b419513f85779bf17fc231a3743295bb7a094092125f70021600c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001264.jpg",
+      "bytes": 57530,
+      "sha256": "6f16eb11cf8173e32c6c7c872e3f8d8bcb72a7aa4c94f13e074a52ef7e9c33ea"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002444.jpg",
+      "bytes": 43085,
+      "sha256": "bdc17adbd93c05096edbc8a613f552d13dce9c1319e806afeda797ae710fd5f0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002400.jpg",
+      "bytes": 50332,
+      "sha256": "cf083cb7bde7f9ea2df4f3eb5faa345bbe49b975e46c4dbd5099248a5d4691cc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001208.jpg",
+      "bytes": 57411,
+      "sha256": "3925513d993774630c4d14d1cbb67ea6875666561bf561851ee7864df74126a0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000048.jpg",
+      "bytes": 53504,
+      "sha256": "27abe919d71a1729a6fdee1080638d2d99676af186055e46c8b260437491de46"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002438.jpg",
+      "bytes": 40827,
+      "sha256": "1cb2f1d711d7c9530b9438e51f1b27ba053258d24928bc3f3f7d74e0a32ec006"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002484.jpg",
+      "bytes": 43971,
+      "sha256": "7b7ef6e1b7aca144a5744b174ccb8b80ac378dabdc0da885a791e1f8967035d6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001274.jpg",
+      "bytes": 53827,
+      "sha256": "1db97661f06ae41b32a76a322f71a6ac4bad1ad22de41a4e62ccf2cb155ce518"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001222.jpg",
+      "bytes": 59033,
+      "sha256": "288de9149409bf171a4b077aca25fb75df9342737dcecf1e3e6988da18793f64"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002496.jpg",
+      "bytes": 38801,
+      "sha256": "5efb0c97918ebff25ad83e5008793f56bef19b5473fc1a79d16defe712c56d6b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002446.jpg",
+      "bytes": 43726,
+      "sha256": "0d28735a82ac990ccd578e0fd705fa31ad3ffad0f79dd037270990168f6a2798"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001262.jpg",
+      "bytes": 53557,
+      "sha256": "b1065134259946c30be594efbae54eae9ee5fb5abb8e3d40e3f26a569371929e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002418.jpg",
+      "bytes": 44276,
+      "sha256": "d626dc4f525225551f05fd4f40dc1e865cc997aa4a85ffa79d9830037bf55a24"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001286.jpg",
+      "bytes": 52332,
+      "sha256": "eef481a57f117799a77c8176214c7594b97c9ca6585e1c4de12a3892d827b4b9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000054.jpg",
+      "bytes": 53130,
+      "sha256": "6f4b3697560f2efba357fe48bb216b48bcb7dafcedc3530fa0506ed7b19e7023"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001202.jpg",
+      "bytes": 59652,
+      "sha256": "82fc67164378255e45d46af9427bc7ff673497bbc9cec97d9ebd1cd1ed96f3ec"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000098.jpg",
+      "bytes": 52536,
+      "sha256": "bc99f871196271830576ebf162c64641a9ebf69f21ea3c6281f80998a4c2796c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000118.jpg",
+      "bytes": 52475,
+      "sha256": "06fb3abd115e456fead608a87ee029907f2554e239fd42a68cae32c8c7f6ed84"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002494.jpg",
+      "bytes": 43302,
+      "sha256": "c9e5c9c7c8b425b82144c57649f6b15b0fd20f5fac8a22fa4c346667c45001dd"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001256.jpg",
+      "bytes": 51627,
+      "sha256": "9b4ec523d4c0228377cce22d9338995e4e2a990df97ab0a41b3da2fd39a3e975"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002470.jpg",
+      "bytes": 43444,
+      "sha256": "c2cc63b17d412c3fc355569bacd5ebd1d59b773a63df8c04266cee5182e3ca97"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002488.jpg",
+      "bytes": 43557,
+      "sha256": "6c77ba3f655935555c10f162ed66ca577911cec83231b63d1b1b137b814a3818"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002450.jpg",
+      "bytes": 43289,
+      "sha256": "0f4cd66159d0e5128a2630abae11fbd5a695b0cc936880b1a14204b7d8e76fd5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000046.jpg",
+      "bytes": 53770,
+      "sha256": "17c9b4fdf0fa5366f506e4776ffec5b23ebe56a75ea616501b05bb9baf969afb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001318.jpg",
+      "bytes": 44497,
+      "sha256": "c432aed7072cf9f9cf0f3a55452aadcbc85cc31e34fbfe01df8a56cc6122e7d5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000064.jpg",
+      "bytes": 52778,
+      "sha256": "0912452e92cbd3f48ca50a7636a71a2a7cc373ea065de3a41a78b1cf43db29b8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000058.jpg",
+      "bytes": 52859,
+      "sha256": "1e02b431ff17f6d27f3788632190fc36222cac876bb7e424a76552db66ba33bd"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002456.jpg",
+      "bytes": 44215,
+      "sha256": "86ece156e13ed713583b6a749e80270c9fae7179fa6ae1736098b8501db50093"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000020.jpg",
+      "bytes": 58733,
+      "sha256": "44d57065935c25abb2d46fe2f39a87cc969a9820b59604a419e1170f76b43f23"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002512.jpg",
+      "bytes": 42920,
+      "sha256": "ccd85250dfed35d1bfddeb496e63435599f1231393d5bf462949550ead6462c2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001234.jpg",
+      "bytes": 58144,
+      "sha256": "64ee095f5a342dea855a4a954736a6947cf66254e4db8afc329735cbab500d2d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000022.jpg",
+      "bytes": 58762,
+      "sha256": "104a449ced381bd53d790ebdae219acf32529668dfc60d3491a8c017a783e377"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000076.jpg",
+      "bytes": 52581,
+      "sha256": "5b84337999e33f3f4573b2b8bd260d1ab114ce1da62b5fbc2eb6f41ff010e392"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000078.jpg",
+      "bytes": 52684,
+      "sha256": "33fbb73f0f7d2b0d309864cbc4111a1b07efbe4e4d48676c2cebf2dc271e8066"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000044.jpg",
+      "bytes": 53821,
+      "sha256": "aa0ea6fcf6914a50db79bed9cc9db7ddba79e07a226632b4aa93530704a9740e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002492.jpg",
+      "bytes": 45264,
+      "sha256": "c3dc34418e75b68733626e750b36fe8d3ea63aa6964471baeb5ae8a0683bc796"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000030.jpg",
+      "bytes": 56974,
+      "sha256": "58aa64a0398e8b76e85711a4f8412800bd0d4191081261a5bcee49fadd7f3be7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001232.jpg",
+      "bytes": 59227,
+      "sha256": "69bbf2affab4b5b34915710163a549a9bd6e83e8eb1679cebba5d15817cc60b2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001204.jpg",
+      "bytes": 59576,
+      "sha256": "c61f42715b81d69da73c7d11f96ef478c57f108d7c546a00f1e3f59d54116fa2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001272.jpg",
+      "bytes": 54471,
+      "sha256": "0c929c1ec9c11a4de2843fe6699c532a0f9d988ca8f9f798c2b2993c5b761b84"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000092.jpg",
+      "bytes": 52642,
+      "sha256": "1f4d24ff5055300171ac782a529fe3981536b1dbeb2e390c5d2c570dc01058de"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002428.jpg",
+      "bytes": 37132,
+      "sha256": "2a4a73598ef5886b7def76ffe57e81c1dd114b46a2ed322bd19d1f6c9b869d6b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001212.jpg",
+      "bytes": 59446,
+      "sha256": "17f1886f4ac2b203edbab825f67dc547f1fe221826803eacf46754e6fa84c829"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001292.jpg",
+      "bytes": 47827,
+      "sha256": "bfb1fe28d426152eef774573d063796bd13ee420f879c66eb9574315b52d5185"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001302.jpg",
+      "bytes": 46434,
+      "sha256": "084d0529b79f8c7b77d5269a049e7ec28290e0164df0acf5003f7d23a3f92087"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002500.jpg",
+      "bytes": 37846,
+      "sha256": "7344173ca1818b9d2c1370ef392699aac878eaa10aa687f639b58e702dd7cd54"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001244.jpg",
+      "bytes": 58671,
+      "sha256": "ee0b9c748a7e8405bff01f52c3f433d9dfaa8511853f5affbffd7fac721ae4f8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002458.jpg",
+      "bytes": 44286,
+      "sha256": "0a02501ab0d3d2d72443e38ca78839154cc4ce383b5515d716e247a45ee46b8f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001226.jpg",
+      "bytes": 60779,
+      "sha256": "1d1690e26be93d3703ee0506c0379b4fdecda98549604c5c635c2fa19f0ff5d8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001216.jpg",
+      "bytes": 59246,
+      "sha256": "c13ffca6662c726fca68d53c3b05cf43e573e776b21b06227b9485015b5c6120"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002430.jpg",
+      "bytes": 36937,
+      "sha256": "05703e7d1563d4ae8f3ecc063561a1790690783f6a1283790d29aaabd348e5d5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001260.jpg",
+      "bytes": 51019,
+      "sha256": "9730b3093517424548a7ebcda5b590da7626200c0ec281c02e3623cae9213c71"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001210.jpg",
+      "bytes": 58530,
+      "sha256": "8e2f49b625acf90b82853cdc9c934372d4720994815745f48a079d10ba1012ba"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000042.jpg",
+      "bytes": 54320,
+      "sha256": "c3911296f2fe43739948fda61e4fa86d4de2b9fb7790b28ef6cdd44052d61499"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002464.jpg",
+      "bytes": 46046,
+      "sha256": "1030f10a1e75745459ea3acbdfb95281ee54c85bd012aa5aabcd8ae2fbb19156"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002514.jpg",
+      "bytes": 45901,
+      "sha256": "96f75889abb50be9b742d66ccf23544a1ce867e805ec902b135ab5f654fd914e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000036.jpg",
+      "bytes": 55719,
+      "sha256": "f75396ca2fe18fd39dc8d088db5ff1efc0cdb0f30636382b179438e48d8e9881"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001306.jpg",
+      "bytes": 43880,
+      "sha256": "3c71fac7142aef505af3206b6a89dc9423b5edfaa768685d6178cbe12b024559"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000104.jpg",
+      "bytes": 52593,
+      "sha256": "345d4285034a39d7d44e41c9f28b279019b736bcbcdfe6778222921662083682"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000102.jpg",
+      "bytes": 52616,
+      "sha256": "aa30d99b71270255b51be74e23114ae7e06679f90d4772bcf9b16d47f696d3ce"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002402.jpg",
+      "bytes": 50717,
+      "sha256": "1b3f5296f93c39850b6238e7b05ebf6df1b579d204f27efd0a14377418d17fd0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002436.jpg",
+      "bytes": 38787,
+      "sha256": "2beda153fe84f4cb23301301b1eceea6ae93651412914a5b5a66679aa57f2b4a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002416.jpg",
+      "bytes": 46935,
+      "sha256": "8cad98b1b4828539cd4ba0d1eebda8507675002736aff67b4adc5f40a48bab81"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002510.jpg",
+      "bytes": 40602,
+      "sha256": "b3c05ee939c2754f4eb03832f3c44bdd5d9802ab88afd8e5feb522555ba63a48"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001230.jpg",
+      "bytes": 60904,
+      "sha256": "5944aa3ef7814ff464d861f405c4e84e3820082764e80fbf3f5544a6e8adc647"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002462.jpg",
+      "bytes": 45731,
+      "sha256": "936c12fe2bb016f296d8c155e4808033e681b46f7420a665812b50590644c75f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002480.jpg",
+      "bytes": 45031,
+      "sha256": "50d71f4bbecced40627ccb4280b6a91c4485f54096481f29486f2c1db9ae0539"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002516.jpg",
+      "bytes": 41779,
+      "sha256": "72c620c81b1baeab63a71ccd618b332567bc98b4d6d15b47adbc3c46a83d0f64"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002432.jpg",
+      "bytes": 38634,
+      "sha256": "74d6f0703c9e25bf9f73e9f1ab3ee05c31e5381d83d0df72120f94d2c971d7c1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002476.jpg",
+      "bytes": 46707,
+      "sha256": "78fb2ed9090065213881c2281c5679ad2974768be3a2fe8071986912b1a058dd"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000080.jpg",
+      "bytes": 52595,
+      "sha256": "56c25280285115d6d5f3fea66c50ec91616ecad6be506e5c93c7c339297cb3d0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002408.jpg",
+      "bytes": 47975,
+      "sha256": "b0b0d0286aaea844b485e31b06f1936f1e0d2b5d41f9f3167c3efe85516ff520"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000116.jpg",
+      "bytes": 52550,
+      "sha256": "08c7163ecf717eb9bd8fee3d8a00086fe33dd3539f40ff6ddc4d275db01b4101"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002468.jpg",
+      "bytes": 43932,
+      "sha256": "69e8810e327b31ccb0315999e11e34b35ee1683b28a4030f3724d5445f4f90b1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000106.jpg",
+      "bytes": 52633,
+      "sha256": "d3d3ca880031286864ed877a9aaac42c1106891baf92d0308c6a6396766ede68"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000066.jpg",
+      "bytes": 52924,
+      "sha256": "cb8fe35ed0739841fb84f77cc61b6dd39b8b7c7f5666e25a702acc77071e7ef1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002412.jpg",
+      "bytes": 48893,
+      "sha256": "20ad685ff52f8f8d01d8f75885a879b698b6f4fcc956db82c1164355d050b87c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000050.jpg",
+      "bytes": 53210,
+      "sha256": "48c4cb0e901a7801af38833fa2720a0bdf46ffd43f47c1d7d6377bfb19cb83b0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002472.jpg",
+      "bytes": 42778,
+      "sha256": "e6b30d40be288b72309ce8f6c431913835711d9b1657dc52d8d15de41fb5396c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002482.jpg",
+      "bytes": 44420,
+      "sha256": "567bbfed60ae2e5cf57cbaffd0ece0afab226c638b60445a51edd0b501e4c47d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000110.jpg",
+      "bytes": 52541,
+      "sha256": "fd9c3af1bcc595b66ee29a53fc41a212ba55ee71ecb2a86db8e33674673309c9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001246.jpg",
+      "bytes": 57689,
+      "sha256": "1cdf18495ba877facf2cc6a9b5f140576cb9228c61ef4fd18f2474bd1324bcfa"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000018.jpg",
+      "bytes": 58917,
+      "sha256": "c9a289313ec313cd3b5e5c5bd8fa60f7aa40e2de1faa4f891a75631a99a05be0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000088.jpg",
+      "bytes": 52739,
+      "sha256": "7a10dcaccd8081245e61421f514e378a70bfe486f982d36fc9013cb464b4d45e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002452.jpg",
+      "bytes": 43864,
+      "sha256": "b33d11d99fc4f5be89cc6d974d2b893d9620908af2432469c9c72de72aaced38"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000052.jpg",
+      "bytes": 53196,
+      "sha256": "d1a28c2cd63f0ecab7c2fe880cfdade9cd592f1bd290e5b9434d3f78b72a9ec9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000096.jpg",
+      "bytes": 52608,
+      "sha256": "5a7e9cc64138a877de53dd9d1df0b23b5ce4be46f98289bd0225926e1afca2f6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002410.jpg",
+      "bytes": 47808,
+      "sha256": "bdaf1ac3cb3d11a7795d5b1f8fe8d2c8713dca045c73d81f04b1d3310403a12b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000032.jpg",
+      "bytes": 56445,
+      "sha256": "0d8ff4e7755aa94ef1abe14adf394ed9af77fd5069ca5b83907e89a0beb4496e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000068.jpg",
+      "bytes": 52889,
+      "sha256": "b7ac579a78f8f2b5e58dbff2a4ec144f74e54368d430eb1fc6759e4b42b104f6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001258.jpg",
+      "bytes": 51740,
+      "sha256": "2dc6adf68d22f2a832a7768d40766b78ff75b37d0326e8eb69096195463aba5c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002474.jpg",
+      "bytes": 43221,
+      "sha256": "22613787dc713aa259fd13f6a21e76165e1f1e83964c85a6e71da10c8e699a55"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001214.jpg",
+      "bytes": 59336,
+      "sha256": "87647403adb836ec3228512dc286d5d830c2104ca533402b8827a59a2860d33c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001280.jpg",
+      "bytes": 54559,
+      "sha256": "d49f1f00366f31e6b5d11aa359eaff68b5cdd404ba26d8b50a4786ac078af841"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001298.jpg",
+      "bytes": 48006,
+      "sha256": "8851cf1b1e53a9b90b46b713d8e8b3759549de87551132674da5f5c64325f487"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002406.jpg",
+      "bytes": 50207,
+      "sha256": "98e0bb406db6ef26d536b5d3398a59fcd568a43abcd05451c01a3b338d71f1cf"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000002.jpg",
+      "bytes": 12732,
+      "sha256": "9380b07cd031ceb4450181b2ee8cdaba7567b90893fbb1c592db171b6fe1e5b3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000070.jpg",
+      "bytes": 52670,
+      "sha256": "5dbe447c741166d068bc26d8800a76d4d02aa1e58dcfcbfd98b5844fa962a7d5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001248.jpg",
+      "bytes": 53153,
+      "sha256": "d114eb810b9099d07645f0a5d1591f7a74e4f4d3ff6bd2601f46cdb517d8147e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001312.jpg",
+      "bytes": 44823,
+      "sha256": "b2989eddfb9f73a8e97bb5cc34c4edf8a3dfbfdb9e6c3eebecf9ed605dbf1a15"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001270.jpg",
+      "bytes": 55299,
+      "sha256": "1eef55afe7d35d2f25fcb928747680edf4906be547ad29d03daa96e52a21728d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001218.jpg",
+      "bytes": 57613,
+      "sha256": "0178e2ca0477c7201a7dea8bf3779adae3663dd59c78c2128e5f0e285b44caee"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002426.jpg",
+      "bytes": 36631,
+      "sha256": "edfe52dd59cd3b1081b71276dbb952c84b8eba7a6fe3da498714154df911f46b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002424.jpg",
+      "bytes": 37093,
+      "sha256": "eb627112c3f7f06ff6b6d0722b6e6cab9bae4924d364d892ae89a6edb68b8174"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002504.jpg",
+      "bytes": 37378,
+      "sha256": "cef3506cb2d81e2211fabec947a24a71d689f7767d386e588f8094b13e166867"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000024.jpg",
+      "bytes": 58730,
+      "sha256": "d6a14b0da8d97fd3fbc93abf71e4a14eb2678f8276fcecc93020549a79b351e4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002466.jpg",
+      "bytes": 45544,
+      "sha256": "be0d700cee766b8507ba7929f07b37e9a3886a1206dd8694571a6fd7d882951c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000090.jpg",
+      "bytes": 52668,
+      "sha256": "b1bc98e6c4a8ac7bc111aa23dd5910e0589ec8d2443968a6de1703366ea0ca1b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001314.jpg",
+      "bytes": 44198,
+      "sha256": "bf822c45cfb9d98c7f8c088f5d7dc46625b8b0b1ad45d10bd330b0ef008955a1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001294.jpg",
+      "bytes": 49388,
+      "sha256": "d92b1487bf98c4574ff2e34b67e0718be87b41887c4a9fc468bfd20d3b3b50a6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001304.jpg",
+      "bytes": 46347,
+      "sha256": "9f55543669d10affa82c2a4829828866f825de99356fa239002aaa2e75af5e4b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002434.jpg",
+      "bytes": 39376,
+      "sha256": "37e6e92eb5864565d052586216b92d57049f09f3210eb71c833fd52e28726c7f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000010.jpg",
+      "bytes": 42016,
+      "sha256": "a0b10c35976bf19425895013efa60a4897cf858145ee544f7299b4c3402d548b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002414.jpg",
+      "bytes": 47573,
+      "sha256": "db321c1dad8ba457c81b0d7c139a285fc24aa7ea0dce35c118f5000cd158585a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000008.jpg",
+      "bytes": 12930,
+      "sha256": "c4ff812552cde889ec6b61391041816102a6de6165fdf070be2092b27dadde30"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002422.jpg",
+      "bytes": 37159,
+      "sha256": "929fdbfee0a12ce86a2df3d34e238a17c0ce45a80a0b4b68c1e78934680da6fb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001252.jpg",
+      "bytes": 50264,
+      "sha256": "1c37f73b3cb721a6b2173956fa8ca317c94a7028f6cf0aee090dcaba434c6652"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000082.jpg",
+      "bytes": 52611,
+      "sha256": "5a62b4e7bbe9ae91d1490274c5d288f84d18436d4b2b22ff8b9e454027a417f8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001242.jpg",
+      "bytes": 57223,
+      "sha256": "c611c8372318c34869d561911672b5a4e03f63ecb95fa88589b5ca86006336c7"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001282.jpg",
+      "bytes": 51808,
+      "sha256": "5a219744c847f910c9bfd18e24e4789a0a6fcaa5c9b4de3e3282eb4c6e0cbcae"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001240.jpg",
+      "bytes": 55775,
+      "sha256": "45180ee38b78ccd7c25a00b0f62764f3aa17545644d3d45a5e7be2eb378b50d4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002506.jpg",
+      "bytes": 40245,
+      "sha256": "6a5ec9bd7446667933f89064e3f11c4a8bdd75b4be7b9901e9c449e12a61d0e3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000060.jpg",
+      "bytes": 52845,
+      "sha256": "dd1af323231d9ee1f15adb4ce7c695a1183854dbdc2cdb9d78b5867405ddeacf"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002508.jpg",
+      "bytes": 41123,
+      "sha256": "546a850c401d26b5c2276a35416c0f4c25305a05b703e151e149df0e51886a56"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001254.jpg",
+      "bytes": 49454,
+      "sha256": "970ece4fd2de4e2234d6bf40aeb32e5c8310a4f8050ecca8b7c457393fa0aea0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002420.jpg",
+      "bytes": 39724,
+      "sha256": "862e30f6c37b88a45c3182af91047ebd42e4ff0f9d7f4c4c229442f34d2b9bbc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001288.jpg",
+      "bytes": 51199,
+      "sha256": "175e96e10a3b118f638eb313499fbf1fb97e4d7f1f43d9fd4e855dfdb7f4d191"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001268.jpg",
+      "bytes": 55943,
+      "sha256": "b623d6ea06172a4bf5b37b0d4b51357d8862c7a3701fcaa5c4bb09ef711df205"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000016.jpg",
+      "bytes": 58996,
+      "sha256": "2ebee52206f96812ab57d18415b3f7ffc84e1e08c5fd98035477934d1e9b201c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001278.jpg",
+      "bytes": 55286,
+      "sha256": "595eecc047f60f46676efdad06249148df93b062678175cc6df2f01cc612b12c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001250.jpg",
+      "bytes": 53582,
+      "sha256": "4671ddae5bb3e3a4ba3c57396e19f0379b86ec47a481e5123fc2c07eec3ab69a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000012.jpg",
+      "bytes": 41697,
+      "sha256": "acb27e71f597cffc2771781a7d928ec749656137076ad7be47473bc0a4508093"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000000.jpg",
+      "bytes": 12398,
+      "sha256": "7099e1c9c3d2aec28074b165847186f11f8ca1f39ca68232a0298c17aaee9bb3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002448.jpg",
+      "bytes": 43421,
+      "sha256": "34b93fae364c93e9b42994705a62b33a05107010dbcfa23f58a41c98f02a9c45"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000004.jpg",
+      "bytes": 12914,
+      "sha256": "b1dd66471a25cb34ec6d80397ddf65b7eed156702b5ead15b5da0b451aaee9b8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000086.jpg",
+      "bytes": 52647,
+      "sha256": "ca7f846466a2ac49e8c8f54f33dbf66461a779dbdebda6c92aee3e6ad32be1a5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002478.jpg",
+      "bytes": 43289,
+      "sha256": "5953229ebb6335adf252b22fc6c03794add978ed6db3bae295777364ed8f82c6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000034.jpg",
+      "bytes": 55952,
+      "sha256": "0b05cc0904b2c87b2b10a69bd00f8d7a6ffa0eff13875dcfda5dc56c08a42b38"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001266.jpg",
+      "bytes": 57578,
+      "sha256": "26f3c35166c6365168e8a52554d1ad0f4c17bc4831a27999d73e38fa4e35436d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001296.jpg",
+      "bytes": 48591,
+      "sha256": "a825c5865dcb599267b7483a697bca8eca5b5eecae02116dfb10c009ec2f1646"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001276.jpg",
+      "bytes": 55465,
+      "sha256": "e84b29f562c72401b73c7ec78f3872708105f0df6815b82a671730d937e11730"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001238.jpg",
+      "bytes": 59441,
+      "sha256": "66c554ef002df4dbbdd32c662176e042bc56adcc4377653dd411002b230377b2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000100.jpg",
+      "bytes": 52555,
+      "sha256": "850c5578271edc229a5e3b8c701372182199b52654f6cd4b82b9692d3d4940e3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000006.jpg",
+      "bytes": 13071,
+      "sha256": "c88c7b2d340d441154e48d13b307153b8ac0714ef71ce35f3931004d01296613"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/bin/stage24_mono_pilot",
+      "bytes": 48952,
+      "sha256": "9ccfc08756ddcaf680346b890782ea812c4a951e012f83534f3daa8202c2f280"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_240_252/native_file_access.log",
+      "bytes": 195090,
+      "sha256": "2e269231e2819205e9c365faffef9232ca63d0b8c35f0eab99f46d6c6f569464"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_240_252/stdout.log",
+      "bytes": 3462,
+      "sha256": "2e351476d45c370ce7aadeeecf80102d9059696d99ed0ef389db8b6cc969287a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_240_252/native_file_access.log",
+      "bytes": 194783,
+      "sha256": "b43383310a38523223993ade61490f23c552b29e8b4a3614cf5790ccf5f576e3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_240_252/stdout.log",
+      "bytes": 3460,
+      "sha256": "b4cda86e9a55f19316bff9dfd770b8fbc4ece738960da8cc4839c5e361d92262"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_000_012/native_file_access.log",
+      "bytes": 197567,
+      "sha256": "343175b2e064f5189f7ca3abf592cad4e85f1e73fc7a209e3d7ae75bdd46e126"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_000_012/stdout.log",
+      "bytes": 3409,
+      "sha256": "68673b93c950fc61fd68447c47aae89d72a4eee30dd2e33c4fa35ee22a610b9c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_120_132/native_file_access.log",
+      "bytes": 194943,
+      "sha256": "ae19c127c590cb924da71b74ff8ab1d7e41c92ae1fcdd43f0e9ecb3d9955ee52"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_120_132/stdout.log",
+      "bytes": 3459,
+      "sha256": "24c3289bd6010080e0824ccc4d56551456fb8559ee2bfebc8fe206ac24403ced"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_120_132/native_file_access.log",
+      "bytes": 194792,
+      "sha256": "ac95920b3ef1e54f28272c957ca2d3b7cc28767bee684e2d5f4e636891ed9f1c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_120_132/stdout.log",
+      "bytes": 3462,
+      "sha256": "90fe03513c9dbd015d6f9a8ce07d00588b773f2e242972bd0119c0c576c65035"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_000_012/native_file_access.log",
+      "bytes": 197490,
+      "sha256": "da8d59544292ddd2b0b13b67bcd3561feff56f2151514e6ace5a33a3c759df84"
+    },
+    {
+      "path": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_000_012/stdout.log",
+      "bytes": 3404,
+      "sha256": "782d9bf86d5680412e5e2f18c89c3358d1a052355ba0a6dbd9b5a0d08b33e4cf"
+    }
+  ],
+  "reason": "raw frame sequences,model-confidence arrays,native executable/full access traces remain server-only; raw ZIPs and weights never staged"
+}

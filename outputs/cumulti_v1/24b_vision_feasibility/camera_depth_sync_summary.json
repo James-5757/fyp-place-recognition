@@ -1,0 +1,12 @@
+{
+  "robot1_nearest_bag_delta_ms": {
+    "count": 8765,
+    "median": 1.38209,
+    "p95": 6.207007199999996,
+    "max": 24.333525
+  },
+  "first_real_decoded_depth_RGB_header_delta_ns": 0,
+  "header_agreement_scope": "one actually decoded nearest RGB/depth-cloud pair only; not a full exposure-clock calibration",
+  "basis": "recording bag times, not hardware exposure synchronization",
+  "robot3": "MISSING_DEPTH"
+}

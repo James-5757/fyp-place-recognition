@@ -1,0 +1,193 @@
+{
+  "native_runs": [
+    {
+      "robot_id": "robot1",
+      "window": [
+        0,
+        12
+      ],
+      "frames": 60,
+      "returncode": 0,
+      "valid_poses": 0,
+      "tracking_fraction": 0.0,
+      "longest_continuous_tracked_frames": 0,
+      "track_ms": {
+        "count": 60,
+        "median": 50.9680865,
+        "p95": 65.4595991,
+        "max": 70.968147
+      },
+      "wall_s": 15.502475023269653,
+      "peak_RSS_MiB": 501.0,
+      "new_map_log_count": 2,
+      "reset_log_count": 0,
+      "metric_scale": false,
+      "trajectory": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_000_012/frame_poses.csv",
+      "interpretation": "native tracking feasibility, NOT metric multi-robot SLAM or globally consistent continuous trajectory"
+    },
+    {
+      "robot_id": "robot1",
+      "window": [
+        120,
+        132
+      ],
+      "frames": 60,
+      "returncode": 0,
+      "valid_poses": 47,
+      "tracking_fraction": 0.7833333333333333,
+      "longest_continuous_tracked_frames": 47,
+      "track_ms": {
+        "count": 60,
+        "median": 16.2320785,
+        "p95": 75.4544408,
+        "max": 83.327413
+      },
+      "wall_s": 10.185745902359486,
+      "peak_RSS_MiB": 510.99609375,
+      "new_map_log_count": 2,
+      "reset_log_count": 0,
+      "metric_scale": false,
+      "trajectory": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_120_132/frame_poses.csv",
+      "interpretation": "native tracking feasibility, NOT metric multi-robot SLAM or globally consistent continuous trajectory"
+    },
+    {
+      "robot_id": "robot1",
+      "window": [
+        240,
+        252
+      ],
+      "frames": 60,
+      "returncode": 0,
+      "valid_poses": 58,
+      "tracking_fraction": 0.9666666666666667,
+      "longest_continuous_tracked_frames": 58,
+      "track_ms": {
+        "count": 60,
+        "median": 16.8640725,
+        "p95": 49.28650074999998,
+        "max": 106.385728
+      },
+      "wall_s": 9.936335952021182,
+      "peak_RSS_MiB": 514.0,
+      "new_map_log_count": 2,
+      "reset_log_count": 0,
+      "metric_scale": false,
+      "trajectory": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_240_252/frame_poses.csv",
+      "interpretation": "native tracking feasibility, NOT metric multi-robot SLAM or globally consistent continuous trajectory"
+    },
+    {
+      "robot_id": "robot3",
+      "window": [
+        0,
+        12
+      ],
+      "frames": 60,
+      "returncode": 0,
+      "valid_poses": 0,
+      "tracking_fraction": 0.0,
+      "longest_continuous_tracked_frames": 0,
+      "track_ms": {
+        "count": 60,
+        "median": 61.4081875,
+        "p95": 84.93037574999994,
+        "max": 120.878498
+      },
+      "wall_s": 11.78599957562983,
+      "peak_RSS_MiB": 501.99609375,
+      "new_map_log_count": 2,
+      "reset_log_count": 0,
+      "metric_scale": false,
+      "trajectory": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_000_012/frame_poses.csv",
+      "interpretation": "native tracking feasibility, NOT metric multi-robot SLAM or globally consistent continuous trajectory"
+    },
+    {
+      "robot_id": "robot3",
+      "window": [
+        120,
+        132
+      ],
+      "frames": 60,
+      "returncode": 0,
+      "valid_poses": 49,
+      "tracking_fraction": 0.8166666666666667,
+      "longest_continuous_tracked_frames": 49,
+      "track_ms": {
+        "count": 60,
+        "median": 16.362173499999997,
+        "p95": 71.42139749999997,
+        "max": 89.209498
+      },
+      "wall_s": 14.70187194738537,
+      "peak_RSS_MiB": 508.8515625,
+      "new_map_log_count": 2,
+      "reset_log_count": 0,
+      "metric_scale": false,
+      "trajectory": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_120_132/frame_poses.csv",
+      "interpretation": "native tracking feasibility, NOT metric multi-robot SLAM or globally consistent continuous trajectory"
+    },
+    {
+      "robot_id": "robot3",
+      "window": [
+        240,
+        252
+      ],
+      "frames": 60,
+      "returncode": 0,
+      "valid_poses": 41,
+      "tracking_fraction": 0.6833333333333333,
+      "longest_continuous_tracked_frames": 41,
+      "track_ms": {
+        "count": 60,
+        "median": 16.3421895,
+        "p95": 75.1805965,
+        "max": 93.164161
+      },
+      "wall_s": 11.692731346003711,
+      "peak_RSS_MiB": 503.8515625,
+      "new_map_log_count": 2,
+      "reset_log_count": 0,
+      "metric_scale": false,
+      "trajectory": "outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_240_252/frame_poses.csv",
+      "interpretation": "native tracking feasibility, NOT metric multi-robot SLAM or globally consistent continuous trajectory"
+    }
+  ],
+  "image_only_retrieval": {
+    "model": "ViT-B-32-quickgelu",
+    "weights": "laion400m_e32",
+    "checkpoint_sha256": "46683a32721d5c68911153698992361285d20ca690bb4f317c11e45c03d798fa",
+    "encoded_frames": 72,
+    "encoding_and_features_s": 4.525484669953585,
+    "queries": 72,
+    "epipolar_plausible": 1
+  },
+  "process_peak_RSS_MiB": 1577.86328125,
+  "native_binary_provenance": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/bin/stage24_mono_pilot",
+      "bytes": 48952,
+      "sha256": "9ccfc08756ddcaf680346b890782ea812c4a951e012f83534f3daa8202c2f280"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/Vocabulary/ORBvoc.txt",
+      "bytes": 145250924,
+      "sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/lib/libORB_SLAM3.so",
+      "bytes": 5245240,
+      "sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/include/System.h",
+      "bytes": 8521,
+      "sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/System.cc",
+      "bytes": 58308,
+      "sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c"
+    }
+  ],
+  "GT_used": false,
+  "metric_visual_loop_factors_created": 0
+}

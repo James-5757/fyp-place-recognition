@@ -1,0 +1,2929 @@
+{
+  "guard": "OS Python audit hook denies GT,LiDAR caches,SC,old backend input files",
+  "opens": [
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_zc910phm/camera.db3",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000000.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000000.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000003.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000003.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000005.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000005.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000007.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000007.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000009.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000009.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000011.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000011.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000013.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000013.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000015.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000015.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000017.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000017.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000019.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000019.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000021.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000021.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000023.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000023.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000025.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000025.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000027.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000027.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000029.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000029.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000031.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000031.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000033.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000033.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000035.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000035.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000037.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000037.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000039.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000039.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000041.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000041.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000043.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000043.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000045.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000045.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000047.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000047.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000049.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000049.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000051.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000051.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000053.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000053.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000055.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000055.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000057.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000057.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000059.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000059.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000061.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000061.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000063.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000063.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000065.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000065.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000067.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000067.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000069.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000069.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000071.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000071.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000073.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000073.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000075.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000075.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000077.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000077.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000079.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000079.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000081.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000081.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000083.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000083.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000085.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000085.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000087.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000087.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000089.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000089.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000091.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000091.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000093.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000093.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000095.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000095.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000097.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000097.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000099.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000099.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000101.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000101.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000103.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000103.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000105.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000105.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000107.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000107.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000109.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000109.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000111.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000111.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000113.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000113.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000115.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000115.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000117.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000117.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000119.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/000119.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001201.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001201.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001203.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001203.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001205.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001205.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001207.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001207.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001209.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001209.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001211.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001211.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001213.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001213.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001215.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001215.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001217.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001217.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001219.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001219.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001221.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001221.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001223.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001223.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001225.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001225.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001227.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001227.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001229.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001229.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001231.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001231.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001233.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001233.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001235.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001235.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001237.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001237.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001239.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001239.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001241.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001241.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001243.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001243.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001245.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001245.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001247.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001247.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001249.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001249.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001251.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001251.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001253.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001253.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001255.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001255.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001257.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001257.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001259.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001259.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001261.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001261.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001263.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001263.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001265.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001265.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001267.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001267.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001269.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001269.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001271.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001271.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001273.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001273.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001275.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001275.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001277.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001277.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001279.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001279.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001281.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001281.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001283.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001283.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001285.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001285.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001287.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001287.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001289.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001289.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001291.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001291.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001293.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001293.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001295.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001295.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001297.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001297.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001299.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001299.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001301.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001301.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001303.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001303.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001305.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001305.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001307.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001307.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001309.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001309.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001311.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001311.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001313.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001313.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001315.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001315.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001317.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001317.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001319.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/001319.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002401.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002401.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002403.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002403.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002405.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002405.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002407.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002407.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002409.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002409.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002411.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002411.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002413.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002413.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002415.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002415.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002417.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002417.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002419.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002419.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002421.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002421.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002423.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002423.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002425.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002425.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002427.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002427.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002429.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002429.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002431.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002431.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002433.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002433.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002435.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002435.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002437.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002437.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002439.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002439.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002441.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002441.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002443.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002443.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002445.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002445.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002447.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002447.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002449.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002449.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002451.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002451.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002453.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002453.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002455.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002455.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002457.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002457.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002459.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002459.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002461.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002461.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002463.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002463.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002465.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002465.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002467.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002467.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002469.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002469.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002471.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002471.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002473.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002473.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002475.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002475.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002477.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002477.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002479.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002479.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002481.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002481.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002483.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002483.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002485.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002485.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002487.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002487.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002489.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002489.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002491.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002491.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002493.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002493.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002495.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002495.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002497.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002497.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002499.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002499.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002501.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002501.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002503.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002503.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002505.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002505.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002507.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002507.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002509.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002509.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002511.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002511.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002513.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002513.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002515.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002515.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002517.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002517.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002519.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot1/002519.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/robot1_camera_timestamp_index.csv",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_zc910phm",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_g8mxgfhs/camera.db3",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000000.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000000.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000002.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000002.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000004.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000004.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000006.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000006.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000008.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000008.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000010.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000010.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000012.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000012.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000014.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000014.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000016.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000016.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000018.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000018.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000020.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000020.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000022.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000022.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000024.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000024.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000026.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000026.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000028.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000028.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000030.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000030.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000032.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000032.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000034.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000034.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000036.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000036.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000038.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000038.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000040.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000040.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000042.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000042.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000044.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000044.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000046.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000046.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000048.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000048.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000050.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000050.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000052.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000052.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000054.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000054.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000056.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000056.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000058.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000058.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000060.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000060.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000062.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000062.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000064.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000064.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000066.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000066.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000068.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000068.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000070.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000070.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000073.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000073.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000074.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000074.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000076.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000076.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000078.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000078.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000080.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000080.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000082.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000082.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000084.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000084.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000086.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000086.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000088.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000088.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000090.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000090.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000092.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000092.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000094.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000094.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000096.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000096.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000098.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000098.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000100.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000100.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000102.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000102.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000104.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000104.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000106.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000106.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000108.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000108.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000110.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000110.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000112.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000112.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000114.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000114.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000116.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000116.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000118.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/000118.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001200.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001200.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001202.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001202.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001204.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001204.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001206.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001206.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001208.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001208.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001210.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001210.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001212.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001212.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001214.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001214.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001216.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001216.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001218.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001218.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001220.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001220.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001222.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001222.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001224.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001224.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001226.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001226.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001228.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001228.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001230.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001230.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001232.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001232.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001234.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001234.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001236.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001236.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001238.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001238.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001240.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001240.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001242.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001242.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001244.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001244.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001246.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001246.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001248.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001248.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001250.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001250.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001252.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001252.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001254.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001254.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001256.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001256.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001258.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001258.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001260.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001260.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001262.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001262.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001264.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001264.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001266.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001266.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001268.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001268.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001270.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001270.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001272.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001272.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001274.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001274.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001276.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001276.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001278.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001278.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001280.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001280.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001282.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001282.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001284.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001284.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001286.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001286.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001288.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001288.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001290.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001290.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001292.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001292.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001294.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001294.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001296.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001296.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001298.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001298.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001300.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001300.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001302.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001302.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001304.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001304.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001306.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001306.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001308.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001308.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001310.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001310.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001312.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001312.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001314.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001314.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001316.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001316.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001318.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/001318.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002400.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002400.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002402.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002402.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002404.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002404.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002406.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002406.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002408.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002408.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002410.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002410.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002412.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002412.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002414.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002414.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002416.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002416.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002418.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002418.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002420.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002420.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002422.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002422.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002424.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002424.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002426.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002426.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002428.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002428.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002430.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002430.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002432.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002432.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002434.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002434.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002436.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002436.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002438.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002438.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002440.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002440.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002442.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002442.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002444.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002444.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002446.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002446.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002448.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002448.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002450.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002450.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002452.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002452.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002454.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002454.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002456.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002456.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002458.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002458.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002460.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002460.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002462.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002462.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002464.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002464.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002466.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002466.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002468.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002468.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002470.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002470.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002472.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002472.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002474.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002474.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002476.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002476.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002478.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002478.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002480.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002480.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002482.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002482.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002484.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002484.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002486.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002486.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002488.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002488.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002490.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002490.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002492.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002492.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002494.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002494.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002496.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002496.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002498.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002498.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002500.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002500.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002502.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002502.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002504.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002504.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002506.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002506.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002508.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002508.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002510.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002510.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002512.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002512.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002514.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002514.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002516.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002516.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002518.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_frames/robot3/002518.jpg",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/robot3_camera_timestamp_index.csv",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_g8mxgfhs",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/visual_keyframe_manifest.csv",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_time_sync_audit.csv",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/camera_data_manifest.json",
+      "status": "ALLOWED"
+    }
+  ]
+}

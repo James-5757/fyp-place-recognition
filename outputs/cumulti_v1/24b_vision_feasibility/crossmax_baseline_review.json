@@ -1,0 +1,41 @@
+{
+  "model": "ViT-B-32-quickgelu",
+  "weights": "laion400m_e32",
+  "single": "cosine of L2-normalized embeddings",
+  "RGB5_Mean": "causal [k-4..k], start padding; average then L2 normalize; cosine",
+  "Cross_Max": "max of all25 pairwise cosine similarities for two causal5-frame windows",
+  "stage5_dependency": "all three methods rerank only frozen Scan Context Top20; RGB sampled nearest2Hz LiDAR keyframes; candidate-conditioned1830/1833 and end-to-end distinguished",
+  "stage5": {
+    "SC_end_to_end_R1": 0.993453,
+    "Single_RGB_R1": 0.702128,
+    "Mean5_R1": 0.682488,
+    "CrossMax_R1": 0.714675,
+    "Single_rescues": 4,
+    "Single_regressions": 538,
+    "Mean_rescues": 2,
+    "Mean_regressions": 572,
+    "CrossMax_rescues": 1,
+    "CrossMax_regressions": 512
+  },
+  "stage6": {
+    "SC_R1": 0.993453,
+    "strict_single_gate_R1": 0.993999,
+    "invocation_fraction": 0.0431,
+    "rescues": 1,
+    "regressions": 0,
+    "limitation": "small strict selective gain; no general viewpoint invariance; not camera tracking"
+  },
+  "not_visual_SLAM": [
+    "no visual motion estimation",
+    "no metric visual local trajectory",
+    "no visual map reconstruction",
+    "SC candidate dependency",
+    "no independent image-only retrieval in historical5/6"
+  ],
+  "source_files": {
+    "src/cumulti/run_stage5_visual_viewpoint.py": "e99d4a129dcacf8471bdb2f58a700c077e3535375b3691c6b6472b42c981591b",
+    "src/cumulti/run_stage6_selective_visual_verification.py": "a1e2d51687c626b20bd6609bd0303b8fab38bb3e9a9e35688c5970e2601b7022",
+    "docs/CUMULTI_STAGE5_VISUAL_VIEWPOINT_ANALYSIS.md": "05084993c763d45b3a8a48514644943af2243de26aaaf27ba9d19b8fb3446d90",
+    "docs/CUMULTI_STAGE6_SELECTIVE_VISUAL_VERIFICATION.md": "cd4c5327f84f1d485182cb4ac2bd18f47b7a0a72ee7be1aa42647b53efb16b8f"
+  }
+}

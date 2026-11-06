@@ -1,0 +1,29 @@
+{
+  "version": 1,
+  "robots": [
+    "robot1",
+    "robot3"
+  ],
+  "keyframe_interval_ns": 1000000000,
+  "pilot_windows_camera_elapsed_s": [
+    [
+      0,
+      12
+    ],
+    [
+      120,
+      132
+    ],
+    [
+      240,
+      252
+    ]
+  ],
+  "pilot_interval_ns": 200000000,
+  "resize_width": 640,
+  "jpeg_quality": 85,
+  "selection": "first RGB bag message at/after each independent camera-time tick; ties original ID",
+  "scene_or_GT_selection": false,
+  "LiDAR_keyframe_input": false,
+  "max_exported_frames_per_robot": 200
+}

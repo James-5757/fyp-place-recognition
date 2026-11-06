@@ -467,3 +467,38 @@ No GT-based rebalancing or retuning is performed. The observed-scope findings
 remain useful negative evidence, not BUDGET_AWARE_POLICY_READY. Full per-policy
 graph, ATE/RPE, map consistency, empirical gates and validation are in
 `docs/CUMULTI_STAGE22B_BUDGET_AWARE.md` and its isolated outputs. STOP AFTER22B.
+
+## Stage24A/B — camera feasibility checkpoint (2026-11-06)
+
+Stage24A RGB/semantic3D maps remain BLOCKED: archived URDF reaches camera_link
+but not the color optical frame. Do not guess mounting/optical transforms or
+color unseen surfaces. New calibration-gated P5 demo and12 real SegFormerB0
+2D predictions exist; RGB/semantic map modes explicitly show100%unknown.
+RGB-D is BLOCKED for R1/R3: R3 depth missing; R1/R2 depth archives contain
+camera PointCloud2 rather than native depth images. Actual R1 cloud is
+unorganized,376811x1,with848x480 camera calibration; raw depth scale and
+registered-image adaptation require validation. R1 camera-cloud/RGB bag sync
+median1.38209ms,p956.2070072ms is not hardware exposure calibration.
+
+Independent camera-only timelines contain1000/2099 R1/R3 visual keyframes.
+Six fixed12s ORB-SLAM3 monocular windows each use60real RGB frames: valid
+counts R1=0/47/58,R3=0/49/41. Arbitrary per-map scale is preserved; no LiDAR,
+SC,GICP,GNSS,IMU or GT supplies tracking/geometry/scale. New offline image-only
+retrieval72queries/36opposite candidates yields1epipolar-plausible nonmetric
+pair,not a verified metric loop or measured place-recognition precision.
+Later pilot frames may be in the offline database; this is not causal online
+retrieval. No full visual SLAM or GT evaluation was run.
+
+Three-robot inspection finds existing numeric_key/symbol mapping aliases
+Robot2 with Robot3; generic registry/typed endpoints/connectivity and per-pair
+budget migration are needed before a new3-agent run. R2 archives exist; R4
+has only GT locally. No sensor measurements may be invented.
+Historical10098 tracked files match their pre-stage hashes. Independent
+artifact audit831checks PASS; browser orbit/zoom/pan/mode checks PASS, with
+software-WebGL performance only. No old scientific artifact or frozen
+P0/P5/P6 policy was changed. Details and reproducible commands:
+docs/CUMULTI_STAGE24A_RGB_SEMANTIC_MAP.md and
+docs/CUMULTI_STAGE24B_VISION_FEASIBILITY.md.
+Stop after24A/B; Stage24C is NOT_STARTED. Minimum next work is measured optical
+mounting/exposure calibration and validated camera-cloud-to-depth adaptation,
+then small fixed-cohort projection/visual-geometry tests,not automatic full runs.

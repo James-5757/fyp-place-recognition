@@ -1,0 +1,68 @@
+{
+  "status": "AUDITED",
+  "source_hashes": {
+    "src/cumulti/stage22a_common.py": "06d22a1b4542cf5bc79c18f1556601f076f4595bb2fb23b26b15ca924384c780",
+    "src/cumulti/run_stage22a_backend.py": "bb39c6e7d55a7ef92d97518eeb7b2106fc591871b96bbeca0c91dafb46013e07",
+    "src/cumulti/run_stage13b_incremental_isam2.py": "fc506685dbd40f6f1bf079f109d0279137dc8ccd968697ccc6aa6c79929a4799",
+    "src/cumulti/run_stage103_gtsam_solver_audit.py": "55ed910b780abc665eb76fbc7b9674227e6791088ade67bab9390307382bcc17",
+    "src/cumulti/stage22b/replay.py": "d9646975e7302b6e0c744954c9a7072b78f51b54afb81666a16f0969739135bd",
+    "src/cumulti/stage22b/communication.py": "5c54c02f967578a68db8650d09885d40b408b14303a6360b212149a472cd5dad",
+    "demo/stage20_dual_stream/dual_maps.js": "50c8e16a88c306c2f88609cb7ffb6ff08d2dfa95fc0825d6b6ca799ff212007c"
+  },
+  "findings": [
+    {
+      "area": "robot IDs / sampling",
+      "source": "stage22a_common.py STARTS; stage20 dual maps robots/starts",
+      "finding": "hardcoded robot1/robot3, starts150/234 and5796-node schedules",
+      "recommendation": "RobotRegistry, source-specific Camera/LiDAR Keyframe Registry, measured per-robot timelines; do not invent R2 stable range"
+    },
+    {
+      "area": "GTSAM key encoding",
+      "source": "run_stage13b_incremental_isam2.py numeric_key -> run_stage103 key",
+      "finding": "any non-robot1 maps to numeric3; any non-1 maps to symbol b. Robot2 and3 would collide",
+      "recommendation": "new explicit collision-checked mapping; preserve frozen a=R1,b=R3, allocate c=R2,d=R4 for new replay only"
+    },
+    {
+      "area": "pair candidates / transform direction",
+      "source": "stage22b/replay.py canonical_ids and neighborhood",
+      "finding": "canonical q/c fields explicitly R1/R3, asymmetric delta3/delta5 neighborhoods",
+      "recommendation": "Pairwise Candidate Manager with full endpoint identities and explicit T_target_source; invert measurement when swapping endpoints"
+    },
+    {
+      "area": "communication caches / duplicate suppression",
+      "source": "stage22b/replay.py Cache; communication.py",
+      "finding": "cache tuple(robot,kf) partly generic, but tables reserve5796 fixed-size LiDAR clouds and two-robot receipts",
+      "recommendation": "typed sensor/modality/hash keys; per-unordered-robot-pair Verified Factor Ledger and separate per-pair duplicate policy"
+    },
+    {
+      "area": "first bridge / disconnected components",
+      "source": "run_stage22a_backend.py first bridge S and one persistentISAM2",
+      "finding": "one S aligns all R3 to R1 and assumptions cover2 components only",
+      "recommendation": "Connectivity Manager/DSU; independent component gauges until actual bridges, one anchor per connected component with explicit merge/rebase; never submit singular disconnected graph"
+    },
+    {
+      "area": "queue / budgets",
+      "source": "stage22b/replay.py rolling counters; stage23d/scheduler.py",
+      "finding": "two-direction fairness and fixed query/candidate schema; no3-pair allocation experiment",
+      "recommendation": "per-pair queues and global/per-pair hard accounting; explicit prospective fairness before comparison; no real-network claims"
+    },
+    {
+      "area": "renderer",
+      "source": "stage20 dual_maps.js and Stage23D comparison assets",
+      "finding": "two source colors, two local panels and fixed loop endpoint lookup",
+      "recommendation": "Global Map Renderer consumes registry/list of robots, source colors and real connectivity; stage19/20 historical dashboard unchanged"
+    }
+  ],
+  "proposed_components": [
+    "RobotRegistry",
+    "Camera/LiDAR Keyframe Registry",
+    "Pairwise Candidate Manager",
+    "Verified Factor Ledger",
+    "Connectivity Manager",
+    "Central Pose Graph Backend",
+    "Global Map Renderer"
+  ],
+  "robot2": "RGB,LiDAR,IMU/GPS,camera depth archives locally present; current depth metadata only, stable odometry and camera adapter NOT validated for3-agent replay",
+  "robot4": "only GT CSV present in local raw inventory; no sensor measurements can be invented",
+  "three_or_four_robot_run": false
+}

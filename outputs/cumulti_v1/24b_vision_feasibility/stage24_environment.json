@@ -1,0 +1,23 @@
+{
+  "python": "3.10.20",
+  "camera_python": "/home/cas/.venvs/fyp_gtsam/bin/python",
+  "semantic_env": "/home/cas/.venvs/fyp_stage24",
+  "shared_GTSAM_numpy": "1.26.4 verified after semantic setup",
+  "source_files": {
+    "src/cumulti/stage24/vision_pilot.py": "c14e1de04278bc6184a4b40f5b00de761ac7b18935798f292c7a50948f368900",
+    "src/cumulti/stage24/segment_images.py": "8ae7877d04716720ffa249713a901c7910a32d43af412d0a74126d1c4efd9643",
+    "src/cumulti/stage24/validate.py": "d50fa2462561405581409394665666d7cacc178f9346fddbd065eaac246e1d4e",
+    "src/cumulti/stage24/check_staging.py": "42f90e736d4c8320b30da33cbd0ee7a850f454a2a888f025686b0872a18e9363",
+    "src/cumulti/stage24/mono_pilot.cc": "329254fcb7e1e2af70c294979fff3954b1b8f1465c11b1e13921e40d42dd4a96",
+    "src/cumulti/stage24/common.py": "efdfbc5dbcaf40f6d272d3f756f192436e5d4f4d78885ef7bcdee20f28f982c9",
+    "src/cumulti/stage24/projection.py": "fe0252dc00f212a8e20819945290ff660711a4315552bc9e1e14cd29843c33af",
+    "src/cumulti/stage24/make_contact_sheets.py": "a1aa7ab5bb2d06b5c85dcb3727daf0e6144e8570e7af1c67d2e1be94725f2af3",
+    "src/cumulti/stage24/protect.py": "4a55ef4914c11eb8d7c2f46f49fc28243bb79bb29a2f94ce3af3e99604e29450",
+    "src/cumulti/stage24/audit_and_package.py": "89822d615a2b13f80ecbc486aa16d6fecaa4fc8dcb98341c0d746881fabe7d96",
+    "src/cumulti/stage24/finalize_record.py": "da363262f779745552ed761311ae9aa3f887566ad038000b91dc9e4533f1e678",
+    "src/cumulti/stage24/audit_depth.py": "2497395460046c8de12abb37a645ad6d86db42e7d28272f0cc434070c2650888",
+    "src/cumulti/stage24/export_camera.py": "bf2bdb9be72b3ab922368910758044293e5b0cb7bc632f4279c1d341109803ff",
+    "src/cumulti/stage24/browser_validate.py": "0b4aa485a7ef63e2135abfde07f780c3743b8cdb2d7ba98c261292f7ebdeada1",
+    "src/cumulti/stage24/report.py": "82347b52a8eb1eb5c110a28fd9f19c5f34e77891861d4c9b6c47595f27743156"
+  }
+}

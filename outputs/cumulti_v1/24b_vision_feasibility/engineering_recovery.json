@@ -1,0 +1,36 @@
+{
+  "events": [
+    {
+      "event": "native adapter compile/link preflight",
+      "reason": "pinned Pangolin HAVE_EPOXY and display symbols required",
+      "native_track_calls": 0,
+      "repair": "match installed SDK compile definitions and link libraries; no SDK modification"
+    },
+    {
+      "event": "native shared-library preflight",
+      "reason": "transitive Pangolin windowing library not found",
+      "native_track_calls": 0,
+      "repair": "isolated subprocess LD_LIBRARY_PATH; original loader log retained"
+    },
+    {
+      "event": "adapter syntax preflight",
+      "native_track_calls": 0,
+      "repair": "remove excess parenthesis before tracking"
+    },
+    {
+      "event": "depth legacy schema decode",
+      "reason": "actual embedded Extrinsics includes std_msgs/Header; old manually registered schema rejected by CDR size check",
+      "repair": "register actual embedded ros2msg definitions before decoding; no fabricated calibration",
+      "cost": "two temporary full depth DB expansions occurred before the successful schema-aware audit; first lost SSH stderr, second explicit log retained; first exact runtime NOT_MEASURED. Extra I/O is not hidden as successful decode or warmup"
+    },
+    {
+      "event": "dependency network fallback",
+      "reason": "server download intermittent/slow",
+      "repair": "official pinned model and PyPI wheels fetched on local host and copied to new stage/cache; shared environments not modified"
+    }
+  ],
+  "scientific_threshold_changes": false,
+  "failed_native_or_depth_artifacts_preserved": true,
+  "native_scientific_runs_completed": 6,
+  "GT_based_retuning": false
+}

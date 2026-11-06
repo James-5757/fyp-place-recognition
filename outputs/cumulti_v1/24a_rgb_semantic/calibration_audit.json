@@ -1,0 +1,2316 @@
+{
+  "status": "BLOCKED_COMPLETE_OPTICAL_MOUNTING_EXTRINSIC_NOT_LOCALLY_VERIFIED",
+  "robots": {
+    "robot1": {
+      "URDF_member": "robot_description/urdf/robot1.urdf",
+      "URDF_sha256": "100557480d3790671396878fae7ee6f8bce794b36666c90931f11cebf5c1a259",
+      "all_joints": [
+        {
+          "name": "robot1_os_sensor_to_ouster_riser",
+          "type": "fixed",
+          "parent": "robot1_os_sensor",
+          "child": "robot1_ouster_riser_plate",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.05
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_ouster_riser_to_mountplate",
+          "type": "fixed",
+          "parent": "robot1_ouster_riser_plate",
+          "child": "robot1_mounting_plate",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.02286
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.0175
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_mountplate_to_chassis",
+          "type": "fixed",
+          "parent": "robot1_mounting_plate",
+          "child": "robot1_chassis",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.35
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.08
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_chassis_to_base_link",
+          "type": "fixed",
+          "parent": "robot1_chassis",
+          "child": "robot1_base_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_mountplate_to_imu",
+          "type": "fixed",
+          "parent": "robot1_mounting_plate",
+          "child": "robot1_imu_link",
+          "T_parent_child": [
+            [
+              -1.0,
+              6.410206909383678e-09,
+              0.0,
+              -0.04
+            ],
+            [
+              -6.410206909383678e-09,
+              -1.0,
+              0.0,
+              0.01557
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.014155000000000001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_imu_to_gnss_1",
+          "type": "fixed",
+          "parent": "robot1_imu_link",
+          "child": "robot1_gnss_1_antenna_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.699328
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.187165
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.21559
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_imu_to_gnss_2",
+          "type": "fixed",
+          "parent": "robot1_imu_link",
+          "child": "robot1_gnss_2_antenna_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.699328
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.161923
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.21559
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_mountplate_to_realsense",
+          "type": "fixed",
+          "parent": "robot1_mounting_plate",
+          "child": "robot1_camera_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.02
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.023
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_left_front_shock",
+          "type": "fixed",
+          "parent": "robot1_chassis",
+          "child": "robot1_left_steering_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_left_steering_joint",
+          "type": "fixed",
+          "parent": "robot1_left_steering_link",
+          "child": "robot1_left_front_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_left_front_axle",
+          "type": "fixed",
+          "parent": "robot1_left_front_axle_carrier",
+          "child": "robot1_left_front_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_right_front_shock",
+          "type": "fixed",
+          "parent": "robot1_chassis",
+          "child": "robot1_right_steering_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_right_steering_joint",
+          "type": "fixed",
+          "parent": "robot1_right_steering_link",
+          "child": "robot1_right_front_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_right_front_axle",
+          "type": "fixed",
+          "parent": "robot1_right_front_axle_carrier",
+          "child": "robot1_right_front_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_left_rear_shock",
+          "type": "fixed",
+          "parent": "robot1_chassis",
+          "child": "robot1_left_rear_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_left_rear_axle",
+          "type": "fixed",
+          "parent": "robot1_left_rear_axle_carrier",
+          "child": "robot1_left_rear_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_right_rear_shock",
+          "type": "fixed",
+          "parent": "robot1_chassis",
+          "child": "robot1_right_rear_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot1_right_rear_axle",
+          "type": "fixed",
+          "parent": "robot1_right_rear_axle_carrier",
+          "child": "robot1_right_rear_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "T_camera_link_from_os_sensor": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.17714000000000002
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.02
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0905
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "path": [
+          "robot1_os_sensor_to_ouster_riser inverse",
+          "robot1_ouster_riser_to_mountplate inverse",
+          "robot1_mountplate_to_realsense inverse"
+        ]
+      },
+      "T_color_optical_from_os_sensor": null,
+      "status": "BLOCKED_MISSING_CAMERA_LINK_TO_COLOR_OPTICAL",
+      "optical_frame": "CameraInfo/Image frame_id; optical x right,y down,z forward per ROS convention; no measured link-to-optical chain present in inspected URDF"
+    },
+    "robot2": {
+      "URDF_member": "robot_description/urdf/robot2.urdf",
+      "URDF_sha256": "6e23a79178b6736e3ae5d7afc413667e5d2da06850d3e38fcffd8284439116ab",
+      "all_joints": [
+        {
+          "name": "robot2_os_sensor_to_ouster_riser",
+          "type": "fixed",
+          "parent": "robot2_os_sensor",
+          "child": "robot2_ouster_riser_plate",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.05
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_ouster_riser_to_mountplate",
+          "type": "fixed",
+          "parent": "robot2_ouster_riser_plate",
+          "child": "robot2_mounting_plate",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.02286
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.0175
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_mountplate_to_chassis",
+          "type": "fixed",
+          "parent": "robot2_mounting_plate",
+          "child": "robot2_chassis",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.35
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.08
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_chassis_to_base_link",
+          "type": "fixed",
+          "parent": "robot2_chassis",
+          "child": "robot2_base_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_mountplate_to_imu",
+          "type": "fixed",
+          "parent": "robot2_mounting_plate",
+          "child": "robot2_imu_link",
+          "T_parent_child": [
+            [
+              -1.0,
+              6.410206909383678e-09,
+              0.0,
+              -0.04
+            ],
+            [
+              -6.410206909383678e-09,
+              -1.0,
+              0.0,
+              0.01557
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.014155000000000001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_imu_to_gnss_1",
+          "type": "fixed",
+          "parent": "robot2_imu_link",
+          "child": "robot2_gnss_1_antenna_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.699328
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.187165
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.21559
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_imu_to_gnss_2",
+          "type": "fixed",
+          "parent": "robot2_imu_link",
+          "child": "robot2_gnss_2_antenna_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.699328
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.161923
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.21559
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_mountplate_to_realsense",
+          "type": "fixed",
+          "parent": "robot2_mounting_plate",
+          "child": "robot2_camera_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.02
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.023
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_left_front_shock",
+          "type": "fixed",
+          "parent": "robot2_chassis",
+          "child": "robot2_left_steering_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_left_steering_joint",
+          "type": "fixed",
+          "parent": "robot2_left_steering_link",
+          "child": "robot2_left_front_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_left_front_axle",
+          "type": "fixed",
+          "parent": "robot2_left_front_axle_carrier",
+          "child": "robot2_left_front_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_right_front_shock",
+          "type": "fixed",
+          "parent": "robot2_chassis",
+          "child": "robot2_right_steering_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_right_steering_joint",
+          "type": "fixed",
+          "parent": "robot2_right_steering_link",
+          "child": "robot2_right_front_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_right_front_axle",
+          "type": "fixed",
+          "parent": "robot2_right_front_axle_carrier",
+          "child": "robot2_right_front_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_left_rear_shock",
+          "type": "fixed",
+          "parent": "robot2_chassis",
+          "child": "robot2_left_rear_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_left_rear_axle",
+          "type": "fixed",
+          "parent": "robot2_left_rear_axle_carrier",
+          "child": "robot2_left_rear_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_right_rear_shock",
+          "type": "fixed",
+          "parent": "robot2_chassis",
+          "child": "robot2_right_rear_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot2_right_rear_axle",
+          "type": "fixed",
+          "parent": "robot2_right_rear_axle_carrier",
+          "child": "robot2_right_rear_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "T_camera_link_from_os_sensor": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.17714000000000002
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.02
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0905
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "path": [
+          "robot2_os_sensor_to_ouster_riser inverse",
+          "robot2_ouster_riser_to_mountplate inverse",
+          "robot2_mountplate_to_realsense inverse"
+        ]
+      },
+      "T_color_optical_from_os_sensor": null,
+      "status": "BLOCKED_MISSING_CAMERA_LINK_TO_COLOR_OPTICAL",
+      "optical_frame": "CameraInfo/Image frame_id; optical x right,y down,z forward per ROS convention; no measured link-to-optical chain present in inspected URDF"
+    },
+    "robot3": {
+      "URDF_member": "robot_description/urdf/robot3.urdf",
+      "URDF_sha256": "825af9ae48b30c36f4f387e09a83f3c50db9903d25808cd7f22d880485e812c1",
+      "all_joints": [
+        {
+          "name": "robot3_os_sensor_to_ouster_riser",
+          "type": "fixed",
+          "parent": "robot3_os_sensor",
+          "child": "robot3_ouster_riser_plate",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.05
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_ouster_riser_to_mountplate",
+          "type": "fixed",
+          "parent": "robot3_ouster_riser_plate",
+          "child": "robot3_mounting_plate",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.02286
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.0175
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_mountplate_to_chassis",
+          "type": "fixed",
+          "parent": "robot3_mounting_plate",
+          "child": "robot3_chassis",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.35
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.08
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_chassis_to_base_link",
+          "type": "fixed",
+          "parent": "robot3_chassis",
+          "child": "robot3_base_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_mountplate_to_imu",
+          "type": "fixed",
+          "parent": "robot3_mounting_plate",
+          "child": "robot3_imu_link",
+          "T_parent_child": [
+            [
+              -1.0,
+              6.410206909383678e-09,
+              0.0,
+              -0.04
+            ],
+            [
+              -6.410206909383678e-09,
+              -1.0,
+              0.0,
+              0.01557
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.014155000000000001
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_imu_to_gnss_1",
+          "type": "fixed",
+          "parent": "robot3_imu_link",
+          "child": "robot3_gnss_1_antenna_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.699328
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.187165
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.21559
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_imu_to_gnss_2",
+          "type": "fixed",
+          "parent": "robot3_imu_link",
+          "child": "robot3_gnss_2_antenna_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.699328
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.161923
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.21559
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_mountplate_to_realsense",
+          "type": "fixed",
+          "parent": "robot3_mounting_plate",
+          "child": "robot3_camera_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.02
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.023
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_left_front_shock",
+          "type": "fixed",
+          "parent": "robot3_chassis",
+          "child": "robot3_left_steering_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_left_steering_joint",
+          "type": "fixed",
+          "parent": "robot3_left_steering_link",
+          "child": "robot3_left_front_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_left_front_axle",
+          "type": "fixed",
+          "parent": "robot3_left_front_axle_carrier",
+          "child": "robot3_left_front_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_right_front_shock",
+          "type": "fixed",
+          "parent": "robot3_chassis",
+          "child": "robot3_right_steering_link",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_right_steering_joint",
+          "type": "fixed",
+          "parent": "robot3_right_steering_link",
+          "child": "robot3_right_front_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_right_front_axle",
+          "type": "fixed",
+          "parent": "robot3_right_front_axle_carrier",
+          "child": "robot3_right_front_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_left_rear_shock",
+          "type": "fixed",
+          "parent": "robot3_chassis",
+          "child": "robot3_left_rear_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_left_rear_axle",
+          "type": "fixed",
+          "parent": "robot3_left_rear_axle_carrier",
+          "child": "robot3_left_rear_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_right_rear_shock",
+          "type": "fixed",
+          "parent": "robot3_chassis",
+          "child": "robot3_right_rear_axle_carrier",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              -0.2875
+            ],
+            [
+              0.0,
+              1.0,
+              0.0,
+              -0.24500000000000002
+            ],
+            [
+              0.0,
+              0.0,
+              1.0,
+              -0.275
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        },
+        {
+          "name": "robot3_right_rear_axle",
+          "type": "fixed",
+          "parent": "robot3_right_rear_axle_carrier",
+          "child": "robot3_right_rear_wheel",
+          "T_parent_child": [
+            [
+              1.0,
+              0.0,
+              0.0,
+              0.0
+            ],
+            [
+              0.0,
+              -3.2051033493907255e-09,
+              -1.0,
+              0.0
+            ],
+            [
+              0.0,
+              1.0,
+              -3.2051033493907255e-09,
+              0.0
+            ],
+            [
+              0.0,
+              0.0,
+              0.0,
+              1.0
+            ]
+          ]
+        }
+      ],
+      "T_camera_link_from_os_sensor": {
+        "matrix": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            -0.17714000000000002
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.02
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0905
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "path": [
+          "robot3_os_sensor_to_ouster_riser inverse",
+          "robot3_ouster_riser_to_mountplate inverse",
+          "robot3_mountplate_to_realsense inverse"
+        ]
+      },
+      "T_color_optical_from_os_sensor": null,
+      "status": "BLOCKED_MISSING_CAMERA_LINK_TO_COLOR_OPTICAL",
+      "optical_frame": "CameraInfo/Image frame_id; optical x right,y down,z forward per ROS convention; no measured link-to-optical chain present in inspected URDF"
+    }
+  },
+  "T_target_source": "p_target = R_target_source @ p_source + t_target_source. URDF origin is T_parent_child; use inverse to map parent coordinates into child.",
+  "LiDAR_point_frame": "robotN_os_sensor; existing unmodified XYZI frame audit",
+  "RGB_calibration": {
+    "robot1": {
+      "topic": "robot1/camera/color/camera_info",
+      "width": 1280,
+      "height": 800,
+      "K": [
+        630.1983642578125,
+        0.0,
+        640.72998046875,
+        0.0,
+        629.69873046875,
+        415.41644287109375,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "D": [
+        -0.05718468502163887,
+        0.06778068095445633,
+        0.0007177605293691158,
+        0.00034092238638550043,
+        -0.021577496081590652
+      ],
+      "R": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "P": [
+        630.1983642578125,
+        0.0,
+        640.72998046875,
+        0.0,
+        0.0,
+        629.69873046875,
+        415.41644287109375,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "distortion_model": "plumb_bob",
+      "frame_id": "robot1_camera_color_optical_frame",
+      "header_ns": "1722894200527811289"
+    },
+    "robot3": {
+      "topic": "robot3/camera/color/camera_info",
+      "width": 1280,
+      "height": 800,
+      "K": [
+        627.8040771484375,
+        0.0,
+        640.72998046875,
+        0.0,
+        627.3063354492188,
+        415.41644287109375,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "D": [
+        -0.05718468502163887,
+        0.06778068095445633,
+        0.0007177605293691158,
+        0.00034092238638550043,
+        -0.021577496081590652
+      ],
+      "R": [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ],
+      "P": [
+        627.8040771484375,
+        0.0,
+        640.72998046875,
+        0.0,
+        0.0,
+        627.3063354492188,
+        415.41644287109375,
+        0.0,
+        0.0,
+        0.0,
+        1.0,
+        0.0
+      ],
+      "distortion_model": "plumb_bob",
+      "frame_id": "robot3_camera_color_optical_frame",
+      "header_ns": "1722894200605798006"
+    }
+  },
+  "depth_camera_audit": {
+    "robots": {
+      "robot1": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+        "available": true,
+        "archive_bytes": 24940875791,
+        "metadata": {
+          "compression_format": "",
+          "compression_mode": "",
+          "custom_data": {},
+          "duration": {
+            "nanoseconds": 999896892118
+          },
+          "files": [
+            {
+              "duration": {
+                "nanoseconds": 999896892118
+              },
+              "message_count": 66450,
+              "path": "robot1_main_campus_camera_depth.db3",
+              "starting_time": {
+                "nanoseconds_since_epoch": 1722894200612868877
+              }
+            }
+          ],
+          "message_count": 66450,
+          "relative_file_paths": [
+            "robot1_main_campus_camera_depth.db3"
+          ],
+          "ros_distro": "rosbags",
+          "starting_time": {
+            "nanoseconds_since_epoch": 1722894200612868877
+          },
+          "storage_identifier": "sqlite3",
+          "topics_with_message_count": [
+            {
+              "message_count": 1,
+              "topic_metadata": {
+                "name": "robot1/camera/extrinsics/depth_to_color",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "realsense2_camera/msg/Extrinsics",
+                "type_description_hash": "RIHS01_fe346bd2d0582be008b79af7a0253d5fae0a76030e27da2715499f2b33ace7d6"
+              }
+            },
+            {
+              "message_count": 8765,
+              "topic_metadata": {
+                "name": "robot1/camera/depth/color/points",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "sensor_msgs/msg/PointCloud2",
+                "type_description_hash": "RIHS01_9198cabf7da3796ae6fe19c4cb3bdd3525492988c70522628af5daa124bae2b5"
+              }
+            },
+            {
+              "message_count": 28844,
+              "topic_metadata": {
+                "name": "robot1/camera/depth/camera_info",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "sensor_msgs/msg/CameraInfo",
+                "type_description_hash": "RIHS01_b303399feda782bcc44e57b8eec9baaa9e0e5a7cd4a89fee8cffe588d6dc93ed"
+              }
+            },
+            {
+              "message_count": 28840,
+              "topic_metadata": {
+                "name": "robot1/camera/depth/metadata",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "realsense2_camera/msg/Metadata",
+                "type_description_hash": "RIHS01_fdcd710bbfa243fcc15b0ad0bce5622eb351e5bee6315c39d1117016ac6cc88a"
+              }
+            }
+          ],
+          "version": 8
+        },
+        "depth_image_topic_available": false,
+        "message_decode": "PASS",
+        "embedded_message_definitions": [
+          {
+            "type": "realsense2_camera/msg/Extrinsics",
+            "encoding": "ros2msg",
+            "definition": "std_msgs/Header header\nfloat64[9] rotation\nfloat64[3] translation\n================================================================================\nMSG: std_msgs/Header\nbuiltin_interfaces/Time stamp\nstring frame_id\n================================================================================\nMSG: builtin_interfaces/Time\nint32 sec\nuint32 nanosec\n"
+          },
+          {
+            "type": "sensor_msgs/msg/PointCloud2",
+            "encoding": "ros2msg",
+            "definition": "std_msgs/Header header\nuint32 height\nuint32 width\nsensor_msgs/PointField[] fields\nbool is_bigendian\nuint32 point_step\nuint32 row_step\nuint8[] data\nbool is_dense\n================================================================================\nMSG: std_msgs/Header\nbuiltin_interfaces/Time stamp\nstring frame_id\n================================================================================\nMSG: builtin_interfaces/Time\nint32 sec\nuint32 nanosec\n================================================================================\nMSG: sensor_msgs/PointField\nuint8 INT8=1\nuint8 UINT8=2\nuint8 INT16=3\nuint8 UINT16=4\nuint8 INT32=5\nuint8 UINT32=6\nuint8 FLOAT32=7\nuint8 FLOAT64=8\nstring name\nuint32 offset\nuint8 datatype\nuint32 count\n"
+          },
+          {
+            "type": "sensor_msgs/msg/CameraInfo",
+            "encoding": "ros2msg",
+            "definition": "std_msgs/Header header\nuint32 height\nuint32 width\nstring distortion_model\nfloat64[] D\nfloat64[9] K\nfloat64[9] R\nfloat64[12] P\nuint32 binning_x\nuint32 binning_y\nsensor_msgs/RegionOfInterest roi\n================================================================================\nMSG: std_msgs/Header\nbuiltin_interfaces/Time stamp\nstring frame_id\n================================================================================\nMSG: builtin_interfaces/Time\nint32 sec\nuint32 nanosec\n================================================================================\nMSG: sensor_msgs/RegionOfInterest\nuint32 x_offset\nuint32 y_offset\nuint32 height\nuint32 width\nbool do_rectify\n"
+          },
+          {
+            "type": "realsense2_camera/msg/Metadata",
+            "encoding": "ros2msg",
+            "definition": "std_msgs/Header header\nstring json_data\n================================================================================\nMSG: std_msgs/Header\nbuiltin_interfaces/Time stamp\nstring frame_id\n================================================================================\nMSG: builtin_interfaces/Time\nint32 sec\nuint32 nanosec\n"
+          }
+        ],
+        "topics": [
+          [
+            1,
+            "robot1/camera/extrinsics/depth_to_color",
+            "realsense2_camera/msg/Extrinsics"
+          ],
+          [
+            2,
+            "robot1/camera/depth/color/points",
+            "sensor_msgs/msg/PointCloud2"
+          ],
+          [
+            3,
+            "robot1/camera/depth/camera_info",
+            "sensor_msgs/msg/CameraInfo"
+          ],
+          [
+            4,
+            "robot1/camera/depth/metadata",
+            "realsense2_camera/msg/Metadata"
+          ]
+        ],
+        "T_color_optical_from_depth_optical": {
+          "topic": "robot1/camera/extrinsics/depth_to_color",
+          "rotation_serialized": [
+            0.9999960660934448,
+            -9.520446474198252e-05,
+            -0.002803168026730418,
+            9.760445391293615e-05,
+            0.9999996423721313,
+            0.0008560450514778495,
+            0.002803085371851921,
+            -0.0008563152514398098,
+            0.9999957084655762
+          ],
+          "translation_m": [
+            -0.05910656228661537,
+            5.2732259064214304e-05,
+            0.0004884438822045922
+          ],
+          "rotation_matrix": [
+            [
+              0.9999960660934448,
+              9.760445391293615e-05,
+              0.002803085371851921
+            ],
+            [
+              -9.520446474198252e-05,
+              0.9999996423721313,
+              -0.0008563152514398098
+            ],
+            [
+              -0.002803168026730418,
+              0.0008560450514778495,
+              0.9999957084655762
+            ]
+          ],
+          "determinant": 1.0000000168071865,
+          "orthogonality_error": 2.7084150033829246e-08,
+          "matrix_storage": "column-major per realsense2_camera/msg/Extrinsics; not a mounting transform"
+        },
+        "sample_pointcloud": {
+          "topic": "robot1/camera/depth/color/points",
+          "width": 376811,
+          "height": 1,
+          "point_step": 20,
+          "row_step": 7536220,
+          "frame_id": "robot1_camera_depth_optical_frame",
+          "fields": [
+            {
+              "name": "x",
+              "offset": 0,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "y",
+              "offset": 4,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "z",
+              "offset": 8,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "rgb",
+              "offset": 16,
+              "datatype": 7,
+              "count": 1
+            }
+          ],
+          "finite_points": 376811,
+          "xyz_min": [
+            -19.569841384887695,
+            -37.22996139526367,
+            0.7880000472068787
+          ],
+          "xyz_max": [
+            65.72372436523438,
+            3.069218873977661,
+            65.53500366210938
+          ],
+          "positive_z_fraction": 1.0,
+          "bag_timestamp_ns": "1722894200716325970",
+          "header_timestamp_ns": "1722894200527811289",
+          "depth_units": "ROS camera PointCloud2 float32 XYZ in metres; raw uint16 depth scale not recorded in an Image topic",
+          "depth_image_reconstruction": "requires audited camera model/frame/z-buffer; NOT performed"
+        },
+        "depth_cloud_rate_hz": 9.98652897133998,
+        "camera_info": {
+          "topic": "robot1/camera/depth/camera_info",
+          "width": 848,
+          "height": 480,
+          "K": [
+            420.3859558105469,
+            0.0,
+            425.4034423828125,
+            0.0,
+            420.3859558105469,
+            238.81822204589844,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "D": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "distortion_model": "plumb_bob",
+          "frame_id": "robot1_camera_depth_optical_frame"
+        },
+        "db_member_CRC_validated": true,
+        "elapsed_s": 390.76688135787845
+      },
+      "robot2": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_depth.zip",
+        "available": true,
+        "archive_bytes": 28651916729,
+        "metadata": {
+          "compression_format": "",
+          "compression_mode": "",
+          "custom_data": {},
+          "duration": {
+            "nanoseconds": 1114963599013
+          },
+          "files": [
+            {
+              "duration": {
+                "nanoseconds": 1114963599013
+              },
+              "message_count": 77968,
+              "path": "robot2_main_campus_camera_depth.db3",
+              "starting_time": {
+                "nanoseconds_since_epoch": 1722894200599925035
+              }
+            }
+          ],
+          "message_count": 77968,
+          "relative_file_paths": [
+            "robot2_main_campus_camera_depth.db3"
+          ],
+          "ros_distro": "rosbags",
+          "starting_time": {
+            "nanoseconds_since_epoch": 1722894200599925035
+          },
+          "storage_identifier": "sqlite3",
+          "topics_with_message_count": [
+            {
+              "message_count": 1,
+              "topic_metadata": {
+                "name": "robot2/camera/extrinsics/depth_to_color",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "realsense2_camera/msg/Extrinsics",
+                "type_description_hash": "RIHS01_fe346bd2d0582be008b79af7a0253d5fae0a76030e27da2715499f2b33ace7d6"
+              }
+            },
+            {
+              "message_count": 11132,
+              "topic_metadata": {
+                "name": "robot2/camera/depth/color/points",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "sensor_msgs/msg/PointCloud2",
+                "type_description_hash": "RIHS01_9198cabf7da3796ae6fe19c4cb3bdd3525492988c70522628af5daa124bae2b5"
+              }
+            },
+            {
+              "message_count": 33419,
+              "topic_metadata": {
+                "name": "robot2/camera/depth/camera_info",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "sensor_msgs/msg/CameraInfo",
+                "type_description_hash": "RIHS01_b303399feda782bcc44e57b8eec9baaa9e0e5a7cd4a89fee8cffe588d6dc93ed"
+              }
+            },
+            {
+              "message_count": 33416,
+              "topic_metadata": {
+                "name": "robot2/camera/depth/metadata",
+                "offered_qos_profiles": "",
+                "serialization_format": "cdr",
+                "type": "realsense2_camera/msg/Metadata",
+                "type_description_hash": "RIHS01_fdcd710bbfa243fcc15b0ad0bce5622eb351e5bee6315c39d1117016ac6cc88a"
+              }
+            }
+          ],
+          "version": 8
+        },
+        "depth_image_topic_available": false,
+        "message_decode": "NOT_RUN_METADATA_ONLY"
+      },
+      "robot3": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip",
+        "available": false
+      }
+    },
+    "GT_read": false,
+    "LiDAR_read": false,
+    "original_depth_image_scale": "UNAVAILABLE_NO_UINT16_DEPTH_TOPIC"
+  },
+  "searched": "all URDF joints; camera RGB/depth/LiDAR/non-GT IMU archive topic metadata. No /tf_static in these archives.",
+  "no_guessed_camera_link_equals_optical": true,
+  "visual_mesh_rotation_not_measurement_extrinsic": true,
+  "source": {
+    "archive": "/home/cas/CU-Multi/raw/calib/robot_description.zip",
+    "sha256": "ecd2cd70be74b44f38d5250099dc272848bcfb25abd290dbbf3ed98071c84e05",
+    "optical_mentions_in_all_URDF_xacro": {
+      "robot_description/urdf/robot1.urdf": 0,
+      "robot_description/urdf/robot4.urdf": 0,
+      "robot_description/urdf/multi_robot.urdf.xacro": 0,
+      "robot_description/urdf/robot2.urdf": 0,
+      "robot_description/urdf/robot3.urdf": 0,
+      "robot_description/urdf/single_robot.urdf.xacro": 0
+    }
+  },
+  "missing": [
+    "measured T_camera_color_optical_from_camera_link (including translation)",
+    "Robot3 camera-depth archive",
+    "native depth Image topic/scale or explicitly validated camera-cloud-to-depth adapter",
+    "camera exposure-to-LiDAR hardware clock calibration"
+  ]
+}

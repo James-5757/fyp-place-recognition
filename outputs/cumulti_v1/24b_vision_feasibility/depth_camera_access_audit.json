@@ -1,0 +1,28 @@
+{
+  "opens": [
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/depth_work/camera_depth.db3",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/depth_work/extraction_receipt.json",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/robot1_depth_pointcloud_timestamp_index.csv",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_depth.zip",
+      "status": "ALLOWED"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24b_vision_feasibility/depth_camera_audit.json",
+      "status": "ALLOWED"
+    }
+  ]
+}

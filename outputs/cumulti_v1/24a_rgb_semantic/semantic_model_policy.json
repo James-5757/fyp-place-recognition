@@ -1,0 +1,767 @@
+{
+  "model": "nvidia/segformer-b0-finetuned-ade-512-512",
+  "revision": "489d5cd81a0b59fab9b7ea758d3548ebe99677da",
+  "weights_sha256": "6ae39addd01de6b1b8bde2cf677d43a5cd733424b8d186de3f95d1c51fee23f9",
+  "threshold": 0.5,
+  "inference_size": [
+    512,
+    512
+  ],
+  "taxonomy": {
+    "0": {
+      "model_class": "wall",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "1": {
+      "model_class": "building",
+      "category": "building",
+      "category_id": 1
+    },
+    "2": {
+      "model_class": "sky",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "3": {
+      "model_class": "floor",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "4": {
+      "model_class": "tree",
+      "category": "vegetation",
+      "category_id": 4
+    },
+    "5": {
+      "model_class": "ceiling",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "6": {
+      "model_class": "road",
+      "category": "road/asphalt",
+      "category_id": 2
+    },
+    "7": {
+      "model_class": "bed ",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "8": {
+      "model_class": "windowpane",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "9": {
+      "model_class": "grass",
+      "category": "grass",
+      "category_id": 3
+    },
+    "10": {
+      "model_class": "cabinet",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "11": {
+      "model_class": "sidewalk",
+      "category": "road/asphalt",
+      "category_id": 2
+    },
+    "12": {
+      "model_class": "person",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "13": {
+      "model_class": "earth",
+      "category": "dirt/other",
+      "category_id": 6
+    },
+    "14": {
+      "model_class": "door",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "15": {
+      "model_class": "table",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "16": {
+      "model_class": "mountain",
+      "category": "dirt/other",
+      "category_id": 6
+    },
+    "17": {
+      "model_class": "plant",
+      "category": "vegetation",
+      "category_id": 4
+    },
+    "18": {
+      "model_class": "curtain",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "19": {
+      "model_class": "chair",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "20": {
+      "model_class": "car",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "21": {
+      "model_class": "water",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "22": {
+      "model_class": "painting",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "23": {
+      "model_class": "sofa",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "24": {
+      "model_class": "shelf",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "25": {
+      "model_class": "house",
+      "category": "building",
+      "category_id": 1
+    },
+    "26": {
+      "model_class": "sea",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "27": {
+      "model_class": "mirror",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "28": {
+      "model_class": "rug",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "29": {
+      "model_class": "field",
+      "category": "vegetation",
+      "category_id": 4
+    },
+    "30": {
+      "model_class": "armchair",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "31": {
+      "model_class": "seat",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "32": {
+      "model_class": "fence",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "33": {
+      "model_class": "desk",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "34": {
+      "model_class": "rock",
+      "category": "dirt/other",
+      "category_id": 6
+    },
+    "35": {
+      "model_class": "wardrobe",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "36": {
+      "model_class": "lamp",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "37": {
+      "model_class": "bathtub",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "38": {
+      "model_class": "railing",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "39": {
+      "model_class": "cushion",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "40": {
+      "model_class": "base",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "41": {
+      "model_class": "box",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "42": {
+      "model_class": "column",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "43": {
+      "model_class": "signboard",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "44": {
+      "model_class": "chest of drawers",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "45": {
+      "model_class": "counter",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "46": {
+      "model_class": "sand",
+      "category": "dirt/other",
+      "category_id": 6
+    },
+    "47": {
+      "model_class": "sink",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "48": {
+      "model_class": "skyscraper",
+      "category": "building",
+      "category_id": 1
+    },
+    "49": {
+      "model_class": "fireplace",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "50": {
+      "model_class": "refrigerator",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "51": {
+      "model_class": "grandstand",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "52": {
+      "model_class": "path",
+      "category": "road/asphalt",
+      "category_id": 2
+    },
+    "53": {
+      "model_class": "stairs",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "54": {
+      "model_class": "runway",
+      "category": "road/asphalt",
+      "category_id": 2
+    },
+    "55": {
+      "model_class": "case",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "56": {
+      "model_class": "pool table",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "57": {
+      "model_class": "pillow",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "58": {
+      "model_class": "screen door",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "59": {
+      "model_class": "stairway",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "60": {
+      "model_class": "river",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "61": {
+      "model_class": "bridge",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "62": {
+      "model_class": "bookcase",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "63": {
+      "model_class": "blind",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "64": {
+      "model_class": "coffee table",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "65": {
+      "model_class": "toilet",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "66": {
+      "model_class": "flower",
+      "category": "vegetation",
+      "category_id": 4
+    },
+    "67": {
+      "model_class": "book",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "68": {
+      "model_class": "hill",
+      "category": "dirt/other",
+      "category_id": 6
+    },
+    "69": {
+      "model_class": "bench",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "70": {
+      "model_class": "countertop",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "71": {
+      "model_class": "stove",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "72": {
+      "model_class": "palm",
+      "category": "vegetation",
+      "category_id": 4
+    },
+    "73": {
+      "model_class": "kitchen island",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "74": {
+      "model_class": "computer",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "75": {
+      "model_class": "swivel chair",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "76": {
+      "model_class": "boat",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "77": {
+      "model_class": "bar",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "78": {
+      "model_class": "arcade machine",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "79": {
+      "model_class": "hovel",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "80": {
+      "model_class": "bus",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "81": {
+      "model_class": "towel",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "82": {
+      "model_class": "light",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "83": {
+      "model_class": "truck",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "84": {
+      "model_class": "tower",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "85": {
+      "model_class": "chandelier",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "86": {
+      "model_class": "awning",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "87": {
+      "model_class": "streetlight",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "88": {
+      "model_class": "booth",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "89": {
+      "model_class": "television receiver",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "90": {
+      "model_class": "airplane",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "91": {
+      "model_class": "dirt track",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "92": {
+      "model_class": "apparel",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "93": {
+      "model_class": "pole",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "94": {
+      "model_class": "land",
+      "category": "dirt/other",
+      "category_id": 6
+    },
+    "95": {
+      "model_class": "bannister",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "96": {
+      "model_class": "escalator",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "97": {
+      "model_class": "ottoman",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "98": {
+      "model_class": "bottle",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "99": {
+      "model_class": "buffet",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "100": {
+      "model_class": "poster",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "101": {
+      "model_class": "stage",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "102": {
+      "model_class": "van",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "103": {
+      "model_class": "ship",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "104": {
+      "model_class": "fountain",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "105": {
+      "model_class": "conveyer belt",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "106": {
+      "model_class": "canopy",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "107": {
+      "model_class": "washer",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "108": {
+      "model_class": "plaything",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "109": {
+      "model_class": "swimming pool",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "110": {
+      "model_class": "stool",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "111": {
+      "model_class": "barrel",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "112": {
+      "model_class": "basket",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "113": {
+      "model_class": "waterfall",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "114": {
+      "model_class": "tent",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "115": {
+      "model_class": "bag",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "116": {
+      "model_class": "minibike",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "117": {
+      "model_class": "cradle",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "118": {
+      "model_class": "oven",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "119": {
+      "model_class": "ball",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "120": {
+      "model_class": "food",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "121": {
+      "model_class": "step",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "122": {
+      "model_class": "tank",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "123": {
+      "model_class": "trade name",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "124": {
+      "model_class": "microwave",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "125": {
+      "model_class": "pot",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "126": {
+      "model_class": "animal",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "127": {
+      "model_class": "bicycle",
+      "category": "vehicle",
+      "category_id": 5
+    },
+    "128": {
+      "model_class": "lake",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "129": {
+      "model_class": "dishwasher",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "130": {
+      "model_class": "screen",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "131": {
+      "model_class": "blanket",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "132": {
+      "model_class": "sculpture",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "133": {
+      "model_class": "hood",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "134": {
+      "model_class": "sconce",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "135": {
+      "model_class": "vase",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "136": {
+      "model_class": "traffic light",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "137": {
+      "model_class": "tray",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "138": {
+      "model_class": "ashcan",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "139": {
+      "model_class": "fan",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "140": {
+      "model_class": "pier",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "141": {
+      "model_class": "crt screen",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "142": {
+      "model_class": "plate",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "143": {
+      "model_class": "monitor",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "144": {
+      "model_class": "bulletin board",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "145": {
+      "model_class": "shower",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "146": {
+      "model_class": "radiator",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "147": {
+      "model_class": "glass",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "148": {
+      "model_class": "clock",
+      "category": "unknown",
+      "category_id": 0
+    },
+    "149": {
+      "model_class": "flag",
+      "category": "unknown",
+      "category_id": 0
+    }
+  },
+  "road_category_limitation": "road/asphalt includes ADE sidewalk/path/runway; material asphalt is NOT verified",
+  "no_GT_or_LiDAR_labels": true,
+  "projection_status": "BLOCKED_PENDING_COMPLETE_OPTICAL_MOUNTING_CHAIN",
+  "selection": "six evenly indexed predeclared pilot RGB frames per robot; not selected by labels",
+  "geometry_projection": "NOT_PERFORMED"
+}

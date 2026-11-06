@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "checks": 831,
+  "camera_guard_test": true,
+  "GT_evaluation_run": false,
+  "native_solver_repeated": false,
+  "scientific_promotion": false
+}

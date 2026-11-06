@@ -1,0 +1,817 @@
+{
+  "assets": [
+    {
+      "robot_id": "robot1",
+      "sensor": "camera_rgb",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+      "available": true,
+      "size_bytes": 16873044643,
+      "mtime_ns": 1788949451096482623,
+      "topics": [
+        {
+          "topic": "robot1/camera/color/camera_info",
+          "type": "sensor_msgs/msg/CameraInfo",
+          "count": 9997
+        },
+        {
+          "topic": "robot1/camera/color/image_raw",
+          "type": "sensor_msgs/msg/Image",
+          "count": 9997
+        },
+        {
+          "topic": "robot1/camera/color/metadata",
+          "type": "realsense2_camera/msg/Metadata",
+          "count": 9996
+        }
+      ],
+      "metadata_nominal_duration_s": 999.824494583,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot1",
+      "sensor": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+      "available": true,
+      "size_bytes": 24940875791,
+      "mtime_ns": 1788947789910803748,
+      "topics": [
+        {
+          "topic": "robot1/camera/extrinsics/depth_to_color",
+          "type": "realsense2_camera/msg/Extrinsics",
+          "count": 1
+        },
+        {
+          "topic": "robot1/camera/depth/color/points",
+          "type": "sensor_msgs/msg/PointCloud2",
+          "count": 8765
+        },
+        {
+          "topic": "robot1/camera/depth/camera_info",
+          "type": "sensor_msgs/msg/CameraInfo",
+          "count": 28844
+        },
+        {
+          "topic": "robot1/camera/depth/metadata",
+          "type": "realsense2_camera/msg/Metadata",
+          "count": 28840
+        }
+      ],
+      "metadata_nominal_duration_s": 999.896892118,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot1",
+      "sensor": "lidar",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar.zip",
+      "available": true,
+      "size_bytes": 30271098044,
+      "mtime_ns": 1788977745377075613,
+      "topics": [
+        {
+          "topic": "robot1/ouster/metadata",
+          "type": "std_msgs/msg/String",
+          "count": 1
+        },
+        {
+          "topic": "robot1/ouster/imu",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 99982
+        },
+        {
+          "topic": "robot1/ouster/points",
+          "type": "sensor_msgs/msg/PointCloud2",
+          "count": 19998
+        }
+      ],
+      "metadata_nominal_duration_s": 1000.60504534,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot1",
+      "sensor": "imu_gps",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+      "available": true,
+      "size_bytes": 137411022,
+      "mtime_ns": 1788948709767586355,
+      "topics": [
+        {
+          "topic": "robot1/imu/pressure",
+          "type": "sensor_msgs/msg/FluidPressure",
+          "count": 501461
+        },
+        {
+          "topic": "robot1/imu/mag",
+          "type": "sensor_msgs/msg/MagneticField",
+          "count": 501459
+        },
+        {
+          "topic": "robot1/imu/data",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 501460
+        },
+        {
+          "topic": "robot1/gnss_1/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_1/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_1/velocity_ecef",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_1/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_2/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_2/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_2/velocity_ecef",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_2/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/gnss_2/time",
+          "type": "sensor_msgs/msg/TimeReference",
+          "count": 2006
+        },
+        {
+          "topic": "robot1/ekf/imu/data",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 100281
+        },
+        {
+          "topic": "robot1/ekf/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 100281
+        },
+        {
+          "topic": "robot1/ekf/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 100280
+        },
+        {
+          "topic": "robot1/ekf/dual_antenna_heading",
+          "type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+          "count": 100280
+        },
+        {
+          "topic": "robot1/ekf/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 100279
+        },
+        {
+          "topic": "robot1/ekf/odometry_map",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 100279
+        },
+        {
+          "topic": "robot1/mip/ekf/gnss_position_aiding_status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+          "count": 200558
+        },
+        {
+          "topic": "robot1/mip/ekf/gnss_dual_antenna_status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+          "count": 100279
+        },
+        {
+          "topic": "robot1/mip/gnss_1/fix_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/gnss_1/sbas_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/gnss_1/rf_error_detection",
+          "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+          "count": 4010
+        },
+        {
+          "topic": "robot1/gnss_1/time",
+          "type": "sensor_msgs/msg/TimeReference",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/sensor/overrange_status",
+          "type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/ekf/status",
+          "type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/ekf/status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/ekf/multi_antenna_offset_correction",
+          "type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+          "count": 4010
+        },
+        {
+          "topic": "robot1/mip/ekf/aiding_measurement_summary",
+          "type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+          "count": 11676
+        },
+        {
+          "topic": "robot1/mip/gnss_2/fix_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/gnss_2/rf_error_detection",
+          "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+          "count": 4010
+        },
+        {
+          "topic": "robot1/mip/gnss_2/sbas_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+          "count": 2005
+        },
+        {
+          "topic": "robot1/mip/gnss_corrections/rtk_corrections_status",
+          "type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+          "count": 1003
+        }
+      ],
+      "metadata_nominal_duration_s": 1002.924100791,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot1",
+      "sensor": "gt_utm_poses.csv",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv",
+      "available": true,
+      "size_bytes": 3178418,
+      "mtime_ns": 1788948751099422846
+    },
+    {
+      "robot_id": "robot2",
+      "sensor": "camera_rgb",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_rgb.zip",
+      "available": true,
+      "size_bytes": 17013445067,
+      "mtime_ns": 1788977211709238005,
+      "topics": [
+        {
+          "topic": "robot2/camera/color/camera_info",
+          "type": "sensor_msgs/msg/CameraInfo",
+          "count": 11149
+        },
+        {
+          "topic": "robot2/camera/color/image_raw",
+          "type": "sensor_msgs/msg/Image",
+          "count": 11149
+        },
+        {
+          "topic": "robot2/camera/color/metadata",
+          "type": "realsense2_camera/msg/Metadata",
+          "count": 11149
+        }
+      ],
+      "metadata_nominal_duration_s": 1114.864437472,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot2",
+      "sensor": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_depth.zip",
+      "available": true,
+      "size_bytes": 28651916729,
+      "mtime_ns": 1788947797294391284,
+      "topics": [
+        {
+          "topic": "robot2/camera/extrinsics/depth_to_color",
+          "type": "realsense2_camera/msg/Extrinsics",
+          "count": 1
+        },
+        {
+          "topic": "robot2/camera/depth/color/points",
+          "type": "sensor_msgs/msg/PointCloud2",
+          "count": 11132
+        },
+        {
+          "topic": "robot2/camera/depth/camera_info",
+          "type": "sensor_msgs/msg/CameraInfo",
+          "count": 33419
+        },
+        {
+          "topic": "robot2/camera/depth/metadata",
+          "type": "realsense2_camera/msg/Metadata",
+          "count": 33416
+        }
+      ],
+      "metadata_nominal_duration_s": 1114.963599013,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot2",
+      "sensor": "lidar",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar.zip",
+      "available": true,
+      "size_bytes": 34227901694,
+      "mtime_ns": 1788948433717911829,
+      "topics": [
+        {
+          "topic": "robot2/ouster/metadata",
+          "type": "std_msgs/msg/String",
+          "count": 1
+        },
+        {
+          "topic": "robot2/ouster/imu",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 111486
+        },
+        {
+          "topic": "robot2/ouster/points",
+          "type": "sensor_msgs/msg/PointCloud2",
+          "count": 22299
+        }
+      ],
+      "metadata_nominal_duration_s": 1115.796200309,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot2",
+      "sensor": "imu_gps",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_imu_gps.zip",
+      "available": true,
+      "size_bytes": 153475060,
+      "mtime_ns": 1788948690202143450,
+      "topics": [
+        {
+          "topic": "robot2/imu/data",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 558997
+        },
+        {
+          "topic": "robot2/imu/mag",
+          "type": "sensor_msgs/msg/MagneticField",
+          "count": 558997
+        },
+        {
+          "topic": "robot2/imu/pressure",
+          "type": "sensor_msgs/msg/FluidPressure",
+          "count": 558997
+        },
+        {
+          "topic": "robot2/ekf/imu/data",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 111797
+        },
+        {
+          "topic": "robot2/ekf/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 111797
+        },
+        {
+          "topic": "robot2/ekf/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 111797
+        },
+        {
+          "topic": "robot2/ekf/dual_antenna_heading",
+          "type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+          "count": 111797
+        },
+        {
+          "topic": "robot2/ekf/status",
+          "type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/mip/ekf/gnss_dual_antenna_status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+          "count": 111788
+        },
+        {
+          "topic": "robot2/mip/ekf/gnss_position_aiding_status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+          "count": 223576
+        },
+        {
+          "topic": "robot2/ekf/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 111786
+        },
+        {
+          "topic": "robot2/ekf/odometry_map",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 111786
+        },
+        {
+          "topic": "robot2/gnss_1/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_1/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_1/velocity_ecef",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_1/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_1/time",
+          "type": "sensor_msgs/msg/TimeReference",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/mip/gnss_1/fix_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/mip/gnss_1/sbas_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/mip/gnss_1/rf_error_detection",
+          "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+          "count": 4472
+        },
+        {
+          "topic": "robot2/mip/gnss_2/fix_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/mip/gnss_2/rf_error_detection",
+          "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+          "count": 4472
+        },
+        {
+          "topic": "robot2/mip/gnss_2/sbas_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_2/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_2/velocity_ecef",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_2/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_2/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/gnss_2/time",
+          "type": "sensor_msgs/msg/TimeReference",
+          "count": 2236
+        },
+        {
+          "topic": "robot2/mip/sensor/overrange_status",
+          "type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+          "count": 2235
+        },
+        {
+          "topic": "robot2/mip/ekf/status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+          "count": 2235
+        },
+        {
+          "topic": "robot2/mip/ekf/multi_antenna_offset_correction",
+          "type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+          "count": 4470
+        },
+        {
+          "topic": "robot2/mip/ekf/aiding_measurement_summary",
+          "type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+          "count": 12268
+        },
+        {
+          "topic": "robot2/mip/gnss_corrections/rtk_corrections_status",
+          "type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+          "count": 1118
+        }
+      ],
+      "metadata_nominal_duration_s": 1117.975308936,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot2",
+      "sensor": "gt_utm_poses.csv",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_utm_poses.csv",
+      "available": true,
+      "size_bytes": 3535092,
+      "mtime_ns": 1788948744913595867
+    },
+    {
+      "robot_id": "robot3",
+      "sensor": "camera_rgb",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+      "available": true,
+      "size_bytes": 33987903251,
+      "mtime_ns": 1789379414616028784,
+      "topics": [
+        {
+          "topic": "robot3/camera/color/camera_info",
+          "type": "sensor_msgs/msg/CameraInfo",
+          "count": 20977
+        },
+        {
+          "topic": "robot3/camera/color/image_raw",
+          "type": "sensor_msgs/msg/Image",
+          "count": 20977
+        },
+        {
+          "topic": "robot3/camera/color/metadata",
+          "type": "realsense2_camera/msg/Metadata",
+          "count": 20977
+        }
+      ],
+      "metadata_nominal_duration_s": 2098.519245631,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot3",
+      "sensor": "camera_depth",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip",
+      "available": false,
+      "size_bytes": null,
+      "mtime_ns": null
+    },
+    {
+      "robot_id": "robot3",
+      "sensor": "lidar",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip",
+      "available": true,
+      "size_bytes": 57036299311,
+      "mtime_ns": 1789384419746852508,
+      "topics": [
+        {
+          "topic": "robot3/ouster/metadata",
+          "type": "std_msgs/msg/String",
+          "count": 1
+        },
+        {
+          "topic": "robot3/ouster/imu",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 208946
+        },
+        {
+          "topic": "robot3/ouster/points",
+          "type": "sensor_msgs/msg/PointCloud2",
+          "count": 41793
+        }
+      ],
+      "metadata_nominal_duration_s": 2090.616118564,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot3",
+      "sensor": "imu_gps",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip",
+      "available": true,
+      "size_bytes": 289456005,
+      "mtime_ns": 1790152374346774111,
+      "topics": [
+        {
+          "topic": "robot3/imu/pressure",
+          "type": "sensor_msgs/msg/FluidPressure",
+          "count": 1050826
+        },
+        {
+          "topic": "robot3/imu/data",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 1050826
+        },
+        {
+          "topic": "robot3/imu/mag",
+          "type": "sensor_msgs/msg/MagneticField",
+          "count": 1050826
+        },
+        {
+          "topic": "robot3/mip/gnss_1/fix_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/mip/gnss_1/sbas_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/gnss_1/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/gnss_1/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/gnss_1/velocity_ecef",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/gnss_1/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/gnss_1/time",
+          "type": "sensor_msgs/msg/TimeReference",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/ekf/imu/data",
+          "type": "sensor_msgs/msg/Imu",
+          "count": 210153
+        },
+        {
+          "topic": "robot3/ekf/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 210153
+        },
+        {
+          "topic": "robot3/ekf/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 210153
+        },
+        {
+          "topic": "robot3/ekf/dual_antenna_heading",
+          "type": "geometry_msgs/msg/PoseWithCovarianceStamped",
+          "count": 210153
+        },
+        {
+          "topic": "robot3/ekf/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 210153
+        },
+        {
+          "topic": "robot3/ekf/odometry_map",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 210153
+        },
+        {
+          "topic": "robot3/mip/ekf/gnss_position_aiding_status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterGnssPositionAidingStatus",
+          "count": 420288
+        },
+        {
+          "topic": "robot3/mip/ekf/gnss_dual_antenna_status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterGnssDualAntennaStatus",
+          "count": 210143
+        },
+        {
+          "topic": "robot3/mip/ekf/status",
+          "type": "microstrain_inertial_msgs/msg/MipFilterStatus",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/ekf/status",
+          "type": "microstrain_inertial_msgs/msg/HumanReadableStatus",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/mip/ekf/multi_antenna_offset_correction",
+          "type": "microstrain_inertial_msgs/msg/MipFilterMultiAntennaOffsetCorrection",
+          "count": 8406
+        },
+        {
+          "topic": "robot3/mip/ekf/aiding_measurement_summary",
+          "type": "microstrain_inertial_msgs/msg/MipFilterAidingMeasurementSummary",
+          "count": 24451
+        },
+        {
+          "topic": "robot3/mip/sensor/overrange_status",
+          "type": "microstrain_inertial_msgs/msg/MipSensorOverrangeStatus",
+          "count": 4203
+        },
+        {
+          "topic": "robot3/mip/gnss_corrections/rtk_corrections_status",
+          "type": "microstrain_inertial_msgs/msg/MipGnssCorrectionsRtkCorrectionsStatus",
+          "count": 2101
+        },
+        {
+          "topic": "robot3/mip/gnss_1/rf_error_detection",
+          "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+          "count": 8404
+        },
+        {
+          "topic": "robot3/mip/gnss_2/fix_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssFixInfo",
+          "count": 4202
+        },
+        {
+          "topic": "robot3/mip/gnss_2/rf_error_detection",
+          "type": "microstrain_inertial_msgs/msg/MipGnssRfErrorDetection",
+          "count": 8404
+        },
+        {
+          "topic": "robot3/gnss_2/llh_position",
+          "type": "sensor_msgs/msg/NavSatFix",
+          "count": 4202
+        },
+        {
+          "topic": "robot3/gnss_2/velocity",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 4202
+        },
+        {
+          "topic": "robot3/gnss_2/velocity_ecef",
+          "type": "geometry_msgs/msg/TwistWithCovarianceStamped",
+          "count": 4202
+        },
+        {
+          "topic": "robot3/gnss_2/odometry_earth",
+          "type": "nav_msgs/msg/Odometry",
+          "count": 4202
+        },
+        {
+          "topic": "robot3/gnss_2/time",
+          "type": "sensor_msgs/msg/TimeReference",
+          "count": 4202
+        },
+        {
+          "topic": "robot3/mip/gnss_2/sbas_info",
+          "type": "microstrain_inertial_msgs/msg/MipGnssSbasInfo",
+          "count": 4202
+        }
+      ],
+      "metadata_nominal_duration_s": 2101.661979193,
+      "archive_format": "ZIP containing ROS2 SQLite3 db3 + metadata.yaml",
+      "optical_static_tf_topic_present": false
+    },
+    {
+      "robot_id": "robot3",
+      "sensor": "gt_utm_poses.csv",
+      "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv",
+      "available": true,
+      "size_bytes": 6613696,
+      "mtime_ns": 1789130354842588126
+    }
+  ],
+  "decode_scope": {
+    "RGB": [
+      "robot1",
+      "robot3"
+    ],
+    "depth_cloud": [
+      "robot1"
+    ],
+    "robot2": "archive topic inventory plus historical decoded RGB validation only; no new depth message decode"
+  },
+  "no_redownload": true,
+  "raw_modified": false,
+  "GT_pose_files": "existence/size only; contents NOT read"
+}

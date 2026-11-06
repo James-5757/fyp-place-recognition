@@ -1,0 +1,16 @@
+robot_id,sensor,path,available,size_bytes,mtime_ns,metadata_nominal_duration_s,archive_format,optical_static_tf_topic_present
+robot1,camera_rgb,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip,True,16873044643,1788949451096482623,999.824494583,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot1,camera_depth,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip,True,24940875791,1788947789910803748,999.896892118,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot1,lidar,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_lidar.zip,True,30271098044,1788977745377075613,1000.60504534,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot1,imu_gps,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip,True,137411022,1788948709767586355,1002.924100791,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot1,gt_utm_poses.csv,/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_gt_utm_poses.csv,True,3178418,1788948751099422846,,,
+robot2,camera_rgb,/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_rgb.zip,True,17013445067,1788977211709238005,1114.864437472,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot2,camera_depth,/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_camera_depth.zip,True,28651916729,1788947797294391284,1114.963599013,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot2,lidar,/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_lidar.zip,True,34227901694,1788948433717911829,1115.796200309,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot2,imu_gps,/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_imu_gps.zip,True,153475060,1788948690202143450,1117.975308936,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot2,gt_utm_poses.csv,/home/cas/CU-Multi/raw/main_campus/robot2/robot2_main_campus_gt_utm_poses.csv,True,3535092,1788948744913595867,,,
+robot3,camera_rgb,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip,True,33987903251,1789379414616028784,2098.519245631,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot3,camera_depth,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip,False,,,,,
+robot3,lidar,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip,True,57036299311,1789384419746852508,2090.616118564,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot3,imu_gps,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip,True,289456005,1790152374346774111,2101.661979193,ZIP containing ROS2 SQLite3 db3 + metadata.yaml,False
+robot3,gt_utm_poses.csv,/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_utm_poses.csv,True,6613696,1789130354842588126,,,

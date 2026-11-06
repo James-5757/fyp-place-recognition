@@ -1,0 +1,27 @@
+{
+  "status": "BLOCKED",
+  "real_LiDAR_RGB_projection_performed": false,
+  "reason": "BLOCKED_COMPLETE_OPTICAL_MOUNTING_EXTRINSIC_NOT_LOCALLY_VERIFIED",
+  "unobserved_policy": "all 3D points UNKNOWN; grey in RGB/semantic mode",
+  "synthetic_implementation_tests": {
+    "status": "PASS",
+    "synthetic_only": true,
+    "cases": [
+      "front/back/FoV/NaN",
+      "nearest-depth occlusion",
+      "strict synchronization cutoff",
+      "missing calibration rejected",
+      "T_target_source direction"
+    ]
+  },
+  "real_projection_accuracy": "NOT_EVALUATED",
+  "implemented_rules": [
+    "positive depth and image FoV",
+    "plumb_bob distortion via OpenCV",
+    "nearest-depth exact-pixel z-buffer",
+    "reject >50ms bag sync; not exposure guarantee",
+    "no inferred occluded-surface colors"
+  ],
+  "duplicate_observations": "no real observations merged while calibration blocked; original P5 voxel representatives retained unchanged",
+  "remaining_validation": "camera exposure alignment, occlusion/edge overlay, multi-observation fusion/conflicts, segmentation domain shift"
+}

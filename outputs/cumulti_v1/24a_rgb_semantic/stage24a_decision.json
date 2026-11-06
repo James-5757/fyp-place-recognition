@@ -1,0 +1,19 @@
+{
+  "STAGE24A_RGB_MAP": "BLOCKED",
+  "STAGE24A_SEMANTIC_MAP": "BLOCKED",
+  "implementation": {
+    "camera_only_timeline": "PASS",
+    "native_monocular_pilot": "EXECUTED_WITH_INITIALIZATION_FAILURES",
+    "pretrained_2D_semantics": "PASS",
+    "calibration_gated_projection_implementation": "SYNTHETIC_TESTS_PASS_REAL_PROJECTION_BLOCKED",
+    "P5_geometry_demo": "PASS"
+  },
+  "real_3D_RGB_observations": 0,
+  "real_3D_semantic_observations": 0,
+  "missing_data": [
+    "measured T_camera_color_optical_from_camera_link (including translation)",
+    "Robot3 camera-depth archive",
+    "native depth Image topic/scale or explicitly validated camera-cloud-to-depth adapter",
+    "camera exposure-to-LiDAR hardware clock calibration"
+  ]
+}

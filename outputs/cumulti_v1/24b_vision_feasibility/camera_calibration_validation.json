@@ -1,0 +1,131 @@
+{
+  "intrinsics": {
+    "robot1": {
+      "status": "PASS_INTRINSICS_AND_DECODE",
+      "actual": {
+        "topic": "robot1/camera/color/camera_info",
+        "width": 1280,
+        "height": 800,
+        "K": [
+          630.1983642578125,
+          0.0,
+          640.72998046875,
+          0.0,
+          629.69873046875,
+          415.41644287109375,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          -0.05718468502163887,
+          0.06778068095445633,
+          0.0007177605293691158,
+          0.00034092238638550043,
+          -0.021577496081590652
+        ],
+        "R": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "P": [
+          630.1983642578125,
+          0.0,
+          640.72998046875,
+          0.0,
+          0.0,
+          629.69873046875,
+          415.41644287109375,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "distortion_model": "plumb_bob",
+        "frame_id": "robot1_camera_color_optical_frame",
+        "header_ns": "1722894200527811289"
+      },
+      "image": {
+        "encoding": "rgb8",
+        "width": 1280,
+        "height": 800,
+        "step": 3840,
+        "frame_id": "robot1_camera_color_optical_frame"
+      },
+      "resize_K_rule": "rows0/1 multiplied by0.5 for640x400; distortion coefficients unchanged"
+    },
+    "robot3": {
+      "status": "PASS_INTRINSICS_AND_DECODE",
+      "actual": {
+        "topic": "robot3/camera/color/camera_info",
+        "width": 1280,
+        "height": 800,
+        "K": [
+          627.8040771484375,
+          0.0,
+          640.72998046875,
+          0.0,
+          627.3063354492188,
+          415.41644287109375,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          -0.05718468502163887,
+          0.06778068095445633,
+          0.0007177605293691158,
+          0.00034092238638550043,
+          -0.021577496081590652
+        ],
+        "R": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "P": [
+          627.8040771484375,
+          0.0,
+          640.72998046875,
+          0.0,
+          0.0,
+          627.3063354492188,
+          415.41644287109375,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "distortion_model": "plumb_bob",
+        "frame_id": "robot3_camera_color_optical_frame",
+        "header_ns": "1722894200605798006"
+      },
+      "image": {
+        "encoding": "rgb8",
+        "width": 1280,
+        "height": 800,
+        "step": 3840,
+        "frame_id": "robot3_camera_color_optical_frame"
+      },
+      "resize_K_rule": "rows0/1 multiplied by0.5 for640x400; distortion coefficients unchanged"
+    }
+  },
+  "inter_robot_calibration": "independent monocular cameras do not require LiDAR mounting transform",
+  "RGBD": "BLOCKED_NO_ROBOT3_CAMERA_DEPTH_AND_NO_NATIVE_DEPTH_IMAGE",
+  "metric_scale": "NOT_OBSERVABLE_FROM_MONOCULAR_RGB_ALONE"
+}
