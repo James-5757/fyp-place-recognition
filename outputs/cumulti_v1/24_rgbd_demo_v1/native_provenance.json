@@ -1,0 +1,72 @@
+{
+  "ORB_SDK_revision": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "ORB_SDK_modified_by_this_work": false,
+  "ORB_license": "GPLv3; existing separately installed SDK; binary/vocabulary not committed",
+  "files": [
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/lib/libORB_SLAM3.so",
+      "bytes": 5245240,
+      "sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/Vocabulary/ORBvoc.txt",
+      "bytes": 145250924,
+      "sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/include/System.h",
+      "bytes": 8521,
+      "sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/System.cc",
+      "bytes": 58308,
+      "sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/bin/rgbd_pilot",
+      "bytes": 49704,
+      "sha256": "66e7969592db4451fd9dc01b358c0aabd8ff2932e49ca804c7dcf4b9a1850556"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_demo/rgbd_pilot.cc",
+      "bytes": 2661,
+      "sha256": "43bda531df0218782eda51e08739ea8d7cb8cf7137d2a8bf8a5fab71e99d2954"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/paced/frame_poses.csv",
+      "bytes": 8053,
+      "sha256": "fb5807013fe01f154d9cf97ef75ec7f2b120c27f09edc21d40a221bac31ef788"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/paced/camera.yaml",
+      "bytes": 859,
+      "sha256": "ee06e3e788d91b379eef38811f8af8a618bdbbcabf4f3e223e423ec4c000f141"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/export.json",
+      "bytes": 49480,
+      "sha256": "fca07179de004e2fb3178e3632fa358db77de38f18fe69ab043034d8524e429f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/paced/frame_poses.csv",
+      "bytes": 10264,
+      "sha256": "4925b44dc462bff8de097852e157d02594df8fa676f44687a7fa37341be1cdf0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/paced/camera.yaml",
+      "bytes": 860,
+      "sha256": "c3d885a514b6b462639b76c0a8a2ff419c1ae53937504e664d474df47cfcc571"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/export.json",
+      "bytes": 49573,
+      "sha256": "946f025899f26877dfa35a690fac41361722262d816f108da571344b8bc07894"
+    }
+  ],
+  "Python": "Python 3.10.20",
+  "native_OpenCV": "4.5.4",
+  "native_mode": "RGBD, viewer=false; no IMU",
+  "fyp_gtsam_environment_modified": false,
+  "fyp_slam_environment_modified": false
+}

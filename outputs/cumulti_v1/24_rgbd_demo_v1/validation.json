@@ -1,0 +1,53 @@
+{
+  "status": "PASS_FUNCTIONAL_DEMO_TRACKING_PARTIAL",
+  "full_window_tracking": "PARTIAL_PREDECLARED_GATE_NOT_MET",
+  "adapter_synthetic": [
+    "nearest-Z",
+    "behind camera",
+    "saturation",
+    "NaN",
+    "T_color_from_depth direction"
+  ],
+  "actual_robot_checks": [
+    {
+      "robot": "robot1",
+      "tracking": "PARTIAL_TRACKING_FAILURE",
+      "reset_separation": "PASS",
+      "finite_map": "PASS",
+      "timestamps": "PASS",
+      "bag_sync": "PASS",
+      "projection_backprojection_roundtrip_max_px": 1.2433774862353623e-07,
+      "measured_alignment_accuracy": "NOT_ESTABLISHED_BY_ROUNDTRIP_TEST",
+      "depth_accuracy": "NOT_GT_EVALUATED",
+      "unknown_depth": "zero / no fill",
+      "point_count": 76260
+    },
+    {
+      "robot": "robot3",
+      "tracking": "PASS",
+      "reset_separation": "PASS",
+      "finite_map": "PASS",
+      "timestamps": "PASS",
+      "bag_sync": "PASS",
+      "projection_backprojection_roundtrip_max_px": 1.2389905896499037e-07,
+      "measured_alignment_accuracy": "NOT_ESTABLISHED_BY_ROUNDTRIP_TEST",
+      "depth_accuracy": "NOT_GT_EVALUATED",
+      "unknown_depth": "zero / no fill",
+      "point_count": 100000
+    }
+  ],
+  "artifact_hashes_checked": 246,
+  "cross_robot_fusion": "NOT_RUN",
+  "full_sequence": "NOT_RUN",
+  "GT_evaluation": "NOT_RUN",
+  "LiDAR_to_camera_mounting_calibration": "NOT_REQUIRED_NO_LIDAR_INPUT",
+  "caveats": [
+    "12s / 60 frames per robot, not full-run SLAM",
+    "independent local maps, no cross-robot fusion",
+    "tracking gaps/resets are conservatively separated into independent submap epochs; never merged",
+    "recorded tracking poses include local backend updates; earlier dense map samples are not reoptimized",
+    "CPU offline processing with traced native inputs; not live playback",
+    "sparse camera-depth reprojected to color leaves holes; no hole filling",
+    "no GT accuracy evaluation or hardware exposure clock validation"
+  ]
+}

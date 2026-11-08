@@ -1,0 +1,3 @@
+# Presentation point buffers must remain byte-identical on Windows and Linux.
+assets/**/*.f32 binary
+assets/**/*.u8 binary

@@ -1,0 +1,1235 @@
+{
+  "reason": "native depth sequence / traces remain server-only; display JPEG assets are separately bounded and versioned",
+  "files": [
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/056_depth.png",
+      "bytes": 101819,
+      "sha256": "8ec8d8760621b838b97b7e82181301f17deab671d57cba3f60867e0e5a38e684"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/025_depth.png",
+      "bytes": 95963,
+      "sha256": "2b242c06f0d7df3a2b079d31110022400426f96a33fb774b32d6473634fe19ed"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/014.jpg",
+      "bytes": 51621,
+      "sha256": "cc02de4cf6e813b768b605ff0c1c614087e2ca9354f451d24edce751fbe5bca2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/039_depth.png",
+      "bytes": 108084,
+      "sha256": "57e70aa904d0608e61670f1c8e6200e0a172d8f250ce51f072965c6dec09629c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/000.jpg",
+      "bytes": 50796,
+      "sha256": "d5a04ac9e432866f3e8497513e6719b5d7119bdd35156456d4618c2e38ba9827"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/043_depth.png",
+      "bytes": 107388,
+      "sha256": "0ee121c33d83dc65166e7c31bdafdbf0820fb3d16f96d3f7df82ea5b29e34f54"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/055.jpg",
+      "bytes": 56443,
+      "sha256": "617cc246a3017c6182940c00afb1f53d80eccffccc007d2ffd87488886ea61a7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/053_depth.png",
+      "bytes": 104991,
+      "sha256": "bc88afcb5784392370ce8706b9401101d35e08b30ca4ad2037d1a143be27e7e3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/035.jpg",
+      "bytes": 54426,
+      "sha256": "b08e2aef8ccd79f50b6e82f41ea344ad98c6be5652c286a6642216cc2ec035d0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/019_depth.png",
+      "bytes": 80732,
+      "sha256": "b86370ff9cef3ca81ac155784d9a96422072d6d7b313153194c91b727fbdba9e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/045.jpg",
+      "bytes": 53133,
+      "sha256": "c47112504ee57eb2253397453d38c714fde77feab6d6b215443f4fc209225251"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/037.jpg",
+      "bytes": 61005,
+      "sha256": "4e37d8e69e37de085855e334ec7244aad91e0cd3ae846a08306e54e80e6c60f1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/016.jpg",
+      "bytes": 53712,
+      "sha256": "545cf59e0b132a66c9f0d0a62dd59c9a21bc8b83baa57cfa18269fe4a4c03b1c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/032_depth.png",
+      "bytes": 107752,
+      "sha256": "dbef5026dfe03a2a132f3716daf363fe562ac8f0bde3356b43daed39cca18bbe"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/006.jpg",
+      "bytes": 49631,
+      "sha256": "79d592fd85ea9831f0a3b5d933be375519e63f6433734a345d301f7a9cc07b9e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/007.jpg",
+      "bytes": 51120,
+      "sha256": "77b9cdcd980d99c4c9e2954c9864e95f6e2afd2c4589cdf5187796c1ef809ca2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/037_depth.png",
+      "bytes": 107583,
+      "sha256": "87b381d4f4a3ca5ccfaf0b00f8b0f273307ddd2ca021e3faf85527bf8bcaf885"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/034_depth.png",
+      "bytes": 106674,
+      "sha256": "1e44b57490007a9f1c0254de9645042538aeb7226158da96fea369e331962aea"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/012.jpg",
+      "bytes": 51581,
+      "sha256": "329042f6b888ae566c1e9f1af2a2116cb2ed3d725423822b64c73e93ad8d9334"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/017.jpg",
+      "bytes": 53311,
+      "sha256": "bf9c6fd0d5ad65fdf9fd15fec1c0e5a53f34658fde156979adf8ef57a637d923"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/020.jpg",
+      "bytes": 54908,
+      "sha256": "c12c64c053dac66b0987c58bbe1f3a5b6df956750fb4e5e782158e00b758b930"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/024_depth.png",
+      "bytes": 92060,
+      "sha256": "3dac3aa386c26c4c9733f483534ea55cfe283c8e0fd3046a8ab19b8e0586c29e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/036.jpg",
+      "bytes": 54978,
+      "sha256": "3948bbfd57a2a842ca248d5544140f64506cdb62eb7eea3b96fd9a7e4c2e145b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/007_depth.png",
+      "bytes": 65150,
+      "sha256": "2a5873ffa9a22ee7ebf0aa123f922491827793403e7fc6555c2b532d315bfe84"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/026_depth.png",
+      "bytes": 101016,
+      "sha256": "175d1d3d310d058d9e2a578c5bbd53474647c3faed00b3c211c8e748dd8929b3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/051.jpg",
+      "bytes": 54115,
+      "sha256": "70781a13e5e8e5cb4af37961440b80ac524d139d7f0e6c040623433af74ae3a2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/039.jpg",
+      "bytes": 61807,
+      "sha256": "cfb3a2c3a76c7ab6e89dec0e051261a9d68c71a1ad4afe07e966ab406d986be2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/030_depth.png",
+      "bytes": 107002,
+      "sha256": "47e6fa76c8edfb6c57c30a263728f53c28cf7796be9b9cb3676582d555c25716"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/034.jpg",
+      "bytes": 54834,
+      "sha256": "1c06849afe7ee7f918f02fd31587509d2b9be9cdc10e95d5a183b48d6bf73594"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/054.jpg",
+      "bytes": 56382,
+      "sha256": "58f76048d532a302cbf9946ccc3ae626d25c10eaa7e89e91dcbd8d03c4bc5664"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/058_depth.png",
+      "bytes": 98341,
+      "sha256": "259ca8b9ee429b994d8d839282f156caddaa7d831bb618312246ebc72aba8d75"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/040_depth.png",
+      "bytes": 107288,
+      "sha256": "d13fbc3d3800e354d0deb7681e7b30476333a71a8a2d0850e42affd76578012b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/022_depth.png",
+      "bytes": 86596,
+      "sha256": "61e37ebf5bdf30009cebc7756ee70fbbf6fa48e85f400f8c2b5d43d1a0a7e826"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/047_depth.png",
+      "bytes": 108479,
+      "sha256": "920e73c8cf0f14fe10ffd6c1085e689ebad649a7f497cef20b836a6ce6b25bda"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/044.jpg",
+      "bytes": 53371,
+      "sha256": "38f365793572de7d31b7271821bc60f1f94d39efef0726359e7e5b6c85b22a3d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/048_depth.png",
+      "bytes": 110213,
+      "sha256": "9f47093b1cc2cf7646fb98a9a81d2d3880997ddf39dca6b2241553e8e07867f6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/000_depth.png",
+      "bytes": 72728,
+      "sha256": "339db0274a914366a7e9c20679e49a63431e52e2f8f5ad70900bba495eac9d09"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/051_depth.png",
+      "bytes": 106724,
+      "sha256": "f63ebf8671c50ad93f52206d81e09df6ed394cb1e461048c12d7599417fec608"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/042.jpg",
+      "bytes": 53263,
+      "sha256": "ff8e6f52852c3f17f20f82c5d6c8ec4e929e551df3271149edf052056d8554ee"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/028_depth.png",
+      "bytes": 108596,
+      "sha256": "37d60ed18aa598df77e1e65e342ef81712585b118d578d721244311c93cb8729"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/043.jpg",
+      "bytes": 52530,
+      "sha256": "eacb247f81b4f252255eccd72cc2ba7de620b684f34fab76a69f65c853e93039"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/036_depth.png",
+      "bytes": 107979,
+      "sha256": "e2a946e72fb4249705bc117ba245d15dd3cd06c64a6a4d9bdfd6d5506c5b68f7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/018_depth.png",
+      "bytes": 76588,
+      "sha256": "f26e0fdedfe7b3e182ff1600fbb972dfc9d7934ad689becf3c3e4e7bed6fd482"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/009_depth.png",
+      "bytes": 59131,
+      "sha256": "9de999314c61afe7f74869a39df0b9e94f0bda9c3f878201c9bd39a67e99e77f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/008_depth.png",
+      "bytes": 63927,
+      "sha256": "c301fdff0b5540443f95a0d81d20b14b995ed274e5f072aced07a73e7a08744f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/018.jpg",
+      "bytes": 53934,
+      "sha256": "519e1ad121f3070f1384e1b465726e980325bdc165e79018111d89fd4e163bd6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/010.jpg",
+      "bytes": 50409,
+      "sha256": "ceb89afaf854b28c419c712a0469c55a83ef7dc24bc20bbf99454479557220f8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/026.jpg",
+      "bytes": 58328,
+      "sha256": "018b76eaecd16a0a9a8d144c56b087a80bde11bf44226ca9e2aee05abf31ced7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/003.jpg",
+      "bytes": 49947,
+      "sha256": "534b3f25fcfe6bff382e13172684678773d4bec88076bd89fd2f9787ad811f1b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/002_depth.png",
+      "bytes": 71617,
+      "sha256": "b3484e3a8f65f12fa4be6db2f1aa8b5ac5a5d3ec5dfa2a52c11143b212b37406"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/024.jpg",
+      "bytes": 57229,
+      "sha256": "e875a386ae1439705d5e2d3e4f846e91e1ce277d5cbe9f6bf8403d06820edb59"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/019.jpg",
+      "bytes": 54207,
+      "sha256": "e23d04ad261daadbf48417a6cd05c831c0a9dbbe8719bee1b96fab8eed07d804"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/056.jpg",
+      "bytes": 55770,
+      "sha256": "de254c3b0e2f8b5a4712871c2c40887fcb6837f10377776d0ab528f41501b9a6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/017_depth.png",
+      "bytes": 72281,
+      "sha256": "55567cc107422e06a83a956ced20773df5925e6d9932e484c86f1be74d17592d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/032.jpg",
+      "bytes": 57090,
+      "sha256": "a98aef7c9abcec8351bcb4c6fbebcf72d75beb102d3adf7f4d760a221af90639"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/035_depth.png",
+      "bytes": 106693,
+      "sha256": "2af5b90cc3ab98f595c6969946aad43764a60c2168ec7699b61ddd597f9149fc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/002.jpg",
+      "bytes": 49506,
+      "sha256": "0baed8c781545d7bb6aa1c0827e14e1c28aaf8702e1373a1a9c840b04252ce45"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/052_depth.png",
+      "bytes": 104609,
+      "sha256": "35390bec41e3ba60b0c0468d74ce0709a1421436b9807ab489ca395b3cff6bd9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/025.jpg",
+      "bytes": 57732,
+      "sha256": "b3d0fca719f537dc96ce20a8f2e75b341795f286905ff696f9fe50b527f26307"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/059.jpg",
+      "bytes": 55472,
+      "sha256": "5ec41dd763007fa7b4f8065a1b64504858dae4296dc62b14a900c118dbec2a76"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/010_depth.png",
+      "bytes": 57865,
+      "sha256": "11bab7f2ec09114d7e822ff0ea6dfda4a54e999354637b940e8f0322ba4b7d22"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/009.jpg",
+      "bytes": 49544,
+      "sha256": "b386459a90901450a3c00664a4abb604aedc75324554be873627471cc8387d06"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/015_depth.png",
+      "bytes": 65414,
+      "sha256": "b0963a0a1ff4412e0deee1f1392162e0771408789d511b93a6340ce305c310fa"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/055_depth.png",
+      "bytes": 103189,
+      "sha256": "9163c15da1032b109ef3fd0e31eb166cf357ce76b9a70094d8c3dc25d5a74dfc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/041.jpg",
+      "bytes": 55484,
+      "sha256": "77e4d0e24bfa0b1d1f7125791f1ee218967f8c18f4423e3f16e868a97f38d1b2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/057.jpg",
+      "bytes": 55603,
+      "sha256": "fc8ca5ffda3b835ee556de111ae8a717b200fa43b09ac73e7cb7ba2047d55349"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/059_depth.png",
+      "bytes": 99872,
+      "sha256": "9ea71c962ee129080993b7b98d6fad6807943d962c66d8ae6e32d9a526cd13da"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/001_depth.png",
+      "bytes": 70949,
+      "sha256": "53f0358e9c34a4ec2391c9d1e8152361226544dcd16be61febe10bfeeb36e1f5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/004.jpg",
+      "bytes": 50668,
+      "sha256": "228e29bd56456b81f0762dc1e247cfb97994950370cc0abb0a60b3c2d60cf70f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/029.jpg",
+      "bytes": 57742,
+      "sha256": "a9bc948ec1498d8e3281ce4cdd40c170351afe03e072c4969050ae0861a6c5a7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/013.jpg",
+      "bytes": 50939,
+      "sha256": "568c58197c9dd18363af30506e35b1c483abf860b5372ca0ee2f54936a503c91"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/040.jpg",
+      "bytes": 59166,
+      "sha256": "fa315c691f956c5fec8fa2c519f521280d207ad342d8cbc0bdf0b116aaa16362"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/049_depth.png",
+      "bytes": 111063,
+      "sha256": "aa1f201a70e770dcad987cae634bba6595115eae7477d2510abda965586d12c7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/049.jpg",
+      "bytes": 54551,
+      "sha256": "662ed1c25d0f4d5a3170d3fe6ab850aeb9ae3593653fe5aa967460949d3d4440"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/050.jpg",
+      "bytes": 53249,
+      "sha256": "e7fb85aa0b72385e6b9cb02ad967a8a973da3ad4ac7a686b902a2221787c8d97"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/012_depth.png",
+      "bytes": 58666,
+      "sha256": "341ea35c44b29d54f9174a50cb434b8f7086c361d363aa1b1b92e86ec5708a03"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/023_depth.png",
+      "bytes": 89776,
+      "sha256": "b44bd82dac6a46769d4dcdd12b4bbef8d3ca05ddafb78ea1ac75bb1d25a1dc53"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/046.jpg",
+      "bytes": 54655,
+      "sha256": "f4283b75de4b5dac7ac103daf0ea6e608818710ee11c8ea62655db019fadb465"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/013_depth.png",
+      "bytes": 59379,
+      "sha256": "c57c780aa57c78de0c95dd94bdde1f58e74a4e577ae28d1832effdec9fd4e70a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/048.jpg",
+      "bytes": 54127,
+      "sha256": "88e6c654a992b653334e1c76d6d8b65bd8e7b9cfd6392ba1fc4fcd76146a9b6b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/004_depth.png",
+      "bytes": 70956,
+      "sha256": "9f2f6c3fd69570d5b9913353a36b9c11acd07c54f92b2a0a2ef5ed392a1ff95e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/031.jpg",
+      "bytes": 57777,
+      "sha256": "44089dcbc9f8bcd1751e357446da95e00a2489b0ada5361c70e9a4f725999d4c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/031_depth.png",
+      "bytes": 107119,
+      "sha256": "8d0eeaa51b723a8a6127e0627c94e957ec6369fb9f1c007aabbe05c141f931b5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/014_depth.png",
+      "bytes": 61156,
+      "sha256": "adb1fc39cf3749d03d8f9d6cd5c00619054ca587230ac3126ea80d58b182f2fe"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/028.jpg",
+      "bytes": 58317,
+      "sha256": "0c20dd9a1cb5337ea44126c56082432635f61869d90f7e348b460877933b1bfa"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/047.jpg",
+      "bytes": 54920,
+      "sha256": "5287caf58570b66e994f8348a7a6e835cc2c745971f420aaf25a8309b848b2e0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/008.jpg",
+      "bytes": 48919,
+      "sha256": "9ec31587a7ad80d8a90447541ff240b48dd095abefac181a15c4df6eef56bf97"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/021.jpg",
+      "bytes": 55732,
+      "sha256": "4c978b467e03ea35c590831f2e60a2712557c14e14b53a67466731aeda3a3ba4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/027_depth.png",
+      "bytes": 107231,
+      "sha256": "3eb103ce0b5e880e9c6e73c50c828b24df259894d8aba939665a48def45d3c6a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/042_depth.png",
+      "bytes": 106884,
+      "sha256": "6e2ab0b950d999e0b7355ca5bc7638cb7c8e00aa0b257913189f1185e0b7e444"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/050_depth.png",
+      "bytes": 109666,
+      "sha256": "dc1ad2915cfe6c7c1aa048c51b5320a2a1c6437faa9eeb1fa201ed81499ca6bd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/046_depth.png",
+      "bytes": 108859,
+      "sha256": "18387c3a63da9e3c14d1ecba057f2b663610dec91b7cd244d55e50b1ef02b5c5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/054_depth.png",
+      "bytes": 104756,
+      "sha256": "e793cd6988bdeb7a50f833ed239f60ebefa84113a5dcc0f3325cbd425c6d546b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/015.jpg",
+      "bytes": 53626,
+      "sha256": "268a9b8a9e6e5bb02702d948c7e765d1f48d8e8ed3264f1615aa17d6ca1d5b47"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/003_depth.png",
+      "bytes": 70070,
+      "sha256": "c7616efa51c1db745c580e7ecf89817cd6623637f8fa509d85fa5d1ee4283417"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/044_depth.png",
+      "bytes": 108003,
+      "sha256": "cc8c7a5fefede71f795040116fe957ae94d03ea13ffdad4a26ad6a97d237e534"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/011_depth.png",
+      "bytes": 58035,
+      "sha256": "a94028c4422ca1148558b34914161c0e15cd4c2dcb9aa3d2656549580ab2b61f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/027.jpg",
+      "bytes": 58958,
+      "sha256": "f5f33edc6b962aa124e832a65ca827c56754554459e2abdcdb7e374afbf0070b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/005.jpg",
+      "bytes": 50207,
+      "sha256": "46063123dab4b1f5547ddcde3cc6c571dfd0a8759820048bfd403093d193ca08"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/016_depth.png",
+      "bytes": 69672,
+      "sha256": "3de2d7fa19ee0bb791181f8f73d259461d4b899b405904b049d515a3adb1b51c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/005_depth.png",
+      "bytes": 70176,
+      "sha256": "b746db590d5299c2d7b56807e206a2893a8bdae27a2321f4788725c3c774d527"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/038.jpg",
+      "bytes": 60933,
+      "sha256": "4e5c93f083c7f147631e320761c91ca28ab41c08122c6391fde8df483732e634"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/057_depth.png",
+      "bytes": 99659,
+      "sha256": "ae07387c0a7be6e2d9a53f648b9fe2b01adb5e8b4bb63cdccfd0a79c21e4954a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/023.jpg",
+      "bytes": 55886,
+      "sha256": "419a042d599b06a121b19912d9afff752366b79b85ed2a917bd443d0f17bfdbf"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/030.jpg",
+      "bytes": 57054,
+      "sha256": "38f8effee2ac13e9760569927200675ff2c15347ea8c68c33e8ff350732cb6c4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/038_depth.png",
+      "bytes": 107301,
+      "sha256": "60c4a3ade9640658db499b182ea28f91abb6b45ed3f80d25db5188584d6ae3b7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/011.jpg",
+      "bytes": 51411,
+      "sha256": "f05742bf57635f511f8f6439001927a45908abd7616e38925cbcf0119e0380d1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/021_depth.png",
+      "bytes": 85220,
+      "sha256": "28c05922da76536e660c1060924ddf00398504c017e095b6d32801b16bc07680"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/045_depth.png",
+      "bytes": 107869,
+      "sha256": "b7ac89eaa2a59a20fb711fe20f5038177c522962661dd31b9d421f3b726ac71f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/033.jpg",
+      "bytes": 55968,
+      "sha256": "b1708ca4f7441ffb408fef5bbc063df8645e54d9378d825c7b9cfaa92f999e5c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/033_depth.png",
+      "bytes": 106469,
+      "sha256": "05b69b87d53afe509c9283877bde275494ffcc42c13a760bc679e12640956c81"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/001.jpg",
+      "bytes": 50993,
+      "sha256": "1c8ac45cbcef8270a182445edb59d4fc32726f179e7ba2bc58533c7d526420a6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/029_depth.png",
+      "bytes": 110291,
+      "sha256": "a607c3a9eb1ab10b97a5a4f230419675e9bc6194cdbca7fde5f5de3cc82cf3ab"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/058.jpg",
+      "bytes": 55552,
+      "sha256": "13326ffb34c695f7d4574d2087362aea2d1d829a098874e396c01a8c14d40a71"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/006_depth.png",
+      "bytes": 67506,
+      "sha256": "5eae929fe61b1704592fd5ec6a33abde08274d0fb7b2e6e8f3f6dabc9e69e4f9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/022.jpg",
+      "bytes": 56140,
+      "sha256": "b79337de7adda34d2c271df5ac24cde0dee87e6776faef6ee55fbf00062e565d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/020_depth.png",
+      "bytes": 83078,
+      "sha256": "729573fca7feafe25c9c24921aa0d1058d4815de492e2afcd5c4ecb38acca3a4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/053.jpg",
+      "bytes": 56338,
+      "sha256": "785b134ff363bf09a8f5fc20aa40bc72b4c07af6a65d7c96896c77f8d7061a16"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/052.jpg",
+      "bytes": 55154,
+      "sha256": "2b3a4a8a3b313bad63ebc3183dab8a5b59b607a1171d349a5e25b7875d9b61e5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/frames/041_depth.png",
+      "bytes": 107809,
+      "sha256": "30e7a27a39872893bed85a7e434bfdf0492c7ab36d615ff9362f1fe297da3cbc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/paced/native_access.log",
+      "bytes": 208709,
+      "sha256": "0cad2a7f6086d99225a7e6344b6054c35b4ae288090fd82014f16613f4cf701a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/paced/tracking_stdout.log",
+      "bytes": 4100,
+      "sha256": "303bdbb49617dbb6ca008406a0bfe729508c24e216e9be838fb7c5f764b98994"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1/paced/final_trajectory.tum",
+      "bytes": 3855,
+      "sha256": "2a5885b1458f47f25ab623c50412df4e7b0f152458a8e4c7b959fd56f1af3710"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/056_depth.png",
+      "bytes": 83235,
+      "sha256": "cf537c8f6aae19bb6fb6e4ec5213d42dd1a08ed2d59444aeeb078bae22fffbe2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/025_depth.png",
+      "bytes": 112392,
+      "sha256": "ef1c17b940d47f303617f80bdda52c03e4ae219e15aa6ea62af3ab019d263d65"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/014.jpg",
+      "bytes": 61117,
+      "sha256": "f13f405cd0e4c6e5726e1256e2d5ee6ec527e98e919b4eeaab5eb3dfa69e82b3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/039_depth.png",
+      "bytes": 115327,
+      "sha256": "e176036f88e38193c8753dc19007e12491c7a084c25934455dc276a8b153b5ce"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/000.jpg",
+      "bytes": 59924,
+      "sha256": "ca413292c73fff670516e508b0c144dd21cd3bcbce3a2c3a5d4a3ab1e32c6df1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/043_depth.png",
+      "bytes": 105823,
+      "sha256": "6ce8e371d9795df1c1b7abfd18f77821c5ae71ce8a100616b6510154394aaadc"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/055.jpg",
+      "bytes": 44051,
+      "sha256": "0d9062262fad871d80923c04a13c6c681afd9b80706285f13c351bf4c77e6f5b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/053_depth.png",
+      "bytes": 79684,
+      "sha256": "0fde24296a4030a8183dc64fd357cae6a2a44efd5ad42436d5a53939a37011c3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/035.jpg",
+      "bytes": 55299,
+      "sha256": "1eef55afe7d35d2f25fcb928747680edf4906be547ad29d03daa96e52a21728d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/019_depth.png",
+      "bytes": 106536,
+      "sha256": "f168ac2bf8a99bbde36de309eb9afe925972ab0b6d5dab61d27b1509a9d1b72c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/045.jpg",
+      "bytes": 47685,
+      "sha256": "ebd216b5c46dec8752cf8bc78f7acdcfa3ca23b46882612e61344a000714859f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/037.jpg",
+      "bytes": 53827,
+      "sha256": "1db97661f06ae41b32a76a322f71a6ac4bad1ad22de41a4e62ccf2cb155ce518"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/016.jpg",
+      "bytes": 59227,
+      "sha256": "69bbf2affab4b5b34915710163a549a9bd6e83e8eb1679cebba5d15817cc60b2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/032_depth.png",
+      "bytes": 114001,
+      "sha256": "4fe413b41be3913f945d1bc3706ad5e3db3be3ff1e89b28fcf1637296e8d7bdb"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/006.jpg",
+      "bytes": 59446,
+      "sha256": "17f1886f4ac2b203edbab825f67dc547f1fe221826803eacf46754e6fa84c829"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/007.jpg",
+      "bytes": 59336,
+      "sha256": "87647403adb836ec3228512dc286d5d830c2104ca533402b8827a59a2860d33c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/037_depth.png",
+      "bytes": 117425,
+      "sha256": "e2f85e6eec5c76ee601767e77116b49bbad911b1401a4ee16ef4ec0f043e0779"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/034_depth.png",
+      "bytes": 113002,
+      "sha256": "eb49497fb57c0d8306e744ea1ef6df74d8cc232da346ef088df7056413bb6499"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/012.jpg",
+      "bytes": 59918,
+      "sha256": "5b7bcf3f5c483d7d9f62c6a03d87e2ea5df97d270a0eb87ed7445bb024c66fe6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/017.jpg",
+      "bytes": 58144,
+      "sha256": "64ee095f5a342dea855a4a954736a6947cf66254e4db8afc329735cbab500d2d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/020.jpg",
+      "bytes": 55775,
+      "sha256": "45180ee38b78ccd7c25a00b0f62764f3aa17545644d3d45a5e7be2eb378b50d4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/024_depth.png",
+      "bytes": 112333,
+      "sha256": "7ab5413138c120efeb6a11734f97a3a3f38b5c95037fcee2715518d5d9b7925f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/036.jpg",
+      "bytes": 54471,
+      "sha256": "0c929c1ec9c11a4de2843fe6699c532a0f9d988ca8f9f798c2b2993c5b761b84"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/007_depth.png",
+      "bytes": 85479,
+      "sha256": "fefcdb69bd29c3773e1f182ca710b2d097a6202fef9172f30b67b16a9dedda6a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/026_depth.png",
+      "bytes": 109253,
+      "sha256": "559a436abba9aaac694bd3e3f4df909ebc6aad9e8adb74e9adfc3fe6d1a9a852"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/051.jpg",
+      "bytes": 46434,
+      "sha256": "084d0529b79f8c7b77d5269a049e7ec28290e0164df0acf5003f7d23a3f92087"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/039.jpg",
+      "bytes": 55286,
+      "sha256": "595eecc047f60f46676efdad06249148df93b062678175cc6df2f01cc612b12c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/030_depth.png",
+      "bytes": 110997,
+      "sha256": "27521ac857a92edf8a193abc81ba19c8b1fc416cf816e4c47d2e0998ddb9b6f4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/034.jpg",
+      "bytes": 55943,
+      "sha256": "b623d6ea06172a4bf5b37b0d4b51357d8862c7a3701fcaa5c4bb09ef711df205"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/054.jpg",
+      "bytes": 45228,
+      "sha256": "dd1d838699e5e96abc9c482694de19a971631f3c88d27c3c290364d88832cb34"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/058_depth.png",
+      "bytes": 81983,
+      "sha256": "fc5fc58c49401c5e06484a953807a2b2b4f01701bb5fbfaa90c27dad3804ca20"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/040_depth.png",
+      "bytes": 115629,
+      "sha256": "288b3ab930a10b8531931a326e284741229fed0ef34e9eee877b8205423015b2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/022_depth.png",
+      "bytes": 112703,
+      "sha256": "42373d247f57d3eda311b29d2455e7f899400c2fea6944958d95d666f2eaffc8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/047_depth.png",
+      "bytes": 96859,
+      "sha256": "c8c3a17e0991c6b085446d6068d257f7a1a413c8e33fe1790e3b1b27d80d40b8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/044.jpg",
+      "bytes": 51199,
+      "sha256": "175e96e10a3b118f638eb313499fbf1fb97e4d7f1f43d9fd4e855dfdb7f4d191"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/048_depth.png",
+      "bytes": 94306,
+      "sha256": "0db6e288b3a6d194f2d10778178735c9b0b67589454510eba0f49d7cd6a7cd59"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/000_depth.png",
+      "bytes": 78961,
+      "sha256": "832d4111a3f62f83fd94815c634ba17df39bba9ea8174de4cf940fe264e15ba3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/051_depth.png",
+      "bytes": 85816,
+      "sha256": "5d3065be48760a6f32a1ae0b21e6dc43d15021c49efb61b092eec8f3018bf80e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/042.jpg",
+      "bytes": 49086,
+      "sha256": "328b684439f8c7460dbb7c0a01fcbeec949c0667563e8d24f43ddb34dd28398c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/028_depth.png",
+      "bytes": 108908,
+      "sha256": "aa908a981034102f2e63b826c4e62a8bce8a1dcb51234d880e2a5a28e2024f48"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/043.jpg",
+      "bytes": 52332,
+      "sha256": "eef481a57f117799a77c8176214c7594b97c9ca6585e1c4de12a3892d827b4b9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/036_depth.png",
+      "bytes": 117377,
+      "sha256": "b969df2e6325226eb174d16eed85ffa7dc16fa770601a9114c2a5c429824a840"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/018_depth.png",
+      "bytes": 105985,
+      "sha256": "213bd196504ce88c8560d591867eb970693e61555418a95b0498b8c06b0e2784"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/009_depth.png",
+      "bytes": 88211,
+      "sha256": "f614d5770e34857bc86d87e28359e1d96c5e16a946a5cd604c25a8a700ff0c03"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/008_depth.png",
+      "bytes": 86318,
+      "sha256": "2541de21ef7e5b6b260b45efcda07cfb320cd9d1372ab61d2c58642debb938c0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/018.jpg",
+      "bytes": 61280,
+      "sha256": "b7f59b6efcbb9990f44b776ca2f0fa195507f49e27aeb44f73c116135938e74a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/010.jpg",
+      "bytes": 59149,
+      "sha256": "d63c8ff5ef7c9918517733a7d8208fafd946ce3aa9e216b09dd646a30a153f88"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/026.jpg",
+      "bytes": 50264,
+      "sha256": "1c37f73b3cb721a6b2173956fa8ca317c94a7028f6cf0aee090dcaba434c6652"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/003.jpg",
+      "bytes": 57853,
+      "sha256": "5204f86c94853aed3228dffdaf01e62e5da2d8dead5b0960e727c5b261c9e11f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/002_depth.png",
+      "bytes": 79205,
+      "sha256": "ec485df8a60624e9eddeb636a0bef8f3c7f7d68ccd6dfc42c1ff8745a8e7f106"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/024.jpg",
+      "bytes": 53153,
+      "sha256": "d114eb810b9099d07645f0a5d1591f7a74e4f4d3ff6bd2601f46cdb517d8147e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/019.jpg",
+      "bytes": 59441,
+      "sha256": "66c554ef002df4dbbdd32c662176e042bc56adcc4377653dd411002b230377b2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/056.jpg",
+      "bytes": 44823,
+      "sha256": "b2989eddfb9f73a8e97bb5cc34c4edf8a3dfbfdb9e6c3eebecf9ed605dbf1a15"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/017_depth.png",
+      "bytes": 101304,
+      "sha256": "bab16a5c0919e41b832ca1f6f4b62cb7ee8633a88eda12a42add7090a37e0da2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/032.jpg",
+      "bytes": 57530,
+      "sha256": "6f16eb11cf8173e32c6c7c872e3f8d8bcb72a7aa4c94f13e074a52ef7e9c33ea"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/035_depth.png",
+      "bytes": 115976,
+      "sha256": "bfaa1c6de4f91212a8f6d3eb117bce2f909800505678de9a1600e3ebdf24977f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/002.jpg",
+      "bytes": 59576,
+      "sha256": "c61f42715b81d69da73c7d11f96ef478c57f108d7c546a00f1e3f59d54116fa2"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/052_depth.png",
+      "bytes": 79479,
+      "sha256": "9c2e2453e78b6c41899dbb255ff74104483ceeb496c3cd4202e4640edc5fce5a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/025.jpg",
+      "bytes": 53582,
+      "sha256": "4671ddae5bb3e3a4ba3c57396e19f0379b86ec47a481e5123fc2c07eec3ab69a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/059.jpg",
+      "bytes": 44497,
+      "sha256": "c432aed7072cf9f9cf0f3a55452aadcbc85cc31e34fbfe01df8a56cc6122e7d5"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/010_depth.png",
+      "bytes": 87714,
+      "sha256": "b77a50763daddf149db676e94be2a2b4e1c4598c058659b4d85c029defdbd6bf"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/009.jpg",
+      "bytes": 57613,
+      "sha256": "0178e2ca0477c7201a7dea8bf3779adae3663dd59c78c2128e5f0e285b44caee"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/015_depth.png",
+      "bytes": 92997,
+      "sha256": "aab0ccbdf5763978854bef76ac32bdce0154e0559cf21d366457443197849a72"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/055_depth.png",
+      "bytes": 81556,
+      "sha256": "8525187562565a133324864a8e017d62e48eb87f02d85812984d743bd9e7e2aa"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/041.jpg",
+      "bytes": 51808,
+      "sha256": "5a219744c847f910c9bfd18e24e4789a0a6fcaa5c9b4de3e3282eb4c6e0cbcae"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/057.jpg",
+      "bytes": 44198,
+      "sha256": "bf822c45cfb9d98c7f8c088f5d7dc46625b8b0b1ad45d10bd330b0ef008955a1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/059_depth.png",
+      "bytes": 81870,
+      "sha256": "738df2463d571739361e95bc77de13390225ca43c0dd81fe72e8fbfa24ee31c4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/001_depth.png",
+      "bytes": 79028,
+      "sha256": "ce46feb0b5212b7a148cadfd6a0b735b75fbfd7f0875708dc8d526ebda7b1e08"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/004.jpg",
+      "bytes": 57411,
+      "sha256": "3925513d993774630c4d14d1cbb67ea6875666561bf561851ee7864df74126a0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/029.jpg",
+      "bytes": 51740,
+      "sha256": "2dc6adf68d22f2a832a7768d40766b78ff75b37d0326e8eb69096195463aba5c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/013.jpg",
+      "bytes": 60779,
+      "sha256": "1d1690e26be93d3703ee0506c0379b4fdecda98549604c5c635c2fa19f0ff5d8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/040.jpg",
+      "bytes": 54559,
+      "sha256": "d49f1f00366f31e6b5d11aa359eaff68b5cdd404ba26d8b50a4786ac078af841"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/049_depth.png",
+      "bytes": 91994,
+      "sha256": "1d081097b83d1463f97fd5f17bf848e57a29038b32b27aa99513c15661b57e2d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/049.jpg",
+      "bytes": 48006,
+      "sha256": "8851cf1b1e53a9b90b46b713d8e8b3759549de87551132674da5f5c64325f487"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/050.jpg",
+      "bytes": 47209,
+      "sha256": "b0a033d1c10cc078b5f12c7ba382733dd9921de645b0f827ef587396829da1f4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/012_depth.png",
+      "bytes": 92806,
+      "sha256": "b975ca2d225aab993e43a0328d09f292c921f89b011868e16d63b1ba62c34f2c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/023_depth.png",
+      "bytes": 112327,
+      "sha256": "4d9e980544103fb45a92f21ee0fce59a390225f5ce226750c161f0c8ee79779f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/046.jpg",
+      "bytes": 47827,
+      "sha256": "bfb1fe28d426152eef774573d063796bd13ee420f879c66eb9574315b52d5185"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/013_depth.png",
+      "bytes": 92428,
+      "sha256": "c724843453ed8f65515919f30c42fe8ae140ae0ad0abe85c1d43d57ae1ee396c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/048.jpg",
+      "bytes": 48591,
+      "sha256": "a825c5865dcb599267b7483a697bca8eca5b5eecae02116dfb10c009ec2f1646"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/004_depth.png",
+      "bytes": 82000,
+      "sha256": "a813b9262681f88b978e16a6fd9e7ca6466b319655d2fa2bd9a69c644de9b987"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/031.jpg",
+      "bytes": 53557,
+      "sha256": "b1065134259946c30be594efbae54eae9ee5fb5abb8e3d40e3f26a569371929e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/031_depth.png",
+      "bytes": 113362,
+      "sha256": "237e8db94ec4433dce93ec850deef744365bf4ec5482817d0f31cca24f0981e1"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/014_depth.png",
+      "bytes": 93334,
+      "sha256": "c651e106b9a564054f592c9b6d51649f5f304196c33204d7c72353f90f980db8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/028.jpg",
+      "bytes": 51627,
+      "sha256": "9b4ec523d4c0228377cce22d9338995e4e2a990df97ab0a41b3da2fd39a3e975"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/047.jpg",
+      "bytes": 49388,
+      "sha256": "d92b1487bf98c4574ff2e34b67e0718be87b41887c4a9fc468bfd20d3b3b50a6"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/008.jpg",
+      "bytes": 59246,
+      "sha256": "c13ffca6662c726fca68d53c3b05cf43e573e776b21b06227b9485015b5c6120"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/021.jpg",
+      "bytes": 57223,
+      "sha256": "c611c8372318c34869d561911672b5a4e03f63ecb95fa88589b5ca86006336c7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/027_depth.png",
+      "bytes": 110299,
+      "sha256": "a82146a8b38175b6f7b2ae50c70dfaefbe55cf5692f288092a848b84c310b071"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/042_depth.png",
+      "bytes": 111501,
+      "sha256": "b321313c16c372242d98ab094b069c9ebd53944bc96eded02b94101254747e45"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/050_depth.png",
+      "bytes": 90143,
+      "sha256": "12eaec5e890e722c7ad7d5b1159cb3b142a8bb279825f526db5dd3e156b09558"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/046_depth.png",
+      "bytes": 99491,
+      "sha256": "2d397a0cd41d9a7dc6a0ade3c03cc5436f046c66d32b6527c2b2b9ea0dbd5886"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/054_depth.png",
+      "bytes": 77910,
+      "sha256": "d5a0bb7e4c25f6279da4535a1f49e3f6819285dc978cf9d913b7af6208f34400"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/015.jpg",
+      "bytes": 60904,
+      "sha256": "5944aa3ef7814ff464d861f405c4e84e3820082764e80fbf3f5544a6e8adc647"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/003_depth.png",
+      "bytes": 79877,
+      "sha256": "14329530a1d38d47a94de40be864c7611de5cb8ef12c7d9d8862b3bde3e0583b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/044_depth.png",
+      "bytes": 103757,
+      "sha256": "08028553587a028669b941939c15c0f4c197e9ebdcc5dc6b67de93f372f6c24e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/011_depth.png",
+      "bytes": 90957,
+      "sha256": "cac60d71e7f1886db88e2071563568dd61aacdc93b26aede5fc3460c298e5cc4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/027.jpg",
+      "bytes": 49454,
+      "sha256": "970ece4fd2de4e2234d6bf40aeb32e5c8310a4f8050ecca8b7c457393fa0aea0"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/005.jpg",
+      "bytes": 58530,
+      "sha256": "8e2f49b625acf90b82853cdc9c934372d4720994815745f48a079d10ba1012ba"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/016_depth.png",
+      "bytes": 95189,
+      "sha256": "63383e5797ea32911ea68252b7a1946f62c45e5102e82fdf83c347b21e12ec3e"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/005_depth.png",
+      "bytes": 84952,
+      "sha256": "5322892fa5e2d9c6b5b05291d45e054fa50c27d680bbe5f5bc6d2a7c41a9eadd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/038.jpg",
+      "bytes": 55465,
+      "sha256": "e84b29f562c72401b73c7ec78f3872708105f0df6815b82a671730d937e11730"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/057_depth.png",
+      "bytes": 81807,
+      "sha256": "c8b5d4d85904db19c70418ec864c1ad526605311a967666d13416bbfb7ff3b4a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/023.jpg",
+      "bytes": 57689,
+      "sha256": "1cdf18495ba877facf2cc6a9b5f140576cb9228c61ef4fd18f2474bd1324bcfa"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/030.jpg",
+      "bytes": 51019,
+      "sha256": "9730b3093517424548a7ebcda5b590da7626200c0ec281c02e3623cae9213c71"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/038_depth.png",
+      "bytes": 116308,
+      "sha256": "fa0db8554b037ba655d39533971a1b0b1c76beebb3485ff19d4f23930633ad56"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/011.jpg",
+      "bytes": 59033,
+      "sha256": "288de9149409bf171a4b077aca25fb75df9342737dcecf1e3e6988da18793f64"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/021_depth.png",
+      "bytes": 112480,
+      "sha256": "fc4e729a28594bffdc3b4f0b019bb8582b966cb3c6338713486091b26e893e90"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/045_depth.png",
+      "bytes": 103310,
+      "sha256": "bbe5e62b1e9a96bf7650b7ae4c6018e993fa2b5667815c2750ee61607c6791aa"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/033.jpg",
+      "bytes": 57578,
+      "sha256": "26f3c35166c6365168e8a52554d1ad0f4c17bc4831a27999d73e38fa4e35436d"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/033_depth.png",
+      "bytes": 112611,
+      "sha256": "d420645e7e1b5dfa918b9a80fd6f9f7e78d23559ee0a70a31cad0769dc2428a4"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/001.jpg",
+      "bytes": 59652,
+      "sha256": "82fc67164378255e45d46af9427bc7ff673497bbc9cec97d9ebd1cd1ed96f3ec"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/029_depth.png",
+      "bytes": 110221,
+      "sha256": "21fa475a5c3916f59f506d6314a7f6fc981dafd5e220b124c74a55f6e14ec8ec"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/058.jpg",
+      "bytes": 44628,
+      "sha256": "d59dc54af101f1ef45afa8ae2076e69e4748cd217b21f2592ffbf4602016cc94"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/006_depth.png",
+      "bytes": 84754,
+      "sha256": "e8fa50665bc5a7d35da8badd7b0ce2400885ff54b6be7f14ab844516e1cbc607"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/022.jpg",
+      "bytes": 58671,
+      "sha256": "ee0b9c748a7e8405bff01f52c3f433d9dfaa8511853f5affbffd7fac721ae4f8"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/020_depth.png",
+      "bytes": 109048,
+      "sha256": "11eb870406b38f055d048a090a2db830470f406f903be51b68990269e4206879"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/053.jpg",
+      "bytes": 43880,
+      "sha256": "3c71fac7142aef505af3206b6a89dc9423b5edfaa768685d6178cbe12b024559"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/052.jpg",
+      "bytes": 46347,
+      "sha256": "9f55543669d10affa82c2a4829828866f825de99356fa239002aaa2e75af5e4b"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/frames/041_depth.png",
+      "bytes": 113746,
+      "sha256": "9ca49cce8d3037c17cb106d681f210857b88a01fbc05bcdf3033637d38f22d3c"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/paced/native_access.log",
+      "bytes": 208966,
+      "sha256": "1d080cdfc9af878e949b8f5eba1ad7938166705821bb80094f79a91b2f4ed8d7"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/paced/tracking_stdout.log",
+      "bytes": 3385,
+      "sha256": "89d30cef5206c7f89019c91bc6bb83fe6def73526ad34113a788337f679aa439"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot3/paced/final_trajectory.tum",
+      "bytes": 5670,
+      "sha256": "c9ad87faed458c618397638aa6e7999f44af2e79dbf7c95dcf3b0fa42e7e9270"
+    }
+  ]
+}

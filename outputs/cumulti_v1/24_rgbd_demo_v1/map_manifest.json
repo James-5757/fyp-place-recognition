@@ -1,0 +1,1620 @@
+{
+  "robots": {
+    "robot1": {
+      "status": "PARTIAL_TRACKING_FAILURE",
+      "tracking": {
+        "robot": "robot1",
+        "frames": 60,
+        "valid_poses": 44,
+        "tracking_fraction": 0.7333333333333333,
+        "map_ids": [
+          0
+        ],
+        "tracking_epochs": [
+          0,
+          1
+        ],
+        "longest_continuous_tracked_frames": 41,
+        "wall_s": 18.357413778081536,
+        "pacing": "paced",
+        "median_track_ms": 17.197031,
+        "p95_track_ms": 21.952997399999994,
+        "peak_RSS_MiB": 536.6796875,
+        "runtime_includes": "strace input audit, vocabulary loading and shutdown; no real-time claim",
+        "metric_source": "original RealSense camera XYZ metres, registered color Z; no LiDAR/GT/IMU",
+        "native_forbidden_reads": [],
+        "returncode": 0,
+        "relative_timestamp_origin_ns": "1722894320757492576",
+        "settings": {
+          "Camera1.fx": 315.09918212890625,
+          "Camera1.fy": 314.849365234375,
+          "Camera1.cx": 320.364990234375,
+          "Camera1.cy": 207.70822143554688,
+          "Camera1.k1": -0.05718468502163887,
+          "Camera1.k2": 0.06778068095445633,
+          "Camera1.p1": 0.0007177605293691158,
+          "Camera1.p2": 0.00034092238638550043,
+          "Camera1.k3": -0.021577496081590652,
+          "Camera.width": 640,
+          "Camera.height": 400,
+          "Camera.fps": 5,
+          "Camera.RGB": 0,
+          "Stereo.b": 0.05,
+          "Stereo.ThDepth": 40.0,
+          "RGBD.DepthMapFactor": 1000.0,
+          "ORBextractor.nFeatures": 1000,
+          "ORBextractor.scaleFactor": 1.2,
+          "ORBextractor.nLevels": 8,
+          "ORBextractor.iniThFAST": 20,
+          "ORBextractor.minThFAST": 7,
+          "Viewer.KeyFrameSize": 0.05,
+          "Viewer.KeyFrameLineWidth": 1.0,
+          "Viewer.GraphLineWidth": 0.9,
+          "Viewer.PointSize": 2.0,
+          "Viewer.CameraSize": 0.08,
+          "Viewer.CameraLineWidth": 3.0,
+          "Viewer.ViewpointX": 0.0,
+          "Viewer.ViewpointY": -0.7,
+          "Viewer.ViewpointZ": -1.8,
+          "Viewer.ViewpointF": 500.0
+        },
+        "baseline_source": "predeclared 0.05m virtual RGB-D pseudo-stereo baseline, not a measured IR stereo baseline; close/far threshold 2m",
+        "demo_acceptance_rule": ">=45/60 tracked, >=40 continuous frames, exactly one map and tracking epoch, finite unit poses; no GT",
+        "status": "PARTIAL_TRACKING_FAILURE"
+      },
+      "points": 76260,
+      "submaps": [
+        {
+          "epoch": 0,
+          "map_id": 0,
+          "points": 7079,
+          "positions": "assets/robot1/epoch0_xyz.f32",
+          "colors": "assets/robot1/epoch0_rgb.u8",
+          "cap_reached": false
+        },
+        {
+          "epoch": 1,
+          "map_id": 0,
+          "points": 69181,
+          "positions": "assets/robot1/epoch1_xyz.f32",
+          "colors": "assets/robot1/epoch1_rgb.u8",
+          "cap_reached": false
+        }
+      ],
+      "source_camera_rgb_archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+      "source_camera_depth_archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+      "camera_info": {
+        "topic": "robot1/camera/color/camera_info",
+        "width": 1280,
+        "height": 800,
+        "K": [
+          630.1983642578125,
+          0.0,
+          640.72998046875,
+          0.0,
+          629.69873046875,
+          415.41644287109375,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          -0.05718468502163887,
+          0.06778068095445633,
+          0.0007177605293691158,
+          0.00034092238638550043,
+          -0.021577496081590652
+        ],
+        "R": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "P": [
+          630.1983642578125,
+          0.0,
+          640.72998046875,
+          0.0,
+          0.0,
+          629.69873046875,
+          415.41644287109375,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "distortion_model": "plumb_bob",
+        "frame_id": "robot1_camera_color_optical_frame",
+        "header_ns": "1722894200527811289"
+      },
+      "scaled_K": [
+        [
+          315.09918212890625,
+          0.0,
+          320.364990234375
+        ],
+        [
+          0.0,
+          314.849365234375,
+          207.70822143554688
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_color_from_depth": {
+        "R": [
+          [
+            0.9999960660934448,
+            9.760445391293615e-05,
+            0.002803085371851921
+          ],
+          [
+            -9.520446474198252e-05,
+            0.9999996423721313,
+            -0.0008563152514398098
+          ],
+          [
+            -0.002803168026730418,
+            0.0008560450514778495,
+            0.9999957084655762
+          ]
+        ],
+        "t_m": [
+          -0.05910656228661537,
+          5.2732259064214304e-05,
+          0.0004884438822045922
+        ],
+        "rotation_storage": "column-major RealSense message"
+      },
+      "range_m": [
+        0.3,
+        10
+      ],
+      "voxel_m": 0.05,
+      "point_cap_per_submap": 100000,
+      "pixel_stride": 4,
+      "map_frame_stride": 2,
+      "max_roundtrip_pixel_error": 1.2433774862353623e-07,
+      "bag_sync_ms": {
+        "median": 1.5111205,
+        "p95": 3.74226695
+      },
+      "coordinate_frame": "first camera optical local gauge; not gravity aligned",
+      "pose_source": "recorded TrackRGBD Twc per frame; not final BA corrected, no pose interpolation"
+    },
+    "robot3": {
+      "status": "PASS",
+      "tracking": {
+        "robot": "robot3",
+        "frames": 60,
+        "valid_poses": 60,
+        "tracking_fraction": 1.0,
+        "map_ids": [
+          0
+        ],
+        "tracking_epochs": [
+          0
+        ],
+        "longest_continuous_tracked_frames": 60,
+        "wall_s": 20.271963205188513,
+        "pacing": "paced",
+        "median_track_ms": 21.239178000000003,
+        "p95_track_ms": 26.60990244999999,
+        "peak_RSS_MiB": 548.2421875,
+        "runtime_includes": "strace input audit, vocabulary loading and shutdown; no real-time claim",
+        "metric_source": "original RealSense camera XYZ metres, registered color Z; no LiDAR/GT/IMU",
+        "native_forbidden_reads": [],
+        "returncode": 0,
+        "relative_timestamp_origin_ns": "1722894320744806961",
+        "settings": {
+          "Camera1.fx": 313.90203857421875,
+          "Camera1.fy": 313.6531677246094,
+          "Camera1.cx": 320.364990234375,
+          "Camera1.cy": 207.70822143554688,
+          "Camera1.k1": -0.05718468502163887,
+          "Camera1.k2": 0.06778068095445633,
+          "Camera1.p1": 0.0007177605293691158,
+          "Camera1.p2": 0.00034092238638550043,
+          "Camera1.k3": -0.021577496081590652,
+          "Camera.width": 640,
+          "Camera.height": 400,
+          "Camera.fps": 5,
+          "Camera.RGB": 0,
+          "Stereo.b": 0.05,
+          "Stereo.ThDepth": 40.0,
+          "RGBD.DepthMapFactor": 1000.0,
+          "ORBextractor.nFeatures": 1000,
+          "ORBextractor.scaleFactor": 1.2,
+          "ORBextractor.nLevels": 8,
+          "ORBextractor.iniThFAST": 20,
+          "ORBextractor.minThFAST": 7,
+          "Viewer.KeyFrameSize": 0.05,
+          "Viewer.KeyFrameLineWidth": 1.0,
+          "Viewer.GraphLineWidth": 0.9,
+          "Viewer.PointSize": 2.0,
+          "Viewer.CameraSize": 0.08,
+          "Viewer.CameraLineWidth": 3.0,
+          "Viewer.ViewpointX": 0.0,
+          "Viewer.ViewpointY": -0.7,
+          "Viewer.ViewpointZ": -1.8,
+          "Viewer.ViewpointF": 500.0
+        },
+        "baseline_source": "predeclared 0.05m virtual RGB-D pseudo-stereo baseline, not a measured IR stereo baseline; close/far threshold 2m",
+        "demo_acceptance_rule": ">=45/60 tracked, >=40 continuous frames, exactly one map and tracking epoch, finite unit poses; no GT",
+        "status": "PASS"
+      },
+      "points": 100000,
+      "submaps": [
+        {
+          "epoch": 0,
+          "map_id": 0,
+          "points": 100000,
+          "positions": "assets/robot3/epoch0_xyz.f32",
+          "colors": "assets/robot3/epoch0_rgb.u8",
+          "cap_reached": true
+        }
+      ],
+      "source_camera_rgb_archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+      "source_camera_depth_archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip",
+      "camera_info": {
+        "topic": "robot3/camera/color/camera_info",
+        "width": 1280,
+        "height": 800,
+        "K": [
+          627.8040771484375,
+          0.0,
+          640.72998046875,
+          0.0,
+          627.3063354492188,
+          415.41644287109375,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "D": [
+          -0.05718468502163887,
+          0.06778068095445633,
+          0.0007177605293691158,
+          0.00034092238638550043,
+          -0.021577496081590652
+        ],
+        "R": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ],
+        "P": [
+          627.8040771484375,
+          0.0,
+          640.72998046875,
+          0.0,
+          0.0,
+          627.3063354492188,
+          415.41644287109375,
+          0.0,
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        "distortion_model": "plumb_bob",
+        "frame_id": "robot3_camera_color_optical_frame",
+        "header_ns": "1722894200605798006"
+      },
+      "scaled_K": [
+        [
+          313.90203857421875,
+          0.0,
+          320.364990234375
+        ],
+        [
+          0.0,
+          313.6531677246094,
+          207.70822143554688
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_color_from_depth": {
+        "R": [
+          [
+            0.9999960660934448,
+            9.760445391293615e-05,
+            0.002803085371851921
+          ],
+          [
+            -9.520446474198252e-05,
+            0.9999996423721313,
+            -0.0008563152514398098
+          ],
+          [
+            -0.002803168026730418,
+            0.0008560450514778495,
+            0.9999957084655762
+          ]
+        ],
+        "t_m": [
+          -0.05910656228661537,
+          5.2732259064214304e-05,
+          0.0004884438822045922
+        ],
+        "rotation_storage": "column-major RealSense message"
+      },
+      "range_m": [
+        0.3,
+        10
+      ],
+      "voxel_m": 0.05,
+      "point_cap_per_submap": 100000,
+      "pixel_stride": 4,
+      "map_frame_stride": 2,
+      "max_roundtrip_pixel_error": 1.2389905896499037e-07,
+      "bag_sync_ms": {
+        "median": 1.3408645,
+        "p95": 3.6211231999999995
+      },
+      "coordinate_frame": "first camera optical local gauge; not gravity aligned",
+      "pose_source": "recorded TrackRGBD Twc per frame; not final BA corrected, no pose interpolation"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/047_depth.jpg",
+      "bytes": 24817,
+      "sha256": "9ee4d12ff991be0bee7c47c7d7ea2f99f9ac773a6839b53f7107801510e919fa"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/057_depth.jpg",
+      "bytes": 25870,
+      "sha256": "c16cf56b596f252aabda9095ee4854ffb1fad2e93bc6bb615b20dd12986076bc"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/017_depth.jpg",
+      "bytes": 20742,
+      "sha256": "9be8b48bf61fa29b1e9ed5e90ec8aae290c26a61132cd8af76b86762e2917d0f"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/021_depth.jpg",
+      "bytes": 24483,
+      "sha256": "5d99ba8ba8dcf3bf9113786181cd38498c1b23f39d4a97da8b7699bf39cbf171"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/014.jpg",
+      "bytes": 51621,
+      "sha256": "cc02de4cf6e813b768b605ff0c1c614087e2ca9354f451d24edce751fbe5bca2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/epoch1_rgb.u8",
+      "bytes": 207543,
+      "sha256": "048fbf6c5b62537a831b0daced6b9bf8df5f602e56e3ef82d221a59bf1199ec4"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/035_depth.jpg",
+      "bytes": 23642,
+      "sha256": "154066b1703bd7a5b6e3b258d983348d86be7694a2c278d26252e0c59f523cf9"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/019_depth.jpg",
+      "bytes": 23326,
+      "sha256": "7e46e01e3da05ce1554b6173900154915b1fcd2d081b63d0267039ff933d9c33"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/030_depth.jpg",
+      "bytes": 25015,
+      "sha256": "93a97e9ba14a49a07ac36c5d23a3ac1ef01b7dc038969b3038cc50f30e5715d2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/058_depth.jpg",
+      "bytes": 26196,
+      "sha256": "a032431df6cd92828de0b70418980b99a7af0bb3247d35bd3e96d441a3fdf8fb"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/000.jpg",
+      "bytes": 50796,
+      "sha256": "d5a04ac9e432866f3e8497513e6719b5d7119bdd35156456d4618c2e38ba9827"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/018_depth.jpg",
+      "bytes": 21259,
+      "sha256": "da69ace006d13703addc793cd8b59c6ca2043593c8a8f07ea861a09dfd5cd114"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/055.jpg",
+      "bytes": 56443,
+      "sha256": "617cc246a3017c6182940c00afb1f53d80eccffccc007d2ffd87488886ea61a7"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/epoch0_xyz.f32",
+      "bytes": 84948,
+      "sha256": "9a7c6b7f1724a5d11d3bc28d808971f9095bf5d91280e84c63f2d33559ad0fea"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/035.jpg",
+      "bytes": 54426,
+      "sha256": "b08e2aef8ccd79f50b6e82f41ea344ad98c6be5652c286a6642216cc2ec035d0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/045.jpg",
+      "bytes": 53133,
+      "sha256": "c47112504ee57eb2253397453d38c714fde77feab6d6b215443f4fc209225251"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/037.jpg",
+      "bytes": 61005,
+      "sha256": "4e37d8e69e37de085855e334ec7244aad91e0cd3ae846a08306e54e80e6c60f1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/016.jpg",
+      "bytes": 53712,
+      "sha256": "545cf59e0b132a66c9f0d0a62dd59c9a21bc8b83baa57cfa18269fe4a4c03b1c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/006.jpg",
+      "bytes": 49631,
+      "sha256": "79d592fd85ea9831f0a3b5d933be375519e63f6433734a345d301f7a9cc07b9e"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/043_depth.jpg",
+      "bytes": 24222,
+      "sha256": "bc7162e6c49bea92223c28eac7d0f06f41f7cbca2111e2ea379244139eb20b3a"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/036_depth.jpg",
+      "bytes": 23467,
+      "sha256": "2d26c6f5b1cbf110c52cee2b9997fa1583e5a2f3587d14cb95823e1a37098d14"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/007.jpg",
+      "bytes": 51120,
+      "sha256": "77b9cdcd980d99c4c9e2954c9864e95f6e2afd2c4589cdf5187796c1ef809ca2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/003_depth.jpg",
+      "bytes": 17433,
+      "sha256": "b2ca4840acbd30d37019a8cbb5ab3912159f3dbf0ba12d32012839cdd0e5ef46"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/055_depth.jpg",
+      "bytes": 25052,
+      "sha256": "315f6b54547891d1138efdbf6686cef3c135143781c5789f425ba7e047c102b3"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/012.jpg",
+      "bytes": 51581,
+      "sha256": "329042f6b888ae566c1e9f1af2a2116cb2ed3d725423822b64c73e93ad8d9334"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/059_depth.jpg",
+      "bytes": 26424,
+      "sha256": "9ecff2887e752133edee27d98f795f70475d2aea69c7afb93abc0629e5bce254"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/epoch0_rgb.u8",
+      "bytes": 21237,
+      "sha256": "e808b9a3478267c6be605ffd2166e34e336c3d8a54325049747e261e1bc12d47"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/017.jpg",
+      "bytes": 53311,
+      "sha256": "bf9c6fd0d5ad65fdf9fd15fec1c0e5a53f34658fde156979adf8ef57a637d923"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/015_depth.jpg",
+      "bytes": 19174,
+      "sha256": "b953bb0f4b4d9b2e0cda2bd96da8512b9a18b7d21fbe097b8dc48081753a6980"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/020.jpg",
+      "bytes": 54908,
+      "sha256": "c12c64c053dac66b0987c58bbe1f3a5b6df956750fb4e5e782158e00b758b930"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/036.jpg",
+      "bytes": 54978,
+      "sha256": "3948bbfd57a2a842ca248d5544140f64506cdb62eb7eea3b96fd9a7e4c2e145b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/013_depth.jpg",
+      "bytes": 16987,
+      "sha256": "8e95ed90f77ccccb4973e44e49b8bd02a268da488f63b4bd6a1ed41919ad4e78"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/051.jpg",
+      "bytes": 54115,
+      "sha256": "70781a13e5e8e5cb4af37961440b80ac524d139d7f0e6c040623433af74ae3a2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/010_depth.jpg",
+      "bytes": 17702,
+      "sha256": "608c00bf5f7bbe195806ac89b27e9a6fa66ea4b7b8c3c8c969efaf6ef270df34"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/039.jpg",
+      "bytes": 61807,
+      "sha256": "cfb3a2c3a76c7ab6e89dec0e051261a9d68c71a1ad4afe07e966ab406d986be2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/034.jpg",
+      "bytes": 54834,
+      "sha256": "1c06849afe7ee7f918f02fd31587509d2b9be9cdc10e95d5a183b48d6bf73594"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/054.jpg",
+      "bytes": 56382,
+      "sha256": "58f76048d532a302cbf9946ccc3ae626d25c10eaa7e89e91dcbd8d03c4bc5664"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/054_depth.jpg",
+      "bytes": 24896,
+      "sha256": "cfb9f4c776fac07e0cee4d55acf76efa790c9afaf112ab0f1f9e620775f54b50"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/044.jpg",
+      "bytes": 53371,
+      "sha256": "38f365793572de7d31b7271821bc60f1f94d39efef0726359e7e5b6c85b22a3d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/034_depth.jpg",
+      "bytes": 24232,
+      "sha256": "3e4723f6692571c54a7b15f6c68095a452593e76bba61eedaeda2de7467de166"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/020_depth.jpg",
+      "bytes": 23543,
+      "sha256": "ece262f9c29549f09654348106828a9a81567d1f7811c7cfd73f76542a3c8c09"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/002_depth.jpg",
+      "bytes": 18215,
+      "sha256": "227b665e8a99d52d84192a0e8c287222ec9f3539c23f18d1954d8270135c38ba"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/042.jpg",
+      "bytes": 53263,
+      "sha256": "ff8e6f52852c3f17f20f82c5d6c8ec4e929e551df3271149edf052056d8554ee"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/043.jpg",
+      "bytes": 52530,
+      "sha256": "eacb247f81b4f252255eccd72cc2ba7de620b684f34fab76a69f65c853e93039"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/018.jpg",
+      "bytes": 53934,
+      "sha256": "519e1ad121f3070f1384e1b465726e980325bdc165e79018111d89fd4e163bd6"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/epoch1_xyz.f32",
+      "bytes": 830172,
+      "sha256": "5d1212a0263f4c1e141bff150978458473a489b8e963caff667f1811d9523e5c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/010.jpg",
+      "bytes": 50409,
+      "sha256": "ceb89afaf854b28c419c712a0469c55a83ef7dc24bc20bbf99454479557220f8"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/029_depth.jpg",
+      "bytes": 26790,
+      "sha256": "2c70445f27f51da085102d83e2a472c2e46de70a95e786e9b1d79a58d3d73f31"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/026.jpg",
+      "bytes": 58328,
+      "sha256": "018b76eaecd16a0a9a8d144c56b087a80bde11bf44226ca9e2aee05abf31ced7"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/009_depth.jpg",
+      "bytes": 17365,
+      "sha256": "6d465c3086b0d8ece778f080d6638782fc23911570b6ec17e4c5492a399c4f4d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/003.jpg",
+      "bytes": 49947,
+      "sha256": "534b3f25fcfe6bff382e13172684678773d4bec88076bd89fd2f9787ad811f1b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/024.jpg",
+      "bytes": 57229,
+      "sha256": "e875a386ae1439705d5e2d3e4f846e91e1ce277d5cbe9f6bf8403d06820edb59"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/019.jpg",
+      "bytes": 54207,
+      "sha256": "e23d04ad261daadbf48417a6cd05c831c0a9dbbe8719bee1b96fab8eed07d804"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/042_depth.jpg",
+      "bytes": 24585,
+      "sha256": "938f03abc19302daaac4b22ac0bf7580f4c318d7f8f072a00b81f7487de9def5"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/056.jpg",
+      "bytes": 55770,
+      "sha256": "de254c3b0e2f8b5a4712871c2c40887fcb6837f10377776d0ab528f41501b9a6"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/032.jpg",
+      "bytes": 57090,
+      "sha256": "a98aef7c9abcec8351bcb4c6fbebcf72d75beb102d3adf7f4d760a221af90639"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/016_depth.jpg",
+      "bytes": 19727,
+      "sha256": "4c1144c3c6a41427c2e3744f831b66464aab88edaa05ae783ef7814c239424be"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/024_depth.jpg",
+      "bytes": 23526,
+      "sha256": "64d9aa57f4285f03d5c3183f220456d16829886347ceef1270a1a013bfb6cb78"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/052_depth.jpg",
+      "bytes": 23271,
+      "sha256": "7eb2a08d23205d8c3436179f23bf0762ec41aafc8f2a4c9632b3edc52f76d756"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/002.jpg",
+      "bytes": 49506,
+      "sha256": "0baed8c781545d7bb6aa1c0827e14e1c28aaf8702e1373a1a9c840b04252ce45"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/000_depth.jpg",
+      "bytes": 19231,
+      "sha256": "588f9adf4d542daf84d4d6ca2b98a8159cf25cac2ed2aa6220048f2e4dfa8f56"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/025.jpg",
+      "bytes": 57732,
+      "sha256": "b3d0fca719f537dc96ce20a8f2e75b341795f286905ff696f9fe50b527f26307"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/048_depth.jpg",
+      "bytes": 25393,
+      "sha256": "8d19c2dbccf8b691f22da5f5ef99f5ed660672a0730414c3530afb46c6f18b89"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/059.jpg",
+      "bytes": 55472,
+      "sha256": "5ec41dd763007fa7b4f8065a1b64504858dae4296dc62b14a900c118dbec2a76"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/039_depth.jpg",
+      "bytes": 24164,
+      "sha256": "9ba59aac60757201880bcdfc73ea362114f7547c5a4cc27edf5bfd113a311563"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/028_depth.jpg",
+      "bytes": 26570,
+      "sha256": "9510e597a4c785d14d386777beb050a95ae5e52984b9ed553bbb14831a9d80fe"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/009.jpg",
+      "bytes": 49544,
+      "sha256": "b386459a90901450a3c00664a4abb604aedc75324554be873627471cc8387d06"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/041_depth.jpg",
+      "bytes": 23965,
+      "sha256": "29f1f6400d04093398828364f6cc89b31911795929aa86b2c765a13d3900349d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/033_depth.jpg",
+      "bytes": 24610,
+      "sha256": "14c926955b9899f104e80235384f884bbf138be76c626a6cdcb67e48c0c9cddb"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/041.jpg",
+      "bytes": 55484,
+      "sha256": "77e4d0e24bfa0b1d1f7125791f1ee218967f8c18f4423e3f16e868a97f38d1b2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/057.jpg",
+      "bytes": 55603,
+      "sha256": "fc8ca5ffda3b835ee556de111ae8a717b200fa43b09ac73e7cb7ba2047d55349"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/031_depth.jpg",
+      "bytes": 25242,
+      "sha256": "c7e8fc294172cd0f07165c438df67acbd8d9485504c0d57034583e1c6b92342b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/004.jpg",
+      "bytes": 50668,
+      "sha256": "228e29bd56456b81f0762dc1e247cfb97994950370cc0abb0a60b3c2d60cf70f"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/029.jpg",
+      "bytes": 57742,
+      "sha256": "a9bc948ec1498d8e3281ce4cdd40c170351afe03e072c4969050ae0861a6c5a7"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/007_depth.jpg",
+      "bytes": 18751,
+      "sha256": "16cfb50d90baae85fa9a3ccc922132de7513eb8f03afbdd2c844e918f6b9dfb9"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/004_depth.jpg",
+      "bytes": 18058,
+      "sha256": "2df74fc3c00258376d6d2762cb6bb63b2f339b3aee50f98f97f9997cbd4311d1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/013.jpg",
+      "bytes": 50939,
+      "sha256": "568c58197c9dd18363af30506e35b1c483abf860b5372ca0ee2f54936a503c91"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/026_depth.jpg",
+      "bytes": 26186,
+      "sha256": "0f81dc65e0aec633049f40a846a7694fc7fae7d8269ac7fd4b620de4f44605b1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/040.jpg",
+      "bytes": 59166,
+      "sha256": "fa315c691f956c5fec8fa2c519f521280d207ad342d8cbc0bdf0b116aaa16362"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/050_depth.jpg",
+      "bytes": 26809,
+      "sha256": "8821bed1b2461a87aa260ab70efb2c836b3645cc4a336d3b7bc0a664cad77bb2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/014_depth.jpg",
+      "bytes": 17506,
+      "sha256": "b237a470f3a9dde6afb3440a6eff27ed24f248e021d4f6623504123616e20df0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/001_depth.jpg",
+      "bytes": 18110,
+      "sha256": "e54a2cdb36df473536cbcb008eecfeb83a26e067b416f6111d18f49f93a6def5"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/049.jpg",
+      "bytes": 54551,
+      "sha256": "662ed1c25d0f4d5a3170d3fe6ab850aeb9ae3593653fe5aa967460949d3d4440"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/045_depth.jpg",
+      "bytes": 24701,
+      "sha256": "368dac8ec1cd030dd4567e9461bf49b4c43ddac0d2ccf5fd595d706769bbaaff"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/050.jpg",
+      "bytes": 53249,
+      "sha256": "e7fb85aa0b72385e6b9cb02ad967a8a973da3ad4ac7a686b902a2221787c8d97"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/046.jpg",
+      "bytes": 54655,
+      "sha256": "f4283b75de4b5dac7ac103daf0ea6e608818710ee11c8ea62655db019fadb465"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/053_depth.jpg",
+      "bytes": 24726,
+      "sha256": "bcd0bfa6f194b5c751e6c4cd07f32c1ab62ed5626954def4df143dd4c28992b5"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/022_depth.jpg",
+      "bytes": 23285,
+      "sha256": "05aa105a458d4acc4a8eae3faccc5a15097a208d17413f9633a07b2931ee9500"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/032_depth.jpg",
+      "bytes": 25586,
+      "sha256": "6d8c5fa04a292eed3daa48b5bc805ef48042e7372861e2362c1af2df71d861cb"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/048.jpg",
+      "bytes": 54127,
+      "sha256": "88e6c654a992b653334e1c76d6d8b65bd8e7b9cfd6392ba1fc4fcd76146a9b6b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/031.jpg",
+      "bytes": 57777,
+      "sha256": "44089dcbc9f8bcd1751e357446da95e00a2489b0ada5361c70e9a4f725999d4c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/044_depth.jpg",
+      "bytes": 24153,
+      "sha256": "777ae4de6d2116467b639ab470f1f05f632618697a6b0c2218e3d6d988832b6d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/028.jpg",
+      "bytes": 58317,
+      "sha256": "0c20dd9a1cb5337ea44126c56082432635f61869d90f7e348b460877933b1bfa"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/005_depth.jpg",
+      "bytes": 18495,
+      "sha256": "b497d608b8fbbb1716bd580f0f17a71d8f1a159ee7c4cc00b7aaec5ca6005261"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/047.jpg",
+      "bytes": 54920,
+      "sha256": "5287caf58570b66e994f8348a7a6e835cc2c745971f420aaf25a8309b848b2e0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/008.jpg",
+      "bytes": 48919,
+      "sha256": "9ec31587a7ad80d8a90447541ff240b48dd095abefac181a15c4df6eef56bf97"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/023_depth.jpg",
+      "bytes": 23160,
+      "sha256": "1e48542800d7b26b342faa4fba1a42a2aa5b4d32efb6e64afe83068294ec89fd"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/049_depth.jpg",
+      "bytes": 25222,
+      "sha256": "a67f3f3ff954a564c77ae5e89daedd8972ddf5efabe26efcebfdce7964bcc2df"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/021.jpg",
+      "bytes": 55732,
+      "sha256": "4c978b467e03ea35c590831f2e60a2712557c14e14b53a67466731aeda3a3ba4"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/038_depth.jpg",
+      "bytes": 24030,
+      "sha256": "91b08292526220796b78a72f439abe6d858430d526359402ffd39bc7a78d2783"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/006_depth.jpg",
+      "bytes": 18090,
+      "sha256": "4d51c6a54d9242edb3f067ffa083fe78f153afb1fc84d9a74aa8e31454f06ca3"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/056_depth.jpg",
+      "bytes": 25890,
+      "sha256": "158c76907fba7761cbca8412b107dc858d6a9ddacb6c2402bdf7c92786c418bc"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/027_depth.jpg",
+      "bytes": 26141,
+      "sha256": "0442c46028b9d8d544a7612a1fdbb88c749423a8a050f9f5ff300a2d8c34446f"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/015.jpg",
+      "bytes": 53626,
+      "sha256": "268a9b8a9e6e5bb02702d948c7e765d1f48d8e8ed3264f1615aa17d6ca1d5b47"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/037_depth.jpg",
+      "bytes": 23797,
+      "sha256": "80f62507dc7865637c7c6a80f36efe4542bd1d8c1126da359b4482e9dc5bbf3e"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/046_depth.jpg",
+      "bytes": 24815,
+      "sha256": "6d97a452e1e4e49e2264d31260de4e982898448d9727c7accda80b24d3397213"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/027.jpg",
+      "bytes": 58958,
+      "sha256": "f5f33edc6b962aa124e832a65ca827c56754554459e2abdcdb7e374afbf0070b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/005.jpg",
+      "bytes": 50207,
+      "sha256": "46063123dab4b1f5547ddcde3cc6c571dfd0a8759820048bfd403093d193ca08"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/025_depth.jpg",
+      "bytes": 23935,
+      "sha256": "cecd6afd89ef4e94830b19cd4308062c1d2ce2bee04161ef87f337fe88f6e656"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/038.jpg",
+      "bytes": 60933,
+      "sha256": "4e5c93f083c7f147631e320761c91ca28ab41c08122c6391fde8df483732e634"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/011_depth.jpg",
+      "bytes": 17236,
+      "sha256": "7b04a309afc10ddc78acf8646592a3cfb5007b6621d4cb075a986b4c8bba0b35"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/023.jpg",
+      "bytes": 55886,
+      "sha256": "419a042d599b06a121b19912d9afff752366b79b85ed2a917bd443d0f17bfdbf"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/051_depth.jpg",
+      "bytes": 25059,
+      "sha256": "f37bc8ad127592797b65e556bdb1cc6360d5f7ef34aacd0311611f9e41bc2c23"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/030.jpg",
+      "bytes": 57054,
+      "sha256": "38f8effee2ac13e9760569927200675ff2c15347ea8c68c33e8ff350732cb6c4"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/011.jpg",
+      "bytes": 51411,
+      "sha256": "f05742bf57635f511f8f6439001927a45908abd7616e38925cbcf0119e0380d1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/033.jpg",
+      "bytes": 55968,
+      "sha256": "b1708ca4f7441ffb408fef5bbc063df8645e54d9378d825c7b9cfaa92f999e5c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/008_depth.jpg",
+      "bytes": 18540,
+      "sha256": "b46d52c16aeb5261bcc247b4f6fb1f9a4ab66173165aa00f28262416e01b3455"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/001.jpg",
+      "bytes": 50993,
+      "sha256": "1c8ac45cbcef8270a182445edb59d4fc32726f179e7ba2bc58533c7d526420a6"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/012_depth.jpg",
+      "bytes": 17073,
+      "sha256": "00aacda2a37e54fe41ff0cd6161550674f3b2e356c7cfc2bfbe01893e3560612"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/058.jpg",
+      "bytes": 55552,
+      "sha256": "13326ffb34c695f7d4574d2087362aea2d1d829a098874e396c01a8c14d40a71"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/022.jpg",
+      "bytes": 56140,
+      "sha256": "b79337de7adda34d2c271df5ac24cde0dee87e6776faef6ee55fbf00062e565d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/040_depth.jpg",
+      "bytes": 24805,
+      "sha256": "e1e980665ed795f734ba67e328eccd7cdd73e4eded7dbca9e76c90c4cb589fbd"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/053.jpg",
+      "bytes": 56338,
+      "sha256": "785b134ff363bf09a8f5fc20aa40bc72b4c07af6a65d7c96896c77f8d7061a16"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot1/052.jpg",
+      "bytes": 55154,
+      "sha256": "2b3a4a8a3b313bad63ebc3183dab8a5b59b607a1171d349a5e25b7875d9b61e5"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/047_depth.jpg",
+      "bytes": 31576,
+      "sha256": "93984f04151a43b45aaed0d151168624fe4be3302ee399daec9c32d0c7d52f5d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/057_depth.jpg",
+      "bytes": 37817,
+      "sha256": "0de53f88fc70c20c230d965842578598c459c80cc69a1f8349af47bee00284ee"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/017_depth.jpg",
+      "bytes": 29328,
+      "sha256": "cd589266137d3061fe6f8e98a47a0aaf1062c9425ca615611a5dd6a0dc1a6401"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/021_depth.jpg",
+      "bytes": 30636,
+      "sha256": "c139b99c7b3648517f4d1221602934f569c8010262771330761a87c45430adae"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/014.jpg",
+      "bytes": 61117,
+      "sha256": "f13f405cd0e4c6e5726e1256e2d5ee6ec527e98e919b4eeaab5eb3dfa69e82b3"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/035_depth.jpg",
+      "bytes": 29762,
+      "sha256": "cab86c3027f489ae66e6d209573d42ee8e9f26b4825af16412a661ca72d8ef51"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/019_depth.jpg",
+      "bytes": 30229,
+      "sha256": "8806ce4563a0f5bffd425f239f74f8ad57af09b68155fc5a162e219ec37b5b5d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/030_depth.jpg",
+      "bytes": 27054,
+      "sha256": "bd39a9ac27aaaa253e0520f8e51f897d3463f630c973dc9c6cd68c782f3f7de0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/058_depth.jpg",
+      "bytes": 36010,
+      "sha256": "13482f17ca35182944fec47faada2c5160729f945c763511f38381ba39ac0072"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/000.jpg",
+      "bytes": 59924,
+      "sha256": "ca413292c73fff670516e508b0c144dd21cd3bcbce3a2c3a5d4a3ab1e32c6df1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/018_depth.jpg",
+      "bytes": 30963,
+      "sha256": "83539e7e1c8785624e02055b141efd6969e3a7de018fa530b0d16b526ac16023"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/055.jpg",
+      "bytes": 44051,
+      "sha256": "0d9062262fad871d80923c04a13c6c681afd9b80706285f13c351bf4c77e6f5b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/epoch0_xyz.f32",
+      "bytes": 1200000,
+      "sha256": "c5d3464910d42f31fb704b12c6dccd35f740328fd748648b6e32d82d9b198b37"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/035.jpg",
+      "bytes": 55299,
+      "sha256": "1eef55afe7d35d2f25fcb928747680edf4906be547ad29d03daa96e52a21728d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/045.jpg",
+      "bytes": 47685,
+      "sha256": "ebd216b5c46dec8752cf8bc78f7acdcfa3ca23b46882612e61344a000714859f"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/037.jpg",
+      "bytes": 53827,
+      "sha256": "1db97661f06ae41b32a76a322f71a6ac4bad1ad22de41a4e62ccf2cb155ce518"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/016.jpg",
+      "bytes": 59227,
+      "sha256": "69bbf2affab4b5b34915710163a549a9bd6e83e8eb1679cebba5d15817cc60b2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/006.jpg",
+      "bytes": 59446,
+      "sha256": "17f1886f4ac2b203edbab825f67dc547f1fe221826803eacf46754e6fa84c829"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/043_depth.jpg",
+      "bytes": 29605,
+      "sha256": "844739ed8615d8caa80c74179ad2c84e709ded62958c7d7fa2dd67fb6b1f2d24"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/036_depth.jpg",
+      "bytes": 30550,
+      "sha256": "f5fc96ac866bb989db6cc6381f25d151ffa809956f93a594ca069f5bb8634be0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/007.jpg",
+      "bytes": 59336,
+      "sha256": "87647403adb836ec3228512dc286d5d830c2104ca533402b8827a59a2860d33c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/003_depth.jpg",
+      "bytes": 21589,
+      "sha256": "63950daaca8066f42aa5712616116d4bdba950bbf141590d49d05696a7bc2e8c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/055_depth.jpg",
+      "bytes": 35663,
+      "sha256": "a0c09283d83f40974af5df5dbed4c740a629cb205754c9b3201242c3bb9d023e"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/012.jpg",
+      "bytes": 59918,
+      "sha256": "5b7bcf3f5c483d7d9f62c6a03d87e2ea5df97d270a0eb87ed7445bb024c66fe6"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/059_depth.jpg",
+      "bytes": 38542,
+      "sha256": "953bb573883b74793f16198f2c7cd89513451af21fb5b92eec1e9670d80b7488"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/epoch0_rgb.u8",
+      "bytes": 300000,
+      "sha256": "a624830dc37b3c30d2294e8bf70639bc8d651a06a567c6314754ce5f5000c9f5"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/017.jpg",
+      "bytes": 58144,
+      "sha256": "64ee095f5a342dea855a4a954736a6947cf66254e4db8afc329735cbab500d2d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/015_depth.jpg",
+      "bytes": 27200,
+      "sha256": "85a2eec9ffcf129305d948d4151ea7a53e05c278204339fb53c3dea9468caa5d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/020.jpg",
+      "bytes": 55775,
+      "sha256": "45180ee38b78ccd7c25a00b0f62764f3aa17545644d3d45a5e7be2eb378b50d4"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/036.jpg",
+      "bytes": 54471,
+      "sha256": "0c929c1ec9c11a4de2843fe6699c532a0f9d988ca8f9f798c2b2993c5b761b84"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/013_depth.jpg",
+      "bytes": 27033,
+      "sha256": "2cfcb6ff9ece9fd0979af9b7bc2c0fa2bf0e9b7ec2cdda79fee8a3ad8a4fe4f1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/051.jpg",
+      "bytes": 46434,
+      "sha256": "084d0529b79f8c7b77d5269a049e7ec28290e0164df0acf5003f7d23a3f92087"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/010_depth.jpg",
+      "bytes": 26265,
+      "sha256": "40e9631a02f274079c39eee31fbe6f3525b7b8856058aac386d62dd8442898a1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/039.jpg",
+      "bytes": 55286,
+      "sha256": "595eecc047f60f46676efdad06249148df93b062678175cc6df2f01cc612b12c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/034.jpg",
+      "bytes": 55943,
+      "sha256": "b623d6ea06172a4bf5b37b0d4b51357d8862c7a3701fcaa5c4bb09ef711df205"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/054.jpg",
+      "bytes": 45228,
+      "sha256": "dd1d838699e5e96abc9c482694de19a971631f3c88d27c3c290364d88832cb34"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/054_depth.jpg",
+      "bytes": 35287,
+      "sha256": "074e3960a04341d87b74b9b18e9ebfe9f95b447ed18496f8231f5252909294ac"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/044.jpg",
+      "bytes": 51199,
+      "sha256": "175e96e10a3b118f638eb313499fbf1fb97e4d7f1f43d9fd4e855dfdb7f4d191"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/034_depth.jpg",
+      "bytes": 27647,
+      "sha256": "e1c84a7b0fca814ad76ced0a4e7338e8de3c8869bfea695fc4da5d2bc6f8779b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/020_depth.jpg",
+      "bytes": 30552,
+      "sha256": "0f90c5fc713e7763be2d5bfd6bc30beae083495534accb50d3d9327e05fadf9b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/002_depth.jpg",
+      "bytes": 22382,
+      "sha256": "9f0f91f3b59ca86b76f4f50b74a1b6d01c3e80b96acbbe7a8653d35ca2f1711b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/042.jpg",
+      "bytes": 49086,
+      "sha256": "328b684439f8c7460dbb7c0a01fcbeec949c0667563e8d24f43ddb34dd28398c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/043.jpg",
+      "bytes": 52332,
+      "sha256": "eef481a57f117799a77c8176214c7594b97c9ca6585e1c4de12a3892d827b4b9"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/018.jpg",
+      "bytes": 61280,
+      "sha256": "b7f59b6efcbb9990f44b776ca2f0fa195507f49e27aeb44f73c116135938e74a"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/010.jpg",
+      "bytes": 59149,
+      "sha256": "d63c8ff5ef7c9918517733a7d8208fafd946ce3aa9e216b09dd646a30a153f88"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/029_depth.jpg",
+      "bytes": 25671,
+      "sha256": "90b8115fc61c47bd5faa6b1d7c9391b49cb02e2eec72c0c05a5d8ed9f024a612"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/026.jpg",
+      "bytes": 50264,
+      "sha256": "1c37f73b3cb721a6b2173956fa8ca317c94a7028f6cf0aee090dcaba434c6652"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/009_depth.jpg",
+      "bytes": 26928,
+      "sha256": "726a88f07f58bb6d7a39837741a3b387db1cbe9ac22dfaf19c524ddf72bf2bd4"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/003.jpg",
+      "bytes": 57853,
+      "sha256": "5204f86c94853aed3228dffdaf01e62e5da2d8dead5b0960e727c5b261c9e11f"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/024.jpg",
+      "bytes": 53153,
+      "sha256": "d114eb810b9099d07645f0a5d1591f7a74e4f4d3ff6bd2601f46cdb517d8147e"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/019.jpg",
+      "bytes": 59441,
+      "sha256": "66c554ef002df4dbbdd32c662176e042bc56adcc4377653dd411002b230377b2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/042_depth.jpg",
+      "bytes": 29367,
+      "sha256": "33266403b8c9874749a962f0fad30d553fdbedb94b27315af8f19d4ef69f2e03"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/056.jpg",
+      "bytes": 44823,
+      "sha256": "b2989eddfb9f73a8e97bb5cc34c4edf8a3dfbfdb9e6c3eebecf9ed605dbf1a15"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/032.jpg",
+      "bytes": 57530,
+      "sha256": "6f16eb11cf8173e32c6c7c872e3f8d8bcb72a7aa4c94f13e074a52ef7e9c33ea"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/016_depth.jpg",
+      "bytes": 27283,
+      "sha256": "0fd3ad84b4a265e5dc2e646f18328e9c2920a55c1534d097eb6ce967ac4e80bd"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/024_depth.jpg",
+      "bytes": 27895,
+      "sha256": "6d7f8b9dae43d62db320d7f2f3a541220d604e7d97111fcef39ff3552985244c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/052_depth.jpg",
+      "bytes": 35076,
+      "sha256": "5e7a0547213d5ea680e1ecd2bb705ef09e06c5da81df6fc1926bda55f0eb5f09"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/002.jpg",
+      "bytes": 59576,
+      "sha256": "c61f42715b81d69da73c7d11f96ef478c57f108d7c546a00f1e3f59d54116fa2"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/000_depth.jpg",
+      "bytes": 21075,
+      "sha256": "a09e9491a3a69e833ad682e97d38b93d5088f522147c83721d763ee2365c5869"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/025.jpg",
+      "bytes": 53582,
+      "sha256": "4671ddae5bb3e3a4ba3c57396e19f0379b86ec47a481e5123fc2c07eec3ab69a"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/048_depth.jpg",
+      "bytes": 33420,
+      "sha256": "9042dd7e46f16104aa2fba0a58be5e729b264ffbac687ff3f65bec52d44fc701"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/059.jpg",
+      "bytes": 44497,
+      "sha256": "c432aed7072cf9f9cf0f3a55452aadcbc85cc31e34fbfe01df8a56cc6122e7d5"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/039_depth.jpg",
+      "bytes": 30004,
+      "sha256": "9f32346f142ad2320010fdb124dd5129e855dd70c891dd9eded84218ab318866"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/028_depth.jpg",
+      "bytes": 26832,
+      "sha256": "487ef8b936c389f04889e1d8d71343b35de7ec5c4d0a87c47bd1f6b89fa1282c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/009.jpg",
+      "bytes": 57613,
+      "sha256": "0178e2ca0477c7201a7dea8bf3779adae3663dd59c78c2128e5f0e285b44caee"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/041_depth.jpg",
+      "bytes": 30137,
+      "sha256": "331c9b48ef8a8f7daaaf0ed07571f81a6c88f5ae661da928970307acf551ebcf"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/033_depth.jpg",
+      "bytes": 28138,
+      "sha256": "9cbee0211d12aa116147976e7f3db781167ce8ba59d7ffe1162faf50de62234e"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/041.jpg",
+      "bytes": 51808,
+      "sha256": "5a219744c847f910c9bfd18e24e4789a0a6fcaa5c9b4de3e3282eb4c6e0cbcae"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/057.jpg",
+      "bytes": 44198,
+      "sha256": "bf822c45cfb9d98c7f8c088f5d7dc46625b8b0b1ad45d10bd330b0ef008955a1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/031_depth.jpg",
+      "bytes": 27631,
+      "sha256": "8ba02e7534221da551b327cdddb30703dc395117e597c30eaff7786a8c791e64"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/004.jpg",
+      "bytes": 57411,
+      "sha256": "3925513d993774630c4d14d1cbb67ea6875666561bf561851ee7864df74126a0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/029.jpg",
+      "bytes": 51740,
+      "sha256": "2dc6adf68d22f2a832a7768d40766b78ff75b37d0326e8eb69096195463aba5c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/007_depth.jpg",
+      "bytes": 24783,
+      "sha256": "bdb54ebebc9a55d6d22d806eb4c355aae29539707a2e65df702da3b8f5277a92"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/004_depth.jpg",
+      "bytes": 22113,
+      "sha256": "e2b7efbfd1ff924beefdb9952660e3064d0fbc7f465a5dd49cd649249feca50b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/013.jpg",
+      "bytes": 60779,
+      "sha256": "1d1690e26be93d3703ee0506c0379b4fdecda98549604c5c635c2fa19f0ff5d8"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/026_depth.jpg",
+      "bytes": 26318,
+      "sha256": "91705d33968e4e9c0a78b62ad758ba255f23b53e180952077006e23212e0aefa"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/040.jpg",
+      "bytes": 54559,
+      "sha256": "d49f1f00366f31e6b5d11aa359eaff68b5cdd404ba26d8b50a4786ac078af841"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/050_depth.jpg",
+      "bytes": 36242,
+      "sha256": "f9073988edd3f099de1fb9133b7b6e540aea01a8fd7a32faeb0be9ce0a3a3ce8"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/014_depth.jpg",
+      "bytes": 26991,
+      "sha256": "ff6b4d9db7269f54291bf83fc3cb89f2ca442ceb928feda18dc2a5a50ba05522"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/001_depth.jpg",
+      "bytes": 21220,
+      "sha256": "923f093cec76f45d661bca31d8fe9a4b46d9646ca9901592f4f18bd1d7a106c3"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/049.jpg",
+      "bytes": 48006,
+      "sha256": "8851cf1b1e53a9b90b46b713d8e8b3759549de87551132674da5f5c64325f487"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/045_depth.jpg",
+      "bytes": 30664,
+      "sha256": "b94dca519490f99cfaf324d02594b7fdf25295a656a19d6881f03c2fb693a01b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/050.jpg",
+      "bytes": 47209,
+      "sha256": "b0a033d1c10cc078b5f12c7ba382733dd9921de645b0f827ef587396829da1f4"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/046.jpg",
+      "bytes": 47827,
+      "sha256": "bfb1fe28d426152eef774573d063796bd13ee420f879c66eb9574315b52d5185"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/053_depth.jpg",
+      "bytes": 36949,
+      "sha256": "2a07f5e34e5a460b9abfc2044093b1ee78f1a5462970653f321d44448b34e968"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/022_depth.jpg",
+      "bytes": 28186,
+      "sha256": "7641dce8c692d77d4c99520f76b67d93fa0242c14a1605d4c943d224e59fac3b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/032_depth.jpg",
+      "bytes": 28243,
+      "sha256": "24116d09a54ada39e6a2d5edf4c4c5e23a2f1ce43a5ecc45f283cf0ac6dcaf6c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/048.jpg",
+      "bytes": 48591,
+      "sha256": "a825c5865dcb599267b7483a697bca8eca5b5eecae02116dfb10c009ec2f1646"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/031.jpg",
+      "bytes": 53557,
+      "sha256": "b1065134259946c30be594efbae54eae9ee5fb5abb8e3d40e3f26a569371929e"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/044_depth.jpg",
+      "bytes": 29456,
+      "sha256": "e1ed9c21548456f31c8ada03a4a73e395f0c91173ffc4c3188ffc3c82b0a99a1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/028.jpg",
+      "bytes": 51627,
+      "sha256": "9b4ec523d4c0228377cce22d9338995e4e2a990df97ab0a41b3da2fd39a3e975"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/005_depth.jpg",
+      "bytes": 23602,
+      "sha256": "452731ceef06cf994f439ddb760a2d22309e0398a3ef5468b59be7c3a935db5d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/047.jpg",
+      "bytes": 49388,
+      "sha256": "d92b1487bf98c4574ff2e34b67e0718be87b41887c4a9fc468bfd20d3b3b50a6"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/008.jpg",
+      "bytes": 59246,
+      "sha256": "c13ffca6662c726fca68d53c3b05cf43e573e776b21b06227b9485015b5c6120"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/023_depth.jpg",
+      "bytes": 26911,
+      "sha256": "3e70d65e7c41c94bbc0d26c46b4bd0222352e6855e91b1531b2b483b081e148d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/049_depth.jpg",
+      "bytes": 34951,
+      "sha256": "38de7cde9ee675b0fe89d57003c2746f0a8f217dfe16bf989e1a6dccb9aded44"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/021.jpg",
+      "bytes": 57223,
+      "sha256": "c611c8372318c34869d561911672b5a4e03f63ecb95fa88589b5ca86006336c7"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/038_depth.jpg",
+      "bytes": 31776,
+      "sha256": "f258e3fb34039521b1c41926ce16b5524e448da25c6c95b6bce8ea18200b2419"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/006_depth.jpg",
+      "bytes": 23101,
+      "sha256": "b8674998e8a0a867c253597caeb0303b3a0b58f1b54329d3b7a3772304f2c86b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/056_depth.jpg",
+      "bytes": 38152,
+      "sha256": "3eb1f6d71c87de4f86c0aef76879217cc6e6cc39bf896eca0d3997ef244afb7c"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/027_depth.jpg",
+      "bytes": 27038,
+      "sha256": "d992412e0b8ababf18a332cd6fd03329ad59b4564c5616f51f1d34c67a37af8a"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/015.jpg",
+      "bytes": 60904,
+      "sha256": "5944aa3ef7814ff464d861f405c4e84e3820082764e80fbf3f5544a6e8adc647"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/037_depth.jpg",
+      "bytes": 29649,
+      "sha256": "8c9e35e0c37ffb5c8ad382ad41f5e3aa72d74bed86ba3704b8ffdf74a826aba1"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/046_depth.jpg",
+      "bytes": 30700,
+      "sha256": "dda770cb2333853da7ca0895b8b45e9e0da23987060675d3a5996f40978c9230"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/027.jpg",
+      "bytes": 49454,
+      "sha256": "970ece4fd2de4e2234d6bf40aeb32e5c8310a4f8050ecca8b7c457393fa0aea0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/005.jpg",
+      "bytes": 58530,
+      "sha256": "8e2f49b625acf90b82853cdc9c934372d4720994815745f48a079d10ba1012ba"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/025_depth.jpg",
+      "bytes": 27238,
+      "sha256": "703b465acf620f7af36a0cec9d7bee8c7690ce1c6cef8d21f93f1dc1ce5ccec0"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/038.jpg",
+      "bytes": 55465,
+      "sha256": "e84b29f562c72401b73c7ec78f3872708105f0df6815b82a671730d937e11730"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/011_depth.jpg",
+      "bytes": 27522,
+      "sha256": "5ef430d7ffcbc88e5540c026bc2df4e043ed445e1b0fb0d006bcb9a621382d49"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/023.jpg",
+      "bytes": 57689,
+      "sha256": "1cdf18495ba877facf2cc6a9b5f140576cb9228c61ef4fd18f2474bd1324bcfa"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/051_depth.jpg",
+      "bytes": 38805,
+      "sha256": "e75226154ef0a27d7b06d39a37cbf0bbc482977af0baa81ca1188dbbf6987cd3"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/030.jpg",
+      "bytes": 51019,
+      "sha256": "9730b3093517424548a7ebcda5b590da7626200c0ec281c02e3623cae9213c71"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/011.jpg",
+      "bytes": 59033,
+      "sha256": "288de9149409bf171a4b077aca25fb75df9342737dcecf1e3e6988da18793f64"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/033.jpg",
+      "bytes": 57578,
+      "sha256": "26f3c35166c6365168e8a52554d1ad0f4c17bc4831a27999d73e38fa4e35436d"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/008_depth.jpg",
+      "bytes": 25444,
+      "sha256": "927c78fe8932a8d33ab368ff83ca5bbc942cb4fe97817e25ba597879ed5a064b"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/001.jpg",
+      "bytes": 59652,
+      "sha256": "82fc67164378255e45d46af9427bc7ff673497bbc9cec97d9ebd1cd1ed96f3ec"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/012_depth.jpg",
+      "bytes": 27413,
+      "sha256": "d44852b422ddfd6da187059edd1b56b9d7a6f56fb3e7149a7856ad909ca755b9"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/058.jpg",
+      "bytes": 44628,
+      "sha256": "d59dc54af101f1ef45afa8ae2076e69e4748cd217b21f2592ffbf4602016cc94"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/022.jpg",
+      "bytes": 58671,
+      "sha256": "ee0b9c748a7e8405bff01f52c3f433d9dfaa8511853f5affbffd7fac721ae4f8"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/040_depth.jpg",
+      "bytes": 29793,
+      "sha256": "a2e8cc2172a270715f12892c671a9610e42e887c3ce4f5d4bfe6b04b57fd1992"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/053.jpg",
+      "bytes": 43880,
+      "sha256": "3c71fac7142aef505af3206b6a89dc9423b5edfaa768685d6178cbe12b024559"
+    },
+    {
+      "path": "demo/rgbd_camera_mapping/assets/robot3/052.jpg",
+      "bytes": 46347,
+      "sha256": "9f55543669d10affa82c2a4829828866f825de99356fa239002aaa2e75af5e4b"
+    }
+  ],
+  "scientific_policy": [
+    "12s / 60 frames per robot, not full-run SLAM",
+    "independent local maps, no cross-robot fusion",
+    "tracking gaps/resets are conservatively separated into independent submap epochs; never merged",
+    "recorded tracking poses include local backend updates; earlier dense map samples are not reoptimized",
+    "CPU offline processing with traced native inputs; not live playback",
+    "sparse camera-depth reprojected to color leaves holes; no hole filling",
+    "no GT accuracy evaluation or hardware exposure clock validation"
+  ]
+}

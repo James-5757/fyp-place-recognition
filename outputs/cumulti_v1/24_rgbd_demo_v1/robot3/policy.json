@@ -1,0 +1,26 @@
+{
+  "window_camera_elapsed_s": [
+    120,
+    132
+  ],
+  "frames": 60,
+  "sampling_hz": 5,
+  "image_size": [
+    640,
+    400
+  ],
+  "range_m": [
+    0.3,
+    10.0
+  ],
+  "depth_unit": "metres float32; uint16 PNG millimetres",
+  "occlusion": "nearest color-camera Z per rounded pixel",
+  "hole_filling": false,
+  "association": "nearest camera-depth bag timestamp; tie by ordered message ID",
+  "max_bag_sync_ms": 25,
+  "hardware_exposure_clock_verified": false,
+  "LiDAR": false,
+  "GT": false,
+  "IMU": false,
+  "selection": "fixed Stage24 pilot window; no GT or scene-dependent selection"
+}

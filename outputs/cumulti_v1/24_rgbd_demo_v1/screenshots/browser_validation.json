@@ -1,0 +1,172 @@
+{
+  "status": "PASS",
+  "startup_ms": 1452.3619000101462,
+  "renderer": "headless Chromium software WebGL; not a hardware performance guarantee",
+  "play": "PASS",
+  "pause": "PASS",
+  "seek": "PASS",
+  "reset": "PASS",
+  "final": "PASS",
+  "image_decode": "PASS",
+  "all_60_frame_epoch_and_no_future_point_checks": "PASS",
+  "measured_software_render_fps": 8.652142959117118,
+  "interactions": {
+    "robot1": {
+      "orbit": "PASS",
+      "zoom": "PASS",
+      "pan": "PASS"
+    },
+    "robot3": {
+      "orbit": "PASS",
+      "zoom": "PASS",
+      "pan": "PASS"
+    }
+  },
+  "geometry_builds": 3,
+  "initial": {
+    "ready": true,
+    "index": 0,
+    "playing": false,
+    "render_frames": 32,
+    "geometry_builds": 3,
+    "expected_geometry_builds": 3,
+    "LiDAR": false,
+    "GT": false,
+    "semantics": false,
+    "merged_map": false,
+    "robots": {
+      "robot1": {
+        "active_epoch": 0,
+        "visible_submaps": 1,
+        "points_visible": 3972,
+        "points_total": 7079,
+        "valid_pose": true,
+        "camera": [
+          11.002001146496115,
+          -13.006253381594574,
+          -8.164460311359612
+        ],
+        "target": [
+          0.22642898559570312,
+          -0.2714862823486328,
+          5.549904257059093
+        ]
+      },
+      "robot3": {
+        "active_epoch": 0,
+        "visible_submaps": 1,
+        "points_visible": 4209,
+        "points_total": 100000,
+        "valid_pose": true,
+        "camera": [
+          15.643940102625761,
+          -17.825678026170028,
+          -6.634740667990144
+        ],
+        "target": [
+          2.28764009475708,
+          -2.0409598350524902,
+          10.364186614751816
+        ]
+      }
+    }
+  },
+  "middle": {
+    "ready": true,
+    "index": 30,
+    "playing": false,
+    "render_frames": 263,
+    "geometry_builds": 3,
+    "expected_geometry_builds": 3,
+    "LiDAR": false,
+    "GT": false,
+    "semantics": false,
+    "merged_map": false,
+    "robots": {
+      "robot1": {
+        "active_epoch": 1,
+        "visible_submaps": 1,
+        "points_visible": 27835,
+        "points_total": 69181,
+        "valid_pose": true,
+        "camera": [
+          14.927816713336407,
+          -17.278970888011642,
+          -7.969919804620581
+        ],
+        "target": [
+          2.1672091484069824,
+          -2.198252856731415,
+          8.270853459835052
+        ]
+      },
+      "robot3": {
+        "active_epoch": 0,
+        "visible_submaps": 1,
+        "points_visible": 69079,
+        "points_total": 100000,
+        "valid_pose": true,
+        "camera": [
+          15.643940102625761,
+          -17.825678026170028,
+          -6.634740667990144
+        ],
+        "target": [
+          2.28764009475708,
+          -2.0409598350524902,
+          10.364186614751816
+        ]
+      }
+    }
+  },
+  "final_state": {
+    "ready": true,
+    "index": 59,
+    "playing": false,
+    "render_frames": 330,
+    "geometry_builds": 3,
+    "expected_geometry_builds": 3,
+    "LiDAR": false,
+    "GT": false,
+    "semantics": false,
+    "merged_map": false,
+    "robots": {
+      "robot1": {
+        "active_epoch": 1,
+        "visible_submaps": 1,
+        "points_visible": 69181,
+        "points_total": 69181,
+        "valid_pose": true,
+        "camera": [
+          14.927816713336407,
+          -17.278970888011642,
+          -7.969919804620581
+        ],
+        "target": [
+          2.1672091484069824,
+          -2.198252856731415,
+          8.270853459835052
+        ]
+      },
+      "robot3": {
+        "active_epoch": 0,
+        "visible_submaps": 1,
+        "points_visible": 100000,
+        "points_total": 100000,
+        "valid_pose": true,
+        "camera": [
+          15.643940102625761,
+          -17.825678026170028,
+          -6.634740667990144
+        ],
+        "target": [
+          2.28764009475708,
+          -2.0409598350524902,
+          10.364186614751816
+        ]
+      }
+    }
+  },
+  "console_errors": [],
+  "http_errors": []
+}
