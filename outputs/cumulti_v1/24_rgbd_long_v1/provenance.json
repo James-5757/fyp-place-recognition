@@ -1,0 +1,160 @@
+{
+  "SDK_revision": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "SDK_modified_by_this_stage": false,
+  "SDK_preexisting_local_changes": true,
+  "Python_environment": "/home/cas/.venvs/fyp_stage24",
+  "new_packages_installed": false,
+  "original_short_checkpoint": "88dfda9c5544b1e2e7f5d1e6c02619094f6f4ebe",
+  "raw_archives": [
+    {
+      "robot": "robot1",
+      "RGB_frames": 1200,
+      "paired_depth": 1200,
+      "missing_depth": 0,
+      "bag_sync_median_ms": 1.3307535,
+      "bag_sync_p95_ms": 3.995224949999995,
+      "header_sync_max_ms": 0.0,
+      "RGB_archive": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+        "archive_bytes": 16873044643,
+        "archive_mtime_ns": 1788949451096482623,
+        "member": "robot1_main_campus_camera_rgb/robot1_main_campus_camera_rgb.db3",
+        "bytes": 30771412992,
+        "CRC32": "b1309376",
+        "CRC_validated_at_EOF": true,
+        "expansion_s": 214.01190890558064
+      },
+      "depth_archive": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+        "archive_bytes": 24940875791,
+        "archive_mtime_ns": 1788947789910803748,
+        "member": "robot1_main_campus_camera_depth/robot1_main_campus_camera_depth.db3",
+        "bytes": 66443415552,
+        "CRC32": "57a98337",
+        "CRC_validated_at_EOF": true,
+        "expansion_s": 418.45888208784163
+      }
+    },
+    {
+      "robot": "robot3",
+      "RGB_frames": 1200,
+      "paired_depth": 1200,
+      "missing_depth": 0,
+      "bag_sync_median_ms": 1.124486,
+      "bag_sync_p95_ms": 4.67430885,
+      "header_sync_max_ms": 0.0,
+      "RGB_archive": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+        "archive_bytes": 33987903251,
+        "archive_mtime_ns": 1789379414616028784,
+        "member": "robot3_main_campus_camera_rgb/robot3_main_campus_camera_rgb.db3",
+        "bytes": 64568975360,
+        "CRC32": "f3f3c891",
+        "CRC_validated_at_EOF": true,
+        "expansion_s": 529.455255500041
+      },
+      "depth_archive": {
+        "archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip",
+        "archive_bytes": 53852908315,
+        "archive_mtime_ns": 1794081688692991792,
+        "member": "robot3_main_campus_camera_depth/robot3_main_campus_camera_depth.db3",
+        "bytes": 140031242240,
+        "CRC32": "047c2655",
+        "CRC_validated_at_EOF": true,
+        "expansion_s": 818.5022124946117
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/validate.py",
+      "bytes": 4575,
+      "sha256": "6a5f09369bfa8645f3cd6f5f105f549b21a1f39c64abc814694febce49582de3"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/reset_regression.py",
+      "bytes": 3076,
+      "sha256": "b6229d1b42bcdaeed9c97bd4f8150aa54a87763939de5cd8363bcc626f18772a"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/decision.py",
+      "bytes": 1775,
+      "sha256": "2d0f773f81c1126a5d869a6ff7df1125dad7ed5f55440f05b80c773a5756c843"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/analyze.py",
+      "bytes": 6380,
+      "sha256": "e26161608f81e5784576b0b559454fec4d26ab1281f1f96c09ab1bc2aa9d2185"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/track.py",
+      "bytes": 10507,
+      "sha256": "7bd9bd04ec857fbc3fa40d290856748e45eecc224c1afbee6aa0723230d57164"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/fusion_gate.py",
+      "bytes": 946,
+      "sha256": "2a6a7c50756a67d12156e582c606c98a2a1f86f559add661d316112d95a768ba"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/forensics.py",
+      "bytes": 5957,
+      "sha256": "716fe3512c9df8e9e56ecf1308dec981f3b212e7b0c99a14395d12fce11bd4df"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/report.py",
+      "bytes": 14337,
+      "sha256": "f31de31294c2e02595903441d2bf269491f4eb1ac815a73b1166be8df6c460dd"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/export.py",
+      "bytes": 10514,
+      "sha256": "e99d6ee3cef565870e55c25b1251fb8b6769211b7eed4addd7b9e1a53eb190c9"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_long/track.cc",
+      "bytes": 2826,
+      "sha256": "0680bb9ea68f21874545d43fb88f67cff4a6bbd5f87028ad22b223082ca3ba6f"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/src/cumulti/rgbd_demo/export.py",
+      "bytes": 9338,
+      "sha256": "e1fe210a136feec638a21869e653a3b0f902cfbfe969483a747b6a8bc2dba85e"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/Map.cc",
+      "bytes": 11798,
+      "sha256": "5aa232fb8dc1b2892c5c9869f46ec3ce7c88766b90345e20ef528485cd4ec1b9"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/Tracking.cc",
+      "bytes": 138424,
+      "sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/System.cc",
+      "bytes": 58308,
+      "sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/lib/libORB_SLAM3.so",
+      "bytes": 5245240,
+      "sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252"
+    },
+    {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/Vocabulary/ORBvoc.txt",
+      "bytes": 145250924,
+      "sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570"
+    },
+    {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_long_v1/bin/rgbd_long",
+      "bytes": 59280,
+      "sha256": "1bf9a3cbd92e7a5d1829f53b72d24ecd7fd423c8f2b5ac4ea50fd3a9f9e16435"
+    }
+  ],
+  "GT": false,
+  "LiDAR": false,
+  "IMU": false,
+  "semantics": false,
+  "native_input_audit": "strace file opens; not a kernel sandbox"
+}

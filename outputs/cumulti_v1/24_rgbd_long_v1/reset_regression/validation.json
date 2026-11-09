@@ -1,0 +1,36 @@
+{
+  "status": "PASS_REAL_MAP_ID_REUSE_RESET_DETECTED",
+  "frames": 60,
+  "valid_frames": 44,
+  "fingerprints": [
+    [
+      0,
+      0
+    ],
+    [
+      0,
+      3
+    ]
+  ],
+  "actual_native_reset_log_count": 1,
+  "events": [
+    {
+      "index": 19,
+      "relative_s": 3.812149366,
+      "previous_map": 0,
+      "previous_origin_kf": 0,
+      "map_id": 0,
+      "origin_kf": 3,
+      "last_valid_index": 2,
+      "classification": "COORDINATE_FRAME_CHANGE_OR_RESET"
+    }
+  ],
+  "synthetic_gap_and_reused_id_checks": "PASS",
+  "immutable_source": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_demo_v1/robot1",
+  "settings_sha256": "ee06e3e788d91b379eef38811f8af8a618bdbbcabf4f3e223e423ec4c000f141",
+  "wall_s": 17.659461221657693,
+  "GT": false,
+  "LiDAR": false,
+  "native_forbidden_reads": [],
+  "legacy_results_overwritten": false
+}

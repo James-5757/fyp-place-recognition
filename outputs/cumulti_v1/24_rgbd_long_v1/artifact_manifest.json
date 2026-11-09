@@ -1,0 +1,311 @@
+{
+  "files": [
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/baseline_decision.json",
+      "bytes": 2604,
+      "sha256": "2d57070714e3a33ec795ad9445e0777e310092415801c03042c12df442b17c3f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/failure_forensics.json",
+      "bytes": 4167,
+      "sha256": "fadb56e2adc4d68d0ec2955461183a0f9a59d1f0cedaccd8a78bb82da13afe2a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/final_validation.json",
+      "bytes": 1192,
+      "sha256": "8fe1d159aead408e5e99339fe0aba1cb91b80f3127421752335c3b48701bf7f3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/fusion/graph_status.json",
+      "bytes": 63,
+      "sha256": "b08609d20542710cde3b59ecee49ed98956f054f48aca6498f9ebba5eb1c7943"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/fusion/status.json",
+      "bytes": 408,
+      "sha256": "ab23ae944373ae1dbf94c5a91e3f9bce9e5b83945dde2490d3f3afebca6c2f5a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/integrity_policy.json",
+      "bytes": 272,
+      "sha256": "e02dc7f57dc65d2ac1cb034ed5f38274ad1925b7ae8219fb536cc69c9bbdb218"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/loss_windows.csv",
+      "bytes": 1220,
+      "sha256": "a226331ccb012fb0e24f8c5d7168e4a86448fd84cd456f5329f8bc4531cd79b9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/policy.json",
+      "bytes": 1735,
+      "sha256": "0204dd4a4dfb715b4cf52b67b1f383211e497428eee480ccafb0d8e544a9a32f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/pre_fusion_decision.json",
+      "bytes": 2581,
+      "sha256": "2115c8a3ad311fa109aee76f76e005ce5fd3ffc6a32984bddc202ca890a746de"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/provenance.json",
+      "bytes": 6158,
+      "sha256": "eb63f72404367e226e2bd64592d2c16618be8b058621674723a9de0b9c6eff92"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/reset_regression/camera.yaml",
+      "bytes": 859,
+      "sha256": "ee06e3e788d91b379eef38811f8af8a618bdbbcabf4f3e223e423ec4c000f141"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/reset_regression/frame_poses.csv",
+      "bytes": 8301,
+      "sha256": "437c80b4b85af76f711da311be07dd128145c317f34c2e66c481ac059dde6012"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/reset_regression/validation.json",
+      "bytes": 856,
+      "sha256": "ae35923fe20bdffec3b336ee1b2caf48d035d11e5efffeec6ecaef9bd1403abc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/camera.yaml",
+      "bytes": 860,
+      "sha256": "62e7555dd62b0a629b0a87111f33b5660163b405be42a454dbeea30b23bffff3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/corrected_camera_trajectory.csv",
+      "bytes": 154247,
+      "sha256": "54d4d62eacde7e811d5f0a3a3195e22f1a97bd0dd25aee28ddd8e045a9c7269c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/frame_poses.csv",
+      "bytes": 209348,
+      "sha256": "3233dcf238c9f9e7190317e44ad828943199bbf591a90047765755d677092081"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/metrics.json",
+      "bytes": 2346,
+      "sha256": "220a36f732763bd80d16b2a3e241b9a2993fb84e185fb91c49012c6a0e644a0d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/motion_samples.csv",
+      "bytes": 116127,
+      "sha256": "73bb69df625da444f78f8aa37465ffdad245d1fbf415b7f6492431f53b69c01d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/reset_events.csv",
+      "bytes": 99,
+      "sha256": "b5f5474b72711159a50b2eb36e6e36f3db8772880051b087918730e057be1804"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/baseline1000/tracking_segments.csv",
+      "bytes": 79,
+      "sha256": "348bc6f0809a33d2993ded36df5f0f4bb0309ccaa9afba3e3d6a35c5799a7b74"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/export.json",
+      "bytes": 839214,
+      "sha256": "b572310d2b675eb99ee848c972e216a92ce0eb347464cf57519e0ea91a2dca31"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/camera.yaml",
+      "bytes": 860,
+      "sha256": "4ab216a746d6087441358c00eec4228e69204b2e46eecefd4bfb64b182e6ee75"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/frame_poses.csv",
+      "bytes": 203829,
+      "sha256": "447b4410126193a08bf2eb5357367d7681175dc2ecd5b9ea4d1799d19404c74c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/loss_interval_00.jpg",
+      "bytes": 133935,
+      "sha256": "91df4251a5f4af5e855a3294c989d05ce47f97c0e57e71aa9ec4acf12e48bba0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/loss_interval_01.jpg",
+      "bytes": 140086,
+      "sha256": "9b863edce303e30c81225409de015edc022c61af7c9ea0b2f1c0c2a3bc68b65f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/loss_interval_02.jpg",
+      "bytes": 147771,
+      "sha256": "01acbdfd22c44feb5155c5df311e28b01edf6ac338c4d6c87d46067baa902b8f"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/loss_interval_03.jpg",
+      "bytes": 145375,
+      "sha256": "cbe889506ca6e526f2dddd98495de8bda234c9a4e3c5de776c21fdfd323e5afc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/metrics.json",
+      "bytes": 2514,
+      "sha256": "332df2b613d84b5358869968e190c9c1bfc0e285744c2cebeb8497bc6ceaf4c1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/motion_samples.csv",
+      "bytes": 110085,
+      "sha256": "95b6454b197c969bf4b166b59186996e3d7105bd33ef4bd0f42ca0d14d67fc39"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/reset_contact_sheet.jpg",
+      "bytes": 239753,
+      "sha256": "4c90cd26c701c3bfba56aa616f9fde4f32b9384b103033efc3e7fc5f06cbc1cb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/reset_events.csv",
+      "bytes": 365,
+      "sha256": "e63d4f6691d2627e839ffb33bd447424183c14f9336d639409039e3ff58f4501"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/tracking_segments.csv",
+      "bytes": 189,
+      "sha256": "ce77fbdf153b4acd544099d9210a8a254f6d74cb675cf22e4a1d35025b90cf4e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/image_quality_proxy.csv",
+      "bytes": 135982,
+      "sha256": "33a1c76696133d34b94e8b7dae90b68fb338b4e94024afe09264bc40bc721437"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1/rgb_export.json",
+      "bytes": 362218,
+      "sha256": "c7ce188aec9329bec4945dc4d2e465d1ffd1ec3a3d88bcc855bb41edfd04a6a8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot1_stability.png",
+      "bytes": 168018,
+      "sha256": "35177b7c6cf60c042f3acb632c646dfaca8e891029457da8b1d533209cfd60ab"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/camera.yaml",
+      "bytes": 861,
+      "sha256": "ac1885b6d4ee46e0bf454f53ac751a7e1aca67c645bd511feed4cfc7de443809"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/frame_poses.csv",
+      "bytes": 208702,
+      "sha256": "446c8addd83f99b3e31d2c1fe18dea1f2e0d972ede25c3e7dc3101f0205b4939"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/loss_interval_00.jpg",
+      "bytes": 164546,
+      "sha256": "44534fc2e46f95750bed4c3724b1c6418c7ab05a625328418c36574a397fd24a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/metrics.json",
+      "bytes": 2409,
+      "sha256": "a018757ac877bc791ebab1097efe8a12dc0861e0ee0258ad9e213c98e465e4ad"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/motion_samples.csv",
+      "bytes": 113798,
+      "sha256": "c6ac4a057925f5a919d15a2c0ae8c269ee09d9f8d57599e2542e1d0373236e43"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/reset_contact_sheet.jpg",
+      "bytes": 92911,
+      "sha256": "65573c66d7543c84d2b97d02700ad146ab83ecc671b93f8b3ef7c5d95d8400c6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/reset_events.csv",
+      "bytes": 164,
+      "sha256": "caef2c4087985cccee038e7cc83bbd26756189a0a54d882e0e8b283c70e1c1dd"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/baseline1000/tracking_segments.csv",
+      "bytes": 109,
+      "sha256": "e170a96dbf82290920d16661c62452acdf5ae24bab074753b40d047dc77f2494"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/export.json",
+      "bytes": 839326,
+      "sha256": "baaceadf7829ff9caa802448c01db8cef56fca13c6e12bb5d3f55e1827066c84"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/camera.yaml",
+      "bytes": 861,
+      "sha256": "e5b6389acdd37980b61dc423cc5db1639bde8b6db725ae469b2946933a57845d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/frame_poses.csv",
+      "bytes": 204099,
+      "sha256": "e6760fad15193a01421bdbeb8cc250a9a7f7417382330dd79c1a7dd0d8f19a73"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/loss_interval_00.jpg",
+      "bytes": 171792,
+      "sha256": "1e1f40a222e126145c9faa53bb240ba53edac37fa77dc0f78fa865f17c8c531d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/loss_interval_01.jpg",
+      "bytes": 171007,
+      "sha256": "7c95e38c71f90f878cd924fc09a55595741cd6c61429a90636be6d8157f3e5b2"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/metrics.json",
+      "bytes": 2436,
+      "sha256": "5f56d9ee9fa6ca2d4614197383dd1beb620200731dedce7a10b3bc9b1273962a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/motion_samples.csv",
+      "bytes": 110621,
+      "sha256": "86a3264fa80276e1b6bb665b4038cce4be28f0e8081e0525dc6f0d3e20caf6c1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/reset_contact_sheet.jpg",
+      "bytes": 192171,
+      "sha256": "a2851980ee3e93827c52107fc92166b9e8e0fee631f3b52cdfc92e3c426ca815"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/reset_events.csv",
+      "bytes": 223,
+      "sha256": "caf4a0d88a63a05f2c30827429bdac2ec93865c39fd923ca8b9b68de95a1eca8"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/tracking_segments.csv",
+      "bytes": 139,
+      "sha256": "7abf81b2e743d921365f12394ef6df914bf71c46c950ef0f2e76cd4237b790c3"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/image_quality_proxy.csv",
+      "bytes": 128133,
+      "sha256": "4dbf903e3ec51cd89da8caa795463edfccd09d0118d1e0671e5358d8cf401ba9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3/rgb_export.json",
+      "bytes": 362222,
+      "sha256": "aff20af0996332ec1931de3f62905a6fb40c1c49f0e2005d31d32b2a922c209e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/robot3_stability.png",
+      "bytes": 159965,
+      "sha256": "29bd3599d09e750f55bcb4968bbb310d5426b1992ad481600afdb3c52ac623bb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/server_only_frames_manifest.json",
+      "bytes": 946280,
+      "sha256": "97b5f322ff82910a77923e0c66cd95b9db57bfbbd6fa15aa7d5764e5dc00445c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/stability_metrics.csv",
+      "bytes": 975,
+      "sha256": "7f27a3c481f233805eac576ebed784c87ce7b9f70d26b272fa7ff68fbeb3ba4a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/summary.json",
+      "bytes": 1278,
+      "sha256": "4373861f511027668ae3aafde7b5d55aaca7c6db5461078ae737b73f86e42b2d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/synchronization_report.csv",
+      "bytes": 473,
+      "sha256": "940e4d0af41a4879a197df990f70b55903375508c6fa0071bf1868eacd1b1a69"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_long_v1/validation.json",
+      "bytes": 752,
+      "sha256": "4a7c0d5dcf287de1060f52fa0b0397c9bc9746243c95db75ebf7929d625804fb"
+    }
+  ],
+  "large_sequences_server_only": true,
+  "GT": false
+}

@@ -1,0 +1,6 @@
+# Preserve captured machine artifacts and their SHA256 across Windows/Linux.
+*.json -text
+*.csv -text whitespace=cr-at-eol
+*.yaml -text
+*.jpg binary
+*.png binary

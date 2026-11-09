@@ -1,0 +1,7 @@
+{
+  "max_adjacent_translation_m": 2.0,
+  "max_adjacent_speed_m_s": 10.0,
+  "max_adjacent_rotation_deg": 45.0,
+  "observer_min_map_vote_fraction": 0.8,
+  "scope": "adjacent valid frames in the same native map fingerprint; conservative engineering limits, not GT-derived"
+}

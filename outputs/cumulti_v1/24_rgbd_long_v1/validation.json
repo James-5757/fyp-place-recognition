@@ -1,0 +1,32 @@
+{
+  "status": "PASS_AUDIT",
+  "stability_decision": "NO_GO_RGBD_FUSION",
+  "actual_tracking": [
+    {
+      "robot": "robot1",
+      "config": "baseline1000",
+      "gate": "PASS"
+    },
+    {
+      "robot": "robot1",
+      "config": "fallback2000",
+      "gate": "FAIL"
+    },
+    {
+      "robot": "robot3",
+      "config": "baseline1000",
+      "gate": "FAIL"
+    },
+    {
+      "robot": "robot3",
+      "config": "fallback2000",
+      "gate": "FAIL"
+    }
+  ],
+  "real_reset_regression": "PASS_REAL_MAP_ID_REUSE_RESET_DETECTED",
+  "old_output_overwrite": false,
+  "GT": false,
+  "LiDAR": false,
+  "fusion": "NOT_RUN_STABILITY_GATE_FAILED",
+  "scope": "120-second experiment and reset management only; audit PASS does not imply tracking gate PASS"
+}

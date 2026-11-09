@@ -1,0 +1,80 @@
+{
+  "status": "BASELINE_FAILED_RUN_PREDECLARED_FALLBACK",
+  "selected_configuration": null,
+  "gate_policy": {
+    "valid_pose_fraction_min": 0.95,
+    "time_weighted_tracking_fraction_min": 0.95,
+    "longest_continuous_tracking_s_min": 90,
+    "actual_coordinate_frame_changes_max": 0,
+    "max_untracked_gap_s": 1.0,
+    "finite_unit_poses": true,
+    "forbidden_native_reads": 0
+  },
+  "results": {
+    "baseline1000": {
+      "robot1": {
+        "gate": "PASS",
+        "checks": {
+          "valid_fraction": true,
+          "time_weighted_fraction": true,
+          "longest_continuous": true,
+          "coordinate_frame_changes": true,
+          "max_untracked_gap": true,
+          "finite_unit_poses": true,
+          "native_input_audit": true,
+          "final_native_trajectory_coverage": true,
+          "no_catastrophic_adjacent_jump": true
+        }
+      },
+      "robot3": {
+        "gate": "FAIL",
+        "checks": {
+          "valid_fraction": true,
+          "time_weighted_fraction": true,
+          "longest_continuous": true,
+          "coordinate_frame_changes": false,
+          "max_untracked_gap": false,
+          "finite_unit_poses": true,
+          "native_input_audit": true,
+          "final_native_trajectory_coverage": false,
+          "no_catastrophic_adjacent_jump": true
+        }
+      }
+    },
+    "fallback2000": {
+      "robot1": {
+        "gate": "FAIL",
+        "checks": {
+          "valid_fraction": false,
+          "time_weighted_fraction": false,
+          "longest_continuous": false,
+          "coordinate_frame_changes": false,
+          "max_untracked_gap": false,
+          "finite_unit_poses": true,
+          "native_input_audit": true,
+          "final_native_trajectory_coverage": false,
+          "no_catastrophic_adjacent_jump": true
+        }
+      },
+      "robot3": {
+        "gate": "FAIL",
+        "checks": {
+          "valid_fraction": false,
+          "time_weighted_fraction": false,
+          "longest_continuous": false,
+          "coordinate_frame_changes": false,
+          "max_untracked_gap": false,
+          "finite_unit_poses": true,
+          "native_input_audit": true,
+          "final_native_trajectory_coverage": false,
+          "no_catastrophic_adjacent_jump": true
+        }
+      }
+    }
+  },
+  "GT_read": false,
+  "LiDAR_read": false,
+  "decision_scope": "120-second fixed camera cohort, not full-sequence robustness",
+  "fallback_changed_only": "ORB feature capacity1000\u21922000; same frames, optics, depth registration, noise, FAST and backend",
+  "reset_regression": "PASS_REAL_MAP_ID_REUSE_RESET_DETECTED"
+}

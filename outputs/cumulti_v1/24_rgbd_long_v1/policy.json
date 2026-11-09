@@ -1,0 +1,58 @@
+{
+  "window_camera_elapsed_s": [
+    120,
+    240
+  ],
+  "sampling": "every original color frame, native nominal10Hz; preserve dropped frames and timestamp gaps",
+  "resized_image": [
+    640,
+    400
+  ],
+  "range_m": [
+    0.3,
+    10
+  ],
+  "depth": "nearest camera depth bag timestamp <=25ms; otherwise explicit zero/missing depth, RGB frame retained",
+  "native_backend": "existing unchanged ORB-SLAM3 RGBD, original-timestamp pacing",
+  "settings": {
+    "virtual_RGBD_baseline_m": 0.05,
+    "close_far_multiplier": 40,
+    "depth_PNG_factor": 1000,
+    "scaleFactor": 1.2,
+    "nLevels": 8,
+    "FAST": [
+      20,
+      7
+    ]
+  },
+  "configurations": [
+    {
+      "name": "baseline1000",
+      "ORB_features": 1000
+    },
+    {
+      "name": "fallback2000",
+      "ORB_features": 2000,
+      "run_if": "either baseline robot fails; run both robots without changing frames"
+    }
+  ],
+  "selection": "first shared configuration passing on BOTH robots; no GT",
+  "fusion_gate": {
+    "valid_pose_fraction_min": 0.95,
+    "time_weighted_tracking_fraction_min": 0.95,
+    "longest_continuous_tracking_s_min": 90,
+    "actual_coordinate_frame_changes_max": 0,
+    "max_untracked_gap_s": 1.0,
+    "finite_unit_poses": true,
+    "forbidden_native_reads": 0
+  },
+  "reset_policy": "map ID + initial-keyframe ID fingerprint; track gaps separately; never connect reset gauges",
+  "fusion": "only after both robots pass the shared configuration; new camera-only candidates and RGB-D geometry, no historical LiDAR loops",
+  "GT": false,
+  "LiDAR": false,
+  "IMU": false,
+  "semantics": false,
+  "core_retrieval_or_GICP_changed": false,
+  "historic_checkpoint": "88dfda9c5544b1e2e7f5d1e6c02619094f6f4ebe",
+  "full_sequence_run": false
+}

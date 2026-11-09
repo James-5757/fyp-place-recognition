@@ -1,0 +1,50 @@
+{
+  "status": "PASS_AUDIT",
+  "fusion_readiness": "NO_GO_RGBD_FUSION",
+  "selected_config": null,
+  "robot_results": [
+    {
+      "robot": "robot1",
+      "config": "baseline1000",
+      "frames": 1200,
+      "valid_frames": 1200,
+      "valid_fraction": 1.0,
+      "longest_continuous_s": 119.904484092,
+      "observed_frame_changes": 0,
+      "fusion_gate": "PASS"
+    },
+    {
+      "robot": "robot1",
+      "config": "fallback2000",
+      "frames": 1200,
+      "valid_frames": 1136,
+      "valid_fraction": 0.9466666666666667,
+      "longest_continuous_s": 57.802695366,
+      "observed_frame_changes": 4,
+      "fusion_gate": "FAIL"
+    },
+    {
+      "robot": "robot3",
+      "config": "baseline1000",
+      "frames": 1200,
+      "valid_frames": 1168,
+      "valid_fraction": 0.9733333333333334,
+      "longest_continuous_s": 91.204921162,
+      "observed_frame_changes": 1,
+      "fusion_gate": "FAIL"
+    },
+    {
+      "robot": "robot3",
+      "config": "fallback2000",
+      "frames": 1200,
+      "valid_frames": 1137,
+      "valid_fraction": 0.9475,
+      "longest_continuous_s": 83.999465929,
+      "observed_frame_changes": 2,
+      "fusion_gate": "FAIL"
+    }
+  ],
+  "reset_regression": "PASS_REAL_MAP_ID_REUSE_RESET_DETECTED",
+  "GT": false,
+  "LiDAR": false
+}

@@ -1,0 +1,44 @@
+{
+  "status": "PASS_AUDIT_NO_GO_FUSION",
+  "decision": "NO_GO_RGBD_FUSION",
+  "actual_robot_checks": [
+    {
+      "robot": "robot1",
+      "config": "baseline1000",
+      "valid_frames": 1200,
+      "gate": "PASS",
+      "finite_tracked_poses": "PASS"
+    },
+    {
+      "robot": "robot1",
+      "config": "fallback2000",
+      "valid_frames": 1136,
+      "gate": "FAIL",
+      "finite_tracked_poses": "PASS"
+    },
+    {
+      "robot": "robot3",
+      "config": "baseline1000",
+      "valid_frames": 1168,
+      "gate": "FAIL",
+      "finite_tracked_poses": "PASS"
+    },
+    {
+      "robot": "robot3",
+      "config": "fallback2000",
+      "valid_frames": 1137,
+      "gate": "FAIL",
+      "finite_tracked_poses": "PASS"
+    }
+  ],
+  "policy_unchanged": true,
+  "log_vs_fingerprint_crosscheck": "PASS",
+  "frozen_camera_input_overlap_RGB_and_depth_byte_identity": "PASS_60_EACH_PER_ROBOT",
+  "short_demo_assets_sha256": "PASS",
+  "raw_archives_size_mtime_against_previous_checkpoint": "PASS",
+  "old_short_assets_checked": 246,
+  "GT": false,
+  "LiDAR": false,
+  "fusion_run": false,
+  "distinction": "successful audit/reset management; NOT successful two-robot long tracking or fusion"
+}

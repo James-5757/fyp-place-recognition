@@ -1,0 +1,11 @@
+{
+  "status": "NOT_RUN_STABILITY_GATE_FAILED",
+  "reason": "Both robots must satisfy the frozen shared-config stability checks before any camera retrieval, geometric matching or joint optimization",
+  "source_decision": "NO_GO_RGBD_FUSION",
+  "retrieval_run": false,
+  "geometric_verification_run": false,
+  "joint_graph_run": false,
+  "inter_robot_constraints_created": 0,
+  "GT": false,
+  "LiDAR": false
+}
