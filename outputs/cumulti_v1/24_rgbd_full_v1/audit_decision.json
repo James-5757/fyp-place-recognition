@@ -1,0 +1,81 @@
+{
+  "status": "GO_COMPLETE_AVAILABLE_RECORDINGS",
+  "robots": {
+    "robot1": {
+      "rgb_frames": 9997,
+      "depth_frames": 8765,
+      "duration_s": 999.789160747,
+      "paired": 8765,
+      "paired_fraction": 0.8767630289086726,
+      "paired_unique_depth_frames": 8765,
+      "depth_used_fraction": 1.0,
+      "sync_ms": {
+        "count": 9997,
+        "min": 2.6e-05,
+        "median": 1.570423,
+        "p95": 480.59617659999986,
+        "max": 3601.262765
+      },
+      "paired_sync_ms": {
+        "count": 8765,
+        "min": 2.6e-05,
+        "median": 1.38209,
+        "p95": 6.207007199999996,
+        "max": 24.333525
+      },
+      "paired_header_sync_ms": {
+        "count": 8765,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "paired_header_nonzero": 0,
+      "calibration_constant": true
+    },
+    "robot3": {
+      "rgb_frames": 20977,
+      "depth_frames": 19918,
+      "duration_s": 2098.463330423,
+      "paired": 19918,
+      "paired_fraction": 0.9495161367211709,
+      "paired_unique_depth_frames": 19918,
+      "depth_used_fraction": 1.0,
+      "sync_ms": {
+        "count": 20977,
+        "min": 1e-06,
+        "median": 1.514398,
+        "p95": 77.41540040000002,
+        "max": 2366.118116
+      },
+      "paired_sync_ms": {
+        "count": 19918,
+        "min": 1e-06,
+        "median": 1.418429,
+        "p95": 7.259302799999999,
+        "max": 24.803494
+      },
+      "paired_header_sync_ms": {
+        "count": 19918,
+        "min": 0.0,
+        "median": 0.0,
+        "p95": 0.0,
+        "max": 0.0
+      },
+      "paired_header_nonzero": 0,
+      "calibration_constant": true
+    }
+  },
+  "association": "nearest bag timestamp, <=25ms, tie ordered index",
+  "baseline_features": 1000,
+  "tracking_sampling": "every original RGB message; original timestamps",
+  "unpaired_policy": "zero depth, record tracking validity honestly",
+  "presentation_duration_s": 2098.463330423,
+  "playback_recorded_seconds_per_demo_second": 10,
+  "Stage20_reference_s": 1972.508,
+  "common_full_Stage20_coverage": false,
+  "GT": false,
+  "LiDAR": false,
+  "IMU": false,
+  "GNSS": false
+}

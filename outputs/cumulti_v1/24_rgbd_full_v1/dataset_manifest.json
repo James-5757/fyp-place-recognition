@@ -1,0 +1,575 @@
+{
+  "robots": {
+    "robot1": {
+      "RGB": {
+        "robot": "robot1",
+        "kind": "RGB",
+        "topic": "robot1/camera/color/image_raw",
+        "type": "sensor_msgs/msg/Image",
+        "topics": [
+          [
+            1,
+            "robot1/camera/color/camera_info",
+            "sensor_msgs/msg/CameraInfo"
+          ],
+          [
+            2,
+            "robot1/camera/color/image_raw",
+            "sensor_msgs/msg/Image"
+          ],
+          [
+            3,
+            "robot1/camera/color/metadata",
+            "realsense2_camera/msg/Metadata"
+          ]
+        ],
+        "frames": 9997,
+        "metadata_frames": 9997,
+        "archive": {
+          "archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+          "archive_bytes": 16873044643,
+          "archive_mtime_ns": 1788949451096482623,
+          "member": "robot1_main_campus_camera_rgb/robot1_main_campus_camera_rgb.db3",
+          "db_bytes": 30771412992,
+          "CRC32": "b1309376",
+          "CRC_validated_at_EOF": true,
+          "db_work_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot1/work/RGB.db3",
+          "temporary_storage": "disk",
+          "elapsed_s": 283.9948522578925
+        },
+        "calibration": {
+          "topic": "robot1/camera/color/camera_info",
+          "K": [
+            630.1983642578125,
+            0.0,
+            640.72998046875,
+            0.0,
+            629.69873046875,
+            415.41644287109375,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "D": [
+            -0.05718468502163887,
+            0.06778068095445633,
+            0.0007177605293691158,
+            0.00034092238638550043,
+            -0.021577496081590652
+          ],
+          "width": 1280,
+          "height": 800,
+          "distortion_model": "plumb_bob",
+          "frame_id": "robot1_camera_color_optical_frame"
+        },
+        "first_bag_ns": "1722894200722237916",
+        "last_bag_ns": "1722895200511398663",
+        "first_header_ns": "1722894200527811289",
+        "last_header_ns": "1722895200401253223",
+        "duration_s": 999.789160747,
+        "median_frequency_hz": 10.014499242365577,
+        "overall_frequency_hz": 9.998107993620788,
+        "bag_gap_ms": {
+          "count": 9996,
+          "min": 45.876735,
+          "median": 99.8552175,
+          "p95": 115.57394624999999,
+          "max": 249.858563
+        },
+        "bag_gaps_over_250ms": 0,
+        "header_nonincreasing": 0,
+        "header_gap_ms": {
+          "count": 9996,
+          "min": 95.911503,
+          "median": 100.005388,
+          "p95": 100.021362,
+          "max": 200.004101
+        },
+        "index_complete": true,
+        "header_parser_validated": true,
+        "extra": {
+          "image_encoding": "rgb8"
+        },
+        "GT": false,
+        "LiDAR": false,
+        "IMU": false
+      },
+      "DEPTH": {
+        "robot": "robot1",
+        "kind": "DEPTH",
+        "topic": "robot1/camera/depth/color/points",
+        "type": "sensor_msgs/msg/PointCloud2",
+        "topics": [
+          [
+            1,
+            "robot1/camera/extrinsics/depth_to_color",
+            "realsense2_camera/msg/Extrinsics"
+          ],
+          [
+            2,
+            "robot1/camera/depth/color/points",
+            "sensor_msgs/msg/PointCloud2"
+          ],
+          [
+            3,
+            "robot1/camera/depth/camera_info",
+            "sensor_msgs/msg/CameraInfo"
+          ],
+          [
+            4,
+            "robot1/camera/depth/metadata",
+            "realsense2_camera/msg/Metadata"
+          ]
+        ],
+        "frames": 8765,
+        "metadata_frames": 8765,
+        "archive": {
+          "archive": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+          "archive_bytes": 24940875791,
+          "archive_mtime_ns": 1788947789910803748,
+          "member": "robot1_main_campus_camera_depth/robot1_main_campus_camera_depth.db3",
+          "db_bytes": 66443415552,
+          "CRC32": "57a98337",
+          "CRC_validated_at_EOF": true,
+          "db_work_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot1/work/DEPTH.db3",
+          "temporary_storage": "disk",
+          "elapsed_s": 655.8564029401168
+        },
+        "calibration": {
+          "topic": "robot1/camera/depth/camera_info",
+          "K": [
+            420.3859558105469,
+            0.0,
+            425.4034423828125,
+            0.0,
+            420.3859558105469,
+            238.81822204589844,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "D": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "width": 848,
+          "height": 480,
+          "distortion_model": "plumb_bob",
+          "frame_id": "robot1_camera_depth_optical_frame"
+        },
+        "first_bag_ns": "1722894200716325970",
+        "last_bag_ns": "1722895200509760995",
+        "first_header_ns": "1722894200527811289",
+        "last_header_ns": "1722895200401253223",
+        "duration_s": 999.793435025,
+        "median_frequency_hz": 9.98652897133998,
+        "overall_frequency_hz": 8.765810709470056,
+        "bag_gap_ms": {
+          "count": 8764,
+          "min": 55.836235,
+          "median": 100.13489200000001,
+          "p95": 117.67959855000001,
+          "max": 7258.844765
+        },
+        "bag_gaps_over_250ms": 116,
+        "header_nonincreasing": 0,
+        "header_gap_ms": {
+          "count": 8764,
+          "min": 95.911503,
+          "median": 100.005627,
+          "p95": 100.0272863,
+          "max": 7201.414824
+        },
+        "index_complete": true,
+        "header_parser_validated": true,
+        "extra": {
+          "T_color_from_depth": {
+            "R": [
+              [
+                0.9999960660934448,
+                9.760445391293615e-05,
+                0.002803085371851921
+              ],
+              [
+                -9.520446474198252e-05,
+                0.9999996423721313,
+                -0.0008563152514398098
+              ],
+              [
+                -0.002803168026730418,
+                0.0008560450514778495,
+                0.9999957084655762
+              ]
+            ],
+            "t_m": [
+              -0.05910656228661537,
+              5.2732259064214304e-05,
+              0.0004884438822045922
+            ],
+            "storage": "column-major actual RealSense message"
+          },
+          "point_fields": [
+            {
+              "name": "x",
+              "offset": 0,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "y",
+              "offset": 4,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "z",
+              "offset": 8,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "rgb",
+              "offset": 16,
+              "datatype": 7,
+              "count": 1
+            }
+          ],
+          "point_frame": "robot1_camera_depth_optical_frame",
+          "native_depth_Image_topic": false
+        },
+        "GT": false,
+        "LiDAR": false,
+        "IMU": false
+      }
+    },
+    "robot3": {
+      "RGB": {
+        "robot": "robot3",
+        "kind": "RGB",
+        "topic": "robot3/camera/color/image_raw",
+        "type": "sensor_msgs/msg/Image",
+        "topics": [
+          [
+            1,
+            "robot3/camera/color/camera_info",
+            "sensor_msgs/msg/CameraInfo"
+          ],
+          [
+            2,
+            "robot3/camera/color/image_raw",
+            "sensor_msgs/msg/Image"
+          ],
+          [
+            3,
+            "robot3/camera/color/metadata",
+            "realsense2_camera/msg/Metadata"
+          ]
+        ],
+        "frames": 20977,
+        "metadata_frames": 20977,
+        "archive": {
+          "archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+          "archive_bytes": 33987903251,
+          "archive_mtime_ns": 1789379414616028784,
+          "member": "robot3_main_campus_camera_rgb/robot3_main_campus_camera_rgb.db3",
+          "db_bytes": 64568975360,
+          "CRC32": "f3f3c891",
+          "CRC_validated_at_EOF": true,
+          "db_work_path": "/dev/shm/fyp_rgbd_full_v1/robot3_RGB.db3",
+          "temporary_storage": "tmpfs",
+          "elapsed_s": 690.7429468976334
+        },
+        "calibration": {
+          "topic": "robot3/camera/color/camera_info",
+          "K": [
+            627.8040771484375,
+            0.0,
+            640.72998046875,
+            0.0,
+            627.3063354492188,
+            415.41644287109375,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "D": [
+            -0.05718468502163887,
+            0.06778068095445633,
+            0.0007177605293691158,
+            0.00034092238638550043,
+            -0.021577496081590652
+          ],
+          "width": 1280,
+          "height": 800,
+          "distortion_model": "plumb_bob",
+          "frame_id": "robot3_camera_color_optical_frame"
+        },
+        "first_bag_ns": "1722894200732167328",
+        "last_bag_ns": "1722896299195497751",
+        "first_header_ns": "1722894200605798006",
+        "last_header_ns": "1722896299062812090",
+        "duration_s": 2098.463330423,
+        "median_frequency_hz": 10.027196866332522,
+        "overall_frequency_hz": 9.995885892259905,
+        "bag_gap_ms": {
+          "count": 20976,
+          "min": 45.599273,
+          "median": 99.728769,
+          "p95": 113.33064925000001,
+          "max": 397.264952
+        },
+        "bag_gaps_over_250ms": 3,
+        "header_nonincreasing": 0,
+        "header_gap_ms": {
+          "count": 20976,
+          "min": 96.193552,
+          "median": 100.004912,
+          "p95": 100.019932,
+          "max": 200.562
+        },
+        "index_complete": true,
+        "header_parser_validated": true,
+        "extra": {
+          "image_encoding": "rgb8"
+        },
+        "GT": false,
+        "LiDAR": false,
+        "IMU": false
+      },
+      "DEPTH": {
+        "robot": "robot3",
+        "kind": "DEPTH",
+        "topic": "robot3/camera/depth/color/points",
+        "type": "sensor_msgs/msg/PointCloud2",
+        "topics": [
+          [
+            1,
+            "robot3/camera/depth/metadata",
+            "realsense2_camera/msg/Metadata"
+          ],
+          [
+            2,
+            "robot3/camera/depth/camera_info",
+            "sensor_msgs/msg/CameraInfo"
+          ],
+          [
+            3,
+            "robot3/camera/extrinsics/depth_to_color",
+            "realsense2_camera/msg/Extrinsics"
+          ],
+          [
+            4,
+            "robot3/camera/depth/color/points",
+            "sensor_msgs/msg/PointCloud2"
+          ]
+        ],
+        "frames": 19918,
+        "metadata_frames": 19918,
+        "archive": {
+          "archive": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip",
+          "archive_bytes": 53852908315,
+          "archive_mtime_ns": 1794081688692991792,
+          "member": "robot3_main_campus_camera_depth/robot3_main_campus_camera_depth.db3",
+          "db_bytes": 140031242240,
+          "CRC32": "047c2655",
+          "CRC_validated_at_EOF": true,
+          "db_work_path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/work/DEPTH.db3",
+          "temporary_storage": "disk",
+          "elapsed_s": 958.5160198193043
+        },
+        "calibration": {
+          "topic": "robot3/camera/depth/camera_info",
+          "K": [
+            420.3859558105469,
+            0.0,
+            425.4034423828125,
+            0.0,
+            420.3859558105469,
+            238.84803771972656,
+            0.0,
+            0.0,
+            1.0
+          ],
+          "D": [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          "width": 848,
+          "height": 480,
+          "distortion_model": "plumb_bob",
+          "frame_id": "robot3_camera_depth_optical_frame"
+        },
+        "first_bag_ns": "1722894200881230201",
+        "last_bag_ns": "1722896299189132654",
+        "first_header_ns": "1722894200707788706",
+        "last_header_ns": "1722896299062812090",
+        "duration_s": 2098.307902453,
+        "median_frequency_hz": 10.003584084105654,
+        "overall_frequency_hz": 9.491933941971189,
+        "bag_gap_ms": {
+          "count": 19917,
+          "min": 59.395729,
+          "median": 99.964172,
+          "p95": 113.27446360000002,
+          "max": 4808.453327
+        },
+        "bag_gaps_over_250ms": 117,
+        "header_nonincreasing": 0,
+        "header_gap_ms": {
+          "count": 19917,
+          "min": 96.193552,
+          "median": 100.005865,
+          "p95": 100.022793,
+          "max": 4500.106096
+        },
+        "index_complete": true,
+        "header_parser_validated": true,
+        "extra": {
+          "T_color_from_depth": {
+            "R": [
+              [
+                0.9999960660934448,
+                9.760445391293615e-05,
+                0.002803085371851921
+              ],
+              [
+                -9.520446474198252e-05,
+                0.9999996423721313,
+                -0.0008563152514398098
+              ],
+              [
+                -0.002803168026730418,
+                0.0008560450514778495,
+                0.9999957084655762
+              ]
+            ],
+            "t_m": [
+              -0.05910656228661537,
+              5.2732259064214304e-05,
+              0.0004884438822045922
+            ],
+            "storage": "column-major actual RealSense message"
+          },
+          "point_fields": [
+            {
+              "name": "x",
+              "offset": 0,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "y",
+              "offset": 4,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "z",
+              "offset": 8,
+              "datatype": 7,
+              "count": 1
+            },
+            {
+              "name": "rgb",
+              "offset": 16,
+              "datatype": 7,
+              "count": 1
+            }
+          ],
+          "point_frame": "robot3_camera_depth_optical_frame",
+          "native_depth_Image_topic": false
+        },
+        "GT": false,
+        "LiDAR": false,
+        "IMU": false
+      }
+    }
+  },
+  "decision": {
+    "status": "GO_COMPLETE_AVAILABLE_RECORDINGS",
+    "robots": {
+      "robot1": {
+        "rgb_frames": 9997,
+        "depth_frames": 8765,
+        "duration_s": 999.789160747,
+        "paired": 8765,
+        "paired_fraction": 0.8767630289086726,
+        "paired_unique_depth_frames": 8765,
+        "depth_used_fraction": 1.0,
+        "sync_ms": {
+          "count": 9997,
+          "min": 2.6e-05,
+          "median": 1.570423,
+          "p95": 480.59617659999986,
+          "max": 3601.262765
+        },
+        "paired_sync_ms": {
+          "count": 8765,
+          "min": 2.6e-05,
+          "median": 1.38209,
+          "p95": 6.207007199999996,
+          "max": 24.333525
+        },
+        "paired_header_sync_ms": {
+          "count": 8765,
+          "min": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "paired_header_nonzero": 0,
+        "calibration_constant": true
+      },
+      "robot3": {
+        "rgb_frames": 20977,
+        "depth_frames": 19918,
+        "duration_s": 2098.463330423,
+        "paired": 19918,
+        "paired_fraction": 0.9495161367211709,
+        "paired_unique_depth_frames": 19918,
+        "depth_used_fraction": 1.0,
+        "sync_ms": {
+          "count": 20977,
+          "min": 1e-06,
+          "median": 1.514398,
+          "p95": 77.41540040000002,
+          "max": 2366.118116
+        },
+        "paired_sync_ms": {
+          "count": 19918,
+          "min": 1e-06,
+          "median": 1.418429,
+          "p95": 7.259302799999999,
+          "max": 24.803494
+        },
+        "paired_header_sync_ms": {
+          "count": 19918,
+          "min": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "paired_header_nonzero": 0,
+        "calibration_constant": true
+      }
+    },
+    "association": "nearest bag timestamp, <=25ms, tie ordered index",
+    "baseline_features": 1000,
+    "tracking_sampling": "every original RGB message; original timestamps",
+    "unpaired_policy": "zero depth, record tracking validity honestly",
+    "presentation_duration_s": 2098.463330423,
+    "playback_recorded_seconds_per_demo_second": 10,
+    "Stage20_reference_s": 1972.508,
+    "common_full_Stage20_coverage": false,
+    "GT": false,
+    "LiDAR": false,
+    "IMU": false,
+    "GNSS": false
+  }
+}

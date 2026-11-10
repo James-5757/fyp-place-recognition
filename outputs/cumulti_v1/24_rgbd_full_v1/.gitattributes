@@ -1,0 +1,4 @@
+*.json -text
+*.csv -text whitespace=cr-at-eol
+*.jpg binary
+*.png binary

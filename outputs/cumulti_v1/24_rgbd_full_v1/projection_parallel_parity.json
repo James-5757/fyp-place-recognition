@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "robot": "robot1",
+      "index": 0,
+      "sha256": "8339f360ed8f2a868bfabb02a959bf4124965558c6d452cf55c4eed5659fe665",
+      "matches": true
+    },
+    {
+      "robot": "robot1",
+      "index": 50,
+      "sha256": "9482e07e69fbd6091e2abd1fa1be65ca0c4295b2667d8b9b661a72679eee76d8",
+      "matches": true
+    },
+    {
+      "robot": "robot1",
+      "index": 100,
+      "sha256": "424e5b39f9f6d46f5761f0e2e4177f3c07685424ba8a9b52dcab335858611d49",
+      "matches": true
+    },
+    {
+      "robot": "robot3",
+      "index": 1,
+      "sha256": "c3386873a43651ec306fdad55810c7c81337b481ef574ecf16693a9f8b9c4b4e",
+      "matches": true
+    },
+    {
+      "robot": "robot3",
+      "index": 51,
+      "sha256": "c5766fe40368e0cc84c189f78817e0b8be8acd7f60be5b76c8f4a48524cb77d0",
+      "matches": true
+    },
+    {
+      "robot": "robot3",
+      "index": 101,
+      "sha256": "bb9b720ef974933416dca053d965517bddc24ebdcae44847e1878cdf9339e529",
+      "matches": true
+    }
+  ],
+  "tracking_restarted": false
+}

@@ -345,3 +345,10 @@ Dual-robot fusion not run because stability gate failed. Diagnose tracking/depth
 ## RGB-D loss-cause audit (2026-11-10)
 
 Offline native feature/source audit confirms tracking loss, not missing data: roughly3s relocalization timeout then map restart/reset. All7 first-bad images retain many native keypoints and adjacent 2D geometric matches; native map/PnP inlier diagnostics are still missing, so the unique initial failure cause is unresolved. Robot3 baseline atRGB-D frame255: saved map associations117→22,1006 native features,269 with depth,237 independent adjacent F inliers. No SLAM/GT/fusion rerun or frozen result change. See docs/CUMULTI_RGBD_LOSS_ROOTCAUSE_AUDIT.md.
+
+
+## 2026-11-10 — Complete RGB-D archive audit and full-run launch
+
+Objective: replace the bounded pilot assumption with a complete camera-only input audit. All four RGB/depth archive DBs passed EOF CRC and metadata counts; every recorded calibration message was inspected and constant. Robot1: 9997 RGB / 8765 depth clouds over 999.789160747 s; Robot3: 20977 / 19918 over 2098.463330423 s. Paired RGB fractions under the existing 25 ms bag-time gate are 0.876763 / 0.949516; all paired original header differences are zero. Exact timestamps, frequencies, gaps, calibration and provenance: docs/CUMULTI_RGBD_FULL_DATA_AUDIT.md and outputs/cumulti_v1/24_rgbd_full_v1/.
+
+Independent full original-rate 1000-feature native RGB-D tracking was launched from each recording's start, with no 120-second stop. Unknown depth stays zero; tracking and dense maps preserve independent reset gauges. At this checkpoint full tracking/rendering/bridge qualification remains IN PROGRESS. Native tracking was not restarted when deterministic depth preprocessing was parallelized; six sequential/parallel PNGs matched byte-for-byte. No LiDAR, IMU, GNSS or GT inputs; historical results are preserved.

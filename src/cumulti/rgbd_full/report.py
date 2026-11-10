@@ -1,0 +1,62 @@
+"""Artifact validation and truthful reporting; rendering never implies tracking continuity."""
+import csv,json,subprocess,sys
+import numpy as np
+import cv2
+from scipy.spatial.transform import Rotation
+from common import *
+
+def run():
+ sys.addaudithook(guard);audit=json.loads((OUT/'audit_decision.json').read_text());mapping=json.loads((OUT/'dense_mapping_complete.json').read_text());fusion=json.loads((OUT/'fusion/fusion_decision.json').read_text())
+ checks={};metrics={};assets=[];motion_summary={}
+ for robot in ['robot1','robot3']:
+  out=OUT/robot;d=json.loads((SITE/robot/'data.json').read_text());m=json.loads((out/'tracking_metrics.json').read_text());metrics[robot]=m
+  poses=list(csv.DictReader((out/'camera_poses.csv').open()));pairs=list(csv.DictReader((out/'sync_pairs.csv').open()));n=audit['robots'][robot]['rgb_frames']
+  checks[robot+'_FULL_NATIVE_FRAME_COUNT']=len(poses)==len(pairs)==len(d['frames'])==m['frames']==n
+  checks[robot+'_NO_MISSING_OR_DUPLICATE_IDS']=[int(p['index']) for p in poses]==list(range(n))
+  checks[robot+'_MONOTONIC_ORIGINAL_BAG_TIMESTAMPS']=bool(np.all(np.diff([int(p['rgb_bag_ns']) for p in pairs])>0))
+  checks[robot+'_INVALID_POSES_NOT_FABRICATED']=all(all(p[k]=='' for k in ['tx','ty','tz','qx','qy','qz','qw']) for p in poses if p['valid_pose']!='1')
+  checks[robot+'_SEPARATE_EPOCHS']=len({int(p['map_epoch']) for p in poses if p['valid_pose']=='1'})==m['map_epochs']
+  for e in d['epochs']:
+   x=np.fromfile(SITE/e['files']['xyz.f32'],dtype='<f4');c=np.fromfile(SITE/e['files']['rgb.u8'],dtype=np.uint8);first=np.fromfile(SITE/e['files']['first.u32'],dtype='<u4')
+   assert len(x)==len(c)==3*len(first) and np.isfinite(x).all() and np.all(np.diff(first.astype(np.int64))>=0)
+   assert all(poses[int(i)]['valid_pose']=='1' and int(poses[int(i)]['map_epoch'])==e['epoch'] for i in np.unique(first))
+  checks[robot+'_REAL_ORDERED_POINT_GROWTH']=True
+  checks[robot+'_RGB_PREVIEW_ORIGINAL_TIMES']=all(d['frames'][p['index']]['t']==p['t'] for p in d['previews'])
+  motion=[]
+  for previous,current in zip(poses,poses[1:]):
+   if previous['valid_pose']!='1' or current['valid_pose']!='1' or previous['map_epoch']!=current['map_epoch']:continue
+   distance=float(np.linalg.norm([float(current[k])-float(previous[k]) for k in ['tx','ty','tz']]));dt=(int(current['relative_ns'])-int(previous['relative_ns']))/1e9
+   angle=float(np.rad2deg((Rotation.from_quat([float(previous[k]) for k in ['qx','qy','qz','qw']]).inv()*Rotation.from_quat([float(current[k]) for k in ['qx','qy','qz','qw']])).magnitude()))
+   motion.append(dict(index=int(current['index']),relative_s=int(current['relative_ns'])/1e9,epoch=int(current['map_epoch']),translation_m=distance,speed_m_s=distance/dt,rotation_deg=angle,flag=distance>2 or distance/dt>10 or angle>45))
+  writecsv(out/'adjacent_motion_audit.csv',motion,['index','relative_s','epoch','translation_m','speed_m_s','rotation_deg','flag'])
+  motion_summary[robot]=dict(flagged=sum(r['flag'] for r in motion),translation_m=stats([r['translation_m'] for r in motion]),rotation_deg=stats([r['rotation_deg'] for r in motion]),scope='offline camera-pose integrity diagnostics; no pose deletion, no GT')
+  for artifact in json.loads((out/'map_artifact_manifest.json').read_text()):
+   p=ROOT/artifact['path'];assert p.stat().st_size==artifact['bytes'] and sha(p)==artifact['sha256'];assets.append(artifact)
+  for p in d['previews']:
+   file=SITE/p['file'];assert file.stat().st_size==p['bytes'] and sha(file)==p['sha256']
+  checks[robot+'_ASSET_HASHES']=True
+ browserpath=OUT/'browser_validation/browser_validation.json';browser=json.loads(browserpath.read_text()) if browserpath.exists() else None
+ checks['NO_INTER_EPOCH_GLUING']=not fusion['unrelated_epochs_glued']
+ checks['CAMERA_ONLY_TRACKING']=all(not m[k] for m in metrics.values() for k in ['GT','LiDAR','IMU','GNSS'])
+ checks['HISTORICAL_RESULTS_NOT_REUSED_AS_FULL_RUN']=all(json.loads((OUT/r/'tracking_started.json').read_text())['frames']==audit['robots'][r]['rgb_frames'] for r in metrics)
+ status='PASS_SEGMENTED_FULL_AVAILABLE_RECORDINGS' if all(checks.values()) and browser and browser['status']=='PASS' else 'RENDER_VALIDATION_PENDING' if all(checks.values()) and not browser else 'FAIL'
+ for artifact in json.loads((OUT/'fusion/verified_epoch_map_manifest.json').read_text()):
+  assert (ROOT/artifact['path']).stat().st_size==artifact['bytes'] and sha(ROOT/artifact['path'])==artifact['sha256'];assets.append(artifact)
+ result=dict(status=status,checks=checks,audit=audit,tracking=metrics,mapping=mapping,fusion=fusion,browser_status=browser['status'] if browser else 'NOT_RUN',continuous_full_single_map={r:m['continuous_single_gauge'] for r,m in metrics.items()},motion_diagnostics=motion_summary,scope='full processing and segmented demo; not a claim of uninterrupted tracking or complete global fusion')
+ dump(OUT/'validation.json',result);dump(OUT/'presentation_artifact_manifest.json',assets)
+ sourcefiles=list((ROOT/'src/cumulti/rgbd_full').glob('*.py'))+list((ROOT/'src/cumulti/rgbd_full').glob('*.cc'))+[ROOT/'scripts/build_rgbd_full.sh',ROOT/'scripts/run_rgbd_full.sh',ROOT/'src/cumulti/rgbd_demo/export.py']
+ dump(OUT/'run_provenance.json',dict(python=sys.version,executable=sys.executable,opencv_python=cv2.__version__,numpy=np.__version__,native_opencv=subprocess.check_output(['pkg-config','--modversion','opencv4'],text=True).strip(),source_sha256={str(p.relative_to(ROOT)):sha(p) for p in sourcefiles},native_dependencies={r:json.loads((OUT/r/'tracking_started.json').read_text()) for r in metrics},raw_archives_modified=False))
+ lines=[f'STATUS: {status}','FULL_DATA_AUDIT: PASS','FULL_NATIVE_RATE_TRACKING_COMPLETENESS: '+('PASS' if all(checks.values()) else 'FAIL'),'RGB-D_GEOMETRY: actual measurements, calibration unchanged','MAP_EPOCHS: independent gauges; no pose filling or unrelated-epoch gluing',f'CONDITIONAL_RGBD_BRIDGE: {fusion["status"]}',f'BROWSER: {browser["status"] if browser else "NOT_RUN"}','CONTINUOUS_SINGLE_MAP: '+json.dumps(result['continuous_full_single_map']),'HISTORICAL_STAGE20_AND_P5_P6: not modified','LIVE_OR_SIMULTANEOUS_DUAL_ROBOT_CLAIM: NONE']
+ (OUT/'VALIDATION_REPORT.txt').write_text('\n'.join(lines)+'\n')
+ doc=['# Full-duration camera-only RGB-D mapping','',f'Processing / segmented-demo status: **{status}**. Rendering acceptance and uninterrupted tracking are separate qualifications.','', '## Full source audit','', '| Robot | RGB frames | Depth clouds | RGB duration (s) | Paired RGB fraction |','|---|---:|---:|---:|---:|']
+ for r,s in audit['robots'].items():doc.append(f"| {r} | {s['rgb_frames']} | {s['depth_frames']} | {s['duration_s']:.9f} | {s['paired_fraction']:.6f} |")
+ doc+=['','Full archive CRC and all CameraInfo/extrinsics messages were checked. Exact original bag/header timestamps, gaps >150 ms, frequencies and nearest-depth differences are in `full_data_audit.csv`, `timestamp_gaps.csv` and per-robot `sync_pairs.csv`. RGB/depth association uses bag time within 25 ms; this does not certify hardware exposure synchronization.','', 'Robot1 does not contain 1972.5 seconds of camera recording. The presentation retains both complete available streams, ending at the longer camera duration; Robot1 explicitly freezes as RECORDING COMPLETE. The Stage20-time jump is a reference, not manufactured coverage.','', '## Tracking and resets','', '| Robot | Valid / total | Valid ratio | Map epochs | Native wall (s) | Peak RSS (MiB) |','|---|---:|---:|---:|---:|---:|']
+ for r,m in metrics.items():doc.append(f"| {r} | {m['valid_frames']}/{m['frames']} | {m['valid_ratio']:.6f} | {m['map_epochs']} | {m['wall_s']:.3f} | {m['peak_RSS_MiB']} |")
+ doc+=['', 'Each robot ran independently from its actual recording start at the original RGB message rate, paced by original bag-time differences. The baseline is 1000 native ORB features, established 640×400 scaled color calibration, original distortion coefficients, actual factory depth-to-color extrinsics and the frozen .3–10 m projection range. Missing depth is zero/unknown, never completed.','', 'Valid poses require native tracking state OK, finite SE(3), and a dominant non-bad MapPoint map vote of at least 0.8. Map ID plus Map.GetInitKFid identifies observed native gauge changes. Every observed transition starts a new conservative Map Epoch, including active-map resets that reuse a map ID. Invalid poses stay blank. See per-frame poses, reset events and loss intervals.','', 'The native library/SDK were not modified. Source, binary, vocabulary and native library hashes are recorded. Native file-access traces are checked for forbidden sensor/GT paths. Native asynchronous mapping is not claimed bitwise deterministic.','', '## Dense map and presentation','', 'RGB-colored points are back-projected with undistorted color-camera rays and measured aligned depth, transformed by their recorded online camera Twc. Mapping samples 1 Hz with pixel stride 8 and 0.1 m first-observation voxels; browser LOD uniformly spans every epoch. Points retain first-frame IDs, and the renderer reveals only points available at the selected original frame. Each epoch has its own binary PLY and hash. No cross-epoch pose glue is introduced.','', 'The optical gauge is not gravity-aligned. Dense samples are not retrospectively reprojected after later bundle adjustment; this limits long-sequence map consistency. This is not a new optimized dense SLAM backend.','', 'The demo preserves two independently clocked RGB-D local-map panels. It includes 10:1 compression, 0.5/1/2/4 speed, play/pause/reset/seek, RGB previews at 2 Hz, loss markers, epoch selection and 3D orbit/pan/zoom. RGB prefetch is bounded; map GPU resources use a two-epoch cache per robot and dispose evicted buffers. A shorter stream ends visibly.','', '## Conditional bridge study','',f"Decision: **{fusion['status']}**. A bounded offline RGB-only BoW search tested {fusion['tested_pairs']} proposals; {fusion['single_pair_passes']} passed single-pair metric RGB-D geometry.",'', 'The protocol was fixed in source before the full tracking results. A bridge requires multiple distinct RGB-D pairs with consistent metric transforms in the same two epochs, sufficient temporal span and bidirectional reprojection checks. Search uses no LiDAR, old Scan Context loops, GT, IMU or GNSS. The bounded search does not prove absence of a common place. Verified pairs, if any, apply only to those epochs and do not imply full-recording fusion.','', '## Reproduction and assets','', 'From repository root: `bash scripts/run_rgbd_full.sh`; post-tracking: `python src/cumulti/rgbd_full/finalize.py`. Use `/home/cas/.venvs/fyp_stage24/bin/python`. Raw data and native SDK are server dependencies; no redownload is required. Serve the whole `demo/` directory and open `/stage24_full_rgbd/` over HTTP.','', 'Source, audit, lightweight results and asset manifests belong in Git. Full preview image sequences, raw databases, native binaries and full PLY files remain server-only. `presentation_rgb_manifest.json` and `map_artifact_manifest.json` record sizes and hashes. Historical 12 s / 120 s experiments, Stage20, P5/P6 and the SLAM research baselines are preserved.','', '## Validation','', *[f'- {k}: {"PASS" if v else "FAIL"}' for k,v in checks.items()],f'- Browser: {browser["status"] if browser else "NOT_RUN"}']
+ if browser:doc+=['',f"Measured browser loading: {browser['loading_s']:.3f} s; software-WebGL idle rendering: {browser['measured_idle_render_fps']:.2f} FPS. These measurements are machine-specific, not a real-time SLAM claim."]
+ doc+=['','## Adjacent-pose integrity diagnostics','', 'Trajectory line rendering breaks at tracking losses, epoch boundaries and abrupt adjacent changes (>2 m, >10 m/s or >45°). This is a visualization safeguard, not a new pose estimate or an artificial map reset. All original recorded poses and map samples remain available.','',*[f"- {r}: {s['flagged']} flagged adjacent changes within valid same-epoch pose pairs." for r,s in motion_summary.items()],'','Native scheduling follows original camera timestamps but waits for missing prepared depth files; startup/preprocessing waits are included in measured wall time. Input timestamp frequency must not be confused with achieved wall-clock throughput.']
+ path=ROOT/'docs/CUMULTI_STAGE24_FULL_RGBD_MAPPING.md';path.write_text('\n'.join(doc)+'\n')
+ (OUT/'summary.txt').write_text('\n'.join(lines)+'\n')
+ print(status,flush=True)
+
+if __name__=='__main__':run()
