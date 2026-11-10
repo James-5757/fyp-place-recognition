@@ -1,0 +1,56 @@
+[
+  {
+    "robot": "robot1",
+    "index": 345,
+    "baseline_same_RGB_frame_tracked": true,
+    "baseline_native_features": 1003,
+    "fallback_native_features": 1933,
+    "baseline_depth_features": 234,
+    "fallback_depth_features": 379
+  },
+  {
+    "robot": "robot1",
+    "index": 377,
+    "baseline_same_RGB_frame_tracked": true,
+    "baseline_native_features": 1004,
+    "fallback_native_features": 1968,
+    "baseline_depth_features": 227,
+    "fallback_depth_features": 427
+  },
+  {
+    "robot": "robot1",
+    "index": 957,
+    "baseline_same_RGB_frame_tracked": true,
+    "baseline_native_features": 1005,
+    "fallback_native_features": 2003,
+    "baseline_depth_features": 288,
+    "fallback_depth_features": 537
+  },
+  {
+    "robot": "robot1",
+    "index": 989,
+    "baseline_same_RGB_frame_tracked": true,
+    "baseline_native_features": 1004,
+    "fallback_native_features": 1984,
+    "baseline_depth_features": 325,
+    "fallback_depth_features": 526
+  },
+  {
+    "robot": "robot3",
+    "index": 9,
+    "baseline_same_RGB_frame_tracked": true,
+    "baseline_native_features": 1006,
+    "fallback_native_features": 2005,
+    "baseline_depth_features": 434,
+    "fallback_depth_features": 924
+  },
+  {
+    "robot": "robot3",
+    "index": 327,
+    "baseline_same_RGB_frame_tracked": true,
+    "baseline_native_features": 1007,
+    "fallback_native_features": 2005,
+    "baseline_depth_features": 705,
+    "fallback_depth_features": 1445
+  }
+]

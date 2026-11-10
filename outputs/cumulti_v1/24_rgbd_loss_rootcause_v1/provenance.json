@@ -1,0 +1,21 @@
+{
+  "source_hashes": {
+    "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/Tracking.cc": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/Frame.cc": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/ORBextractor.cc": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/include/Tracking.h": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/lib/libORB_SLAM3.so": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252"
+  },
+  "original_result_checkpoint": "6f57e358188d6a536026aa0944d7b6d308743b2b",
+  "original_artifacts_unchanged": 61,
+  "SDK_modified_by_this_audit": false,
+  "SDK_preexisting_changes_preserved": true,
+  "native_feature_process": "ORBextractor + depth lookup + adjacent image matching only; no System/TrackRGBD call",
+  "source_locations": {
+    "relocalization_timeout": "Tracking.cc:2006 (RGB-D >3.0s; the5s field belongs to inertial branch)",
+    "tracking_message": "Tracking.cc:2131 (generic bOK failure, not proof TrackLocalMap was called)",
+    "local_inlier_tests": "Tracking.cc:3029-3065 (50 near recent relocalization; nominal RGB-D30)",
+    "depth_lookup": "Frame.cc:984-1006 (float keypoint to integer pixel truncation)"
+  },
+  "GT": false
+}

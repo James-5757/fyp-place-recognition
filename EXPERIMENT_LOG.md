@@ -341,3 +341,7 @@ PASS_AUDIT. Frozen pre-fusion decision: NO_GO_RGBD_FUSION. Each robot uses120s a
 
 robot1 baseline1000: 1200/1200 tracked, 0 frame change(s), gate PASS; robot1 fallback2000: 1136/1200 tracked, 4 frame change(s), gate FAIL; robot3 baseline1000: 1168/1200 tracked, 1 frame change(s), gate FAIL; robot3 fallback2000: 1137/1200 tracked, 2 frame change(s), gate FAIL.
 Dual-robot fusion not run because stability gate failed. Diagnose tracking/depth/motion before a separately documented revised experiment; do not lower the frozen gate or join reset maps. No further download is required for this cohort.
+
+## RGB-D loss-cause audit (2026-11-10)
+
+Offline native feature/source audit confirms tracking loss, not missing data: roughly3s relocalization timeout then map restart/reset. All7 first-bad images retain many native keypoints and adjacent 2D geometric matches; native map/PnP inlier diagnostics are still missing, so the unique initial failure cause is unresolved. Robot3 baseline atRGB-D frame255: saved map associations117→22,1006 native features,269 with depth,237 independent adjacent F inliers. No SLAM/GT/fusion rerun or frozen result change. See docs/CUMULTI_RGBD_LOSS_ROOTCAUSE_AUDIT.md.

@@ -1,0 +1,230 @@
+{
+  "files": [
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/provenance.json",
+      "bytes": 1490,
+      "sha256": "3c7d8c09b077442691d37cf1dca0ad1029b17eddecaa18ffefad3790862222eb"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/diagnostic_policy.json",
+      "bytes": 965,
+      "sha256": "dcbac83122a942cdcb30a7e48951f5746f6064b3a93c504af6c028175a7b4f3c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/diagnosis.json",
+      "bytes": 8291,
+      "sha256": "1b17754e91c938cb42b790c7288e7099486d231f39d6c0049d8dbc646cd1185d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/loss_episode_evidence.csv",
+      "bytes": 2069,
+      "sha256": "3f14e8a4c1b2809c4f2031ccbe5550c727657e28b1e8ea6a7dc5f4f152364b2d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/same_image_capacity_comparison.json",
+      "bytes": 1454,
+      "sha256": "f3054e938f191186b4bf4e0c98067f7285fd85948da6fa29f704a0b72d846eac"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/native_feature_support.csv",
+      "bytes": 110548,
+      "sha256": "f369c4e374c57ee4fe9b93fe89a7b0a2735d37766f20927c939e508a12b4b851"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/native_complete.json",
+      "bytes": 148,
+      "sha256": "daa69a302db946281363008a03a77816af51d034c5f18a8cc9201f127c52b774"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_957.jpg",
+      "bytes": 102303,
+      "sha256": "7f26adec72fdf31f7b1675c664e22409254246e868b143378ec592c704c520da"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_378.jpg",
+      "bytes": 105704,
+      "sha256": "340dcf8a18717e5f3b4759af171f0c0638d7988537be7b01181f6c8f83f8e04e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_326.jpg",
+      "bytes": 130885,
+      "sha256": "d647a23156287823124683a4c89cf5dbb37795161e4922ae33da852d823704d4"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_255.jpg",
+      "bytes": 107291,
+      "sha256": "802e5ecd071760812970e5feecc3e9528d4a6898173882a3d20ee148a05849a9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_327.jpg",
+      "bytes": 115455,
+      "sha256": "8d385984f54c5f28b23f511a3a9d9ec6364c65b7a0d4c9e4a8cba85f596fefcc"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_345.jpg",
+      "bytes": 93792,
+      "sha256": "3fd7d0a15aed97b84a0c748a4f262b187d59b5e1d9d3d1e0f046656ffa529265"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_956.jpg",
+      "bytes": 103265,
+      "sha256": "0da1c14e589dc1e11ba20df0e8cd209fd94af12dfea01ae2e4f93dd394895031"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_40.jpg",
+      "bytes": 117286,
+      "sha256": "914bee8e1eabf31fb4132978698649d63139ecb3c9a8d301f800098a452fbfde"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_8.jpg",
+      "bytes": 117537,
+      "sha256": "0c89d019dca48b2c8d8aab4f04d4eb85e6168b46bf7377744d9cef76da39e89c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_254.jpg",
+      "bytes": 117989,
+      "sha256": "825a2d365e150b1b41030d51c5901c9f389db9c095aef9a161d520087d17f00e"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_990.jpg",
+      "bytes": 96654,
+      "sha256": "cffe2386ca7142d7c131673ff8199bebdb0f6708c75cf3d001a057ce93db3186"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_359.jpg",
+      "bytes": 113556,
+      "sha256": "dbecbe7566af9b73be7da8c92c1d28c512c3f024c39c4cdd23e6d0170724bc65"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_40.jpg",
+      "bytes": 131415,
+      "sha256": "26b654bb81f3f7adc53b073c91e0a3c31c1e34c9503d07a7c1ef368d489c1e7c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_9.jpg",
+      "bytes": 119421,
+      "sha256": "cc4cf7acd5ca72a2fa6fbb4ebd52fa4a0d84dc5954d7b28e58c73556898b813a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_254.jpg",
+      "bytes": 107800,
+      "sha256": "a7bf7db83fb337d58ad880339c5fc81457b033519e6cd6821f9d97568449b07a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_957.jpg",
+      "bytes": 93363,
+      "sha256": "55518376837f7101676825ddc231f03c10a044ed301828fec3b285952c1e643a"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_990.jpg",
+      "bytes": 105645,
+      "sha256": "8216e1121ccf89bec09fedc37b2e619f301f878eae90043fa7c9d8ab1373ab73"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_255.jpg",
+      "bytes": 118133,
+      "sha256": "1249cc74bb0fcd6562323b9a8c1fb4850afb87a5df89d77ac3691b70705ad72d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_377.jpg",
+      "bytes": 106945,
+      "sha256": "32ac5a12c73b8be225ccf208360b666c755d9cf22993d42c06e66e02639aa42b"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_988.jpg",
+      "bytes": 97111,
+      "sha256": "12ad287a4dd2d89b1ae17185896280264b9c436bbd46295a9a595af2c5a933ac"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_378.jpg",
+      "bytes": 95239,
+      "sha256": "4608b224912b58c8b3d748028296c296918a9cd2fabcb3dd51d2cf6a5d4b5f83"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_956.jpg",
+      "bytes": 94793,
+      "sha256": "5acfbef8de2c5b63ed6005f3e97520ce2cd40111e84d22dbb4230ebdfc3d9aa6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_989.jpg",
+      "bytes": 105251,
+      "sha256": "eb23ce73d6d37dc6701ff8b38a61ae6228f8e6856ca67ed8ea485eedfca3a2bd"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_344.jpg",
+      "bytes": 94345,
+      "sha256": "490e1f87f0dd226a4cef60696914ba96f92e2b983dea3a8859e777f602012ae0"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_8.jpg",
+      "bytes": 130206,
+      "sha256": "7b1e1c5a1f0da29ddd14172d5bdd28cda9f8a6142743e03eeafe4aa433696388"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_326.jpg",
+      "bytes": 116586,
+      "sha256": "3f6ed831027d6262401f0289f6718f1f6bc35cdee441c76f80de0dd1d9652e96"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_287.jpg",
+      "bytes": 122356,
+      "sha256": "4be1ceb8b7b2a03eb9acafc3cb2e24aacff802e9d3f7f8fb6b8a450e70c2ca43"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_1000_287.jpg",
+      "bytes": 108799,
+      "sha256": "848c73873d2e3f6db8cb5b3afccf95ee018933dae3459ae4eb6f4fec00dd9867"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_376.jpg",
+      "bytes": 94084,
+      "sha256": "478ae0edb18faa9a3cc639bcd9c903e6b435913126943167785c3e77dad26fc1"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_377.jpg",
+      "bytes": 95430,
+      "sha256": "e3ee0e9fa0a6e5e91d4acb997df6dbb5a7d733f3ff9b659bd3db7eb7e5a8889c"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_9.jpg",
+      "bytes": 132967,
+      "sha256": "84153e6c71ae7a2f05f7efce581fed06213d4232362516d09a7061de5d539bf6"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_345.jpg",
+      "bytes": 85592,
+      "sha256": "c60b20a41f564b1c90093f8e9b69bc9abd92693ce0ef2441dcd36f1019d36793"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_327.jpg",
+      "bytes": 129553,
+      "sha256": "8b27769fe096d88ce4968f497ef24e65a605e129f558d624d2940f0b47a4482d"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_376.jpg",
+      "bytes": 105407,
+      "sha256": "371b40063ff2574189e3e0b16cfffe76bbaeb573f9217bbab65f517a0ffa06cd"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_344.jpg",
+      "bytes": 85448,
+      "sha256": "dbbae17be9e66960a3af4a3443dffe6cef97b974f0259662af3f4b8a53227169"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_2000_988.jpg",
+      "bytes": 106837,
+      "sha256": "3f77ad6c12b6f9ccc9ad7d017560397bf09150fdb213235023291c8cb71ff1e5"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot1_1000_989.jpg",
+      "bytes": 95548,
+      "sha256": "fb068a84f3b2ca2783c3e533e92cf400f2e2a49cb33332f467a65dcb570e36c9"
+    },
+    {
+      "path": "outputs/cumulti_v1/24_rgbd_loss_rootcause_v1/overlays/robot3_2000_359.jpg",
+      "bytes": 126130,
+      "sha256": "d588c4cee0e36887ec4c6d4f267266a82d79327edde3b988c18957fc4c4b245b"
+    }
+  ],
+  "SLAM_rerun": false
+}

@@ -1,0 +1,18 @@
+{
+  "selection": "all7 lost intervals \u00b120 frames, plus every10th frame control; both native feature capacities on identical images",
+  "sampling": "failure-conditioned post-hoc diagnostics, not a new unbiased accuracy benchmark",
+  "selected_frames": {
+    "robot1": 252,
+    "robot3": 304
+  },
+  "extractor": "actual linked ORB-SLAM3 ORBextractor; saved YAML1000/2000,1.2,8,20/7",
+  "depth_lookup": "truncate pixel coordinates exactly as Frame::ComputeStereoFromRGBD; explicit rounded lookup disagreement also counted",
+  "close_depth": "saved Stereo.b * Stereo.ThDepth =2m, virtual native close/far threshold",
+  "stable_patch": "3x3 all nonzero and depth span<=0.1m; diagnostic only, no filter applied",
+  "pair_matching": "consecutive selected original frames only; mutual Hamming ratio0.75; undistorted fundamental RANSAC1.5px,.99,seed20261110",
+  "SLAM_rerun": false,
+  "new_poses": false,
+  "retrieval": false,
+  "GT": false,
+  "core_modified": false
+}
