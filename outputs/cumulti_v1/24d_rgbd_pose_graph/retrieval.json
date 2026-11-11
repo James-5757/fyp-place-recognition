@@ -1,0 +1,10 @@
+{
+  "keyframes": 3648,
+  "epoch_pairs": 325,
+  "epoch_pairs_with_candidates": 321,
+  "candidates": 2231,
+  "keyframe_interval_ns": 750000000,
+  "top_k": 12,
+  "same_robot_exclusion_ns": 2000000000,
+  "per_endpoint_diversity_ns": 1000000000
+}

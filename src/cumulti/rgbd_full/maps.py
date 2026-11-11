@@ -20,6 +20,7 @@ def build(robot, *, output_root=OUT, asset_root=SITE, reuse_rgb=False):
  frames=[];preview=[];last_preview=-1e9;last_map={};clouds={};counts={};manifest=[]
  for i,(p,s) in enumerate(zip(poses,pairs)):
   t=int(p['relative_ns'])/1e9;good=p['valid_pose']=='1';epoch=int(p['map_epoch']);frame=dict(index=i,t=t,valid=good,epoch=epoch,map_id=int(p['map_id']),map_init_kf=int(p['map_init_kf']),rgb_bag_ns=s['rgb_bag_ns'],rgb_header_ns=s['rgb_header_ns'],paired=s['paired']=='True',sync_ms=float(s['bag_sync_ms']))
+  if 'original_epoch' in p:frame['original_epoch']=int(p['original_epoch'])
   if good:
    frame['pose']=[float(p[k]) for k in ['tx','ty','tz','qx','qy','qz','qw']]
    if frames and frames[-1]['valid'] and frames[-1]['epoch']==epoch:

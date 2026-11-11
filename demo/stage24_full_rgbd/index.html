@@ -1,7 +1,10 @@
 <!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CU-Multi · Full camera RGB-D replay</title><link rel="stylesheet" href="style.css"></head>
 <body><header><div class="eyebrow">CU-MULTI · FULL AVAILABLE CAMERA RECORDINGS</div><h1>Two cameras. Independent RGB-D maps.</h1><p>No LiDAR, IMU, GNSS or GT in tracking. Separate recordings · independently normalized sensor clocks · not live.</p></header>
+<nav class="heading" aria-label="Replay modes"><a href="./">Verified Atlas View</a><a href="?raw=1">Raw Epoch View</a><a href="?atlas=1">Stage24 baseline</a></nav>
 <div id="status" role="status">Loading full-duration presentation assets…</div>
+<p id="bridge-event" role="status" hidden></p>
+<details id="graph-info" hidden><summary>Connected and unconnected map components</summary><ul></ul></details>
 <main id="panels"></main>
 <section id="causal-map" hidden>
  <div class="heading"><h2>Global Merged Map</h2><select hidden aria-label="Verified epoch pair"></select></div>
@@ -10,5 +13,5 @@
 <section class="controls"><button id="play" disabled>Play</button><button id="reset" disabled>Reset</button><label>Speed <select id="speed"><option value="0.5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label><input id="seek" type="range" min="0" value="0" step="0.1" disabled aria-label="Normalized recorded camera time"><output id="time">0 s</output><button id="stage20" disabled>Stage20 time</button><button id="final" disabled>Full recordings</button></section>
 <footer><strong>10 recorded seconds / demo second × speed.</strong> Camera frames and graph poses are never interpolated. Map growth uses actual RGB-D samples at 1 Hz; RGB previews are 2 Hz, while tracking processes every original RGB frame (~10 Hz).<p>Each reset starts an independent coordinate gauge. Epochs are never glued together. The selected epoch is shown alone; earlier epochs can be inspected separately. Lines break at tracking losses, epoch boundaries and flagged abrupt pose changes; original poses remain unchanged. Optical map axes are not gravity-aligned or geographic axes. Recorded online poses do not retroactively reproject older points after local bundle adjustment.</p><p id="qualification"></p><details><summary>Audit and provenance</summary><pre id="provenance"></pre></details></footer>
 <script type="importmap">{"imports":{"three":"../progressive_multi_robot/vendor/three.module.js"}}</script>
-<script type="module">import('./viewer.js?v=atlas1').catch(e=>{document.querySelector('#status').textContent='LOAD FAILED: '+e.message+'. Serve the whole demo directory over HTTP; file:// is unsupported.';document.querySelector('#status').className='error';});</script>
+<script type="module">import('./viewer.js?v=stage24d1').catch(e=>{document.querySelector('#status').textContent='LOAD FAILED: '+e.message+'. Serve the whole demo directory over HTTP; file:// is unsupported.';document.querySelector('#status').className='error';});</script>
 </body></html>

@@ -172,7 +172,7 @@ def bridges(rows):
     return accepted
 
 
-def export_merged(bridge):
+def export_merged(bridge, *, destination=DEST):
     """Export measured RGB points for a verified component pair."""
     dtype = np.dtype([('x','<f4'), ('y','<f4'), ('z','<f4'),
                       ('r','u1'), ('g','u1'), ('b','u1')])
@@ -180,7 +180,7 @@ def export_merged(bridge):
     transform = np.array(bridge['transform'])
     for robot in ROBOTS:
         component = bridge[robot+'_epoch']
-        with (DEST/robot/'maps'/f'epoch_{component:04d}.ply').open('rb') as source:
+        with (destination/robot/'maps'/f'epoch_{component:04d}.ply').open('rb') as source:
             for line in source:
                 if line.strip() == b'end_header':
                     break
@@ -194,7 +194,7 @@ def export_merged(bridge):
                 points[key] = xyz[:,column]
         parts.append(points)
     name = f"merged_r1_{bridge['robot1_epoch']}_r3_{bridge['robot3_epoch']}.ply"
-    path = DEST/name
+    path = destination/name
     count = sum(len(part) for part in parts)
     header = (f'ply\nformat binary_little_endian 1.0\nelement vertex {count}\n'
               'property float x\nproperty float y\nproperty float z\n'

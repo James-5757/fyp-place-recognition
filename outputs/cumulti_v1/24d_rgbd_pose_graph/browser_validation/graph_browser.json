@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "default_view": "stage24d",
+  "robot3_points_at_62_and_72": [
+    7758,
+    9618
+  ],
+  "bridge_available_s": 72.253895104,
+  "merged_rewind": true,
+  "visible_bridge_events": 4,
+  "component_list": 22,
+  "actual_rgb": true,
+  "raw_view": true
+}

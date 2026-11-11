@@ -12,7 +12,7 @@ def run(url,out):
   begin=time.monotonic();page.goto(url,wait_until='networkidle',timeout=120000);page.wait_for_function('window.rgbdFull!==undefined',timeout=60000)
   loading=time.monotonic()-begin;initial=page.evaluate('rgbdFull.snapshot()')
   checks['LAZY_RGB_STARTUP']=initial['stats']['rgbRequests']<=6
-  metadata=page.evaluate('async()=>await Promise.all(Object.values((await (await fetch(new URLSearchParams(location.search).get("atlas")==="1"?"atlas/manifest.json":"manifest.json")).json()).robots).map(async p=>await(await fetch(p)).json()))')
+  metadata=page.evaluate('async()=>await Promise.all(Object.values((await (await fetch(window.rgbdManifestPath||"manifest.json")).json()).robots).map(async p=>await(await fetch(p)).json()))')
   duration=max(d['duration_s'] for d in metadata);times={0.,duration,1972.508,duration/2}
   for d in metadata:
    times.add(d['duration_s']);previous=-1

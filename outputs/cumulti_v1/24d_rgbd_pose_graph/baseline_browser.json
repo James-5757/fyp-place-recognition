@@ -1,0 +1,10 @@
+{
+  "status": "PASS",
+  "component0_points_at_62_and_72": [
+    7861,
+    9749
+  ],
+  "merged_panel_after_bridge": true,
+  "rewind_clears_future": true,
+  "unconnected_component_switch": true
+}

@@ -1,4 +1,5 @@
 """Camera-only bridge measurements independent of the Atlas pose gauges."""
+import argparse
 import csv
 import json
 import sys
@@ -7,12 +8,12 @@ from functools import lru_cache
 import cv2
 import numpy as np
 from scipy.spatial import cKDTree
-from common import OUT, dump, writecsv
+from common import OUT, Path, dump, writecsv
 
 DEST = OUT.parent / '24_rgbd_atlas_v1'
 
 
-def main(dense=False, local=False, history=False):
+def main(dense=False, local=False, history=False, candidate_file=None, destination=DEST):
     cv2.setNumThreads(1)
     cv2.setRNGSeed(24)
     detector = cv2.SIFT_create(nfeatures=1500)
@@ -90,17 +91,21 @@ def main(dense=False, local=False, history=False):
             # Report the support count and residual of the more weakly supported side.
             count = min(int(mask.sum()) for mask in inliers)
             residual = max(float(np.median(error[mask])) for error,mask in zip(errors,inliers))
-            return transform,len(support),count,residual
+            return transform,len(support),count,residual,min(float(mask.mean()) for mask in inliers)
         both = support[other_measured[support]]
         if len(both) < 6:
             return None
         residual = np.linalg.norm(prediction[both]-other_xyz[both], axis=1)
         if np.median(residual) > .12 or np.mean(residual <= .20) < .8:
             return None
-        return transform, len(support), len(both), float(np.median(residual))
+        return transform, len(support), len(both), float(np.median(residual)),None
 
     candidates = []
-    if local:
+    if candidate_file:
+        with candidate_file.open() as handle:
+            for row in csv.DictReader(handle):
+                candidates.append((row["robot_a"],row["robot_b"],int(row["index_a"]),int(row["index_b"]),int(row["arrival_ns"])))
+    elif local:
         for robot in ('robot1','robot3'):
             with (OUT/robot/'camera_poses.csv').open() as handle:
                 poses = list(csv.DictReader(handle))
@@ -160,10 +165,11 @@ def main(dense=False, local=False, history=False):
         tested.add(key)
         left, right = features(robot_a,r1), features(robot_b,r3)
         if left[1] is None or right[1] is None:
+            records.append(dict(robot=robot_a,target_robot=robot_b,robot1_index=r1,robot3_index=r3,mutual=0,accepted=False))
             continue
         forward, reverse = ratio(left[1],right[1]), ratio(right[1],left[1])
         mutual = [(i,j) for i,j in forward.items() if reverse.get(j)==i]
-        record = dict(robot=robot_a,robot1_index=r1,robot3_index=r3,mutual=len(mutual),accepted=False)
+        record = dict(robot=robot_a,target_robot=robot_b,robot1_index=r1,robot3_index=r3,mutual=len(mutual),accepted=False)
         records.append(record)
         if len(mutual) < 30:
             continue
@@ -173,19 +179,26 @@ def main(dense=False, local=False, history=False):
         for direction in (True,False):
             fit = measure(left,right,r1,r3,robot_a,robot_b) if direction else measure(right,left,r3,r1,robot_b,robot_a)
             if fit is not None:
-                transform, inliers, depth_checks, residual = fit
-                edges.append(dict(robot=robot_a,robot1_index=r1,robot3_index=r3,
+                transform, inliers, depth_checks, residual, overlap = fit
+                edges.append(dict(robot=robot_a,target_robot=robot_b,robot1_index=r1,robot3_index=r3,
                                   arrival_ns=arrival, inliers=inliers,
-                                  independent_depth_checks=depth_checks, depth_median_m=residual,
+                                  independent_depth_checks=depth_checks, depth_median_m=residual, depth_overlap_min=overlap,
                                   method='pnp_with_bidirectional_sampled_cloud_check' if dense else 'pnp_with_matched_target_depth',
                                   robot1_from_robot3=(np.linalg.inv(transform) if direction else transform).tolist()))
                 record['accepted'] = True
                 break
-    writecsv(DEST/('local_checks_history.csv' if history else 'local_checks.csv' if local else 'bridge_checks_dense.csv' if dense else 'bridge_checks.csv'), records)
-    dump(DEST/('local_edges_history.json' if history else 'local_edges.json' if local else 'camera_edges_dense.json' if dense else 'camera_edges.json'), edges)
+    writecsv(destination/('local_checks_history.csv' if history else 'local_checks.csv' if local else 'bridge_checks_dense.csv' if dense else 'bridge_checks.csv'), records)
+    dump(destination/('local_edges_history.json' if history else 'local_edges.json' if local else 'camera_edges_dense.json' if dense else 'camera_edges.json'), edges)
     print(f'Camera edges: {len(edges)}/{len(records)} checked pairs', flush=True)
 
 
 if __name__ == '__main__':
-    local = '--local' in sys.argv or '--history' in sys.argv
-    main(dense='--dense' in sys.argv or local,local=local,history='--history' in sys.argv)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dense',action='store_true')
+    parser.add_argument('--local',action='store_true')
+    parser.add_argument('--history',action='store_true')
+    parser.add_argument('--candidates',type=Path)
+    parser.add_argument('--output',type=Path,default=DEST)
+    args = parser.parse_args()
+    local = args.local or args.history
+    main(args.dense or local or bool(args.candidates),local,args.history,args.candidates,args.output)

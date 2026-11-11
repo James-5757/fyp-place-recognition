@@ -3,14 +3,25 @@ import * as THREE from 'three';
 import {OrbitControls} from '../progressive_multi_robot/vendor/OrbitControls.js';
 const $=s=>document.querySelector(s),load=async u=>{const r=await fetch(u);if(!r.ok)throw Error(`${r.status}: ${u}`);return r.json();};
 const upper=(a,x,key)=>{let lo=0,hi=a.length;while(lo<hi){const m=(lo+hi)>>>1;if(key(a[m])<=x)lo=m+1;else hi=m;}return lo;};
-const atlasReplay = new URLSearchParams(location.search).get('atlas') === '1';
-const manifest=await load(atlasReplay?'atlas/manifest.json':'manifest.json');
+const view = new URLSearchParams(location.search);
+let manifestPath = view.get('atlas')==='1' ? 'atlas/manifest.json'
+ : view.get('raw')==='1' ? 'manifest.json' : 'stage24d/manifest.json';
+let manifest;
+try { manifest=await load(manifestPath); }
+catch (error) {
+ if (manifestPath!=='stage24d/manifest.json' || !error.message.startsWith('404:')) throw error;
+ manifestPath='atlas/manifest.json';
+ manifest=await load(manifestPath);
+}
+const atlasReplay=manifestPath!=='manifest.json';
+const stage24d=manifest.stage24d===true;
+window.rgbdManifestPath=manifestPath;
 const data=await Promise.all(Object.entries(manifest.robots).map(async([id,path])=>[id,await load(path)]));
 let time=0,playing=false,last=performance.now(),generation=0,renderFrames=0;
 const stats={rgbRequests:0,geometryLoads:0,errors:[],maxGeometryCache:0,maxImageCache:0};
 const panels=[];
 const buffers=async(path,Type)=>{const r=await fetch(path);if(!r.ok)throw Error(`${r.status}: ${path}`);return new Type(await r.arrayBuffer());};
-const causalMap=await createCausalMap($("#causal-map"),data,upper,buffers,atlasReplay?'atlas/bridge_summary.json':'causal_summary.json');
+const causalMap=await createCausalMap($("#causal-map"),data,upper,buffers,stage24d?'stage24d/bridge_summary.json':atlasReplay?'atlas/bridge_summary.json':'causal_summary.json');
 class Panel{
  constructor(id,d){
   this.id=id;this.d=d;this.cache=new Map();this.geometryPending=new Map();this.images=new Map();this.pending=new Map();this.active=null;this.currentEpoch=-1;this.inspection=null;this.rgbToken=0;this.lastRGB=-1;this.loadToken=0;
@@ -67,7 +78,7 @@ class Panel{
   if(this.lastRGB>preview){this.el.querySelector('.rgb').removeAttribute('src');this.lastRGB=-1;}
   this.marker.visible=false;
   if(this.active){const same=this.active.epoch===epoch,n=same?upper(this.active.first,index,x=>x):0;this.active.cloud.geometry.setDrawRange(0,n);this.active.path.geometry.setDrawRange(0,same?2*upper(this.active.ends,index,x=>x):0);this.visiblePoints=n;}
-  this.el.querySelector('.state').textContent=(t>=this.d.duration_s?'RECORDING COMPLETE · ':f.valid?'TRACKING · ':'TRACKING UNAVAILABLE · ')+`Map ID ${f.map_id} ${atlasReplay?'· Connected component':'· Epoch'} ${epoch}`;
+  this.el.querySelector('.state').textContent=(t>=this.d.duration_s?'RECORDING COMPLETE · ':f.valid?'TRACKING · ':'TRACKING UNAVAILABLE · ')+`Map ID ${f.map_id} ${atlasReplay?'· Connected component':'· Epoch'} ${epoch}${stage24d&&f.original_epoch>=0?` · Original epoch ${f.original_epoch}`:''}`;
   this.el.querySelector('.cursor').style.left=`${100*Math.min(t,this.d.duration_s)/this.d.duration_s}%`;
   this.el.querySelector('.trackInfo').textContent=`Recorded ${Math.min(t,this.d.duration_s).toFixed(2)} / ${this.d.duration_s.toFixed(2)} s\nTracking input frame ${index} / ${this.d.frames.length-1}\nTracking input header ns: ${f.rgb_header_ns}\nDepth paired: ${f.paired?'yes':'NO'} · |Δ bag time| ${f.sync_ms.toFixed(3)} ms\n${atlasReplay?'Points accumulate within this connected component':this.inspection===null?'Current epoch only':'Inspecting a past epoch in its own gauge'}`;this.rgbLabel(t);
   this.el.querySelector('.info').style.whiteSpace='pre-line';
@@ -83,6 +94,13 @@ class Panel{
  }
  render(){this.controls.update();this.renderer.render(this.scene,this.camera);}
 }
+if(stage24d){
+ const panel=$('#graph-info');panel.hidden=false;$('#bridge-event').hidden=false;
+ const list=panel.querySelector('ul');
+ for(const [id,members] of Object.entries(manifest.components)){
+  const item=document.createElement('li');item.textContent=`Component ${id}: ${members.map(([r,e])=>`${r} epoch ${e}`).join(', ')}`;list.append(item);
+ }
+}
 if(atlasReplay){
  document.querySelector('h1').textContent=manifest.registered_epochs?'RGB-D mapping across verified epochs':'RGB-D mapping from optimized Atlas poses';
  document.querySelector('footer p').textContent='Each connected component accumulates the RGB-D points observed by the selected time. Unconnected components use separate coordinates. '+(manifest.registered_epochs?'This offline replay aligns epochs using verified RGB-D observations.':'This offline replay uses final optimized Atlas poses.');
@@ -90,9 +108,17 @@ if(atlasReplay){
 for(const[id,d]of data)panels.push(new Panel(id,d));
 $('#seek').max=manifest.duration_s;for(const id of ['play','reset','seek','stage20','final'])$('#'+id).disabled=false;
 $('#status').textContent=atlasReplay?'Offline replay of connected RGB-D components':causalMap?'Full recordings · dual-direction causal RGB-D replay':`Full available recordings · independent local Map Epochs · bridge diagnostic: ${manifest.global_fusion} · no complete global map claimed`;
-$('#qualification').textContent=data.map(([id,d])=>`${id}: ${d.tracking.valid_frames}/${d.tracking.frames} valid native camera poses; ${d.tracking.map_epochs} ${atlasReplay?'connected RGB-D components':'independent Map Epochs'}.`).join(' ')+' Rendering success does not establish continuous tracking or inter-robot fusion.';
+$('#qualification').textContent=data.map(([id,d])=>`${id}: ${d.tracking.valid_frames}/${d.tracking.frames} valid native camera poses; ${d.tracking.map_epochs} ${atlasReplay?'connected RGB-D components':'independent Map Epochs'}.`).join(' ')+ (stage24d?` ${Object.keys(manifest.components).length} components in the joint graph.`:'');
 $('#provenance').textContent=JSON.stringify(manifest,null,2);
-function setTime(t){time=Math.max(0,Math.min(+t,manifest.duration_s));generation++;$('#seek').value=time;$('#time').textContent=`${time.toFixed(1)} / ${manifest.duration_s.toFixed(1)} s`;for(const p of panels)p.update(time);causalMap?.update(time);}
+function setTime(t){time=Math.max(0,Math.min(+t,manifest.duration_s));generation++;$('#seek').value=time;$('#time').textContent=`${time.toFixed(1)} / ${manifest.duration_s.toFixed(1)} s`;for(const p of panels)p.update(time);causalMap?.update(time);
+ if(stage24d){
+  const events=manifest.events.slice(0,upper(manifest.events,time,e=>e.time_s));
+  const lastEvent=events.at(-1);
+  $('#bridge-event').textContent=lastEvent
+   ? `${events.length}/${manifest.events.length} bridge events reached. Latest: ${lastEvent.a.join(' epoch ')} ↔ ${lastEvent.b.join(' epoch ')} · ${lastEvent.support} frame pairs · ${lastEvent.time_s.toFixed(2)} s`
+   : 'Waiting for the first verified bridge event';
+ }
+}
 $('#play').onclick=()=>{playing=!playing;$('#play').textContent=playing?'Pause':'Play';last=performance.now();};
 $('#reset').onclick=()=>{playing=false;$('#play').textContent='Play';setTime(0);};$('#seek').oninput=e=>setTime(e.target.value);$('#stage20').onclick=()=>setTime(manifest.stage20_reference_s);$('#final').onclick=()=>setTime(manifest.duration_s);
 let lastUpdate=0;function animate(now){const dt=Math.min((now-last)/1000,.1);last=now;if(playing&&now-lastUpdate>80){setTime(time+(now-lastUpdate)/1000*10*+$('#speed').value);lastUpdate=now;if(time>=manifest.duration_s){playing=false;$('#play').textContent='Play';}}else if(!playing)lastUpdate=now;for(const p of panels)p.render();causalMap?.render();renderFrames++;requestAnimationFrame(animate);}setTime(0);requestAnimationFrame(animate);
