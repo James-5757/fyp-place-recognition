@@ -1,0 +1,28 @@
+{
+  "robot": "robot1",
+  "frames": 9997,
+  "valid_frames": 9864,
+  "valid_ratio": 0.9866960088026407,
+  "duration_s": 999.789160747,
+  "map_epochs": 6,
+  "map_changes": 5,
+  "map_id_changes": 4,
+  "native_active_reset_log_count": 0,
+  "tracking_loss_intervals": 6,
+  "wall_s": 1004.5654203109443,
+  "peak_RSS_MiB": 3010.7734375,
+  "track_ms": {
+    "count": 9997,
+    "min": 5.595257,
+    "median": 21.586628,
+    "p95": 30.544520799999994,
+    "max": 131.033223
+  },
+  "processing_complete": true,
+  "continuous_single_gauge": false,
+  "pose_kind": "recorded online camera Twc, not retrospectively corrected after BA",
+  "GT": false,
+  "LiDAR": false,
+  "IMU": false,
+  "GNSS": false
+}

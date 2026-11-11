@@ -1,0 +1,247 @@
+{
+  "status": "PASS_SEGMENTED_FULL_AVAILABLE_RECORDINGS",
+  "checks": {
+    "robot1_FULL_NATIVE_FRAME_COUNT": true,
+    "robot1_NO_MISSING_OR_DUPLICATE_IDS": true,
+    "robot1_EXACT_ORIGINAL_TIMESTAMPS": true,
+    "robot1_ACTUAL_NATIVE_SOURCE_AND_BINARY_HASHES": true,
+    "robot1_BASELINE_FEATURES_UNCHANGED": true,
+    "robot1_MONOTONIC_ORIGINAL_BAG_TIMESTAMPS": true,
+    "robot1_INVALID_POSES_NOT_FABRICATED": true,
+    "robot1_SEPARATE_EPOCHS": true,
+    "robot1_REAL_ORDERED_POINT_GROWTH": true,
+    "robot1_RGB_PREVIEW_ORIGINAL_TIMES": true,
+    "robot1_ASSET_HASHES": true,
+    "robot3_FULL_NATIVE_FRAME_COUNT": true,
+    "robot3_NO_MISSING_OR_DUPLICATE_IDS": true,
+    "robot3_EXACT_ORIGINAL_TIMESTAMPS": true,
+    "robot3_ACTUAL_NATIVE_SOURCE_AND_BINARY_HASHES": true,
+    "robot3_BASELINE_FEATURES_UNCHANGED": true,
+    "robot3_MONOTONIC_ORIGINAL_BAG_TIMESTAMPS": true,
+    "robot3_INVALID_POSES_NOT_FABRICATED": true,
+    "robot3_SEPARATE_EPOCHS": true,
+    "robot3_REAL_ORDERED_POINT_GROWTH": true,
+    "robot3_RGB_PREVIEW_ORIGINAL_TIMES": true,
+    "robot3_ASSET_HASHES": true,
+    "NO_INTER_EPOCH_GLUING": true,
+    "CAMERA_ONLY_TRACKING": true,
+    "HISTORICAL_RESULTS_NOT_REUSED_AS_FULL_RUN": true
+  },
+  "audit": {
+    "status": "GO_COMPLETE_AVAILABLE_RECORDINGS",
+    "robots": {
+      "robot1": {
+        "rgb_frames": 9997,
+        "depth_frames": 8765,
+        "duration_s": 999.789160747,
+        "paired": 8765,
+        "paired_fraction": 0.8767630289086726,
+        "paired_unique_depth_frames": 8765,
+        "depth_used_fraction": 1.0,
+        "sync_ms": {
+          "count": 9997,
+          "min": 2.6e-05,
+          "median": 1.570423,
+          "p95": 480.59617659999986,
+          "max": 3601.262765
+        },
+        "paired_sync_ms": {
+          "count": 8765,
+          "min": 2.6e-05,
+          "median": 1.38209,
+          "p95": 6.207007199999996,
+          "max": 24.333525
+        },
+        "paired_header_sync_ms": {
+          "count": 8765,
+          "min": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "paired_header_nonzero": 0,
+        "calibration_constant": true
+      },
+      "robot3": {
+        "rgb_frames": 20977,
+        "depth_frames": 19918,
+        "duration_s": 2098.463330423,
+        "paired": 19918,
+        "paired_fraction": 0.9495161367211709,
+        "paired_unique_depth_frames": 19918,
+        "depth_used_fraction": 1.0,
+        "sync_ms": {
+          "count": 20977,
+          "min": 1e-06,
+          "median": 1.514398,
+          "p95": 77.41540040000002,
+          "max": 2366.118116
+        },
+        "paired_sync_ms": {
+          "count": 19918,
+          "min": 1e-06,
+          "median": 1.418429,
+          "p95": 7.259302799999999,
+          "max": 24.803494
+        },
+        "paired_header_sync_ms": {
+          "count": 19918,
+          "min": 0.0,
+          "median": 0.0,
+          "p95": 0.0,
+          "max": 0.0
+        },
+        "paired_header_nonzero": 0,
+        "calibration_constant": true
+      }
+    },
+    "association": "nearest bag timestamp, <=25ms, tie ordered index",
+    "baseline_features": 1000,
+    "tracking_sampling": "every original RGB message; original timestamps",
+    "unpaired_policy": "zero depth, record tracking validity honestly",
+    "presentation_duration_s": 2098.463330423,
+    "playback_recorded_seconds_per_demo_second": 10,
+    "Stage20_reference_s": 1972.508,
+    "common_full_Stage20_coverage": false,
+    "GT": false,
+    "LiDAR": false,
+    "IMU": false,
+    "GNSS": false
+  },
+  "tracking": {
+    "robot1": {
+      "robot": "robot1",
+      "frames": 9997,
+      "valid_frames": 9864,
+      "valid_ratio": 0.9866960088026407,
+      "duration_s": 999.789160747,
+      "map_epochs": 6,
+      "map_changes": 5,
+      "map_id_changes": 4,
+      "native_active_reset_log_count": 0,
+      "tracking_loss_intervals": 6,
+      "wall_s": 1004.5654203109443,
+      "peak_RSS_MiB": 3010.7734375,
+      "track_ms": {
+        "count": 9997,
+        "min": 5.595257,
+        "median": 21.586628,
+        "p95": 30.544520799999994,
+        "max": 131.033223
+      },
+      "processing_complete": true,
+      "continuous_single_gauge": false,
+      "pose_kind": "recorded online camera Twc, not retrospectively corrected after BA",
+      "GT": false,
+      "LiDAR": false,
+      "IMU": false,
+      "GNSS": false,
+      "time_weighted_valid_fraction": 0.9866894348763924,
+      "valid_frames_without_paired_depth": 1205
+    },
+    "robot3": {
+      "robot": "robot3",
+      "frames": 20977,
+      "valid_frames": 20494,
+      "valid_ratio": 0.9769747819039901,
+      "duration_s": 2098.463330423,
+      "map_epochs": 20,
+      "map_changes": 19,
+      "map_id_changes": 11,
+      "native_active_reset_log_count": 7,
+      "tracking_loss_intervals": 21,
+      "wall_s": 2110.6546738371253,
+      "peak_RSS_MiB": 6957.453125,
+      "track_ms": {
+        "count": 20977,
+        "min": 8.947926,
+        "median": 21.24568,
+        "p95": 29.3209924,
+        "max": 1871.629004
+      },
+      "processing_complete": true,
+      "continuous_single_gauge": false,
+      "pose_kind": "recorded online camera Twc, not retrospectively corrected after BA",
+      "GT": false,
+      "LiDAR": false,
+      "IMU": false,
+      "GNSS": false,
+      "time_weighted_valid_fraction": 0.9772281897290207,
+      "valid_frames_without_paired_depth": 1012
+    }
+  },
+  "mapping": {
+    "robots": {
+      "robot1": {
+        "epochs": 6,
+        "points": 665038,
+        "display_points": 175567,
+        "preview_frames": 1802
+      },
+      "robot3": {
+        "epochs": 20,
+        "points": 1644248,
+        "display_points": 567678,
+        "preview_frames": 3760
+      }
+    },
+    "inter_epoch_gluing": false
+  },
+  "fusion": {
+    "status": "NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED",
+    "verified_epoch_pairs": [],
+    "proposal_queries": 192,
+    "proposal_database": 1907,
+    "tested_pairs": 576,
+    "single_pair_passes": 0,
+    "scope": "bounded uniform RGB-only offline search; absence is not proof no overlap exists",
+    "unrelated_epochs_glued": false,
+    "global_full_recording_fusion": false,
+    "GT": false,
+    "LiDAR": false
+  },
+  "browser_status": "PASS",
+  "continuous_full_single_map": {
+    "robot1": false,
+    "robot3": false
+  },
+  "motion_diagnostics": {
+    "robot1": {
+      "flagged": 1,
+      "translation_m": {
+        "count": 9857,
+        "min": 4.0398650210669826e-05,
+        "median": 0.10871854237037978,
+        "p95": 0.18735807771397625,
+        "max": 0.9885257785493057
+      },
+      "rotation_deg": {
+        "count": 9857,
+        "min": 0.001456518377229793,
+        "median": 0.23619325184985493,
+        "p95": 1.5277616059638794,
+        "max": 4.764343559061429
+      },
+      "scope": "offline camera-pose integrity diagnostics; no pose deletion, no GT"
+    },
+    "robot3": {
+      "flagged": 4,
+      "translation_m": {
+        "count": 20471,
+        "min": 9.125422450161187e-05,
+        "median": 0.12057139018303713,
+        "p95": 0.2003420510505625,
+        "max": 2.0563131773986703
+      },
+      "rotation_deg": {
+        "count": 20471,
+        "min": 0.0017002636718638172,
+        "median": 0.3125630064859444,
+        "p95": 2.215932224810226,
+        "max": 7.80799720727218
+      },
+      "scope": "offline camera-pose integrity diagnostics; no pose deletion, no GT"
+    }
+  },
+  "scope": "full processing and segmented demo; not a claim of uninterrupted tracking or complete global fusion"
+}

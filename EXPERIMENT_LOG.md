@@ -352,3 +352,17 @@ Offline native feature/source audit confirms tracking loss, not missing data: ro
 Objective: replace the bounded pilot assumption with a complete camera-only input audit. All four RGB/depth archive DBs passed EOF CRC and metadata counts; every recorded calibration message was inspected and constant. Robot1: 9997 RGB / 8765 depth clouds over 999.789160747 s; Robot3: 20977 / 19918 over 2098.463330423 s. Paired RGB fractions under the existing 25 ms bag-time gate are 0.876763 / 0.949516; all paired original header differences are zero. Exact timestamps, frequencies, gaps, calibration and provenance: docs/CUMULTI_RGBD_FULL_DATA_AUDIT.md and outputs/cumulti_v1/24_rgbd_full_v1/.
 
 Independent full original-rate 1000-feature native RGB-D tracking was launched from each recording's start, with no 120-second stop. Unknown depth stays zero; tracking and dense maps preserve independent reset gauges. At this checkpoint full tracking/rendering/bridge qualification remains IN PROGRESS. Native tracking was not restarted when deterministic depth preprocessing was parallelized; six sequential/parallel PNGs matched byte-for-byte. No LiDAR, IMU, GNSS or GT inputs; historical results are preserved.
+
+
+## 2026-11-10 — Full available RGB-D tracking, epoch maps and replay validation
+
+Objective: full camera recordings rather than another pilot. Method: independently paced 1000-feature native RGB-D with every original RGB message, measured projected camera depth and unchanged calibration. Dense maps: 1 Hz, stride 8, 0.1 m first-observation voxels; each native gauge remains separate. RGB-only offline BoW proposals and predeclared metric geometric checks condition any epoch-pair fusion; no GT-based selection or tuning.
+
+Full available camera-only experiment and segmented replay are validated. RGB durations are 999.789160747 s / 2098.463330423 s, so Robot1 cannot supply the Stage20 1972.5-second duration. The new demo spans both complete available streams with a 10:1 clock and an explicit shorter-recording end. This is not proof of uninterrupted tracking or a complete global map.
+
+- robot1: 9864/9997 valid camera poses (0.986696), 6 Map Epochs, 1004.565 s native wall time, 3010.7734375 MiB native peak RSS.
+- robot3: 20494/20977 valid camera poses (0.976975), 20 Map Epochs, 2110.655 s native wall time, 6957.453125 MiB native peak RSS.
+
+Bridge diagnostic: NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED; 0 single-pair geometric passes, 0 supported epoch-pair bridges. No unrelated reset gauges are glued. See docs/CUMULTI_STAGE24_FULL_RGBD_MAPPING.md, demo/stage24_full_rgbd/README.md and outputs/cumulti_v1/24_rgbd_full_v1/VALIDATION_REPORT.txt. All scientific and presentation limitations remain explicit.
+
+Inputs, source/library hashes and full settings are in run_provenance.json; timestamps and association errors are preserved in sync_pairs.csv. Browser controls, original-frame seeks, future-point exclusion, both 3D panels and cache bounds were tested on the complete output. PLYs, original/native frame sequences and full presentation RGB assets remain server-only with manifests. No historical Stage20/P5/P6 or 12/120-second results were replaced.

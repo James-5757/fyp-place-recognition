@@ -1,0 +1,15 @@
+{
+  "frames": 9997,
+  "elapsed_s": 363.5604732297361,
+  "coverage": {
+    "count": 9997,
+    "min": 0.0,
+    "median": 0.42559765625,
+    "p95": 0.5755195312499999,
+    "max": 0.80255859375
+  },
+  "workers": 4,
+  "reused_completed_png": 931,
+  "max_worker_peak_RSS_MiB": 267.203125,
+  "algorithm": "same frozen projection, independent frames, atomic PNGs; no tracking process restart"
+}

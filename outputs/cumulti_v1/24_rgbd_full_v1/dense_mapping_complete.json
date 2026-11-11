@@ -1,0 +1,17 @@
+{
+  "robots": {
+    "robot1": {
+      "epochs": 6,
+      "points": 665038,
+      "display_points": 175567,
+      "preview_frames": 1802
+    },
+    "robot3": {
+      "epochs": 20,
+      "points": 1644248,
+      "display_points": 567678,
+      "preview_frames": 3760
+    }
+  },
+  "inter_epoch_gluing": false
+}

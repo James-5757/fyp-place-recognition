@@ -7,9 +7,10 @@ from common import *
 def build(robot):
  sys.addaudithook(guard);cv2.setNumThreads(1);out=OUT/robot;site=SITE/robot;site.mkdir(parents=True,exist_ok=True)
  lock=(out/'map_export.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX)
+ source_sha=sha(Path(__file__));pose_sha=sha(out/'camera_poses.csv')
  if (site/'data.json').exists():
   existing=json.loads((site/'data.json').read_text())
-  if existing.get('mapping_source_sha256')==sha(Path(__file__)) and existing.get('pose_source_sha256')==sha(out/'camera_poses.csv'):return existing
+  if existing.get('mapping_source_sha256')==source_sha and existing.get('pose_source_sha256')==pose_sha:return existing
  metrics=json.loads((out/'tracking_metrics.json').read_text());source=json.loads((out/'RGB_audit.json').read_text());poses=list(csv.DictReader((out/'camera_poses.csv').open()))
  pairs=list(csv.DictReader((out/'sync_pairs.csv').open()));K=np.array(source['calibration']['K']).reshape(3,3);K[:2]*=.5;D=np.array(source['calibration']['D'])
  yy,xx=np.mgrid[0:400:8,0:640:8];uv=np.stack([xx,yy],-1).astype(np.float32);xy=cv2.undistortPoints(uv.reshape(-1,1,2),K,D).reshape(-1,2);rays=np.column_stack([xy,np.ones(len(xy))])
@@ -27,7 +28,7 @@ def build(robot):
   if not(need_rgb or need_map):continue
   image=cv2.imread(str(ROOT/s['rgb']));assert image is not None
   if need_rgb:
-   target=site/'rgb'/f'{i:06d}.jpg';target.parent.mkdir(exist_ok=True);assert cv2.imwrite(str(target),cv2.resize(image,(320,200)),[cv2.IMWRITE_JPEG_QUALITY,70]);preview.append(dict(index=i,t=t,file=f'{robot}/rgb/{i:06d}.jpg',bytes=target.stat().st_size,sha256=sha(target)));last_preview=t
+   target=site/'rgb'/f'{i:06d}.jpg';target.parent.mkdir(exist_ok=True);assert cv2.imwrite(str(target),cv2.resize(image,(320,200)),[cv2.IMWRITE_JPEG_QUALITY,70]);preview.append(dict(index=i,t=t,rgb_message_id=s['rgb_message_id'],rgb_bag_ns=s['rgb_bag_ns'],rgb_header_ns=s['rgb_header_ns'],depth_bag_ns=s['depth_bag_ns'],depth_header_ns=s['depth_header_ns'],depth_paired=s['paired']=='True',bag_sync_ms=float(s['bag_sync_ms']),file=f'{robot}/rgb/{i:06d}.jpg',bytes=target.stat().st_size,sha256=sha(target)));last_preview=t
   if not need_map:continue
   last_map[epoch]=t;depth=cv2.imread(str(out/'depth'/f'{i:06d}.png'),cv2.IMREAD_UNCHANGED);assert depth is not None
   z=depth[yy,xx].ravel()/1000.;valid=(z>=.3)&(z<=10);local=rays[valid]*z[valid,None]
@@ -50,7 +51,7 @@ def build(robot):
    file=Path(str(prefix)+'.'+suffix);file.write_bytes(array.tobytes());files[suffix]=f'{robot}/{file.name}';manifest.append(dict(path=str(file.relative_to(ROOT)),bytes=file.stat().st_size,sha256=sha(file)))
   epochs.append(dict(epoch=epoch,points=len(xyz),display_points=len(select),map_frames=counts[epoch],files=files,bounds=[xyz.min(0).tolist(),xyz.max(0).tolist()] if len(xyz) else None,gauge='independent native map fingerprint; never glued to another epoch'))
   manifest.append(dict(path=str(ply.relative_to(ROOT)),bytes=ply.stat().st_size,sha256=sha(ply),server_only=True))
- result=dict(robot=robot,duration_s=metrics['duration_s'],tracking=metrics,frames=frames,previews=preview,epochs=epochs,mapping_source_sha256=sha(Path(__file__)),pose_source_sha256=sha(out/'camera_poses.csv'),
+ result=dict(robot=robot,duration_s=metrics['duration_s'],tracking=metrics,frames=frames,previews=preview,epochs=epochs,mapping_source_sha256=source_sha,pose_source_sha256=pose_sha,
   mapping=dict(map_sampling_hz=1,pixel_stride=8,voxel_m=.1,depth_range_m=[.3,10],inverse_projection='cv2.undistortPoints with actual scaled color K and D',poses='recorded online Twc; previous points not retrospectively BA corrected',gauge='camera optical, not gravity-aligned',inter_epoch_fusion=False),source_archives=[source['archive']['archive'],json.loads((out/'DEPTH_audit.json').read_text())['archive']['archive']])
  dump(site/'data.json',result);dump(out/'map_artifact_manifest.json',manifest);dump(out/'presentation_rgb_manifest.json',preview)
  return result

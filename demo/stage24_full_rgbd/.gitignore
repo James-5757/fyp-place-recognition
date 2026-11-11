@@ -1,0 +1,5 @@
+# Reproducible full presentation bundle; keep large generated assets server-only.
+manifest.json
+fusion_summary.json
+robot1/
+robot3/

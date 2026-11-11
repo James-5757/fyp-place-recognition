@@ -12,7 +12,7 @@ class Panel{
  constructor(id,d){
   this.id=id;this.d=d;this.cache=new Map();this.geometryPending=new Map();this.images=new Map();this.pending=new Map();this.active=null;this.currentEpoch=-1;this.inspection=null;this.rgbToken=0;this.lastRGB=-1;this.loadToken=0;
   for(const e of d.epochs)e.startIndex=d.frames.findIndex(f=>f.epoch===e.epoch);
-  const a=document.createElement('article');a.id=id;a.innerHTML=`<div class="heading"><h2>${id==='robot1'?'Robot1':'Robot3'} Local RGB-D Map</h2><span class="state">Independent camera gauge</span></div><div class="map"></div><div class="tools"><button class="fit">Fit visible map</button><label>Epoch <select class="epoch"><option value="auto">Current (automatic)</option></select></label><label><input class="points" type="checkbox" checked> RGB map</label><label><input class="trajectory" type="checkbox" checked> Camera path</label><span>Left drag orbit · right drag pan · wheel zoom</span></div><div class="losses"><div class="bar"><i class="cursor"></i></div></div><div class="camera"><img alt="Authentic recorded camera RGB" class="rgb"><div class="info"></div></div>`;$('#panels').append(a);this.el=a;
+  const a=document.createElement('article');a.id=id;a.innerHTML=`<div class="heading"><h2>${id==='robot1'?'Robot1':'Robot3'} Local RGB-D Map</h2><span class="state">Independent camera gauge</span></div><div class="map"></div><div class="tools"><button class="fit">Fit visible map</button><label>Epoch <select class="epoch"><option value="auto">Current (automatic)</option></select></label><label><input class="points" type="checkbox" checked> RGB map</label><label><input class="trajectory" type="checkbox" checked> Camera path</label><span>Left drag orbit · right drag pan · wheel zoom</span></div><div class="losses"><div class="bar"><i class="cursor"></i></div></div><div class="camera"><div><small>Recorded forward RGB · not live</small><img alt="Authentic recorded camera RGB" class="rgb"></div><div class="info"><div class="trackInfo"></div><div class="rgbInfo"></div></div></div>`;$('#panels').append(a);this.el=a;
   const box=a.querySelector('.map');this.scene=new THREE.Scene();this.scene.background=new THREE.Color('#060f18');this.camera=new THREE.PerspectiveCamera(48,1,.01,2000);this.camera.up.set(0,-1,0);this.camera.position.set(3,-3,-5);
   this.renderer=new THREE.WebGLRenderer({antialias:true,powerPreference:'low-power'});this.renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));box.append(this.renderer.domElement);
   this.controls=new OrbitControls(this.camera,this.renderer.domElement);this.controls.enableDamping=true;this.controls.dampingFactor=.12;
@@ -42,6 +42,7 @@ class Panel{
   stats.maxGeometryCache=Math.max(stats.maxGeometryCache,this.cache.size);return asset;
  }
  dispose(g){this.scene.remove(g.cloud,g.path);g.cloud.geometry.dispose();g.cloud.material.dispose();g.path.geometry.dispose();g.path.material.dispose();}
+ rgbLabel(t){const p=this.d.previews[this.lastRGB];this.el.querySelector('.rgbInfo').textContent=p?`RGB shown: original frame ${p.index} @ ${p.t.toFixed(3)} s\nRGB header ns: ${this.d.frames[p.index].rgb_header_ns}\nPreview age: ${((Math.min(t,this.d.duration_s)-p.t)*1000).toFixed(1)} ms`:'RGB observation loading / unavailable';}
  fit(){if(!this.active)return;const n=this.active.cloud.geometry.drawRange.count;if(!n)return;const box=new THREE.Box3();for(let i=0;i<n;i++)box.expandByPoint(new THREE.Vector3().fromArray(this.active.xyz,i*3));const center=box.getCenter(new THREE.Vector3()),size=Math.max(box.getSize(new THREE.Vector3()).length(),2);this.controls.target.copy(center);this.camera.position.copy(center).add(new THREE.Vector3(size*.45,-size*.5,-size*.7));this.controls.update();}
  async image(index){
   if(index<0||index>=this.d.previews.length)return null;const p=this.d.previews[index],url=p.file;
@@ -65,7 +66,7 @@ class Panel{
   if(this.active){const same=this.active.epoch===epoch,n=same?upper(this.active.first,index,x=>x):0;this.active.cloud.geometry.setDrawRange(0,n);this.active.path.geometry.setDrawRange(0,same?2*upper(this.active.ends,index,x=>x):0);this.visiblePoints=n;}
   this.el.querySelector('.state').textContent=(t>=this.d.duration_s?'RECORDING COMPLETE · ':f.valid?'TRACKING · ':'TRACKING UNAVAILABLE · ')+`Map ID ${f.map_id} · Epoch ${epoch}`;
   this.el.querySelector('.cursor').style.left=`${100*Math.min(t,this.d.duration_s)/this.d.duration_s}%`;
-  this.el.querySelector('.info').textContent=`Recorded ${Math.min(t,this.d.duration_s).toFixed(2)} / ${this.d.duration_s.toFixed(2)} s\nFrame ${index} / ${this.d.frames.length-1}\nOriginal camera header ns: ${f.rgb_header_ns}\nDepth paired: ${f.paired?'yes':'NO'} · |Δ bag time| ${f.sync_ms.toFixed(3)} ms\n${this.inspection===null?'Current epoch only':'Inspecting a past epoch in its own gauge'} · no inter-epoch fusion`;
+  this.el.querySelector('.trackInfo').textContent=`Recorded ${Math.min(t,this.d.duration_s).toFixed(2)} / ${this.d.duration_s.toFixed(2)} s\nTracking input frame ${index} / ${this.d.frames.length-1}\nTracking input header ns: ${f.rgb_header_ns}\nDepth paired: ${f.paired?'yes':'NO'} · |Δ bag time| ${f.sync_ms.toFixed(3)} ms\n${this.inspection===null?'Current epoch only':'Inspecting a past epoch in its own gauge'} · no inter-epoch fusion`;this.rgbLabel(t);
   this.el.querySelector('.info').style.whiteSpace='pre-line';
   const token=++this.loadToken;
   try{const g=epoch<0?null:await this.geometry(epoch);if(token!==this.loadToken)return;
@@ -73,7 +74,7 @@ class Panel{
    if(g){const count=upper(g.first,index,x=>x);g.cloud.geometry.setDrawRange(0,count);g.path.geometry.setDrawRange(0,2*upper(g.ends,index,x=>x));g.cloud.visible=this.el.querySelector('.points').checked;g.path.visible=this.el.querySelector('.trajectory').checked;this.visiblePoints=count;if(this.needsFit&&count){this.fit();this.needsFit=false;}}
    this.marker.visible=f.valid&&f.epoch===epoch;if(this.marker.visible)this.marker.position.fromArray(f.pose);
   }catch(e){stats.errors.push(e.message);$('#status').textContent='ASSET ERROR: '+e.message;}
-  if(preview!==this.lastRGB){try{const image=await this.image(preview);if(rgbToken===this.rgbToken&&image){this.el.querySelector('.rgb').src=image.src;this.lastRGB=preview;}}catch(e){stats.errors.push(e.message);if(rgbToken===this.rgbToken){this.el.querySelector('.rgb').removeAttribute('src');this.el.querySelector('.info').textContent+='\nRGB FRAME UNAVAILABLE';}}}
+  if(preview!==this.lastRGB){try{const image=await this.image(preview);if(rgbToken===this.rgbToken&&image){this.el.querySelector('.rgb').src=image.src;this.lastRGB=preview;this.rgbLabel(t);}}catch(e){stats.errors.push(e.message);if(rgbToken===this.rgbToken){this.el.querySelector('.rgb').removeAttribute('src');this.el.querySelector('.rgbInfo').textContent='RGB FRAME UNAVAILABLE';}}}
   // Only historical previews are prefetched; no future camera observations are revealed.
   this.image(preview-1).catch(()=>{});
  }

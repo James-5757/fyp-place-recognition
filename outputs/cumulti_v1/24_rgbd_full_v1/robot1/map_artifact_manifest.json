@@ -1,0 +1,128 @@
+[
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0000.xyz.f32",
+    "bytes": 115824,
+    "sha256": "7090eeb0dc0d9c2a37a85584160acfedf82f7c99aa83a68719e933cfc17737e9"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0000.rgb.u8",
+    "bytes": 28956,
+    "sha256": "63484529fa8ee8592a77115d5f68e97e7b31f7e82b1f51bcb9445f16c446b64b"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0000.first.u32",
+    "bytes": 38608,
+    "sha256": "8660a825826a45ae0b6d785b74506113e83f5580ebe84cb23ed07e4db00174d8"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot1/maps/epoch_0000.ply",
+    "bytes": 144958,
+    "sha256": "71e3c45e572f59705ff08fb3d72ba706c0e6fd9de08d2a16540c1806d58eae60",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0001.xyz.f32",
+    "bytes": 3636,
+    "sha256": "3fbdb52720279b1e74e953787c447f7abcd904187b87115652b42d64ed9c08a3"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0001.rgb.u8",
+    "bytes": 909,
+    "sha256": "61f7711a21d00014d0934913af28f0a2a9522ebbb789bfd0dac3bc2b7151b40b"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0001.first.u32",
+    "bytes": 1212,
+    "sha256": "e82e9fe939fddf787790e9697bb60dd59c526152d7331640ee60ccfa1d433f2c"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot1/maps/epoch_0001.ply",
+    "bytes": 4722,
+    "sha256": "273be9307045f89297753faf840d2629d9fc8b65e28291612a9650fae91bad9c",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0002.xyz.f32",
+    "bytes": 385272,
+    "sha256": "709fa9dcd5ce100d5e4f1abe0f15ad2e5fd986c9d21c162669e909ce60d0fca2"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0002.rgb.u8",
+    "bytes": 96318,
+    "sha256": "9a0608258b1a3d9d8b09c27b45f1bef8cc594abef79ac5d4d1dae274fc0d44e5"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0002.first.u32",
+    "bytes": 128424,
+    "sha256": "467f9dd520749a2cb9c0382a51aceaf1751a42350f529ef3338e4e7926e16ef8"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot1/maps/epoch_0002.ply",
+    "bytes": 481769,
+    "sha256": "7ece1d017f1fb1bc993acb691330191b522315845c083c961aeb3216811fdf6f",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0003.xyz.f32",
+    "bytes": 634752,
+    "sha256": "782470b83798622c2ee5a44d9c5ba042ddcf48414c553508a848e87dbe477a7d"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0003.rgb.u8",
+    "bytes": 158688,
+    "sha256": "a2f6b608cd650eea436db0ea29a674e00cfc61a7cd782cccd22557899a25dbac"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0003.first.u32",
+    "bytes": 211584,
+    "sha256": "e0a88c58a39248db79dea40a07710220fbaa52606cc2b421b5d6e74ecc3d61d3"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot1/maps/epoch_0003.ply",
+    "bytes": 4760820,
+    "sha256": "255ae0e3f0a04142cb232140e317e65081af3c443f046eabf9c527dd160eb9a3",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0004.xyz.f32",
+    "bytes": 577524,
+    "sha256": "bb117a9deb78e6e33f51f33e45b2b8d3eb913ba0e9cddc5ca70c93e6ef23123b"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0004.rgb.u8",
+    "bytes": 144381,
+    "sha256": "812f9c92bbf080714c10a6eb3dc802f5753c927d20d5f48de30c753189882d08"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0004.first.u32",
+    "bytes": 192508,
+    "sha256": "ecb823ecffc39d072c1da825b2506e55b34e28b1f4c188f922914e19ab14fe48"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot1/maps/epoch_0004.ply",
+    "bytes": 3609705,
+    "sha256": "45378f70c87919a4e03bd1cdbe79539f7bd8e64742743a9422c8ab62a30683dc",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0005.xyz.f32",
+    "bytes": 389796,
+    "sha256": "8d14950c55ffc41391a06798a7b6e4918d2d87b3a678a329e58b5eebc598b4db"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0005.rgb.u8",
+    "bytes": 97449,
+    "sha256": "48e7e143cbd45e89ae23a7ca26ee9337e3b691f9e3fa1940c17804168701b1ee"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot1/epoch_0005.first.u32",
+    "bytes": 129932,
+    "sha256": "a5bce3c2e21d69af4414944b357cb4baabe020062de94137f6d14483e2dc0155"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot1/maps/epoch_0005.ply",
+    "bytes": 974669,
+    "sha256": "328ef591727add1d8f9b09bd34674b0cdb7c609117fc672f1b13cc3bcecc7e1d",
+    "server_only": true
+  }
+]

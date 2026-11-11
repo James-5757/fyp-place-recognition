@@ -519,3 +519,13 @@ Dual-robot fusion not run because stability gate failed. Diagnose tracking/depth
 ## RGB-D loss-cause audit (2026-11-10)
 
 Offline native feature/source audit confirms tracking loss, not missing data: roughly3s relocalization timeout then map restart/reset. All7 first-bad images retain many native keypoints and adjacent 2D geometric matches; native map/PnP inlier diagnostics are still missing, so the unique initial failure cause is unresolved. Robot3 baseline atRGB-D frame255: saved map associations117→22,1006 native features,269 with depth,237 independent adjacent F inliers. No SLAM/GT/fusion rerun or frozen result change. See docs/CUMULTI_RGBD_LOSS_ROOTCAUSE_AUDIT.md.
+
+
+## Verified full available RGB-D run (2026-11-10)
+
+Full available camera-only experiment and segmented replay are validated. RGB durations are 999.789160747 s / 2098.463330423 s, so Robot1 cannot supply the Stage20 1972.5-second duration. The new demo spans both complete available streams with a 10:1 clock and an explicit shorter-recording end. This is not proof of uninterrupted tracking or a complete global map.
+
+- robot1: 9864/9997 valid camera poses (0.986696), 6 Map Epochs, 1004.565 s native wall time, 3010.7734375 MiB native peak RSS.
+- robot3: 20494/20977 valid camera poses (0.976975), 20 Map Epochs, 2110.655 s native wall time, 6957.453125 MiB native peak RSS.
+
+Bridge diagnostic: NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED; 0 single-pair geometric passes, 0 supported epoch-pair bridges. No unrelated reset gauges are glued. See docs/CUMULTI_STAGE24_FULL_RGBD_MAPPING.md, demo/stage24_full_rgbd/README.md and outputs/cumulti_v1/24_rgbd_full_v1/VALIDATION_REPORT.txt. All scientific and presentation limitations remain explicit.

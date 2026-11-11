@@ -1,0 +1,13 @@
+{
+  "status": "NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED",
+  "verified_epoch_pairs": [],
+  "proposal_queries": 192,
+  "proposal_database": 1907,
+  "tested_pairs": 576,
+  "single_pair_passes": 0,
+  "scope": "bounded uniform RGB-only offline search; absence is not proof no overlap exists",
+  "unrelated_epochs_glued": false,
+  "global_full_recording_fusion": false,
+  "GT": false,
+  "LiDAR": false
+}

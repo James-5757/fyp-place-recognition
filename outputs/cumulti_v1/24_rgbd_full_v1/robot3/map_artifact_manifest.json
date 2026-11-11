@@ -1,0 +1,422 @@
+[
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0000.xyz.f32",
+    "bytes": 95832,
+    "sha256": "2dcff8965a3ed3bf07bc4d89d9bb175bceb63bb7212e86c6ef9d91d609bc1031"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0000.rgb.u8",
+    "bytes": 23958,
+    "sha256": "a28c8dbbdb5d3d9738e938b29a345b7af33c536d156f564cbbc4a57e9b80606c"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0000.first.u32",
+    "bytes": 31944,
+    "sha256": "8ec3d5a44487b0503843a90d8b8e39746145e5a02f2d0b0037b9ab6cd5aad472"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0000.ply",
+    "bytes": 119968,
+    "sha256": "89f2d1a052c2d14faf16181d73ce3b90c0ffaecf064a4552af0a3f58fba52729",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0001.xyz.f32",
+    "bytes": 262824,
+    "sha256": "bdc88cf1ec5ff7912c13995919aaa9f6cd863d727d86f568bc4d64a87d080499"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0001.rgb.u8",
+    "bytes": 65706,
+    "sha256": "6868eb28c9d1bf1e9bec2762a7f5f1c36d1f30967f3b7fd009caae5679d7494a"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0001.first.u32",
+    "bytes": 87608,
+    "sha256": "04a80f83fdcbf5662b7aac887097ce2312689c9ab9d879b72cb153155ba0f958"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0001.ply",
+    "bytes": 328709,
+    "sha256": "31446557abf33cdd26683ed92fe7bbf99bae6b0eb0b21e6858255b5651a0110d",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0002.xyz.f32",
+    "bytes": 9432,
+    "sha256": "dc808fad0c64cf6a45751fd9e6bb1de70a177f4566722b854e203b4e1400a88c"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0002.rgb.u8",
+    "bytes": 2358,
+    "sha256": "46823e3e8366f88509ffea819207a7d130b7b39890bb1e2818ca4c588f034d3b"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0002.first.u32",
+    "bytes": 3144,
+    "sha256": "7861b6805210a92928af10fa3db890f39a4772e4965c1a17af6754e347613e88"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0002.ply",
+    "bytes": 11967,
+    "sha256": "45c7ae19b0b7ced46c3b575a060423b56e579ec82a0e6a6b1b2116de80f5ec92",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0003.xyz.f32",
+    "bytes": 9348,
+    "sha256": "d4d352e4f98253df54387b54ac73821f73d7e1fd199b8ea26d4739c66883e4be"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0003.rgb.u8",
+    "bytes": 2337,
+    "sha256": "abbfd705930d6effae8fbdf8c72e772f4dfc575b1e48a913692f47dea3af151b"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0003.first.u32",
+    "bytes": 3116,
+    "sha256": "81fc36c21b3c13a92eb810838f04bc50af89368845145b6c492647db19a3b91e"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0003.ply",
+    "bytes": 11862,
+    "sha256": "5b8132493b908633bdaa3093cb83d9e1dffabb5b2b10f53ade7bc9b81988a361",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0004.xyz.f32",
+    "bytes": 9420,
+    "sha256": "90212e798ab8f37fdc5e068b9d9c7531e19a7ed19258169dbf7ccc1eb1b1e71d"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0004.rgb.u8",
+    "bytes": 2355,
+    "sha256": "fa54d84a3578d0ed9504da9249ccdd1033a2dd20f26a6d114be4e12ad83598e8"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0004.first.u32",
+    "bytes": 3140,
+    "sha256": "5045e68fa1e8feafa4655d180cedda022900db95a8ace6cc2d82e333b9815adc"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0004.ply",
+    "bytes": 11952,
+    "sha256": "5e033337d85667ba8d6179337f5ccec22721c1d7d98d4d0c15041558c10b7c7e",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0005.xyz.f32",
+    "bytes": 10116,
+    "sha256": "300c04c991d7dcd508e0d80d007208afb23d31d2d1365e864aab447ee733a381"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0005.rgb.u8",
+    "bytes": 2529,
+    "sha256": "21ec6a2125f24e8667d714d0e9116b2e49b21faa6a2a6868c51440f8248cf1a3"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0005.first.u32",
+    "bytes": 3372,
+    "sha256": "c389960ed06d920a24a54d86443500d3b30ea0e446a4ca46329778edfbccca80"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0005.ply",
+    "bytes": 12822,
+    "sha256": "4eb0c74a64ff9728f619bcc80074eb5dd5bcc2192c4b14c8370941297246a7e1",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0006.xyz.f32",
+    "bytes": 692724,
+    "sha256": "74031219274d278cc8f873efccb9aade3139b15cd5637ae1b0762d45f2f60ec2"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0006.rgb.u8",
+    "bytes": 173181,
+    "sha256": "7b2197ca79d37dc068a011ceee161d9db3aef711633c1a1a07e95249e85c7871"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0006.first.u32",
+    "bytes": 230908,
+    "sha256": "66bf849fe230bccb0e01e7f4b77b439f4fc2c70beb75a9e452626c9fca445a0a"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0006.ply",
+    "bytes": 6927390,
+    "sha256": "b0ceacb3f9e1bff6ad2d3f8bec4f7ef70aa3fa4b2b4a2c9c09cefaeebec9d815",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0007.xyz.f32",
+    "bytes": 489696,
+    "sha256": "810f46e37905ce61269212165847f5031c799c325fa0db8f87aadfdf44b99276"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0007.rgb.u8",
+    "bytes": 122424,
+    "sha256": "f515792c116f673837132f6e8254857cc44bbe7d28b33128340aae349044fe71"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0007.first.u32",
+    "bytes": 163232,
+    "sha256": "0b5a34875a4a731b4211e18956cf2fdbcbc70a9a268edf0ad42dd0b6e9af0d37"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0007.ply",
+    "bytes": 1224404,
+    "sha256": "66b099494ed60d3282a81a3118216efbf33d9ee1034f4764a51412d189964e96",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0008.xyz.f32",
+    "bytes": 530376,
+    "sha256": "a6a31d028163294d033d449dc5ed78ae3b93360b33cd40aef4b483107664ae77"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0008.rgb.u8",
+    "bytes": 132594,
+    "sha256": "5a94f3d04e4387cd1c88f09f2ce8a192557b0895a7adde9a6e6c9486a9a54fa5"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0008.first.u32",
+    "bytes": 176792,
+    "sha256": "b0388e6f88c304f56d2e0b599d6993a942d78759f30666d272700a7885881a61"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0008.ply",
+    "bytes": 1989090,
+    "sha256": "37375e8fbd98d693d73bb06ebc86ca784dc8f0fd89583cc0b8398e4017b9ea6c",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0009.xyz.f32",
+    "bytes": 601152,
+    "sha256": "5f0dcd97c5520856b9be599063cc5a546ff3d9f087cdb22b4f9331b5370b71a4"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0009.rgb.u8",
+    "bytes": 150288,
+    "sha256": "db18abdd19a3137d388e4b149396882e9c13e4bffea0e74bfcb392b3f53cc69e"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0009.first.u32",
+    "bytes": 200384,
+    "sha256": "ce4cc16212965401d070a200b3a2c78d395cb17df4ba4f40c473ba89fc3e1304"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0009.ply",
+    "bytes": 3757350,
+    "sha256": "cb9fcf4b99c16447a81c03146e56511dc97a2228cd0d046caf42aecba6468ce0",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0010.xyz.f32",
+    "bytes": 214668,
+    "sha256": "52833bd300ade2d14bac38091dfccbdb8cb97313b5bb13f134cc36e7ea4443c8"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0010.rgb.u8",
+    "bytes": 53667,
+    "sha256": "929b6bffe8b1a8f697919ac6d5bb1dd12f18cd19784fa45424c59aae9817d0c7"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0010.first.u32",
+    "bytes": 71556,
+    "sha256": "afbfca28c435528728666fe1a62809a0caea96e23ab713eb782459cfa75c2342"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0010.ply",
+    "bytes": 268514,
+    "sha256": "f0c02399f8f5bc2caff19d57a5547486850013b7fc34af263c954082ac2b17a7",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0011.xyz.f32",
+    "bytes": 622956,
+    "sha256": "b7ef068176f771f07ff16556976a2813c09be5a907e5307bedffb2227b0d377d"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0011.rgb.u8",
+    "bytes": 155739,
+    "sha256": "be9295dd03a94c05ba05fb2a3873e5c765822757abe783576b76430b1627a540"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0011.first.u32",
+    "bytes": 207652,
+    "sha256": "d10af9f260efd3f10060c0d72862adb32c86fd43b5737c1770e03f071bf922ab"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0011.ply",
+    "bytes": 1557555,
+    "sha256": "697ba8401ea373fd3dd905a9bfc54e03314ec096100dbff8583e7c7100102e97",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0012.xyz.f32",
+    "bytes": 705732,
+    "sha256": "4280ff350dea866444e77646dc261273325fcbaa3c263ced79fcc3ef8ecb09e3"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0012.rgb.u8",
+    "bytes": 176433,
+    "sha256": "e256ca80a9a9af3414aafaf03afd4f12399cc820ff4adcb488e485c4711bbba4"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0012.first.u32",
+    "bytes": 235244,
+    "sha256": "5aeeb1a3727ff3fd494ff003b4af9a738a2e9dadc4abc2cf5c5c3de0cb0d74b2"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0012.ply",
+    "bytes": 1764495,
+    "sha256": "6e389650e138a577765327d8ab4527cf8575c1c746327739797c5790cc769346",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0013.xyz.f32",
+    "bytes": 411012,
+    "sha256": "1e61620a9008147d87a759f6c3097f5a8cb85f81ac8ccbed045e2de48af6eda4"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0013.rgb.u8",
+    "bytes": 102753,
+    "sha256": "7b91b696843a78acc976981af00f65e98cb7081b255f8d59a79485f452e052ce"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0013.first.u32",
+    "bytes": 137004,
+    "sha256": "7b05160b0d99a4910d66a5207d3f01904ff25c6d49f4bc69ba4454661b6ddd97"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0013.ply",
+    "bytes": 1027694,
+    "sha256": "cab80321c478a3baac28179a2ea7760f118868533f10d99372fd010a1818514d",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0014.xyz.f32",
+    "bytes": 10128,
+    "sha256": "70f3e78a1573f55d425027250a4f2e564bd5944c308825cef2a27b31f15d07b2"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0014.rgb.u8",
+    "bytes": 2532,
+    "sha256": "17e499f64591881457a66ebc251975696c870b31f845c0e2c059b765e48f3911"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0014.first.u32",
+    "bytes": 3376,
+    "sha256": "ae4103587b09920ae5c95837789bde2b29ed669638b937c9181e1b1b4bb05e74"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0014.ply",
+    "bytes": 12837,
+    "sha256": "200a81cc2a3b175705d5d125abe410b228c603765a16f3b37012b8028f192327",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0015.xyz.f32",
+    "bytes": 10044,
+    "sha256": "0fb1c3eb2573d96614cc0814361d01c9ba11821b6075df3984698dd66befe6cc"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0015.rgb.u8",
+    "bytes": 2511,
+    "sha256": "a1121576b63b0c5341e7b8c56bfe693b92e44d8b73cbda7eb8d1fe026f8c8ac1"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0015.first.u32",
+    "bytes": 3348,
+    "sha256": "162e771279c0af9f0b33a5c2c489563e6ccfbda641441af34708f4872c84e191"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0015.ply",
+    "bytes": 12732,
+    "sha256": "3f6bf08838fb18078baeeee0a3125f25e4e30124a1d33802a4d36cdaba316f02",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0016.xyz.f32",
+    "bytes": 629820,
+    "sha256": "0fd93e0e1e747724c784f9fc53d9453c34a7373f299446156b9369adf9c4e97d"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0016.rgb.u8",
+    "bytes": 157455,
+    "sha256": "00cc3e61b05da78229a1c2c781c9b4bb1498469616ba97a5523e245420b48e98"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0016.first.u32",
+    "bytes": 209940,
+    "sha256": "694007b81bb238efecfd23d67a05afc72db1cf6ff33e5080c57e495d5a050e6b"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0016.ply",
+    "bytes": 1574715,
+    "sha256": "87c7dcf17eaa50a8e510bbcb8bd96d97eeaa5e808ad7c48a4f7c6978175a7b66",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0017.xyz.f32",
+    "bytes": 454728,
+    "sha256": "1ba9dff76942d52f2b6d9e459ae785f3b9d8435ef7a440be5dea0fbc24c4f0e4"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0017.rgb.u8",
+    "bytes": 113682,
+    "sha256": "1bdd4400fd2b8313ef5225ccc6c73876e94470483479854d36399c2dd245f81b"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0017.first.u32",
+    "bytes": 151576,
+    "sha256": "f09bdfb4463ea61bc137cd92c48f78f8f4d04073358643f9267842c15fcc1a03"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0017.ply",
+    "bytes": 1136999,
+    "sha256": "5aa8f551720e345dbc4ca1eb74db61d4984b544626d2782bece2ecdbd9c79775",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0018.xyz.f32",
+    "bytes": 396828,
+    "sha256": "4864002145b22f73c0da0a1fc388a12fb937cdec5ad30e689089012e8866ebef"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0018.rgb.u8",
+    "bytes": 99207,
+    "sha256": "103d3ddaae96959208dae7d8d42fc53276f3927eaa32f4bea0debd97610f4189"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0018.first.u32",
+    "bytes": 132276,
+    "sha256": "ffbdd35448ff127cb83e6d6887bb302082fad7ab195e74fa460e776ccbf2f512"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0018.ply",
+    "bytes": 496214,
+    "sha256": "de08016b132257200835ba2a5b0ac08245c312dc66ec9cadb241cee6a27312d5",
+    "server_only": true
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0019.xyz.f32",
+    "bytes": 645300,
+    "sha256": "786672b2fd9363ef7d3705e516a0d4a96d3c005b9cc4a75e0fae1e746b6b4595"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0019.rgb.u8",
+    "bytes": 161325,
+    "sha256": "0aa91f0cf38d0ce557745669453d7ee45ea61cf7d769e9ebb88208eeae6cc4f2"
+  },
+  {
+    "path": "demo/stage24_full_rgbd/robot3/epoch_0019.first.u32",
+    "bytes": 215100,
+    "sha256": "37fcdedb89acac35ae9938b7cda6c27742ef8e45c0127b1afe579d29e353d9aa"
+  },
+  {
+    "path": "outputs/cumulti_v1/24_rgbd_full_v1/robot3/maps/epoch_0019.ply",
+    "bytes": 2420025,
+    "sha256": "cec3262446958b845fc289ad9dc6956654a07e172ffa724bd54547f6be9ee813",
+    "server_only": true
+  }
+]
