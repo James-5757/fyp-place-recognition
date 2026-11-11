@@ -1,8 +1,8 @@
 import * as THREE from 'three';
 import {OrbitControls} from '../progressive_multi_robot/vendor/OrbitControls.js';
 
-export async function createCausalMap(root, datasets, upper, buffers) {
- const response = await fetch('causal_summary.json', {cache:'no-cache'});
+export async function createCausalMap(root, datasets, upper, buffers, summaryPath='causal_summary.json') {
+ const response = await fetch(summaryPath, {cache:'no-cache'});
  if (response.status === 404) return null;
  if (!response.ok) throw Error('Causal replay summary could not be loaded');
  const summary = await response.json();
@@ -60,10 +60,10 @@ export async function createCausalMap(root, datasets, upper, buffers) {
   }
   select.hidden = count === 0;
   box.hidden = count === 0;
-  state.textContent = count ? `${count} verified epoch pair(s) · ${attempts} candidate checks reached`
-    : `Waiting for a verified RGB-D bridge · ${attempts}/${summary.attempts_ns.length} candidate checks reached`;
+  state.textContent = count ? `${count} verified component pair(s) · showing the selected shared map only`
+    : `Waiting for a verified RGB-D bridge · ${attempts}/${summary.attempts_ns.length} scheduled candidates reached`;
   if (!count) {
-   if (attempts === summary.attempts_ns.length) state.textContent = `No verified RGB-D bridge after ${attempts} checks. The local maps remain independent.`;
+   if (attempts === summary.attempts_ns.length) state.textContent = `No verified RGB-D bridge after ${summary.geometry_tested ?? attempts} checks. The local maps remain independent.`;
    token++;
    active = -1;
    clear();

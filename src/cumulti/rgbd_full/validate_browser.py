@@ -12,7 +12,7 @@ def run(url,out):
   begin=time.monotonic();page.goto(url,wait_until='networkidle',timeout=120000);page.wait_for_function('window.rgbdFull!==undefined',timeout=60000)
   loading=time.monotonic()-begin;initial=page.evaluate('rgbdFull.snapshot()')
   checks['LAZY_RGB_STARTUP']=initial['stats']['rgbRequests']<=6
-  metadata=page.evaluate('async()=>await Promise.all(Object.values((await (await fetch("manifest.json")).json()).robots).map(async p=>await(await fetch(p)).json()))')
+  metadata=page.evaluate('async()=>await Promise.all(Object.values((await (await fetch(new URLSearchParams(location.search).get("atlas")==="1"?"atlas/manifest.json":"manifest.json")).json()).robots).map(async p=>await(await fetch(p)).json()))')
   duration=max(d['duration_s'] for d in metadata);times={0.,duration,1972.508,duration/2}
   for d in metadata:
    times.add(d['duration_s']);previous=-1
@@ -58,7 +58,7 @@ def run(url,out):
   checks['NO_BROWSER_ERRORS']=True;checks['LOCAL_MAPS_PERSISTENT']=page.locator('article .map canvas').count()==2
   start=page.evaluate('rgbdFull.snapshot().renderFrames');page.wait_for_timeout(3000);fps=(page.evaluate('rgbdFull.snapshot().renderFrames')-start)/3
   result=dict(status='PASS' if all(checks.values()) else 'FAIL',checks=checks,loading_s=loading,measured_idle_render_fps=fps,software_WebGL=True,seek_cases=len(samples),seek_response_s=[s['seek_response_s'] for s in samples],final=final,errors=errors,tracking_quality='NOT inferred from rendering PASS')
-  (out/'browser_validation.json').write_text(json.dumps(result,indent=2)+'\n');browser.close()
+  (out/'browser_validation.json').write_text(json.dumps(result,indent=2)+'\n', encoding='utf-8', newline='\n');browser.close()
  return result
 
 if __name__=='__main__':
