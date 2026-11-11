@@ -13,6 +13,41 @@ def rigid(a,b):
  # candidate a -> query b; row-vector convention a @ R.T + t.
  ac=a.mean(0);bc=b.mean(0);u,s,vt=np.linalg.svd((a-ac).T@(b-bc));v=vt.T;fix=np.eye(3);fix[2,2]=np.linalg.det(v@u.T);R=v@fix@u.T;return R,bc-R@ac
 
+def verify_candidates(rows,cfg,proposals):
+ feature_cache={};extractor=cv2.ORB_create(nfeatures=1000,scaleFactor=1.2,nlevels=8,fastThreshold=20)
+ def features(robot,i):
+  key=(robot,i)
+  if key in feature_cache:return feature_cache[key]
+  image=cv2.imread(str(OUT/robot/'rgb'/f'{i:06d}.jpg'),0);depth=cv2.imread(str(OUT/robot/'depth'/f'{i:06d}.png'),cv2.IMREAD_UNCHANGED);keys,desc=extractor.detectAndCompute(image,None)
+  uv=np.array([k.pt for k in keys],np.float32).reshape(-1,2);pix=np.floor(uv).astype(int);z=depth[pix[:,1],pix[:,0]]/1000.;K,D=cfg[robot];xy=cv2.undistortPoints(uv.reshape(-1,1,2),K,D).reshape(-1,2);xyz=np.column_stack([xy,np.ones(len(xy))])*z[:,None]
+  value=(uv,desc,xyz,(z>=.3)&(z<=10));feature_cache[key]=value;return value
+ matcher=cv2.BFMatcher(cv2.NORM_HAMMING);records=[];accepted=[]
+ for proposal in proposals:
+  qi=int(proposal['query_index']);ci=int(proposal['candidate_index']);qr=proposal.get('query_robot','robot1');cr='robot3' if qr=='robot1' else 'robot1';q,c=rows[qr][qi],rows[cr][ci];qu,qd,qx,qok=features(qr,qi);cu,cd,cx,cok=features(cr,ci)
+  record=dict(**proposal,query_epoch=int(q['map_epoch']),candidate_epoch=int(c['map_epoch']),accepted=False,reason='INSUFFICIENT_MUTUAL_RGB_MATCHES')
+  if qd is None or cd is None:records.append(record);continue
+  forward=matcher.knnMatch(qd,cd,k=2);reverse=matcher.knnMatch(cd,qd,k=2);back={v[0].queryIdx:v[0].trainIdx for v in reverse if len(v)==2 and v[0].distance<.75*v[1].distance}
+  pairs=[(v[0].queryIdx,v[0].trainIdx) for v in forward if len(v)==2 and v[0].distance<.75*v[1].distance and back.get(v[0].trainIdx)==v[0].queryIdx];record['mutual_matches']=len(pairs)
+  if len(pairs)<60:records.append(record);continue
+  pairs=np.array([(a,b) for a,b in pairs if qok[a] and cok[b]],int);record['metric_matches']=len(pairs);record['reason']='INSUFFICIENT_MEASURED_DEPTH_MATCHES'
+  if len(pairs)<40:records.append(record);continue
+  a=cx[pairs[:,1]];b=qx[pairs[:,0]];rng=np.random.default_rng(POLICY['seed']+qi*100000+ci);best=None
+  for iteration in range(512):
+   indices=rng.choice(len(a),3,replace=False);R,t=rigid(a[indices],b[indices]);error=np.linalg.norm(a@R.T+t-b,axis=1);mask=error<.15
+   if best is None or mask.sum()>best.sum():best=mask
+  record['reason']='METRIC_GEOMETRY_REJECTED'
+  if best.sum()<30 or best.mean()<.5:records.append(record);continue
+  R,t=rigid(a[best],b[best]);error=np.linalg.norm(a@R.T+t-b,axis=1);mask=error<.15;n=int(mask.sum());fraction=float(mask.mean());rmse=float(np.sqrt(np.mean(error[mask]**2)))
+  spread=[np.linalg.svd(v[mask]-v[mask].mean(0),compute_uv=False) for v in [a,b]];spread_ratio=float(min(s[1]/max(s[0],1e-12) for s in spread))
+  predq=cv2.projectPoints(a[mask]@R.T+t,np.zeros(3),np.zeros(3),*cfg[qr])[0].reshape(-1,2);predc=cv2.projectPoints((b[mask]-t)@R,np.zeros(3),np.zeros(3),*cfg[cr])[0].reshape(-1,2)
+  reprojection=float(max(np.median(np.linalg.norm(predq-qu[pairs[mask,0]],axis=1)),np.median(np.linalg.norm(predc-cu[pairs[mask,1]],axis=1))))
+  good=n>=30 and fraction>=.5 and rmse<=.1 and reprojection<=3 and spread_ratio>=.05
+  record.update(accepted=good,reason='VERIFIED_SINGLE_RGBD_PAIR' if good else 'METRIC_GEOMETRY_REJECTED',inliers=n,inlier_fraction=fraction,rmse_m=rmse,bidir_median_px=reprojection,spread_ratio=spread_ratio)
+  if good:
+   Z=np.eye(4);Z[:3,:3]=R;Z[:3,3]=t;S=pose(q)@Z@np.linalg.inv(pose(c));left,right=(q,c) if qr=='robot1' else (c,q); S=S if qr=='robot1' else np.linalg.inv(S); accepted.append(dict(query_index=int(left['index']),candidate_index=int(right['index']),query_epoch=int(left['map_epoch']),candidate_epoch=int(right['map_epoch']),query_s=int(left['relative_ns'])/1e9,candidate_s=int(right['relative_ns'])/1e9,rmse_m=rmse,inliers=n,T_robot1_epoch_from_robot3_epoch=S.tolist(),T_query_from_candidate=Z.tolist()))
+  records.append(record)
+ return records,accepted
+
 def run():
  sys.addaudithook(guard);cv2.setNumThreads(1);out=OUT/'fusion';out.mkdir(exist_ok=True)
  declared=out/'predeclared_policy.json'
@@ -31,38 +66,8 @@ def run():
  with (out/'proposal_stdout.log').open('w') as log:
   result=subprocess.run([str(OUT/'bin/rgbd_propose'),str(ORB/'Vocabulary/ORBvoc.txt'),str(seq),str(out/'rgb_candidates.csv')],env=env,stdout=log,stderr=subprocess.STDOUT,timeout=1800)
  assert result.returncode==0
- feature_cache={};extractor=cv2.ORB_create(nfeatures=1000,scaleFactor=1.2,nlevels=8,fastThreshold=20)
- def features(robot,i):
-  key=(robot,i)
-  if key in feature_cache:return feature_cache[key]
-  image=cv2.imread(str(OUT/robot/'rgb'/f'{i:06d}.jpg'),0);depth=cv2.imread(str(OUT/robot/'depth'/f'{i:06d}.png'),cv2.IMREAD_UNCHANGED);keys,desc=extractor.detectAndCompute(image,None)
-  uv=np.array([k.pt for k in keys],np.float32).reshape(-1,2);pix=np.floor(uv).astype(int);z=depth[pix[:,1],pix[:,0]]/1000.;K,D=cfg[robot];xy=cv2.undistortPoints(uv.reshape(-1,1,2),K,D).reshape(-1,2);xyz=np.column_stack([xy,np.ones(len(xy))])*z[:,None]
-  value=(uv,desc,xyz,(z>=.3)&(z<=10));feature_cache[key]=value;return value
- matcher=cv2.BFMatcher(cv2.NORM_HAMMING);records=[];accepted=[]
- for proposal in csv.DictReader((out/'rgb_candidates.csv').open()):
-  qi=int(proposal['query_index']);ci=int(proposal['candidate_index']);q,c=rows['robot1'][qi],rows['robot3'][ci];qu,qd,qx,qok=features('robot1',qi);cu,cd,cx,cok=features('robot3',ci)
-  record=dict(**proposal,query_epoch=int(q['map_epoch']),candidate_epoch=int(c['map_epoch']),accepted=False,reason='INSUFFICIENT_MUTUAL_RGB_MATCHES')
-  if qd is None or cd is None:records.append(record);continue
-  forward=matcher.knnMatch(qd,cd,k=2);reverse=matcher.knnMatch(cd,qd,k=2);back={v[0].queryIdx:v[0].trainIdx for v in reverse if len(v)==2 and v[0].distance<.75*v[1].distance}
-  pairs=[(v[0].queryIdx,v[0].trainIdx) for v in forward if len(v)==2 and v[0].distance<.75*v[1].distance and back.get(v[0].trainIdx)==v[0].queryIdx];record['mutual_matches']=len(pairs)
-  if len(pairs)<60:records.append(record);continue
-  pairs=np.array([(a,b) for a,b in pairs if qok[a] and cok[b]],int);record['metric_matches']=len(pairs);record['reason']='INSUFFICIENT_MEASURED_DEPTH_MATCHES'
-  if len(pairs)<40:records.append(record);continue
-  a=cx[pairs[:,1]];b=qx[pairs[:,0]];rng=np.random.default_rng(POLICY['seed']+qi*100000+ci);best=None
-  for iteration in range(512):
-   indices=rng.choice(len(a),3,replace=False);R,t=rigid(a[indices],b[indices]);error=np.linalg.norm(a@R.T+t-b,axis=1);mask=error<.15
-   if best is None or mask.sum()>best.sum():best=mask
-  record['reason']='METRIC_GEOMETRY_REJECTED'
-  if best.sum()<30 or best.mean()<.5:records.append(record);continue
-  R,t=rigid(a[best],b[best]);error=np.linalg.norm(a@R.T+t-b,axis=1);mask=error<.15;n=int(mask.sum());fraction=float(mask.mean());rmse=float(np.sqrt(np.mean(error[mask]**2)))
-  spread=[np.linalg.svd(v[mask]-v[mask].mean(0),compute_uv=False) for v in [a,b]];spread_ratio=float(min(s[1]/max(s[0],1e-12) for s in spread))
-  predq=cv2.projectPoints(a[mask]@R.T+t,np.zeros(3),np.zeros(3),*cfg['robot1'])[0].reshape(-1,2);predc=cv2.projectPoints((b[mask]-t)@R,np.zeros(3),np.zeros(3),*cfg['robot3'])[0].reshape(-1,2)
-  reprojection=float(max(np.median(np.linalg.norm(predq-qu[pairs[mask,0]],axis=1)),np.median(np.linalg.norm(predc-cu[pairs[mask,1]],axis=1))))
-  good=n>=30 and fraction>=.5 and rmse<=.1 and reprojection<=3 and spread_ratio>=.05
-  record.update(accepted=good,reason='VERIFIED_SINGLE_RGBD_PAIR' if good else 'METRIC_GEOMETRY_REJECTED',inliers=n,inlier_fraction=fraction,rmse_m=rmse,bidir_median_px=reprojection,spread_ratio=spread_ratio)
-  if good:
-   Z=np.eye(4);Z[:3,:3]=R;Z[:3,3]=t;S=pose(q)@Z@np.linalg.inv(pose(c));accepted.append(dict(query_index=qi,candidate_index=ci,query_epoch=int(q['map_epoch']),candidate_epoch=int(c['map_epoch']),query_s=int(q['relative_ns'])/1e9,candidate_s=int(c['relative_ns'])/1e9,rmse_m=rmse,inliers=n,T_robot1_epoch_from_robot3_epoch=S.tolist(),T_query_from_candidate=Z.tolist()))
-  records.append(record)
+ with (out/'rgb_candidates.csv').open() as handle:
+  records,accepted=verify_candidates(rows,cfg,csv.DictReader(handle))
  fields=list(dict.fromkeys(k for r in records for k in r));writecsv(out/'rgbd_geometric_verification.csv',records,fields)
  groups=[]
  for pair in sorted({(e['query_epoch'],e['candidate_epoch']) for e in accepted}):

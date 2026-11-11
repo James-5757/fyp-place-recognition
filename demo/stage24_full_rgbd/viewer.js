@@ -1,3 +1,4 @@
+import {createCausalMap} from './causal-map.js';
 import * as THREE from 'three';
 import {OrbitControls} from '../progressive_multi_robot/vendor/OrbitControls.js';
 const $=s=>document.querySelector(s),load=async u=>{const r=await fetch(u);if(!r.ok)throw Error(`${r.status}: ${u}`);return r.json();};
@@ -8,6 +9,7 @@ let time=0,playing=false,last=performance.now(),generation=0,renderFrames=0;
 const stats={rgbRequests:0,geometryLoads:0,errors:[],maxGeometryCache:0,maxImageCache:0};
 const panels=[];
 const buffers=async(path,Type)=>{const r=await fetch(path);if(!r.ok)throw Error(`${r.status}: ${path}`);return new Type(await r.arrayBuffer());};
+const causalMap=await createCausalMap($("#causal-map"),data,upper,buffers);
 class Panel{
  constructor(id,d){
   this.id=id;this.d=d;this.cache=new Map();this.geometryPending=new Map();this.images=new Map();this.pending=new Map();this.active=null;this.currentEpoch=-1;this.inspection=null;this.rgbToken=0;this.lastRGB=-1;this.loadToken=0;
@@ -82,11 +84,11 @@ class Panel{
 }
 for(const[id,d]of data)panels.push(new Panel(id,d));
 $('#seek').max=manifest.duration_s;for(const id of ['play','reset','seek','stage20','final'])$('#'+id).disabled=false;
-$('#status').textContent=`Full available recordings · independent local Map Epochs · bridge diagnostic: ${manifest.global_fusion} · no complete global map claimed`;
+$('#status').textContent=causalMap?'Full recordings · dual-direction causal RGB-D replay':`Full available recordings · independent local Map Epochs · bridge diagnostic: ${manifest.global_fusion} · no complete global map claimed`;
 $('#qualification').textContent=data.map(([id,d])=>`${id}: ${d.tracking.valid_frames}/${d.tracking.frames} valid native camera poses; ${d.tracking.map_epochs} independent Map Epochs.`).join(' ')+' Rendering success does not establish continuous tracking or inter-robot fusion.';
 $('#provenance').textContent=JSON.stringify(manifest,null,2);
-function setTime(t){time=Math.max(0,Math.min(+t,manifest.duration_s));generation++;$('#seek').value=time;$('#time').textContent=`${time.toFixed(1)} / ${manifest.duration_s.toFixed(1)} s`;for(const p of panels)p.update(time);}
+function setTime(t){time=Math.max(0,Math.min(+t,manifest.duration_s));generation++;$('#seek').value=time;$('#time').textContent=`${time.toFixed(1)} / ${manifest.duration_s.toFixed(1)} s`;for(const p of panels)p.update(time);causalMap?.update(time);}
 $('#play').onclick=()=>{playing=!playing;$('#play').textContent=playing?'Pause':'Play';last=performance.now();};
 $('#reset').onclick=()=>{playing=false;$('#play').textContent='Play';setTime(0);};$('#seek').oninput=e=>setTime(e.target.value);$('#stage20').onclick=()=>setTime(manifest.stage20_reference_s);$('#final').onclick=()=>setTime(manifest.duration_s);
-let lastUpdate=0;function animate(now){const dt=Math.min((now-last)/1000,.1);last=now;if(playing&&now-lastUpdate>80){setTime(time+(now-lastUpdate)/1000*10*+$('#speed').value);lastUpdate=now;if(time>=manifest.duration_s){playing=false;$('#play').textContent='Play';}}else if(!playing)lastUpdate=now;for(const p of panels)p.render();renderFrames++;requestAnimationFrame(animate);}setTime(0);requestAnimationFrame(animate);
+let lastUpdate=0;function animate(now){const dt=Math.min((now-last)/1000,.1);last=now;if(playing&&now-lastUpdate>80){setTime(time+(now-lastUpdate)/1000*10*+$('#speed').value);lastUpdate=now;if(time>=manifest.duration_s){playing=false;$('#play').textContent='Play';}}else if(!playing)lastUpdate=now;for(const p of panels)p.render();causalMap?.render();renderFrames++;requestAnimationFrame(animate);}setTime(0);requestAnimationFrame(animate);
 window.rgbdFull={setTime,get playing(){return playing;},snapshot:()=>({time,renderFrames,stats,panels:panels.map(p=>({id:p.id,index:p.frame?.index,epoch:p.active?.epoch,visiblePoints:p.visiblePoints||0,maxVisibleFirst:p.active&&p.visiblePoints?p.active.first[p.visiblePoints-1]:null,maxPathEnd:p.active&&p.active.path.geometry.drawRange.count?p.active.ends[p.active.path.geometry.drawRange.count/2-1]:null,rgbPreviewIndex:p.lastRGB,cache:p.cache.size,imageCache:p.images.size,camera:p.camera.position.toArray(),target:p.controls.target.toArray(),rgb:p.el.querySelector('.rgb').currentSrc,state:p.el.querySelector('.state').textContent}))})};
