@@ -366,3 +366,7 @@ Full available camera-only experiment and segmented replay are validated. RGB du
 Bridge diagnostic: NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED; 0 single-pair geometric passes, 0 supported epoch-pair bridges. No unrelated reset gauges are glued. See docs/CUMULTI_STAGE24_FULL_RGBD_MAPPING.md, demo/stage24_full_rgbd/README.md and outputs/cumulti_v1/24_rgbd_full_v1/VALIDATION_REPORT.txt. All scientific and presentation limitations remain explicit.
 
 Inputs, source/library hashes and full settings are in run_provenance.json; timestamps and association errors are preserved in sync_pairs.csv. Browser controls, original-frame seeks, future-point exclusion, both 3D panels and cache bounds were tested on the complete output. PLYs, original/native frame sequences and full presentation RGB assets remain server-only with manifests. No historical Stage20/P5/P6 or 12/120-second results were replaced.
+
+## Stage24E feasibility (2026-11-13)
+
+The audit covers 24 within-recording epoch boundaries and two initializations. Of 1,301 sequential RGB-D frame pairs, 14 passed geometry and none formed a new bridge under the unchanged multi-frame gate. Full-route camera-only continuity remains NO-GO. Original camera timestamps overlap the Stage12D LiDAR trajectory, but the measured color-optical mounting transform is missing, so hybrid projection remains NO-GO. See docs/CUMULTI_STAGE24E_FEASIBILITY.md for the per-boundary and calibration evidence.

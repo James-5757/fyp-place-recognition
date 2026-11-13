@@ -529,3 +529,7 @@ Full available camera-only experiment and segmented replay are validated. RGB du
 - robot3: 20494/20977 valid camera poses (0.976975), 20 Map Epochs, 2110.655 s native wall time, 6957.453125 MiB native peak RSS.
 
 Bridge diagnostic: NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED; 0 single-pair geometric passes, 0 supported epoch-pair bridges. No unrelated reset gauges are glued. See docs/CUMULTI_STAGE24_FULL_RGBD_MAPPING.md, demo/stage24_full_rgbd/README.md and outputs/cumulti_v1/24_rgbd_full_v1/VALIDATION_REPORT.txt. All scientific and presentation limitations remain explicit.
+
+## Stage24E feasibility (2026-11-13)
+
+The audit covers 24 within-recording epoch boundaries and two initializations. Of 1,301 sequential RGB-D frame pairs, 14 passed geometry and none formed a new bridge under the unchanged multi-frame gate. Full-route camera-only continuity remains NO-GO. Original camera timestamps overlap the Stage12D LiDAR trajectory, but the measured color-optical mounting transform is missing, so hybrid projection remains NO-GO. See docs/CUMULTI_STAGE24E_FEASIBILITY.md for the per-boundary and calibration evidence.

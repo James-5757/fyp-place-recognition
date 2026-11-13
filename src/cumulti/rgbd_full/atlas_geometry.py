@@ -13,7 +13,7 @@ from common import OUT, Path, dump, writecsv
 DEST = OUT.parent / '24_rgbd_atlas_v1'
 
 
-def main(dense=False, local=False, history=False, candidate_file=None, destination=DEST):
+def main(dense=False, local=False, history=False, candidate_file=None, destination=DEST, diagnostics=False):
     cv2.setNumThreads(1)
     cv2.setRNGSeed(24)
     detector = cv2.SIFT_create(nfeatures=1500)
@@ -54,15 +54,17 @@ def main(dense=False, local=False, history=False, candidate_file=None, destinati
         points = np.column_stack((rays,np.ones(len(rays))))*z[valid,None]
         return points,cKDTree(points)
 
-    def measure(left, right, source_id, target_id, source_robot, target_robot):
+    def measure(left, right, source_id, target_id, source_robot, target_robot, detail):
         uv, _, xyz, measured = left
         target, _, other_xyz, other_measured = right
+        detail['depth_feature_count'] = int(measured.sum())
         if measured.sum() < 30:
             return None
         matrix, distortion = calibration[target_robot]
         ok, rotation, translation, indices = cv2.solvePnPRansac(
             xyz[measured], target[measured], matrix, distortion,
             iterationsCount=500, reprojectionError=2.5, confidence=.999, flags=cv2.SOLVEPNP_EPNP)
+        detail['pnp_inliers'] = len(indices) if ok and indices is not None else 0
         if not ok or len(indices) < 30 or len(indices)/measured.sum() < .5:
             return None
         support = np.flatnonzero(measured)[indices.ravel()]
@@ -78,14 +80,18 @@ def main(dense=False, local=False, history=False, candidate_file=None, destinati
             return None
         transform = np.eye(4)
         transform[:3,:3], transform[:3,3] = rot, translation.ravel()
+        detail['T_target_from_source'] = transform.tolist()
         if dense:
             source,source_tree = heldout_cloud(source_robot,source_id)
             destination,target_tree = heldout_cloud(target_robot,target_id)
+            detail['dense_samples'] = [len(source),len(destination)]
             if min(len(source),len(destination)) < 300:
                 return None
             errors = [target_tree.query(source @ rot.T + translation.ravel())[0],
                       source_tree.query((destination-translation.ravel()) @ rot)[0]]
             inliers = [error <= .12 for error in errors]
+            detail['dense_inliers'] = [int(mask.sum()) for mask in inliers]
+            detail['dense_overlap'] = [float(mask.mean()) for mask in inliers]
             if any(mask.sum() < 300 or mask.mean() < .35 for mask in inliers):
                 return None
             # Report the support count and residual of the more weakly supported side.
@@ -157,7 +163,7 @@ def main(dense=False, local=False, history=False, candidate_file=None, destinati
                 query,candidate = int(row['query_index']),int(row['candidate_index'])
                 i,j = (query,candidate) if row['query_robot']=='robot1' else (candidate,query)
                 candidates.append(('robot1','robot3',i,j,int(row['arrival_ns'])))
-    edges, records, tested = [], [], set()
+    edges, records, tested, audit = [], [], set(), []
     for robot_a,robot_b,r1,r3,arrival in candidates:
         key = robot_a,robot_b,r1,r3
         if key in tested:
@@ -177,7 +183,11 @@ def main(dense=False, local=False, history=False, candidate_file=None, destinati
         left = [a[i] for a in left]
         right = [a[j] for a in right]
         for direction in (True,False):
-            fit = measure(left,right,r1,r3,robot_a,robot_b) if direction else measure(right,left,r3,r1,robot_b,robot_a)
+            detail = {}
+            fit = measure(left,right,r1,r3,robot_a,robot_b,detail) if direction else measure(right,left,r3,r1,robot_b,robot_a,detail)
+            if diagnostics:
+                audit.append(dict(robot=robot_a,target_robot=robot_b,index_a=r1,index_b=r3,
+                                  forward=direction,accepted=fit is not None,**detail))
             if fit is not None:
                 transform, inliers, depth_checks, residual, overlap = fit
                 edges.append(dict(robot=robot_a,target_robot=robot_b,robot1_index=r1,robot3_index=r3,
@@ -189,6 +199,8 @@ def main(dense=False, local=False, history=False, candidate_file=None, destinati
                 break
     writecsv(destination/('local_checks_history.csv' if history else 'local_checks.csv' if local else 'bridge_checks_dense.csv' if dense else 'bridge_checks.csv'), records)
     dump(destination/('local_edges_history.json' if history else 'local_edges.json' if local else 'camera_edges_dense.json' if dense else 'camera_edges.json'), edges)
+    if diagnostics:
+        dump(destination/'verification_diagnostics.json',audit)
     print(f'Camera edges: {len(edges)}/{len(records)} checked pairs', flush=True)
 
 
@@ -197,8 +209,9 @@ if __name__ == '__main__':
     parser.add_argument('--dense',action='store_true')
     parser.add_argument('--local',action='store_true')
     parser.add_argument('--history',action='store_true')
+    parser.add_argument('--diagnostics',action='store_true')
     parser.add_argument('--candidates',type=Path)
     parser.add_argument('--output',type=Path,default=DEST)
     args = parser.parse_args()
     local = args.local or args.history
-    main(args.dense or local or bool(args.candidates),local,args.history,args.candidates,args.output)
+    main(args.dense or local or bool(args.candidates),local,args.history,args.candidates,args.output,args.diagnostics)

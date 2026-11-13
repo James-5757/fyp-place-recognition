@@ -1,0 +1,388 @@
+{
+  "initializations": [
+    {
+      "robot": "robot1",
+      "first_valid_frame": 7,
+      "timestamp_ns": "1722894201356304020"
+    },
+    {
+      "robot": "robot3",
+      "first_valid_frame": 2,
+      "timestamp_ns": "1722894200990399613"
+    }
+  ],
+  "events": {
+    "robot1": [
+      {
+        "line": 42,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "Creation of new map with id: 0"
+      },
+      {
+        "line": 47,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "First KF:0; Map init KF:0"
+      },
+      {
+        "line": 87,
+        "start_frame": 600,
+        "end_frame": 700,
+        "message": "Creation of new map with id: 1"
+      },
+      {
+        "line": 90,
+        "start_frame": 600,
+        "end_frame": 700,
+        "message": "First KF:12; Map init KF:12"
+      },
+      {
+        "line": 125,
+        "start_frame": 700,
+        "end_frame": 800,
+        "message": "Creation of new map with id: 2"
+      },
+      {
+        "line": 128,
+        "start_frame": 700,
+        "end_frame": 800,
+        "message": "First KF:45; Map init KF:45"
+      },
+      {
+        "line": 168,
+        "start_frame": 1200,
+        "end_frame": 1300,
+        "message": "Creation of new map with id: 3"
+      },
+      {
+        "line": 171,
+        "start_frame": 1200,
+        "end_frame": 1300,
+        "message": "First KF:382; Map init KF:382"
+      },
+      {
+        "line": 246,
+        "start_frame": 5400,
+        "end_frame": 5500,
+        "message": "Creation of new map with id: 4"
+      },
+      {
+        "line": 249,
+        "start_frame": 5400,
+        "end_frame": 5500,
+        "message": "First KF:2807; Map init KF:2807"
+      },
+      {
+        "line": 283,
+        "start_frame": 8600,
+        "end_frame": 8700,
+        "message": "*Merge detected"
+      },
+      {
+        "line": 290,
+        "start_frame": 8700,
+        "end_frame": 8800,
+        "message": "Merge finished!"
+      }
+    ],
+    "robot3": [
+      {
+        "line": 42,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "Creation of new map with id: 0"
+      },
+      {
+        "line": 47,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "First KF:0; Map init KF:0"
+      },
+      {
+        "line": 51,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 58,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "mnInitialFrameId = 0"
+      },
+      {
+        "line": 60,
+        "start_frame": 0,
+        "end_frame": 100,
+        "message": "First KF:1; Map init KF:0"
+      },
+      {
+        "line": 100,
+        "start_frame": 600,
+        "end_frame": 700,
+        "message": "Creation of new map with id: 1"
+      },
+      {
+        "line": 103,
+        "start_frame": 600,
+        "end_frame": 700,
+        "message": "First KF:55; Map init KF:55"
+      },
+      {
+        "line": 140,
+        "start_frame": 1000,
+        "end_frame": 1100,
+        "message": "Creation of new map with id: 2"
+      },
+      {
+        "line": 143,
+        "start_frame": 1000,
+        "end_frame": 1100,
+        "message": "First KF:397; Map init KF:397"
+      },
+      {
+        "line": 147,
+        "start_frame": 1000,
+        "end_frame": 1100,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 154,
+        "start_frame": 1000,
+        "end_frame": 1100,
+        "message": "mnInitialFrameId = 1096"
+      },
+      {
+        "line": 156,
+        "start_frame": 1000,
+        "end_frame": 1100,
+        "message": "First KF:398; Map init KF:397"
+      },
+      {
+        "line": 161,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 168,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "mnInitialFrameId = 1097"
+      },
+      {
+        "line": 170,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "First KF:399; Map init KF:398"
+      },
+      {
+        "line": 204,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 211,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "mnInitialFrameId = 1099"
+      },
+      {
+        "line": 213,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "First KF:401; Map init KF:399"
+      },
+      {
+        "line": 246,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 253,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "mnInitialFrameId = 1133"
+      },
+      {
+        "line": 255,
+        "start_frame": 1100,
+        "end_frame": 1200,
+        "message": "First KF:403; Map init KF:401"
+      },
+      {
+        "line": 390,
+        "start_frame": 6800,
+        "end_frame": 6900,
+        "message": "Creation of new map with id: 3"
+      },
+      {
+        "line": 393,
+        "start_frame": 6800,
+        "end_frame": 6900,
+        "message": "First KF:3802; Map init KF:3802"
+      },
+      {
+        "line": 435,
+        "start_frame": 7600,
+        "end_frame": 7700,
+        "message": "Creation of new map with id: 4"
+      },
+      {
+        "line": 438,
+        "start_frame": 7600,
+        "end_frame": 7700,
+        "message": "First KF:4319; Map init KF:4319"
+      },
+      {
+        "line": 455,
+        "start_frame": 9100,
+        "end_frame": 9200,
+        "message": "*Merge detected"
+      },
+      {
+        "line": 462,
+        "start_frame": 9200,
+        "end_frame": 9300,
+        "message": "Merge finished!"
+      },
+      {
+        "line": 535,
+        "start_frame": 12400,
+        "end_frame": 12500,
+        "message": "Creation of new map with id: 5"
+      },
+      {
+        "line": 538,
+        "start_frame": 12400,
+        "end_frame": 12500,
+        "message": "First KF:7344; Map init KF:7344"
+      },
+      {
+        "line": 575,
+        "start_frame": 12700,
+        "end_frame": 12800,
+        "message": "Creation of new map with id: 6"
+      },
+      {
+        "line": 578,
+        "start_frame": 12700,
+        "end_frame": 12800,
+        "message": "First KF:7640; Map init KF:7640"
+      },
+      {
+        "line": 623,
+        "start_frame": 13900,
+        "end_frame": 14000,
+        "message": "Creation of new map with id: 7"
+      },
+      {
+        "line": 626,
+        "start_frame": 13900,
+        "end_frame": 14000,
+        "message": "First KF:8217; Map init KF:8217"
+      },
+      {
+        "line": 673,
+        "start_frame": 15100,
+        "end_frame": 15200,
+        "message": "Creation of new map with id: 8"
+      },
+      {
+        "line": 676,
+        "start_frame": 15100,
+        "end_frame": 15200,
+        "message": "First KF:8928; Map init KF:8928"
+      },
+      {
+        "line": 719,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "Creation of new map with id: 9"
+      },
+      {
+        "line": 722,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "First KF:9865; Map init KF:9865"
+      },
+      {
+        "line": 726,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 733,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "mnInitialFrameId = 16159"
+      },
+      {
+        "line": 735,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "First KF:9866; Map init KF:9865"
+      },
+      {
+        "line": 768,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "LM: Active map reset recieved"
+      },
+      {
+        "line": 775,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "mnInitialFrameId = 16160"
+      },
+      {
+        "line": 777,
+        "start_frame": 16100,
+        "end_frame": 16200,
+        "message": "First KF:9872; Map init KF:9866"
+      },
+      {
+        "line": 824,
+        "start_frame": 17500,
+        "end_frame": 17600,
+        "message": "Creation of new map with id: 10"
+      },
+      {
+        "line": 827,
+        "start_frame": 17500,
+        "end_frame": 17600,
+        "message": "First KF:10625; Map init KF:10625"
+      },
+      {
+        "line": 871,
+        "start_frame": 18500,
+        "end_frame": 18600,
+        "message": "Creation of new map with id: 11"
+      },
+      {
+        "line": 874,
+        "start_frame": 18500,
+        "end_frame": 18600,
+        "message": "First KF:11258; Map init KF:11258"
+      },
+      {
+        "line": 880,
+        "start_frame": 18900,
+        "end_frame": 19000,
+        "message": "*Merge detected"
+      },
+      {
+        "line": 886,
+        "start_frame": 18900,
+        "end_frame": 19000,
+        "message": "Merge finished!"
+      }
+    ]
+  },
+  "actual_transitions": 24,
+  "reason": "26 epochs across two independent recordings gives 24 transitions"
+}
