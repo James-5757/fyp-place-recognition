@@ -1,0 +1,35 @@
+# Stage25 RGB-D continuity feasibility and experiment plan
+
+Baseline: `c09f9feb002947174d032971d5028487b9a35c85`. This checkpoint reviews evidence and proposes bounded experiments. No registration, graph update, projection trial or native tracking run is performed.
+
+## Extrinsics
+
+Use `T_A_from_B` to map a point in frame B into A. The CU-Multi calibration ZIP contains four robot URDFs and the single- and multi-robot Xacros. Their RealSense mounting joints terminate at `camera_link`. Neither optical frame is defined by these joints. The Robot3 original RGB and depth SQLite bag metadata list camera info, images or depth points, metadata, and the recorded `depth_to_color` topic. These bags contain no static TF topic. Robot1's original camera ZIPs are absent from the inspected server path. Use its retained calibration records without claiming a fresh raw-bag inspection. No recording-time RealSense launch configuration or static TF fixing the camera-link origin was located in the inspected materials.
+
+| Transform or observation | Evidence | Status |
+|---|---|---|
+| `T_camera_link_from_os_sensor` | Fixed mounting joints composed from Robot1/3 URDFs | Derived from published mounting geometry |
+| `T_color_optical_from_depth_optical` | Recorded RealSense factory calibration for each robot, with proper rotation and nonzero approximately 59 mm baseline | Recorded device extrinsic |
+| `T_camera_link_from_depth_optical` | Generic RealSense ROS supports a depth-based TF root. No run-specific evidence binds that root and its origin to the URDF link | Unverified |
+| `T_camera_link_from_color_optical` | Can be derived from either an authenticated static TF chain or a verified depth-to-link transform and the recorded factory extrinsic | Unverified |
+
+The conditional composition is `T_camera_link_from_color_optical = T_camera_link_from_depth_optical @ inverse(T_color_optical_from_depth_optical)`. Then `T_os_sensor_from_color_optical = inverse(T_camera_link_from_os_sensor) @ T_camera_link_from_color_optical`. The known transforms form two separate chains. An optical-axis convention supplies orientation between co-located coordinate conventions and does not establish that the URDF mounting origin coincides with the depth imager. The IMU–LiDAR calibration cannot supply this missing link.
+
+References: [CU-Multi release](https://github.com/arpg/CU-Multi), [RealSense ROS static TF implementation](https://github.com/realsenseai/realsense-ros/blob/ros2-master/realsense2_camera/src/tfs.cpp), and the Stage24E `sensor_calibration_audit.json`. Driver source is evidence of generic behavior only. Recover a session-specific TF tree, or the exact driver version, launch parameters and evidence identifying the mounted link with the driver's base. A direct calibrated `T_os_sensor_from_color_optical` would also resolve the dependency.
+
+## Submap evidence and recommended trial
+
+Stage24E produced 13 depth-agreement passes and zero additional verified epoch edges. The Stage25 review CSV lists all 13 with endpoint fit/holdout counts, frame reuse, directional overlap, inliers and residuals. Ten had disjoint holdout frame IDs on both sides. Robot3 boundaries 2→3, 3→4 and 14→15 reused a frame on at least one side and changed pixel sampling. Even among the disjoint cases, Robot3 4→5 and 5→6 have only one holdout frame on at least one side. An aggregate submap pass remains a hypothesis until independent frame support and epoch-transform agreement are established.
+
+1. Recover the original Stage24 depth PNG/RGB cache and verify timestamps against frozen pose and synchronization indices. The old Stage24 cache and repository checkout are not present in the inspected server locations. Git has the pose and sync tables and Stage24E receipts. Browser assets and the small older pilot are not substitutes for depth at these boundary timestamps. Prefer restoring caches from backup. If no cache exists, Robot3 archives can support a bounded re-export of exact frame IDs. Robot1 requires the corresponding source or verified cache recovery.
+2. Benchmark the 13 passes alongside Stage24E failure controls. Reproduce existing PnP/identity-initialized ICP with the original fit/holdout split. Generate FPFH/RANSAC proposals on fit-only depth submaps using separate downsampled points and fixed seeds. Refine fit data only. Record failures, runtimes, transforms and all held-out scores for both methods. Pixel-disjoint observations from a reused frame are only diagnostic.
+3. Add a bounded non-adjacent trial. Start from the Stage24D historical all-epoch RGB retrieval receipts. Select diverse candidate windows per epoch pair at predetermined times, and compare their RGB proposals with fit-only geometric descriptors. Freeze splits and budgets before scores are read. Preserve withheld frames across retrieval, fitting, refinement and model selection. Short epochs lacking independent evidence retain disconnected gauges unless other adequately supported direct links exist.
+4. Retain the existing camera-only gates. Require mutual correspondences and the original PnP/reprojection thresholds where PnP is used, the 12 cm bidirectional depth test with at least 300 inliers and 35% support each way, and Stage24D independent-frame, temporal span and SE(3) agreement. Global geometric proposals additionally require spatially distributed support and independent RGB-D checks before graph admission. Do not treat a zero spanning-tree residual as accuracy evidence. Store accepted links and rejected or inconsistent closures in a new Stage25 graph. Compare connected coverage, closure residuals, and held-out spatial overlap against Stage24D.
+
+Decision: **GO for a bounded camera-only registration investigation once source frames are recovered. NO-GO for a full continuous-map claim until verified connections support it.**
+
+## Conditional LiDAR-assisted pilot
+
+**NO-GO for projection at this checkpoint.** Stage12D gives `T_world_from_os_sensor` and original LiDAR timestamps. Stage24E found roughly 924 s and 1,972 s overlap on the original bag clocks for Robot1 and Robot3. Confirm clock basis and offset with recording evidence. After extrinsic provenance and timestamp checks pass, use 100–200 measured RGB-D frames spanning straight travel, turns and repeat observations within the retained interval. Interpolate bracketed translation and SO(3) rotation at original camera times. Reject out-of-range observations, invalid depth and brackets that cross trajectory discontinuities. Document the gap cutoff before projection.
+
+Apply `T_world_from_color_optical = T_world_from_os_sensor(t) @ T_os_sensor_from_color_optical`. Compare projected depth with independently corresponding LiDAR observations using directional overlap, point-to-plane and nearest-neighbor residuals, cross-view reprojection and route coverage. Report timestamp bracket statistics, extrinsic provenance and all rejected frames. Validate on separate windows before considering full-duration projection. Keep any future results under the Stage25 directory.
