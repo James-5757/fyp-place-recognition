@@ -1,0 +1,21 @@
+{
+  "status": "PASS",
+  "sensors": {
+    "lidar": {
+      "chunk_count": 162,
+      "points": 2946337,
+      "frozen_rgbd_chunks_preserved": false,
+      "frozen_lidar_tail_pose_equality": true,
+      "rigid_gravity_transforms": true,
+      "finite_points_and_poses": true
+    },
+    "rgbd": {
+      "chunk_count": 127,
+      "points": 429303,
+      "frozen_rgbd_chunks_preserved": true,
+      "frozen_lidar_tail_pose_equality": false,
+      "rigid_gravity_transforms": true,
+      "finite_points_and_poses": true
+    }
+  }
+}
