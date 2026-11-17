@@ -357,3 +357,8 @@ Full-duration RGB-D reconstruction remains NO-GO after Stage26. A bounded follow
 ## Stage27 continuous RGB-D display
 
 The Stage27 continuous replay is available for presentation. Treat its unsupported display placements separately from any future geometrically verified map reconstruction. See [the Stage27 report](docs/CUMULTI_STAGE27_CONTINUOUS_RGBD_DEMO.md).
+
+
+## Stage28 multi-sensor replay
+
+Use Stage28 for independent sensor and robot comparisons. A geometrically valid overlay still requires direct calibration evidence or independent camera–LiDAR agreement in sufficiently excited held-out sequences. See [the Stage28 report](docs/CUMULTI_STAGE28_MULTISENSOR.md).

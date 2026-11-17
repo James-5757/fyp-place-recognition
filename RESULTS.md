@@ -543,3 +543,8 @@ Stage26 reproduced 24/24 frozen Stage24E depth-gate decisions. Baseline and FPFH
 ## Stage27 continuous RGB-D display
 
 The Stage27 replay covers 26 Epochs and 2,098.463 recorded seconds, with 429,303 points in 127 progressively displayed chunks. These are presentation results. The Stage26 decision on validated full-duration global reconstruction still applies. See [the Stage27 report](docs/CUMULTI_STAGE27_CONTINUOUS_RGBD_DEMO.md).
+
+
+## Stage28 multi-sensor replay
+
+Stage28 browser validation passed in all six views. All four independent full replays reached their ends and retained chunks across 64 transitions. LiDAR total 2,946,337 points, RGB-D total 429,303 points. LiDAR ground corrections passed; RGB-D retains nominal up. Camera–LiDAR overlay is NO-GO. See [the Stage28 report](docs/CUMULTI_STAGE28_MULTISENSOR.md).

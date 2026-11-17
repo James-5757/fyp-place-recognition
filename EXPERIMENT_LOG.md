@@ -380,3 +380,8 @@ Stage26 resumed from `9e189ed`. The selective export verified 748 original RGB/d
 ## Stage27 continuous RGB-D display
 
 Stage27 projects original color and measured aligned depth into one persistent display frame, using verified relative transforms where compatible, exploratory Stage26 estimates and explicitly labeled extrapolations. See [the Stage27 report](docs/CUMULTI_STAGE27_CONTINUOUS_RGBD_DEMO.md).
+
+
+## Stage28 multi-sensor replay
+
+Stage28 reconstructs full-recording LiDAR display maps, reuses immutable Stage27 RGB-D chunks, fits presentation gravity, and tests trajectory-based camera–LiDAR alignment on withheld motion windows. See [the Stage28 report](docs/CUMULTI_STAGE28_MULTISENSOR.md).

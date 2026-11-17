@@ -1,0 +1,236 @@
+{
+  "status": "PASS",
+  "browser": "157.0.4341.60",
+  "views": [
+    {
+      "sensor": "rgbd",
+      "robot": "robot1",
+      "points": 128314,
+      "chunks": 39,
+      "duration_s": 999.789160747,
+      "epochs": 6,
+      "boundaries": [
+        {
+          "epoch": 1,
+          "t": 63.522960601,
+          "before": 1158,
+          "after": 1165,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 2,
+          "t": 70.130996001,
+          "before": 1198,
+          "after": 1282,
+          "retained": true,
+          "source": "STAGE24D_COMPONENT_REENTRY"
+        },
+        {
+          "epoch": 3,
+          "t": 124.635186015,
+          "before": 6843,
+          "after": 7023,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 4,
+          "t": 545.542491255,
+          "before": 65194,
+          "after": 65249,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 5,
+          "t": 864.485466863,
+          "before": 113644,
+          "after": 113694,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        }
+      ],
+      "uninterrupted_4x_wall_s": 26.172182299997075,
+      "actual_3d_interactions_pass": true,
+      "rewind_pass": true
+    },
+    {
+      "sensor": "rgbd",
+      "robot": "robot3",
+      "points": 300989,
+      "chunks": 88,
+      "duration_s": 2098.463330423,
+      "epochs": 20,
+      "boundaries": [
+        {
+          "epoch": 1,
+          "t": 66.707183625,
+          "before": 793,
+          "after": 920,
+          "retained": true,
+          "source": "STAGE24D_VERIFIED_RELATIVE"
+        },
+        {
+          "epoch": 2,
+          "t": 109.607286747,
+          "before": 5248,
+          "after": 5363,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 3,
+          "t": 109.812738188,
+          "before": 5363,
+          "after": 5410,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 4,
+          "t": 110.005883598,
+          "before": 5410,
+          "after": 5481,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 5,
+          "t": 113.41389484,
+          "before": 5573,
+          "after": 5635,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 6,
+          "t": 116.707513004,
+          "before": 5691,
+          "after": 5760,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 7,
+          "t": 683.067215263,
+          "before": 88189,
+          "after": 88275,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 8,
+          "t": 762.655579735,
+          "before": 103151,
+          "after": 103340,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 9,
+          "t": 918.156169509,
+          "before": 129852,
+          "after": 129952,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 10,
+          "t": 1243.981171656,
+          "before": 177809,
+          "after": 177956,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 11,
+          "t": 1278.773994068,
+          "before": 181037,
+          "after": 181141,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 12,
+          "t": 1393.477032129,
+          "before": 198343,
+          "after": 198401,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 13,
+          "t": 1513.494918026,
+          "before": 219357,
+          "after": 219499,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 14,
+          "t": 1616.296842068,
+          "before": 232280,
+          "after": 232419,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 15,
+          "t": 1616.492978407,
+          "before": 232419,
+          "after": 232453,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 16,
+          "t": 1620.207060395,
+          "before": 232570,
+          "after": 232700,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 17,
+          "t": 1759.409415633,
+          "before": 250321,
+          "after": 250383,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 18,
+          "t": 1855.31824841,
+          "before": 263662,
+          "after": 263765,
+          "retained": true,
+          "source": "STAGE26_EXPLORATORY"
+        },
+        {
+          "epoch": 19,
+          "t": 1891.545450345,
+          "before": 269776,
+          "after": 269931,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        }
+      ],
+      "uninterrupted_4x_wall_s": 52.65990270000475,
+      "actual_3d_interactions_pass": true,
+      "rewind_pass": true
+    },
+    {
+      "sensor": "rgbd",
+      "robot": "combined",
+      "points": 429303,
+      "chunks": 127,
+      "duration_s": 2098.463330423,
+      "epochs": 26,
+      "boundaries": [],
+      "uninterrupted_4x_wall_s": null,
+      "actual_3d_interactions_pass": true,
+      "rewind_pass": true
+    }
+  ]
+}

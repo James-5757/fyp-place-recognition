@@ -1,0 +1,364 @@
+{
+  "status": "PASS",
+  "browser": "157.0.4341.60",
+  "views": [
+    {
+      "sensor": "lidar",
+      "robot": "robot1",
+      "points": 855407,
+      "chunks": 56,
+      "duration_s": 999.535027661,
+      "epochs": 18,
+      "boundaries": [
+        {
+          "epoch": 1,
+          "t": 28.031621229,
+          "before": 2059,
+          "after": 2096,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 2,
+          "t": 28.532279904,
+          "before": 2096,
+          "after": 2117,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 3,
+          "t": 29.034199589,
+          "before": 2117,
+          "after": 2140,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 4,
+          "t": 29.534273785,
+          "before": 2140,
+          "after": 2161,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 5,
+          "t": 30.033363218,
+          "before": 2161,
+          "after": 2173,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 6,
+          "t": 30.533991788,
+          "before": 2173,
+          "after": 2185,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 7,
+          "t": 31.033522119,
+          "before": 2185,
+          "after": 2197,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 8,
+          "t": 31.533166087,
+          "before": 2197,
+          "after": 2209,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 9,
+          "t": 32.032605555,
+          "before": 2209,
+          "after": 2219,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 10,
+          "t": 32.533722693,
+          "before": 2219,
+          "after": 2232,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 11,
+          "t": 33.035018523,
+          "before": 2232,
+          "after": 2248,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 12,
+          "t": 33.532462681,
+          "before": 2248,
+          "after": 2258,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 13,
+          "t": 34.032146835,
+          "before": 2258,
+          "after": 2944,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 14,
+          "t": 34.536054933,
+          "before": 2944,
+          "after": 3709,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 15,
+          "t": 35.037452833,
+          "before": 3709,
+          "after": 4460,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 16,
+          "t": 35.533974354,
+          "before": 4460,
+          "after": 5212,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 17,
+          "t": 75.034256435,
+          "before": 10244,
+          "after": 10285,
+          "retained": true,
+          "source": "STAGE12D_VERIFIED_TAIL"
+        }
+      ],
+      "uninterrupted_4x_wall_s": 27.752553099999204,
+      "actual_3d_interactions_pass": true,
+      "rewind_pass": true
+    },
+    {
+      "sensor": "lidar",
+      "robot": "robot3",
+      "points": 2090930,
+      "chunks": 106,
+      "duration_s": 2089.511053803,
+      "epochs": 24,
+      "boundaries": [
+        {
+          "epoch": 1,
+          "t": 20.500402752,
+          "before": 13850,
+          "after": 14024,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 2,
+          "t": 21.549489371,
+          "before": 14147,
+          "after": 14304,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 3,
+          "t": 22.050092489,
+          "before": 14304,
+          "after": 14436,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 4,
+          "t": 22.557181396,
+          "before": 14436,
+          "after": 14536,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 5,
+          "t": 23.048408766,
+          "before": 14536,
+          "after": 14643,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 6,
+          "t": 23.549354802,
+          "before": 14643,
+          "after": 14688,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 7,
+          "t": 24.048903741,
+          "before": 14688,
+          "after": 14725,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 8,
+          "t": 24.549317039,
+          "before": 14725,
+          "after": 14757,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 9,
+          "t": 25.047285603,
+          "before": 14757,
+          "after": 14775,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 10,
+          "t": 25.500924192,
+          "before": 14775,
+          "after": 14790,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 11,
+          "t": 26.0015198,
+          "before": 14790,
+          "after": 15398,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 12,
+          "t": 26.550377397,
+          "before": 15398,
+          "after": 16041,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 13,
+          "t": 27.050590396,
+          "before": 16041,
+          "after": 16652,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 14,
+          "t": 27.550194252,
+          "before": 16652,
+          "after": 17313,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 15,
+          "t": 28.508675677,
+          "before": 18059,
+          "after": 18810,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 16,
+          "t": 30.000330918,
+          "before": 19424,
+          "after": 20140,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 17,
+          "t": 30.500099618,
+          "before": 20140,
+          "after": 20764,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 18,
+          "t": 31.050667525,
+          "before": 20764,
+          "after": 21364,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 19,
+          "t": 31.551152288,
+          "before": 21364,
+          "after": 21995,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 20,
+          "t": 32.002033381,
+          "before": 21995,
+          "after": 22519,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 21,
+          "t": 32.500859978,
+          "before": 22519,
+          "after": 22606,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 22,
+          "t": 33.001199356,
+          "before": 22606,
+          "after": 22697,
+          "retained": true,
+          "source": "DISPLAY_ONLY_ESTIMATE"
+        },
+        {
+          "epoch": 23,
+          "t": 117.003183625,
+          "before": 73065,
+          "after": 73897,
+          "retained": true,
+          "source": "STAGE12D_VERIFIED_TAIL"
+        }
+      ],
+      "uninterrupted_4x_wall_s": 55.76678229999379,
+      "actual_3d_interactions_pass": true,
+      "rewind_pass": true
+    },
+    {
+      "sensor": "lidar",
+      "robot": "combined",
+      "points": 2946337,
+      "chunks": 162,
+      "duration_s": 2089.511053803,
+      "epochs": 42,
+      "boundaries": [],
+      "uninterrupted_4x_wall_s": null,
+      "actual_3d_interactions_pass": true,
+      "rewind_pass": true
+    }
+  ]
+}
