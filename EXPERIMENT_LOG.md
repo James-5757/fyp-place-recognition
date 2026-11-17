@@ -390,3 +390,8 @@ Stage28 reconstructs full-recording LiDAR display maps, reuses immutable Stage27
 ## Stage29 spatial consistency
 
 Stage29 audited the native RGB-D pose, chunk and transform chain for all 26 Epochs. It added local Epoch inspection and an equal-scale orthographic view with shared origin and explicit metric boxes. See [the Stage29 report](docs/CUMULTI_STAGE29_SPATIAL_AUDIT.md).
+
+
+## Stage30 Robot3 RGB-D forensics
+
+Stage30 audited seven Robot3 in-Epoch pose discontinuities using original RGB, measured RGB-D, raw IMU and available GNSS speed. It separately tested the Stage24D direct relation and exploratory path on frame-disjoint observations. See [the Stage30 forensic report](outputs/cumulti_v1/30_rgbd_pose_forensics/STAGE30_FORENSIC_REPORT.md).

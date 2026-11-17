@@ -367,3 +367,8 @@ Use Stage28 for independent sensor and robot comparisons. A geometrically valid 
 ## Stage29 spatial consistency
 
 Use Fixed Metric View for robot size and displacement comparisons. Global pose refinement requires independent RGB-D support for the conflicting links. Inspect the native large within-Epoch camera steps and the pre-PGO vertical LiDAR excursion before revising map geometry. See [the Stage29 report](docs/CUMULTI_STAGE29_SPATIAL_AUDIT.md).
+
+
+## Stage30 Robot3 RGB-D forensics
+
+Keep frozen geometry. If separately authorized, test a bounded Epoch 9 segment repair on disjoint temporal windows and independent frames before altering any native pose or map. See [the Stage30 forensic report](outputs/cumulti_v1/30_rgbd_pose_forensics/STAGE30_FORENSIC_REPORT.md).

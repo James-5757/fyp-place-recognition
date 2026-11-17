@@ -553,3 +553,8 @@ Stage28 browser validation passed in all six views. All four independent full re
 ## Stage29 spatial consistency
 
 Robot3 18→19 disagrees by 38.474 m / 48.59° under frozen component re-entry. There is no lost frame at that boundary and neither Stage26 method validates the replacement. Robot3 RGB-D Epochs 6, 8 and 9 pass isolated gravity tests. No global pose changed. See [the Stage29 report](docs/CUMULTI_STAGE29_SPATIAL_AUDIT.md).
+
+
+## Stage30 Robot3 RGB-D forensics
+
+Robot3 Epoch 6 jump spans 33 invalid poses during a real turn with unsynchronized depth. Epoch 9 contains sensor-inconsistent native pose increments despite valid tracking flags. The direct 16→19 placement passed the directional overlap test on 3/3 near-support holdouts and the exploratory chain had zero inliers. See [the Stage30 forensic report](outputs/cumulti_v1/30_rgbd_pose_forensics/STAGE30_FORENSIC_REPORT.md).
