@@ -1,0 +1,6 @@
+{
+  "cases": 24,
+  "same_depth_gate_decision": 24,
+  "mismatches": [],
+  "convention": "T_a_from_b = T_epoch_a_from_camera_a @ T_camera_a_from_camera_b @ inverse(T_epoch_b_from_camera_b)"
+}

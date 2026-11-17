@@ -226,6 +226,10 @@ def run():
             status = ('NO_GLOBAL_PROPOSAL' if seed is None else 'ICP_NO_FIT' if result is None else
                       'DEPTH_GATE_FAIL' if not metrics['pass_depth'] else
                       'REUSED_VALIDATION_FRAME' if not independent else 'INDEPENDENT_AGGREGATE_PASS')
+            eligible_status = ('QUALIFIED' if qualified else status if status!='INDEPENDENT_AGGREGATE_PASS' else
+                               'INSUFFICIENT_INDEPENDENT_FRAMES_OR_TIME_SPAN' if not support else
+                               'INDEPENDENT_FITS_OR_SE3_INCONSISTENT' if sum(r['accepted'] for r in support)<3 else
+                               'INSUFFICIENT_TEMPORAL_SPAN')
             rows.append(dict(boundary=key,cohort='nonadjacent' if case.get('nonadjacent') else 'pass' if case['geometry_pass'] else 'control',
                              method=method,initializer=baseline_name if method=='baseline' else 'mutual FPFH RANSAC',
                              status=status,independent=independent,inliers_a=metrics['inliers'][0],
@@ -233,14 +237,14 @@ def run():
                              overlap_b=metrics['overlap'][1],median_a_m=metrics['median_m'][0],
                              median_b_m=metrics['median_m'][1],fit_runtime_s=elapsed,
                              verified_repetitions=sum(r['accepted'] for r in support),
-                             bounded_bridge_qualified=qualified,graph_admitted=False))
-            transforms.append(dict(boundary=key,method=method,seed=seed.tolist() if seed is not None else None,
+                             bridge_decision=eligible_status,bounded_bridge_qualified=qualified,graph_admitted=False))
+            transforms.append(dict(boundary=key,method=method,anchors=[a,b],seed=seed.tolist() if seed is not None else None,
                                    T_previous_boundary_camera_from_next=result.tolist() if result is not None else None,
                                    independent_repeatability=support))
     write_csv(DEST/'submap_manifest.csv',submaps)
     write_csv(DEST/'nonadjacent_registration_results.csv',[row for row in rows if row['cohort']=='nonadjacent'])
     write_csv(DEST/'registration_comparison.csv',rows)
-    write_csv(DEST/'registration_failure_cases.csv',[row for row in rows if row['status']!='INDEPENDENT_AGGREGATE_PASS'])
+    write_csv(DEST/'registration_failure_cases.csv',[row for row in rows if not row['bounded_bridge_qualified']])
     dump(DEST/'registration_transforms.json',transforms)
     print('Stage26 bounded boundary comparison complete',flush=True)
 

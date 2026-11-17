@@ -1,5 +1,13 @@
 # Stage26 Phase 1 data recovery
 
+**Final recovery gate: PASS.** All 748 requested files were recovered from the original ROS2 archives and verified. Robot1 provided 106 RGB and 106 depth files. Robot3 provided 268 RGB and 268 depth files. There were no missing assets or mismatches.
+
+All 374 pairs have identical RGB and depth header timestamps. Maximum absolute bag timestamp differences were 16.489495 ms for Robot1 and 14.712457 ms for Robot3, within the frozen 25 ms association gate. The verifier checked source message IDs, both timestamps, topics, archive identities, optical frames at export, decoded 640 × 400 dimensions, JPEG/PNG signatures, pixel types and SHA256. Depth is the original PointCloud2 data projected using the frozen Stage24 depth-to-color procedure. Per-frame nonzero-depth fractions match the frozen Stage24 records.
+
+See [the recovery gate](stage26_gate1.json), the four per-file receipts and [the registration report](stage26_registration_report.md). Raw archives, SQLite work copies and decoded images remain on the server.
+
+## Historical inventory before recovery
+
 Baseline: `ff03354801ed43a589e9125d2703e98ca62e2379`. Status: **Gate 1 blocked by missing original frame assets**.
 
 The manifest uses the Stage24E fit/holdout receipts and last/first-valid boundary anchors. This covers all 13 submap depth-agreement cases and all 11 rejected controls. It joins each frame to the frozen per-robot pose and RGB/depth synchronization indices, checks epoch membership, compares original RGB bag/header and relative timestamps exactly, and verifies every required depth association against the original 25 ms bag-time gate. Pose-only anchors and reused fit/holdout frames are explicitly marked. Preserved table timestamps have been verified. Recovered ROS-message timestamps and image contents have yet to be verified.

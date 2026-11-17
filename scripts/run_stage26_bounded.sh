@@ -42,3 +42,4 @@ if [[ -d "$PWD/python-packages" ]]; then
     export PYTHONPATH="$PWD/python-packages${PYTHONPATH:+:$PYTHONPATH}"
 fi
 "$python" src/cumulti/rgbd_full/stage26_register.py
+"$python" src/cumulti/rgbd_full/stage26_report.py

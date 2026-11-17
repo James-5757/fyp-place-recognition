@@ -1,0 +1,19 @@
+{
+  "seed": 26,
+  "voxel_m": 0.08,
+  "normal_radius_m": 0.2,
+  "feature_radius_m": 0.4,
+  "ransac_distance_m": 0.12,
+  "ransac_iterations": 10000,
+  "ransac_confidence": 0.999,
+  "icp_radius_m": 0.3,
+  "icp_iterations": 20,
+  "validation_distance_m": 0.12,
+  "validation_min_inliers": 300,
+  "validation_min_overlap": 0.35,
+  "intra_agreement_m": 0.2,
+  "intra_agreement_deg": 3,
+  "min_distinct_frames": 3,
+  "min_span_ns": 800000000,
+  "min_spread_ratio": 0.05
+}

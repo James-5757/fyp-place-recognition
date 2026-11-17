@@ -533,3 +533,8 @@ Bridge diagnostic: NO_RELIABLE_RGBD_BRIDGE_ESTABLISHED; 0 single-pair geometric 
 ## Stage24E feasibility (2026-11-13)
 
 The audit covers 24 within-recording epoch boundaries and two initializations. Of 1,301 sequential RGB-D frame pairs, 14 passed geometry and none formed a new bridge under the unchanged multi-frame gate. Full-route camera-only continuity remains NO-GO. Original camera timestamps overlap the Stage12D LiDAR trajectory, but the measured color-optical mounting transform is missing, so hybrid projection remains NO-GO. See docs/CUMULTI_STAGE24E_FEASIBILITY.md for the per-boundary and calibration evidence.
+
+
+## Stage26 bounded RGB-D registration
+
+Stage26 reproduced 24/24 frozen Stage24E depth-gate decisions. Baseline and FPFH/RANSAC passed the independent aggregate depth gate on 13/28 and 15/28 cases, respectively. Only one baseline case passed the independent repeatability checks, and its translation cycle disagreement was 0.200321 m against the frozen 0.2 m limit. Zero bridges were admitted. The temporary graph retained 22 components and 19.52% frame coverage in its largest component. See the [Stage26 experiment report](outputs/cumulti_v1/26_rgbd_reconstruction/stage26_registration_report.md).

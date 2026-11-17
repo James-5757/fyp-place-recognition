@@ -1,0 +1,13 @@
+{
+  "status": "PASS",
+  "verified_assets": 748,
+  "expected_assets": 748,
+  "verified_rgbd_pairs": 374,
+  "failures": [],
+  "checks": [
+    "original message ID, bag timestamp, header timestamp, topic and optical frame at export",
+    "archive identity, encoded format, dimensionality, pixel dtype, SHA256",
+    "per-frame depth coverage equals frozen Stage24 projection"
+  ],
+  "scope": "13 Stage24E cases, 11 failure controls and four non-adjacent pairs"
+}

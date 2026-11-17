@@ -99,9 +99,43 @@ def gate():
     ]
     assert len(records) == len(expected)
     assert {tuple(row[k] for k in fields) for row in records} == expected
-    assert all(sha(DEST / row['asset']) == row['sha256'] for row in records)
-    dump(DEST / 'stage26_gate1.json', dict(status='PASS', verified_assets=len(records),
-         verified_rgbd_pairs=len(records) // 2, scope='13 Stage24E cases, 11 failure controls and four non-adjacent pairs'))
+    calibration = json.loads((OUT / 'dataset_manifest.json').read_text())['robots']
+    frozen_coverage = {
+        robot: {row['index']: float(row['valid_depth_fraction'])
+                for row in read_csv(OUT / robot / 'depth_coverage.csv')}
+        for robot in ('robot1','robot3')
+    }
+    failures = []
+    for row in records:
+        path = DEST / row['asset']
+        rgb = row['kind']=='rgb'
+        identity = calibration[row['robot']][row['kind'].upper()]
+        reasons = []
+        if row['topic']!=identity['topic'] or row['archive_crc']!=identity['archive']['CRC32']:
+            reasons.append('topic or archive identity mismatch')
+        if not path.is_file():
+            reasons.append('file absent')
+        else:
+            if sha(path)!=row['sha256']:
+                reasons.append('SHA256 mismatch')
+            signature = path.read_bytes()[:8]
+            if not (signature.startswith(b'\xff\xd8\xff') if rgb else signature==b'\x89PNG\r\n\x1a\n'):
+                reasons.append('encoded format mismatch')
+            image = cv2.imread(str(path), cv2.IMREAD_UNCHANGED)
+            if image is None or (image.shape,image.dtype)!=(((400,640,3),np.uint8) if rgb else ((400,640),np.uint16)):
+                reasons.append('decoded dimensions or dtype mismatch')
+            elif not rgb and abs(float((image>0).mean())-frozen_coverage[row['robot']][row['index']])>1e-12:
+                reasons.append('depth coverage differs from frozen Stage24 projection')
+        if reasons:
+            failures.append(dict(asset=row['asset'], reasons=reasons))
+    dump(DEST / 'stage26_gate1.json', dict(status='PASS' if not failures else 'FAIL',
+         verified_assets=len(records)-len(failures), expected_assets=len(expected),
+         verified_rgbd_pairs=len(records)//2 if not failures else None,
+         failures=failures, checks=['original message ID, bag timestamp, header timestamp, topic and optical frame at export',
+                                'archive identity, encoded format, dimensionality, pixel dtype, SHA256',
+                                'per-frame depth coverage equals frozen Stage24 projection'],
+         scope='13 Stage24E cases, 11 failure controls and four non-adjacent pairs'))
+    assert not failures, failures
 
 
 if __name__ == '__main__':

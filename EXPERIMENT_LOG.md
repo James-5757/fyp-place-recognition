@@ -370,3 +370,8 @@ Inputs, source/library hashes and full settings are in run_provenance.json; time
 ## Stage24E feasibility (2026-11-13)
 
 The audit covers 24 within-recording epoch boundaries and two initializations. Of 1,301 sequential RGB-D frame pairs, 14 passed geometry and none formed a new bridge under the unchanged multi-frame gate. Full-route camera-only continuity remains NO-GO. Original camera timestamps overlap the Stage12D LiDAR trajectory, but the measured color-optical mounting transform is missing, so hybrid projection remains NO-GO. See docs/CUMULTI_STAGE24E_FEASIBILITY.md for the per-boundary and calibration evidence.
+
+
+## Stage26 bounded RGB-D registration
+
+Stage26 resumed from `9e189ed`. The selective export verified 748 original RGB/depth assets. The bounded registration runner compared identity/PnP-seeded ICP with FPFH/RANSAC-seeded ICP on 28 frozen cases using identical splits. See the [Stage26 experiment report](outputs/cumulti_v1/26_rgbd_reconstruction/stage26_registration_report.md).
