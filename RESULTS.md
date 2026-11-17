@@ -538,3 +538,8 @@ The audit covers 24 within-recording epoch boundaries and two initializations. O
 ## Stage26 bounded RGB-D registration
 
 Stage26 reproduced 24/24 frozen Stage24E depth-gate decisions. Baseline and FPFH/RANSAC passed the independent aggregate depth gate on 13/28 and 15/28 cases, respectively. Only one baseline case passed the independent repeatability checks, and its translation cycle disagreement was 0.200321 m against the frozen 0.2 m limit. Zero bridges were admitted. The temporary graph retained 22 components and 19.52% frame coverage in its largest component. See the [Stage26 experiment report](outputs/cumulti_v1/26_rgbd_reconstruction/stage26_registration_report.md).
+
+
+## Stage27 continuous RGB-D display
+
+The Stage27 replay covers 26 Epochs and 2,098.463 recorded seconds, with 429,303 points in 127 progressively displayed chunks. These are presentation results. The Stage26 decision on validated full-duration global reconstruction still applies. See [the Stage27 report](docs/CUMULTI_STAGE27_CONTINUOUS_RGBD_DEMO.md).

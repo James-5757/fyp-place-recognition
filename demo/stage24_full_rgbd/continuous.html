@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CU-Multi · Continuous RGB-D replay</title>
+<link rel="stylesheet" href="continuous.css">
+<script type="importmap">{"imports":{"three":"../progressive_multi_robot/vendor/three.module.js"}}</script>
+</head>
+<body>
+<header>
+  <div><h1>Continuous RGB-D replay</h1><p>Robot1 + Robot3 · independently normalized recordings · 10 recorded seconds per demo second at 1×</p></div>
+  <nav><a href="./?verified=1">Verified Atlas</a><a href="./?raw=1">Raw Epoch View</a></nav>
+</header>
+<main>
+  <section class="viewport" aria-label="Combined exploratory RGB-D map">
+    <div id="map"></div>
+    <div class="overlay">
+      <div id="status" role="status">Loading map manifest…</div>
+      <div class="legend"><span class="r1">Robot1</span><span class="r3">Robot3</span><span class="verified">Verified relative</span><span class="estimated">Uncertain connector</span></div>
+    </div>
+  </section>
+  <section class="controls" aria-label="Replay controls">
+    <button id="play" disabled>Play</button><button id="reset" disabled>Reset</button>
+    <label>Speed <select id="speed"><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+    <input id="time" type="range" min="0" step="any" value="0" disabled aria-label="Recorded time"><output id="clock">0.0 s</output>
+    <button id="end" disabled>End</button><button id="top">Top</button><button id="orbit">3D</button>
+    <label>Density <select id="density"><option value="full">Full</option><option value="reduced">Quarter</option></select></label><label>Follow <select id="follow"><option value="">Off</option><option value="robot1">Robot1</option><option value="robot3">Robot3</option></select></label>
+  </section>
+  <section class="info">
+    <div><h2>Layers</h2><div id="robots"></div><label>Epoch <select id="epoch"><option value="">All visible epochs</option></select></label></div>
+    <div><h2>Epoch transitions</h2><select id="jump" aria-label="Jump to an epoch transition"><option value="">Jump to a transition</option></select><div id="transition"></div></div>
+    <div><h2>Exploratory display</h2><p>Dashed connectors mark estimated placement or re-entry into a previously placed component. Tracking gaps contain no reconstructed poses. Robot clocks do not establish simultaneous observations. The display axes follow the initial optical gauge.</p></div>
+  </section>
+</main>
+<script type="module">import('./continuous.js').catch(error=>{document.querySelector('#status').textContent='Load failed · '+error.message+' · Open from the demo HTTP server.';});</script>
+</body></html>

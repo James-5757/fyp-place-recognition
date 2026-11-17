@@ -51,3 +51,8 @@ Local reproduction needs the generated `manifest.json`, per-robot `data.json`, e
 Play/Pause, Reset, Seek, speed and Stage20/final jumps operate on normalized recorded camera time. Left drag orbits, right drag pans and the wheel zooms each 3D panel. Fit affects the visible map only. Each panel retains at most two epoch geometries and twelve decoded RGB previews, with at most two image requests pending. Evicted GPU geometries/materials are disposed.
 
 Full-stream processing completion, uninterrupted tracking quality and browser rendering acceptance are reported separately in `docs/CUMULTI_STAGE24_FULL_RGBD_MAPPING.md` and `outputs/cumulti_v1/24_rgbd_full_v1/VALIDATION_REPORT.txt`. A working demo must not be described as proof of continuous tracking or successful full-recording global fusion.
+
+
+## Stage27 continuous display
+
+Open the existing demo URL for the full-recording exploratory view. Add `?verified=1` to stay in the Stage24D Verified Atlas, `?raw=1` for independent Epochs, or `?atlas=1` for the earlier atlas baseline. Stage27 needs generated assets under `continuous/`. See the [Stage27 report](../../docs/CUMULTI_STAGE27_CONTINUOUS_RGBD_DEMO.md) for generation, controls and validation.

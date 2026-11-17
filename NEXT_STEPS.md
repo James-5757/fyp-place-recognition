@@ -352,3 +352,8 @@ The audit covers 24 within-recording epoch boundaries and two initializations. O
 ## Stage26 bounded RGB-D registration
 
 Full-duration RGB-D reconstruction remains NO-GO after Stage26. A bounded follow-up can rank boundary windows by measured depth coverage and temporal support, freeze a fresh disjoint split, and test depth-backed RGB correspondences with the existing validation thresholds. See the [Stage26 experiment report](outputs/cumulti_v1/26_rgbd_reconstruction/stage26_registration_report.md).
+
+
+## Stage27 continuous RGB-D display
+
+The Stage27 continuous replay is available for presentation. Treat its unsupported display placements separately from any future geometrically verified map reconstruction. See [the Stage27 report](docs/CUMULTI_STAGE27_CONTINUOUS_RGBD_DEMO.md).
