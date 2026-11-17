@@ -362,3 +362,8 @@ The Stage27 continuous replay is available for presentation. Treat its unsupport
 ## Stage28 multi-sensor replay
 
 Use Stage28 for independent sensor and robot comparisons. A geometrically valid overlay still requires direct calibration evidence or independent camera–LiDAR agreement in sufficiently excited held-out sequences. See [the Stage28 report](docs/CUMULTI_STAGE28_MULTISENSOR.md).
+
+
+## Stage29 spatial consistency
+
+Use Fixed Metric View for robot size and displacement comparisons. Global pose refinement requires independent RGB-D support for the conflicting links. Inspect the native large within-Epoch camera steps and the pre-PGO vertical LiDAR excursion before revising map geometry. See [the Stage29 report](docs/CUMULTI_STAGE29_SPATIAL_AUDIT.md).

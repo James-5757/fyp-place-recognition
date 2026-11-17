@@ -1,0 +1,1386 @@
+[
+  {
+    "robot": "robot1",
+    "epoch": 0,
+    "source": "DISPLAY_ORIGIN",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 0,
+    "T_display_from_epoch": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        -1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        -1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 1,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 0.0,
+      "early_late_deg": null,
+      "tilt_deg": 1.9545061459214785,
+      "rmse_m": [
+        0.04193728175868301,
+        0.04193728175868301,
+        0.04193728175868301
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot1",
+    "epoch": 1,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 1,
+    "T_display_from_epoch": [
+      [
+        0.995796051459357,
+        -0.03155496630952325,
+        -0.08599132513898852,
+        0.34220823422493807
+      ],
+      [
+        -0.026785635959674103,
+        -0.9980678454061729,
+        0.05606340760706779,
+        -0.46543790126909723
+      ],
+      [
+        -0.08759425554333,
+        -0.053524387595611636,
+        -0.9947172393843012,
+        -0.9488324686469172
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot1",
+    "epoch": 2,
+    "source": "STAGE24D_COMPONENT_REENTRY",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 0,
+    "T_display_from_epoch": [
+      [
+        0.9949470162014603,
+        -0.022732828962378625,
+        -0.09779393354998128,
+        0.527861119896936
+      ],
+      [
+        -0.01854395699657872,
+        -0.9988799398079086,
+        0.04353145424009684,
+        -0.406679960922747
+      ],
+      [
+        -0.09867399156170767,
+        -0.04149800400881762,
+        -0.9942541722580619,
+        -0.749256839756452
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 2,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 3.125251952290374,
+      "early_late_deg": null,
+      "tilt_deg": 3.6592741570521836,
+      "rmse_m": [
+        0.05347775689730613,
+        0.06398098785646095,
+        0.06514801351858926
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot1",
+    "epoch": 3,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 2,
+    "T_display_from_epoch": [
+      [
+        -0.9033270816590759,
+        0.37857552411549544,
+        0.20169471009913773,
+        2.949863470689179
+      ],
+      [
+        -0.189164039796842,
+        -0.7735875808332187,
+        0.6047968426077862,
+        9.18676219842791
+      ],
+      [
+        0.38498980452608866,
+        0.5081759806615092,
+        0.7704154873116696,
+        33.04289935707054
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 26,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 15.399250268924376,
+      "early_late_deg": 13.27169433566134,
+      "tilt_deg": 36.338447240295714,
+      "rmse_m": [
+        0.039119953960543685,
+        0.06246279065641215,
+        0.07371162457224878
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot1",
+    "epoch": 4,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 3,
+    "T_display_from_epoch": [
+      [
+        -0.791752546881003,
+        0.46227886936344675,
+        -0.39928204498511305,
+        -15.342849462091932
+      ],
+      [
+        -0.5312085959892552,
+        -0.8437856445762221,
+        0.07644091544589537,
+        -47.7506113969356
+      ],
+      [
+        -0.30157143773004064,
+        0.2726243440104619,
+        0.9136359422649148,
+        -74.64836569882036
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 25,
+      "mode": "PASS_LOCAL_ONLY",
+      "p90_deg": 2.8543088827236494,
+      "early_late_deg": 0.3339380812014695,
+      "tilt_deg": 27.57027784472651,
+      "rmse_m": [
+        0.036742103416774786,
+        0.05422809115610495,
+        0.057511728475295835
+      ],
+      "T_leveled_local_from_epoch": [
+        [
+          0.8905835131000956,
+          0.45341108969232835,
+          0.03576856075252868,
+          0.0
+        ],
+        [
+          -0.4547692857340613,
+          0.8865551968431393,
+          0.08488097374179111,
+          0.0
+        ],
+        [
+          0.006775171379657562,
+          -0.09186003861548413,
+          0.9957488791649922,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_display_from_leveled_local": [
+        [
+          -0.5098011428908578,
+          0.7360090254721817,
+          -0.44541386275087996,
+          -15.342849462091932
+        ],
+        [
+          -0.8529332046510232,
+          -0.49999681511009897,
+          0.15002710849538467,
+          -47.7506113969356
+        ],
+        [
+          -0.11228420686323015,
+          0.456392264727656,
+          0.8826654845329874,
+          -74.64836569882036
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  {
+    "robot": "robot1",
+    "epoch": 5,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 4,
+    "T_display_from_epoch": [
+      [
+        -0.9638376807960496,
+        0.20774610904918459,
+        0.1669085955024765,
+        25.65857531408382
+      ],
+      [
+        -0.09601578274896432,
+        -0.8549749360168266,
+        0.5097046480522973,
+        -11.998838694470749
+      ],
+      [
+        0.24859182315754155,
+        0.4752466864249939,
+        0.8440039647426252,
+        -27.14379598331854
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 6,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 1.5344732008328736,
+      "early_late_deg": null,
+      "tilt_deg": 26.058425274475972,
+      "rmse_m": [
+        0.028705372361990313,
+        0.044123644452375106,
+        0.04874089400249317
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 0,
+    "source": "STAGE24D_VERIFIED_RELATIVE",
+    "confidence": "VERIFIED_RELATIVE_ONLY",
+    "stage24d_component": 0,
+    "T_display_from_epoch": [
+      [
+        0.9966867387588623,
+        -0.019257471808326047,
+        -0.07902337984277101,
+        0.32371734541726305
+      ],
+      [
+        -0.01606308296746381,
+        -0.9990356792850914,
+        0.04086182669628421,
+        -0.3338111727748174
+      ],
+      [
+        -0.07973407143626685,
+        -0.03945708168286552,
+        -0.9960349474578032,
+        -0.7272384337115808
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 1,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 0.0,
+      "early_late_deg": null,
+      "tilt_deg": 1.8145359784784234,
+      "rmse_m": [
+        0.0335760208779137,
+        0.0335760208779137,
+        0.0335760208779137
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 1,
+    "source": "STAGE24D_VERIFIED_RELATIVE",
+    "confidence": "VERIFIED_RELATIVE_ONLY",
+    "stage24d_component": 0,
+    "T_display_from_epoch": [
+      [
+        0.9980547033662105,
+        -0.009245369782869207,
+        -0.06165494486384299,
+        0.1747061037218314
+      ],
+      [
+        -0.007025649046410467,
+        -0.9993226762560766,
+        0.036122416528664915,
+        -0.3654289047234709
+      ],
+      [
+        -0.06194714960401466,
+        -0.03561898170879826,
+        -0.9974436519412848,
+        -0.6998114834684641
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 4,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 0.758540282201448,
+      "early_late_deg": null,
+      "tilt_deg": 2.082906693342954,
+      "rmse_m": [
+        0.03136080079758544,
+        0.03483021504558192,
+        0.03511058536989004
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 2,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 5,
+    "T_display_from_epoch": [
+      [
+        -0.9472521082277254,
+        0.0747956691236549,
+        0.31163929684568864,
+        10.660216764157507
+      ],
+      [
+        -0.07075001213918779,
+        -0.9971984233948405,
+        0.02428456631589514,
+        -0.6489437727658811
+      ],
+      [
+        0.31258259586937226,
+        0.0009551226052472209,
+        0.9498901033805833,
+        22.658844259000514
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 1,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 0.0,
+      "early_late_deg": null,
+      "tilt_deg": 0.7976207295204281,
+      "rmse_m": [
+        0.016702588320194525,
+        0.016702588320194525,
+        0.016702588320194525
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 3,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 6,
+    "T_display_from_epoch": [
+      [
+        -0.9472521082277254,
+        0.0747956691236549,
+        0.31163929684568864,
+        10.660216764157507
+      ],
+      [
+        -0.07075001213918779,
+        -0.9971984233948405,
+        0.02428456631589514,
+        -0.6489437727658811
+      ],
+      [
+        0.31258259586937226,
+        0.0009551226052472209,
+        0.9498901033805833,
+        22.658844259000514
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 4,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 7,
+    "T_display_from_epoch": [
+      [
+        -0.9472521082277254,
+        0.0747956691236549,
+        0.31163929684568864,
+        10.660216764157507
+      ],
+      [
+        -0.07075001213918779,
+        -0.9971984233948405,
+        0.02428456631589514,
+        -0.6489437727658811
+      ],
+      [
+        0.31258259586937226,
+        0.0009551226052472209,
+        0.9498901033805833,
+        22.658844259000514
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 1,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 0.0,
+      "early_late_deg": null,
+      "tilt_deg": 0.5183701446187658,
+      "rmse_m": [
+        0.020355765302409984,
+        0.020355765302409984,
+        0.020355765302409984
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 5,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 8,
+    "T_display_from_epoch": [
+      [
+        -0.9546195805763513,
+        0.09084147039705004,
+        0.2836358292535222,
+        10.757390317196043
+      ],
+      [
+        -0.08764477774080752,
+        -0.9958634005298346,
+        0.02396832117434413,
+        -0.6538887687822096
+      ],
+      [
+        0.28463985897093963,
+        -0.001978570507683707,
+        0.9586324822077279,
+        22.70343590055714
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 1,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 0.0,
+      "early_late_deg": null,
+      "tilt_deg": 0.5016517134108315,
+      "rmse_m": [
+        0.02423728748865459,
+        0.02423728748865459,
+        0.02423728748865459
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 6,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 9,
+    "T_display_from_epoch": [
+      [
+        -0.9550739770397092,
+        0.08377853653972575,
+        0.28427953707015036,
+        10.766010840969122
+      ],
+      [
+        -0.07217915939166078,
+        -0.9960840859140485,
+        0.05105548685775478,
+        -0.6887669743223401
+      ],
+      [
+        0.2874436767978595,
+        0.028242708864960425,
+        0.9573810537423942,
+        22.616335589763825
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 45,
+      "mode": "PASS_LOCAL_ONLY",
+      "p90_deg": 3.970856881515968,
+      "early_late_deg": 1.3753162209423946,
+      "tilt_deg": 1.6811321086971727,
+      "rmse_m": [
+        0.039456386837282975,
+        0.06414593094522456,
+        0.06868981847456603
+      ],
+      "T_leveled_local_from_epoch": [
+        [
+          0.9997133737675833,
+          0.023940100568115665,
+          0.00020468274237010758,
+          0.0
+        ],
+        [
+          -0.023940128797658222,
+          0.999569575219649,
+          0.01695684311310062,
+          0.0
+        ],
+        [
+          0.00020135388759970693,
+          -0.016956882968260423,
+          0.9998562014492949,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_display_from_leveled_local": [
+        [
+          -0.9527363740785331,
+          0.11142755371352321,
+          0.282625727387146,
+          10.766010840969122
+        ],
+        [
+          -0.09599437396516414,
+          -0.9930616283871047,
+          0.06792409286978307,
+          -0.6887669743223401
+        ],
+        [
+          0.2882333805698632,
+          0.03758327418635223,
+          0.9568223533272527,
+          22.616335589763825
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 7,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 10,
+    "T_display_from_epoch": [
+      [
+        -0.8914940758185435,
+        0.05909183627659687,
+        0.4491619615082129,
+        118.84305137638559
+      ],
+      [
+        0.009718817164435943,
+        -0.9887339278704647,
+        0.14936788299618722,
+        -6.8960237416425345
+      ],
+      [
+        0.4529280929390134,
+        0.1375259057897769,
+        0.8808761365046347,
+        -180.87951623660882
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 1,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 8.537736462515939e-07,
+      "early_late_deg": null,
+      "tilt_deg": 4.493286480775444,
+      "rmse_m": [
+        0.036282973988351626,
+        0.036282973988351626,
+        0.036282973988351626
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 8,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 11,
+    "T_display_from_epoch": [
+      [
+        -0.9785977368491751,
+        0.07194669048734725,
+        0.19279559943524444,
+        141.98427241581788
+      ],
+      [
+        -0.042925699691247335,
+        -0.9876496557073129,
+        0.1506835820095841,
+        7.981426311474485
+      ],
+      [
+        0.20125569244047567,
+        0.13918272633175557,
+        0.9696000799046824,
+        -92.12926700265294
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 10,
+      "mode": "PASS_LOCAL_ONLY",
+      "p90_deg": 2.2435506790343935,
+      "early_late_deg": 0.9568106849473071,
+      "tilt_deg": 9.510685538588614,
+      "rmse_m": [
+        0.04722978208665769,
+        0.05639749296304958,
+        0.058595831923545026
+      ],
+      "T_leveled_local_from_epoch": [
+        [
+          0.9997616128867376,
+          0.021098860429864974,
+          0.005617427050732795,
+          0.0
+        ],
+        [
+          -0.021734049966979772,
+          0.9862622711858248,
+          0.16375091910402115,
+          0.0
+        ],
+        [
+          -0.002085298573838563,
+          -0.16383397243532835,
+          0.986485722656906,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_display_from_leveled_local": [
+        [
+          -0.9757634433631293,
+          0.1237976550813399,
+          0.18044346259284458,
+          141.98427241581788
+        ],
+        [
+          -0.062907294967304,
+          -0.9484740682238793,
+          0.3105472816605163,
+          7.981426311474485
+        ],
+        [
+          0.20959097031129817,
+          0.29166947475387595,
+          0.9332740983552308,
+          -92.12926700265294
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 9,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 12,
+    "T_display_from_epoch": [
+      [
+        -0.9720449548208779,
+        0.11933306326949394,
+        0.2022083722747411,
+        -8.481859422486323
+      ],
+      [
+        -0.07590857318181674,
+        -0.9746843146098166,
+        0.2103054335272584,
+        19.01400927899095
+      ],
+      [
+        0.22218572034400252,
+        0.1890769866067966,
+        0.9564953731257207,
+        16.27802971105701
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 26,
+      "mode": "PASS_LOCAL_ONLY",
+      "p90_deg": 4.2631731227927965,
+      "early_late_deg": 3.4038034377126736,
+      "tilt_deg": 12.237867065963318,
+      "rmse_m": [
+        0.04816721538526749,
+        0.06792453334497503,
+        0.07126167933650455
+      ],
+      "T_leveled_local_from_epoch": [
+        [
+          0.999041114738868,
+          0.04227429579765951,
+          0.011390126256180827,
+          0.0
+        ],
+        [
+          -0.04371776822709529,
+          0.9772999481764497,
+          0.2073006706104699,
+          0.0
+        ],
+        [
+          -0.0023680799314485575,
+          -0.2075998439525438,
+          0.9782109675260842,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "T_display_from_leveled_local": [
+        [
+          -0.963764975135181,
+          0.20103776376579524,
+          0.17533080232160028,
+          -8.481859422486323
+        ],
+        [
+          -0.11464447315471721,
+          -0.9056439193445338,
+          0.4082471507914588,
+          19.01400927899095
+        ],
+        [
+          0.24086036925523124,
+          0.37335359767158577,
+          0.895875757919545,
+          16.27802971105701
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ]
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 10,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 13,
+    "T_display_from_epoch": [
+      [
+        -0.7320135776185877,
+        0.07025413062790944,
+        -0.677658084369807,
+        -56.957380114977205
+      ],
+      [
+        -0.3366074015103985,
+        -0.9020802173655411,
+        0.2700865392539037,
+        -10.526449607395406
+      ],
+      [
+        -0.5923272570382463,
+        0.4258117407581094,
+        0.6839830275687383,
+        -112.80569243406177
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 2,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 1.014195477922134,
+      "early_late_deg": null,
+      "tilt_deg": 21.972588498288598,
+      "rmse_m": [
+        0.03751899006663867,
+        0.03838730348232137,
+        0.038483782750730555
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 11,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 14,
+    "T_display_from_epoch": [
+      [
+        -0.8405496597036642,
+        -0.03505392653847721,
+        -0.5405991970085577,
+        -67.2294038022178
+      ],
+      [
+        -0.16887023202137363,
+        -0.9312279752831122,
+        0.3229509293796252,
+        -8.983509467777935
+      ],
+      [
+        -0.514741793823958,
+        0.3627474056204308,
+        0.7768237930229399,
+        -106.50718009020703
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 12,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 15,
+    "T_display_from_epoch": [
+      [
+        -0.7987448088213017,
+        0.27309470434781274,
+        -0.5361212669146901,
+        -101.97362617540661
+      ],
+      [
+        -0.5276486983253691,
+        -0.7461295968236238,
+        0.406051075481106,
+        15.498097503559045
+      ],
+      [
+        -0.28912554632299964,
+        0.607214877288924,
+        0.7400652074394745,
+        -40.80855536952427
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 4,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 9.266531960571776,
+      "early_late_deg": null,
+      "tilt_deg": 36.309378755609536,
+      "rmse_m": [
+        0.06617750973387199,
+        0.07135599572632849,
+        0.07172033059792438
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 13,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 16,
+    "T_display_from_epoch": [
+      [
+        0.9914939179369596,
+        0.11994973309555768,
+        -0.05051605907364641,
+        -32.00770103263464
+      ],
+      [
+        0.10060698511403385,
+        -0.9525676694149431,
+        -0.28721606802484306,
+        55.684475275791186
+      ],
+      [
+        -0.08257145536014947,
+        0.27969071617715957,
+        -0.9565328316602745,
+        -18.344957907978124
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 8,
+      "mode": "REJECT_LOCAL",
+      "p90_deg": 5.704026097782795,
+      "early_late_deg": 6.851536791092439,
+      "tilt_deg": 21.186661064270726,
+      "rmse_m": [
+        0.042860445766596304,
+        0.0665451824780997,
+        0.07301244738817808
+      ],
+      "T_leveled_local_from_epoch": null,
+      "T_display_from_leveled_local": null
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 14,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 17,
+    "T_display_from_epoch": [
+      [
+        0.7078081206417494,
+        0.6959647773628691,
+        -0.12099873149689278,
+        -22.20214930586981
+      ],
+      [
+        0.24669533930795864,
+        -0.08302876150029374,
+        0.9655297169572056,
+        34.95459334401403
+      ],
+      [
+        0.6619282996800577,
+        -0.7132595975056986,
+        -0.23045969853465764,
+        -103.58810379013866
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 15,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 18,
+    "T_display_from_epoch": [
+      [
+        0.7078081206417494,
+        0.6959647773628691,
+        -0.12099873149689278,
+        -22.20214930586981
+      ],
+      [
+        0.24669533930795864,
+        -0.08302876150029374,
+        0.9655297169572056,
+        34.95459334401403
+      ],
+      [
+        0.6619282996800577,
+        -0.7132595975056986,
+        -0.23045969853465764,
+        -103.58810379013866
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 16,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 19,
+    "T_display_from_epoch": [
+      [
+        0.7007642268162717,
+        0.6993071014831973,
+        -0.14106408554191727,
+        -22.246516663015292
+      ],
+      [
+        0.2791031838666795,
+        -0.08677355571319326,
+        0.9563324541101683,
+        35.15203597809481
+      ],
+      [
+        0.6565294442521885,
+        -0.7095350081878087,
+        -0.25598664220199296,
+        -103.63357057604537
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 17,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 20,
+    "T_display_from_epoch": [
+      [
+        -0.6870288707083992,
+        0.7234055893943456,
+        -0.06837897371392847,
+        -86.5156074211265
+      ],
+      [
+        0.019443503952935554,
+        -0.07576828749107203,
+        -0.996935863917386,
+        9.695026099653571
+      ],
+      [
+        -0.726369933964217,
+        -0.6862532476015673,
+        0.03798946155353665,
+        -162.59870617965885
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 18,
+    "source": "STAGE26_EXPLORATORY",
+    "confidence": "EXPLORATORY",
+    "stage24d_component": 21,
+    "T_display_from_epoch": [
+      [
+        0.541601613787358,
+        0.778213061673987,
+        0.3178869651038543,
+        -42.89892126974135
+      ],
+      [
+        -0.3917657157541609,
+        -0.10091223707042553,
+        0.9145142669029688,
+        -32.3670328868086
+      ],
+      [
+        0.743765632375259,
+        -0.6198396171990387,
+        0.25022296666770977,
+        -112.84235611634281
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  },
+  {
+    "robot": "robot3",
+    "epoch": 19,
+    "source": "DISPLAY_ONLY_ESTIMATE",
+    "confidence": "DISPLAY_ONLY",
+    "stage24d_component": 19,
+    "T_display_from_epoch": [
+      [
+        0.44151563541926236,
+        0.8477072610768315,
+        0.29403459524000347,
+        -32.87936539439011
+      ],
+      [
+        -0.49931494272829746,
+        -0.040142032763816844,
+        0.8654901531351056,
+        -7.938828084138809
+      ],
+      [
+        0.745485433558947,
+        -0.5289433019929601,
+        0.4055495674122005,
+        -105.19222758510176
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        1.0
+      ]
+    ],
+    "decision": "RETAIN_STAGE27",
+    "reason": "No independently admitted replacement for this boundary",
+    "local_gravity": {
+      "windows": 0,
+      "mode": "INSUFFICIENT_LOCAL_GROUND_SUPPORT"
+    }
+  }
+]

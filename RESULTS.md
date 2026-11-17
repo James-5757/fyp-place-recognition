@@ -548,3 +548,8 @@ The Stage27 replay covers 26 Epochs and 2,098.463 recorded seconds, with 429,303
 ## Stage28 multi-sensor replay
 
 Stage28 browser validation passed in all six views. All four independent full replays reached their ends and retained chunks across 64 transitions. LiDAR total 2,946,337 points, RGB-D total 429,303 points. LiDAR ground corrections passed; RGB-D retains nominal up. Camera–LiDAR overlay is NO-GO. See [the Stage28 report](docs/CUMULTI_STAGE28_MULTISENSOR.md).
+
+
+## Stage29 spatial consistency
+
+Robot3 18→19 disagrees by 38.474 m / 48.59° under frozen component re-entry. There is no lost frame at that boundary and neither Stage26 method validates the replacement. Robot3 RGB-D Epochs 6, 8 and 9 pass isolated gravity tests. No global pose changed. See [the Stage29 report](docs/CUMULTI_STAGE29_SPATIAL_AUDIT.md).

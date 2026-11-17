@@ -1,0 +1,108 @@
+{
+  "status": "PASS",
+  "browser": "157.0.4341.60",
+  "views": {
+    "robot1": {
+      "points": 128314,
+      "chunks": 39,
+      "vertical_span_m": 533.3667910158551
+    },
+    "robot3": {
+      "points": 300989,
+      "chunks": 88,
+      "vertical_span_m": 533.3667910158551
+    },
+    "combined": {
+      "points": 429303,
+      "chunks": 127,
+      "vertical_span_m": 533.3667910158551
+    }
+  },
+  "common_projection": true,
+  "common_camera_origin": true,
+  "metric_orbit_zoom_pan": true,
+  "robot3_local_epochs": [
+    {
+      "epoch": 0,
+      "points": 793
+    },
+    {
+      "epoch": 1,
+      "points": 4455
+    },
+    {
+      "epoch": 2,
+      "points": 115
+    },
+    {
+      "epoch": 3,
+      "points": 47
+    },
+    {
+      "epoch": 4,
+      "points": 163
+    },
+    {
+      "epoch": 5,
+      "points": 118
+    },
+    {
+      "epoch": 6,
+      "points": 82498
+    },
+    {
+      "epoch": 7,
+      "points": 14962
+    },
+    {
+      "epoch": 8,
+      "points": 26701
+    },
+    {
+      "epoch": 9,
+      "points": 47957
+    },
+    {
+      "epoch": 10,
+      "points": 3228
+    },
+    {
+      "epoch": 11,
+      "points": 17306
+    },
+    {
+      "epoch": 12,
+      "points": 21014
+    },
+    {
+      "epoch": 13,
+      "points": 12923
+    },
+    {
+      "epoch": 14,
+      "points": 139
+    },
+    {
+      "epoch": 15,
+      "points": 151
+    },
+    {
+      "epoch": 16,
+      "points": 17751
+    },
+    {
+      "epoch": 17,
+      "points": 13341
+    },
+    {
+      "epoch": 18,
+      "points": 6114
+    },
+    {
+      "epoch": 19,
+      "points": 31213
+    }
+  ],
+  "robot3_boundaries_checked": 19,
+  "final_chunk_counts_unchanged": true
+}

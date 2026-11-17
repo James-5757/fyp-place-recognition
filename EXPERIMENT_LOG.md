@@ -385,3 +385,8 @@ Stage27 projects original color and measured aligned depth into one persistent d
 ## Stage28 multi-sensor replay
 
 Stage28 reconstructs full-recording LiDAR display maps, reuses immutable Stage27 RGB-D chunks, fits presentation gravity, and tests trajectory-based camera–LiDAR alignment on withheld motion windows. See [the Stage28 report](docs/CUMULTI_STAGE28_MULTISENSOR.md).
+
+
+## Stage29 spatial consistency
+
+Stage29 audited the native RGB-D pose, chunk and transform chain for all 26 Epochs. It added local Epoch inspection and an equal-scale orthographic view with shared origin and explicit metric boxes. See [the Stage29 report](docs/CUMULTI_STAGE29_SPATIAL_AUDIT.md).

@@ -1,0 +1,112 @@
+{
+  "robot1": {
+    "largest_prefix_steps": [
+      {
+        "robot": "robot1",
+        "epoch": "14",
+        "previous_epoch": "13",
+        "t": "34.536054933",
+        "last_t": "34.032146835",
+        "source": "DISPLAY_ONLY_ESTIMATE",
+        "uncertainty": "DISPLAY_ONLY",
+        "translation_m": "0.49906502380249185",
+        "rotation_deg": "0.13534715212225237",
+        "raw_translation_m": "14.239267676816816",
+        "raw_rotation_deg": "0.10773442962034945",
+        "large_gap": "False",
+        "evidence": "Original discontinuous step replaced by a local motion estimate. The raw local relative motions are preserved within this Epoch."
+      },
+      {
+        "robot": "robot1",
+        "epoch": "13",
+        "previous_epoch": "12",
+        "t": "34.032146835",
+        "last_t": "33.532462681",
+        "source": "DISPLAY_ONLY_ESTIMATE",
+        "uncertainty": "DISPLAY_ONLY",
+        "translation_m": "0.4645344497704453",
+        "rotation_deg": "0.13755240354764528",
+        "raw_translation_m": "71.04232828784308",
+        "raw_rotation_deg": "0.1707956600854906",
+        "large_gap": "False",
+        "evidence": "Original discontinuous step replaced by a local motion estimate. The raw local relative motions are preserved within this Epoch."
+      },
+      {
+        "robot": "robot1",
+        "epoch": "15",
+        "previous_epoch": "14",
+        "t": "35.037452833",
+        "last_t": "34.536054933",
+        "source": "DISPLAY_ONLY_ESTIMATE",
+        "uncertainty": "DISPLAY_ONLY",
+        "translation_m": "0.4595587086279146",
+        "rotation_deg": "0.1323344670902341",
+        "raw_translation_m": "13.587914037709997",
+        "raw_rotation_deg": "0.13672636323039755",
+        "large_gap": "False",
+        "evidence": "Original discontinuous step replaced by a local motion estimate. The raw local relative motions are preserved within this Epoch."
+      }
+    ],
+    "local_z_range_m": 296.91360330581665,
+    "optimized_z_range_m": 299.90796351629086,
+    "matched_gnss_altitude_range_m": 7.400000000000091,
+    "matched_gnss_samples": 1850,
+    "gnss_used_for_display": false,
+    "action": "KEEP_STAGE28_AND_FROZEN_STAGE12D"
+  },
+  "robot3": {
+    "largest_prefix_steps": [
+      {
+        "robot": "robot3",
+        "epoch": "12",
+        "previous_epoch": "11",
+        "t": "26.550377397",
+        "last_t": "26.0015198",
+        "source": "DISPLAY_ONLY_ESTIMATE",
+        "uncertainty": "DISPLAY_ONLY",
+        "translation_m": "1.62468500634115",
+        "rotation_deg": "5.983804527911612",
+        "raw_translation_m": "130.87648447681343",
+        "raw_rotation_deg": "4.548228071456133",
+        "large_gap": "False",
+        "evidence": "Original discontinuous step replaced by a local motion estimate. The raw local relative motions are preserved within this Epoch."
+      },
+      {
+        "robot": "robot3",
+        "epoch": "11",
+        "previous_epoch": "10",
+        "t": "26.0015198",
+        "last_t": "25.500924192",
+        "source": "DISPLAY_ONLY_ESTIMATE",
+        "uncertainty": "DISPLAY_ONLY",
+        "translation_m": "1.6246850063411473",
+        "rotation_deg": "5.983804527911615",
+        "raw_translation_m": "92.76181634710616",
+        "raw_rotation_deg": "2.7169518940632185",
+        "large_gap": "False",
+        "evidence": "Original discontinuous step replaced by a local motion estimate. The raw local relative motions are preserved within this Epoch."
+      },
+      {
+        "robot": "robot3",
+        "epoch": "14",
+        "previous_epoch": "13",
+        "t": "27.550194252",
+        "last_t": "27.050590396",
+        "source": "DISPLAY_ONLY_ESTIMATE",
+        "uncertainty": "DISPLAY_ONLY",
+        "translation_m": "1.3517271072590824",
+        "rotation_deg": "0.718458496861175",
+        "raw_translation_m": "10.714370160039422",
+        "raw_rotation_deg": "6.13454811645073",
+        "large_gap": "False",
+        "evidence": "Original discontinuous step replaced by a local motion estimate. The raw local relative motions are preserved within this Epoch."
+      }
+    ],
+    "local_z_range_m": 363.86701667588204,
+    "optimized_z_range_m": 364.2369112479202,
+    "matched_gnss_altitude_range_m": 12.391000000000076,
+    "matched_gnss_samples": 3946,
+    "gnss_used_for_display": false,
+    "action": "KEEP_STAGE28_AND_FROZEN_STAGE12D"
+  }
+}

@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CU-Multi · Spatial comparison</title>
+<link rel="stylesheet" href="../stage24_full_rgbd/continuous.css">
+<link rel="stylesheet" href="../stage28_multisensor/dashboard.css">
+<script type="importmap">{"imports":{"three":"../progressive_multi_robot/vendor/three.module.js"}}</script>
+</head>
+<body>
+<header>
+  <div><h1 id="title">LiDAR and RGB-D mapping</h1><p id="gravity">Loading display orientation…</p></div>
+  <nav aria-label="Mapping views">
+    <a href="?sensor=lidar&robot=robot1">Robot1 LiDAR</a>
+    <a href="?sensor=lidar&robot=robot3">Robot3 LiDAR</a>
+    <a href="?sensor=rgbd&robot=robot1">Robot1 RGB-D</a>
+    <a href="?sensor=rgbd&robot=robot3">Robot3 RGB-D</a>
+    <a href="?sensor=lidar">Combined LiDAR</a>
+    <a href="?sensor=rgbd">Combined RGB-D</a>
+  </nav>
+</header>
+<main>
+  <section class="viewport" aria-label="Interactive 3D point cloud">
+    <div id="map"></div>
+    <div class="overlay">
+      <div id="status" role="status">Loading map manifest…</div>
+      <div class="legend"><span class="r1">Robot1 trajectory</span><span class="r3">Robot3 trajectory</span><span class="verified">Verified relative</span><span class="estimated">Uncertain connector</span></div>
+    </div>
+  </section>
+  <section class="controls" aria-label="Replay controls">
+    <button id="play" disabled>Play</button><button id="reset" disabled>Reset</button>
+    <label>Speed <select id="speed"><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option><option value="4">4×</option></select></label>
+    <input id="time" type="range" min="0" step="any" value="0" disabled aria-label="Recording time"><output id="clock">0.0 s</output>
+    <button id="end" disabled>End</button><button id="top">Top</button><button id="orbit">3D</button><button id="resetView">Reset View</button>
+    <label>Follow <select id="follow"><option value="">Off</option><option value="robot1">Robot1</option><option value="robot3">Robot3</option></select></label>
+  </section>
+  <section class="info">
+    <div><h2>Layers</h2>
+      <div class="selectors"><label>Sensor <select id="sensor"><option value="lidar">LiDAR</option><option value="rgbd">RGB-D</option></select></label>
+      <label>View <select id="robot"><option value="combined">Both robots</option><option value="robot1">Robot1</option><option value="robot3">Robot3</option></select></label></div>
+      <div id="robots"></div><label>Epoch <select id="epoch"><option value="">All visible epochs</option></select></label>
+      <div class="selectors"><label><input id="trajectories" type="checkbox" checked> Trajectories</label><label><input id="hybrid" type="checkbox"> 2 m XY grid and projected trajectories</label>
+      <label>Color <select id="colorMode"><option value="source">Source</option><option value="robot">Robot</option></select></label><label>Density <select id="density"><option value="full">Full</option><option value="reduced">Quarter</option></select></label></div>
+    </div>
+    <div><h2>Epoch transitions</h2><select id="jump" aria-label="Jump to an epoch transition"><option value="">Jump to a transition</option></select><div id="transition"></div></div>
+    <div><h2>Spatial comparison</h2>
+     <label>Camera <select id="cameraMode"><option value="auto">Auto Fit</option><option value="metric">Fixed Metric View</option></select></label>
+     <p><label><input type="checkbox" id="boxes"> Full-recording metric boxes</label></p>
+     <p><label><input type="checkbox" id="localEpoch"> Isolate selected RGB-D Epoch in its local frame</label></p>
+     <p id="displacement"></p>
+     <p>LiDAR and RGB-D use separate gauges. Robot playback clocks are independent.</p>
+    </div>
+  </section>
+</main>
+<script type="module">import('./viewer.js').catch(error=>{document.querySelector('#status').textContent='Load failed · '+error.message+' · Serve from the demo root and install the Stage28 runtime point clouds.';});</script>
+</body></html>
