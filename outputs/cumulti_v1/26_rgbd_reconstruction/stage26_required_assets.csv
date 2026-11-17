@@ -1,0 +1,749 @@
+robot,index,kind,expected_path,message_id,bag_ns,header_ns,recovery_sources,cases
+robot1,575,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000575.jpg,1726,1722894258152124875,1722894258045228958,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,575,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000575.png,4027,1722894258153995709,1722894258045228958,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,580,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000580.jpg,1741,1722894258651435574,1722894258545256853,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,580,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000580.png,4062,1722894258654757188,1722894258545256853,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,585,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000585.jpg,1757,1722894259150398237,1722894259045269251,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,585,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000585.png,4097,1722894259150183470,1722894259045269251,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,590,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000590.jpg,1771,1722894259646882376,1722894259545280457,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,590,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000590.png,4132,1722894259644946621,1722894259545280457,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,595,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000595.jpg,1787,1722894260149369157,1722894260045289993,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,595,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000595.png,4167,1722894260148893152,1722894260045289993,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,600,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000600.jpg,1802,1722894260645837704,1722894260545303106,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,600,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000600.png,4202,1722894260641141911,1722894260545303106,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,601,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000601.jpg,1805,1722894260744101470,1722894260645308256,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,601,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000601.png,4209,1722894260744834763,1722894260645308256,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,602,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000602.jpg,1807,1722894260854299801,1722894260745313406,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,602,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000602.png,4216,1722894260852141439,1722894260745313406,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,603,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000603.jpg,1811,1722894260944320750,1722894260845319748,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,603,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000603.png,4223,1722894260943679941,1722894260845319748,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,636,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000636.jpg,1910,1722894264245198517,1722894264145426512,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,636,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000636.png,4454,1722894264240567772,1722894264145426512,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,637,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000637.jpg,1913,1722894264345992575,1722894264245427132,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,637,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000637.png,4461,1722894264340678331,1722894264245427132,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,638,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000638.jpg,1916,1722894264449860365,1722894264345427513,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,638,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000638.png,4468,1722894264440970594,1722894264345427513,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,639,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000639.jpg,1919,1722894264544604907,1722894264445430279,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,639,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000639.png,4475,1722894264540984161,1722894264445430279,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,644,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000644.jpg,1934,1722894265047007059,1722894264945438385,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,644,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000644.png,4510,1722894265041092276,1722894264945438385,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,649,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000649.jpg,1949,1722894265562450982,1722894265445446014,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,649,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000649.png,4545,1722894265559936082,1722894265445446014,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,654,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000654.jpg,1964,1722894266043506186,1722894265945456505,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,654,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000654.png,4580,1722894266042997144,1722894265945456505,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,659,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000659.jpg,1979,1722894266543778788,1722894266445467472,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,659,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000659.png,4615,1722894266540960777,1722894266445467472,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,664,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000664.jpg,1994,1722894267043914651,1722894266945480585,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,664,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000664.png,4650,1722894267040803392,1722894266945480585,restore original RGB and depth ZIPs or verified cache,robot1:0->1
+robot1,642,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000642.jpg,1928,1722894264847596042,1722894264745434523,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,642,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000642.png,4496,1722894264840741986,1722894264745434523,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,647,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000647.jpg,1943,1722894265345649143,1722894265245443344,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,647,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000647.png,4531,1722894265340951480,1722894265245443344,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,652,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000652.jpg,1958,1722894265842687034,1722894265745452881,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,652,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000652.png,4566,1722894265840773288,1722894265745452881,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,657,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000657.jpg,1973,1722894266350145103,1722894266245462894,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,657,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000657.png,4601,1722894266349410797,1722894266245462894,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,662,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000662.jpg,1988,1722894266843595328,1722894266745474815,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,662,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000662.png,4636,1722894266840947951,1722894266745474815,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,667,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000667.jpg,2003,1722894267342379681,1722894267245488644,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,667,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000667.png,4671,1722894267341116467,1722894267245488644,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,668,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000668.jpg,2006,1722894267446696402,1722894267345489979,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,668,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000668.png,4678,1722894267441408632,1722894267345489979,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,669,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000669.jpg,2009,1722894267542887520,1722894267445493460,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,669,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000669.png,4685,1722894267542029549,1722894267445493460,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,670,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000670.jpg,2012,1722894267648792188,1722894267545497179,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,670,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000670.png,4692,1722894267641592505,1722894267545497179,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,702,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000702.jpg,2107,1722894270853233917,1722894270745606422,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,702,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000702.png,4916,1722894270854867073,1722894270745606422,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,703,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000703.jpg,2111,1722894270950150449,1722894270845611572,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,703,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000703.png,4923,1722894270949111467,1722894270845611572,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,704,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000704.jpg,2113,1722894271049815147,1722894270945615768,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,704,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000704.png,4930,1722894271052427407,1722894270945615768,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,705,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000705.jpg,2117,1722894271149746387,1722894271045620203,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,705,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000705.png,4937,1722894271151006981,1722894271045620203,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,710,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000710.jpg,2131,1722894271652685093,1722894271545641661,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,710,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000710.png,4972,1722894271654845814,1722894271545641661,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,715,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000715.jpg,2147,1722894272151321673,1722894272045663118,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,715,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000715.png,5007,1722894272152192986,1722894272045663118,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,720,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000720.jpg,2162,1722894272652505525,1722894272545685768,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,720,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000720.png,5042,1722894272658098316,1722894272545685768,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,725,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000725.jpg,2177,1722894273151942440,1722894273045714855,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,725,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000725.png,5077,1722894273153500005,1722894273045714855,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,730,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000730.jpg,2191,1722894273651575996,1722894273545745611,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,730,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000730.png,5112,1722894273654267081,1722894273545745611,restore original RGB and depth ZIPs or verified cache,robot1:1->2
+robot1,1187,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001187.jpg,3563,1722894319355640577,1722894319248940706,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1187,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001187.png,8309,1722894319357998341,1722894319248940706,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1192,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001192.jpg,3578,1722894319853743912,1722894319748971701,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1192,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001192.png,8344,1722894319856898664,1722894319748971701,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1197,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001197.jpg,3592,1722894320353188911,1722894320249001026,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1197,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001197.png,8379,1722894320356975461,1722894320249001026,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1202,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001202.jpg,3608,1722894320863926199,1722894320749030352,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1202,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001202.png,8414,1722894320862283008,1722894320749030352,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1207,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001207.jpg,3623,1722894321355070444,1722894321249060154,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1207,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001207.png,8449,1722894321354801226,1722894321249060154,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1212,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001212.jpg,3637,1722894321852411479,1722894321749089241,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1212,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001212.png,8484,1722894321853915471,1722894321749089241,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1213,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001213.jpg,3640,1722894321955301173,1722894321849094868,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1213,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001213.png,8491,1722894321957207216,1722894321849094868,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1214,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001214.jpg,3644,1722894322053032105,1722894321949100494,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1214,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001214.png,8498,1722894322053965208,1722894321949100494,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1215,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001215.jpg,3647,1722894322155579280,1722894322049107075,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1215,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001215.png,8505,1722894322156558688,1722894322049107075,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1247,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001247.jpg,3743,1722894325357423931,1722894325249300241,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1247,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001247.png,8729,1722894325355113597,1722894325249300241,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1248,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001248.jpg,3746,1722894325452510569,1722894325349306345,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1248,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001248.png,8736,1722894325453633761,1722894325349306345,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1249,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001249.jpg,3749,1722894325554619491,1722894325449311495,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1249,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001249.png,8743,1722894325553681421,1722894325449311495,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1250,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001250.jpg,3752,1722894325655635292,1722894325549316406,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1250,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001250.png,8750,1722894325657922967,1722894325549316406,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1255,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001255.jpg,3767,1722894326155450084,1722894326049342632,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1255,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001255.png,8785,1722894326156752995,1722894326049342632,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1260,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001260.jpg,3782,1722894326654191016,1722894326549389124,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1260,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001260.png,8820,1722894326652526832,1722894326549389124,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1265,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001265.jpg,3797,1722894327152944258,1722894327049502134,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1265,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001265.png,8855,1722894327154642361,1722894327049502134,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1270,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001270.jpg,3811,1722894327656419270,1722894327549593210,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1270,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001270.png,8890,1722894327654962629,1722894327549593210,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1275,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/001275.jpg,3827,1722894328156265466,1722894328049646854,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,1275,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/001275.png,8925,1722894328157742737,1722894328049646854,restore original RGB and depth ZIPs or verified cache,robot1:2->3
+robot1,5393,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005393.jpg,16181,1722894740018818913,1722894739879983664,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5393,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005393.png,37655,1722894740017655337,1722894739879983664,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5398,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005398.jpg,16196,1722894740573388691,1722894740380017519,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5398,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005398.png,37690,1722894740573352171,1722894740380017519,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5403,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005403.jpg,16211,1722894741137602042,1722894740880057812,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5403,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005403.png,37725,1722894741131892967,1722894740880057812,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5408,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005408.jpg,16225,1722894741676224959,1722894741380104303,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5408,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005408.png,37755,1722894741678030492,1722894741380104303,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5423,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005423.jpg,16271,1722894743012892469,1722894742880223751,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5423,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005423.png,37796,1722894743006153943,1722894742880223751,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5455,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005455.jpg,16367,1722894746264729171,1722894746080443859,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5455,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005455.png,37963,1722894746262167936,1722894746080443859,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5456,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005456.jpg,16370,1722894746393893613,1722894746180450439,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5456,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005456.png,37970,1722894746377404118,1722894746180450439,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5457,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005457.jpg,16372,1722894746504256759,1722894746280456066,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5457,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005457.png,37977,1722894746508090164,1722894746280456066,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5458,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005458.jpg,16376,1722894746621625749,1722894746380462170,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5458,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005458.png,37984,1722894746620342010,1722894746380462170,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5480,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005480.jpg,16442,1722894748682984212,1722894748580608845,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5480,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005480.png,38105,1722894748680686278,1722894748580608845,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5485,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/005485.jpg,16457,1722894749187730870,1722894749080644846,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,5485,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/005485.png,38140,1722894749184984478,1722894749080644846,restore original RGB and depth ZIPs or verified cache,robot1:3->4
+robot1,8616,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008616.jpg,25850,1722895062305041721,1722895062193299294,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8616,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008616.png,57683,1722895062305799243,1722895062193299294,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8621,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008621.jpg,25865,1722895062804613178,1722895062693342209,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8621,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008621.png,57718,1722895062804607497,1722895062693342209,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8626,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008626.jpg,25880,1722895063304556521,1722895063193387270,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8626,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008626.png,57753,1722895063306223514,1722895063193387270,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8631,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008631.jpg,25895,1722895063803739378,1722895063693433523,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8631,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008631.png,57788,1722895063803299814,1722895063693433523,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8636,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008636.jpg,25910,1722895064306845382,1722895064193480253,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8636,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008636.png,57823,1722895064302455904,1722895064193480253,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8641,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008641.jpg,25925,1722895064809516022,1722895064693526268,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8641,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008641.png,57858,1722895064810916531,1722895064693526268,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8642,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008642.jpg,25928,1722895064906193767,1722895064793535233,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8642,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008642.png,57865,1722895064908170049,1722895064793535233,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8643,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008643.jpg,25931,1722895065005913863,1722895064893544674,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8643,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008643.png,57872,1722895065006596998,1722895064893544674,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8644,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008644.jpg,25934,1722895065107380902,1722895064993553877,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8644,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008644.png,57879,1722895065106999257,1722895064993553877,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8645,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008645.jpg,25937,1722895065207704779,1722895065093563318,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8645,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008645.png,57886,1722895065206662758,1722895065093563318,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8646,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008646.jpg,25940,1722895065304297996,1722895065193573475,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8646,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008646.png,57893,1722895065304000517,1722895065193573475,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8647,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008647.jpg,25943,1722895065408847555,1722895065293582678,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8647,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008647.png,57900,1722895065397090907,1722895065293582678,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8648,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008648.jpg,25946,1722895065508991273,1722895065393592119,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8648,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008648.png,57907,1722895065510349852,1722895065393592119,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8653,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008653.jpg,25961,1722895066008745733,1722895065893640280,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8653,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008653.png,57942,1722895066012427988,1722895065893640280,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8658,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008658.jpg,25975,1722895066514854354,1722895066393695831,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8658,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008658.png,57977,1722895066516229666,1722895066393695831,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8663,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008663.jpg,25991,1722895067006674957,1722895066893752813,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8663,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008663.png,58012,1722895067005159545,1722895066893752813,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8668,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008668.jpg,26006,1722895067505047537,1722895067393800974,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8668,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008668.png,58047,1722895067505628609,1722895067393800974,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8673,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008673.jpg,26020,1722895068004143378,1722895067893850803,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot1,8673,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008673.png,58082,1722895068011918980,1722895067893850803,restore original RGB and depth ZIPs or verified cache,robot1:4->5
+robot3,607,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000607.jpg,1823,1722894261436228711,1722894261334654093,set of matching raw ZIPs available,robot3:0->1
+robot3,607,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000607.png,4251,1722894261432647948,1722894261334654093,set of matching raw ZIPs available,robot3:0->1
+robot3,612,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000612.jpg,1838,1722894261934275376,1722894261834652424,set of matching raw ZIPs available,robot3:0->1
+robot3,612,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000612.png,4286,1722894261932779978,1722894261834652424,set of matching raw ZIPs available,robot3:0->1
+robot3,617,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000617.jpg,1853,1722894262434332872,1722894262334646940,set of matching raw ZIPs available,robot3:0->1
+robot3,617,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000617.png,4321,1722894262430945207,1722894262334646940,set of matching raw ZIPs available,robot3:0->1
+robot3,622,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000622.jpg,1868,1722894262934601098,1722894262834641934,set of matching raw ZIPs available,robot3:0->1
+robot3,622,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000622.png,4356,1722894262933030299,1722894262834641934,set of matching raw ZIPs available,robot3:0->1
+robot3,627,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000627.jpg,1883,1722894263437053808,1722894263334650994,set of matching raw ZIPs available,robot3:0->1
+robot3,627,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000627.png,4391,1722894263434452813,1722894263334650994,set of matching raw ZIPs available,robot3:0->1
+robot3,632,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000632.jpg,1898,1722894263933819216,1722894263834660292,set of matching raw ZIPs available,robot3:0->1
+robot3,632,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000632.png,4426,1722894263932907746,1722894263834660292,set of matching raw ZIPs available,robot3:0->1
+robot3,633,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000633.jpg,1901,1722894264033688786,1722894263934659720,set of matching raw ZIPs available,robot3:0->1
+robot3,633,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000633.png,4433,1722894264031721180,1722894263934659720,set of matching raw ZIPs available,robot3:0->1
+robot3,634,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000634.jpg,1904,1722894264134208281,1722894264034659624,set of matching raw ZIPs available,robot3:0->1
+robot3,634,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000634.png,4440,1722894264131503322,1722894264034659624,set of matching raw ZIPs available,robot3:0->1
+robot3,635,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000635.jpg,1907,1722894264237789360,1722894264134659052,set of matching raw ZIPs available,robot3:0->1
+robot3,635,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000635.png,4447,1722894264236942540,1722894264134659052,set of matching raw ZIPs available,robot3:0->1
+robot3,667,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000667.jpg,2003,1722894267439350953,1722894267334674597,set of matching raw ZIPs available,robot3:0->1
+robot3,667,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000667.png,4671,1722894267440146524,1722894267334674597,set of matching raw ZIPs available,robot3:0->1
+robot3,668,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000668.jpg,2006,1722894267541978148,1722894267434674263,set of matching raw ZIPs available,robot3:0->1
+robot3,668,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000668.png,4678,1722894267541555980,1722894267434674263,set of matching raw ZIPs available,robot3:0->1
+robot3,669,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000669.jpg,2008,1722894267647097441,1722894267534672737,set of matching raw ZIPs available,robot3:0->1
+robot3,669,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000669.png,4685,1722894267644837719,1722894267534672737,set of matching raw ZIPs available,robot3:0->1
+robot3,670,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000670.jpg,2012,1722894267739772295,1722894267634671211,set of matching raw ZIPs available,robot3:0->1
+robot3,670,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000670.png,4692,1722894267741880389,1722894267634671211,set of matching raw ZIPs available,robot3:0->1
+robot3,675,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000675.jpg,2027,1722894268237633087,1722894268134664297,set of matching raw ZIPs available,robot3:0->1
+robot3,675,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000675.png,4727,1722894268237268743,1722894268134664297,set of matching raw ZIPs available,robot3:0->1
+robot3,680,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000680.jpg,2042,1722894268741143001,1722894268634657145,set of matching raw ZIPs available,robot3:0->1
+robot3,680,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000680.png,4762,1722894268741144770,1722894268634657145,set of matching raw ZIPs available,robot3:0->1
+robot3,685,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000685.jpg,2057,1722894269237870234,1722894269134659529,set of matching raw ZIPs available,robot3:0->1
+robot3,685,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000685.png,4797,1722894269237597585,1722894269134659529,set of matching raw ZIPs available,robot3:0->1
+robot3,690,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000690.jpg,2071,1722894269743149578,1722894269634666682,set of matching raw ZIPs available,robot3:0->1
+robot3,690,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000690.png,4832,1722894269742332136,1722894269634666682,set of matching raw ZIPs available,robot3:0->1
+robot3,695,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/000695.jpg,2087,1722894270240741608,1722894270134665251,set of matching raw ZIPs available,robot3:0->1
+robot3,695,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/000695.png,4867,1722894270239664651,1722894270134665251,set of matching raw ZIPs available,robot3:0->1
+robot3,1036,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001036.jpg,3109,1722894304342159508,1722894304235247851,set of matching raw ZIPs available,robot3:1->2
+robot3,1036,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001036.png,7254,1722894304341226725,1722894304235247851,set of matching raw ZIPs available,robot3:1->2
+robot3,1041,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001041.jpg,3125,1722894304844235987,1722894304735256672,set of matching raw ZIPs available,robot3:1->2
+robot3,1041,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001041.png,7289,1722894304842077023,1722894304735256672,set of matching raw ZIPs available,robot3:1->2
+robot3,1046,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001046.jpg,3139,1722894305342897130,1722894305235259772,set of matching raw ZIPs available,robot3:1->2
+robot3,1046,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001046.png,7324,1722894305343868260,1722894305235259772,set of matching raw ZIPs available,robot3:1->2
+robot3,1051,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001051.jpg,3155,1722894305842671590,1722894305735263825,set of matching raw ZIPs available,robot3:1->2
+robot3,1051,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001051.png,7359,1722894305841409641,1722894305735263825,set of matching raw ZIPs available,robot3:1->2
+robot3,1056,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001056.jpg,3170,1722894306340445986,1722894306235262633,set of matching raw ZIPs available,robot3:1->2
+robot3,1056,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001056.png,7392,1722894306338906010,1722894306235262633,set of matching raw ZIPs available,robot3:1->2
+robot3,1061,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001061.jpg,3185,1722894306849673804,1722894306735258818,set of matching raw ZIPs available,robot3:1->2
+robot3,1061,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001061.png,7429,1722894306847820585,1722894306735258818,set of matching raw ZIPs available,robot3:1->2
+robot3,1062,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001062.jpg,3187,1722894306944276651,1722894306835259915,set of matching raw ZIPs available,robot3:1->2
+robot3,1062,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001062.png,7434,1722894306944125729,1722894306835259915,set of matching raw ZIPs available,robot3:1->2
+robot3,1063,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001063.jpg,3191,1722894307041803628,1722894306935260773,set of matching raw ZIPs available,robot3:1->2
+robot3,1063,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001063.png,7443,1722894307042580530,1722894306935260773,set of matching raw ZIPs available,robot3:1->2
+robot3,1064,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001064.jpg,3193,1722894307144790582,1722894307035262585,set of matching raw ZIPs available,robot3:1->2
+robot3,1064,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001064.png,7450,1722894307141570763,1722894307035262585,set of matching raw ZIPs available,robot3:1->2
+robot3,1096,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001096.jpg,3290,1722894310339454075,1722894310235255003,set of matching raw ZIPs available,robot3:1->2|robot3:2->3
+robot3,1096,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001096.png,7674,1722894310340522538,1722894310235255003,set of matching raw ZIPs available,robot3:1->2|robot3:2->3
+robot3,1098,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001098.jpg,3296,1722894310544905516,1722894310435256243,set of matching raw ZIPs available,robot3:2->3|robot3:3->4
+robot3,1098,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001098.png,7688,1722894310544391748,1722894310435256243,set of matching raw ZIPs available,robot3:2->3|robot3:3->4
+robot3,1100,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001100.jpg,3302,1722894310738050926,1722894310635258675,set of matching raw ZIPs available,robot3:3->4|robot3:4->5
+robot3,1100,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001100.png,7702,1722894310738937800,1722894310635258675,set of matching raw ZIPs available,robot3:3->4|robot3:4->5
+robot3,1101,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001101.jpg,3305,1722894310838208453,1722894310735259772,set of matching raw ZIPs available,robot3:3->4|robot3:4->5
+robot3,1101,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001101.png,7709,1722894310838821847,1722894310735259772,set of matching raw ZIPs available,robot3:3->4|robot3:4->5
+robot3,1134,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001134.jpg,3404,1722894314146062168,1722894314035252095,set of matching raw ZIPs available,robot3:4->5|robot3:5->6
+robot3,1134,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001134.png,7940,1722894314141013939,1722894314035252095,set of matching raw ZIPs available,robot3:4->5|robot3:5->6
+robot3,1135,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001135.jpg,3406,1722894314240192730,1722894314135251999,set of matching raw ZIPs available,robot3:4->5|robot3:5->6
+robot3,1135,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001135.png,7947,1722894314241085677,1722894314135251999,set of matching raw ZIPs available,robot3:4->5|robot3:5->6
+robot3,1167,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001167.jpg,3503,1722894317439680332,1722894317335270405,set of matching raw ZIPs available,robot3:5->6
+robot3,1167,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001167.png,8169,1722894317439226743,1722894317335270405,set of matching raw ZIPs available,robot3:5->6
+robot3,1168,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001168.jpg,3506,1722894317537491230,1722894317435270787,set of matching raw ZIPs available,robot3:5->6
+robot3,1168,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001168.png,8176,1722894317537662718,1722894317435270787,set of matching raw ZIPs available,robot3:5->6
+robot3,1169,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001169.jpg,3508,1722894317639014278,1722894317535270214,set of matching raw ZIPs available,robot3:5->6
+robot3,1169,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001169.png,8185,1722894317640459696,1722894317535270214,set of matching raw ZIPs available,robot3:5->6
+robot3,1170,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001170.jpg,3511,1722894317741624686,1722894317635269404,set of matching raw ZIPs available,robot3:5->6
+robot3,1170,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001170.png,8190,1722894317738643076,1722894317635269404,set of matching raw ZIPs available,robot3:5->6
+robot3,1175,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001175.jpg,3527,1722894318242919003,1722894318135274887,set of matching raw ZIPs available,robot3:5->6
+robot3,1175,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001175.png,8227,1722894318241740125,1722894318135274887,set of matching raw ZIPs available,robot3:5->6
+robot3,1180,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001180.jpg,3542,1722894318751831687,1722894318635286093,set of matching raw ZIPs available,robot3:5->6
+robot3,1180,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001180.png,8262,1722894318752704679,1722894318635286093,set of matching raw ZIPs available,robot3:5->6
+robot3,1185,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001185.jpg,3557,1722894319241386366,1722894319135383606,set of matching raw ZIPs available,robot3:5->6
+robot3,1185,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001185.png,8297,1722894319239291065,1722894319135383606,set of matching raw ZIPs available,robot3:5->6
+robot3,1190,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001190.jpg,3572,1722894319737050583,1722894319635533333,set of matching raw ZIPs available,robot3:5->6
+robot3,1190,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001190.png,8332,1722894319737804123,1722894319635533333,set of matching raw ZIPs available,robot3:5->6
+robot3,1195,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/001195.jpg,3587,1722894320242374771,1722894320135582447,set of matching raw ZIPs available,robot3:5->6
+robot3,1195,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/001195.png,8365,1722894320241320828,1722894320135582447,set of matching raw ZIPs available,robot3:5->6
+robot3,6768,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006768.jpg,20305,1722894877791647321,1722894877665482044,set of matching raw ZIPs available,robot3:6->7
+robot3,6768,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006768.png,46879,1722894877793345128,1722894877665482044,set of matching raw ZIPs available,robot3:6->7
+robot3,6773,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006773.jpg,20320,1722894878266796961,1722894878165536881,set of matching raw ZIPs available,robot3:6->7
+robot3,6773,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006773.png,46914,1722894878267487354,1722894878165536881,set of matching raw ZIPs available,robot3:6->7
+robot3,6778,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006778.jpg,20335,1722894878768334013,1722894878665591240,set of matching raw ZIPs available,robot3:6->7
+robot3,6778,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006778.png,46949,1722894878767226056,1722894878665591240,set of matching raw ZIPs available,robot3:6->7
+robot3,6783,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006783.jpg,20351,1722894879272400435,1722894879165644408,set of matching raw ZIPs available,robot3:6->7
+robot3,6783,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006783.png,46984,1722894879269094883,1722894879165644408,set of matching raw ZIPs available,robot3:6->7
+robot3,6788,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006788.jpg,20365,1722894879768048910,1722894879665696621,set of matching raw ZIPs available,robot3:6->7
+robot3,6788,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006788.png,47019,1722894879768614968,1722894879665696621,set of matching raw ZIPs available,robot3:6->7
+robot3,6793,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006793.jpg,20381,1722894880268468621,1722894880165750265,set of matching raw ZIPs available,robot3:6->7
+robot3,6793,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006793.png,47054,1722894880269826476,1722894880165750265,set of matching raw ZIPs available,robot3:6->7
+robot3,6794,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006794.jpg,20384,1722894880381204227,1722894880265761614,set of matching raw ZIPs available,robot3:6->7
+robot3,6794,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006794.png,47061,1722894880368836328,1722894880265761614,set of matching raw ZIPs available,robot3:6->7
+robot3,6795,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006795.jpg,20387,1722894880466629056,1722894880365771771,set of matching raw ZIPs available,robot3:6->7
+robot3,6795,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006795.png,47068,1722894880466165623,1722894880365771771,set of matching raw ZIPs available,robot3:6->7
+robot3,6796,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006796.jpg,20390,1722894880573275514,1722894880465782166,set of matching raw ZIPs available,robot3:6->7
+robot3,6796,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006796.png,47075,1722894880569579786,1722894880465782166,set of matching raw ZIPs available,robot3:6->7
+robot3,6828,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006828.jpg,20486,1722894883799382591,1722894883666156531,set of matching raw ZIPs available,robot3:6->7
+robot3,6828,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006828.png,47299,1722894883801211837,1722894883666156531,set of matching raw ZIPs available,robot3:6->7
+robot3,6829,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006829.jpg,20489,1722894883904060122,1722894883766175032,set of matching raw ZIPs available,robot3:6->7
+robot3,6829,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006829.png,47306,1722894883901279274,1722894883766175032,set of matching raw ZIPs available,robot3:6->7
+robot3,6830,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006830.jpg,20491,1722894883990050322,1722894883866192580,set of matching raw ZIPs available,robot3:6->7
+robot3,6830,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006830.png,47313,1722894883990084130,1722894883866192580,set of matching raw ZIPs available,robot3:6->7
+robot3,6831,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006831.jpg,20495,1722894884083859430,1722894883966210127,set of matching raw ZIPs available,robot3:6->7
+robot3,6831,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006831.png,47320,1722894884083837299,1722894883966210127,set of matching raw ZIPs available,robot3:6->7
+robot3,6836,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006836.jpg,20510,1722894884570462018,1722894884466296673,set of matching raw ZIPs available,robot3:6->7
+robot3,6836,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006836.png,47355,1722894884569389544,1722894884466296673,set of matching raw ZIPs available,robot3:6->7
+robot3,6841,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006841.jpg,20524,1722894885073113371,1722894884966348171,set of matching raw ZIPs available,robot3:6->7
+robot3,6841,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006841.png,47390,1722894885071747484,1722894884966348171,set of matching raw ZIPs available,robot3:6->7
+robot3,6846,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006846.jpg,20540,1722894885568612917,1722894885466399908,set of matching raw ZIPs available,robot3:6->7
+robot3,6846,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006846.png,47425,1722894885569673537,1722894885466399908,set of matching raw ZIPs available,robot3:6->7
+robot3,6851,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006851.jpg,20555,1722894886079404788,1722894885966453076,set of matching raw ZIPs available,robot3:6->7
+robot3,6851,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006851.png,47460,1722894886077090663,1722894885966453076,set of matching raw ZIPs available,robot3:6->7
+robot3,6856,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/006856.jpg,20569,1722894886581717692,1722894886466506481,set of matching raw ZIPs available,robot3:6->7
+robot3,6856,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/006856.png,47495,1722894886572368281,1722894886466506481,set of matching raw ZIPs available,robot3:6->7
+robot3,7562,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007562.jpg,22688,1722894957265452912,1722894957069663763,set of matching raw ZIPs available,robot3:7->8
+robot3,7562,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007562.png,52156,1722894957264428931,1722894957069663763,set of matching raw ZIPs available,robot3:7->8
+robot3,7567,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007567.jpg,22703,1722894957760434222,1722894957569680691,set of matching raw ZIPs available,robot3:7->8
+robot3,7567,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007567.png,52191,1722894957760063388,1722894957569680691,set of matching raw ZIPs available,robot3:7->8
+robot3,7572,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007572.jpg,22718,1722894958248737051,1722894958069717407,set of matching raw ZIPs available,robot3:7->8
+robot3,7572,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007572.png,52226,1722894958244258977,1722894958069717407,set of matching raw ZIPs available,robot3:7->8
+robot3,7577,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007577.jpg,22733,1722894958780218032,1722894958569747448,set of matching raw ZIPs available,robot3:7->8
+robot3,7577,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007577.png,52261,1722894958782128406,1722894958569747448,set of matching raw ZIPs available,robot3:7->8
+robot3,7582,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007582.jpg,22748,1722894959300917253,1722894959069753886,set of matching raw ZIPs available,robot3:7->8
+robot3,7582,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007582.png,52296,1722894959300464673,1722894959069753886,set of matching raw ZIPs available,robot3:7->8
+robot3,7587,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007587.jpg,22763,1722894959814958602,1722894959569765091,set of matching raw ZIPs available,robot3:7->8
+robot3,7587,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007587.png,52331,1722894959815760441,1722894959569765091,set of matching raw ZIPs available,robot3:7->8
+robot3,7588,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007588.jpg,22766,1722894959916657914,1722894959669771672,set of matching raw ZIPs available,robot3:7->8
+robot3,7588,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007588.png,52338,1722894959912566508,1722894959669771672,set of matching raw ZIPs available,robot3:7->8
+robot3,7589,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007589.jpg,22769,1722894960014655738,1722894959769777537,set of matching raw ZIPs available,robot3:7->8
+robot3,7589,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007589.png,52345,1722894960016105577,1722894959769777537,set of matching raw ZIPs available,robot3:7->8
+robot3,7590,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007590.jpg,22772,1722894960116574668,1722894959869783402,set of matching raw ZIPs available,robot3:7->8
+robot3,7590,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007590.png,52352,1722894960113608511,1722894959869783402,set of matching raw ZIPs available,robot3:7->8
+robot3,7623,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007623.jpg,22871,1722894963387747063,1722894963169954539,set of matching raw ZIPs available,robot3:7->8
+robot3,7623,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007623.png,52574,1722894963388528928,1722894963169954539,set of matching raw ZIPs available,robot3:7->8
+robot3,7624,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007624.jpg,22874,1722894963493246621,1722894963269955158,set of matching raw ZIPs available,robot3:7->8
+robot3,7624,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007624.png,52581,1722894963489955074,1722894963269955158,set of matching raw ZIPs available,robot3:7->8
+robot3,7625,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007625.jpg,22876,1722894963597659581,1722894963369958163,set of matching raw ZIPs available,robot3:7->8
+robot3,7625,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007625.png,52588,1722894963599216930,1722894963369958163,set of matching raw ZIPs available,robot3:7->8
+robot3,7626,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007626.jpg,22880,1722894963702638602,1722894963469960690,set of matching raw ZIPs available,robot3:7->8
+robot3,7626,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007626.png,52595,1722894963700109599,1722894963469960690,set of matching raw ZIPs available,robot3:7->8
+robot3,7631,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007631.jpg,22895,1722894964216828837,1722894963969976187,set of matching raw ZIPs available,robot3:7->8
+robot3,7631,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007631.png,52630,1722894964218191419,1722894963969976187,set of matching raw ZIPs available,robot3:7->8
+robot3,7636,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/007636.jpg,22910,1722894964742085176,1722894964469991923,set of matching raw ZIPs available,robot3:7->8
+robot3,7636,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/007636.png,52665,1722894964738127188,1722894964469991923,set of matching raw ZIPs available,robot3:7->8
+robot3,9150,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009150.jpg,27452,1722895115987887108,1722895115877644539,set of matching raw ZIPs available,robot3:8->9
+robot3,9150,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009150.png,62764,1722895115989181654,1722895115877644539,set of matching raw ZIPs available,robot3:8->9
+robot3,9155,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009155.jpg,27467,1722895116501289561,1722895116377700567,set of matching raw ZIPs available,robot3:8->9
+robot3,9155,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009155.png,62799,1722895116496471170,1722895116377700567,set of matching raw ZIPs available,robot3:8->9
+robot3,9160,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009160.jpg,27481,1722895116986089936,1722895116877753020,set of matching raw ZIPs available,robot3:8->9
+robot3,9160,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009160.png,62834,1722895116987371777,1722895116877753020,set of matching raw ZIPs available,robot3:8->9
+robot3,9165,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009165.jpg,27497,1722895117489420341,1722895117377805233,set of matching raw ZIPs available,robot3:8->9
+robot3,9165,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009165.png,62869,1722895117490853785,1722895117377805233,set of matching raw ZIPs available,robot3:8->9
+robot3,9170,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009170.jpg,27512,1722895117994715938,1722895117877857447,set of matching raw ZIPs available,robot3:8->9
+robot3,9170,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009170.png,62904,1722895117994807564,1722895117877857447,set of matching raw ZIPs available,robot3:8->9
+robot3,9175,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009175.jpg,27527,1722895118485700660,1722895118377909661,set of matching raw ZIPs available,robot3:8->9
+robot3,9175,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009175.png,62939,1722895118488400193,1722895118377909661,set of matching raw ZIPs available,robot3:8->9
+robot3,9176,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009176.jpg,27530,1722895118591512720,1722895118477919579,set of matching raw ZIPs available,robot3:8->9
+robot3,9176,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009176.png,62946,1722895118590542678,1722895118477919579,set of matching raw ZIPs available,robot3:8->9
+robot3,9177,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009177.jpg,27533,1722895118689971848,1722895118577929735,set of matching raw ZIPs available,robot3:8->9
+robot3,9177,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009177.png,62953,1722895118693153521,1722895118577929735,set of matching raw ZIPs available,robot3:8->9
+robot3,9178,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009178.jpg,27536,1722895118795930671,1722895118677940846,set of matching raw ZIPs available,robot3:8->9
+robot3,9178,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009178.png,62960,1722895118792429775,1722895118677940846,set of matching raw ZIPs available,robot3:8->9
+robot3,9179,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009179.jpg,27538,1722895118888336837,1722895118777951002,set of matching raw ZIPs available,robot3:8->9
+robot3,9179,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009179.png,62967,1722895118890603492,1722895118777951002,set of matching raw ZIPs available,robot3:8->9
+robot3,9180,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009180.jpg,27542,1722895118991878337,1722895118877960921,set of matching raw ZIPs available,robot3:8->9
+robot3,9180,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009180.png,62974,1722895118986105421,1722895118877960921,set of matching raw ZIPs available,robot3:8->9
+robot3,9181,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009181.jpg,27545,1722895119089230583,1722895118977972269,set of matching raw ZIPs available,robot3:8->9
+robot3,9181,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009181.png,62981,1722895119090611446,1722895118977972269,set of matching raw ZIPs available,robot3:8->9
+robot3,9182,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009182.jpg,27548,1722895119187239706,1722895119077982188,set of matching raw ZIPs available,robot3:8->9
+robot3,9182,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009182.png,62988,1722895119186341767,1722895119077982188,set of matching raw ZIPs available,robot3:8->9
+robot3,9187,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009187.jpg,27563,1722895119685333707,1722895119578035832,set of matching raw ZIPs available,robot3:8->9
+robot3,9187,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009187.png,63023,1722895119687424389,1722895119578035832,set of matching raw ZIPs available,robot3:8->9
+robot3,9192,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009192.jpg,27578,1722895120187584872,1722895120078097105,set of matching raw ZIPs available,robot3:8->9
+robot3,9192,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009192.png,63058,1722895120187261791,1722895120078097105,set of matching raw ZIPs available,robot3:8->9
+robot3,9197,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009197.jpg,27593,1722895120684863533,1722895120578155995,set of matching raw ZIPs available,robot3:8->9
+robot3,9197,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009197.png,63093,1722895120686134631,1722895120578155995,set of matching raw ZIPs available,robot3:8->9
+robot3,9202,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009202.jpg,27607,1722895121188520526,1722895121078206778,set of matching raw ZIPs available,robot3:8->9
+robot3,9202,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009202.png,63128,1722895121189441002,1722895121078206778,set of matching raw ZIPs available,robot3:8->9
+robot3,9207,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009207.jpg,27623,1722895121687535308,1722895121578258991,set of matching raw ZIPs available,robot3:8->9
+robot3,9207,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009207.png,63163,1722895121687698594,1722895121578258991,set of matching raw ZIPs available,robot3:8->9
+robot3,12376,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012376.jpg,37130,1722895438704893301,1722895438595624209,set of matching raw ZIPs available,robot3:9->10
+robot3,12376,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012376.png,85013,1722895438705891208,1722895438595624209,set of matching raw ZIPs available,robot3:9->10
+robot3,12381,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012381.jpg,37145,1722895439200792567,1722895439095679522,set of matching raw ZIPs available,robot3:9->10
+robot3,12381,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012381.png,85048,1722895439200878349,1722895439095679522,set of matching raw ZIPs available,robot3:9->10
+robot3,12386,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012386.jpg,37160,1722895439704467118,1722895439595736504,set of matching raw ZIPs available,robot3:9->10
+robot3,12386,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012386.png,85083,1722895439701732288,1722895439595736504,set of matching raw ZIPs available,robot3:9->10
+robot3,12391,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012391.jpg,37175,1722895440200931585,1722895440095798016,set of matching raw ZIPs available,robot3:9->10
+robot3,12391,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012391.png,85118,1722895440199679271,1722895440095798016,set of matching raw ZIPs available,robot3:9->10
+robot3,12396,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012396.jpg,37189,1722895440720014110,1722895440595860958,set of matching raw ZIPs available,robot3:9->10
+robot3,12396,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012396.png,85153,1722895440719023028,1722895440595860958,set of matching raw ZIPs available,robot3:9->10
+robot3,12401,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012401.jpg,37205,1722895441197587860,1722895441095913649,set of matching raw ZIPs available,robot3:9->10
+robot3,12401,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012401.png,85188,1722895441197504361,1722895441095913649,set of matching raw ZIPs available,robot3:9->10
+robot3,12402,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012402.jpg,37207,1722895441300001483,1722895441195923805,set of matching raw ZIPs available,robot3:9->10
+robot3,12402,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012402.png,85195,1722895441298368301,1722895441195923805,set of matching raw ZIPs available,robot3:9->10
+robot3,12403,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012403.jpg,37210,1722895441400454964,1722895441295933247,set of matching raw ZIPs available,robot3:9->10
+robot3,12403,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012403.png,85202,1722895441400508783,1722895441295933247,set of matching raw ZIPs available,robot3:9->10
+robot3,12404,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012404.jpg,37214,1722895441502109035,1722895441395942211,set of matching raw ZIPs available,robot3:9->10
+robot3,12404,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012404.png,85209,1722895441500474304,1722895441395942211,set of matching raw ZIPs available,robot3:9->10
+robot3,12436,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012436.jpg,37310,1722895444713338984,1722895444596267700,set of matching raw ZIPs available,robot3:9->10
+robot3,12436,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012436.png,85433,1722895444714071697,1722895444596267700,set of matching raw ZIPs available,robot3:9->10
+robot3,12437,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012437.jpg,37313,1722895444817759736,1722895444696278095,set of matching raw ZIPs available,robot3:9->10
+robot3,12437,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012437.png,85440,1722895444816651890,1722895444696278095,set of matching raw ZIPs available,robot3:9->10
+robot3,12438,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012438.jpg,37316,1722895444918715421,1722895444796288014,set of matching raw ZIPs available,robot3:9->10
+robot3,12438,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012438.png,85447,1722895444919895844,1722895444796288014,set of matching raw ZIPs available,robot3:9->10
+robot3,12439,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012439.jpg,37319,1722895445013080123,1722895444896298647,set of matching raw ZIPs available,robot3:9->10
+robot3,12439,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012439.png,85454,1722895445011799495,1722895444896298647,set of matching raw ZIPs available,robot3:9->10
+robot3,12444,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012444.jpg,37334,1722895445502225526,1722895445396347761,set of matching raw ZIPs available,robot3:9->10
+robot3,12444,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012444.png,85489,1722895445502173291,1722895445396347761,set of matching raw ZIPs available,robot3:9->10
+robot3,12449,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012449.jpg,37349,1722895446003589313,1722895445896398306,set of matching raw ZIPs available,robot3:9->10
+robot3,12449,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012449.png,85524,1722895446003215827,1722895445896398306,set of matching raw ZIPs available,robot3:9->10
+robot3,12454,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012454.jpg,37364,1722895446500327868,1722895446396450043,set of matching raw ZIPs available,robot3:9->10
+robot3,12454,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012454.png,85559,1722895446497069815,1722895446396450043,set of matching raw ZIPs available,robot3:9->10
+robot3,12459,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012459.jpg,37379,1722895447005509384,1722895446896501303,set of matching raw ZIPs available,robot3:9->10
+robot3,12459,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012459.png,85594,1722895447001878238,1722895446896501303,set of matching raw ZIPs available,robot3:9->10
+robot3,12464,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012464.jpg,37394,1722895447500061978,1722895447396550656,set of matching raw ZIPs available,robot3:9->10
+robot3,12464,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012464.png,85629,1722895447498882697,1722895447396550656,set of matching raw ZIPs available,robot3:9->10
+robot3,12723,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012723.jpg,38171,1722895473403301919,1722895473299315930,set of matching raw ZIPs available,robot3:10->11
+robot3,12723,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012723.png,87442,1722895473404539734,1722895473299315930,set of matching raw ZIPs available,robot3:10->11
+robot3,12728,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012728.jpg,38186,1722895473912557284,1722895473799369812,set of matching raw ZIPs available,robot3:10->11
+robot3,12728,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012728.png,87477,1722895473908298731,1722895473799369812,set of matching raw ZIPs available,robot3:10->11
+robot3,12733,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012733.jpg,38201,1722895474406448395,1722895474299421072,set of matching raw ZIPs available,robot3:10->11
+robot3,12733,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012733.png,87512,1722895474414390085,1722895474299421072,set of matching raw ZIPs available,robot3:10->11
+robot3,12738,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012738.jpg,38216,1722895474907741594,1722895474799472571,set of matching raw ZIPs available,robot3:10->11
+robot3,12738,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012738.png,87547,1722895474906686587,1722895474799472571,set of matching raw ZIPs available,robot3:10->11
+robot3,12743,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012743.jpg,38231,1722895475409912366,1722895475299517870,set of matching raw ZIPs available,robot3:10->11
+robot3,12743,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012743.png,87582,1722895475406624842,1722895475299517870,set of matching raw ZIPs available,robot3:10->11
+robot3,12748,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012748.jpg,38246,1722895475907418698,1722895475799562931,set of matching raw ZIPs available,robot3:10->11
+robot3,12748,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012748.png,87617,1722895475904056646,1722895475799562931,set of matching raw ZIPs available,robot3:10->11
+robot3,12749,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012749.jpg,38249,1722895476001732535,1722895475899571896,set of matching raw ZIPs available,robot3:10->11
+robot3,12749,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012749.png,87624,1722895476001575621,1722895475899571896,set of matching raw ZIPs available,robot3:10->11
+robot3,12750,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012750.jpg,38252,1722895476102579382,1722895475999580622,set of matching raw ZIPs available,robot3:10->11
+robot3,12750,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012750.png,87631,1722895476101476914,1722895475999580622,set of matching raw ZIPs available,robot3:10->11
+robot3,12751,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012751.jpg,38255,1722895476205372082,1722895476099590779,set of matching raw ZIPs available,robot3:10->11
+robot3,12751,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012751.png,87638,1722895476201869072,1722895476099590779,set of matching raw ZIPs available,robot3:10->11
+robot3,12784,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012784.jpg,38354,1722895479506161396,1722895479399931431,set of matching raw ZIPs available,robot3:10->11
+robot3,12784,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012784.png,87869,1722895479506956126,1722895479399931431,set of matching raw ZIPs available,robot3:10->11
+robot3,12785,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012785.jpg,38357,1722895479607545206,1722895479499944210,set of matching raw ZIPs available,robot3:10->11
+robot3,12785,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012785.png,87876,1722895479604085003,1722895479499944210,set of matching raw ZIPs available,robot3:10->11
+robot3,12786,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012786.jpg,38359,1722895479703895173,1722895479599955797,set of matching raw ZIPs available,robot3:10->11
+robot3,12786,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012786.png,87883,1722895479702885670,1722895479599955797,set of matching raw ZIPs available,robot3:10->11
+robot3,12787,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012787.jpg,38363,1722895479801819575,1722895479699967385,set of matching raw ZIPs available,robot3:10->11
+robot3,12787,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012787.png,87890,1722895479806517356,1722895479699967385,set of matching raw ZIPs available,robot3:10->11
+robot3,12792,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012792.jpg,38378,1722895480301128192,1722895480200032473,set of matching raw ZIPs available,robot3:10->11
+robot3,12792,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012792.png,87925,1722895480302597624,1722895480200032473,set of matching raw ZIPs available,robot3:10->11
+robot3,12797,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012797.jpg,38393,1722895480820639126,1722895480700100184,set of matching raw ZIPs available,robot3:10->11
+robot3,12797,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012797.png,87960,1722895480821415572,1722895480700100184,set of matching raw ZIPs available,robot3:10->11
+robot3,12802,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012802.jpg,38408,1722895481306150717,1722895481200152636,set of matching raw ZIPs available,robot3:10->11
+robot3,12802,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012802.png,87995,1722895481302729570,1722895481200152636,set of matching raw ZIPs available,robot3:10->11
+robot3,12807,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012807.jpg,38423,1722895481808996879,1722895481700204611,set of matching raw ZIPs available,robot3:10->11
+robot3,12807,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012807.png,88030,1722895481804867310,1722895481700204611,set of matching raw ZIPs available,robot3:10->11
+robot3,12812,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/012812.jpg,38438,1722895482307343166,1722895482200238228,set of matching raw ZIPs available,robot3:10->11
+robot3,12812,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/012812.png,88065,1722895482305699181,1722895482200238228,set of matching raw ZIPs available,robot3:10->11
+robot3,13871,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013871.jpg,41615,1722895588211318064,1722895588104082585,set of matching raw ZIPs available,robot3:11->12
+robot3,13871,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013871.png,95321,1722895588212464684,1722895588104082585,set of matching raw ZIPs available,robot3:11->12
+robot3,13876,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013876.jpg,41630,1722895588709936786,1722895588604089976,set of matching raw ZIPs available,robot3:11->12
+robot3,13876,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013876.png,95356,1722895588708990301,1722895588604089976,set of matching raw ZIPs available,robot3:11->12
+robot3,13881,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013881.jpg,41645,1722895589213630289,1722895589104095459,set of matching raw ZIPs available,robot3:11->12
+robot3,13881,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013881.png,95391,1722895589209828345,1722895589104095459,set of matching raw ZIPs available,robot3:11->12
+robot3,13886,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013886.jpg,41660,1722895589709702343,1722895589604100943,set of matching raw ZIPs available,robot3:11->12
+robot3,13886,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013886.png,95426,1722895589710632009,1722895589604100943,set of matching raw ZIPs available,robot3:11->12
+robot3,13891,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013891.jpg,41675,1722895590206959454,1722895590104105234,set of matching raw ZIPs available,robot3:11->12
+robot3,13891,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013891.png,95461,1722895590206975036,1722895590104105234,set of matching raw ZIPs available,robot3:11->12
+robot3,13896,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013896.jpg,41690,1722895590737648849,1722895590604110480,set of matching raw ZIPs available,robot3:11->12
+robot3,13896,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013896.png,95496,1722895590728204657,1722895590604110480,set of matching raw ZIPs available,robot3:11->12
+robot3,13897,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013897.jpg,41693,1722895590824690676,1722895590704105854,set of matching raw ZIPs available,robot3:11->12
+robot3,13897,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013897.png,95503,1722895590826350223,1722895590704105854,set of matching raw ZIPs available,robot3:11->12
+robot3,13898,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013898.jpg,41696,1722895590922505935,1722895590804114819,set of matching raw ZIPs available,robot3:11->12
+robot3,13898,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013898.png,95510,1722895590919844846,1722895590804114819,set of matching raw ZIPs available,robot3:11->12
+robot3,13899,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013899.jpg,41698,1722895591010591371,1722895590904124022,set of matching raw ZIPs available,robot3:11->12
+robot3,13899,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013899.png,95517,1722895591010124991,1722895590904124022,set of matching raw ZIPs available,robot3:11->12
+robot3,13931,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013931.jpg,41795,1722895594209199457,1722895594104252339,set of matching raw ZIPs available,robot3:11->12
+robot3,13931,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013931.png,95741,1722895594210613006,1722895594104252339,set of matching raw ZIPs available,robot3:11->12
+robot3,13932,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013932.jpg,41798,1722895594327860201,1722895594204253674,set of matching raw ZIPs available,robot3:11->12
+robot3,13932,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013932.png,95748,1722895594313147744,1722895594204253674,set of matching raw ZIPs available,robot3:11->12
+robot3,13933,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013933.jpg,41801,1722895594442033147,1722895594304254294,set of matching raw ZIPs available,robot3:11->12
+robot3,13933,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013933.png,95755,1722895594442856580,1722895594304254294,set of matching raw ZIPs available,robot3:11->12
+robot3,13934,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013934.jpg,41804,1722895594559373023,1722895594404254675,set of matching raw ZIPs available,robot3:11->12
+robot3,13934,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013934.png,95762,1722895594554207306,1722895594404254675,set of matching raw ZIPs available,robot3:11->12
+robot3,13939,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013939.jpg,41819,1722895595099768266,1722895594904287100,set of matching raw ZIPs available,robot3:11->12
+robot3,13939,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013939.png,95797,1722895595097753947,1722895594904287100,set of matching raw ZIPs available,robot3:11->12
+robot3,13944,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013944.jpg,41833,1722895595576764845,1722895595404337883,set of matching raw ZIPs available,robot3:11->12
+robot3,13944,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013944.png,95832,1722895595582658002,1722895595404337883,set of matching raw ZIPs available,robot3:11->12
+robot3,13949,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013949.jpg,41849,1722895596053720890,1722895595904387474,set of matching raw ZIPs available,robot3:11->12
+robot3,13949,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013949.png,95867,1722895596050359142,1722895595904387474,set of matching raw ZIPs available,robot3:11->12
+robot3,13954,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013954.jpg,41864,1722895596540526420,1722895596404430151,set of matching raw ZIPs available,robot3:11->12
+robot3,13954,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013954.png,95902,1722895596541456002,1722895596404430151,set of matching raw ZIPs available,robot3:11->12
+robot3,13959,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/013959.jpg,41879,1722895597021135638,1722895596904474259,set of matching raw ZIPs available,robot3:11->12
+robot3,13959,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/013959.png,95937,1722895597009805949,1722895596904474259,set of matching raw ZIPs available,robot3:11->12
+robot3,15071,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015071.jpg,45214,1722895708217724780,1722895708114073754,set of matching raw ZIPs available,robot3:12->13
+robot3,15071,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015071.png,103691,1722895708216747836,1722895708114073754,set of matching raw ZIPs available,robot3:12->13
+robot3,15076,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015076.jpg,45230,1722895708740247217,1722895708614121437,set of matching raw ZIPs available,robot3:12->13
+robot3,15076,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015076.png,103726,1722895708741009401,1722895708614121437,set of matching raw ZIPs available,robot3:12->13
+robot3,15081,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015081.jpg,45245,1722895709222461057,1722895709114169836,set of matching raw ZIPs available,robot3:12->13
+robot3,15081,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015081.png,103761,1722895709222117185,1722895709114169836,set of matching raw ZIPs available,robot3:12->13
+robot3,15086,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015086.jpg,45260,1722895709717810019,1722895709614217997,set of matching raw ZIPs available,robot3:12->13
+robot3,15086,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015086.png,103796,1722895709715583728,1722895709614217997,set of matching raw ZIPs available,robot3:12->13
+robot3,15091,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015091.jpg,45275,1722895710220303892,1722895710114264488,set of matching raw ZIPs available,robot3:12->13
+robot3,15091,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015091.png,103831,1722895710218192069,1722895710114264488,set of matching raw ZIPs available,robot3:12->13
+robot3,15096,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015096.jpg,45290,1722895710717857063,1722895710614307881,set of matching raw ZIPs available,robot3:12->13
+robot3,15096,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015096.png,103866,1722895710715312472,1722895710614307881,set of matching raw ZIPs available,robot3:12->13
+robot3,15097,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015097.jpg,45293,1722895710819520120,1722895710714317322,set of matching raw ZIPs available,robot3:12->13
+robot3,15097,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015097.png,103873,1722895710820997793,1722895710714317322,set of matching raw ZIPs available,robot3:12->13
+robot3,15098,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015098.jpg,45296,1722895710917422642,1722895710814325333,set of matching raw ZIPs available,robot3:12->13
+robot3,15098,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015098.png,103880,1722895710917369836,1722895710814325333,set of matching raw ZIPs available,robot3:12->13
+robot3,15099,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015099.jpg,45299,1722895711020079493,1722895710914335490,set of matching raw ZIPs available,robot3:12->13
+robot3,15099,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015099.png,103887,1722895711018783781,1722895710914335490,set of matching raw ZIPs available,robot3:12->13
+robot3,15131,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015131.jpg,45395,1722895714227085354,1722895714114659548,set of matching raw ZIPs available,robot3:12->13
+robot3,15131,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015131.png,104111,1722895714225065684,1722895714114659548,set of matching raw ZIPs available,robot3:12->13
+robot3,15132,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015132.jpg,45398,1722895714319576884,1722895714214669466,set of matching raw ZIPs available,robot3:12->13
+robot3,15132,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015132.png,104118,1722895714320614703,1722895714214669466,set of matching raw ZIPs available,robot3:12->13
+robot3,15133,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015133.jpg,45400,1722895714419861149,1722895714314679861,set of matching raw ZIPs available,robot3:12->13
+robot3,15133,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015133.png,104125,1722895714417684278,1722895714314679861,set of matching raw ZIPs available,robot3:12->13
+robot3,15134,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015134.jpg,45403,1722895714515781281,1722895714414690733,set of matching raw ZIPs available,robot3:12->13
+robot3,15134,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015134.png,104132,1722895714516093925,1722895714414690733,set of matching raw ZIPs available,robot3:12->13
+robot3,15139,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015139.jpg,45419,1722895715022111073,1722895714914743901,set of matching raw ZIPs available,robot3:12->13
+robot3,15139,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015139.png,104167,1722895715022016743,1722895714914743901,set of matching raw ZIPs available,robot3:12->13
+robot3,15144,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015144.jpg,45434,1722895715517570146,1722895715414803028,set of matching raw ZIPs available,robot3:12->13
+robot3,15144,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015144.png,104202,1722895715519244700,1722895715414803028,set of matching raw ZIPs available,robot3:12->13
+robot3,15149,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015149.jpg,45449,1722895716051025930,1722895715914864064,set of matching raw ZIPs available,robot3:12->13
+robot3,15149,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015149.png,104237,1722895716043032149,1722895715914864064,set of matching raw ZIPs available,robot3:12->13
+robot3,15154,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015154.jpg,45464,1722895716519205435,1722895716414930582,set of matching raw ZIPs available,robot3:12->13
+robot3,15154,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015154.png,104272,1722895716520817399,1722895716414930582,set of matching raw ZIPs available,robot3:12->13
+robot3,15159,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/015159.jpg,45479,1722895717047586610,1722895716914996147,set of matching raw ZIPs available,robot3:12->13
+robot3,15159,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/015159.png,104307,1722895717047213110,1722895716914996147,set of matching raw ZIPs available,robot3:12->13
+robot3,16099,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016099.jpg,48299,1722895811027086525,1722895810924341202,set of matching raw ZIPs available,robot3:13->14
+robot3,16099,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016099.png,110884,1722895811028490615,1722895810924341202,set of matching raw ZIPs available,robot3:13->14
+robot3,16104,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016104.jpg,48314,1722895811536587211,1722895811424382687,set of matching raw ZIPs available,robot3:13->14
+robot3,16104,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016104.png,110919,1722895811529805225,1722895811424382687,set of matching raw ZIPs available,robot3:13->14
+robot3,16109,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016109.jpg,48328,1722895812029885674,1722895811924424649,set of matching raw ZIPs available,robot3:13->14
+robot3,16109,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016109.png,110954,1722895812037630630,1722895811924424649,set of matching raw ZIPs available,robot3:13->14
+robot3,16114,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016114.jpg,48344,1722895812535623711,1722895812424468279,set of matching raw ZIPs available,robot3:13->14
+robot3,16114,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016114.png,110989,1722895812527000374,1722895812424468279,set of matching raw ZIPs available,robot3:13->14
+robot3,16119,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016119.jpg,48358,1722895813042169820,1722895812924512148,set of matching raw ZIPs available,robot3:13->14
+robot3,16119,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016119.png,111024,1722895813044134831,1722895812924512148,set of matching raw ZIPs available,robot3:13->14
+robot3,16124,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016124.jpg,48374,1722895813540964200,1722895813424557209,set of matching raw ZIPs available,robot3:13->14
+robot3,16124,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016124.png,111059,1722895813532329308,1722895813424557209,set of matching raw ZIPs available,robot3:13->14
+robot3,16125,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016125.jpg,48377,1722895813630745189,1722895813524566889,set of matching raw ZIPs available,robot3:13->14
+robot3,16125,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016125.png,111066,1722895813628229518,1722895813524566889,set of matching raw ZIPs available,robot3:13->14
+robot3,16126,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016126.jpg,48380,1722895813737201316,1722895813624575854,set of matching raw ZIPs available,robot3:13->14
+robot3,16126,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016126.png,111073,1722895813729405125,1722895813624575854,set of matching raw ZIPs available,robot3:13->14
+robot3,16127,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016127.jpg,48382,1722895813826559840,1722895813724584580,set of matching raw ZIPs available,robot3:13->14
+robot3,16127,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016127.png,111080,1722895813827776988,1722895813724584580,set of matching raw ZIPs available,robot3:13->14
+robot3,16159,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016159.jpg,48478,1722895817029009396,1722895816925087929,set of matching raw ZIPs available,robot3:13->14|robot3:14->15
+robot3,16159,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016159.png,111304,1722895817029318906,1722895816925087929,set of matching raw ZIPs available,robot3:13->14|robot3:14->15
+robot3,16161,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016161.jpg,48484,1722895817225145735,1722895817125104428,set of matching raw ZIPs available,robot3:14->15
+robot3,16161,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016161.png,111318,1722895817225616604,1722895817125104428,set of matching raw ZIPs available,robot3:14->15
+robot3,16162,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016162.jpg,48488,1722895817336270622,1722895817225113631,set of matching raw ZIPs available,robot3:14->15
+robot3,16162,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016162.png,111325,1722895817329393186,1722895817225113631,set of matching raw ZIPs available,robot3:14->15
+robot3,16163,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016163.jpg,48490,1722895817433156284,1722895817325121880,set of matching raw ZIPs available,robot3:14->15|robot3:15->16
+robot3,16163,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016163.png,111332,1722895817435236180,1722895817325121880,set of matching raw ZIPs available,robot3:14->15|robot3:15->16
+robot3,16164,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016164.jpg,48494,1722895817537187799,1722895817425129891,set of matching raw ZIPs available,robot3:14->15|robot3:15->16
+robot3,16164,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016164.png,111339,1722895817530345419,1722895817425129891,set of matching raw ZIPs available,robot3:14->15|robot3:15->16
+robot3,16165,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016165.jpg,48496,1722895817630310906,1722895817525139332,set of matching raw ZIPs available,robot3:15->16
+robot3,16165,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016165.png,111346,1722895817627792269,1722895817525139332,set of matching raw ZIPs available,robot3:15->16
+robot3,16166,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016166.jpg,48500,1722895817740212694,1722895817625147343,set of matching raw ZIPs available,robot3:15->16
+robot3,16166,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016166.png,111353,1722895817734059497,1722895817625147343,set of matching raw ZIPs available,robot3:15->16
+robot3,16198,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016198.jpg,48596,1722895820939227723,1722895820825767517,set of matching raw ZIPs available,robot3:15->16
+robot3,16198,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016198.png,111577,1722895820940840614,1722895820825767517,set of matching raw ZIPs available,robot3:15->16
+robot3,16199,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016199.jpg,48599,1722895821037503015,1722895820925770521,set of matching raw ZIPs available,robot3:15->16
+robot3,16199,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016199.png,111584,1722895821028013835,1722895820925770521,set of matching raw ZIPs available,robot3:15->16
+robot3,16200,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016200.jpg,48601,1722895821138642588,1722895821025772572,set of matching raw ZIPs available,robot3:15->16
+robot3,16200,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016200.png,111591,1722895821131244577,1722895821025772572,set of matching raw ZIPs available,robot3:15->16
+robot3,16201,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016201.jpg,48605,1722895821237854623,1722895821125773907,set of matching raw ZIPs available,robot3:15->16
+robot3,16201,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016201.png,111598,1722895821227744622,1722895821125773907,set of matching raw ZIPs available,robot3:15->16
+robot3,16206,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016206.jpg,48619,1722895821728049730,1722895821625781060,set of matching raw ZIPs available,robot3:15->16
+robot3,16206,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016206.png,111633,1722895821729001084,1722895821625781060,set of matching raw ZIPs available,robot3:15->16
+robot3,16211,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016211.jpg,48635,1722895822233398842,1722895822125792027,set of matching raw ZIPs available,robot3:15->16
+robot3,16211,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016211.png,111668,1722895822238519737,1722895822125792027,set of matching raw ZIPs available,robot3:15->16
+robot3,16216,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016216.jpg,48650,1722895822742162652,1722895822625803948,set of matching raw ZIPs available,robot3:15->16
+robot3,16216,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016216.png,111703,1722895822733307851,1722895822625803948,set of matching raw ZIPs available,robot3:15->16
+robot3,16221,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016221.jpg,48665,1722895823236311981,1722895823125983715,set of matching raw ZIPs available,robot3:15->16
+robot3,16221,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016221.png,111738,1722895823240208700,1722895823125983715,set of matching raw ZIPs available,robot3:15->16
+robot3,16226,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016226.jpg,48680,1722895823738990031,1722895823626421929,set of matching raw ZIPs available,robot3:15->16
+robot3,16226,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016226.png,111773,1722895823737783144,1722895823626421929,set of matching raw ZIPs available,robot3:15->16
+robot3,17530,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017530.jpg,52592,1722895954145613472,1722895954036513806,set of matching raw ZIPs available,robot3:16->17
+robot3,17530,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017530.png,120901,1722895954143869958,1722895954036513806,set of matching raw ZIPs available,robot3:16->17
+robot3,17535,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017535.jpg,52607,1722895954641437896,1722895954536584378,set of matching raw ZIPs available,robot3:16->17
+robot3,17535,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017535.png,120936,1722895954640163767,1722895954536584378,set of matching raw ZIPs available,robot3:16->17
+robot3,17540,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017540.jpg,52621,1722895955147195962,1722895955036647320,set of matching raw ZIPs available,robot3:16->17
+robot3,17540,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017540.png,120971,1722895955144388306,1722895955036647320,set of matching raw ZIPs available,robot3:16->17
+robot3,17545,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017545.jpg,52637,1722895955653545114,1722895955536663771,set of matching raw ZIPs available,robot3:16->17
+robot3,17545,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017545.png,121006,1722895955644617183,1722895955536663771,set of matching raw ZIPs available,robot3:16->17
+robot3,17550,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017550.jpg,52652,1722895956150233833,1722895956036675692,set of matching raw ZIPs available,robot3:16->17
+robot3,17550,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017550.png,121041,1722895956151560640,1722895956036675692,set of matching raw ZIPs available,robot3:16->17
+robot3,17555,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017555.jpg,52666,1722895956649750555,1722895956536690951,set of matching raw ZIPs available,robot3:16->17
+robot3,17555,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017555.png,121076,1722895956648607083,1722895956536690951,set of matching raw ZIPs available,robot3:16->17
+robot3,17556,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017556.jpg,52670,1722895956754147757,1722895956636694193,set of matching raw ZIPs available,robot3:16->17
+robot3,17556,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017556.png,121083,1722895956750568785,1722895956636694193,set of matching raw ZIPs available,robot3:16->17
+robot3,17557,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017557.jpg,52673,1722895956849979535,1722895956736696244,set of matching raw ZIPs available,robot3:16->17
+robot3,17557,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017557.png,121090,1722895956848372727,1722895956736696244,set of matching raw ZIPs available,robot3:16->17
+robot3,17558,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017558.jpg,52676,1722895956952888076,1722895956836697817,set of matching raw ZIPs available,robot3:16->17
+robot3,17558,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017558.png,121097,1722895956950481657,1722895956836697817,set of matching raw ZIPs available,robot3:16->17
+robot3,17590,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017590.jpg,52772,1722895960141582961,1722895960036809683,set of matching raw ZIPs available,robot3:16->17
+robot3,17590,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017590.png,121321,1722895960142794353,1722895960036809683,set of matching raw ZIPs available,robot3:16->17
+robot3,17591,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017591.jpg,52775,1722895960246245443,1722895960136814595,set of matching raw ZIPs available,robot3:16->17
+robot3,17591,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017591.png,121328,1722895960242782734,1722895960136814595,set of matching raw ZIPs available,robot3:16->17
+robot3,17592,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017592.jpg,52778,1722895960343945598,1722895960236818552,set of matching raw ZIPs available,robot3:16->17
+robot3,17592,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017592.png,121335,1722895960345221372,1722895960236818552,set of matching raw ZIPs available,robot3:16->17
+robot3,17593,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017593.jpg,52781,1722895960446714008,1722895960336822987,set of matching raw ZIPs available,robot3:16->17
+robot3,17593,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017593.png,121342,1722895960446806320,1722895960336822987,set of matching raw ZIPs available,robot3:16->17
+robot3,17598,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017598.jpg,52796,1722895960950908914,1722895960836839915,set of matching raw ZIPs available,robot3:16->17
+robot3,17598,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017598.png,121377,1722895960953808791,1722895960836839915,set of matching raw ZIPs available,robot3:16->17
+robot3,17603,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017603.jpg,52811,1722895961443376877,1722895961336861611,set of matching raw ZIPs available,robot3:16->17
+robot3,17603,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017603.png,121412,1722895961442097166,1722895961336861611,set of matching raw ZIPs available,robot3:16->17
+robot3,17608,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017608.jpg,52826,1722895961946653312,1722895961836882115,set of matching raw ZIPs available,robot3:16->17
+robot3,17608,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017608.png,121447,1722895961944291150,1722895961836882115,set of matching raw ZIPs available,robot3:16->17
+robot3,17613,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017613.jpg,52841,1722895962443439558,1722895962336898566,set of matching raw ZIPs available,robot3:16->17
+robot3,17613,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017613.png,121482,1722895962444647124,1722895962336898566,set of matching raw ZIPs available,robot3:16->17
+robot3,17618,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/017618.jpg,52856,1722895962947387696,1722895962836909533,set of matching raw ZIPs available,robot3:16->17
+robot3,17618,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/017618.png,121517,1722895962944320714,1722895962836909533,set of matching raw ZIPs available,robot3:16->17
+robot3,18488,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018488.jpg,55466,1722896049954063109,1722896049846024752,set of matching raw ZIPs available,robot3:17->18
+robot3,18488,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018488.png,127598,1722896049951670900,1722896049846024752,set of matching raw ZIPs available,robot3:17->18
+robot3,18493,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018493.jpg,55480,1722896050457926201,1722896050346078158,set of matching raw ZIPs available,robot3:17->18
+robot3,18493,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018493.png,127633,1722896050459627137,1722896050346078158,set of matching raw ZIPs available,robot3:17->18
+robot3,18498,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018498.jpg,55496,1722896050954512340,1722896050846132279,set of matching raw ZIPs available,robot3:17->18
+robot3,18498,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018498.png,127668,1722896050952902115,1722896050846132279,set of matching raw ZIPs available,robot3:17->18
+robot3,18503,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018503.jpg,55511,1722896051457508653,1722896051346191645,set of matching raw ZIPs available,robot3:17->18
+robot3,18503,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018503.png,127703,1722896051455834143,1722896051346191645,set of matching raw ZIPs available,robot3:17->18
+robot3,18508,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018508.jpg,55526,1722896051955570407,1722896051846254349,set of matching raw ZIPs available,robot3:17->18
+robot3,18508,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018508.png,127738,1722896051956106384,1722896051846254349,set of matching raw ZIPs available,robot3:17->18
+robot3,18513,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018513.jpg,55541,1722896052459057858,1722896052346311093,set of matching raw ZIPs available,robot3:17->18
+robot3,18513,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018513.png,127773,1722896052455958506,1722896052346311093,set of matching raw ZIPs available,robot3:17->18
+robot3,18514,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018514.jpg,55544,1722896052558799424,1722896052446321726,set of matching raw ZIPs available,robot3:17->18
+robot3,18514,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018514.png,127780,1722896052557555667,1722896052446321726,set of matching raw ZIPs available,robot3:17->18
+robot3,18515,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018515.jpg,55546,1722896052669987149,1722896052546332360,set of matching raw ZIPs available,robot3:17->18
+robot3,18515,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018515.png,127787,1722896052667091167,1722896052546332360,set of matching raw ZIPs available,robot3:17->18
+robot3,18516,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018516.jpg,55550,1722896052761748159,1722896052646343947,set of matching raw ZIPs available,robot3:17->18
+robot3,18516,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018516.png,127794,1722896052760788730,1722896052646343947,set of matching raw ZIPs available,robot3:17->18
+robot3,18549,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018549.jpg,55649,1722896056050415738,1722896055946690798,set of matching raw ZIPs available,robot3:17->18
+robot3,18549,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018549.png,128025,1722896056050361628,1722896055946690798,set of matching raw ZIPs available,robot3:17->18
+robot3,18550,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018550.jpg,55652,1722896056156767674,1722896056046701670,set of matching raw ZIPs available,robot3:17->18
+robot3,18550,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018550.png,128032,1722896056154052218,1722896056046701670,set of matching raw ZIPs available,robot3:17->18
+robot3,18551,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018551.jpg,55655,1722896056255105422,1722896056146713495,set of matching raw ZIPs available,robot3:17->18
+robot3,18551,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018551.png,128039,1722896056254731954,1722896056146713495,set of matching raw ZIPs available,robot3:17->18
+robot3,18552,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018552.jpg,55658,1722896056356065086,1722896056246724129,set of matching raw ZIPs available,robot3:17->18
+robot3,18552,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018552.png,128046,1722896056353470109,1722896056246724129,set of matching raw ZIPs available,robot3:17->18
+robot3,18557,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018557.jpg,55673,1722896056852689081,1722896056746780634,set of matching raw ZIPs available,robot3:17->18
+robot3,18557,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018557.png,128081,1722896056854380971,1722896056746780634,set of matching raw ZIPs available,robot3:17->18
+robot3,18562,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018562.jpg,55688,1722896057354321016,1722896057246834994,set of matching raw ZIPs available,robot3:17->18
+robot3,18562,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018562.png,128116,1722896057355332084,1722896057246834994,set of matching raw ZIPs available,robot3:17->18
+robot3,18567,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018567.jpg,55703,1722896057857104344,1722896057746886492,set of matching raw ZIPs available,robot3:17->18
+robot3,18567,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018567.png,128151,1722896057853407824,1722896057746886492,set of matching raw ZIPs available,robot3:17->18
+robot3,18572,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018572.jpg,55718,1722896058353599998,1722896058246939659,set of matching raw ZIPs available,robot3:17->18
+robot3,18572,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018572.png,128186,1722896058354785319,1722896058246939659,set of matching raw ZIPs available,robot3:17->18
+robot3,18577,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018577.jpg,55733,1722896058855508721,1722896058746993304,set of matching raw ZIPs available,robot3:17->18
+robot3,18577,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018577.png,128221,1722896058852392986,1722896058746993304,set of matching raw ZIPs available,robot3:17->18
+robot3,18882,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018882.jpg,56648,1722896089365463610,1722896089250393629,set of matching raw ZIPs available,robot3:18->19
+robot3,18882,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018882.png,130356,1722896089366673557,1722896089250393629,set of matching raw ZIPs available,robot3:18->19
+robot3,18887,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018887.jpg,56663,1722896089867126405,1722896089750432015,set of matching raw ZIPs available,robot3:18->19
+robot3,18887,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018887.png,130391,1722896089864260899,1722896089750432015,set of matching raw ZIPs available,robot3:18->19
+robot3,18892,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018892.jpg,56678,1722896090357379269,1722896090250474453,set of matching raw ZIPs available,robot3:18->19
+robot3,18892,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018892.png,130426,1722896090356463406,1722896090250474453,set of matching raw ZIPs available,robot3:18->19
+robot3,18897,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018897.jpg,56693,1722896090862280788,1722896090750520230,set of matching raw ZIPs available,robot3:18->19
+robot3,18897,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018897.png,130461,1722896090858127942,1722896090750520230,set of matching raw ZIPs available,robot3:18->19
+robot3,18902,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018902.jpg,56708,1722896091362004860,1722896091250564814,set of matching raw ZIPs available,robot3:18->19
+robot3,18902,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018902.png,130496,1722896091363721611,1722896091250564814,set of matching raw ZIPs available,robot3:18->19
+robot3,18907,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018907.jpg,56723,1722896091879914918,1722896091750607014,set of matching raw ZIPs available,robot3:18->19
+robot3,18907,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018907.png,130531,1722896091873810321,1722896091750607014,set of matching raw ZIPs available,robot3:18->19
+robot3,18908,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018908.jpg,56726,1722896091974109198,1722896091850616217,set of matching raw ZIPs available,robot3:18->19
+robot3,18908,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018908.png,130538,1722896091974819852,1722896091850616217,set of matching raw ZIPs available,robot3:18->19
+robot3,18909,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018909.jpg,56729,1722896092080225408,1722896091950624705,set of matching raw ZIPs available,robot3:18->19
+robot3,18909,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018909.png,130545,1722896092079213337,1722896091950624705,set of matching raw ZIPs available,robot3:18->19
+robot3,18910,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018910.jpg,56732,1722896092175907249,1722896092050631762,set of matching raw ZIPs available,robot3:18->19
+robot3,18910,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018910.png,130552,1722896092176759341,1722896092050631762,set of matching raw ZIPs available,robot3:18->19
+robot3,18911,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018911.jpg,56735,1722896092277617673,1722896092150639296,set of matching raw ZIPs available,robot3:18->19
+robot3,18911,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018911.png,130559,1722896092274021924,1722896092150639296,set of matching raw ZIPs available,robot3:18->19
+robot3,18912,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018912.jpg,56738,1722896092379690503,1722896092250646115,set of matching raw ZIPs available,robot3:18->19
+robot3,18912,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018912.png,130566,1722896092384895017,1722896092250646115,set of matching raw ZIPs available,robot3:18->19
+robot3,18913,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018913.jpg,56740,1722896092480146011,1722896092350653649,set of matching raw ZIPs available,robot3:18->19
+robot3,18913,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018913.png,130573,1722896092477696135,1722896092350653649,set of matching raw ZIPs available,robot3:18->19
+robot3,18914,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018914.jpg,56744,1722896092577816903,1722896092450659991,set of matching raw ZIPs available,robot3:18->19
+robot3,18914,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018914.png,130580,1722896092576576774,1722896092450659991,set of matching raw ZIPs available,robot3:18->19
+robot3,18919,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018919.jpg,56759,1722896093063792756,1722896092950692415,set of matching raw ZIPs available,robot3:18->19
+robot3,18919,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018919.png,130615,1722896093060946254,1722896092950692415,set of matching raw ZIPs available,robot3:18->19
+robot3,18924,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018924.jpg,56773,1722896093559544124,1722896093450731516,set of matching raw ZIPs available,robot3:18->19
+robot3,18924,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018924.png,130650,1722896093554706280,1722896093450731516,set of matching raw ZIPs available,robot3:18->19
+robot3,18929,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018929.jpg,56788,1722896094063171482,1722896093950769902,set of matching raw ZIPs available,robot3:18->19
+robot3,18929,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018929.png,130685,1722896094062056490,1722896093950769902,set of matching raw ZIPs available,robot3:18->19
+robot3,18934,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018934.jpg,56804,1722896094560533677,1722896094450805664,set of matching raw ZIPs available,robot3:18->19
+robot3,18934,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018934.png,130720,1722896094557482937,1722896094450805664,set of matching raw ZIPs available,robot3:18->19
+robot3,18939,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018939.jpg,56819,1722896095123069180,1722896094950793028,set of matching raw ZIPs available,robot3:18->19
+robot3,18939,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018939.png,130755,1722896095121307399,1722896094950793028,set of matching raw ZIPs available,robot3:18->19
+robot1,71,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000071.jpg,215,1722894207749174046,1722894207643210888,original camera ZIPs,robot1:0->2
+robot1,71,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000071.png,499,1722894207753604331,1722894207643210888,original camera ZIPs,robot1:0->2
+robot1,846,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000846.jpg,2539,1722894285251923487,1722894285146538496,original camera ZIPs,robot1:0->2
+robot1,846,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000846.png,5924,1722894285254480122,1722894285146538496,original camera ZIPs,robot1:0->2
+robot1,87,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000087.jpg,262,1722894209349740090,1722894209243135214,original camera ZIPs,robot1:0->2
+robot1,87,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000087.png,611,1722894209352821673,1722894209243135214,original camera ZIPs,robot1:0->2
+robot1,750,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000750.jpg,2252,1722894275651987605,1722894275545868874,original camera ZIPs,robot1:0->2
+robot1,750,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000750.png,5252,1722894275652642468,1722894275545868874,original camera ZIPs,robot1:0->2
+robot1,103,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000103.jpg,310,1722894210945690882,1722894210843110561,original camera ZIPs,robot1:0->2
+robot1,103,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000103.png,723,1722894210950088543,1722894210843110561,original camera ZIPs,robot1:0->2
+robot1,774,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000774.jpg,2323,1722894278052696427,1722894277946060658,original camera ZIPs,robot1:0->2
+robot1,774,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000774.png,5420,1722894278054775131,1722894277946060658,original camera ZIPs,robot1:0->2
+robot1,55,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000055.jpg,167,1722894206152067690,1722894206046785355,original camera ZIPs,robot1:0->2
+robot1,55,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000055.png,387,1722894206155509599,1722894206046785355,original camera ZIPs,robot1:0->2
+robot1,718,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000718.jpg,2156,1722894272453502070,1722894272345674038,original camera ZIPs,robot1:0->2
+robot1,718,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000718.png,5028,1722894272455144404,1722894272345674038,original camera ZIPs,robot1:0->2
+robot1,143,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000143.jpg,430,1722894214952589168,1722894214843229055,original camera ZIPs,robot1:0->2
+robot1,143,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000143.png,1003,1722894214954696340,1722894214843229055,original camera ZIPs,robot1:0->2
+robot1,734,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000734.jpg,2204,1722894274054088633,1722894273945772648,original camera ZIPs,robot1:0->2
+robot1,734,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000734.png,5140,1722894274055981329,1722894273945772648,original camera ZIPs,robot1:0->2
+robot1,119,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000119.jpg,359,1722894212550668850,1722894212443089962,original camera ZIPs,robot1:0->2
+robot1,119,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000119.png,835,1722894212551289375,1722894212443089962,original camera ZIPs,robot1:0->2
+robot1,798,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/000798.jpg,2395,1722894280451367965,1722894280346200228,original camera ZIPs,robot1:0->2
+robot1,798,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/000798.png,5588,1722894280454026580,1722894280346200228,original camera ZIPs,robot1:0->2
+robot1,4087,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/004087.jpg,12263,1722894609375692416,1722894609269653559,original camera ZIPs,robot1:3->5
+robot1,4087,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/004087.png,28588,1722894609376669149,1722894609269653559,original camera ZIPs,robot1:3->5
+robot1,8800,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008800.jpg,26402,1722895080861224042,1722895080595058918,original camera ZIPs,robot1:3->5
+robot1,8800,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008800.png,58957,1722895080862980991,1722895080595058918,original camera ZIPs,robot1:3->5
+robot1,4103,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/004103.jpg,12310,1722894610974803474,1722894610869853258,original camera ZIPs,robot1:3->5
+robot1,4103,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/004103.png,28700,1722894610975341942,1722894610869853258,original camera ZIPs,robot1:3->5
+robot1,8820,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008820.jpg,26462,1722895082852754924,1722895082595261097,original camera ZIPs,robot1:3->5
+robot1,8820,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008820.png,59041,1722895082836652250,1722895082595261097,original camera ZIPs,robot1:3->5
+robot1,4127,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/004127.jpg,12382,1722894613373691951,1722894613270098448,original camera ZIPs,robot1:3->5
+robot1,4127,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/004127.png,28868,1722894613374778903,1722894613270098448,original camera ZIPs,robot1:3->5
+robot1,8902,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008902.jpg,26708,1722895090903206907,1722895090796113491,original camera ZIPs,robot1:3->5
+robot1,8902,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008902.png,59509,1722895090905362010,1722895090796113491,original camera ZIPs,robot1:3->5
+robot1,3951,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/003951.jpg,11854,1722894595774287454,1722894595668292761,original camera ZIPs,robot1:3->5
+robot1,3951,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/003951.png,27636,1722894595774786499,1722894595668292761,original camera ZIPs,robot1:3->5
+robot1,3967,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/003967.jpg,11902,1722894597373450218,1722894597268452644,original camera ZIPs,robot1:3->5
+robot1,3967,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/003967.png,27748,1722894597372596179,1722894597268452644,original camera ZIPs,robot1:3->5
+robot1,8677,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008677.jpg,26033,1722895068401932586,1722895068293882847,original camera ZIPs,robot1:3->5
+robot1,8677,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008677.png,58110,1722895068405993401,1722895068293882847,original camera ZIPs,robot1:3->5
+robot1,4071,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/004071.jpg,12214,1722894607772811710,1722894607669496536,original camera ZIPs,robot1:3->5
+robot1,4071,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/004071.png,28476,1722894607772355323,1722894607669496536,original camera ZIPs,robot1:3->5
+robot1,8780,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot1/rgb/008780.jpg,26342,1722895078825663344,1722895078594865561,original camera ZIPs,robot1:3->5
+robot1,8780,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot1/depth/008780.png,58831,1722895078839343204,1722895078594865561,original camera ZIPs,robot1:3->5
+robot3,5747,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/005747.jpg,17243,1722894775669190986,1722894775559440851,original camera ZIPs,robot3:6->9
+robot3,5747,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/005747.png,39738,1722894775664441599,1722894775559440851,original camera ZIPs,robot3:6->9
+robot3,10191,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/010191.jpg,30575,1722895220093499314,1722895219987154722,original camera ZIPs,robot3:6->9
+robot3,10191,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/010191.png,70032,1722895220095083381,1722895219987154722,original camera ZIPs,robot3:6->9
+robot3,5779,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/005779.jpg,17339,1722894778863426661,1722894778759840012,original camera ZIPs,robot3:6->9
+robot3,5779,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/005779.png,39962,1722894778864087978,1722894778759840012,original camera ZIPs,robot3:6->9
+robot3,10223,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/010223.jpg,30671,1722895223314935299,1722895223187492609,original camera ZIPs,robot3:6->9
+robot3,10223,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/010223.png,70256,1722895223313193643,1722895223187492609,original camera ZIPs,robot3:6->9
+robot3,5843,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/005843.jpg,17531,1722894785278424979,1722894785160516262,original camera ZIPs,robot3:6->9
+robot3,5843,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/005843.png,40408,1722894785265527640,1722894785160516262,original camera ZIPs,robot3:6->9
+robot3,10271,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/010271.jpg,30815,1722895228092816223,1722895227988017321,original camera ZIPs,robot3:6->9
+robot3,10271,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/010271.png,70592,1722895228092538162,1722895227988017321,original camera ZIPs,robot3:6->9
+robot3,5515,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/005515.jpg,16546,1722894752461499506,1722894752357200384,original camera ZIPs,robot3:6->9
+robot3,5515,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/005515.png,38114,1722894752459885202,1722894752357200384,original camera ZIPs,robot3:6->9
+robot3,9955,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/009955.jpg,29867,1722895196513259704,1722895196385077715,original camera ZIPs,robot3:6->9
+robot3,9955,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/009955.png,68397,1722895196510144938,1722895196385077715,original camera ZIPs,robot3:6->9
+robot3,5827,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/005827.jpg,17483,1722894783668897405,1722894783560240746,original camera ZIPs,robot3:6->9
+robot3,5827,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/005827.png,40296,1722894783667651760,1722894783560240746,original camera ZIPs,robot3:6->9
+robot3,10255,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/010255.jpg,30767,1722895226498357274,1722895226387835264,original camera ZIPs,robot3:6->9
+robot3,10255,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/010255.png,70480,1722895226494229943,1722895226387835264,original camera ZIPs,robot3:6->9
+robot3,5715,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/005715.jpg,17147,1722894772490402925,1722894772359362602,original camera ZIPs,robot3:6->9
+robot3,5715,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/005715.png,39514,1722894772490449132,1722894772359362602,original camera ZIPs,robot3:6->9
+robot3,10167,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/010167.jpg,30503,1722895217700938705,1722895217586910486,original camera ZIPs,robot3:6->9
+robot3,10167,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/010167.png,69864,1722895217696983589,1722895217586910486,original camera ZIPs,robot3:6->9
+robot3,16430,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016430.jpg,49292,1722895844147184478,1722895844027181387,original camera ZIPs,robot3:16->19
+robot3,16430,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016430.png,113201,1722895844147625085,1722895844027181387,original camera ZIPs,robot3:16->19
+robot3,18966,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018966.jpg,56900,1722896097811861093,1722896097651714564,original camera ZIPs,robot3:16->19
+robot3,18966,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018966.png,130944,1722896097811183824,1722896097651714564,original camera ZIPs,robot3:16->19
+robot3,16654,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016654.jpg,49964,1722895866537933566,1722895866428609133,original camera ZIPs,robot3:16->19
+robot3,16654,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016654.png,114769,1722895866540522269,1722895866428609133,original camera ZIPs,robot3:16->19
+robot3,19140,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/019140.jpg,57422,1722896115159043588,1722896115051018477,original camera ZIPs,robot3:16->19
+robot3,19140,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/019140.png,132162,1722896115160367194,1722896115051018477,original camera ZIPs,robot3:16->19
+robot3,16518,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016518.jpg,49556,1722895852948141242,1722895852827768326,original camera ZIPs,robot3:16->19
+robot3,16518,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016518.png,113817,1722895852948993503,1722895852827768326,original camera ZIPs,robot3:16->19
+robot3,19036,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/019036.jpg,57110,1722896104916246438,1722896104653765440,original camera ZIPs,robot3:16->19
+robot3,19036,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/019036.png,131434,1722896104908307898,1722896104653765440,original camera ZIPs,robot3:16->19
+robot3,16550,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016550.jpg,49652,1722895856147726505,1722895856027831078,original camera ZIPs,robot3:16->19
+robot3,16550,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016550.png,114041,1722895856145016549,1722895856027831078,original camera ZIPs,robot3:16->19
+robot3,19068,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/019068.jpg,57206,1722896108000030166,1722896107852676392,original camera ZIPs,robot3:16->19
+robot3,19068,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/019068.png,131658,1722896107996326381,1722896107852676392,original camera ZIPs,robot3:16->19
+robot3,16774,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016774.jpg,50324,1722895878537733968,1722895878428669930,original camera ZIPs,robot3:16->19
+robot3,16774,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016774.png,115609,1722895878533042650,1722895878428669930,original camera ZIPs,robot3:16->19
+robot3,19236,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/019236.jpg,57710,1722896124756552623,1722896124652101517,original camera ZIPs,robot3:16->19
+robot3,19236,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/019236.png,132834,1722896124753772922,1722896124652101517,original camera ZIPs,robot3:16->19
+robot3,16414,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/016414.jpg,49244,1722895842542388356,1722895842427144528,original camera ZIPs,robot3:16->19
+robot3,16414,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/016414.png,113089,1722895842535230761,1722895842427144528,original camera ZIPs,robot3:16->19
+robot3,18950,rgb,outputs/cumulti_v1/24_rgbd_full_v1/robot3/rgb/018950.jpg,56852,1722896096248588295,1722896096050783634,original camera ZIPs,robot3:16->19
+robot3,18950,depth,outputs/cumulti_v1/24_rgbd_full_v1/robot3/depth/018950.png,130832,1722896096241997446,1722896096050783634,original camera ZIPs,robot3:16->19
