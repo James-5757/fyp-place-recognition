@@ -1,0 +1,53 @@
+{
+  "9936": {
+    "orb_metric": [],
+    "icp_identity": [],
+    "fpfh_ransac_icp": [],
+    "decision": {
+      "classification": "INCONCLUSIVE",
+      "reason": "The frozen multi-frame gates or method consistency requirements were not met.",
+      "recommended_action": "Retain original poses; candidate matrices remain diagnostic.",
+      "corroborating_methods": [],
+      "observed_range_frames": [
+        9906,
+        9966
+      ],
+      "correct_original_poses": false,
+      "persistence_scope": "Approximately three post-event seconds; longer persistence remains untested"
+    }
+  },
+  "10071": {
+    "orb_metric": [],
+    "icp_identity": [],
+    "fpfh_ransac_icp": [],
+    "decision": {
+      "classification": "INCONCLUSIVE",
+      "reason": "The frozen multi-frame gates or method consistency requirements were not met.",
+      "recommended_action": "Retain original poses; candidate matrices remain diagnostic.",
+      "corroborating_methods": [],
+      "observed_range_frames": [
+        10041,
+        10101
+      ],
+      "correct_original_poses": false,
+      "persistence_scope": "Approximately three post-event seconds; longer persistence remains untested"
+    }
+  },
+  "12057": {
+    "orb_metric": [],
+    "icp_identity": [],
+    "fpfh_ransac_icp": [],
+    "decision": {
+      "classification": "INCONCLUSIVE",
+      "reason": "The frozen multi-frame gates or method consistency requirements were not met.",
+      "recommended_action": "Retain original poses; candidate matrices remain diagnostic.",
+      "corroborating_methods": [],
+      "observed_range_frames": [
+        12027,
+        12087
+      ],
+      "correct_original_poses": false,
+      "persistence_scope": "Approximately three post-event seconds; longer persistence remains untested"
+    }
+  }
+}

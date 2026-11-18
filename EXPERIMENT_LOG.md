@@ -395,3 +395,8 @@ Stage29 audited the native RGB-D pose, chunk and transform chain for all 26 Epoc
 ## Stage30 Robot3 RGB-D forensics
 
 Stage30 audited seven Robot3 in-Epoch pose discontinuities using original RGB, measured RGB-D, raw IMU and available GNSS speed. It separately tested the Stage24D direct relation and exploratory path on frame-disjoint observations. See [the Stage30 forensic report](outputs/cumulti_v1/30_rgbd_pose_forensics/STAGE30_FORENSIC_REPORT.md).
+
+
+## Stage31 Epoch9 segment persistence
+
+Stage31 froze 61-frame windows around each of the three Epoch9 events, with frame-disjoint fit/validation cohorts and at least 300 ms exclusion. The study compared ORB RGB-D, independent-initializer geometric registration and a supplemental depth-masked optical-flow method, preserving the initial failed attempt. See [the Stage31 report](outputs/cumulti_v1/31_epoch9_persistence/STAGE31_SEGMENT_PERSISTENCE_REPORT.md).

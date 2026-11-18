@@ -1,0 +1,236 @@
+{
+  "decoded": [
+    {
+      "index": 9906,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.4273671875
+    },
+    {
+      "index": 9946,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.483296875
+    },
+    {
+      "index": 9950,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.49102734375
+    },
+    {
+      "index": 9955,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.47855859375
+    },
+    {
+      "index": 9910,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.42212890625
+    },
+    {
+      "index": 9915,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.42656640625
+    },
+    {
+      "index": 9919,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.43981640625
+    },
+    {
+      "index": 9936,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.45741015625
+    },
+    {
+      "index": 9939,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.45505078125
+    },
+    {
+      "index": 9942,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.46560546875
+    },
+    {
+      "index": 9959,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.4822421875
+    },
+    {
+      "index": 9962,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.46999609375
+    },
+    {
+      "index": 9966,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.4589921875
+    },
+    {
+      "index": 9926,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.47087109375
+    },
+    {
+      "index": 9933,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.44170703125
+    },
+    {
+      "index": 10041,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.55115234375
+    },
+    {
+      "index": 10081,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.5345546875
+    },
+    {
+      "index": 10085,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.54119140625
+    },
+    {
+      "index": 10090,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.54494921875
+    },
+    {
+      "index": 10045,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.54912890625
+    },
+    {
+      "index": 10050,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.5380625
+    },
+    {
+      "index": 10054,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.54644140625
+    },
+    {
+      "index": 10071,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.52434375
+    },
+    {
+      "index": 10074,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.53325
+    },
+    {
+      "index": 10077,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.53689453125
+    },
+    {
+      "index": 10094,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.54383984375
+    },
+    {
+      "index": 10097,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.53313671875
+    },
+    {
+      "index": 10101,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.52623046875
+    },
+    {
+      "index": 10061,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.5496015625
+    },
+    {
+      "index": 10068,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.53565234375
+    },
+    {
+      "index": 12027,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.45800390625
+    },
+    {
+      "index": 12067,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.39359375
+    },
+    {
+      "index": 12071,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.4120625
+    },
+    {
+      "index": 12076,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.421484375
+    },
+    {
+      "index": 12031,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.46121484375
+    },
+    {
+      "index": 12036,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.46290625
+    },
+    {
+      "index": 12040,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.47006640625
+    },
+    {
+      "index": 12057,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.47983984375
+    },
+    {
+      "index": 12060,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.46667578125
+    },
+    {
+      "index": 12063,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.4493046875
+    },
+    {
+      "index": 12080,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.44888671875
+    },
+    {
+      "index": 12083,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.45780078125
+    },
+    {
+      "index": 12087,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.4808828125
+    },
+    {
+      "index": 12047,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.47113671875
+    },
+    {
+      "index": 12054,
+      "depth_paired": "True",
+      "depth_valid_fraction": 0.48209375
+    }
+  ],
+  "input_sha256": {
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sync_pairs.csv": "814f2e3d3bddde00c987f75acae5a54efe05b7fae0e9c3f7dafdcf36ff78331d",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "f5d8c36b936937a4d928672a1d00810b3c1c8c4482d8dd1fbab06ecc23aa8eb5",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/27_continuous_rgbd/chunk_manifest.json": "a21c9691f8a86b6075b055c4a4dce25a52e2ed6a662b63fc5570fedacd8018f1",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11"
+  }
+}

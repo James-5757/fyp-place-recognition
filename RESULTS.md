@@ -558,3 +558,8 @@ Robot3 18→19 disagrees by 38.474 m / 48.59° under frozen component re-entry. 
 ## Stage30 Robot3 RGB-D forensics
 
 Robot3 Epoch 6 jump spans 33 invalid poses during a real turn with unsynchronized depth. Epoch 9 contains sensor-inconsistent native pose increments despite valid tracking flags. The direct 16→19 placement passed the directional overlap test on 3/3 near-support holdouts and the exploratory chain had zero inliers. See [the Stage30 forensic report](outputs/cumulti_v1/30_rgbd_pose_forensics/STAGE30_FORENSIC_REPORT.md).
+
+
+## Stage31 Epoch9 segment persistence
+
+Stage31 decoded 183 original RGB-D observations and recorded 396 method/pair outcomes. All three event classifications are INCONCLUSIVE. No fit-only candidate passed the unchanged multi-frame and withheld-consistency gates. The preservation hash audit passed. See [the Stage31 report](outputs/cumulti_v1/31_epoch9_persistence/STAGE31_SEGMENT_PERSISTENCE_REPORT.md).

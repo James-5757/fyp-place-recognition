@@ -1,0 +1,53 @@
+{
+  "9936": {
+    "orb_metric": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 0
+    },
+    "icp_identity": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 9
+    },
+    "fpfh_ransac_icp": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 8
+    }
+  },
+  "10071": {
+    "orb_metric": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 0
+    },
+    "icp_identity": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 9
+    },
+    "fpfh_ransac_icp": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 8
+    }
+  },
+  "12057": {
+    "orb_metric": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 0
+    },
+    "icp_identity": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 9
+    },
+    "fpfh_ransac_icp": {
+      "status": "INSUFFICIENT_FIT_SUPPORT",
+      "original_trajectory_modified": false,
+      "fit_accepted": 9
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "PASS",
+  "before": {
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sync_pairs.csv": "814f2e3d3bddde00c987f75acae5a54efe05b7fae0e9c3f7dafdcf36ff78331d",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "f5d8c36b936937a4d928672a1d00810b3c1c8c4482d8dd1fbab06ecc23aa8eb5",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/27_continuous_rgbd/chunk_manifest.json": "a21c9691f8a86b6075b055c4a4dce25a52e2ed6a662b63fc5570fedacd8018f1",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11"
+  },
+  "after": {
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sync_pairs.csv": "814f2e3d3bddde00c987f75acae5a54efe05b7fae0e9c3f7dafdcf36ff78331d",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "f5d8c36b936937a4d928672a1d00810b3c1c8c4482d8dd1fbab06ecc23aa8eb5",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/27_continuous_rgbd/chunk_manifest.json": "a21c9691f8a86b6075b055c4a4dce25a52e2ed6a662b63fc5570fedacd8018f1",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11"
+  },
+  "new_map_generated": false,
+  "original_pose_written": false
+}

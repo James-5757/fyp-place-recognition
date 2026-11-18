@@ -1,0 +1,17 @@
+{
+  "detector": "Shi-Tomasi on valid measured depth mask",
+  "max_corners": 2400,
+  "quality_level": 0.008,
+  "min_distance_px": 4,
+  "lk_window_px": 31,
+  "lk_levels": 4,
+  "forward_backward_max_px": 1.0,
+  "ransac_iterations": 512,
+  "inlier_distance_m": 0.1,
+  "min_mutual": 60,
+  "min_metric": 40,
+  "min_inliers": 30,
+  "min_fraction": 0.5,
+  "max_rmse_m": 0.1,
+  "purpose": "Address sparse ORB features on measured-depth pixels; keep frozen frame split and acceptance gates"
+}

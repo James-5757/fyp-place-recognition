@@ -1,0 +1,60 @@
+{
+  "epoch": 9,
+  "events": [
+    9936,
+    10071,
+    12057
+  ],
+  "pre_valid_frames": 30,
+  "post_valid_frames": 31,
+  "fit_pre_offsets": [
+    -30,
+    -26,
+    -21
+  ],
+  "fit_post_offsets": [
+    10,
+    14,
+    19
+  ],
+  "validation_pre_offsets": [
+    -17,
+    -10,
+    -3
+  ],
+  "validation_post_offsets": [
+    0,
+    3,
+    6,
+    23,
+    26,
+    30
+  ],
+  "temporal_exclusion_ns": 300000000,
+  "min_distinct_frames": 3,
+  "min_span_ns": 800000000,
+  "validation_distance_m": 0.12,
+  "min_inliers": 300,
+  "min_overlap": 0.35,
+  "min_spread_ratio": 0.05,
+  "max_agreement_m": 0.2,
+  "max_agreement_deg": 3,
+  "visual_min_mutual": 60,
+  "visual_min_metric": 40,
+  "visual_min_inliers": 30,
+  "visual_min_fraction": 0.5,
+  "visual_max_rmse_m": 0.1,
+  "candidate": "fit-only medoid cluster, coordinate-wise median translation and SO3 mean rotation",
+  "seed": 26,
+  "methods": [
+    "orb_metric",
+    "icp_identity",
+    "fpfh_ransac_icp"
+  ],
+  "fit_pixels_offset": 0,
+  "validation_pixels_offset": 4,
+  "pixel_stride": 8,
+  "frozen_poses_used_to_initialize_registration": false,
+  "frame_cohorts_frozen_before_registration": true,
+  "correction_scope": "candidate only; no original input written"
+}

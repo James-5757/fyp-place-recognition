@@ -372,3 +372,8 @@ Use Fixed Metric View for robot size and displacement comparisons. Global pose r
 ## Stage30 Robot3 RGB-D forensics
 
 Keep frozen geometry. If separately authorized, test a bounded Epoch 9 segment repair on disjoint temporal windows and independent frames before altering any native pose or map. See [the Stage30 forensic report](outputs/cumulti_v1/30_rgbd_pose_forensics/STAGE30_FORENSIC_REPORT.md).
+
+
+## Stage31 Epoch9 segment persistence
+
+Keep the Epoch9 poses and map. Temporal residual growth is suggestive, while sparse visual depth matches and inconsistent geometric transformations prevent a validated spike/offset/drift decision. Further bounded work should establish motion with depth-backed visual support and independent validation before authorizing segment edits. See [the Stage31 report](outputs/cumulti_v1/31_epoch9_persistence/STAGE31_SEGMENT_PERSISTENCE_REPORT.md).

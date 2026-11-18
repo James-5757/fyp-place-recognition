@@ -1,0 +1,14 @@
+{
+  "python": "3.10.20",
+  "opencv": "4.13.0",
+  "numpy": "2.2.6",
+  "scipy": "1.15.3",
+  "open3d": "0.19.0",
+  "source_sha256": {
+    "stage31_persistence.py": "87d67b4e5695caccfd17d59477a80dac847698042cd6f63331090cd9f92d7252",
+    "stage31_analyze.py": "ae9eefcb95f66141a4b08094abb5e30ae36eeaa9d0d88bb8f29420d0ec2365d6",
+    "stage31_flow.py": "90ef332ae9c82247d3710d35c7c85e91115a4f44c9484b0980c6baa48b180325",
+    "stage26_register.py": "d1884a341be32160c27f9e067571101d073164ac90617bc5b91e95c7fb6186d6",
+    "stage30_pose_forensics.py": "c314962bb11813965d438688404883aa0518fb1a679934c001866ad602a11da8"
+  }
+}
