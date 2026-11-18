@@ -1,0 +1,870 @@
+[
+  {
+    "repository": "C:\\Users\\a1369\\.claude\\plugins\\cache\\nvidia-kaggle\\nvidia-kaggle\\2b78cf29f5f3",
+    "head": "2b78cf29f5f30680764292a6592de8d53d4147a8",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.claude\\plugins\\cache\\nvidia-kaggle\\nvidia-kaggle\\2b78cf29f5f3",
+        "-C",
+        "C:\\Users\\a1369\\.claude\\plugins\\cache\\nvidia-kaggle\\nvidia-kaggle\\2b78cf29f5f3",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.claude/plugins/cache/nvidia-kaggle/nvidia-kaggle/2b78cf29f5f3\nHEAD 2b78cf29f5f30680764292a6592de8d53d4147a8\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+    "head": "cd175f8c584977ddf6259498e7f86d02c5416057",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+        "-C",
+        "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.claude/plugins/marketplaces/claude-plugins-official\nHEAD cd175f8c584977ddf6259498e7f86d02c5416057\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 2,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\nvidia-kaggle",
+    "head": "2b78cf29f5f30680764292a6592de8d53d4147a8",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\nvidia-kaggle",
+        "-C",
+        "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\nvidia-kaggle",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.claude/plugins/marketplaces/nvidia-kaggle\nHEAD 2b78cf29f5f30680764292a6592de8d53d4147a8\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.codex\\.tmp\\plugins",
+    "head": "1dc195897af4161d039b80d8471ec0a10c9bbc89",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\.tmp\\plugins",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\.tmp\\plugins",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.codex/.tmp/plugins\nHEAD 1dc195897af4161d039b80d8471ec0a10c9bbc89\nbranch refs/heads/master\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 13,
+    "all_blob_size_candidates": 1,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.codex\\vendor_imports\\skills",
+    "head": "49f948faa9258a0c61caceaf225e179651397431",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\vendor_imports\\skills",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\vendor_imports\\skills",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.codex/vendor_imports/skills\nHEAD 49f948faa9258a0c61caceaf225e179651397431\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 1,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+        "-C",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\awesome-copilot",
+    "head": "63d08d51f792d53feec8c1c06897cee870e83c18",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\awesome-copilot",
+        "-C",
+        "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\awesome-copilot",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.vscode/agent-plugins/github.com/github/awesome-copilot\nHEAD 63d08d51f792d53feec8c1c06897cee870e83c18\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\copilot-plugins",
+    "head": "6fe19e8a352deb8c268c6bc066a843031dd1b6dc",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\copilot-plugins",
+        "-C",
+        "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\copilot-plugins",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/.vscode/agent-plugins/github.com/github/copilot-plugins\nHEAD 6fe19e8a352deb8c268c6bc066a843031dd1b6dc\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\academic-humanizer",
+    "head": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Local\\Temp\\academic-humanizer",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\academic-humanizer",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/AppData/Local/Temp/academic-humanizer\nHEAD 94b88b23703bed7df507acae7d6d5876209a0cdf\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push",
+    "head": "cd0e269495a41a2210d86fca8d001c5a95fd3f8c",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/AppData/Local/Temp/fyp-stage24e-push\nHEAD cd0e269495a41a2210d86fca8d001c5a95fd3f8c\nbranch refs/heads/stage32-native-tracking-forensics\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 201,
+    "all_blob_size_candidates": 1,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream",
+    "head": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/AppData/Local/Temp/stage32-orb-upstream\nHEAD 4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4\nbranch refs/heads/master\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 18,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a61b87b7b473fa765ad9582\\v2",
+    "head": "091cc6a578f5b0230af986a266917f13b17f83a6",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a61b87b7b473fa765ad9582\\v2",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a61b87b7b473fa765ad9582\\v2",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/AppData/Roaming/Trae CN/ModularData/ai-agent/snapshot/6a61b87b7b473fa765ad9582/v2\nHEAD 091cc6a578f5b0230af986a266917f13b17f83a6\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 12,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a620fe90b614ee0fb952c3c\\v2",
+    "head": "3128cd31f9f4779278415895192d95859c289f86",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a620fe90b614ee0fb952c3c\\v2",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a620fe90b614ee0fb952c3c\\v2",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/AppData/Roaming/Trae CN/ModularData/ai-agent/snapshot/6a620fe90b614ee0fb952c3c/v2\nHEAD 3128cd31f9f4779278415895192d95859c289f86\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a82bbfa945eec9171cf0fcb\\v2",
+    "head": "849bf135f2306678dac0bf2060bc659c4ccf0314",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a82bbfa945eec9171cf0fcb\\v2",
+        "-C",
+        "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a82bbfa945eec9171cf0fcb\\v2",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/AppData/Roaming/Trae CN/ModularData/ai-agent/snapshot/6a82bbfa945eec9171cf0fcb/v2\nHEAD 849bf135f2306678dac0bf2060bc659c4ccf0314\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\Documents\\Codex\\2026-05-22\\github\\Live-Emotion-Recognition",
+    "head": "d2bd1f443fdbac7049f539a86d54cf42a90f10e5",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\Documents\\Codex\\2026-05-22\\github\\Live-Emotion-Recognition",
+        "-C",
+        "C:\\Users\\a1369\\Documents\\Codex\\2026-05-22\\github\\Live-Emotion-Recognition",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/Documents/Codex/2026-05-22/github/Live-Emotion-Recognition\nHEAD d2bd1f443fdbac7049f539a86d54cf42a90f10e5\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "C:\\Users\\a1369\\Documents\\Codex\\2026-06-01\\tonyc-ship-socai-https-github-com\\work\\socai",
+    "head": "ddcbeabb173d9d45780dc67c96a55b5f91f348d3",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=C:\\Users\\a1369\\Documents\\Codex\\2026-06-01\\tonyc-ship-socai-https-github-com\\work\\socai",
+        "-C",
+        "C:\\Users\\a1369\\Documents\\Codex\\2026-06-01\\tonyc-ship-socai-https-github-com\\work\\socai",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree C:/Users/a1369/Documents/Codex/2026-06-01/tonyc-ship-socai-https-github-com/work/socai\nHEAD ddcbeabb173d9d45780dc67c96a55b5f91f348d3\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$R2LVGFQ",
+    "head": "5617a9f61b028005a4858fdac845db406aefb181",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$R2LVGFQ",
+        "-C",
+        "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$R2LVGFQ",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/$RECYCLE.BIN/S-1-5-21-1662261569-3423889419-1947460555-1001/$R2LVGFQ\nHEAD 5617a9f61b028005a4858fdac845db406aefb181\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\API-Project\\for_image_generate",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\API-Project\\for_image_generate",
+        "-C",
+        "E:\\university\\API-Project\\for_image_generate",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\API-Project\\for_image_generate",
+        "-C",
+        "E:\\university\\API-Project\\for_image_generate",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "E:\\university\\API-Project\\for_image_generate\\.github-publish",
+    "head": "05842887223f13df2ae1018be04743a9eada26ea",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\API-Project\\for_image_generate\\.github-publish",
+        "-C",
+        "E:\\university\\API-Project\\for_image_generate\\.github-publish",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/API-Project/for_image_generate/.github-publish\nHEAD 05842887223f13df2ae1018be04743a9eada26ea\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\API-Project\\for_image_generate\\semantic_router",
+    "head": "0fa9d5c783304904ba4dd99f72826d3dc4dca242",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\API-Project\\for_image_generate\\semantic_router",
+        "-C",
+        "E:\\university\\API-Project\\for_image_generate\\semantic_router",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/API-Project/for_image_generate/semantic_router\nHEAD 0fa9d5c783304904ba4dd99f72826d3dc4dca242\nbranch refs/heads/master\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 2,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\API-Project\\vllm-semantic-router-official",
+    "head": "9afc5a421886f44085f9070a8fbd878b80724f64",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\API-Project\\vllm-semantic-router-official",
+        "-C",
+        "E:\\university\\API-Project\\vllm-semantic-router-official",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/API-Project/vllm-semantic-router-official\nHEAD 9afc5a421886f44085f9070a8fbd878b80724f64\ndetached\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 16,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\CNS\\Group Project\\Montgometry\\CNS_Project_group08",
+    "head": "6e5e8f91218600acd742644016408ca491d4d56e",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\CNS\\Group Project\\Montgometry\\CNS_Project_group08",
+        "-C",
+        "E:\\university\\uic\\CNS\\Group Project\\Montgometry\\CNS_Project_group08",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/CNS/Group Project/Montgometry/CNS_Project_group08\nHEAD 6e5e8f91218600acd742644016408ca491d4d56e\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 1,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\CNS\\Group Project\\RSA4096-main\\CNS_Project_group08",
+    "head": "2b65bb03424edba3231f9b4bdff58496985b04fe",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\CNS\\Group Project\\RSA4096-main\\CNS_Project_group08",
+        "-C",
+        "E:\\university\\uic\\CNS\\Group Project\\RSA4096-main\\CNS_Project_group08",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/CNS/Group Project/RSA4096-main/CNS_Project_group08\nHEAD 2b65bb03424edba3231f9b4bdff58496985b04fe\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\FYP",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\FYP",
+        "-C",
+        "E:\\university\\uic\\FYP",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\FYP",
+        "-C",
+        "E:\\university\\uic\\FYP",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "E:\\university\\uic\\FYP\\Friend\\fyp-lidar-registration",
+    "head": "57096023716cbe6258b8dcc736f8c7a24434912a",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\FYP\\Friend\\fyp-lidar-registration",
+        "-C",
+        "E:\\university\\uic\\FYP\\Friend\\fyp-lidar-registration",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/FYP/Friend/fyp-lidar-registration\nHEAD 57096023716cbe6258b8dcc736f8c7a24434912a\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 11,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\Kaggle",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\Kaggle",
+        "-C",
+        "E:\\university\\uic\\Kaggle",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\Kaggle",
+        "-C",
+        "E:\\university\\uic\\Kaggle",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "E:\\university\\uic\\Kaggle\\Biohub\\references\\official_tracking_cellmot",
+    "head": "075fc5f5a52d11077f9dc2b074644618f26939e2",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\Kaggle\\Biohub\\references\\official_tracking_cellmot",
+        "-C",
+        "E:\\university\\uic\\Kaggle\\Biohub\\references\\official_tracking_cellmot",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/Kaggle/Biohub/references/official_tracking_cellmot\nHEAD 075fc5f5a52d11077f9dc2b074644618f26939e2\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\Neural Networks and Deep Learning\\Group Project\\WasteLens-Phase1",
+    "head": "80cdbdad68d28fbf0eb559dfed09e9f27c68f9a4",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\Neural Networks and Deep Learning\\Group Project\\WasteLens-Phase1",
+        "-C",
+        "E:\\university\\uic\\Neural Networks and Deep Learning\\Group Project\\WasteLens-Phase1",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/Neural Networks and Deep Learning/Group Project/WasteLens-Phase1\nHEAD 80cdbdad68d28fbf0eb559dfed09e9f27c68f9a4\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 1,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\RA",
+    "head": "",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\RA",
+        "-C",
+        "E:\\university\\uic\\RA",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    },
+    "object_discovery": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\RA",
+        "-C",
+        "E:\\university\\uic\\RA",
+        "rev-list",
+        "--all",
+        "--reflog",
+        "--objects"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "fatal: not a git repository (or any of the parent directories): .git\n"
+    }
+  },
+  {
+    "repository": "E:\\university\\uic\\RA\\rednote-mcp-setup\\RedNote-MCP",
+    "head": "74bf739a3db5c5b8e86fc8323ede09038cd89f48",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\RA\\rednote-mcp-setup\\RedNote-MCP",
+        "-C",
+        "E:\\university\\uic\\RA\\rednote-mcp-setup\\RedNote-MCP",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/RA/rednote-mcp-setup/RedNote-MCP\nHEAD 74bf739a3db5c5b8e86fc8323ede09038cd89f48\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "E:\\university\\uic\\RA\\xhs\\MediaCrawler",
+    "head": "f328ee35b55e25e8aaeb9c847fe8b622e3f3447f",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=E:\\university\\uic\\RA\\xhs\\MediaCrawler",
+        "-C",
+        "E:\\university\\uic\\RA\\xhs\\MediaCrawler",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree E:/university/uic/RA/xhs/MediaCrawler\nHEAD f328ee35b55e25e8aaeb9c847fe8b622e3f3447f\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "bundle": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\stage24e.bundle",
+    "copy_result": {
+      "command": [
+        "git",
+        "clone",
+        "--mirror",
+        "--quiet",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\stage24e.bundle",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32r-local-work\\git_bundle_copies\\b1980f0dfe949ec1"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "error: Repository lacks these prerequisite commits:\nerror: ca1af67e7534ef87ee102559964d4a8e51ddcfea \nfatal: remote transport reported error\n"
+    }
+  }
+]

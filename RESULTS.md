@@ -568,3 +568,8 @@ Stage31 decoded 183 original RGB-D observations and recorded 396 method/pair out
 ## Stage32 native tracking dependency checkpoint
 
 Stage32 native replay status is BLOCKED_NATIVE_REPLAY_DEPENDENCIES. Standalone native extractor depth-supported counts at target frames are 331, 640 and 296, comparable to neighboring controls. Historical optimizer inliers, pre/post optimization poses and Local Mapping events remain unavailable. Original input hash preservation passed. See [the Stage32 report](outputs/cumulti_v1/32_native_tracking_forensics/STAGE32_NATIVE_TRACKING_REPORT.md).
+
+
+## Stage32R dependency-recovery result
+
+BLOCKED_ORIGINAL_RUNTIME_NOT_RECOVERED. Expanded server/local recovery found no historical-hash-matching modified System.cc/System.h, rgbd_full or libORB_SLAM3.so. Vocabulary and four core sources are hash verified; public System candidates mismatch. Exact baseline compiler/ABI/linkage and original sequence identity remain unverified. This is a dependency audit, with no new tracking or mapping metrics. Frozen artifact preservation passed. See [Stage32R report](outputs/cumulti_v1/32r_runtime_restoration/STAGE32R_RUNTIME_RESTORATION_REPORT.md).

@@ -1,0 +1,798 @@
+[
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/outcome/experimental/status-code/system_error2.hpp",
+    "origin": "file",
+    "bytes": 1579,
+    "sha256": "7b5c979479ca76a82c9cc9d126cec481f6a58c82b56e9984726e9bdeb0042b9c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7b5c979479ca76a82c9cc9d126cec481f6a58c82b56e9984726e9bdeb0042b9c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/outcome/experimental/status-code/system_code.hpp",
+    "origin": "file",
+    "bytes": 2666,
+    "sha256": "862148a2c6281abda8c4caaf80278f0ee1eaf741b8d1f8f63df47d612e3cb64e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "862148a2c6281abda8c4caaf80278f0ee1eaf741b8d1f8f63df47d612e3cb64e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/outcome/experimental/status-code/system_code_from_exception.hpp",
+    "origin": "file",
+    "bytes": 4200,
+    "sha256": "296e8b14cdf62788a1a36eb1939d4f49f7fa3169aa8e56fef71e4b5acf98dbd3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "296e8b14cdf62788a1a36eb1939d4f49f7fa3169aa8e56fef71e4b5acf98dbd3"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/iostreams/detail/system_failure.hpp",
+    "origin": "file",
+    "bytes": 2661,
+    "sha256": "637dd6d1e6c926fab6cc590931beddb22c9680072352f76199b4939d4c2a21c4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "637dd6d1e6c926fab6cc590931beddb22c9680072352f76199b4939d4c2a21c4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/dll/detail/system_error.hpp",
+    "origin": "file",
+    "bytes": 1388,
+    "sha256": "2b91359b8bcd959e6fa0aadf94b983a99c0eda875ca2eaef7f74964b7f91ea39",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2b91359b8bcd959e6fa0aadf94b983a99c0eda875ca2eaef7f74964b7f91ea39"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/boost/flyweight/tracking_tag.hpp",
+    "origin": "file",
+    "bytes": 1140,
+    "sha256": "b16d1ab8f228658a78f99d05be2fa3b251a581f9af63f36ba9c4b3bf7b1a41f9",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b16d1ab8f228658a78f99d05be2fa3b251a581f9af63f36ba9c4b3bf7b1a41f9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/asio/system_timer.hpp",
+    "origin": "file",
+    "bytes": 1306,
+    "sha256": "4de3e8386165877862ce9d1c272b47956cb9b995487f22b2754d6fb235870857",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "4de3e8386165877862ce9d1c272b47956cb9b995487f22b2754d6fb235870857"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/asio/system_executor.hpp",
+    "origin": "file",
+    "bytes": 22529,
+    "sha256": "da5581740969fe2abd754eaa0b021ebaadb8970976539006cfb5ae9e4b93e49a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "da5581740969fe2abd754eaa0b021ebaadb8970976539006cfb5ae9e4b93e49a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/asio/system_context.hpp",
+    "origin": "file",
+    "bytes": 2649,
+    "sha256": "95f5b15511fd25056a404ad38d0a02f74bf1593c5842f7a8648e837051f2efec",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "95f5b15511fd25056a404ad38d0a02f74bf1593c5842f7a8648e837051f2efec"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/asio/impl/system_executor.hpp",
+    "origin": "file",
+    "bytes": 6391,
+    "sha256": "7d1012e4be6cada76df21417f3093aa0fae3f1130b44df98343a99f770ee7df8",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7d1012e4be6cada76df21417f3093aa0fae3f1130b44df98343a99f770ee7df8"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/asio/impl/system_context.hpp",
+    "origin": "file",
+    "bytes": 875,
+    "sha256": "77f24d181d5334520e29fbd73f32ebefae0ca8aca00feb65452466379a692df2",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "77f24d181d5334520e29fbd73f32ebefae0ca8aca00feb65452466379a692df2"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/compute/system.hpp",
+    "origin": "file",
+    "bytes": 9388,
+    "sha256": "ba6ad686963d9d7eadc4ffac4f7748c4a8350c6d3d2068c0004306a918ccd890",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ba6ad686963d9d7eadc4ffac4f7748c4a8350c6d3d2068c0004306a918ccd890"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/boost/serialization/tracking.hpp",
+    "origin": "file",
+    "bytes": 3990,
+    "sha256": "4ad6a69ff78d532014644ef2fd28b782aad0d711b435386dc11a4b24910524ee",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "4ad6a69ff78d532014644ef2fd28b782aad0d711b435386dc11a4b24910524ee"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/boost/serialization/tracking_enum.hpp",
+    "origin": "file",
+    "bytes": 1227,
+    "sha256": "6fc3a3d634f418a2ee86f7fe03c990e4efd08af3dc8ab648c624798add0f7a83",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6fc3a3d634f418a2ee86f7fe03c990e4efd08af3dc8ab648c624798add0f7a83"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/chrono/system_clocks.hpp",
+    "origin": "file",
+    "bytes": 8701,
+    "sha256": "3987578e098c76b01e414a4f7760fb3f6c8f624fe01d04e15e7969f882bcc695",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3987578e098c76b01e414a4f7760fb3f6c8f624fe01d04e15e7969f882bcc695"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/chrono/detail/system.hpp",
+    "origin": "file",
+    "bytes": 484,
+    "sha256": "b1b7b05a57866c36a2363433d7ebdc845e9fec2a4e0601a0c5dfc7ff9eb1decc",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b1b7b05a57866c36a2363433d7ebdc845e9fec2a4e0601a0c5dfc7ff9eb1decc"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/detail/winapi/system.hpp",
+    "origin": "file",
+    "bytes": 591,
+    "sha256": "c64cc56eb6a17a981423d546e1aaf81a4d8e0115da4d931f16de4272c2d83dda",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c64cc56eb6a17a981423d546e1aaf81a4d8e0115da4d931f16de4272c2d83dda"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/winapi/system.hpp",
+    "origin": "file",
+    "bytes": 2144,
+    "sha256": "d86789882e9d61017e1e4f7e42fc35e524219086589c8537b9f0d29c228c59ad",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d86789882e9d61017e1e4f7e42fc35e524219086589c8537b9f0d29c228c59ad"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/boost/xpressive/detail/utility/tracking_ptr.hpp",
+    "origin": "file",
+    "bytes": 13180,
+    "sha256": "6052776a9028bafd7ea9309cf66a3af325913d59f7752df597f4251b0a903b7a",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6052776a9028bafd7ea9309cf66a3af325913d59f7752df597f4251b0a903b7a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/system/system_error.hpp",
+    "origin": "file",
+    "bytes": 2645,
+    "sha256": "47b74f42644d72afab674a25c28af7a83f90df3f428306d20068d2c6753a60c6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "47b74f42644d72afab674a25c28af7a83f90df3f428306d20068d2c6753a60c6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/system/detail/system_category_win32.hpp",
+    "origin": "file",
+    "bytes": 11953,
+    "sha256": "ca3d02d98492b405f40c0df2a23f00d04f2c799f50524bf1c76bd647cbe572bf",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ca3d02d98492b405f40c0df2a23f00d04f2c799f50524bf1c76bd647cbe572bf"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/system/detail/system_category_posix.hpp",
+    "origin": "file",
+    "bytes": 3200,
+    "sha256": "f047811eab148feef20342a5614b85211abfd154ada441fa65abc8f4f9077814",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f047811eab148feef20342a5614b85211abfd154ada441fa65abc8f4f9077814"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/include/boost/process/system.hpp",
+    "origin": "file",
+    "bytes": 4093,
+    "sha256": "f6825475ec03dacd21ca017645a09f271346fc0569019faf0d2e759461872254",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f6825475ec03dacd21ca017645a09f271346fc0569019faf0d2e759461872254"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/tracking.hpp",
+    "origin": "file",
+    "bytes": 5935,
+    "sha256": "5362366c9e9f96f9ffca16fc1d796b0eac4d5975e465d12e7018fa4aaad73170",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5362366c9e9f96f9ffca16fc1d796b0eac4d5975e465d12e7018fa4aaad73170"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/tracking/tracking_legacy.hpp",
+    "origin": "file",
+    "bytes": 19960,
+    "sha256": "ff74982243daaa1927bfa30b51e89f0f317671ab39d74e26ec0e044268bac588",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ff74982243daaa1927bfa30b51e89f0f317671ab39d74e26ec0e044268bac588"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/tracking/tracking.hpp",
+    "origin": "file",
+    "bytes": 2278,
+    "sha256": "2d24fd6e1b888adff08aedda96ddeb39a7173c1dacee1e08236f43ab9c62e129",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2d24fd6e1b888adff08aedda96ddeb39a7173c1dacee1e08236f43ab9c62e129"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/tracking/tracking_internals.hpp",
+    "origin": "file",
+    "bytes": 32275,
+    "sha256": "159032629ff20c33f6bf470763a5806a0ce850e90ae9cb5f4951fa146be14342",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "159032629ff20c33f6bf470763a5806a0ce850e90ae9cb5f4951fa146be14342"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/tracking/tracking_by_matching.hpp",
+    "origin": "file",
+    "bytes": 19185,
+    "sha256": "30a99427ab8402256b314863752ce84128f374e83aab8cf03f1e999dc412d4a2",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "30a99427ab8402256b314863752ce84128f374e83aab8cf03f1e999dc412d4a2"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/video/tracking.hpp",
+    "origin": "file",
+    "bytes": 40656,
+    "sha256": "1e54a2d728485d498654eccc9c11e2493cd75e7584c6564dd3eed04291aceaa0",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1e54a2d728485d498654eccc9c11e2493cd75e7584c6564dd3eed04291aceaa0"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/usr/include/opencv4/opencv2/video/detail/tracking.detail.hpp",
+    "origin": "file",
+    "bytes": 13152,
+    "sha256": "a666608147ee7e791deced088dbc868674cccc2e115e2f765692c6670e77d00c",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a666608147ee7e791deced088dbc868674cccc2e115e2f765692c6670e77d00c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-138/include/keys/system_keyring.h",
+    "origin": "file",
+    "bytes": 3913,
+    "sha256": "118dee8533a9d5a373801ad4d522c1e1b37823fec6ff353646ec46548d471da0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "118dee8533a9d5a373801ad4d522c1e1b37823fec6ff353646ec46548d471da0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-138/arch/mips/include/asm/dec/system.h",
+    "origin": "file",
+    "bytes": 347,
+    "sha256": "169c89ef34109a22b06902bd4955321e58a6e38191ef6f128f2a8f44bb5839bb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "169c89ef34109a22b06902bd4955321e58a6e38191ef6f128f2a8f44bb5839bb"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-138/arch/arm/include/asm/system_misc.h",
+    "origin": "file",
+    "bytes": 1005,
+    "sha256": "5552c036e14f55f72171581f4c462de8e8abc7dcda320491e9dbbcdce19d91c1",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5552c036e14f55f72171581f4c462de8e8abc7dcda320491e9dbbcdce19d91c1"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-138/arch/arm/include/asm/system_info.h",
+    "origin": "file",
+    "bytes": 763,
+    "sha256": "c4f73edb842d2712a03bcbac3d7cb325d2772a88fb1f37c5feddfeb47066c884",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c4f73edb842d2712a03bcbac3d7cb325d2772a88fb1f37c5feddfeb47066c884"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-138/arch/arm64/include/asm/system_misc.h",
+    "origin": "file",
+    "bytes": 880,
+    "sha256": "54145cc71e86b8ae6526c5946d0921f2f7edc50a169fbf6b1d2c8bb7327147fd",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "54145cc71e86b8ae6526c5946d0921f2f7edc50a169fbf6b1d2c8bb7327147fd"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-149/include/keys/system_keyring.h",
+    "origin": "file",
+    "bytes": 3913,
+    "sha256": "118dee8533a9d5a373801ad4d522c1e1b37823fec6ff353646ec46548d471da0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "118dee8533a9d5a373801ad4d522c1e1b37823fec6ff353646ec46548d471da0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-149/arch/mips/include/asm/dec/system.h",
+    "origin": "file",
+    "bytes": 347,
+    "sha256": "169c89ef34109a22b06902bd4955321e58a6e38191ef6f128f2a8f44bb5839bb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "169c89ef34109a22b06902bd4955321e58a6e38191ef6f128f2a8f44bb5839bb"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-149/arch/arm/include/asm/system_misc.h",
+    "origin": "file",
+    "bytes": 1005,
+    "sha256": "5552c036e14f55f72171581f4c462de8e8abc7dcda320491e9dbbcdce19d91c1",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5552c036e14f55f72171581f4c462de8e8abc7dcda320491e9dbbcdce19d91c1"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-149/arch/arm/include/asm/system_info.h",
+    "origin": "file",
+    "bytes": 763,
+    "sha256": "c4f73edb842d2712a03bcbac3d7cb325d2772a88fb1f37c5feddfeb47066c884",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c4f73edb842d2712a03bcbac3d7cb325d2772a88fb1f37c5feddfeb47066c884"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/usr/src/linux-hwe-6.8-headers-6.8.0-149/arch/arm64/include/asm/system_misc.h",
+    "origin": "file",
+    "bytes": 880,
+    "sha256": "54145cc71e86b8ae6526c5946d0921f2f7edc50a169fbf6b1d2c8bb7327147fd",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "54145cc71e86b8ae6526c5946d0921f2f7edc50a169fbf6b1d2c8bb7327147fd"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/stage24_fetch.py",
+    "origin": "file",
+    "bytes": 760,
+    "sha256": "d5d5da393f5fd70da79957ce5d524442463cef4a347a005ef575cad35e77aa6b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/build_rgbd_causal.sh",
+    "origin": "file",
+    "bytes": 1025,
+    "sha256": "46324362de358127f478c7b2e6db64f63ddd62a42088601358939434e3955f2f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/build_rgbd_atlas.sh",
+    "origin": "file",
+    "bytes": 944,
+    "sha256": "3d5e50b33406f0c9db57be4308c0afcf416d6d0316cd3ca0ca30494af91d46c5",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/home/cas/miniconda3/include/curl/system.h",
+    "origin": "file",
+    "bytes": 14955,
+    "sha256": "2a52778aad619ad5734c5989838bd20d7ce89cd52be17f5032695c61fcfcb09f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2a52778aad619ad5734c5989838bd20d7ce89cd52be17f5032695c61fcfcb09f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/home/cas/miniconda3/pkgs/libcurl-8.19.0-ha05a353_0/include/curl/system.h",
+    "origin": "file",
+    "bytes": 14955,
+    "sha256": "2a52778aad619ad5734c5989838bd20d7ce89cd52be17f5032695c61fcfcb09f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2a52778aad619ad5734c5989838bd20d7ce89cd52be17f5032695c61fcfcb09f"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "/home/cas/fyp_stage26/work/stage32/baseline_reference/camera.yaml",
+    "origin": "file",
+    "bytes": 895,
+    "sha256": "d0f412d96fd3de57e95fd34639969b2422aeb4569cd636dbcad510336981ee8c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/include/System.h",
+    "origin": "file",
+    "bytes": 8470,
+    "sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/include/Tracking.h",
+    "origin": "file",
+    "bytes": 10095,
+    "sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "recovered_copy": "work/stage32r/recovered/Tracking.h"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/Vocabulary/ORBvoc.txt.tar.gz",
+    "origin": "file",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/src/System.cc",
+    "origin": "file",
+    "bytes": 51888,
+    "sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/src/ORBextractor.cc",
+    "origin": "file",
+    "bytes": 53344,
+    "sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "recovered_copy": "work/stage32r/recovered/ORBextractor.cc"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/src/Tracking.cc",
+    "origin": "file",
+    "bytes": 138424,
+    "sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "recovered_copy": "work/stage32r/recovered/Tracking.cc"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/src/Frame.cc",
+    "origin": "file",
+    "bytes": 40247,
+    "sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "recovered_copy": "work/stage32r/recovered/Frame.cc"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "/home/cas/fyp_stage26/work/stage32/vocabulary/ORBvoc.txt",
+    "origin": "file",
+    "bytes": 145250924,
+    "sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_AND_HASH_VERIFIED"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "/home/cas/fyp_stage26/work/stage32/receipts/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera.yaml",
+    "origin": "file",
+    "bytes": 895,
+    "sha256": "d0f412d96fd3de57e95fd34639969b2422aeb4569cd636dbcad510336981ee8c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/src/cumulti/rgbd_full/stage32r_search.py",
+    "origin": "file",
+    "bytes": 17975,
+    "sha256": "0a6b666a3aa5864d2c1add35ae4de7b66d82d813efae0c41c92945870f1a4e32",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/src/cumulti/rgbd_full/stage26_manifest.py",
+    "origin": "file",
+    "bytes": 5189,
+    "sha256": "41effd9f6135e9043c5f686bfddf4c1f7028f301ad4c0c35b6abcad6bf696f0f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/src/cumulti/rgbd_full/check_staged.py",
+    "origin": "file",
+    "bytes": 1407,
+    "sha256": "95669e4f15f8afe761400a595aa5e079e11c7dcf394cf121321f3abb4593057a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/src/cumulti/rgbd_full/stage32_report.py",
+    "origin": "file",
+    "bytes": 12973,
+    "sha256": "f7a4e398028b7235e29a1e9129a51adeaa6be0852d14803f83b17d28b4dc6f2b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/src/cumulti/rgbd_full/stage32_inventory.py",
+    "origin": "file",
+    "bytes": 1615,
+    "sha256": "5774d781aeeff48d0c91424bf63543607c4b5bd0adeb46bc418b1cb6aa0913aa",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/src/cumulti/rgbd_full/stage32_preflight.py",
+    "origin": "file",
+    "bytes": 18697,
+    "sha256": "3bd5914aa7bf3af9525cd61096481d114f159659765898f693c33fbcb117d79d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/scripts/run_stage26_bounded.sh",
+    "origin": "file",
+    "bytes": 1645,
+    "sha256": "ab09f0a60c0f0c9cb6460e4b825c9566e166239135379ab90075be2651d2af4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/scripts/run_stage31_persistence.sh",
+    "origin": "file",
+    "bytes": 508,
+    "sha256": "c97b14999a848462173b049ae943e2672132fd117a0f4f43666162e8953fd48e",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/work/stage31-final-source.tar!scripts/run_stage31_persistence.sh",
+    "origin": "tar_member",
+    "bytes": 509,
+    "sha256": "494c9b9616dc905166ae711795bf46d9e75f975bf772d2607be590ec6e7717b6",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "/home/cas/fyp_stage26/work/stage32/source_reference/Vocabulary/ORBvoc.txt.tar.gz!ORBvoc.txt",
+    "origin": "tar_member",
+    "bytes": 145250924,
+    "sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "recovered_copy": "work/stage32r/recovered/ORBvoc.txt"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "/home/cas/fyp_stage26/work/stage32-baseline.tar!outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera.yaml",
+    "origin": "tar_member",
+    "bytes": 895,
+    "sha256": "d0f412d96fd3de57e95fd34639969b2422aeb4569cd636dbcad510336981ee8c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/work/stage32-code.tar!src/cumulti/rgbd_full/stage32_preflight.py",
+    "origin": "tar_member",
+    "bytes": 18697,
+    "sha256": "3bd5914aa7bf3af9525cd61096481d114f159659765898f693c33fbcb117d79d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/work/stage32-code.tar!src/cumulti/rgbd_full/stage32_report.py",
+    "origin": "tar_member",
+    "bytes": 12973,
+    "sha256": "f7a4e398028b7235e29a1e9129a51adeaa6be0852d14803f83b17d28b4dc6f2b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/home/cas/fyp_stage26/work/stage32-code.tar!src/cumulti/rgbd_full/stage32_inventory.py",
+    "origin": "tar_member",
+    "bytes": 1615,
+    "sha256": "5774d781aeeff48d0c91424bf63543607c4b5bd0adeb46bc418b1cb6aa0913aa",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "/home/cas/fyp_stage26/work/stage32-source-reference.tar!include/System.h",
+    "origin": "tar_member",
+    "bytes": 8739,
+    "sha256": "15f6d922e502cf56b542e8bc4c03cf70c91ad15561a7f0a52db6e2c2137a9647",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "/home/cas/fyp_stage26/work/stage32-source-reference.tar!include/Tracking.h",
+    "origin": "tar_member",
+    "bytes": 10470,
+    "sha256": "ba988cd16a0c49c69e5296b53e0b5896d53e936915cb61faa4f7406ef1ce4fed",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32-source-reference.tar!src/Frame.cc",
+    "origin": "tar_member",
+    "bytes": 41495,
+    "sha256": "088c8b33443e52f161c9f0485ade8f59bff5c5fa00c6fd34fc64a3988e6eb28e",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32-source-reference.tar!src/ORBextractor.cc",
+    "origin": "tar_member",
+    "bytes": 54541,
+    "sha256": "388d093203497310998abae8b81f97e00acf95dd3544aa7a819fad665c4fc978",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32-source-reference.tar!src/System.cc",
+    "origin": "tar_member",
+    "bytes": 53437,
+    "sha256": "9bf2ee0d9cfd662bc6f2f18a2b17f0482689960ad2bcbf430c5a47068970588f",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "/home/cas/fyp_stage26/work/stage32-source-reference.tar!src/Tracking.cc",
+    "origin": "tar_member",
+    "bytes": 142550,
+    "sha256": "a5828543839a42e0bb499e3325e32dddfa20d5f7f00db2d9b99f58f2fbdb9743",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "/home/cas/fyp_stage26/work/stage32-vocabulary.tar!Vocabulary/ORBvoc.txt.tar.gz",
+    "origin": "tar_member",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/fyp_registered_src.tar!scripts/run_rgbd_registered_replay.sh",
+    "origin": "tar_member",
+    "bytes": 338,
+    "sha256": "c0339ac36f470ea3a9fd5e30cba4c7e04a92d4fdfaf19750f00e8edd2dcab1cf",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/fyp_rgbd_loss_sources.tar!scripts/build_rgbd_loss_audit.sh",
+    "origin": "tar_member",
+    "bytes": 557,
+    "sha256": "0de954211f0f953a454c1e425e372e7ff72d9cdc0abf9464be848545ae76b35b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/fyp_stage24d_final.tar!scripts/run_stage24d_rgbd.sh",
+    "origin": "tar_member",
+    "bytes": 406,
+    "sha256": "648d044e47185e6975f0a6d9571aec26eaf4ed2274c1cb54744600e133ac3a30",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/stage26-inputs.tar!src/cumulti/rgbd_full/check_staged.py",
+    "origin": "tar_member",
+    "bytes": 1407,
+    "sha256": "95669e4f15f8afe761400a595aa5e079e11c7dcf394cf121321f3abb4593057a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "/tmp/stage26-inputs.tar!src/cumulti/rgbd_full/stage26_manifest.py",
+    "origin": "tar_member",
+    "bytes": 5189,
+    "sha256": "41effd9f6135e9043c5f686bfddf4c1f7028f301ad4c0c35b6abcad6bf696f0f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  }
+]

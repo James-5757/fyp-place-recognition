@@ -1,0 +1,1868 @@
+{
+  "coverage": {
+    "server": {
+      "roots": [
+        "/"
+      ],
+      "counts": {
+        "directories": 50989,
+        "files": 414734,
+        "archives": 111
+      },
+      "discovered_repositories": [
+        "/home/cas/.codex/.tmp/plugins",
+        "/tmp/scancontext_official_stage81"
+      ],
+      "archives_discovered": 111,
+      "virtual_filesystems_excluded": [
+        "/proc",
+        "/sys",
+        "/dev",
+        "/run",
+        "/snap"
+      ],
+      "snapshot_and_process_search_separate": true,
+      "source_outputs_excluded_from_self_search": "outputs/cumulti_v1/32r_runtime_restoration/server_search",
+      "filesystem_errors_count": 9493,
+      "filesystem_errors_examples": [
+        {
+          "path": "/root",
+          "error": "[Errno 13] Permission denied: '/root'"
+        },
+        {
+          "path": "/opt/containerd",
+          "error": "[Errno 13] Permission denied: '/opt/containerd'"
+        },
+        {
+          "path": "/lost+found",
+          "error": "[Errno 13] Permission denied: '/lost+found'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_HEAD_INITIALIZER.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_HEAD_INITIALIZER.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_INSERT_AFTER.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_INSERT_AFTER.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_EMPTY.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_EMPTY.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_REMOVE.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_REMOVE.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_NEXT.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_NEXT.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_ENTRY.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_ENTRY.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_INSERT_HEAD.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_INSERT_HEAD.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_INSERT_BEFORE.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_INSERT_BEFORE.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_FIRST.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_FIRST.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_INIT.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_INIT.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_FOREACH.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_FOREACH.3'"
+        },
+        {
+          "path": "/usr/share/man/man3/LIST_HEAD.3",
+          "error": "[Errno 2] No such file or directory: '/usr/share/man/man3/LIST_HEAD.3'"
+        },
+        {
+          "path": "/usr/share/locale/bg/LC_TIME/coreutils.mo",
+          "error": "[Errno 2] No such file or directory: '/usr/share/locale/bg/LC_TIME/coreutils.mo'"
+        },
+        {
+          "path": "/usr/share/locale/ko/LC_TIME/coreutils.mo",
+          "error": "[Errno 2] No such file or directory: '/usr/share/locale/ko/LC_TIME/coreutils.mo'"
+        },
+        {
+          "path": "/usr/share/locale/zh_TW/LC_TIME/coreutils.mo",
+          "error": "[Errno 2] No such file or directory: '/usr/share/locale/zh_TW/LC_TIME/coreutils.mo'"
+        },
+        {
+          "path": "/usr/share/locale/ja/LC_TIME/coreutils.mo",
+          "error": "[Errno 2] No such file or directory: '/usr/share/locale/ja/LC_TIME/coreutils.mo'"
+        },
+        {
+          "path": "/usr/share/locale/de/LC_TIME/coreutils.mo",
+          "error": "[Errno 2] No such file or directory: '/usr/share/locale/de/LC_TIME/coreutils.mo'"
+        }
+      ],
+      "skipped_windows_junctions_count": 0,
+      "skipped_windows_junctions_examples": [],
+      "complete_evidence": "server_search/search_coverage.json.gz"
+    },
+    "local": {
+      "roots": [
+        "C:/",
+        "D:/",
+        "E:/"
+      ],
+      "counts": {
+        "directories": 355853,
+        "files": 2262668,
+        "archives": 1790
+      },
+      "discovered_repositories": [
+        "C:\\Users\\a1369\\.claude\\plugins\\cache\\nvidia-kaggle\\nvidia-kaggle\\2b78cf29f5f3",
+        "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+        "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\nvidia-kaggle",
+        "C:\\Users\\a1369\\.codex\\.tmp\\plugins",
+        "C:\\Users\\a1369\\.codex\\vendor_imports\\skills",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+        "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+        "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\awesome-copilot",
+        "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\copilot-plugins",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\academic-humanizer",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream",
+        "C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+        "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a61b87b7b473fa765ad9582\\v2",
+        "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a620fe90b614ee0fb952c3c\\v2",
+        "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a82bbfa945eec9171cf0fcb\\v2",
+        "C:\\Users\\a1369\\Documents\\Codex\\2026-05-22\\github\\Live-Emotion-Recognition",
+        "C:\\Users\\a1369\\Documents\\Codex\\2026-06-01\\tonyc-ship-socai-https-github-com\\work\\socai",
+        "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$R2LVGFQ",
+        "E:\\university\\API-Project\\for_image_generate",
+        "E:\\university\\API-Project\\for_image_generate\\.github-publish",
+        "E:\\university\\API-Project\\for_image_generate\\semantic_router",
+        "E:\\university\\API-Project\\vllm-semantic-router-official",
+        "E:\\university\\uic\\CNS\\Group Project\\Montgometry\\CNS_Project_group08",
+        "E:\\university\\uic\\CNS\\Group Project\\RSA4096-main\\CNS_Project_group08",
+        "E:\\university\\uic\\FYP",
+        "E:\\university\\uic\\FYP\\Friend\\fyp-lidar-registration",
+        "E:\\university\\uic\\Kaggle",
+        "E:\\university\\uic\\Kaggle\\Biohub\\references\\official_tracking_cellmot",
+        "E:\\university\\uic\\Neural Networks and Deep Learning\\Group Project\\WasteLens-Phase1",
+        "E:\\university\\uic\\RA",
+        "E:\\university\\uic\\RA\\rednote-mcp-setup\\RedNote-MCP",
+        "E:\\university\\uic\\RA\\xhs\\MediaCrawler"
+      ],
+      "archives_discovered": 1790,
+      "virtual_filesystems_excluded": [
+        "/proc",
+        "/sys",
+        "/dev",
+        "/run",
+        "/snap"
+      ],
+      "snapshot_and_process_search_separate": true,
+      "source_outputs_excluded_from_self_search": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\32r_runtime_restoration\\local_search",
+      "filesystem_errors_count": 11467,
+      "filesystem_errors_examples": [
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-18",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\$RECYCLE.BIN\\\\S-1-5-18'"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-500",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\$RECYCLE.BIN\\\\S-1-5-21-1662261569-3423889419-1947460555-500'"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-3393513470-4263224025-2721986487-500",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\$RECYCLE.BIN\\\\S-1-5-21-3393513470-4263224025-2721986487-500'"
+        },
+        {
+          "path": "C:\\PerfLogs",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\PerfLogs'"
+        },
+        {
+          "path": "C:\\Program Files\\WindowsApps",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\Program Files\\\\WindowsApps'"
+        },
+        {
+          "path": "C:\\ProgramData\\Comms\\HwOsd\\admin",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Comms\\\\HwOsd\\\\admin'"
+        },
+        {
+          "path": "C:\\ProgramData\\Comms\\MobileAppEngine\\log\\admin",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Comms\\\\MobileAppEngine\\\\log\\\\admin'"
+        },
+        {
+          "path": "C:\\ProgramData\\Comms\\PCManager\\AccessoryCenter\\Download",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Comms\\\\PCManager\\\\AccessoryCenter\\\\Download'"
+        },
+        {
+          "path": "C:\\ProgramData\\Comms\\PCManager\\AuthData",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Comms\\\\PCManager\\\\AuthData'"
+        },
+        {
+          "path": "C:\\ProgramData\\Comms\\PCManager\\log\\admin",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Comms\\\\PCManager\\\\log\\\\admin'"
+        },
+        {
+          "path": "C:\\ProgramData\\Huawei\\HMSCORE\\cache",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Huawei\\\\HMSCORE\\\\cache'"
+        },
+        {
+          "path": "C:\\ProgramData\\Huawei\\HMSCORE\\ha\\work",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Huawei\\\\HMSCORE\\\\ha\\\\work'"
+        },
+        {
+          "path": "C:\\ProgramData\\Huawei\\HMSCORE\\log\\admin",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Huawei\\\\HMSCORE\\\\log\\\\admin'"
+        },
+        {
+          "path": "C:\\ProgramData\\Huawei\\HMSCORE\\log\\hmswucs",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Huawei\\\\HMSCORE\\\\log\\\\hmswucs'"
+        },
+        {
+          "path": "C:\\ProgramData\\Intel\\Connectivity",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Intel\\\\Connectivity'"
+        },
+        {
+          "path": "C:\\ProgramData\\Microsoft\\Crypto\\PCPKSP\\WindowsAIK",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Microsoft\\\\Crypto\\\\PCPKSP\\\\WindowsAIK'"
+        },
+        {
+          "path": "C:\\ProgramData\\Microsoft\\Crypto\\PCPKSP\\WindowsEK",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Microsoft\\\\Crypto\\\\PCPKSP\\\\WindowsEK'"
+        },
+        {
+          "path": "C:\\ProgramData\\Microsoft\\Diagnosis",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Microsoft\\\\Diagnosis'"
+        },
+        {
+          "path": "C:\\ProgramData\\Microsoft\\NetFramework\\BreadcrumbStore",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Microsoft\\\\NetFramework\\\\BreadcrumbStore'"
+        },
+        {
+          "path": "C:\\ProgramData\\Microsoft\\Network\\Downloader",
+          "error": "[WinError 5] \u62d2\u7edd\u8bbf\u95ee\u3002: 'C:\\\\ProgramData\\\\Microsoft\\\\Network\\\\Downloader'"
+        }
+      ],
+      "skipped_windows_junctions_count": 3220,
+      "skipped_windows_junctions_examples": [
+        "C:\\Documents and Settings",
+        "C:\\dwrg2",
+        "C:\\Program Files\\Common Files\\Oracle\\Java\\javapath",
+        "C:\\Program Files\\Windows NT\\\u9644\u4ef6",
+        "C:\\ProgramData\\Application Data",
+        "C:\\ProgramData\\Documents",
+        "C:\\ProgramData\\Templates",
+        "C:\\ProgramData\\\u300c\u5f00\u59cb\u300d\u83dc\u5355",
+        "C:\\ProgramData\\\u684c\u9762",
+        "C:\\ProgramData\\Microsoft\\Windows\\Start Menu\\\u7a0b\u5e8f",
+        "C:\\ProgramData\\Microsoft\\Windows Defender\\Platform\\CurrentVersion",
+        "C:\\Users\\Default User",
+        "C:\\Users\\a1369\\Application Data",
+        "C:\\Users\\a1369\\Cookies",
+        "C:\\Users\\a1369\\Local Settings",
+        "C:\\Users\\a1369\\My Documents",
+        "C:\\Users\\a1369\\NetHood",
+        "C:\\Users\\a1369\\PrintHood",
+        "C:\\Users\\a1369\\Recent",
+        "C:\\Users\\a1369\\SendTo"
+      ],
+      "complete_evidence": "local_search/search_coverage.json.gz"
+    }
+  },
+  "archives": {
+    "server": {
+      "total": 111,
+      "inspected": 108,
+      "limitations": [
+        {
+          "path": "/home/cas/.local/share/Trash/files/metax/maca-sdk-3.2.1.10-deb-x86_64.tar.xz",
+          "bytes": 39845888,
+          "candidate_members": 1,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Compressed file ended before the end-of-stream marker was reached"
+        },
+        {
+          "path": "/home/cas/miniconda3/pkgs/libarchive-3.8.2-h3ec8f01_0/info/recipe/test-archives/archive.7z",
+          "bytes": 215,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "/home/cas/miniconda3/pkgs/libarchive-3.8.2-h3ec8f01_0/info/test/test-archives/archive.7z",
+          "bytes": 215,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        }
+      ]
+    },
+    "local": {
+      "total": 1790,
+      "inspected": 1622,
+      "limitations": [
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I06R3QH.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I1335FD.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I15HEIM.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I1BK7H1.zip",
+          "bytes": 96,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I1ZEUBT.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I5JSNLO.zip",
+          "bytes": 130,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I5KZLMD.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I6J4WLI.zip",
+          "bytes": 148,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I6WXJ2R.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I8GQG0L.zip",
+          "bytes": 130,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I9ID6CN.zip",
+          "bytes": 132,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IAQACQ1.zip",
+          "bytes": 96,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IBLRTXR.zip",
+          "bytes": 106,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IBUCQ9A.zip",
+          "bytes": 112,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$ID5HPO3.zip",
+          "bytes": 150,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IDR3FVC.zip",
+          "bytes": 110,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IEF5878.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IEM7K9L.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IFSGHKT.zip",
+          "bytes": 152,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IGRHWFC.zip",
+          "bytes": 140,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IGT7WG5.zip",
+          "bytes": 124,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IHBGZK9.zip",
+          "bytes": 152,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IHDMZYS.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IHLC2ZD.zip",
+          "bytes": 108,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$II2GCZP.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$II926KD.zip",
+          "bytes": 128,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IIIFAPS.zip",
+          "bytes": 142,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IKO73XB.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IKWVAGF.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IMO94SW.zip",
+          "bytes": 118,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IMYZMO8.zip",
+          "bytes": 124,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$INEV1NK.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$INO4IOE.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$INXLY4R.zip",
+          "bytes": 110,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$ION2JNS.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IPGHNI2.zip",
+          "bytes": 94,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IPM3BAH.zip",
+          "bytes": 136,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IQ32STI.zip",
+          "bytes": 110,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IQXCC17.zip",
+          "bytes": 144,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IRNFQ90.zip",
+          "bytes": 152,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IRYN9V5.zip",
+          "bytes": 96,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IT56GMW.zip",
+          "bytes": 108,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$ITIRS7S.zip",
+          "bytes": 136,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$ITVPGU9.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IV2CISV.zip",
+          "bytes": 110,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IW8TQST.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IX83Q9E.zip",
+          "bytes": 122,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IXGUCGW.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IXJE8RF.zip",
+          "bytes": 148,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IXJL93K.zip",
+          "bytes": 130,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IY2STEZ.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IYONNQT.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IYY84L3.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IZ514UI.zip",
+          "bytes": 96,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IZDWPMC.zip",
+          "bytes": 126,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IZVT0J4.zip",
+          "bytes": 102,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$RHLC2ZD.zip",
+          "bytes": 6058401,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$RT56GMW.zip",
+          "bytes": 6058401,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\tar\\testdata\\issue10968.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\tar\\testdata\\issue11169.tar",
+          "bytes": 602,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\tar\\testdata\\issue12435.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('empty file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\tar\\testdata\\pax-bad-hdr-file.tar",
+          "bytes": 2560,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\tar\\testdata\\pax-path-hdr.tar",
+          "bytes": 1024,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('empty header')"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\tar\\testdata\\writer-big.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "unexpected end of data"
+        },
+        {
+          "path": "C:\\Program Files\\Go\\src\\archive\\zip\\testdata\\test-baddirsz.zip",
+          "bytes": 1170,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Bad magic number for central directory"
+        },
+        {
+          "path": "C:\\Program Files\\mingw32\\lib\\python3.9\\test\\recursion.tar",
+          "bytes": 516,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Program Files (x86)\\Microsoft\\Copilot\\Application\\undocked_copilot\\Installer\\msedge.7z",
+          "bytes": 287731604,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Program Files (x86)\\Netease\\UU\\5224\\netease-uu-booster.7z",
+          "bytes": 322468,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\ProgramData\\Comms\\Hiview\\workDir\\uploading\\MorganG_MorganG-W7611TM 1.222.0.18(C233)_cb34b06f2da04d71e8c6f22188de9da5824b9ec41a9c529f268d0ca707915476_20230824023023000_ALL100_COMMERCIAL.zip",
+          "bytes": 950,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Python314\\Lib\\test\\archivetestdata\\recursion.tar",
+          "bytes": 516,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-1yIiKE\\node-runtime.tar.gz",
+          "bytes": 113394176,
+          "candidate_members": 35,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Compressed file ended before the end-of-stream marker was reached"
+        },
+        {
+          "path": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz",
+          "bytes": 271212672,
+          "candidate_members": 47,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Compressed file ended before the end-of-stream marker was reached"
+        },
+        {
+          "path": "C:\\Users\\a1369\\.codebuddy\\plugins\\marketplaces\\download_codebuddy_cn_plugin-marketplace_cb_teams_marketplace-41dc19ef-08b3-4d2f-bb77-7d4078920e4a.1792035007784-1nju9n.zip",
+          "bytes": 32768,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\test\\recursion.tar",
+          "bytes": 516,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\AppData\\Local\\Programs\\Python\\Python313\\Lib\\test\\archivetestdata\\recursion.tar",
+          "bytes": 516,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\AppData\\Roaming\\Netease\\UU\\netease-uu-booster.7z",
+          "bytes": 322468,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_nk4mtu0b564722\\ResUpdateV2\\38_1_314.zip",
+          "bytes": 2251,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_nk4mtu0b564722\\ResUpdateV2\\71_1_79.zip",
+          "bytes": 370122,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-05\\AE NOTE1-6\u5408\u96c6.rar",
+          "bytes": 6367083,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-05\\OOP\u8bfe\u4ef6.rar",
+          "bytes": 9320107,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-05\\\u79bb\u6563\u8bfe\u4ef6.rar",
+          "bytes": 7310535,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-05\\\u9ad8\u6570\u8bfe\u4ef6.rar",
+          "bytes": 18589227,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-06\\Clash.for.Windows-0.20.39-win.EN(1)(1).rar",
+          "bytes": 96195249,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-06\\Clash.for.Windows-0.20.39-win.EN(1).rar",
+          "bytes": 96195249,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-07\\20240627-\u6df1\u822a\u56fd\u9645\u9152\u5e97\uff0c20240628-\u4f1a\u5c55\u4e2d\u5fc3.7z",
+          "bytes": 23329482,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-11\\project.rar",
+          "bytes": 2166839,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2024-12\\mcm2022c.7z",
+          "bytes": 442090,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2025-07\\GRE\u5199\u4f5c\u9898\u5e93+\u8303\u6587.rar",
+          "bytes": 2449654,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2025-07\\GRE\u590d\u4e60\u8d44\u6599\u8865\u5145.rar",
+          "bytes": 21194154,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\172_2_123.zip",
+          "bytes": 459526,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\38_1_335.zip",
+          "bytes": 2483,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\71_1_110.zip",
+          "bytes": 501001,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\79_2_296.zip",
+          "bytes": 294013,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\90_1_649.zip",
+          "bytes": 2546112,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\93_1_328.zip",
+          "bytes": 982448,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\ResUpdateV2\\93_2_332.zip",
+          "bytes": 682419,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Downloads\\jiangyuxiang\u8d44\u6599\u626b\u63cf\u4ef6.rar",
+          "bytes": 12992176,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Downloads\\LIS\u864e\u982d\u6f22\u5316\u7e41\u9ad44.0.rar",
+          "bytes": 14955173,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\Downloads\\\u5c0f\u7ea2\u4e66\u56fd\u5916\u7248\u63d2\u4ef6.rar",
+          "bytes": 2235,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\github.com\\gabriel-vasile\\mimetype@v1.4.2\\testdata\\7z.7z",
+          "bytes": 258,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\github.com\\gabriel-vasile\\mimetype@v1.4.2\\testdata\\rar.rar",
+          "bytes": 221,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\github.com\\klauspost\\compress@v1.18.2\\zip\\testdata\\test-baddirsz.zip",
+          "bytes": 1170,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Bad magic number for central directory"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\tar\\testdata\\issue10968.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\tar\\testdata\\issue11169.tar",
+          "bytes": 602,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\tar\\testdata\\issue12435.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('empty file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\tar\\testdata\\pax-bad-hdr-file.tar",
+          "bytes": 2560,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\tar\\testdata\\pax-path-hdr.tar",
+          "bytes": 1024,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('empty header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\tar\\testdata\\writer-big.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "unexpected end of data"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go\\pkg\\mod\\golang.org\\toolchain@v0.0.1-go1.26.2.windows-amd64\\src\\archive\\zip\\testdata\\test-baddirsz.zip",
+          "bytes": 1170,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Bad magic number for central directory"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\issue10968.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\issue11169.tar",
+          "bytes": 602,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\issue12435.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('empty file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\neg-size.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\pax-bad-hdr-file.tar",
+          "bytes": 2560,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('invalid header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\pax-path-hdr.tar",
+          "bytes": 1024,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "file could not be opened successfully:\n- method gz: ReadError('not a gzip file')\n- method bz2: ReadError('not a bzip2 file')\n- method xz: ReadError('not an lzma file')\n- method zst: ReadError('not a zstd file')\n- method tar: ReadError('empty header')"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\writer-big-long.tar",
+          "bytes": 1536,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "unexpected end of data"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\tar\\testdata\\writer-big.tar",
+          "bytes": 512,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "unexpected end of data"
+        },
+        {
+          "path": "C:\\Users\\a1369\\go-install\\go\\src\\archive\\zip\\testdata\\test-baddirsz.zip",
+          "bytes": 1170,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "Bad magic number for central directory"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-05\\AE NOTE1-6\u5408\u96c6.rar",
+          "bytes": 6367083,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-05\\OOP\u8bfe\u4ef6.rar",
+          "bytes": 9320107,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-05\\\u79bb\u6563\u8bfe\u4ef6.rar",
+          "bytes": 7310535,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-05\\\u9ad8\u6570\u8bfe\u4ef6.rar",
+          "bytes": 18589227,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-06\\Clash.for.Windows-0.20.39-win.EN(1).rar",
+          "bytes": 96195249,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-07\\20240627-\u6df1\u822a\u56fd\u9645\u9152\u5e97\uff0c20240628-\u4f1a\u5c55\u4e2d\u5fc3.7z",
+          "bytes": 23329482,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-11\\project.rar",
+          "bytes": 2166839,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2024-12\\mcm2022c.7z",
+          "bytes": 442090,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2025-07\\GRE\u5199\u4f5c\u9898\u5e93+\u8303\u6587.rar",
+          "bytes": 2449654,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2025-07\\GRE\u590d\u4e60\u8d44\u6599\u8865\u5145.rar",
+          "bytes": 21194154,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2025-09\\SecureCRT8.0.rar",
+          "bytes": 33999865,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2026-01\\02-\u7f8e\u8d5b\u4f18\u79c0\u8bba\u6587.rar",
+          "bytes": 2497167,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2026-01\\05-\u7f8e\u8d5b\u7a0b\u5e8f\u5305.rar",
+          "bytes": 297346244,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2026-07\\for_image_generate_start.rar",
+          "bytes": 25832748,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\migrate\\File\\2024-06\\Clash.for.Windows-0.20.39-win.EN(1)(1).rar",
+          "bytes": 96195249,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "D:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IWAQAR1.rar",
+          "bytes": 68,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "D:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$RWAQAR1.rar",
+          "bytes": 33999865,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I0B2SA1.zip",
+          "bytes": 296,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I1QG582.zip",
+          "bytes": 212,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I20IW04.zip",
+          "bytes": 124,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I3Z3RRV.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I43PVKD.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I4AQIVN.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I66LBJ2.zip",
+          "bytes": 124,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$I6L5OKN.zip",
+          "bytes": 210,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IBRBG8G.zip",
+          "bytes": 160,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$ICHEMPY.zip",
+          "bytes": 210,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IDOKLXX.zip",
+          "bytes": 100,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IDUTC0C.zip",
+          "bytes": 156,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IF2NWKM.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IFS1IUB.zip",
+          "bytes": 94,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IFU1ZZP.zip",
+          "bytes": 210,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IHLEQZG.zip",
+          "bytes": 114,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IK6RZOO.zip",
+          "bytes": 210,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IKGY3JG.zip",
+          "bytes": 172,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IN6RE2R.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IO83IYB.zip",
+          "bytes": 210,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IONCDKJ.zip",
+          "bytes": 156,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IP1C0A4.zip",
+          "bytes": 156,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IPFMPEA.zip",
+          "bytes": 178,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$ISZEG01.zip",
+          "bytes": 156,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IUXJEWB.zip",
+          "bytes": 216,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IV3ICJF.zip",
+          "bytes": 156,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IVPTPSL.zip",
+          "bytes": 212,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IW13OAE.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IWMW19I.zip",
+          "bytes": 94,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IWO9T7P.zip",
+          "bytes": 106,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IX97GXD.zip",
+          "bytes": 164,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$IXSMFGV.zip",
+          "bytes": 196,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNREADABLE",
+          "error": "File is not a zip file"
+        },
+        {
+          "path": "E:\\gcc\\winlibs-i686-posix-dwarf-gcc-14.1.0-llvm-18.1.5-mingw-w64ucrt-11.0.1-r1.7z",
+          "bytes": 167880639,
+          "candidate_members": 0,
+          "matching_members": [],
+          "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+        }
+      ]
+    }
+  },
+  "git": {
+    "server": {
+      "total_entries": 4,
+      "repos": [
+        {
+          "repository": "/home/cas/.codex/.tmp/plugins",
+          "head": "d420d13051bffe4543ed39e30fa46b87148e47dd",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "/tmp/scancontext_official_stage81",
+          "head": "93672835bb85e9c03fedf0fbaf2d0491df12161e",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "work/stage32r/git_bundle_copies/c3fe0e01bafe1cfc",
+          "head": "HEAD",
+          "original_bundle": "/home/cas/stage11_backups/stage11_gicp_value_2ff22b8.bundle",
+          "status": "INSPECTED"
+        },
+        {
+          "repository": null,
+          "head": null,
+          "original_bundle": null,
+          "status": null
+        }
+      ]
+    },
+    "local": {
+      "total_entries": 35,
+      "repos": [
+        {
+          "repository": "C:\\Users\\a1369\\.claude\\plugins\\cache\\nvidia-kaggle\\nvidia-kaggle\\2b78cf29f5f3",
+          "head": "2b78cf29f5f30680764292a6592de8d53d4147a8",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\claude-plugins-official",
+          "head": "cd175f8c584977ddf6259498e7f86d02c5416057",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.claude\\plugins\\marketplaces\\nvidia-kaggle",
+          "head": "2b78cf29f5f30680764292a6592de8d53d4147a8",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.codex\\.tmp\\plugins",
+          "head": "1dc195897af4161d039b80d8471ec0a10c9bbc89",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.codex\\vendor_imports\\skills",
+          "head": "49f948faa9258a0c61caceaf225e179651397431",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\01\\019f1c58-550d-7330-b225-cd1ce7d70bfd",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\04\\019f2cc2-ecae-7642-a7c1-7df1c426543f",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.codex\\visualizations\\2026\\07\\09\\019f4616-d56a-7bd1-90f2-917c5eab0146",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\awesome-copilot",
+          "head": "63d08d51f792d53feec8c1c06897cee870e83c18",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\.vscode\\agent-plugins\\github.com\\github\\copilot-plugins",
+          "head": "6fe19e8a352deb8c268c6bc066a843031dd1b6dc",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\academic-humanizer",
+          "head": "94b88b23703bed7df507acae7d6d5876209a0cdf",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push",
+          "head": "cd0e269495a41a2210d86fca8d001c5a95fd3f8c",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream",
+          "head": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Local\\Temp\\tfm_repos\\test_keras",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a61b87b7b473fa765ad9582\\v2",
+          "head": "091cc6a578f5b0230af986a266917f13b17f83a6",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a620fe90b614ee0fb952c3c\\v2",
+          "head": "3128cd31f9f4779278415895192d95859c289f86",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\AppData\\Roaming\\Trae CN\\ModularData\\ai-agent\\snapshot\\6a82bbfa945eec9171cf0fcb\\v2",
+          "head": "849bf135f2306678dac0bf2060bc659c4ccf0314",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\Documents\\Codex\\2026-05-22\\github\\Live-Emotion-Recognition",
+          "head": "d2bd1f443fdbac7049f539a86d54cf42a90f10e5",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "C:\\Users\\a1369\\Documents\\Codex\\2026-06-01\\tonyc-ship-socai-https-github-com\\work\\socai",
+          "head": "ddcbeabb173d9d45780dc67c96a55b5f91f348d3",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\$RECYCLE.BIN\\S-1-5-21-1662261569-3423889419-1947460555-1001\\$R2LVGFQ",
+          "head": "5617a9f61b028005a4858fdac845db406aefb181",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\API-Project\\for_image_generate",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "E:\\university\\API-Project\\for_image_generate\\.github-publish",
+          "head": "05842887223f13df2ae1018be04743a9eada26ea",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\API-Project\\for_image_generate\\semantic_router",
+          "head": "0fa9d5c783304904ba4dd99f72826d3dc4dca242",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\API-Project\\vllm-semantic-router-official",
+          "head": "9afc5a421886f44085f9070a8fbd878b80724f64",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\CNS\\Group Project\\Montgometry\\CNS_Project_group08",
+          "head": "6e5e8f91218600acd742644016408ca491d4d56e",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\CNS\\Group Project\\RSA4096-main\\CNS_Project_group08",
+          "head": "2b65bb03424edba3231f9b4bdff58496985b04fe",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\FYP",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "E:\\university\\uic\\FYP\\Friend\\fyp-lidar-registration",
+          "head": "57096023716cbe6258b8dcc736f8c7a24434912a",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\Kaggle",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "E:\\university\\uic\\Kaggle\\Biohub\\references\\official_tracking_cellmot",
+          "head": "075fc5f5a52d11077f9dc2b074644618f26939e2",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\Neural Networks and Deep Learning\\Group Project\\WasteLens-Phase1",
+          "head": "80cdbdad68d28fbf0eb559dfed09e9f27c68f9a4",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\RA",
+          "head": "",
+          "original_bundle": null,
+          "status": null
+        },
+        {
+          "repository": "E:\\university\\uic\\RA\\rednote-mcp-setup\\RedNote-MCP",
+          "head": "74bf739a3db5c5b8e86fc8323ede09038cd89f48",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": "E:\\university\\uic\\RA\\xhs\\MediaCrawler",
+          "head": "f328ee35b55e25e8aaeb9c847fe8b622e3f3447f",
+          "original_bundle": null,
+          "status": "INSPECTED"
+        },
+        {
+          "repository": null,
+          "head": null,
+          "original_bundle": null,
+          "status": null
+        }
+      ]
+    }
+  }
+}

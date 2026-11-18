@@ -1,0 +1,18 @@
+{
+  "status": "BLOCKED_ORIGINAL_RUNTIME_NOT_RECOVERED",
+  "exact_reproduction": false,
+  "original_sdk_revision": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "original_modified_system_sources_verified": false,
+  "baseline_executable_verified": false,
+  "baseline_library_verified": false,
+  "vocabulary_verified": true,
+  "camera_settings_verified": true,
+  "original_sequence_file_verified": false,
+  "current_opencv_matches_recorded": true,
+  "historical_compiler_abi_and_linkage_verified": false,
+  "ready_for_instrumented_build": false,
+  "instrumented_sdk_copy_created": false,
+  "instrumented_executable_built": false,
+  "full_replay_started": false,
+  "algorithms_or_parameters_changed": false
+}

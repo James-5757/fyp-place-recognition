@@ -1,0 +1,264 @@
+{
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "uid": 1000,
+  "packages_installed": [],
+  "tracking_parameters_changed": [],
+  "instrumented_build_started": false,
+  "commands": {
+    "compiler_version": {
+      "command": [
+        "g++",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0\nCopyright (C) 2021 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n\n",
+      "stderr": ""
+    },
+    "compiler_target": {
+      "command": [
+        "g++",
+        "-dumpmachine"
+      ],
+      "returncode": 0,
+      "stdout": "x86_64-linux-gnu\n",
+      "stderr": ""
+    },
+    "cmake_version": {
+      "command": [
+        "cmake",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "cmake version 3.22.1\n\nCMake suite maintained and supported by Kitware (kitware.com/cmake).\n",
+      "stderr": ""
+    },
+    "native_opencv_version": {
+      "command": [
+        "pkg-config",
+        "--modversion",
+        "opencv4"
+      ],
+      "returncode": 0,
+      "stdout": "4.5.4\n",
+      "stderr": ""
+    },
+    "native_opencv_link_flags": {
+      "command": [
+        "pkg-config",
+        "--libs",
+        "opencv4"
+      ],
+      "returncode": 0,
+      "stdout": "-lopencv_stitching -lopencv_alphamat -lopencv_aruco -lopencv_barcode -lopencv_bgsegm -lopencv_bioinspired -lopencv_ccalib -lopencv_dnn_objdetect -lopencv_dnn_superres -lopencv_dpm -lopencv_face -lopencv_freetype -lopencv_fuzzy -lopencv_hdf -lopencv_hfs -lopencv_img_hash -lopencv_intensity_transform -lopencv_line_descriptor -lopencv_mcc -lopencv_quality -lopencv_rapid -lopencv_reg -lopencv_rgbd -lopencv_saliency -lopencv_shape -lopencv_stereo -lopencv_structured_light -lopencv_phase_unwrapping -lopencv_superres -lopencv_optflow -lopencv_surface_matching -lopencv_tracking -lopencv_highgui -lopencv_datasets -lopencv_text -lopencv_plot -lopencv_ml -lopencv_videostab -lopencv_videoio -lopencv_viz -lopencv_wechat_qrcode -lopencv_ximgproc -lopencv_video -lopencv_xobjdetect -lopencv_objdetect -lopencv_calib3d -lopencv_imgcodecs -lopencv_features2d -lopencv_dnn -lopencv_flann -lopencv_xphoto -lopencv_photo -lopencv_imgproc -lopencv_core\n",
+      "stderr": ""
+    },
+    "native_opencv_compile_flags": {
+      "command": [
+        "pkg-config",
+        "--cflags",
+        "opencv4"
+      ],
+      "returncode": 0,
+      "stdout": "-I/usr/include/opencv4\n",
+      "stderr": ""
+    },
+    "pangolin_pkg_config": {
+      "command": [
+        "pkg-config",
+        "--modversion",
+        "pangolin"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "Package pangolin was not found in the pkg-config search path.\nPerhaps you should add the directory containing `pangolin.pc'\nto the PKG_CONFIG_PATH environment variable\nNo package 'pangolin' found\n"
+    },
+    "glibc_version": {
+      "command": [
+        "getconf",
+        "GNU_LIBC_VERSION"
+      ],
+      "returncode": 0,
+      "stdout": "glibc 2.35\n",
+      "stderr": ""
+    },
+    "loader_version": {
+      "command": [
+        "ldd",
+        "--version"
+      ],
+      "returncode": 0,
+      "stdout": "ldd (Ubuntu GLIBC 2.35-0ubuntu3.18) 2.35\nCopyright (C) 2022 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\nWritten by Roland McGrath and Ulrich Drepper.\n",
+      "stderr": ""
+    },
+    "mounts": {
+      "command": [
+        "findmnt",
+        "-rn",
+        "-o",
+        "TARGET,SOURCE,FSTYPE"
+      ],
+      "returncode": 0,
+      "stdout": "/sys sysfs sysfs\n/proc proc proc\n/dev udev devtmpfs\n/dev/pts devpts devpts\n/run tmpfs tmpfs\n/ /dev/sda2 ext4\n/sys/kernel/security securityfs securityfs\n/dev/shm tmpfs tmpfs\n/run/lock tmpfs tmpfs\n/sys/fs/cgroup cgroup2 cgroup2\n/sys/fs/pstore pstore pstore\n/sys/firmware/efi/efivars efivarfs efivarfs\n/sys/fs/bpf bpf bpf\n/proc/sys/fs/binfmt_misc systemd-1 autofs\n/dev/hugepages hugetlbfs hugetlbfs\n/dev/mqueue mqueue mqueue\n/sys/kernel/debug debugfs debugfs\n/sys/kernel/tracing tracefs tracefs\n/sys/fs/fuse/connections fusectl fusectl\n/sys/kernel/config configfs configfs\n/run/credentials/systemd-sysusers.service ramfs ramfs\n/snap/bare/5 /dev/loop0 squashfs\n/snap/core24/1643 /dev/loop2 squashfs\n/snap/core22/2437 /dev/loop3 squashfs\n/snap/gnome-42-2204/263 /dev/loop7 squashfs\n/snap/gnome-42-2204/247 /dev/loop6 squashfs\n/snap/gtk-common-themes/1535 /dev/loop11 squashfs\n/snap/mesa-2404/1165 /dev/loop10 squashfs\n/snap/mesa-2404/1839 /dev/loop12 squashfs\n/snap/snapd-desktop-integration/387 /dev/loop17 squashfs\n/snap/snapd-desktop-integration/391 /dev/loop18 squashfs\n/boot/efi /dev/sda1 vfat\n/proc/sys/fs/binfmt_misc binfmt_misc binfmt_misc\n/run/user/128 tmpfs tmpfs\n/run/user/128/gvfs gvfsd-fuse fuse.gvfsd-fuse\n/run/user/128/doc portal fuse.portal\n/run/snapd/ns tmpfs[/snapd/ns] tmpfs\n/run/snapd/ns/snapd-desktop-integration.mnt nsfs[mnt:[4026536167]] nsfs\n/var/lib/docker/rootfs/overlayfs/aff4de979c40f4082d82986f6f66734fa7e2dd51a87813ecd77eb6e27e055ee1 overlay overlay\n/run/docker/netns/e6013364a0f3 nsfs[net:[4026538684]] nsfs\n/run/user/1000 tmpfs tmpfs\n/run/user/1000/doc portal fuse.portal\n/snap/core24/2124 /dev/loop15 squashfs\n/snap/core22/2955 /dev/loop20 squashfs\n/snap/snap-store/1427 /dev/loop5 squashfs\n/snap/firefox/8995 /dev/loop19 squashfs\n/snap/snapd/28254 /dev/loop13 squashfs\n/snap/gnome-46-2404/168 /dev/loop21 squashfs\n/snap/firefox/9057 /dev/loop9 squashfs\n/snap/snap-store/1468 /dev/loop14 squashfs\n/snap/gnome-46-2404/177 /dev/loop1 squashfs\n/snap/snapd/28332 /dev/loop22 squashfs\n/var/lib/docker/rootfs/overlayfs/cb2c87b1debb8bda0b60213ba8340e8cd4c20e2c88e871f934b759907859fbd0 overlay overlay\n/var/lib/docker/rootfs/overlayfs/490a0b647e657f5a8fab456d55d9b8816cf154366040ab254e078cbedc170792 overlay overlay\n/run/docker/netns/b7ae0d869c6e nsfs[net:[4026536157]] nsfs\n/run/docker/netns/f1dffb145671 nsfs[net:[4026536276]] nsfs\n/var/lib/docker/rootfs/overlayfs/c129b9cf93feb41998c47bf0657bdbbfc299c9005a69b56edc64b3c460353f20 overlay overlay\n/run/docker/netns/83083917d901 nsfs[net:[4026538590]] nsfs\n/sys/kernel/debug/tracing tracefs tracefs\n",
+      "stderr": ""
+    },
+    "docker_access": {
+      "command": [
+        "docker",
+        "ps",
+        "-a",
+        "--format",
+        "{{.ID}} {{.Names}} {{.Image}}"
+      ],
+      "returncode": 1,
+      "stdout": "",
+      "stderr": "permission denied while trying to connect to the docker API at unix:///var/run/docker.sock\n"
+    },
+    "lxd_access": {
+      "command": [
+        "lxc",
+        "list",
+        "--format",
+        "csv"
+      ],
+      "error": "[Errno 2] No such file or directory: 'lxc'"
+    },
+    "snap_saved": {
+      "command": [
+        "snap",
+        "saved"
+      ],
+      "returncode": 0,
+      "stdout": "No snapshots found.\n",
+      "stderr": ""
+    },
+    "open_deleted_runtime": {
+      "command": [
+        "lsof",
+        "-nP",
+        "+L1"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "lsof: WARNING: can't stat() fuse.gvfsd-fuse file system /run/user/128/gvfs\n      Output information may be incomplete.\nlsof: WARNING: can't stat() fuse.portal file system /run/user/128/doc\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/rootfs/overlayfs/aff4de979c40f4082d82986f6f66734fa7e2dd51a87813ecd77eb6e27e055ee1\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/e6013364a0f3\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/rootfs/overlayfs/cb2c87b1debb8bda0b60213ba8340e8cd4c20e2c88e871f934b759907859fbd0\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/rootfs/overlayfs/490a0b647e657f5a8fab456d55d9b8816cf154366040ab254e078cbedc170792\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/b7ae0d869c6e\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/f1dffb145671\n      Output information may be incomplete.\nlsof: WARNING: can't stat() overlay file system /var/lib/docker/rootfs/overlayfs/c129b9cf93feb41998c47bf0657bdbbfc299c9005a69b56edc64b3c460353f20\n      Output information may be incomplete.\nlsof: WARNING: can't stat() nsfs file system /run/docker/netns/83083917d901\n      Output information may be incomplete.\nlsof: WARNING: can't stat() tracefs file system /sys/kernel/debug/tracing\n      Output information may be incomplete.\n"
+    }
+  },
+  "relevant_shared_libraries": [
+    "libstdc++.so.6 (libc6,x86-64) => /lib/x86_64-linux-gnu/libstdc++.so.6",
+    "libopencv_core.so.4.5d (libc6,x86-64) => /lib/x86_64-linux-gnu/libopencv_core.so.4.5d",
+    "libopencv_core.so (libc6,x86-64) => /lib/x86_64-linux-gnu/libopencv_core.so",
+    "libboost_serialization.so.1.74.0 (libc6,x86-64) => /lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0",
+    "libboost_serialization.so (libc6,x86-64) => /lib/x86_64-linux-gnu/libboost_serialization.so"
+  ],
+  "current_compiler_abi_macros": [
+    "#define _PSTL_CPP11_STD_ROTATE_BROKEN ((__GLIBCXX__ && __GLIBCXX__ < 20150716) || (_MSC_VER && _MSC_VER < 1800))",
+    "#define __GLIBCXX__ 20230528",
+    "#define __GXX_ABI_VERSION 1016",
+    "#define _GLIBCXX_USE_CXX11_ABI 1"
+  ],
+  "historical_compiler_abi": "UNVERIFIED_WITHOUT_MATCHED_ORIGINAL_ELF_OR_BUILD_RECEIPT",
+  "snapshot_and_backup_access": [
+    {
+      "path": "/root",
+      "exists": true,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/lib/docker",
+      "exists": true,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/run/docker.sock",
+      "exists": true,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/backups",
+      "exists": true,
+      "readable": true,
+      "traversable": true
+    },
+    {
+      "path": "/.snapshots",
+      "exists": false,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/timeshift/snapshots",
+      "exists": false,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/lib/snapd/snapshots",
+      "exists": false,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/mnt",
+      "exists": true,
+      "readable": true,
+      "traversable": true
+    },
+    {
+      "path": "/media",
+      "exists": true,
+      "readable": true,
+      "traversable": true
+    }
+  ],
+  "guest_snapshot_scope": "Mounted and accessible guest paths only; provider-side snapshots were not available through this account.",
+  "historical_sdk_revision": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "historical_native_opencv": "4.5.4",
+  "current_native_opencv_matches_historical": true,
+  "historical_compiler_exact_version": null,
+  "historical_elf_linkage": null,
+  "historical_cxx_abi_verification": "UNAVAILABLE_NO_MATCHED_ORIGINAL_ELF",
+  "original_sdk_local_modifications_recovered": false,
+  "historical_camera_settings": {
+    "Camera1.fx": 313.90203857421875,
+    "Camera1.fy": 313.6531677246094,
+    "Camera1.cx": 320.364990234375,
+    "Camera1.cy": 207.70822143554688,
+    "Camera1.k1": -0.05718468502163887,
+    "Camera1.k2": 0.06778068095445633,
+    "Camera1.p1": 0.0007177605293691158,
+    "Camera1.p2": 0.00034092238638550043,
+    "Camera1.k3": -0.021577496081590652,
+    "Camera.width": 640,
+    "Camera.height": 400,
+    "Camera.fps": 10,
+    "Camera.RGB": 0,
+    "Stereo.b": 0.05,
+    "Stereo.ThDepth": 40.0,
+    "RGBD.DepthMapFactor": 1000.0,
+    "ORBextractor.nFeatures": 1000,
+    "ORBextractor.scaleFactor": 1.2,
+    "ORBextractor.nLevels": 8,
+    "ORBextractor.iniThFAST": 20,
+    "ORBextractor.minThFAST": 7,
+    "Viewer.KeyFrameSize": 0.05,
+    "Viewer.KeyFrameLineWidth": 1.0,
+    "Viewer.GraphLineWidth": 0.9,
+    "Viewer.PointSize": 2.0,
+    "Viewer.CameraSize": 0.08,
+    "Viewer.CameraLineWidth": 3.0,
+    "Viewer.ViewpointX": 0.0,
+    "Viewer.ViewpointY": -0.7,
+    "Viewer.ViewpointZ": -1.8,
+    "Viewer.ViewpointF": 500.0
+  },
+  "original_rgbd_depth_scale_m_per_uint16": 0.001,
+  "original_orb_feature_count": 1000,
+  "frozen_build_recipe": {
+    "sha256": "6a76bb2164b8b469146fedee6764020afec75ad154fd1761dbdf3ccbf1eb256e",
+    "historical_sha256": "6a76bb2164b8b469146fedee6764020afec75ad154fd1761dbdf3ccbf1eb256e",
+    "content": "#!/usr/bin/env bash\nset -euo pipefail\ncd \"$(dirname \"$0\")/..\"\nORB_ROOT=\"${ORB_ROOT:-/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3}\"\nPANGO_ROOT=\"${PANGO_ROOT:-/home/cas/fyp_mcd_stereo_inertial/tools/pangolin-install}\"\nOUT=\"$PWD/outputs/cumulti_v1/24_rgbd_full_v1/bin\"\nmkdir -p \"$OUT\"\nTMP_BIN=\"$OUT/rgbd_full.build.$$\"\ng++ -std=c++17 -O2 -DCOMPILEDWITHC11 -DHAVE_EPOXY -DHAVE_EIGEN src/cumulti/rgbd_full/track.cc \\\n -I\"$ORB_ROOT\" -I\"$ORB_ROOT/include\" -I\"$ORB_ROOT/include/CameraModels\" \\\n -I\"$ORB_ROOT/Thirdparty/Sophus\" -I/usr/include/eigen3 -I\"$PANGO_ROOT/include\" \\\n $(pkg-config --cflags opencv4) -L\"$ORB_ROOT/lib\" -lORB_SLAM3 -L\"$ORB_ROOT/Thirdparty/DBoW2/lib\" -lDBoW2 \\\n $(pkg-config --libs opencv4) -L\"$PANGO_ROOT/lib\" -lpango_display -lpango_opengl -lpango_core -lepoxy \\\n -Wl,-rpath,\"$ORB_ROOT/lib:$PANGO_ROOT/lib:$ORB_ROOT/Thirdparty/DBoW2/lib:$ORB_ROOT/Thirdparty/g2o/lib\" -o \"$TMP_BIN\"\nmv -- \"$TMP_BIN\" \"$OUT/rgbd_full\"\n\n# Independent RGB-only candidate proposer; same pinned ORB vocabulary.\ng++ -std=c++17 -O2 -DCOMPILEDWITHC11 -DHAVE_EPOXY -DHAVE_EIGEN src/cumulti/rgbd_full/propose.cc \\\n -I\"$ORB_ROOT\" -I\"$ORB_ROOT/include\" -I\"$ORB_ROOT/include/CameraModels\" \\\n -I\"$ORB_ROOT/Thirdparty/Sophus\" -I/usr/include/eigen3 -I\"$PANGO_ROOT/include\" \\\n $(pkg-config --cflags opencv4) -L\"$ORB_ROOT/lib\" -lORB_SLAM3 -L\"$ORB_ROOT/Thirdparty/DBoW2/lib\" -lDBoW2 \\\n $(pkg-config --libs opencv4) -L\"$PANGO_ROOT/lib\" -lpango_display -lpango_opengl -lpango_core -lepoxy \\\n -Wl,-rpath,\"$ORB_ROOT/lib:$PANGO_ROOT/lib:$ORB_ROOT/Thirdparty/DBoW2/lib:$ORB_ROOT/Thirdparty/g2o/lib\" -o \"$TMP_BIN\"\nmv -- \"$TMP_BIN\" \"$OUT/rgbd_propose\"\n",
+    "reexecuted": false
+  }
+}

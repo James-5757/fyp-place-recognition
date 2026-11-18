@@ -1,0 +1,29 @@
+{
+  "status": "PASS",
+  "baseline_commit": "cd0e269495a41a2210d86fca8d001c5a95fd3f8c",
+  "preserved_artifact_canonical_lf_sha256": {
+    "outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "1ed217fb7d0c096b60ac8a496576ef2c62f80e0e4282d57ca49a3bed035bc5de",
+    "outputs/cumulti_v1/26_rgbd_reconstruction/registration_comparison.csv": "bb06aaca73e1782922a65e9b6bb96316a016645b6523a2c06558a3b94ab4a28f",
+    "outputs/cumulti_v1/27_continuous_rgbd/epoch_display_transforms.json": "d70e67c8a4fcef4c84af0b6f6f9cd35e336b6f96510f3fc32c138be65b493493",
+    "outputs/cumulti_v1/28_multisensor/gravity_alignment.json": "7556b4d3e698eb74d79aa08527945310ef30bbcf5b52eb83da797ca104c8bda7",
+    "outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11",
+    "outputs/cumulti_v1/30_rgbd_pose_forensics/stage30_pose_jump_audit.csv": "ef233248d28bb5d9e1fd4b483f4bbd7154fc4405f26a8b871b3a40db3b6434e8",
+    "outputs/cumulti_v1/31_epoch9_persistence/preservation_audit.json": "e79c22d6d5bb48f1dbd4b3c9f9f45723b4e9c0eb6c36bf2576d59c0a105d630f",
+    "outputs/cumulti_v1/32_native_tracking_forensics/stage32_run_provenance.json": "9a919de4ce9133cb23893830dff1fa4d08670c3bfa44c0ddddd59cb68329d5aa"
+  },
+  "working_artifact_byte_sha256": {
+    "outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "f5d8c36b936937a4d928672a1d00810b3c1c8c4482d8dd1fbab06ecc23aa8eb5",
+    "outputs/cumulti_v1/26_rgbd_reconstruction/registration_comparison.csv": "bb06aaca73e1782922a65e9b6bb96316a016645b6523a2c06558a3b94ab4a28f",
+    "outputs/cumulti_v1/27_continuous_rgbd/epoch_display_transforms.json": "d70e67c8a4fcef4c84af0b6f6f9cd35e336b6f96510f3fc32c138be65b493493",
+    "outputs/cumulti_v1/28_multisensor/gravity_alignment.json": "7556b4d3e698eb74d79aa08527945310ef30bbcf5b52eb83da797ca104c8bda7",
+    "outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11",
+    "outputs/cumulti_v1/30_rgbd_pose_forensics/stage30_pose_jump_audit.csv": "ef233248d28bb5d9e1fd4b483f4bbd7154fc4405f26a8b871b3a40db3b6434e8",
+    "outputs/cumulti_v1/31_epoch9_persistence/preservation_audit.json": "e79c22d6d5bb48f1dbd4b3c9f9f45723b4e9c0eb6c36bf2576d59c0a105d630f",
+    "outputs/cumulti_v1/32_native_tracking_forensics/stage32_run_provenance.json": "9a919de4ce9133cb23893830dff1fa4d08670c3bfa44c0ddddd59cb68329d5aa"
+  },
+  "baseline_binaries_written": false,
+  "original_sdk_written": false,
+  "tracking_or_map_runs_started": false
+}

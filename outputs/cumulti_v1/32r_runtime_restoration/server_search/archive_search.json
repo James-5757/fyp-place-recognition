@@ -1,0 +1,782 @@
+[
+  {
+    "path": "/home/cas/.local/share/Trash/files/metax/maca-sdk-3.2.1.10-deb-x86_64.tar.xz",
+    "bytes": 39845888,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "UNREADABLE",
+    "error": "Compressed file ended before the end-of-stream marker was reached"
+  },
+  {
+    "path": "/home/cas/.local/share/globus-connect-personal-download/globusconnectpersonal-3.3.0/gt_amd64/bin/register/base_library.zip",
+    "bytes": 786953,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/.local/share/globus-connect-personal-download/globusconnectpersonal-latest.tgz",
+    "bytes": 138874057,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/.venvs/fyp_gtsam/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-zip/my-test-package.zip",
+    "bytes": 1809,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/.venvs/fyp_stage24/lib/python3.10/site-packages/pkg_resources/tests/data/my-test-package-zip/my-test-package.zip",
+    "bytes": 1809,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/calib/robot_description.zip",
+    "bytes": 54498054,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_depth.zip",
+    "bytes": 24940875791,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_camera_rgb.zip",
+    "bytes": 16873044643,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot1/robot1_main_campus_imu_gps.zip",
+    "bytes": 137411022,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_depth.zip",
+    "bytes": 53852908315,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_camera_rgb.zip",
+    "bytes": 33987903251,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_gt_rel_poses.zip",
+    "bytes": 2176736950,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_imu_gps.zip",
+    "bytes": 289456005,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/CU-Multi/raw/main_campus/robot3/robot3_main_campus_lidar.zip",
+    "bytes": 57036299311,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/open3d-runtime/dash/labextension/dist/dash-jupyterlab.tgz",
+    "bytes": 2363,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/python-packages/dash/labextension/dist/dash-jupyterlab.tgz",
+    "bytes": 2363,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/python-packages/share/jupyter/lab/extensions/dash-jupyterlab.tgz",
+    "bytes": 2363,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage27-view.tar.gz",
+    "bytes": 16168597,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage28-inputs.tar",
+    "bytes": 7249920,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage28-view.tar.gz",
+    "bytes": 33296017,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage30-input.tar",
+    "bytes": 53760,
+    "candidate_members": 2,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage31-final-source.tar",
+    "bytes": 39424,
+    "candidate_members": 4,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage32/source_reference/Vocabulary/ORBvoc.txt.tar.gz",
+    "bytes": 42527984,
+    "candidate_members": 1,
+    "matching_members": [
+      "ORBvoc.txt"
+    ],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage32-baseline.tar",
+    "bytes": 30720,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage32-code.tar",
+    "bytes": 40960,
+    "candidate_members": 3,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage32-source-reference.tar",
+    "bytes": 634880,
+    "candidate_members": 6,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/fyp_stage26/work/stage32-vocabulary.tar",
+    "bytes": 42536960,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/gravity_audit_20260929.tar.gz",
+    "bytes": 747064,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/gravity_preserving_20260929.tar.gz",
+    "bytes": 4009772,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/gravity_preserving_final_20260929.tar.gz",
+    "bytes": 4028866,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/jimmy/lic_172.20.0.40_20260708.tar.gz",
+    "bytes": 18219,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/miniconda3/envs/fyp_slam/lib/python3.10/site-packages/dateutil/zoneinfo/dateutil-zoneinfo.tar.gz",
+    "bytes": 156400,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/miniconda3/pkgs/conda-package-handling-2.4.0-py313h06a4308_1/info/test/tests/data/cph_test_data-0.0.1-0.tar.bz2",
+    "bytes": 3281,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/miniconda3/pkgs/conda-package-handling-2.4.0-py313h06a4308_1/info/test/tests/data/mock-2.0.0-py37_1000.tar.bz2",
+    "bytes": 106576,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/miniconda3/pkgs/gettext-tools-0.25.1-h6a67909_0/share/gettext/archive.dir.tar.xz",
+    "bytes": 606708,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/miniconda3/pkgs/libarchive-3.8.2-h3ec8f01_0/info/recipe/test-archives/archive.7z",
+    "bytes": 215,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+  },
+  {
+    "path": "/home/cas/miniconda3/pkgs/libarchive-3.8.2-h3ec8f01_0/info/test/test-archives/archive.7z",
+    "bytes": 215,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "UNSUPPORTED_ARCHIVE_FORMAT"
+  },
+  {
+    "path": "/home/cas/miniconda3/pkgs/menuinst-2.4.2-py313h06a4308_1/info/test/tests/data/pkgs/noarch/package_1-0.1-0.tar.bz2",
+    "bytes": 5665,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/miniconda3/share/gettext/archive.dir.tar.xz",
+    "bytes": 606708,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/odometry_ablation_20260929.tar.gz",
+    "bytes": 4238225,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/odometry_validity_review_20260929.tar.gz",
+    "bytes": 4724957,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/stage11_backups/data_quality_20261009.tar.gz",
+    "bytes": 2872019,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/stage11_backups/stage11_metadata_2ff22b8.tar.gz",
+    "bytes": 18572653,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/tokenCloud/tokenCloud_130_20260526.tar.gz",
+    "bytes": 51096910,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/tokenCloud/tokenCloud_20261105.zip",
+    "bytes": 78060689,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/tokenCloud/tokenCloud_20261106.zip",
+    "bytes": 78097667,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/tokenCloud/tokenCloud_20261109.zip",
+    "bytes": 78094712,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/tokenCloud/tokenCloud_20261111.zip",
+    "bytes": 78803505,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/home/cas/tokenCloud/tokenCloud_20261113_wechat_bug.zip",
+    "bytes": 78806717,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_atlas_src.tar",
+    "bytes": 46592,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_registered_src.tar",
+    "bytes": 71168,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_rgbd_full_sources.tar",
+    "bytes": 20480,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_rgbd_loss_sources.tar",
+    "bytes": 20480,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_stage24_atlas_browser.tar",
+    "bytes": 34652160,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_stage24_full_presentation.tar",
+    "bytes": 92303360,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_stage24_stage24d_browser.tar",
+    "bytes": 33310720,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_stage24d_final.tar",
+    "bytes": 219136,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_stage24d_src.tar",
+    "bytes": 58368,
+    "candidate_members": 1,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/fyp_thesis_c09f9feb_sources.tar.gz",
+    "bytes": 544628,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/stage26-audit-tables.tar",
+    "bytes": 7239680,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/stage26-deps.tar",
+    "bytes": 41585152,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/stage26-inputs.tar",
+    "bytes": 481280,
+    "candidate_members": 6,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/tmp/stage26-pose-tables.tar",
+    "bytes": 7055360,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/usr/share/doc/apg/php.tar.gz",
+    "bytes": 6123,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/usr/share/fwupd/uefi-capsule-ux.tar.xz",
+    "bytes": 1928744,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/usr/share/usb_modeswitch/configPack.tar.gz",
+    "bytes": 18024,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_main_dep11_icons-48x48.tar.gz",
+    "bytes": 9535,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_main_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_main_dep11_icons-64x64.tar.gz",
+    "bytes": 11254,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_multiverse_dep11_icons-48x48.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_multiverse_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_multiverse_dep11_icons-64x64.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_restricted_dep11_icons-48x48.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_restricted_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_restricted_dep11_icons-64x64.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_universe_dep11_icons-48x48.tar.gz",
+    "bytes": 19713,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_universe_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-backports_universe_dep11_icons-64x64.tar.gz",
+    "bytes": 28252,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_main_dep11_icons-48x48.tar.gz",
+    "bytes": 36993,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_main_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_main_dep11_icons-64x64.tar.gz",
+    "bytes": 56303,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_multiverse_dep11_icons-48x48.tar.gz",
+    "bytes": 1867,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_multiverse_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_multiverse_dep11_icons-64x64.tar.gz",
+    "bytes": 2497,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_restricted_dep11_icons-48x48.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_restricted_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_restricted_dep11_icons-64x64.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_dep11_icons-48x48.tar.gz",
+    "bytes": 252633,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy-updates_universe_dep11_icons-64x64.tar.gz",
+    "bytes": 410321,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_main_dep11_icons-48x48.tar.gz",
+    "bytes": 99980,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_main_dep11_icons-64x64%402.tar.gz",
+    "bytes": 15828,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_main_dep11_icons-64x64.tar.gz",
+    "bytes": 147682,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_multiverse_dep11_icons-48x48.tar.gz",
+    "bytes": 42698,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_multiverse_dep11_icons-64x64%402.tar.gz",
+    "bytes": 214,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_multiverse_dep11_icons-64x64.tar.gz",
+    "bytes": 193338,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_universe_dep11_icons-48x48.tar.gz",
+    "bytes": 3447322,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_universe_dep11_icons-64x64%402.tar.gz",
+    "bytes": 69255,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/cn.archive.ubuntu.com_ubuntu_dists_jammy_universe_dep11_icons-64x64.tar.gz",
+    "bytes": 7608831,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_main_dep11_icons-48x48.tar.gz",
+    "bytes": 22946,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_main_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_main_dep11_icons-64x64.tar.gz",
+    "bytes": 34521,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_dep11_icons-48x48.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_multiverse_dep11_icons-64x64.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_restricted_dep11_icons-48x48.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_restricted_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_restricted_dep11_icons-64x64.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_universe_dep11_icons-48x48.tar.gz",
+    "bytes": 83380,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_universe_dep11_icons-64x64%402.tar.gz",
+    "bytes": 29,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  },
+  {
+    "path": "/var/lib/apt/lists/security.ubuntu.com_ubuntu_dists_jammy-security_universe_dep11_icons-64x64.tar.gz",
+    "bytes": 123777,
+    "candidate_members": 0,
+    "matching_members": [],
+    "status": "INSPECTED"
+  }
+]

@@ -1,0 +1,3765 @@
+[
+  {
+    "dependency": "build_file",
+    "location": "C:\\e0\\e0-1-32-6\\Lib\\site-packages\\open_spiel\\games\\CMakeLists.txt",
+    "origin": "file",
+    "bytes": 29977,
+    "sha256": "a1e34e95db47db834718346355f1c64a6543f462048acc6862fc1b77e788cfb8",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\e0\\e0-1-32-6\\Lib\\site-packages\\open_spiel\\games\\bridge\\double_dummy_solver\\src\\System.h",
+    "origin": "file",
+    "bytes": 2387,
+    "sha256": "21e74b0d9874bfc2515b4aab275571de4b9c3a71b248b0e1cb20944ca0c717e6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2cfd92d914f6a2ab3efece06c346b34422716e184c55a1b79dd325b86346443d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1807120,
+    "sha256": "c8af28eb324adae49b80ebc857501059b077fb0957da9cd4c9ee6b237248cbe0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "41affab16aedabce33b2044c6e245addf68a9b03114406c6e2d62313b8dfc18b"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 82200,
+    "sha256": "2942af63bd2c01c109bc9f03469c9b9c1bc4ac08a3f95353f44ad8c384254a6c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3615fc2bfb8001b520bc5174d8218c71f21b79bbf68a2204d6b3977d9acf60a8"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 639248,
+    "sha256": "4f240b5de97fe81dc2bf978d9d546003a37aeb87f82137b4ae8bea35847d76e4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "bf50ab55cc2db38e85df013cdecb10395a47172ed72dce141f15aae1487cd6f3"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15520,
+    "sha256": "0732dd237a92069d0f4b7965b7146969bf8287216f72b8190405148115ea3387",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5fb5621a0c95e6dcd5c9c86e59a8eec887de6f6f27136cd2ac1c4d948638e200"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 53000,
+    "sha256": "b2357af7581032a7cd720cd6173825793f1ed83a3cfcef10f24179e016287515",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ea60e3341e831281cf5c66ccf2f9b20c977a27fa611b47ef80472036c1e41615"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1730856,
+    "sha256": "095a6fd097d48e4a5a397a687bae90e5cc50405b66359eab1b92bb75d8c1826e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a1ddcf4e84d5ad69c54f2a4c0bf03e7b71e4a193d930282a4f4800824b26858a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 129320,
+    "sha256": "671f9cf266ac9458bfb1ef30bb5964c029f3de96c160eaac131a42a004747159",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "bbef617f3bcfcafe4a67d73a4b62e4db66fe80cffe3bdd59f62405a91f16772e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 551224,
+    "sha256": "1458a3d78a23b5112dc70934ad296ddb08057975c72ed28b09bbb8b87c3b15b8",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "bbe5d891dd321327a79de797d6ee09264960b312f4f1e1a4567f719135c758fe"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15656,
+    "sha256": "74937122b7fa0a3b6730e606812d059c9e217d53c5243c22b5753d1437ef95d6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e003fe42f2b6b9976c79af76fef5a000bf598df35d71d53a7861945079271ffd"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 59688,
+    "sha256": "51f26603f0a50324e3875a3711ec3018d68477c121c34b315a2b7778cdfcf35e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "38213cce9e9ca2424d05f6edc4b100777daa35819342fafbbca17a8419c2a626"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\9.0.5\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1788200,
+    "sha256": "ee0ad7c228a8dc5d91761fb3e213b2989b32d71997e06770eb3e7b35cf7a48ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "985458dc9ee119ff028357de4d1c1f3d6b0e50e1f3b0a05093287b1e9269e388"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\9.0.5\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 133416,
+    "sha256": "4d88384a79a53e28d50cd745e9425e969cbc6449755af4bbe6725c02b1287428",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f5df12fa64db8b5234728d86583e561fe9e2f4b773b3e4bba739e7ec51c6d38c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\9.0.5\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 551200,
+    "sha256": "2a5d9f1737e0f339cf7d3aa40220020f059f7aefbd54da5a6814bb3d89426ade",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7a2d4c6aa74f3984860357b7c56a5dbe06d6d32ee7a091a27d7d71e7572fdb50"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\9.0.5\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15656,
+    "sha256": "7f08c4fdba8082dc257e2a28abebbc14a3b9d52f7a11ccf890cd60c08e7c57dc",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c097645e95cd82ed7cfbefd9367227414cf03c006696878ef503b76e7d2d9062"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\dotnet\\shared\\Microsoft.NETCore.App\\9.0.5\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 63784,
+    "sha256": "78b9e0f8c966fffa3ad076373dd9d9278a7793ee2cd57a054d5ddab56f3a45a2",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b096653c66fbe3ba2e7fbb137a6b541f4a5e3476d15788fdf8532773329b00d9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\Microsoft Office\\root\\Office16\\ADDINS\\Microsoft Power Query for Excel Integrated\\bin\\ContainerPrivate\\System.Net.Http.WinHttpHandler.dll",
+    "origin": "file",
+    "bytes": 166720,
+    "sha256": "b3c1522c1cb48d5611af951783754104d9dd154e6b7f373221a5f51cce3f5bd3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9733e329b253319b7aa649cfc4c868c88946ab406da1c0a26061617b7adc1012"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\mingw32\\i686-w64-mingw32\\include\\systemmediatransportcontrolsinterop.h",
+    "origin": "file",
+    "bytes": 6346,
+    "sha256": "ebff8617de147b38d10d723363ef28a6d659ff295545c99648afcc45a22f9b0a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ebff8617de147b38d10d723363ef28a6d659ff295545c99648afcc45a22f9b0a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\mingw32\\i686-w64-mingw32\\include\\systemtopologyapi.h",
+    "origin": "file",
+    "bytes": 641,
+    "sha256": "feb39f555631e36221e7d0449d8b6fe2497b4c1f658375a649d1c7e44f87d025",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "feb39f555631e36221e7d0449d8b6fe2497b4c1f658375a649d1c7e44f87d025"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\mingw32\\lib\\gcc\\i686-w64-mingw32\\14.1.0\\plugin\\include\\system.h",
+    "origin": "file",
+    "bytes": 41768,
+    "sha256": "e1aa1d92100388c36bad45bd626d0770bc839eea2a52d773ee9f62c69bd7ed4d",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e1aa1d92100388c36bad45bd626d0770bc839eea2a52d773ee9f62c69bd7ed4d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\PostgreSQL\\17\\doc\\src\\sgml\\html\\system-catalog-declarations.html",
+    "origin": "file",
+    "bytes": 7486,
+    "sha256": "8f4372d7d80724c67dc539a9d198fda80a43de183d84576d56395917462a6140",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8f4372d7d80724c67dc539a9d198fda80a43de183d84576d56395917462a6140"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\PostgreSQL\\17\\doc\\src\\sgml\\html\\system-catalog-initial-data.html",
+    "origin": "file",
+    "bytes": 29209,
+    "sha256": "39e4673c1a9bbae6275dd5330697fe29435022323f1e3a020da9d9005e0b0c3f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "39e4673c1a9bbae6275dd5330697fe29435022323f1e3a020da9d9005e0b0c3f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\PostgreSQL\\17\\include\\server\\catalog\\system_fk_info.h",
+    "origin": "file",
+    "bytes": 20910,
+    "sha256": "f791ec090b0a3c4c77098a7d43dd6bcbf56fca9cde11fa9766074fe2d374e008",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9dd10c7ffe99c4bee50453b78d132d5d9f6a5e548a033fde91a30a2498af4578"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\WSL\\wslsettings\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1730840,
+    "sha256": "d909375d9c3a44655bca69fdd39575a7521d5127ce56057e2e575fd8ae977c90",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0ba78575bdfa1c1ec8b2fa34f37ffd0cb392ff141aa1e3c364c3eebf79a806a4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\WSL\\wslsettings\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 129304,
+    "sha256": "6dbe34a0d385c95c33b76f61d4d56d681fd38f86974719a2e9692e15ed3c5b23",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "21554585ad51e5bc4da2527c2af7aca753ec2fb4e4575ac21157c805830ba906"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\WSL\\wslsettings\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 551176,
+    "sha256": "8ebe75a67d336f1f3e94a4655ef6399960ea910d2c869bd15c9695e96217527e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f29488b164ca04d15bd8ee98acdef5ff74dcb26706c62ffdf62f70fc3ab5dd14"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\WSL\\wslsettings\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15632,
+    "sha256": "05e1e149bfa283a815735cbb7ed64c82b954ebcea08b30e467b0906f2cbd4590",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "338ffe10c9f10f051957e8b0cb1ef18bb42113b6302fae33865356d38f659f79"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files\\WSL\\wslsettings\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 59680,
+    "sha256": "702133aa1e5c057d57752ba89ef0937260678aa2b9762c5b810ff990f5449fd5",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "bd61debdee1317b015b9ffa9056f8fabedcda58c27329c9644019cf9a8eb73c6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1633568,
+    "sha256": "228e5dfd4eed5a51c7e4b975083afe6b5d42005693f7fa823125a3c5e499caa3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b1edb4a3837c49932db76e58645e21287f892e8148e16d46ab76eea8988796a1"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 74504,
+    "sha256": "c3562df10cb9c473f4785949cd2784e99e18d54bb8a476da9fafab4009d517a3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "05d55f596437bbc95cf1243f358ef9db4e385ee17929537bcd7ef643e128a6f2"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 573704,
+    "sha256": "e1a7d75e2e91b72426624fd1123dce45a55f4b7ba88c30ac144e4490d279f21a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3ceaaea118515875fc457b23f1fa0d588a85e12ab96e9077a2b2efc4b4d4d2dc"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15520,
+    "sha256": "0732dd237a92069d0f4b7965b7146969bf8287216f72b8190405148115ea3387",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5fb5621a0c95e6dcd5c9c86e59a8eec887de6f6f27136cd2ac1c4d948638e200"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\6.0.27\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 51376,
+    "sha256": "80a51d330d8a6d3616854b31f9d84c3d6c828193365f0a6e6d9d5b6a3cbf98e2",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f3f60e96fd92551a9d897afbf9fe46fd7d0aa76658147756c9680d067c378c97"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1575208,
+    "sha256": "b77af7924f7624d8474eabce976da6db56de33870ed2fd09f9c9f644fafd81d5",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2e26f9b2b97dddd0a180bbbde0af171cdb7104e5a1522848391305d056bf47fb"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 112936,
+    "sha256": "0a6ad991998f49b3a5e509a6fe529524d8b13c559cd8db3a7958deb09bf7f9ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6863ca38dc3f48b9aff7ccbd905f6780abb36e4db89cfa51a02b85cec0aca00f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 493872,
+    "sha256": "455e8aaf97e26432198a1cdf2888232d7a5a56cddbd728a04dbe1c90ecf75a3e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f50076b3d97dd80697c9a003cfd9907225523405a8175b8084706bf76bbeec31"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15656,
+    "sha256": "74937122b7fa0a3b6730e606812d059c9e217d53c5243c22b5753d1437ef95d6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e003fe42f2b6b9976c79af76fef5a000bf598df35d71d53a7861945079271ffd"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\dotnet\\shared\\Microsoft.NETCore.App\\8.0.14\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 59688,
+    "sha256": "6c6a2bb0375c9cf8eb026df05a377fe003ef8675ec7cd0349575c179bf745f8b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a37aefbb88957b7d36c46a28e3f3a1031642272b894c7b7caa185dcbd2142bc2"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Microsoft\\Microsoft.NET.Build.Extensions\\net461\\lib\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 198472,
+    "sha256": "b5d20736f84f335ef4c918a5ba41c3a0d7189397c71b166ccc6c342427a94ece",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7fd9c846bfc0603dd9b7ad5abb5a7cffceb38b4fdf1fd5c742ced9d3de6565b9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Microsoft\\Microsoft.NET.Build.Extensions\\net461\\lib\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 21200,
+    "sha256": "7a81d2a001b543b2a55c9affc845a5df7edab1fd308c6979bbd982b1b826b57c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "dbdea517f448dcd98fec7dd11f11634df9519b5697c768a1bed0cdfc81a0bad0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\BuildTools\\MSBuild\\Microsoft\\Microsoft.NET.Build.Extensions\\net471\\lib\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 198464,
+    "sha256": "8646a26a64928866bbe8746f3323a1f446c5a28c10b6b81df9bf4a08336b8c02",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ed9ca5051099fec203982a51b032d22ccd0d0a3a357c225637ef652b8a887171"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service\\System.Composition.Hosting.dll",
+    "origin": "file",
+    "bytes": 56584,
+    "sha256": "a229a9f509b1819bf577057d94fdceab1147de52b488e05ebc20ba8a50370251",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "fbcd62ef3d5c0876b5b395fefb4723fc33d012709df2a48c6735a8eeeddf1c7a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Microsoft Visual Studio\\Installer\\resources\\app\\ServiceHub\\Services\\Microsoft.VisualStudio.Setup.Service\\System.Net.Http.Formatting.dll",
+    "origin": "file",
+    "bytes": 178808,
+    "sha256": "7b58adc6e23b24cd6615b35e848a002bda053a26d48f9ddafacfc8098e97c49c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7a5458711810cfa2d6a8b38c58edf3aabce5dc15242d6c914aaaf36f2181ca86"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x64\\System.Net.Http.Formatting.dll",
+    "origin": "file",
+    "bytes": 185544,
+    "sha256": "1c7fa94de5e727852934387b6b0094abc16f660c6c91b38fb3f5bc580cfbdc1f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "95f1022c57b77627a5519a882248a57919d3f481babd2d9a93d9e4b8d9e42742"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.19041.0\\x86\\System.Net.Http.Formatting.dll",
+    "origin": "file",
+    "bytes": 185544,
+    "sha256": "1c7fa94de5e727852934387b6b0094abc16f660c6c91b38fb3f5bc580cfbdc1f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "95f1022c57b77627a5519a882248a57919d3f481babd2d9a93d9e4b8d9e42742"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um\\SystemMediaTransportControlsInterop.h",
+    "origin": "file",
+    "bytes": 7226,
+    "sha256": "32105fb51a2d6d9eb253fa78a3299089067634b87927105faae2c6fee7c0f422",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "36acfd2d19697c772baa9090fdc295d9998037840ca2918c5be90216aff11265"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um\\systemtopologyapi.h",
+    "origin": "file",
+    "bytes": 1933,
+    "sha256": "b2af776b4f27f16ce6981a11356cbc18638b86907e7caacc1e0cb2ce6fa94fa0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5c602c962d11e107a85f3c07f3e9e2b8579c7017f659127f0330f8fdab1c47d3"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1746728,
+    "sha256": "fc7ad004bdaca8763dcb23ab3a5fb01c9aed9735f678563f4f03254c9c956f8f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "fe5a18f286ed96445830819445787103209ab1e0afa605a742ce4423444ddec5"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 128808,
+    "sha256": "651a91c2658632929ba7f50d415b2db6151fd96969be0b47e4f9672d648ec86f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "48f14b116cb2a787933791a8928eca7f71316e44dd9d466138ac2f8e9c3eef0f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Net.Http.WinHttpHandler.dll",
+    "origin": "file",
+    "bytes": 304944,
+    "sha256": "8000d5c126ee2e6246bec36d4174823cf7c606f3b730e608e7d9b5f643220f01",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8b9cccd59e8a2ebe04cb1ba0eae82406bfca55f14ce95c63d6bd0889214264ff"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 534312,
+    "sha256": "5e514d43d23325ceaeeabc00906f6f782424e8b2b01fc050ede60559a8202851",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0f4121e509d9a41f56ba8fd853520e19e4152c4556c89643047a4fae31c28844"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15656,
+    "sha256": "b21415740db52c068dddeb4dc61e95a41ec23b1a4c1b1623ff6b65399c7c0fdd",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31627ce97c581872d7244e2566514b3eb9160c53218f9a07e08dda56200d676e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.ServiceModel.Http.dll",
+    "origin": "file",
+    "bytes": 481112,
+    "sha256": "3850d459d8b5bcfee99a68b22918441f965626ae1170e5618edceff56aa84efd",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d9b2eab027ad1e2fe4481af885c3b75b7f3bf353ba20af41b59774255a0b3100"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 63312,
+    "sha256": "1097a135ce82145a8f7dbacc0b8a4d8951e067652814ff6d9fff0927b21706ce",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ee547633857b999f75d0217b9306a4fbc135df5d1e813026acfd1435a628d3c3"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\ref\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 60200,
+    "sha256": "7eba8019731267309741405febe3138713357ed543e0d4eff2560e32942ff3b6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ee64a2c02b772c829a1c610ce707bc02fc33ce2a62ab469d031b425816c0988c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\ref\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 23336,
+    "sha256": "18172d687f2b4f338f5769c6eb9239ab1544c75f252314b65ba0012e8665a142",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0ec64b0646c349bb8f08f716bc0b277ac3fb7a3b37945fc9850269621d45bf26"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\ref\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 25384,
+    "sha256": "1183a24e5020522d04b7d9b3b0a4cdfaf2b9fc5ff4c26eed8e9b54779f544594",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1655463517b4b7512fb70d6b8b8beab085d569be977806d2347999f811156de5"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\ref\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15656,
+    "sha256": "b21415740db52c068dddeb4dc61e95a41ec23b1a4c1b1623ff6b65399c7c0fdd",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31627ce97c581872d7244e2566514b3eb9160c53218f9a07e08dda56200d676e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\native\\powershell\\ref\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 17192,
+    "sha256": "4f3c4a195ba35f8b7c63972a6496912ac9e76e1c9fbcdb28a6a479a400afa07b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "fe5ea0ae209d2ea29249496ae7feb5cfe0e4df9b47f275357f8c9d22edf147e7"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\node\\node_modules\\@oai\\artifact-tool\\node_modules\\@oai\\walnut\\wasm\\System.Net.Http.hublam2dw6.wasm",
+    "origin": "file",
+    "bytes": 135957,
+    "sha256": "c70e67a3bdffa1aaf803492f5334a5ef2d3d6e0c9e305a9cbf1fb592883e2ab2",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "aeae32a863c535705ed2e1325767dd022ed9bc77b2b12c2ef33a8e32d8b58939"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Net.Http.hublam2dw6.wasm",
+    "origin": "file",
+    "bytes": 135957,
+    "sha256": "c70e67a3bdffa1aaf803492f5334a5ef2d3d6e0c9e305a9cbf1fb592883e2ab2",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "aeae32a863c535705ed2e1325767dd022ed9bc77b2b12c2ef33a8e32d8b58939"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Memory.hnms2u3pku.wasm",
+    "origin": "file",
+    "bytes": 12053,
+    "sha256": "ad4bf417124bfdfc144200473ef77f20dc14dc48e09f6d808de59de57538b3ee",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e2877f535d427c18f5f11d64a7cd03c5786ef1d856a7701ebce6522b382397a0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Memory.hnms2u3pku.wasm.br",
+    "origin": "file",
+    "bytes": 5110,
+    "sha256": "5bb8897ade8e658d53e356cf48291a050df30b98531ba4b2a8242c3ad1546f72",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5bb8897ade8e658d53e356cf48291a050df30b98531ba4b2a8242c3ad1546f72"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Memory.hnms2u3pku.wasm.gz",
+    "origin": "file",
+    "bytes": 5740,
+    "sha256": "973b8e772aa5467b0580c7be497874658fe1534c258c54ede722169f3e4d5c50",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "973b8e772aa5467b0580c7be497874658fe1534c258c54ede722169f3e4d5c50"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Net.Http.5bp2v57cl6.wasm",
+    "origin": "file",
+    "bytes": 135957,
+    "sha256": "a10fc32a942a072f414cada5b3c8c18a00bdb40712612e4d18baac1e2851e7c9",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7b61f014296661632c3683d19efdb2d4f86db896e0e3964746e8806c29ab2cf1"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Net.Http.5bp2v57cl6.wasm.br",
+    "origin": "file",
+    "bytes": 51678,
+    "sha256": "9b0b3c73e836c67879451fc5ef595b517af26506764f76574f3cdc29072b5682",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9b0b3c73e836c67879451fc5ef595b517af26506764f76574f3cdc29072b5682"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Net.Http.5bp2v57cl6.wasm.gz",
+    "origin": "file",
+    "bytes": 60784,
+    "sha256": "2d50f4844c5ee1d8d3efdde3ea2ac192595069bb5a357f5f812ae90de7879b6a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2d50f4844c5ee1d8d3efdde3ea2ac192595069bb5a357f5f812ae90de7879b6a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Private.CoreLib.hjbmifyfnb.wasm",
+    "origin": "file",
+    "bytes": 1558805,
+    "sha256": "134e7a9a502f5331b70203e4c1d3a1870fe3826f31e60b1b0a23d3ebda226d39",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "03559588f65b846c30965ff57f8f56e71f4035ad05ba0b36e623495607c3ee80"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Private.CoreLib.hjbmifyfnb.wasm.br",
+    "origin": "file",
+    "bytes": 479532,
+    "sha256": "22cc4e2bcb11c1191a6fad362156ac290759cc362c8801c5a1354ae500fb4c5a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a9d8dce22a274054701d9390bd5072aa704daa25903020dff2b229e8302ae0a9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Private.CoreLib.hjbmifyfnb.wasm.gz",
+    "origin": "file",
+    "bytes": 596866,
+    "sha256": "99fd00aace13b091ac8d9e824bab9cd029c8abd7005d7cba183018e90d507ab1",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "cdb87d891e13d89cc1209f46399345b9798ab152197bd8da77f1942d38266870"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Xml.Linq.h2itojlcog.wasm",
+    "origin": "file",
+    "bytes": 4373,
+    "sha256": "476b2aeff63a3c0ea15cf0d4c6c67fe6135e6fa2824c86dffc38e05da45c3eda",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "476b2aeff63a3c0ea15cf0d4c6c67fe6135e6fa2824c86dffc38e05da45c3eda"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Xml.Linq.h2itojlcog.wasm.br",
+    "origin": "file",
+    "bytes": 1458,
+    "sha256": "ebc033687d280a9eb9eda8d6e92c2b60866d1008f4a971b83d948c85cfac3b58",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ebc033687d280a9eb9eda8d6e92c2b60866d1008f4a971b83d948c85cfac3b58"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-xEPRiV\\payload\\codex-primary-runtime\\dependencies\\python\\Lib\\site-packages\\artifact_tool_v2\\bin\\node_modules\\@oai\\walnut\\wasm\\System.Xml.Linq.h2itojlcog.wasm.gz",
+    "origin": "file",
+    "bytes": 1623,
+    "sha256": "b5643425d2050a881b9773c923252f9a4fa02abffb159915330296f1ad73f695",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b5643425d2050a881b9773c923252f9a4fa02abffb159915330296f1ad73f695"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\.kaggriculture-e0-venvs\\e0-1-32-6\\Lib\\site-packages\\open_spiel\\games\\CMakeLists.txt",
+    "origin": "file",
+    "bytes": 29977,
+    "sha256": "a1e34e95db47db834718346355f1c64a6543f462048acc6862fc1b77e788cfb8",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.kaggriculture-e0-venvs\\e0-1-32-6\\Lib\\site-packages\\open_spiel\\games\\bridge\\double_dummy_solver\\src\\System.h",
+    "origin": "file",
+    "bytes": 2387,
+    "sha256": "21e74b0d9874bfc2515b4aab275571de4b9c3a71b248b0e1cb20944ca0c717e6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2cfd92d914f6a2ab3efece06c346b34422716e184c55a1b79dd325b86346443d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.trae-cn\\extensions\\ms-vscode.cpptools-1.32.2-win32-x64\\debugAdapters\\bin\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1575216,
+    "sha256": "356fa5460a404475dc6f3b74aae604db0e230a38b9f71607cc9b0686921312a0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "72a84d9c95dba0f2e3a25e12096409fedf630ea01eb203056f6c7bb8c99e4e50"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.trae-cn\\extensions\\ms-vscode.cpptools-1.32.2-win32-x64\\debugAdapters\\bin\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 112952,
+    "sha256": "d0f99fea73648b7b1dc9209cabee8cc98702fe20a330c1430df40364cdf1e8b4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "66d0e006b3c8d6f893d7be36e9c56aa796a2da33ad3568ea81470e2c0409002f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.trae-cn\\extensions\\ms-vscode.cpptools-1.32.2-win32-x64\\debugAdapters\\bin\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 493840,
+    "sha256": "6d49bd216315852bccc642eda06cedff5bdae1c71bc73e768be9e6c4b18f4f01",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2984fc5672a4b8a9e101433f6cca3f1d7525934affa27eea613f457eee3342ee"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.trae-cn\\extensions\\ms-vscode.cpptools-1.32.2-win32-x64\\debugAdapters\\bin\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15672,
+    "sha256": "9279274bdfbef7dc512192f63fd978580d41830e57463bc6ea8519f56b968295",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8a73e1230882511f7664b5fc5138e1fd0ebee185db8dc017c4258b5e7d79a1c5"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.trae-cn\\extensions\\ms-vscode.cpptools-1.32.2-win32-x64\\debugAdapters\\bin\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 59664,
+    "sha256": "25d351169a53fd97ab4682fdacc2d27db90a4a7a60b0c558f39504a9de1ea595",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7d40fd4868408c2f922073ba4b118b67c87818c7db32a1bd5f69b3557ea92f33"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\.ba014f2d-066e-4cd2-8cc6-5e0fdd2d4598\\debugAdapters\\bin\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1575184,
+    "sha256": "669a200cf0976c2b1e97b3809ebd72480537c41e82011bb5479cd733258d45d6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "869ce5de1ecd1175317e04992e19e3ca23208b184a73cc34a0d3363464b50bcb"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\.ba014f2d-066e-4cd2-8cc6-5e0fdd2d4598\\debugAdapters\\bin\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 112944,
+    "sha256": "28efacaada7f73a5f27fe807bc78c47a4fceb7f0e742734df0364f799a81401b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6b3b0d67b06dc6e3f81b4bbf196d718dc9b22101e8b030f5c3fc6fb7081eba9a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\.ba014f2d-066e-4cd2-8cc6-5e0fdd2d4598\\debugAdapters\\bin\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 493832,
+    "sha256": "ad08b68a1dea3bfaa16b79268fa8cabef8c4ddc825a901f7816635d80136abdb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3f50a30c8d0da1a998a4e876d56f424f2de3f773944c5b00eaaa8787a4c7062f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\.ba014f2d-066e-4cd2-8cc6-5e0fdd2d4598\\debugAdapters\\bin\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15632,
+    "sha256": "08319f4c170d4a1cff2c51d5bbe273ac4ef35ef1e0374dc49d5516eac6ae6e1a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "517dd1fe0c7539076fbe6bed3c80e52859652e1977949d7c0ffd721623fff58e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\.ba014f2d-066e-4cd2-8cc6-5e0fdd2d4598\\debugAdapters\\bin\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 59664,
+    "sha256": "2498ac6f65118082db5fa8211fad5f95ae785215e60864f4f54ec8301af44462",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2e35dec006877c1b7ba3474ab61137231d8cfe1cef080d6e7ad4550148de40c5"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\ms-vscode.cpptools-1.35.6-win32-x64\\debugAdapters\\bin\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1574696,
+    "sha256": "2dfe5ae7e9857d3bba049f014b77f9678ced75517a0da57624f67e41139987fb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ca39278d19c5e8f1110d6f18e1c6b6b739c143998f608875ae68393e7290ca2c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\ms-vscode.cpptools-1.35.6-win32-x64\\debugAdapters\\bin\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 112424,
+    "sha256": "ea40f1d6083fcaaec5129c795449e97d97fdcdff2a7f7a0574bdd60568037b99",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b011be94fd113bb53702c89e740ffb6be8e7e39f46f213690ca918c9565b343b"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\ms-vscode.cpptools-1.35.6-win32-x64\\debugAdapters\\bin\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 493352,
+    "sha256": "8395b8d91c24f8fb0657abc6b92b94c47f8702b49116d08b37dfc62dc9b561f5",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "11eafaaf40321e05d0a38a7c061bcf9d3158b805b4ed1c88feb3a0dea8afcf7e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\ms-vscode.cpptools-1.35.6-win32-x64\\debugAdapters\\bin\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15144,
+    "sha256": "9b193371a3e739f81e601e343c60d6214e0b3966833f4eaebdcfb49f8217e97f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "454f0c169862e1467e29763a419af2ca0660e483cd6931f3ec04ebaaba06bda4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.vscode\\extensions\\ms-vscode.cpptools-1.35.6-win32-x64\\debugAdapters\\bin\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 59216,
+    "sha256": "369b830434807e5fe1c03bbdfe521210d3b55f4fbb1ad6b2021b2f757426e3a6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "fa2bcb8c5693ee80918e406be91dbb434cb9c6b6723664a94c3376abc91ef5ea"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\envs\\emotion\\Lib\\site-packages\\tensorflow\\include\\external\\com_github_grpc_grpc\\src\\core\\lib\\iomgr\\systemd_utils.h",
+    "origin": "file",
+    "bytes": 1181,
+    "sha256": "31d4f70ebdd94a71c77057c0ecbded6e5f3c5e01d835b040a1c618247a21daf3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31d4f70ebdd94a71c77057c0ecbded6e5f3c5e01d835b040a1c618247a21daf3"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\envs\\emotion\\Lib\\site-packages\\tensorflow\\include\\external\\curl\\include\\curl\\system.h",
+    "origin": "file",
+    "bytes": 18713,
+    "sha256": "9eec4a36e131b02b793278fdf1975c50cdfa551d7d5fa8036a65c2254582530f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9eec4a36e131b02b793278fdf1975c50cdfa551d7d5fa8036a65c2254582530f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\envs\\emotion\\Lib\\site-packages\\tensorflow\\include\\external\\curl\\lib\\system_win32.h",
+    "origin": "file",
+    "bytes": 1788,
+    "sha256": "49a738a70a71d38d4dfc588c63e7be4d028910b17f606c22c813b240f483dff6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "49a738a70a71d38d4dfc588c63e7be4d028910b17f606c22c813b240f483dff6"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\envs\\emotion\\Lib\\site-packages\\tensorflow\\include\\tensorflow\\compiler\\xla\\tsl\\framework\\tracking_allocator.h",
+    "origin": "file",
+    "bytes": 5783,
+    "sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\envs\\emotion\\Lib\\site-packages\\tensorflow\\include\\tensorflow\\core\\framework\\tracking_allocator.h",
+    "origin": "file",
+    "bytes": 1354,
+    "sha256": "52303943742558b4d83b2e36a0dd74ba2b83f11b86689b6d6cadbf9b8ea8f3a9",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "52303943742558b4d83b2e36a0dd74ba2b83f11b86689b6d6cadbf9b8ea8f3a9"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\envs\\emotion\\Lib\\site-packages\\tensorflow\\include\\xla\\tsl\\framework\\tracking_allocator.h",
+    "origin": "file",
+    "bytes": 5783,
+    "sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\paddle\\include\\paddle\\phi\\core\\memory\\allocation\\system_allocator.h",
+    "origin": "file",
+    "bytes": 2911,
+    "sha256": "cb627a8789e09356a474953dd1ddf05a675a72586a9fff20d2e7584737bd643a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7093ccc0aa49c6a1671e072941fe9b8f90fe12fed30a80a9b2363faf78d4d540"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\tensorflow\\include\\external\\com_github_grpc_grpc\\src\\core\\lib\\iomgr\\systemd_utils.h",
+    "origin": "file",
+    "bytes": 1181,
+    "sha256": "31d4f70ebdd94a71c77057c0ecbded6e5f3c5e01d835b040a1c618247a21daf3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31d4f70ebdd94a71c77057c0ecbded6e5f3c5e01d835b040a1c618247a21daf3"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\tensorflow\\include\\external\\curl\\include\\curl\\system.h",
+    "origin": "file",
+    "bytes": 18713,
+    "sha256": "9eec4a36e131b02b793278fdf1975c50cdfa551d7d5fa8036a65c2254582530f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9eec4a36e131b02b793278fdf1975c50cdfa551d7d5fa8036a65c2254582530f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\tensorflow\\include\\external\\curl\\lib\\system_win32.h",
+    "origin": "file",
+    "bytes": 1788,
+    "sha256": "49a738a70a71d38d4dfc588c63e7be4d028910b17f606c22c813b240f483dff6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "49a738a70a71d38d4dfc588c63e7be4d028910b17f606c22c813b240f483dff6"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\tensorflow\\include\\tensorflow\\compiler\\xla\\tsl\\framework\\tracking_allocator.h",
+    "origin": "file",
+    "bytes": 5783,
+    "sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\tensorflow\\include\\tensorflow\\core\\framework\\tracking_allocator.h",
+    "origin": "file",
+    "bytes": 1354,
+    "sha256": "52303943742558b4d83b2e36a0dd74ba2b83f11b86689b6d6cadbf9b8ea8f3a9",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "52303943742558b4d83b2e36a0dd74ba2b83f11b86689b6d6cadbf9b8ea8f3a9"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Lib\\site-packages\\tensorflow\\include\\xla\\tsl\\framework\\tracking_allocator.h",
+    "origin": "file",
+    "bytes": 5783,
+    "sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3c7a911a19fb192002ca473ebfbd541cf813d20e4e8292d272c410d67951eb17"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\aws\\common\\system_info.h",
+    "origin": "file",
+    "bytes": 3289,
+    "sha256": "03398c7b25572e4f406b3376be9b215ef50905fe3ace4b5d97fa77a3992a2c1d",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "03398c7b25572e4f406b3376be9b215ef50905fe3ace4b5d97fa77a3992a2c1d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system.hpp",
+    "origin": "file",
+    "bytes": 583,
+    "sha256": "b93eb0df4966488e3e00eb88eddf166dfec37a3940b47b8314d670068b768d45",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b93eb0df4966488e3e00eb88eddf166dfec37a3940b47b8314d670068b768d45"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\asio\\system_context.hpp",
+    "origin": "file",
+    "bytes": 2649,
+    "sha256": "8885fd484766e5384e265249dff81f57bcd1abc6e1080a5bd5466eea17735e84",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8885fd484766e5384e265249dff81f57bcd1abc6e1080a5bd5466eea17735e84"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\asio\\system_executor.hpp",
+    "origin": "file",
+    "bytes": 22873,
+    "sha256": "ccbd040f1bc527f83a02f51cb17ace12771e444157231d1e446cbc2d616fab25",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ccbd040f1bc527f83a02f51cb17ace12771e444157231d1e446cbc2d616fab25"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\asio\\system_timer.hpp",
+    "origin": "file",
+    "bytes": 1306,
+    "sha256": "8857d9c699642dbf0d48d0fc828708cc08780d608d3870c7e8b573deb1a49f35",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8857d9c699642dbf0d48d0fc828708cc08780d608d3870c7e8b573deb1a49f35"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\asio\\impl\\system_context.hpp",
+    "origin": "file",
+    "bytes": 875,
+    "sha256": "a961a07cc8d23dc8b4bc714bbf2f000939b4ccb592ac1dfab7f8687b57262196",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a961a07cc8d23dc8b4bc714bbf2f000939b4ccb592ac1dfab7f8687b57262196"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\asio\\impl\\system_executor.hpp",
+    "origin": "file",
+    "bytes": 6338,
+    "sha256": "f30fd551ba3809c0d4fc5cb50f1d3cebff68d01d6c1896d3b021ba5a8f937f03",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f30fd551ba3809c0d4fc5cb50f1d3cebff68d01d6c1896d3b021ba5a8f937f03"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\chrono\\system_clocks.hpp",
+    "origin": "file",
+    "bytes": 8701,
+    "sha256": "3987578e098c76b01e414a4f7760fb3f6c8f624fe01d04e15e7969f882bcc695",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3987578e098c76b01e414a4f7760fb3f6c8f624fe01d04e15e7969f882bcc695"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\chrono\\detail\\system.hpp",
+    "origin": "file",
+    "bytes": 484,
+    "sha256": "b1b7b05a57866c36a2363433d7ebdc845e9fec2a4e0601a0c5dfc7ff9eb1decc",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b1b7b05a57866c36a2363433d7ebdc845e9fec2a4e0601a0c5dfc7ff9eb1decc"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\compute\\system.hpp",
+    "origin": "file",
+    "bytes": 9388,
+    "sha256": "ba6ad686963d9d7eadc4ffac4f7748c4a8350c6d3d2068c0004306a918ccd890",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ba6ad686963d9d7eadc4ffac4f7748c4a8350c6d3d2068c0004306a918ccd890"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\detail\\winapi\\system.hpp",
+    "origin": "file",
+    "bytes": 591,
+    "sha256": "c64cc56eb6a17a981423d546e1aaf81a4d8e0115da4d931f16de4272c2d83dda",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c64cc56eb6a17a981423d546e1aaf81a4d8e0115da4d931f16de4272c2d83dda"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\dll\\detail\\system_error.hpp",
+    "origin": "file",
+    "bytes": 1389,
+    "sha256": "8b159a58d84f0b9893a01f139f039d2c1719e517814be000b256932dbe00a9c1",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8b159a58d84f0b9893a01f139f039d2c1719e517814be000b256932dbe00a9c1"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\flyweight\\tracking_tag.hpp",
+    "origin": "file",
+    "bytes": 1140,
+    "sha256": "b16d1ab8f228658a78f99d05be2fa3b251a581f9af63f36ba9c4b3bf7b1a41f9",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b16d1ab8f228658a78f99d05be2fa3b251a581f9af63f36ba9c4b3bf7b1a41f9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\iostreams\\detail\\system_failure.hpp",
+    "origin": "file",
+    "bytes": 2661,
+    "sha256": "637dd6d1e6c926fab6cc590931beddb22c9680072352f76199b4939d4c2a21c4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "637dd6d1e6c926fab6cc590931beddb22c9680072352f76199b4939d4c2a21c4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\json\\system_error.hpp",
+    "origin": "file",
+    "bytes": 6269,
+    "sha256": "c0d5c098f20077e47178f9c957cfa77280bbfb103e0c49a54828394d33f7853a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c0d5c098f20077e47178f9c957cfa77280bbfb103e0c49a54828394d33f7853a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\outcome\\experimental\\status-code\\status-code\\system_code.hpp",
+    "origin": "file",
+    "bytes": 2666,
+    "sha256": "3418b536185c62c700cc0fe716ab9974c4bb00f4bbd990d0edd0585b7e4e9433",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3418b536185c62c700cc0fe716ab9974c4bb00f4bbd990d0edd0585b7e4e9433"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\outcome\\experimental\\status-code\\status-code\\system_code_from_exception.hpp",
+    "origin": "file",
+    "bytes": 4802,
+    "sha256": "463957a63dbed24d220bb42ffd3666413c005e77a978d1fb69aecde51b5600f9",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "463957a63dbed24d220bb42ffd3666413c005e77a978d1fb69aecde51b5600f9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\outcome\\experimental\\status-code\\status-code\\system_error2.hpp",
+    "origin": "file",
+    "bytes": 1579,
+    "sha256": "a89d33745b36ecb2f53349f9de3f4c705810e26732cf73e45eab66d98772153a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a89d33745b36ecb2f53349f9de3f4c705810e26732cf73e45eab66d98772153a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\process\\system.hpp",
+    "origin": "file",
+    "bytes": 4093,
+    "sha256": "f6825475ec03dacd21ca017645a09f271346fc0569019faf0d2e759461872254",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f6825475ec03dacd21ca017645a09f271346fc0569019faf0d2e759461872254"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\serialization\\tracking.hpp",
+    "origin": "file",
+    "bytes": 3990,
+    "sha256": "4ad6a69ff78d532014644ef2fd28b782aad0d711b435386dc11a4b24910524ee",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "4ad6a69ff78d532014644ef2fd28b782aad0d711b435386dc11a4b24910524ee"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\serialization\\tracking_enum.hpp",
+    "origin": "file",
+    "bytes": 1227,
+    "sha256": "6fc3a3d634f418a2ee86f7fe03c990e4efd08af3dc8ab648c624798add0f7a83",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6fc3a3d634f418a2ee86f7fe03c990e4efd08af3dc8ab648c624798add0f7a83"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\system_category.hpp",
+    "origin": "file",
+    "bytes": 520,
+    "sha256": "da841722125a04fa8d3d11e77a879261a767367c754977f9e5d8a03003d17bbc",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "da841722125a04fa8d3d11e77a879261a767367c754977f9e5d8a03003d17bbc"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\system_error.hpp",
+    "origin": "file",
+    "bytes": 1614,
+    "sha256": "b92932d9b6c1075887704177a94fb019b5f6d3d92496334d989702f760311632",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b92932d9b6c1075887704177a94fb019b5f6d3d92496334d989702f760311632"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\detail\\system_category.hpp",
+    "origin": "file",
+    "bytes": 2954,
+    "sha256": "5bc313884dfca6786bf1b5d80d1e31ead46de62db67ef6668886e53099f8dcd9",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5bc313884dfca6786bf1b5d80d1e31ead46de62db67ef6668886e53099f8dcd9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\detail\\system_category_condition_win32.hpp",
+    "origin": "file",
+    "bytes": 6563,
+    "sha256": "007a65a8bc625115bbe200679fa461d2d494091bf84e651e277e5200f99930c4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "007a65a8bc625115bbe200679fa461d2d494091bf84e651e277e5200f99930c4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\detail\\system_category_impl.hpp",
+    "origin": "file",
+    "bytes": 2039,
+    "sha256": "839715ac33cbedcddcab44afa993c132452d1404981f8464d47233faf449c3e7",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "839715ac33cbedcddcab44afa993c132452d1404981f8464d47233faf449c3e7"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\detail\\system_category_message.hpp",
+    "origin": "file",
+    "bytes": 1748,
+    "sha256": "3716d9a1f4ecec61926f0865a34472d39892470234260b7a6e47ed99b216f87f",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3716d9a1f4ecec61926f0865a34472d39892470234260b7a6e47ed99b216f87f"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\system\\detail\\system_category_message_win32.hpp",
+    "origin": "file",
+    "bytes": 4646,
+    "sha256": "d3d4ce668f09d65539a6aae63d72338e498c334aaab97ed1da35276778e2885a",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d3d4ce668f09d65539a6aae63d72338e498c334aaab97ed1da35276778e2885a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\winapi\\system.hpp",
+    "origin": "file",
+    "bytes": 2144,
+    "sha256": "d86789882e9d61017e1e4f7e42fc35e524219086589c8537b9f0d29c228c59ad",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d86789882e9d61017e1e4f7e42fc35e524219086589c8537b9f0d29c228c59ad"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\boost\\xpressive\\detail\\utility\\tracking_ptr.hpp",
+    "origin": "file",
+    "bytes": 13180,
+    "sha256": "6052776a9028bafd7ea9309cf66a3af325913d59f7752df597f4251b0a903b7a",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6052776a9028bafd7ea9309cf66a3af325913d59f7752df597f4251b0a903b7a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\curl\\system.h",
+    "origin": "file",
+    "bytes": 18713,
+    "sha256": "4403c65fad83f664224884f037529eabe1f9bfc7ab684fad3ec5734a88b168f9",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "4403c65fad83f664224884f037529eabe1f9bfc7ab684fad3ec5734a88b168f9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\anaconda3\\Library\\include\\zfp\\internal\\zfp\\system.h",
+    "origin": "file",
+    "bytes": 1219,
+    "sha256": "c7f4e80313000531fcc8d071fdfff57810975b9ef03483afc23167f936fe1a53",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c7f4e80313000531fcc8d071fdfff57810975b9ef03483afc23167f936fe1a53"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\AsioHeaders\\include\\asio\\system_context.hpp",
+    "origin": "file",
+    "bytes": 2478,
+    "sha256": "ac327b98b07cd2593e329d0056fd17099c6087155871846aa2ef70a50c4a6c8c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ac327b98b07cd2593e329d0056fd17099c6087155871846aa2ef70a50c4a6c8c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\AsioHeaders\\include\\asio\\system_error.hpp",
+    "origin": "file",
+    "bytes": 2881,
+    "sha256": "a51b0da2f51a16bb678107cbaae0c863d3112dee22791b8e92b446aa72914922",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a51b0da2f51a16bb678107cbaae0c863d3112dee22791b8e92b446aa72914922"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\AsioHeaders\\include\\asio\\system_executor.hpp",
+    "origin": "file",
+    "bytes": 21935,
+    "sha256": "0745715cd221903ff704533e1275bb676ae87bf24ae793f96f42fe372cebff4d",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0745715cd221903ff704533e1275bb676ae87bf24ae793f96f42fe372cebff4d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\AsioHeaders\\include\\asio\\system_timer.hpp",
+    "origin": "file",
+    "bytes": 1219,
+    "sha256": "cd9fcfd2b1207feec4f7f0c9c711000c05841cc04fe3254fb50b73f18cc9c251",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "cd9fcfd2b1207feec4f7f0c9c711000c05841cc04fe3254fb50b73f18cc9c251"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\AsioHeaders\\include\\asio\\impl\\system_context.hpp",
+    "origin": "file",
+    "bytes": 794,
+    "sha256": "81202be1276dc9a58f42a0c50882e252e713236a20373c15daf8783ddb339429",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "81202be1276dc9a58f42a0c50882e252e713236a20373c15daf8783ddb339429"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\AsioHeaders\\include\\asio\\impl\\system_executor.hpp",
+    "origin": "file",
+    "bytes": 6065,
+    "sha256": "f4c82d6105050b6dd7ed58bafacdcc10e7517c985521e55cb9cc3e9f205648d1",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f4c82d6105050b6dd7ed58bafacdcc10e7517c985521e55cb9cc3e9f205648d1"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\R.rsp\\rsp\\R\\system\\systemDetails.html.rsp",
+    "origin": "file",
+    "bytes": 5575,
+    "sha256": "cd08f672d08b7994b87c87b3faba02463926fb4fa2338462383bbafc9aac0a2b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "cd08f672d08b7994b87c87b3faba02463926fb4fa2338462383bbafc9aac0a2b"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\systemfonts\\doc\\systemfonts.html",
+    "origin": "file",
+    "bytes": 384448,
+    "sha256": "4b60387b74faea447b0ef249552ee8dcecffb8e5b4ead63f5af054a4258da494",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "4b60387b74faea447b0ef249552ee8dcecffb8e5b4ead63f5af054a4258da494"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\systemfonts\\include\\systemfonts-ft.h",
+    "origin": "file",
+    "bytes": 2042,
+    "sha256": "77a9e44b08af82150310d297ea12c88f9e632e87a5912404b081aff69f9bf92e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "77a9e44b08af82150310d297ea12c88f9e632e87a5912404b081aff69f9bf92e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\R\\win-library\\4.4\\systemfonts\\include\\systemfonts.h",
+    "origin": "file",
+    "bytes": 12855,
+    "sha256": "508ddb69d5a1fa977ad19352ba13d555705295f0e9710fb40d624de72a4154e3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "508ddb69d5a1fa977ad19352ba13d555705295f0e9710fb40d624de72a4154e3"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\engineering_pretracking_loader_failure\\camera.yaml",
+    "origin": "file",
+    "bytes": 826,
+    "sha256": "84f2fff86480e79521c70dd999532de2b1b29f9660cec6b79be1e8adc6b30a4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\engineering_pretracking_loader_failure\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "dbb4c12543ed001c9f9817cf0f02f4772c15ed07bfb2a5f0616f6c196fba34d0",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot1_000_012\\camera.yaml",
+    "origin": "file",
+    "bytes": 826,
+    "sha256": "84f2fff86480e79521c70dd999532de2b1b29f9660cec6b79be1e8adc6b30a4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot1_000_012\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "dbb4c12543ed001c9f9817cf0f02f4772c15ed07bfb2a5f0616f6c196fba34d0",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot1_120_132\\camera.yaml",
+    "origin": "file",
+    "bytes": 826,
+    "sha256": "84f2fff86480e79521c70dd999532de2b1b29f9660cec6b79be1e8adc6b30a4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot1_120_132\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "f988339efce1ac16e995f3420f41b47b66972eb211911ec66da01dc5ecb7378c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot1_240_252\\camera.yaml",
+    "origin": "file",
+    "bytes": 826,
+    "sha256": "84f2fff86480e79521c70dd999532de2b1b29f9660cec6b79be1e8adc6b30a4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot1_240_252\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "a302be288802b2af179a43035ace68ec99d8e7f6927627dfad277300ca0f60a5",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot3_000_012\\camera.yaml",
+    "origin": "file",
+    "bytes": 827,
+    "sha256": "337f847326c13f02362c8fcdcde785df63c30af532711e5edd060afe58985c91",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot3_000_012\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "08925258d804208ef4213598ebceba75f1400c4d919e385d56f0e509cb2de685",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot3_120_132\\camera.yaml",
+    "origin": "file",
+    "bytes": 827,
+    "sha256": "337f847326c13f02362c8fcdcde785df63c30af532711e5edd060afe58985c91",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot3_120_132\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "25a263e5c57c6a764895063451486bdfd213bc9cb5ee977117b0dc4d3d2f9ef9",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot3_240_252\\camera.yaml",
+    "origin": "file",
+    "bytes": 827,
+    "sha256": "337f847326c13f02362c8fcdcde785df63c30af532711e5edd060afe58985c91",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24b_vision_feasibility\\orb_pilot\\robot3_240_252\\sequence.txt",
+    "origin": "file",
+    "bytes": 7680,
+    "sha256": "f115bbbb514d561dc5d4c7f0e3e77179f954384f4520457d01f03b2a6716b9b7",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_demo_v1\\robot1\\camera.yaml",
+    "origin": "file",
+    "bytes": 893,
+    "sha256": "5686947f6a88a44e26696815cb1568dfa111351cfb1510a5ac2892bc4fdfc008",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_demo_v1\\robot1\\paced\\camera.yaml",
+    "origin": "file",
+    "bytes": 893,
+    "sha256": "5686947f6a88a44e26696815cb1568dfa111351cfb1510a5ac2892bc4fdfc008",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_demo_v1\\robot3\\paced\\camera.yaml",
+    "origin": "file",
+    "bytes": 894,
+    "sha256": "988252c5e509d5133ec6b7c4cab2a7d45f751bd168f424ac5a8a489b02d89de0",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_full_v1\\robot1\\camera.yaml",
+    "origin": "file",
+    "bytes": 894,
+    "sha256": "e0471301732353e48268b28785ccc723eb6489970263533124508b4358aa5f35",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_full_v1\\robot3\\camera.yaml",
+    "origin": "file",
+    "bytes": 895,
+    "sha256": "d0f412d96fd3de57e95fd34639969b2422aeb4569cd636dbcad510336981ee8c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_long_v1\\reset_regression\\camera.yaml",
+    "origin": "file",
+    "bytes": 859,
+    "sha256": "ee06e3e788d91b379eef38811f8af8a618bdbbcabf4f3e223e423ec4c000f141",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_long_v1\\robot1\\baseline1000\\camera.yaml",
+    "origin": "file",
+    "bytes": 860,
+    "sha256": "62e7555dd62b0a629b0a87111f33b5660163b405be42a454dbeea30b23bffff3",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_long_v1\\robot1\\fallback2000\\camera.yaml",
+    "origin": "file",
+    "bytes": 860,
+    "sha256": "4ab216a746d6087441358c00eec4228e69204b2e46eecefd4bfb64b182e6ee75",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_long_v1\\robot3\\baseline1000\\camera.yaml",
+    "origin": "file",
+    "bytes": 861,
+    "sha256": "ac1885b6d4ee46e0bf454f53ac751a7e1aca67c645bd511feed4cfc7de443809",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\outputs\\cumulti_v1\\24_rgbd_long_v1\\robot3\\fallback2000\\camera.yaml",
+    "origin": "file",
+    "bytes": 861,
+    "sha256": "e5b6389acdd37980b61dc423cc5db1639bde8b6db725ae469b2946933a57845d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\build_rgbd_causal.sh",
+    "origin": "file",
+    "bytes": 1041,
+    "sha256": "86fd379cc59b5e3ca8e03bd1ffee50c6b48f0ec0051a2b33ea283ee2666ae141",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\build_rgbd_demo.sh",
+    "origin": "file",
+    "bytes": 853,
+    "sha256": "485b385bc8a3ac281c38c92dcef0b2a30d10d3e04a52c28605bf27f0c881c3be",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\build_rgbd_full.sh",
+    "origin": "file",
+    "bytes": 1650,
+    "sha256": "b763d6bfae7af12c4bf7e61a10119a0a42e561994fa019efad6f4e60ca10b131",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\build_rgbd_long.sh",
+    "origin": "file",
+    "bytes": 907,
+    "sha256": "c82198dc093f18e86c194069ce40fc2d97692060cb1c622e2d060c764c59d050",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\build_rgbd_loss_audit.sh",
+    "origin": "file",
+    "bytes": 566,
+    "sha256": "2692f57cee36f4d211bb6ae8bfbedcf10e667aad13c284b3f085c1fd6a7baa9d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\build_stage24_camera_pilot.sh",
+    "origin": "file",
+    "bytes": 914,
+    "sha256": "afcc8f9b0b33eddc1c2137d73981480468edc29ac4209edf98921f526f8461b2",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_rgbd_full.sh",
+    "origin": "file",
+    "bytes": 1251,
+    "sha256": "23324c5a3921ebe430bfb08795246a6990b92f968475fb5cf63e947ebfa5665b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_rgbd_registered_replay.sh",
+    "origin": "file",
+    "bytes": 346,
+    "sha256": "54a73b21c0d0be688bdfc2e43e8fccc6ad17aeacc2b9bb1fcf47ac83841edb31",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_stage24d_rgbd.sh",
+    "origin": "file",
+    "bytes": 415,
+    "sha256": "53e203f3e18b9c81c6d48bb91f95efcf9f1d7d1b7815158d9c93c1e66b9e075e",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_stage24e_feasibility.sh",
+    "origin": "file",
+    "bytes": 441,
+    "sha256": "01da5769dad7daa1a654def34ddcd9eba51e8cda7162c2214cf4dfaeb1c9c05c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_stage26_bounded.sh",
+    "origin": "file",
+    "bytes": 1695,
+    "sha256": "d2819095b458d072b3eeb120dbf2382e4e40c136f617d00a4ae8a701deff6f98",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_stage31_persistence.sh",
+    "origin": "file",
+    "bytes": 509,
+    "sha256": "494c9b9616dc905166ae711795bf46d9e75f975bf772d2607be590ec6e7717b6",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\scripts\\run_stage32_preflight.sh",
+    "origin": "file",
+    "bytes": 519,
+    "sha256": "2ebeb830e33413e54c8328ebe42068d472bb7e9c139f4adf030633bdd2ca27a2",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\check_staged.py",
+    "origin": "file",
+    "bytes": 1407,
+    "sha256": "95669e4f15f8afe761400a595aa5e079e11c7dcf394cf121321f3abb4593057a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage26_manifest.py",
+    "origin": "file",
+    "bytes": 5098,
+    "sha256": "08db6426fff4c0ce4bd12b2c71faad0e0f49dadc4c65b267c18caebe68258819",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage26_plan.py",
+    "origin": "file",
+    "bytes": 2945,
+    "sha256": "5ec8d874de119ee401b51b64e75635a8918daba0fa5c2696d88920ef96a7ca0c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage32r_environment.py",
+    "origin": "file",
+    "bytes": 3638,
+    "sha256": "d7c078f702b3101748384a907ce5a437b4511f5567fd75232121af4f00e402f1",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage32r_finalize.py",
+    "origin": "file",
+    "bytes": 17958,
+    "sha256": "07cec209c94ccdd0139e2f843144636f98185412cff2013e8e859d5baf80f6df",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage32r_search.py",
+    "origin": "file",
+    "bytes": 18360,
+    "sha256": "b1580b390a772a1e27cf0006f49435254a8f8113ebefff3e2d8daa2189da2d72",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage32_inventory.py",
+    "origin": "file",
+    "bytes": 1615,
+    "sha256": "5774d781aeeff48d0c91424bf63543607c4b5bd0adeb46bc418b1cb6aa0913aa",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage32_preflight.py",
+    "origin": "file",
+    "bytes": 18697,
+    "sha256": "3bd5914aa7bf3af9525cd61096481d114f159659765898f693c33fbcb117d79d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push\\src\\cumulti\\rgbd_full\\stage32_report.py",
+    "origin": "file",
+    "bytes": 12973,
+    "sha256": "f7a4e398028b7235e29a1e9129a51adeaa6be0852d14803f83b17d28b4dc6f2b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\build.sh",
+    "origin": "file",
+    "bytes": 658,
+    "sha256": "57bb88c12f85328f6f4bf57c6b8dac514d1ad9c798fe4be6687c0f1e988d0d93",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\build_ros.sh",
+    "origin": "file",
+    "bytes": 123,
+    "sha256": "a699a6a36b1f3f3b15908a6063e83c1dab2103883112dd3cfdd4af1ed1d136e5",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\CMakeLists.txt",
+    "origin": "file",
+    "bytes": 12901,
+    "sha256": "a1bdb504483a8ba6723069927a4bdf4d178f1273d6569b4d7eb3732bd17e0746",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\Examples_old\\ROS\\ORB_SLAM3\\CMakeLists.txt",
+    "origin": "file",
+    "bytes": 2732,
+    "sha256": "c513989ac4a5072ba174a4b49a9faedd83d7279ef630ac4ed30bd5cc0c7ba7c7",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\include\\System.h",
+    "origin": "file",
+    "bytes": 8739,
+    "sha256": "15f6d922e502cf56b542e8bc4c03cf70c91ad15561a7f0a52db6e2c2137a9647",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\include\\Tracking.h",
+    "origin": "file",
+    "bytes": 10470,
+    "sha256": "ba988cd16a0c49c69e5296b53e0b5896d53e936915cb61faa4f7406ef1ce4fed",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\src\\Frame.cc",
+    "origin": "file",
+    "bytes": 41495,
+    "sha256": "088c8b33443e52f161c9f0485ade8f59bff5c5fa00c6fd34fc64a3988e6eb28e",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\src\\ORBextractor.cc",
+    "origin": "file",
+    "bytes": 54541,
+    "sha256": "388d093203497310998abae8b81f97e00acf95dd3544aa7a819fad665c4fc978",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\src\\System.cc",
+    "origin": "file",
+    "bytes": 53437,
+    "sha256": "9bf2ee0d9cfd662bc6f2f18a2b17f0482689960ad2bcbf430c5a47068970588f",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\src\\Tracking.cc",
+    "origin": "file",
+    "bytes": 142550,
+    "sha256": "a5828543839a42e0bb499e3325e32dddfa20d5f7f00db2d9b99f58f2fbdb9743",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\Vocabulary\\ORBvoc.txt.tar.gz",
+    "origin": "file",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\Desktop\\CMakeLists.txt",
+    "origin": "file",
+    "bytes": 3232,
+    "sha256": "08c97acb667ddd5c19f647cffcc1e4e66b0bdb1ce9584e8fe41e5fcf188353b9",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Net.Http\\35149edfc9fefbd4db274941c6cc1ab4\\System.Net.Http.ni.dll",
+    "origin": "file",
+    "bytes": 554496,
+    "sha256": "90388f6b5d93ac472339022b6e6abfdbc797ce336ad126b0ad105d27f1ede806",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1184ac1e92147aa0b5a4f395f43adb7fdf9b2966e3aacd3f8ce3c1edd0911455"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_32\\System.Net.Http\\35149edfc9fefbd4db274941c6cc1ab4\\System.Net.Http.ni.dll.aux",
+    "origin": "file",
+    "bytes": 536,
+    "sha256": "f7273da91af75b0756dba284fd9276a453999380346a7f262f1217150f3838cc",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f7273da91af75b0756dba284fd9276a453999380346a7f262f1217150f3838cc"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Net.Http\\58e08b03bc2ee745bd15def8a1ec0738\\System.Net.Http.ni.dll",
+    "origin": "file",
+    "bytes": 663040,
+    "sha256": "f532785cec1c9a84be035715856bcfcb92f2f70d19f14d346ac2cbe3e885695c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2521ae8f4dfead712282d74ad7daafae2114ec986f903d5af50a23f952079808"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\NativeImages_v4.0.30319_64\\System.Net.Http\\58e08b03bc2ee745bd15def8a1ec0738\\System.Net.Http.ni.dll.aux",
+    "origin": "file",
+    "bytes": 536,
+    "sha256": "0499717e18719d7d4e495ea2ef96f229443ea45851a3b225146b410bfdfcbcd6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0499717e18719d7d4e495ea2ef96f229443ea45851a3b225146b410bfdfcbcd6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\temp\\GEO3EWY19D\\System.Net.Http.ni.dll",
+    "origin": "file",
+    "bytes": 663040,
+    "sha256": "1fe201d27b8d7ed2c0949a93bfa888cdad72b16fd0d591cbb982155e54ce75c9",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "aee8fd937d803c049cd805b8ca27712a8f939ea07656843dd23debb6587ccd86"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\temp\\GEO3EWY19D\\System.Net.Http.ni.dll.aux",
+    "origin": "file",
+    "bytes": 536,
+    "sha256": "302050ee5edebf9a975b3f000372bb3b5d3f1cf78238ac730494420d6f5953ab",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "302050ee5edebf9a975b3f000372bb3b5d3f1cf78238ac730494420d6f5953ab"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\temp\\TH2QCIZ49K\\System.Net.Http.ni.dll",
+    "origin": "file",
+    "bytes": 663040,
+    "sha256": "f77ca0a071fc04031c9961826be53882eefa422ccfda718b02c797498f33637e",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f3a4e4b9ef825c33f4d7858da0f6b7b75a450013f6cd516b5c519d7bf1a0f531"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\assembly\\temp\\TH2QCIZ49K\\System.Net.Http.ni.dll.aux",
+    "origin": "file",
+    "bytes": 536,
+    "sha256": "fc9a75fb67f95a6ee0991a8304cad669975487cddd15546a64ee5c015fdadcef",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "fc9a75fb67f95a6ee0991a8304cad669975487cddd15546a64ee5c015fdadcef"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Net.Http\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 200368,
+    "sha256": "d7ce24424f16bd410179bd202b3e375b2b731a6bd57d5d03a8d38cf9062a14db",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3d1b555f809a42f39cb47f7e4209edd5564ad8ebd05adf3937295c9bfd83307d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Net.Http.resources\\v4.0_4.0.0.0_zh-Hans_b03f5f7f11d50a3a\\System.Net.Http.resources.dll",
+    "origin": "file",
+    "bytes": 30520,
+    "sha256": "21e76297e3a9e39061d7fd739c3f497deaeb884d2880057b88d64434d71cbcb6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d28c8b165a8353987b84be2b9fb830d030edfbfa40ce40a58eade884cd10cde9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Net.Http.Rtc\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Net.Http.Rtc.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "af73c77f014650e566c325e85e83084a38ab9a081516ea44288c2e5e1de9fdcb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31507642e3cdecc3e73ad5703782b2391176e68903601f5de3b083014178f20a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Net.Http.WebRequest\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Net.Http.WebRequest.dll",
+    "origin": "file",
+    "bytes": 46768,
+    "sha256": "b0c49b64f10c540ad30cc1fbeec0b604e5da352d53de1c36a55e941fb5a794a7",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e26fd3ec0e96669f74e8bea9bd55c1c9546fa14747f2f1a988bc7f2e59ad1ace"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Net.Http.WebRequest.resources\\v4.0_4.0.0.0_zh-Hans_b03f5f7f11d50a3a\\System.Net.Http.WebRequest.resources.dll",
+    "origin": "file",
+    "bytes": 23832,
+    "sha256": "8a718cea0dadb403970bfe40fc8b5bd436820e3a61cdda2069bf0d30d2b13359",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "78eefd8f784551ee922272bbe7d007f73b7028575328c32a293b1b08dbfcecb4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Runtime.Handles\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "3a9cdaf1976e9fd0a9755866eab05919cf5b0d1608d1e9e281296adc4e7af67c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b6784b312e87d8da2cd00e17b50710818495ba66dd8d376d2343eaad554882f4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.ServiceModel.Http\\v4.0_4.0.0.0__b03f5f7f11d50a3a\\System.ServiceModel.Http.dll",
+    "origin": "file",
+    "bytes": 25552,
+    "sha256": "942345f670b08dadb6e2352d8de07a89dda0ec90de9d3c2559409a1051bc6c56",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8b0befd207d868e8c3cc77c5682c0db037f5deda09d91a39b66fb15251fe2584"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Xaml.Hosting\\v4.0_4.0.0.0__31bf3856ad364e35\\System.Xaml.Hosting.dll",
+    "origin": "file",
+    "bytes": 37408,
+    "sha256": "d8465dcc990b32ce2257f4ac17f7d6870bf6bd8cdb4e011aa58a0c8be40c27ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "53cc8b332798fcd4aca25533344e6ed576e1030261ed6d90bddc5746151dea31"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\assembly\\GAC_MSIL\\System.Xaml.Hosting.resources\\v4.0_4.0.0.0_zh-Hans_31bf3856ad364e35\\System.Xaml.Hosting.resources.dll",
+    "origin": "file",
+    "bytes": 15264,
+    "sha256": "16c80c8a1c73c9c8eb080f4b1127aa0274918e88fe4cb18be7a4e86d0ad16b52",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "02ebb3b6bb3bea528838adffc8340d8235af115559586ff54eccc98e58bb1a95"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 200368,
+    "sha256": "d7ce24424f16bd410179bd202b3e375b2b731a6bd57d5d03a8d38cf9062a14db",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3d1b555f809a42f39cb47f7e4209edd5564ad8ebd05adf3937295c9bfd83307d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\System.Net.Http.Rtc.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "af73c77f014650e566c325e85e83084a38ab9a081516ea44288c2e5e1de9fdcb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31507642e3cdecc3e73ad5703782b2391176e68903601f5de3b083014178f20a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\System.Net.Http.WebRequest.dll",
+    "origin": "file",
+    "bytes": 46768,
+    "sha256": "b0c49b64f10c540ad30cc1fbeec0b604e5da352d53de1c36a55e941fb5a794a7",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e26fd3ec0e96669f74e8bea9bd55c1c9546fa14747f2f1a988bc7f2e59ad1ace"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "3a9cdaf1976e9fd0a9755866eab05919cf5b0d1608d1e9e281296adc4e7af67c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b6784b312e87d8da2cd00e17b50710818495ba66dd8d376d2343eaad554882f4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\System.ServiceModel.Http.dll",
+    "origin": "file",
+    "bytes": 25552,
+    "sha256": "942345f670b08dadb6e2352d8de07a89dda0ec90de9d3c2559409a1051bc6c56",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8b0befd207d868e8c3cc77c5682c0db037f5deda09d91a39b66fb15251fe2584"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\System.Xaml.Hosting.dll",
+    "origin": "file",
+    "bytes": 37408,
+    "sha256": "d8465dcc990b32ce2257f4ac17f7d6870bf6bd8cdb4e011aa58a0c8be40c27ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "53cc8b332798fcd4aca25533344e6ed576e1030261ed6d90bddc5746151dea31"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\zh-Hans\\System.Net.Http.resources.dll",
+    "origin": "file",
+    "bytes": 30520,
+    "sha256": "21e76297e3a9e39061d7fd739c3f497deaeb884d2880057b88d64434d71cbcb6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d28c8b165a8353987b84be2b9fb830d030edfbfa40ce40a58eade884cd10cde9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\zh-Hans\\System.Net.Http.WebRequest.resources.dll",
+    "origin": "file",
+    "bytes": 23832,
+    "sha256": "8a718cea0dadb403970bfe40fc8b5bd436820e3a61cdda2069bf0d30d2b13359",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "78eefd8f784551ee922272bbe7d007f73b7028575328c32a293b1b08dbfcecb4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework\\v4.0.30319\\zh-Hans\\System.Xaml.Hosting.resources.dll",
+    "origin": "file",
+    "bytes": 15264,
+    "sha256": "16c80c8a1c73c9c8eb080f4b1127aa0274918e88fe4cb18be7a4e86d0ad16b52",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "02ebb3b6bb3bea528838adffc8340d8235af115559586ff54eccc98e58bb1a95"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 200368,
+    "sha256": "d7ce24424f16bd410179bd202b3e375b2b731a6bd57d5d03a8d38cf9062a14db",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3d1b555f809a42f39cb47f7e4209edd5564ad8ebd05adf3937295c9bfd83307d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Net.Http.Rtc.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "af73c77f014650e566c325e85e83084a38ab9a081516ea44288c2e5e1de9fdcb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31507642e3cdecc3e73ad5703782b2391176e68903601f5de3b083014178f20a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Net.Http.WebRequest.dll",
+    "origin": "file",
+    "bytes": 46768,
+    "sha256": "b0c49b64f10c540ad30cc1fbeec0b604e5da352d53de1c36a55e941fb5a794a7",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e26fd3ec0e96669f74e8bea9bd55c1c9546fa14747f2f1a988bc7f2e59ad1ace"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "3a9cdaf1976e9fd0a9755866eab05919cf5b0d1608d1e9e281296adc4e7af67c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b6784b312e87d8da2cd00e17b50710818495ba66dd8d376d2343eaad554882f4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.ServiceModel.Http.dll",
+    "origin": "file",
+    "bytes": 25552,
+    "sha256": "942345f670b08dadb6e2352d8de07a89dda0ec90de9d3c2559409a1051bc6c56",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8b0befd207d868e8c3cc77c5682c0db037f5deda09d91a39b66fb15251fe2584"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\System.Xaml.Hosting.dll",
+    "origin": "file",
+    "bytes": 37408,
+    "sha256": "d8465dcc990b32ce2257f4ac17f7d6870bf6bd8cdb4e011aa58a0c8be40c27ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "53cc8b332798fcd4aca25533344e6ed576e1030261ed6d90bddc5746151dea31"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\zh-Hans\\System.Net.Http.resources.dll",
+    "origin": "file",
+    "bytes": 30520,
+    "sha256": "21e76297e3a9e39061d7fd739c3f497deaeb884d2880057b88d64434d71cbcb6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d28c8b165a8353987b84be2b9fb830d030edfbfa40ce40a58eade884cd10cde9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\zh-Hans\\System.Net.Http.WebRequest.resources.dll",
+    "origin": "file",
+    "bytes": 23832,
+    "sha256": "8a718cea0dadb403970bfe40fc8b5bd436820e3a61cdda2069bf0d30d2b13359",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "78eefd8f784551ee922272bbe7d007f73b7028575328c32a293b1b08dbfcecb4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\Microsoft.NET\\Framework64\\v4.0.30319\\zh-Hans\\System.Xaml.Hosting.resources.dll",
+    "origin": "file",
+    "bytes": 15264,
+    "sha256": "16c80c8a1c73c9c8eb080f4b1127aa0274918e88fe4cb18be7a4e86d0ad16b52",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "02ebb3b6bb3bea528838adffc8340d8235af115559586ff54eccc98e58bb1a95"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\System32\\SystemSettings.Handlers.dll",
+    "origin": "file",
+    "bytes": 1023488,
+    "sha256": "c7ebb08459ea5fbce4863c154132114c18fb6defd4baed328bbac9cfdfebeed4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2df365522693ad36e801f948016ae03d9ce35cd0a7a406844c7bf15f827efb06"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-s..ings-handlersplugin_31bf3856ad364e35_10.0.26100.9549_none_1e5d4c79df02853a\\SystemSettings.Handlers.dll",
+    "origin": "file",
+    "bytes": 1020928,
+    "sha256": "5fa28160398436ab4382de70d337ae64f23c245988ffdcf18c8ed539945c196b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "129eff2ca67968b608d723112c60faca9dfa30538aa3bc883dd4675d7ebb1678"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-s..ings-handlersplugin_31bf3856ad364e35_10.0.26100.9549_none_1e5d4c79df02853a\\r\\SystemSettings.Handlers.dll",
+    "origin": "file",
+    "bytes": 302997,
+    "sha256": "ebdf62bac491acc4c6f9c7b170a2431d3ca1dba4e3b44e08be99887b7c192cfa",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ebdf62bac491acc4c6f9c7b170a2431d3ca1dba4e3b44e08be99887b7c192cfa"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-s..ings-handlersplugin_31bf3856ad364e35_10.0.26100.9818_none_1e39f29fdf1d7367\\SystemSettings.Handlers.dll",
+    "origin": "file",
+    "bytes": 1023488,
+    "sha256": "c7ebb08459ea5fbce4863c154132114c18fb6defd4baed328bbac9cfdfebeed4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2df365522693ad36e801f948016ae03d9ce35cd0a7a406844c7bf15f827efb06"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_microsoft-windows-s..ings-handlersplugin_31bf3856ad364e35_10.0.26100.9818_none_1e39f29fdf1d7367\\r\\SystemSettings.Handlers.dll",
+    "origin": "file",
+    "bytes": 301007,
+    "sha256": "3180c8f4661ca0a491a097bca49c4837db0a530d3d7707627a9bcf1d25d7b299",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "251a2db157a63fe719132a98870fa240406094b390fd8ebcef8a87e70a4ffef6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http.resources_b03f5f7f11d50a3a_4.0.15912.0_zh-cn_cfe0000bc44865b7\\System.Net.Http.resources.dll",
+    "origin": "file",
+    "bytes": 30520,
+    "sha256": "21e76297e3a9e39061d7fd739c3f497deaeb884d2880057b88d64434d71cbcb6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d28c8b165a8353987b84be2b9fb830d030edfbfa40ce40a58eade884cd10cde9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http.rtc_b03f5f7f11d50a3a_4.0.15912.0_none_aa794c1335acc375\\System.Net.Http.Rtc.dll",
+    "origin": "file",
+    "bytes": 24392,
+    "sha256": "294fe2fe08f5df6dd7fedb2e38b161968d848fe148c3a191c2ea6a98af81fb24",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "23faab24d2cb555c6bb42771525e6209889292e6b62eb69ab9dfe42d165f33dd"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http.rtc_b03f5f7f11d50a3a_4.0.15920.100_none_9f52abeb73bb8a4d\\System.Net.Http.Rtc.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "af73c77f014650e566c325e85e83084a38ab9a081516ea44288c2e5e1de9fdcb",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "31507642e3cdecc3e73ad5703782b2391176e68903601f5de3b083014178f20a"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http.webrequest.resources_b03f5f7f11d50a3a_4.0.15912.0_zh-cn_10e4325c226054c0\\System.Net.Http.WebRequest.resources.dll",
+    "origin": "file",
+    "bytes": 23832,
+    "sha256": "8a718cea0dadb403970bfe40fc8b5bd436820e3a61cdda2069bf0d30d2b13359",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "78eefd8f784551ee922272bbe7d007f73b7028575328c32a293b1b08dbfcecb4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http.webrequest_b03f5f7f11d50a3a_4.0.15912.0_none_9d2b9c477b608f73\\System.Net.Http.WebRequest.dll",
+    "origin": "file",
+    "bytes": 45896,
+    "sha256": "f8628d50dbc520d3a96966f976d27ff5a99ec044e41ecda73762bcb7acdd2333",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3e1996ed8019d0e3bcd7a9ec21e85f92534f74d8780d7d34c68fae24491b57e2"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http.webrequest_b03f5f7f11d50a3a_4.0.15920.118_none_920cfe4bb9682154\\System.Net.Http.WebRequest.dll",
+    "origin": "file",
+    "bytes": 46768,
+    "sha256": "b0c49b64f10c540ad30cc1fbeec0b604e5da352d53de1c36a55e941fb5a794a7",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e26fd3ec0e96669f74e8bea9bd55c1c9546fa14747f2f1a988bc7f2e59ad1ace"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http_b03f5f7f11d50a3a_4.0.15912.0_none_4b19c67f52c75aea\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 199496,
+    "sha256": "c9cd4a7658d83b79c47e335e98bb1fb67900090f4c6aaf25ae141fafc5c9bca4",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e00e8f830a9c05b864ed1e2241a06ebfa7be53e2130c4547ba9f1471e8877517"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.net.http_b03f5f7f11d50a3a_4.0.15920.118_none_3ffb288390ceeccb\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 200368,
+    "sha256": "d7ce24424f16bd410179bd202b3e375b2b731a6bd57d5d03a8d38cf9062a14db",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3d1b555f809a42f39cb47f7e4209edd5564ad8ebd05adf3937295c9bfd83307d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.runtime.handles_b03f5f7f11d50a3a_4.0.15912.0_none_6653858eef48d984\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 24392,
+    "sha256": "466f3b82a81d4ec5ce85e836fec5d20a815ccef265c56cf74186c4b8c7932fb3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "a19fe015d0e8341b9054d019d6be9bfb4cb7ab4174074f4a22edf8e0479968c1"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.runtime.handles_b03f5f7f11d50a3a_4.0.15920.100_none_5b2ce5672d57a05c\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 25544,
+    "sha256": "3a9cdaf1976e9fd0a9755866eab05919cf5b0d1608d1e9e281296adc4e7af67c",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b6784b312e87d8da2cd00e17b50710818495ba66dd8d376d2343eaad554882f4"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.servicemodel.http_b03f5f7f11d50a3a_4.0.15912.0_none_229082bbf2be7cc7\\System.ServiceModel.Http.dll",
+    "origin": "file",
+    "bytes": 24392,
+    "sha256": "341063441e7a247002ffcb0c47c5069329b695923357d285120a6e02ba7b0b15",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "40b7d2f901d1ae6800b07e567f5ad7dd6ffcc7ae6d881895392877fb138d729e"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.servicemodel.http_b03f5f7f11d50a3a_4.0.15920.100_none_1769e29430cd439f\\System.ServiceModel.Http.dll",
+    "origin": "file",
+    "bytes": 25552,
+    "sha256": "942345f670b08dadb6e2352d8de07a89dda0ec90de9d3c2559409a1051bc6c56",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8b0befd207d868e8c3cc77c5682c0db037f5deda09d91a39b66fb15251fe2584"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.xaml.hosting.resources_31bf3856ad364e35_4.0.15912.0_zh-cn_129c9eec2c543802\\System.Xaml.Hosting.resources.dll",
+    "origin": "file",
+    "bytes": 15264,
+    "sha256": "16c80c8a1c73c9c8eb080f4b1127aa0274918e88fe4cb18be7a4e86d0ad16b52",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "02ebb3b6bb3bea528838adffc8340d8235af115559586ff54eccc98e58bb1a95"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.xaml.hosting_31bf3856ad364e35_4.0.15912.0_none_7751786b21a7ee05\\System.Xaml.Hosting.dll",
+    "origin": "file",
+    "bytes": 37280,
+    "sha256": "49b902784040e5bb97f83e67ffab35ac0e4f19dac2b4b197372d4f845cfcb656",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "597a672cba287e0f8902aa2555a4b18243f0d7d812188e5cc678deef14dc3fe9"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Windows\\WinSxS\\amd64_system.xaml.hosting_31bf3856ad364e35_4.0.15920.100_none_6c2ad8435fb6b4dd\\System.Xaml.Hosting.dll",
+    "origin": "file",
+    "bytes": 37408,
+    "sha256": "d8465dcc990b32ce2257f4ac17f7d6870bf6bd8cdb4e011aa58a0c8be40c27ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "53cc8b332798fcd4aca25533344e6ed576e1030261ed6d90bddc5746151dea31"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\xampp\\app\\FileZillaFTP\\source\\interface\\misc\\SystemTray.h",
+    "origin": "file",
+    "bytes": 6034,
+    "sha256": "e91e3369cbef52936b254736ad3ba36dc292f12d9a667532a88632a30b543015",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d59c4832f2f59ff938e6b49bddf64203bcf3930c1f4c87870ae80bb1104d7524"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\xampp\\app\\tomcat\\webapps\\docs\\config\\systemprops.html",
+    "origin": "file",
+    "bytes": 40398,
+    "sha256": "0f0a745f8a4d7c9f8cbba432da5d35d71b8a36afeed0dc1c043081163f06ccc7",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "4762f405176230b6abdfd7cae2bd0b682e3bd792890af612337d07455db58b12"
+  },
+  {
+    "dependency": "System.h",
+    "location": "E:\\SteamLibrary\\steamapps\\common\\Lossless Scaling\\System.Net.Http.dll",
+    "origin": "file",
+    "bytes": 1788200,
+    "sha256": "ee0ad7c228a8dc5d91761fb3e213b2989b32d71997e06770eb3e7b35cf7a48ff",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "985458dc9ee119ff028357de4d1c1f3d6b0e50e1f3b0a05093287b1e9269e388"
+  },
+  {
+    "dependency": "System.h",
+    "location": "E:\\SteamLibrary\\steamapps\\common\\Lossless Scaling\\System.Net.Http.Json.dll",
+    "origin": "file",
+    "bytes": 133416,
+    "sha256": "4d88384a79a53e28d50cd745e9425e969cbc6449755af4bbe6725c02b1287428",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "f5df12fa64db8b5234728d86583e561fe9e2f4b773b3e4bba739e7ec51c6d38c"
+  },
+  {
+    "dependency": "System.h",
+    "location": "E:\\SteamLibrary\\steamapps\\common\\Lossless Scaling\\System.Net.HttpListener.dll",
+    "origin": "file",
+    "bytes": 551200,
+    "sha256": "2a5d9f1737e0f339cf7d3aa40220020f059f7aefbd54da5a6814bb3d89426ade",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "7a2d4c6aa74f3984860357b7c56a5dbe06d6d32ee7a091a27d7d71e7572fdb50"
+  },
+  {
+    "dependency": "System.h",
+    "location": "E:\\SteamLibrary\\steamapps\\common\\Lossless Scaling\\System.Runtime.Handles.dll",
+    "origin": "file",
+    "bytes": 15656,
+    "sha256": "7f08c4fdba8082dc257e2a28abebbc14a3b9d52f7a11ccf890cd60c08e7c57dc",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c097645e95cd82ed7cfbefd9367227414cf03c006696878ef503b76e7d2d9062"
+  },
+  {
+    "dependency": "System.h",
+    "location": "E:\\SteamLibrary\\steamapps\\common\\Lossless Scaling\\System.Web.HttpUtility.dll",
+    "origin": "file",
+    "bytes": 63784,
+    "sha256": "78b9e0f8c966fffa3ad076373dd9d9278a7793ee2cd57a054d5ddab56f3a45a2",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "b096653c66fbe3ba2e7fbb137a6b541f4a5e3476d15788fdf8532773329b00d9"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_rgbd_atlas.sh",
+    "origin": "file",
+    "bytes": 944,
+    "sha256": "3d5e50b33406f0c9db57be4308c0afcf416d6d0316cd3ca0ca30494af91d46c5",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_rgbd_causal.sh",
+    "origin": "file",
+    "bytes": 1025,
+    "sha256": "46324362de358127f478c7b2e6db64f63ddd62a42088601358939434e3955f2f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_rgbd_demo.sh",
+    "origin": "file",
+    "bytes": 839,
+    "sha256": "4051f50ef27356461bc61c5ea73668447df8beaeb4eece0ebbfc65a84298280c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_rgbd_full.sh",
+    "origin": "file",
+    "bytes": 1626,
+    "sha256": "6a76bb2164b8b469146fedee6764020afec75ad154fd1761dbdf3ccbf1eb256e",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_rgbd_long.sh",
+    "origin": "file",
+    "bytes": 892,
+    "sha256": "7206ce57112a92a790f3f2b16f54250d9eb384fdc38ef3117b46dff39ba84ab8",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_rgbd_loss_audit.sh",
+    "origin": "file",
+    "bytes": 557,
+    "sha256": "0de954211f0f953a454c1e425e372e7ff72d9cdc0abf9464be848545ae76b35b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\build_stage24_camera_pilot.sh",
+    "origin": "file",
+    "bytes": 900,
+    "sha256": "b839d3ee73e0461034a053806ca751c16dba005b7f46b887fc34fa58601e395f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\finalize_rgbd_atlas.sh",
+    "origin": "file",
+    "bytes": 574,
+    "sha256": "4cfa2d9f0f3e2f633c171e87e4ee247b102a846c954a4b3b02bf56c6330f162c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_rgbd_atlas.sh",
+    "origin": "file",
+    "bytes": 862,
+    "sha256": "10c707f5e57ea3c3db641ebc62f3602503a16d2edde3af92f42356558c9878f3",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_rgbd_full.sh",
+    "origin": "file",
+    "bytes": 1226,
+    "sha256": "c526f17d8c27ba4eab3bdd223450a8a423284597759d7d022983596108765da7",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_rgbd_registered_replay.sh",
+    "origin": "file",
+    "bytes": 338,
+    "sha256": "c0339ac36f470ea3a9fd5e30cba4c7e04a92d4fdfaf19750f00e8edd2dcab1cf",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_stage24d_rgbd.sh",
+    "origin": "file",
+    "bytes": 406,
+    "sha256": "648d044e47185e6975f0a6d9571aec26eaf4ed2274c1cb54744600e133ac3a30",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_stage24e_feasibility.sh",
+    "origin": "file",
+    "bytes": 432,
+    "sha256": "003b346186360fd2e4efb7f5fa233a9a7eb0ac2c9577ccf3113054d210d9a182",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_stage26_bounded.sh",
+    "origin": "file",
+    "bytes": 1645,
+    "sha256": "ab09f0a60c0f0c9cb6460e4b825c9566e166239135379ab90075be2651d2af4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_stage31_persistence.sh",
+    "origin": "file",
+    "bytes": 509,
+    "sha256": "494c9b9616dc905166ae711795bf46d9e75f975bf772d2607be590ec6e7717b6",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\scripts\\run_stage32_preflight.sh",
+    "origin": "file",
+    "bytes": 519,
+    "sha256": "2ebeb830e33413e54c8328ebe42068d472bb7e9c139f4adf030633bdd2ca27a2",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\src\\cumulti\\rgbd_full\\check_staged.py",
+    "origin": "file",
+    "bytes": 1391,
+    "sha256": "98c42a22a286c28cefe62c3d0b9d99669e2a2f7c0502e963de1d2880c787bd6d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\src\\cumulti\\rgbd_full\\stage26_manifest.py",
+    "origin": "file",
+    "bytes": 5098,
+    "sha256": "08db6426fff4c0ce4bd12b2c71faad0e0f49dadc4c65b267c18caebe68258819",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\src\\cumulti\\rgbd_full\\stage26_plan.py",
+    "origin": "file",
+    "bytes": 2945,
+    "sha256": "5ec8d874de119ee401b51b64e75635a8918daba0fa5c2696d88920ef96a7ca0c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\src\\cumulti\\rgbd_full\\stage32_inventory.py",
+    "origin": "file",
+    "bytes": 1615,
+    "sha256": "5774d781aeeff48d0c91424bf63543607c4b5bd0adeb46bc418b1cb6aa0913aa",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\src\\cumulti\\rgbd_full\\stage32_preflight.py",
+    "origin": "file",
+    "bytes": 18697,
+    "sha256": "3bd5914aa7bf3af9525cd61096481d114f159659765898f693c33fbcb117d79d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "E:\\university\\uic\\FYP\\src\\cumulti\\rgbd_full\\stage32_report.py",
+    "origin": "file",
+    "bytes": 12973,
+    "sha256": "f7a4e398028b7235e29a1e9129a51adeaa6be0852d14803f83b17d28b4dc6f2b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "build_file",
+    "location": "E:\\university\\uic\\Kaggle\\Kaggriculture\\.venv\\e0-kaggle-env-1-32-6\\Lib\\site-packages\\open_spiel\\games\\CMakeLists.txt",
+    "origin": "file",
+    "bytes": 29977,
+    "sha256": "a1e34e95db47db834718346355f1c64a6543f462048acc6862fc1b77e788cfb8",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "E:\\university\\uic\\Kaggle\\Kaggriculture\\.venv\\e0-kaggle-env-1-32-6\\Lib\\site-packages\\open_spiel\\games\\bridge\\double_dummy_solver\\src\\System.h",
+    "origin": "file",
+    "bytes": 2387,
+    "sha256": "21e74b0d9874bfc2515b4aab275571de4b9c3a71b248b0e1cb20944ca0c717e6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "2cfd92d914f6a2ab3efece06c346b34422716e184c55a1b79dd325b86346443d"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\ProgramData\\Intel\\DSA\\Data\\data-en.zip!system-report-template-v2.html",
+    "origin": "zip_member_crc_checked",
+    "bytes": 1388,
+    "sha256": "3a5b43ae14f5009fef3be6ca3f0a202f88e413446a5fd7762ae810091f253dd3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6fb1a805675bf282cbe1ecbf02687103653fd5f9a5f6b7e19287634ac60e72f6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\ProgramData\\Intel\\DSA\\Data\\data-en.zip!system-report-template.html",
+    "origin": "zip_member_crc_checked",
+    "bytes": 1371,
+    "sha256": "b8e39467c02ca884c38de6d3f4320c661e3d74402feb259ad439201de2e32fa3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "86715caa96cacb677d362f97c19b647cfe01dfc2dfebd76115f5cbf408ac8ea0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\ProgramData\\Intel\\DSA\\Data\\data-zh-CN.zip!system-report-template-v2.html",
+    "origin": "zip_member_crc_checked",
+    "bytes": 1388,
+    "sha256": "3a5b43ae14f5009fef3be6ca3f0a202f88e413446a5fd7762ae810091f253dd3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "6fb1a805675bf282cbe1ecbf02687103653fd5f9a5f6b7e19287634ac60e72f6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\ProgramData\\Intel\\DSA\\Data\\data-zh-CN.zip!system-report-template.html",
+    "origin": "zip_member_crc_checked",
+    "bytes": 1371,
+    "sha256": "b8e39467c02ca884c38de6d3f4320c661e3d74402feb259ad439201de2e32fa3",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "86715caa96cacb677d362f97c19b647cfe01dfc2dfebd76115f5cbf408ac8ea0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/python/Lib/site-packages/artifact_tool_v2/bin/node_modules/@oai/walnut/wasm/System.ComponentModel.Primitives.hb7wv7k7l6.wasm",
+    "origin": "tar_member",
+    "bytes": 6933,
+    "sha256": "0de8d957557ac6cc65fe5c07424da56e4eb2df4482bf79ce3103b1e8209414e0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0de8d957557ac6cc65fe5c07424da56e4eb2df4482bf79ce3103b1e8209414e0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/python/Lib/site-packages/artifact_tool_v2/bin/node_modules/@oai/walnut/wasm/System.ComponentModel.Primitives.hb7wv7k7l6.wasm.br",
+    "origin": "tar_member",
+    "bytes": 2659,
+    "sha256": "d886b78f9f9e01aef5f57f8185d32bd194cd7c4a05cf5b5bb0f95cbb7fb26129",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "d886b78f9f9e01aef5f57f8185d32bd194cd7c4a05cf5b5bb0f95cbb7fb26129"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/python/Lib/site-packages/artifact_tool_v2/bin/node_modules/@oai/walnut/wasm/System.ComponentModel.Primitives.hb7wv7k7l6.wasm.gz",
+    "origin": "tar_member",
+    "bytes": 3042,
+    "sha256": "8453cc0f38bc3f69df4b5fdbd816464df33e73174bfa0212a9a8595e2f47be97",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "8453cc0f38bc3f69df4b5fdbd816464df33e73174bfa0212a9a8595e2f47be97"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/python/Lib/site-packages/artifact_tool_v2/bin/node_modules/@oai/walnut/wasm/System.Net.Http.q5h3nhzunv.wasm",
+    "origin": "tar_member",
+    "bytes": 135957,
+    "sha256": "627bad1a76dee53bc457197b3b45dac6cda9fcd9cecc737767607abadc4a2c4b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ad6df7017c1ba64e00c83044b51aab8450a1bf839694cc2802cbd2bfe83ee1aa"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/python/Lib/site-packages/artifact_tool_v2/bin/node_modules/@oai/walnut/wasm/System.Net.Http.q5h3nhzunv.wasm.br",
+    "origin": "tar_member",
+    "bytes": 51695,
+    "sha256": "e08da18560c0fc491fac19e573050083ccb0530e94f18ead3ad111a4c39114f6",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e08da18560c0fc491fac19e573050083ccb0530e94f18ead3ad111a4c39114f6"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/python/Lib/site-packages/artifact_tool_v2/bin/node_modules/@oai/walnut/wasm/System.Net.Http.q5h3nhzunv.wasm.gz",
+    "origin": "tar_member",
+    "bytes": 60788,
+    "sha256": "07c7ef8c371ba17ded9769a24bceccd3477e737359533162c19015d582bc69d0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0ef9f84e26fcde15047fd493671d1bd2efc2993a9979a589a3afced03004d269"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/node/node_modules/@oai/artifact-tool/node_modules/@oai/walnut/wasm/System.ComponentModel.Primitives.hb7wv7k7l6.wasm",
+    "origin": "tar_member",
+    "bytes": 6933,
+    "sha256": "0de8d957557ac6cc65fe5c07424da56e4eb2df4482bf79ce3103b1e8209414e0",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "0de8d957557ac6cc65fe5c07424da56e4eb2df4482bf79ce3103b1e8209414e0"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\.cache\\codex-runtimes\\codex-runtime-install-yA0j2Z\\node-runtime.tar.gz!codex-primary-runtime/dependencies/node/node_modules/@oai/artifact-tool/node_modules/@oai/walnut/wasm/System.Net.Http.q5h3nhzunv.wasm",
+    "origin": "tar_member",
+    "bytes": 135957,
+    "sha256": "627bad1a76dee53bc457197b3b45dac6cda9fcd9cecc737767607abadc4a2c4b",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "ad6df7017c1ba64e00c83044b51aab8450a1bf839694cc2802cbd2bfe83ee1aa"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp_registered_src.tar!scripts/run_rgbd_registered_replay.sh",
+    "origin": "tar_member",
+    "bytes": 338,
+    "sha256": "c0339ac36f470ea3a9fd5e30cba4c7e04a92d4fdfaf19750f00e8edd2dcab1cf",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp_stage24d_final.tar!scripts/run_stage24d_rgbd.sh",
+    "origin": "tar_member",
+    "bytes": 406,
+    "sha256": "648d044e47185e6975f0a6d9571aec26eaf4ed2274c1cb54744600e133ac3a30",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage26-inputs.tar!src/cumulti/rgbd_full/check_staged.py",
+    "origin": "tar_member",
+    "bytes": 1407,
+    "sha256": "95669e4f15f8afe761400a595aa5e079e11c7dcf394cf121321f3abb4593057a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage26-inputs.tar!src/cumulti/rgbd_full/stage26_manifest.py",
+    "origin": "tar_member",
+    "bytes": 5189,
+    "sha256": "41effd9f6135e9043c5f686bfddf4c1f7028f301ad4c0c35b6abcad6bf696f0f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage31-final-source.tar!scripts/run_stage31_persistence.sh",
+    "origin": "tar_member",
+    "bytes": 509,
+    "sha256": "494c9b9616dc905166ae711795bf46d9e75f975bf772d2607be590ec6e7717b6",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-baseline.tar!outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera.yaml",
+    "origin": "tar_member",
+    "bytes": 895,
+    "sha256": "d0f412d96fd3de57e95fd34639969b2422aeb4569cd636dbcad510336981ee8c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-code.tar!src/cumulti/rgbd_full/stage32_preflight.py",
+    "origin": "tar_member",
+    "bytes": 18697,
+    "sha256": "3bd5914aa7bf3af9525cd61096481d114f159659765898f693c33fbcb117d79d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-code.tar!src/cumulti/rgbd_full/stage32_report.py",
+    "origin": "tar_member",
+    "bytes": 12973,
+    "sha256": "f7a4e398028b7235e29a1e9129a51adeaa6be0852d14803f83b17d28b4dc6f2b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-code.tar!src/cumulti/rgbd_full/stage32_inventory.py",
+    "origin": "tar_member",
+    "bytes": 1615,
+    "sha256": "5774d781aeeff48d0c91424bf63543607c4b5bd0adeb46bc418b1cb6aa0913aa",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream\\Vocabulary\\ORBvoc.txt.tar.gz!ORBvoc.txt",
+    "origin": "tar_member",
+    "bytes": 145250924,
+    "sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "recovered_copy": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32r-local-work\\recovered\\ORBvoc.txt"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-source-reference.tar!include/System.h",
+    "origin": "tar_member",
+    "bytes": 8739,
+    "sha256": "15f6d922e502cf56b542e8bc4c03cf70c91ad15561a7f0a52db6e2c2137a9647",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-source-reference.tar!include/Tracking.h",
+    "origin": "tar_member",
+    "bytes": 10470,
+    "sha256": "ba988cd16a0c49c69e5296b53e0b5896d53e936915cb61faa4f7406ef1ce4fed",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-source-reference.tar!src/Frame.cc",
+    "origin": "tar_member",
+    "bytes": 41495,
+    "sha256": "088c8b33443e52f161c9f0485ade8f59bff5c5fa00c6fd34fc64a3988e6eb28e",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-source-reference.tar!src/ORBextractor.cc",
+    "origin": "tar_member",
+    "bytes": 54541,
+    "sha256": "388d093203497310998abae8b81f97e00acf95dd3544aa7a819fad665c4fc978",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-source-reference.tar!src/System.cc",
+    "origin": "tar_member",
+    "bytes": 53437,
+    "sha256": "9bf2ee0d9cfd662bc6f2f18a2b17f0482689960ad2bcbf430c5a47068970588f",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-source-reference.tar!src/Tracking.cc",
+    "origin": "tar_member",
+    "bytes": 142550,
+    "sha256": "a5828543839a42e0bb499e3325e32dddfa20d5f7f00db2d9b99f58f2fbdb9743",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "normalization_can_match_historical": true,
+    "normalization": "CRLF to LF in a separate recovered copy only"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-vocabulary.tar!Vocabulary/ORBvoc.txt.tar.gz",
+    "origin": "tar_member",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\Documents\\WeChat Files\\wxid_sj7xxhqmnhxe22\\FileStorage\\File\\2025-04\\slambook2.zip!3rdparty/ceres-solver/internal/ceres/system_test.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 8750,
+    "sha256": "f699a3215fb0afcf07ba87bffc9ea81f706f8541cb554c7d47340e4e4a19b836",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9db2c9ff09150c6c8b4466b5dce60467623bcf5e7ffc879151ae16c1639fb977"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\Downloads\\opencv-3.2.0.zip!opencv-3.2.0/modules/video/include/opencv2/video/tracking.hpp",
+    "origin": "zip_member_crc_checked",
+    "bytes": 31382,
+    "sha256": "c7f3b88df330a9d062ecc60f352baaf025340a523e43736d98c475fd23a6e83e",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "c7f3b88df330a9d062ecc60f352baaf025340a523e43736d98c475fd23a6e83e"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\Downloads\\opencv-3.2.0.zip!opencv-3.2.0/modules/video/include/opencv2/video/tracking_c.h",
+    "origin": "zip_member_crc_checked",
+    "bytes": 11476,
+    "sha256": "143424ac458e33a96b190ad26d6c14f1be608f6d2025e2d06db7a0c81cf32b9d",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "143424ac458e33a96b190ad26d6c14f1be608f6d2025e2d06db7a0c81cf32b9d"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\Downloads\\opencv-3.4.5.zip!opencv-3.4.5/modules/video/include/opencv2/video/tracking.hpp",
+    "origin": "zip_member_crc_checked",
+    "bytes": 31648,
+    "sha256": "e06ddc1cdec198cf15f8cec92dab830b84eeee061bca9a1a6da4190894e74f2f",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e06ddc1cdec198cf15f8cec92dab830b84eeee061bca9a1a6da4190894e74f2f"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\Downloads\\opencv-3.4.5.zip!opencv-3.4.5/modules/video/include/opencv2/video/tracking_c.h",
+    "origin": "zip_member_crc_checked",
+    "bytes": 11476,
+    "sha256": "143424ac458e33a96b190ad26d6c14f1be608f6d2025e2d06db7a0c81cf32b9d",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "143424ac458e33a96b190ad26d6c14f1be608f6d2025e2d06db7a0c81cf32b9d"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/CMakeLists.txt",
+    "origin": "zip_member_crc_checked",
+    "bytes": 2932,
+    "sha256": "f849099524ce5d2588160c0150ce31bd74803a9ba30a378bdca5ccd83708d47d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/Vocabulary/ORBvoc.txt.tar.gz",
+    "origin": "zip_member_crc_checked",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/include/System.h",
+    "origin": "zip_member_crc_checked",
+    "bytes": 6221,
+    "sha256": "5680f1d55352ef7c785148e53f0a3998001d46db8588122c26a805fba03a5524",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5680f1d55352ef7c785148e53f0a3998001d46db8588122c26a805fba03a5524"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/include/Tracking.h",
+    "origin": "zip_member_crc_checked",
+    "bytes": 6172,
+    "sha256": "cb926e3b6704ab8052cb2832158ee094caa7218cbd729f9b25503830114b48d0",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "cb926e3b6704ab8052cb2832158ee094caa7218cbd729f9b25503830114b48d0"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/src/Frame.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 20918,
+    "sha256": "76b6f5fdc9c178e4730ab8ed0515c087dc053ea770a90427834d447ab46b62b3",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "76b6f5fdc9c178e4730ab8ed0515c087dc053ea770a90427834d447ab46b62b3"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/src/ORBextractor.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 44013,
+    "sha256": "252f03c747e7d5436e85bc93ff0a2f972b488c2a481016cf0a70e214e70a7734",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "252f03c747e7d5436e85bc93ff0a2f972b488c2a481016cf0a70e214e70a7734"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/src/System.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 15248,
+    "sha256": "255a843d6b3226135d833d9d8ad6cefb3b7ec3edbc94acdcdbee55700a9a08a1",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "255a843d6b3226135d833d9d8ad6cefb3b7ec3edbc94acdcdbee55700a9a08a1"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master (1).zip!ORB_SLAM2-master/src/Tracking.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 47654,
+    "sha256": "e43d607103a6dbd769c0ba53a7c9ec23d497abcc30852ebe8c2a6065ab2dab34",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e43d607103a6dbd769c0ba53a7c9ec23d497abcc30852ebe8c2a6065ab2dab34"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/CMakeLists.txt",
+    "origin": "zip_member_crc_checked",
+    "bytes": 2932,
+    "sha256": "f849099524ce5d2588160c0150ce31bd74803a9ba30a378bdca5ccd83708d47d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/Vocabulary/ORBvoc.txt.tar.gz",
+    "origin": "zip_member_crc_checked",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/include/System.h",
+    "origin": "zip_member_crc_checked",
+    "bytes": 6221,
+    "sha256": "5680f1d55352ef7c785148e53f0a3998001d46db8588122c26a805fba03a5524",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "5680f1d55352ef7c785148e53f0a3998001d46db8588122c26a805fba03a5524"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/include/Tracking.h",
+    "origin": "zip_member_crc_checked",
+    "bytes": 6172,
+    "sha256": "cb926e3b6704ab8052cb2832158ee094caa7218cbd729f9b25503830114b48d0",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "cb926e3b6704ab8052cb2832158ee094caa7218cbd729f9b25503830114b48d0"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/src/Frame.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 20918,
+    "sha256": "76b6f5fdc9c178e4730ab8ed0515c087dc053ea770a90427834d447ab46b62b3",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "76b6f5fdc9c178e4730ab8ed0515c087dc053ea770a90427834d447ab46b62b3"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/src/ORBextractor.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 44013,
+    "sha256": "252f03c747e7d5436e85bc93ff0a2f972b488c2a481016cf0a70e214e70a7734",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "252f03c747e7d5436e85bc93ff0a2f972b488c2a481016cf0a70e214e70a7734"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/src/System.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 15248,
+    "sha256": "255a843d6b3226135d833d9d8ad6cefb3b7ec3edbc94acdcdbee55700a9a08a1",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "255a843d6b3226135d833d9d8ad6cefb3b7ec3edbc94acdcdbee55700a9a08a1"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "C:\\Users\\a1369\\Downloads\\ORB_SLAM2-master.zip!ORB_SLAM2-master/src/Tracking.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 47654,
+    "sha256": "e43d607103a6dbd769c0ba53a7c9ec23d497abcc30852ebe8c2a6065ab2dab34",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "e43d607103a6dbd769c0ba53a7c9ec23d497abcc30852ebe8c2a6065ab2dab34"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\xwechat_files\\wxid_sj7xxhqmnhxe22_ca83\\msg\\file\\2025-04\\slambook2.zip!3rdparty/ceres-solver/internal/ceres/system_test.cc",
+    "origin": "zip_member_crc_checked",
+    "bytes": 8750,
+    "sha256": "f699a3215fb0afcf07ba87bffc9ea81f706f8541cb554c7d47340e4e4a19b836",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "9db2c9ff09150c6c8b4466b5dce60467623bcf5e7ffc879151ae16c1639fb977"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@d2e8ff8ce3ef27e9b5a58c20d99ef81876bb9948:outputs/cumulti_v1/24_rgbd_demo_v1/robot1/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 859,
+    "sha256": "ee06e3e788d91b379eef38811f8af8a618bdbbcabf4f3e223e423ec4c000f141",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@0e61dd2197b7c8607d1df6ad0182459754b57ab8:outputs/cumulti_v1/24_rgbd_demo_v1/robot3/paced/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 860,
+    "sha256": "c3d885a514b6b462639b76c0a8a2ff419c1ae53937504e664d474df47cfcc571",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@5721101296732de9fceb48d6f293091f9164f06d:outputs/cumulti_v1/24_rgbd_full_v1/robot1/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 860,
+    "sha256": "62e7555dd62b0a629b0a87111f33b5660163b405be42a454dbeea30b23bffff3",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@b2787230778fcac2c47eac1d5c013cfae10b9685:outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 861,
+    "sha256": "ac1885b6d4ee46e0bf454f53ac751a7e1aca67c645bd511feed4cfc7de443809",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@b8aab8dfc3a5aa49aed8912a5850f30a359b30d9:outputs/cumulti_v1/24_rgbd_long_v1/robot1/fallback2000/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 860,
+    "sha256": "4ab216a746d6087441358c00eec4228e69204b2e46eecefd4bfb64b182e6ee75",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@66df7ae4daf117f0ade57bb53043247d554e88d2:outputs/cumulti_v1/24_rgbd_long_v1/robot3/fallback2000/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 861,
+    "sha256": "e5b6389acdd37980b61dc423cc5db1639bde8b6db725ae469b2946933a57845d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@e49e67eb5c56149e35df0af5ba7c43ca2dddc523:outputs/cumulti_v1/24b_vision_feasibility/engineering_pretracking_loader_failure/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 795,
+    "sha256": "36184ed00e500f934ec68cc8429d5ed732bb95a0b8ee25af7c86f2dbc78ab25a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@2de1e82185e41171c415721d6980f5535ddd7f8c:outputs/cumulti_v1/24b_vision_feasibility/engineering_pretracking_loader_failure/sequence.txt",
+    "origin": "git_historical_blob",
+    "bytes": 7620,
+    "sha256": "bf6201bc9defe80c5e5f4c7c68b780c3a31a3f04148b5c3f08680c3acec27d35",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@a2621f77f5e489521936eb145a7ad401d6c16ef2:outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_120_132/sequence.txt",
+    "origin": "git_historical_blob",
+    "bytes": 7620,
+    "sha256": "7e5b54429f915d63923692f0f92206fb1a5a54aab71e8d12e192634fe540ecae",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@4a2069d2e1e53db87390d66ff28b4ec9dde8dc6d:outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot1_240_252/sequence.txt",
+    "origin": "git_historical_blob",
+    "bytes": 7620,
+    "sha256": "5f07fa34af2ad83423f3ad1732c67461278699a70135269bdf05d3b73031b43a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "camera.yaml",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@332ce321e1e5db8066b73920e7fd5e4f6266aaa3:outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_000_012/camera.yaml",
+    "origin": "git_historical_blob",
+    "bytes": 796,
+    "sha256": "f5aab3509402e2a76391f105bd7f4ca9310284284f861a990eeac3ef26ba026a",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@1a4b1b081e6d6c77e28b53cd8738d3841ba8e123:outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_000_012/sequence.txt",
+    "origin": "git_historical_blob",
+    "bytes": 7620,
+    "sha256": "a070f8d137dde6cd1dbf15e7444d0fb793639070c3dcb7099fa6b84ad8a8236f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@2ee3ffc902f7c12c3038021fa2443505214119da:outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_120_132/sequence.txt",
+    "origin": "git_historical_blob",
+    "bytes": 7620,
+    "sha256": "424921a60e33f854b59fd2777729aa57c9b3dd0935fef4b935ef9693c3cf64d0",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "sequence.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@6cedbf141557590eacc849b44af59285d8e7b407:outputs/cumulti_v1/24b_vision_feasibility/orb_pilot/robot3_240_252/sequence.txt",
+    "origin": "git_historical_blob",
+    "bytes": 7620,
+    "sha256": "18306962af874d0579771ab57920311b4bc2fb8760d99aed9c1a43239fef13f1",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL",
+    "note": "No historical sequence SHA receipt; file content and original provenance still require validation."
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@0fcc1c50fb45ffe0b11315f472efede1049cafcd:scripts/build_rgbd_causal.sh",
+    "origin": "git_historical_blob",
+    "bytes": 1025,
+    "sha256": "46324362de358127f478c7b2e6db64f63ddd62a42088601358939434e3955f2f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@c0d716fa838a940fc7cfab54b250c5898327cdae:scripts/build_rgbd_demo.sh",
+    "origin": "git_historical_blob",
+    "bytes": 839,
+    "sha256": "4051f50ef27356461bc61c5ea73668447df8beaeb4eece0ebbfc65a84298280c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@2fdfb25d617b877d426a29bc00da00c159059d9f:scripts/build_rgbd_full.sh",
+    "origin": "git_historical_blob",
+    "bytes": 1626,
+    "sha256": "6a76bb2164b8b469146fedee6764020afec75ad154fd1761dbdf3ccbf1eb256e",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@ccd0f5b6b78767d828d1de51f7c8cc51e5c85e4d:scripts/build_rgbd_long.sh",
+    "origin": "git_historical_blob",
+    "bytes": 892,
+    "sha256": "7206ce57112a92a790f3f2b16f54250d9eb384fdc38ef3117b46dff39ba84ab8",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@fd2b2755e254abaf383d2632685cb3a895f1359d:scripts/build_rgbd_loss_audit.sh",
+    "origin": "git_historical_blob",
+    "bytes": 557,
+    "sha256": "0de954211f0f953a454c1e425e372e7ff72d9cdc0abf9464be848545ae76b35b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@dce6fcd6b6a82bc1afed4899a859d273604e45e6:scripts/build_stage24_camera_pilot.sh",
+    "origin": "git_historical_blob",
+    "bytes": 900,
+    "sha256": "b839d3ee73e0461034a053806ca751c16dba005b7f46b887fc34fa58601e395f",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@439beafd0e53ab77a2b1f708a0c2bd15b2c03402:scripts/run_rgbd_full.sh",
+    "origin": "git_historical_blob",
+    "bytes": 1226,
+    "sha256": "c526f17d8c27ba4eab3bdd223450a8a423284597759d7d022983596108765da7",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@1fef0d84f87bfa4f152eb3764f2d48574da1c171:scripts/run_rgbd_registered_replay.sh",
+    "origin": "git_historical_blob",
+    "bytes": 338,
+    "sha256": "c0339ac36f470ea3a9fd5e30cba4c7e04a92d4fdfaf19750f00e8edd2dcab1cf",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@24dccce13ad2d2995c2e54d0db2f21050871047c:scripts/run_stage24d_rgbd.sh",
+    "origin": "git_historical_blob",
+    "bytes": 406,
+    "sha256": "648d044e47185e6975f0a6d9571aec26eaf4ed2274c1cb54744600e133ac3a30",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@81c572a9b5182ec25aaaee6e9ad05f5092b19c75:scripts/run_stage24e_feasibility.sh",
+    "origin": "git_historical_blob",
+    "bytes": 432,
+    "sha256": "003b346186360fd2e4efb7f5fa233a9a7eb0ac2c9577ccf3113054d210d9a182",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@474f6cf2251d9183f34fe69ce69fa039ca29a788:scripts/run_stage26_bounded.sh",
+    "origin": "git_historical_blob",
+    "bytes": 1695,
+    "sha256": "d2819095b458d072b3eeb120dbf2382e4e40c136f617d00a4ae8a701deff6f98",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@ae677e376707b30d151369666b75765cd614b9a3:scripts/run_stage31_persistence.sh",
+    "origin": "git_historical_blob",
+    "bytes": 508,
+    "sha256": "c97b14999a848462173b049ae943e2672132fd117a0f4f43666162e8953fd48e",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@317e512113430e2d7e73a43ed26bc30cf9d027b4:scripts/run_stage32_preflight.sh",
+    "origin": "git_historical_blob",
+    "bytes": 518,
+    "sha256": "f64c236d3a677ebc601b27c00b3c2c3b7636060e1e25352b969068041bbd4cb7",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@444e0c63facbd6da6cf4b4252596a442745fa113:src/cumulti/rgbd_full/check_staged.py",
+    "origin": "git_historical_blob",
+    "bytes": 1391,
+    "sha256": "98c42a22a286c28cefe62c3d0b9d99669e2a2f7c0502e963de1d2880c787bd6d",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@372741dd9913a973419e978b15b5087c62c64e79:src/cumulti/rgbd_full/stage26_manifest.py",
+    "origin": "git_historical_blob",
+    "bytes": 5098,
+    "sha256": "08db6426fff4c0ce4bd12b2c71faad0e0f49dadc4c65b267c18caebe68258819",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@9e8cdc0e7b2c5a948ceab79eb7733cc0f9063cc8:src/cumulti/rgbd_full/stage26_plan.py",
+    "origin": "git_historical_blob",
+    "bytes": 2945,
+    "sha256": "5ec8d874de119ee401b51b64e75635a8918daba0fa5c2696d88920ef96a7ca0c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@2bd093ca632d7ed8d5d1ad6ae9319dc626635db8:src/cumulti/rgbd_full/stage32_inventory.py",
+    "origin": "git_historical_blob",
+    "bytes": 1614,
+    "sha256": "6a405d9f9f52268857f9ad0bbcf98f7d44054fbd9b3ffa3c8847020e222ac73b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@2d501504c4ac77a9b7aedb0cd41a86a43cf00b4d:src/cumulti/rgbd_full/stage32_preflight.py",
+    "origin": "git_historical_blob",
+    "bytes": 18696,
+    "sha256": "723b9559b38180142f1d60e4d0f9e5a5b5b1f340111a62ab18dc0bdf2b723c4c",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@711b84e08b316a3368bc6cd9f7ead6e252b49751:src/cumulti/rgbd_full/stage32_report.py",
+    "origin": "git_historical_blob",
+    "bytes": 12972,
+    "sha256": "28cd64a7b768b0b4fe7a38a20c5aea9cc8d2ba0045172eeea089eb83ea116f77",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push@fc3e25d5e1c5d0e2506b1355a7f625b8d806517c:scripts/run_stage26_bounded.sh",
+    "origin": "git_historical_blob",
+    "bytes": 1645,
+    "sha256": "ab09f0a60c0f0c9cb6460e4b825c9566e166239135379ab90075be2651d2af4b",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@016e74354d6a6fe082978fe4065833de6307f8ee:CMakeLists.txt",
+    "origin": "git_historical_blob",
+    "bytes": 12511,
+    "sha256": "4ec721c72dc3304d8e0090202d7ccf0201ecd34630ffc8fe45b597d59c7e09e3",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "build_file",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@12792fe44b4cf82fcce652c4b884cc02e5a258a2:Examples_old/ROS/ORB_SLAM3/CMakeLists.txt",
+    "origin": "git_historical_blob",
+    "bytes": 2616,
+    "sha256": "c666bab908264b6001a539729b98ce18f12c44fc7e872bb30844b5c4f62cfdc6",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "ORBvoc.txt",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@96f5a8184a1b401dae9b51fd8f3aae03de0a8b20:Vocabulary/ORBvoc.txt.tar.gz",
+    "origin": "git_historical_blob",
+    "bytes": 42527984,
+    "sha256": "ff2d0e82a69a8f4c5c002e3a0dff82a00e5872e1659fac1b996f41166b92693b",
+    "expected_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@96d1c0941cdbd5584cad99b24b8af3d33e9dc0d0:build.sh",
+    "origin": "git_historical_blob",
+    "bytes": 618,
+    "sha256": "efc0a9f697f2a9b2c3fc11151fe884740650268eeeff5448697beabcd43c72cb",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "source_script",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@1f13d2155fc5d87dc3cec6864bc8392c50bbd9af:build_ros.sh",
+    "origin": "git_historical_blob",
+    "bytes": 116,
+    "sha256": "355ecead524b18cb89887bc0dfd6432be1ed561d321cee94625aeede46036707",
+    "expected_sha256": null,
+    "classification": "RECONSTRUCTED_NOT_ORIGINAL"
+  },
+  {
+    "dependency": "System.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@872c86e734d8c0e72044421de70e5c74bc03502e:include/System.h",
+    "origin": "git_historical_blob",
+    "bytes": 8470,
+    "sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310",
+    "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310"
+  },
+  {
+    "dependency": "Tracking.h",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@863c98e4f29cbb1df25856d78f17bc4428c220ce:include/Tracking.h",
+    "origin": "git_historical_blob",
+    "bytes": 10095,
+    "sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "expected_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+    "recovered_copy": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32r-local-work\\recovered\\Tracking.h"
+  },
+  {
+    "dependency": "Frame.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@a04c312ce071f6ec96c176234fd196388bbde005:src/Frame.cc",
+    "origin": "git_historical_blob",
+    "bytes": 40247,
+    "sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "expected_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+    "recovered_copy": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32r-local-work\\recovered\\Frame.cc"
+  },
+  {
+    "dependency": "ORBextractor.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@970b7cc7bf39630109f07b942b25c9f0115c5a7f:src/ORBextractor.cc",
+    "origin": "git_historical_blob",
+    "bytes": 53344,
+    "sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "expected_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+    "recovered_copy": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32r-local-work\\recovered\\ORBextractor.cc"
+  },
+  {
+    "dependency": "System.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@60d9c5185a01f68baea1b7b60873aee7e684cccd:src/System.cc",
+    "origin": "git_historical_blob",
+    "bytes": 51888,
+    "sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a",
+    "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "classification": "RECOVERED_BUT_HASH_MISMATCH",
+    "lf_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a"
+  },
+  {
+    "dependency": "Tracking.cc",
+    "location": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32-orb-upstream@5191451a8152ed10c382cc7fe474c487ef713f35:src/Tracking.cc",
+    "origin": "git_historical_blob",
+    "bytes": 138424,
+    "sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "expected_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "classification": "RECOVERED_AND_HASH_VERIFIED",
+    "lf_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+    "recovered_copy": "C:\\Users\\a1369\\AppData\\Local\\Temp\\stage32r-local-work\\recovered\\Tracking.cc"
+  }
+]

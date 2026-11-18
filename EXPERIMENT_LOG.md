@@ -405,3 +405,8 @@ Stage31 froze 61-frame windows around each of the three Epoch9 events, with fram
 ## Stage32 native tracking dependency checkpoint
 
 Stage32 inspected the native baseline dependencies, recovered hash-matched Tracking/Frame/ORBextractor/Tracking.h sources and vocabulary, and executed a separate native feature/depth probe on 33 target/control images. Full tracking replay is blocked by the missing original SDK/runtime and mismatched historical System files. See [the Stage32 report](outputs/cumulti_v1/32_native_tracking_forensics/STAGE32_NATIVE_TRACKING_REPORT.md).
+
+
+## Stage32R historical runtime restoration (2026-11-18)
+
+Read-only recovery audited the accessible server root, local C/D/E drives, archives, Git history and bundles, plus available process/snapshot evidence. The server search visited 414,734 files and 111 archives; the local search visited 2,262,668 files and 1,790 archives. Access errors, unsupported archives and invalid repositories are recorded rather than counted as successful checks. Four core source files and vocabulary match historical receipts; original modified System.cc/System.h and baseline executable/library remain unrecovered. Frozen camera/build settings were checked; the sequence is reconstructed, not authenticated as original. Recovery gate: BLOCKED_ORIGINAL_RUNTIME_NOT_RECOVERED. No installation, instrumented build, replay or scientific artifact change. See [Stage32R report](outputs/cumulti_v1/32r_runtime_restoration/STAGE32R_RUNTIME_RESTORATION_REPORT.md).

@@ -1,0 +1,85 @@
+[
+  {
+    "repository": "/home/cas/.codex/.tmp/plugins",
+    "head": "d420d13051bffe4543ed39e30fa46b87148e47dd",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=/home/cas/.codex/.tmp/plugins",
+        "-C",
+        "/home/cas/.codex/.tmp/plugins",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree /home/cas/.codex/.tmp/plugins\nHEAD d420d13051bffe4543ed39e30fa46b87148e47dd\nbranch refs/heads/master\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 12,
+    "all_blob_size_candidates": 1,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "/tmp/scancontext_official_stage81",
+    "head": "93672835bb85e9c03fedf0fbaf2d0491df12161e",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=/tmp/scancontext_official_stage81",
+        "-C",
+        "/tmp/scancontext_official_stage81",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree /tmp/scancontext_official_stage81\nHEAD 93672835bb85e9c03fedf0fbaf2d0491df12161e\nbranch refs/heads/main\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 0,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED"
+  },
+  {
+    "repository": "work/stage32r/git_bundle_copies/c3fe0e01bafe1cfc",
+    "head": "HEAD",
+    "worktrees": {
+      "command": [
+        "git",
+        "-c",
+        "safe.directory=work/stage32r/git_bundle_copies/c3fe0e01bafe1cfc",
+        "-C",
+        "work/stage32r/git_bundle_copies/c3fe0e01bafe1cfc",
+        "worktree",
+        "list",
+        "--porcelain"
+      ],
+      "returncode": 0,
+      "stdout": "worktree /home/cas/fyp_stage26/work/stage32r/git_bundle_copies/c3fe0e01bafe1cfc\nbare\n\n",
+      "stderr": ""
+    },
+    "named_historical_objects": 23,
+    "all_blob_size_candidates": 0,
+    "status": "INSPECTED",
+    "original_bundle": "/home/cas/stage11_backups/stage11_gicp_value_2ff22b8.bundle"
+  },
+  {
+    "bundle": "/tmp/fyp-stage24e.bundle",
+    "copy_result": {
+      "command": [
+        "git",
+        "clone",
+        "--mirror",
+        "--quiet",
+        "/tmp/fyp-stage24e.bundle",
+        "work/stage32r/git_bundle_copies/be7666875eb18d1b"
+      ],
+      "returncode": 128,
+      "stdout": "",
+      "stderr": "error: Repository lacks these prerequisite commits:\nerror: ca1af67e7534ef87ee102559964d4a8e51ddcfea \nfatal: remote transport reported error\n"
+    }
+  }
+]

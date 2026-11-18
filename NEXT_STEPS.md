@@ -382,3 +382,8 @@ Keep the Epoch9 poses and map. Temporal residual growth is suggestive, while spa
 ## Stage32 native tracking dependency checkpoint
 
 Restore the authenticated modified SDK working tree or System.cc/System.h patch, baseline native library and executable/build context. Resume logging-only instrumentation in a separate SDK copy and replay from frame 0 through 12087. The native tracking root cause remains unresolved. See [the Stage32 report](outputs/cumulti_v1/32_native_tracking_forensics/STAGE32_NATIVE_TRACKING_REPORT.md).
+
+
+## Stage32R recovery gate
+
+Before native tracking instrumentation, obtain the original modified System.cc and System.h (or authentic patch), original rgbd_full and libORB_SLAM3.so with the recorded hashes. Recover original sequence.txt or its independent historical checksum before authenticating sequence identity. Check administrator-accessible backups/container storage/provider snapshots if available; this is not a missing camera-dataset issue. Do not substitute public System behavior or rerun the baseline as exact reproduction. Only after identity and linkage checks pass, create a separate logging-only SDK build; no full replay is authorized by this checkpoint. See [Stage32R report](outputs/cumulti_v1/32r_runtime_restoration/STAGE32R_RUNTIME_RESTORATION_REPORT.md).

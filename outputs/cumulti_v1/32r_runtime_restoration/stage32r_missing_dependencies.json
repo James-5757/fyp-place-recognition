@@ -1,0 +1,118 @@
+{
+  "critical_missing": [
+    {
+      "dependency": "System.cc",
+      "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    },
+    {
+      "dependency": "System.h",
+      "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    },
+    {
+      "dependency": "rgbd_full",
+      "expected_sha256": "4833b5c64656d62549f26c3494ccd5e96bf724e6acfb173ea0450525b9c1728f",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    },
+    {
+      "dependency": "libORB_SLAM3.so",
+      "expected_sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    }
+  ],
+  "minimum_additional_files": [
+    {
+      "dependency": "System.cc",
+      "expected_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    },
+    {
+      "dependency": "System.h",
+      "expected_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    },
+    {
+      "dependency": "rgbd_full",
+      "expected_sha256": "4833b5c64656d62549f26c3494ccd5e96bf724e6acfb173ea0450525b9c1728f",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    },
+    {
+      "dependency": "libORB_SLAM3.so",
+      "expected_sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252",
+      "reason": "No accessible candidate matched the historical identity",
+      "upstream_substitution_permitted": false
+    }
+  ],
+  "pre_replay_sequence_requirement": "Original sequence.txt or an independently recorded historical checksum is still needed to authenticate sequence-file identity.",
+  "known_available": [
+    "hash-verified vocabulary",
+    "four hash-verified SDK source files",
+    "frozen camera settings",
+    "frozen native build recipe",
+    "original RGB/depth bags and sync rows"
+  ],
+  "access_limits": [
+    {
+      "path": "/root",
+      "exists": true,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/lib/docker",
+      "exists": true,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/run/docker.sock",
+      "exists": true,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/backups",
+      "exists": true,
+      "readable": true,
+      "traversable": true
+    },
+    {
+      "path": "/.snapshots",
+      "exists": false,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/timeshift/snapshots",
+      "exists": false,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/var/lib/snapd/snapshots",
+      "exists": false,
+      "readable": false,
+      "traversable": false
+    },
+    {
+      "path": "/mnt",
+      "exists": true,
+      "readable": true,
+      "traversable": true
+    },
+    {
+      "path": "/media",
+      "exists": true,
+      "readable": true,
+      "traversable": true
+    }
+  ]
+}
