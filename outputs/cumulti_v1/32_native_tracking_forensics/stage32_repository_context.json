@@ -1,0 +1,10 @@
+{
+  "repository_head_before_stage32": "1859291a0d448ccf62b9e3317f2b2055c5497b25",
+  "working_branch": "stage32-native-tracking-forensics",
+  "preexisting_working_tree_changes": [
+    "untracked stage24e.bundle"
+  ],
+  "tracked_changes_before_stage32": [],
+  "controlled_git_checkout": "C:\\Users\\a1369\\AppData\\Local\\Temp\\fyp-stage24e-push",
+  "experiment_server_workspace": "/home/cas/fyp_stage26"
+}

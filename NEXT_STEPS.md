@@ -377,3 +377,8 @@ Keep frozen geometry. If separately authorized, test a bounded Epoch 9 segment r
 ## Stage31 Epoch9 segment persistence
 
 Keep the Epoch9 poses and map. Temporal residual growth is suggestive, while sparse visual depth matches and inconsistent geometric transformations prevent a validated spike/offset/drift decision. Further bounded work should establish motion with depth-backed visual support and independent validation before authorizing segment edits. See [the Stage31 report](outputs/cumulti_v1/31_epoch9_persistence/STAGE31_SEGMENT_PERSISTENCE_REPORT.md).
+
+
+## Stage32 native tracking dependency checkpoint
+
+Restore the authenticated modified SDK working tree or System.cc/System.h patch, baseline native library and executable/build context. Resume logging-only instrumentation in a separate SDK copy and replay from frame 0 through 12087. The native tracking root cause remains unresolved. See [the Stage32 report](outputs/cumulti_v1/32_native_tracking_forensics/STAGE32_NATIVE_TRACKING_REPORT.md).

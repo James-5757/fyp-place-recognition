@@ -563,3 +563,8 @@ Robot3 Epoch 6 jump spans 33 invalid poses during a real turn with unsynchronize
 ## Stage31 Epoch9 segment persistence
 
 Stage31 decoded 183 original RGB-D observations and recorded 396 method/pair outcomes. All three event classifications are INCONCLUSIVE. No fit-only candidate passed the unchanged multi-frame and withheld-consistency gates. The preservation hash audit passed. See [the Stage31 report](outputs/cumulti_v1/31_epoch9_persistence/STAGE31_SEGMENT_PERSISTENCE_REPORT.md).
+
+
+## Stage32 native tracking dependency checkpoint
+
+Stage32 native replay status is BLOCKED_NATIVE_REPLAY_DEPENDENCIES. Standalone native extractor depth-supported counts at target frames are 331, 640 and 296, comparable to neighboring controls. Historical optimizer inliers, pre/post optimization poses and Local Mapping events remain unavailable. Original input hash preservation passed. See [the Stage32 report](outputs/cumulti_v1/32_native_tracking_forensics/STAGE32_NATIVE_TRACKING_REPORT.md).

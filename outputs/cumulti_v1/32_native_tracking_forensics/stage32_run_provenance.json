@@ -1,0 +1,410 @@
+{
+  "native_opencv": "4.5.4",
+  "compiler": "g++ (Ubuntu 11.4.0-1ubuntu1~22.04.3) 11.4.0",
+  "source_code_sha256": {
+    "stage32_report.py": "f7a4e398028b7235e29a1e9129a51adeaa6be0852d14803f83b17d28b4dc6f2b",
+    "stage32_inventory.py": "5774d781aeeff48d0c91424bf63543607c4b5bd0adeb46bc418b1cb6aa0913aa",
+    "stage32_preflight.py": "3bd5914aa7bf3af9525cd61096481d114f159659765898f693c33fbcb117d79d",
+    "stage32_feature_probe.cc": "f32bbd7d7eb04e351cc9f2a5ed0f2bfd8213054be393d6f90fcf5387691d83e8"
+  },
+  "recovered_vocabulary_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+  "recovered_vocabulary_bytes": 145250924,
+  "status": "BLOCKED_NATIVE_REPLAY_DEPENDENCIES",
+  "parent_commit": "1859291a0d448ccf62b9e3317f2b2055c5497b25",
+  "original_dependency_inventory": {
+    "sdk_directory": {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3",
+      "exists": false,
+      "sha256": null
+    },
+    "tracking_source": {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/Tracking.cc",
+      "exists": false,
+      "sha256": null
+    },
+    "system_source": {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/src/System.cc",
+      "exists": false,
+      "sha256": null
+    },
+    "system_header": {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/include/System.h",
+      "exists": false,
+      "sha256": null
+    },
+    "library": {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/lib/libORB_SLAM3.so",
+      "exists": false,
+      "sha256": null
+    },
+    "vocabulary": {
+      "path": "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/Vocabulary/ORBvoc.txt",
+      "exists": false,
+      "sha256": null
+    },
+    "executable": {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/bin/rgbd_full",
+      "exists": false,
+      "sha256": null
+    },
+    "sequence": {
+      "path": "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sequence.txt",
+      "exists": false,
+      "sha256": null
+    }
+  },
+  "historical_native_receipt": {
+    "command": [
+      "strace",
+      "-f",
+      "-e",
+      "trace=open,openat",
+      "-o",
+      "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/native_access.log",
+      "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/bin/rgbd_full",
+      "/home/cas/fyp_mcd_stereo_inertial/tools/ORB_SLAM3/Vocabulary/ORBvoc.txt",
+      "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera.yaml",
+      "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sequence.txt",
+      "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/frame_poses.csv",
+      "/home/cas/fyp_place_recognition/outputs/cumulti_v1/24_rgbd_full_v1/robot3/unused_corrected.tum"
+    ],
+    "settings": {
+      "Camera1.fx": 313.90203857421875,
+      "Camera1.fy": 313.6531677246094,
+      "Camera1.cx": 320.364990234375,
+      "Camera1.cy": 207.70822143554688,
+      "Camera1.k1": -0.05718468502163887,
+      "Camera1.k2": 0.06778068095445633,
+      "Camera1.p1": 0.0007177605293691158,
+      "Camera1.p2": 0.00034092238638550043,
+      "Camera1.k3": -0.021577496081590652,
+      "Camera.width": 640,
+      "Camera.height": 400,
+      "Camera.fps": 10,
+      "Camera.RGB": 0,
+      "Stereo.b": 0.05,
+      "Stereo.ThDepth": 40.0,
+      "RGBD.DepthMapFactor": 1000.0,
+      "ORBextractor.nFeatures": 1000,
+      "ORBextractor.scaleFactor": 1.2,
+      "ORBextractor.nLevels": 8,
+      "ORBextractor.iniThFAST": 20,
+      "ORBextractor.minThFAST": 7,
+      "Viewer.KeyFrameSize": 0.05,
+      "Viewer.KeyFrameLineWidth": 1.0,
+      "Viewer.GraphLineWidth": 0.9,
+      "Viewer.PointSize": 2.0,
+      "Viewer.CameraSize": 0.08,
+      "Viewer.CameraLineWidth": 3.0,
+      "Viewer.ViewpointX": 0.0,
+      "Viewer.ViewpointY": -0.7,
+      "Viewer.ViewpointZ": -1.8,
+      "Viewer.ViewpointF": 500.0
+    },
+    "frames": 20977,
+    "source_sha256": "4076210d908316bd5b18c24ba0ca3b6109b9a95f911825b14327920fbb594f97",
+    "binary_sha256": "4833b5c64656d62549f26c3494ccd5e96bf724e6acfb173ea0450525b9c1728f",
+    "vocabulary_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "library_sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252",
+    "sdk_revision": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+    "GT": false,
+    "LiDAR": false,
+    "IMU": false,
+    "GNSS": false
+  },
+  "source_reference_commit": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+  "source_reference_hash_comparison": [
+    {
+      "path": "src/Tracking.cc",
+      "historical_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+      "recovered_reference_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+      "matches_historical": true
+    },
+    {
+      "path": "src/Frame.cc",
+      "historical_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+      "recovered_reference_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+      "matches_historical": true
+    },
+    {
+      "path": "src/ORBextractor.cc",
+      "historical_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+      "recovered_reference_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576",
+      "matches_historical": true
+    },
+    {
+      "path": "include/Tracking.h",
+      "historical_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+      "recovered_reference_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3",
+      "matches_historical": true
+    },
+    {
+      "path": "include/System.h",
+      "historical_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+      "recovered_reference_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310",
+      "matches_historical": false
+    },
+    {
+      "path": "src/System.cc",
+      "historical_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+      "recovered_reference_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a",
+      "matches_historical": false
+    }
+  ],
+  "source_lf_normalization": [
+    {
+      "path": "include/ORBextractor.h",
+      "original_git_blob_sha256": "6d3349f766947d1d2a6e72c5e1caf9e52611c7e073e1e89493f3cc2aeadfaf77",
+      "lf_sha256": "0f6b92927ee8d4a69eaabdc9cbc473af5d61817a147f37ae97e2f6ac058388f9"
+    },
+    {
+      "path": "include/System.h",
+      "original_git_blob_sha256": "15f6d922e502cf56b542e8bc4c03cf70c91ad15561a7f0a52db6e2c2137a9647",
+      "lf_sha256": "1e353f2c511ffa85ee26ec48c7a6e733754bf5ecef47c9f7f83f70be3db7f310"
+    },
+    {
+      "path": "include/Tracking.h",
+      "original_git_blob_sha256": "ba988cd16a0c49c69e5296b53e0b5896d53e936915cb61faa4f7406ef1ce4fed",
+      "lf_sha256": "9b20af086b2365edd60721fdab10683e69808717e5cabac21274faabf7989ec3"
+    },
+    {
+      "path": "src/Frame.cc",
+      "original_git_blob_sha256": "088c8b33443e52f161c9f0485ade8f59bff5c5fa00c6fd34fc64a3988e6eb28e",
+      "lf_sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e"
+    },
+    {
+      "path": "src/LocalMapping.cc",
+      "original_git_blob_sha256": "2ffef78466e12a36c36819fdd5916f974a75e4231e7b28b8acba94dad6f09bed",
+      "lf_sha256": "6da465cd5b88b6278188935f7b9264d493dd88d3487a75bccf4614bd40c8a30e"
+    },
+    {
+      "path": "src/MapPoint.cc",
+      "original_git_blob_sha256": "f8e86159e88c22ce226e5eb69952cad0b2d3f517c8f87a5e472881d40ec5ba8f",
+      "lf_sha256": "99f2e631cbcedf5bd90359724d0faad64120416e0750bd1b2b78c7945ca19123"
+    },
+    {
+      "path": "src/ORBextractor.cc",
+      "original_git_blob_sha256": "388d093203497310998abae8b81f97e00acf95dd3544aa7a819fad665c4fc978",
+      "lf_sha256": "c63ba40006b94d23cf93fd832fd7a48af835ddf087fb5dcc7caf9692b397f576"
+    },
+    {
+      "path": "src/Optimizer.cc",
+      "original_git_blob_sha256": "215ff5908e7c34272ab86c9386f0496bd1bd3daa770076e3270915b5f189f408",
+      "lf_sha256": "a1ab6e9eb182ed518902ea4fb4db2bd1afb87353f5c790f6989ff60569516261"
+    },
+    {
+      "path": "src/System.cc",
+      "original_git_blob_sha256": "9bf2ee0d9cfd662bc6f2f18a2b17f0482689960ad2bcbf430c5a47068970588f",
+      "lf_sha256": "935dd45007a75d6750bb8c3b5c41f4edb91b7ef0b0944f655d4348955bbd168a"
+    },
+    {
+      "path": "src/Tracking.cc",
+      "original_git_blob_sha256": "a5828543839a42e0bb499e3325e32dddfa20d5f7f00db2d9b99f58f2fbdb9743",
+      "lf_sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264"
+    }
+  ],
+  "static_source_locations": {
+    "Tracking.cc": {
+      "sha256": "3a3654bcc675f859cce1f2fb28ab32a129e8d734d0ac3d55417ff8b47a013264",
+      "matches": {
+        "Tracking::GrabImageRGBD(": [
+          1520
+        ],
+        "Tracking::TrackReferenceKeyFrame(": [
+          2720
+        ],
+        "Tracking::TrackWithMotionModel(": [
+          2854
+        ],
+        "Tracking::TrackLocalMap(": [
+          2949
+        ],
+        "Tracking::Relocalization(": [
+          3609
+        ],
+        "mnMatchesInliers<30": [
+          3057
+        ],
+        "mnMatchesInliers<50": [
+          3030,
+          3039
+        ]
+      }
+    },
+    "Frame.cc": {
+      "sha256": "67e0c446d9da80db11aceee4ff2664487cfe1f2502bc50d843ff7471917eb42e",
+      "matches": {
+        "Frame::ComputeStereoFromRGBD(": [
+          984
+        ],
+        "imDepth.at<float>(v,u)": [
+          997
+        ]
+      }
+    },
+    "Optimizer.cc": {
+      "sha256": "a1ab6e9eb182ed518902ea4fb4db2bd1afb87353f5c790f6989ff60569516261",
+      "matches": {
+        "Optimizer::PoseOptimization(": [
+          814
+        ],
+        "const float chi2Mono[4]": [
+          1001,
+          5098
+        ],
+        "const float chi2Stereo[4]": [
+          1002,
+          5099
+        ],
+        "const int its[4]": [
+          1003,
+          5100
+        ],
+        "return nInitialCorrespondences-nBad": [
+          1113,
+          4872,
+          5289
+        ]
+      }
+    },
+    "LocalMapping.cc": {
+      "sha256": "6da465cd5b88b6278188935f7b9264d493dd88d3487a75bccf4614bd40c8a30e",
+      "matches": {
+        "LocalMapping::Run(": [
+          64
+        ],
+        "LocalMapping::ProcessNewKeyFrame(": [
+          298
+        ],
+        "LocalMapping::MapPointCulling(": [
+          346
+        ],
+        "LocalMapping::KeyFrameCulling(": [
+          902
+        ],
+        "Optimizer::LocalBundleAdjustment(": [
+          154
+        ]
+      }
+    }
+  },
+  "current_camera_settings_sha256": "d0f412d96fd3de57e95fd34639969b2422aeb4569cd636dbcad510336981ee8c",
+  "historical_camera_settings": {
+    "Camera1.fx": 313.90203857421875,
+    "Camera1.fy": 313.6531677246094,
+    "Camera1.cx": 320.364990234375,
+    "Camera1.cy": 207.70822143554688,
+    "Camera1.k1": -0.05718468502163887,
+    "Camera1.k2": 0.06778068095445633,
+    "Camera1.p1": 0.0007177605293691158,
+    "Camera1.p2": 0.00034092238638550043,
+    "Camera1.k3": -0.021577496081590652,
+    "Camera.width": 640,
+    "Camera.height": 400,
+    "Camera.fps": 10,
+    "Camera.RGB": 0,
+    "Stereo.b": 0.05,
+    "Stereo.ThDepth": 40.0,
+    "RGBD.DepthMapFactor": 1000.0,
+    "ORBextractor.nFeatures": 1000,
+    "ORBextractor.scaleFactor": 1.2,
+    "ORBextractor.nLevels": 8,
+    "ORBextractor.iniThFAST": 20,
+    "ORBextractor.minThFAST": 7,
+    "Viewer.KeyFrameSize": 0.05,
+    "Viewer.KeyFrameLineWidth": 1.0,
+    "Viewer.GraphLineWidth": 0.9,
+    "Viewer.PointSize": 2.0,
+    "Viewer.CameraSize": 0.08,
+    "Viewer.CameraLineWidth": 3.0,
+    "Viewer.ViewpointX": 0.0,
+    "Viewer.ViewpointY": -0.7,
+    "Viewer.ViewpointZ": -1.8,
+    "Viewer.ViewpointF": 500.0
+  },
+  "original_sequence_sha256": null,
+  "reconstructed_full_sequence_sha256": "39a518e9ab1a7ab22c1bb4aa497a3c054f9dcde4699fc3a4b033114bc5dbd25d",
+  "reconstructed_sequence_frames": 20977,
+  "required_replay_last_frame": 12087,
+  "restored_selected_frames": 33,
+  "native_tracker_frames_executed": 0,
+  "native_extractor_only_frames": 33,
+  "feature_probe_binary_sha256": "ea70a7d181cf103112dd87f7d87147612053be678b3d5437efdeb0e8dc1113d3",
+  "full_tracking_instrumented_binary": null,
+  "feature_probe_build_command": [
+    "g++",
+    "-std=c++14",
+    "-O2",
+    "/home/cas/fyp_stage26/src/cumulti/rgbd_full/stage32_feature_probe.cc",
+    "work/stage32/source_reference/src/ORBextractor.cc",
+    "-Iwork/stage32/source_reference/include",
+    "-I/usr/include/opencv4",
+    "-lopencv_stitching",
+    "-lopencv_alphamat",
+    "-lopencv_aruco",
+    "-lopencv_barcode",
+    "-lopencv_bgsegm",
+    "-lopencv_bioinspired",
+    "-lopencv_ccalib",
+    "-lopencv_dnn_objdetect",
+    "-lopencv_dnn_superres",
+    "-lopencv_dpm",
+    "-lopencv_face",
+    "-lopencv_freetype",
+    "-lopencv_fuzzy",
+    "-lopencv_hdf",
+    "-lopencv_hfs",
+    "-lopencv_img_hash",
+    "-lopencv_intensity_transform",
+    "-lopencv_line_descriptor",
+    "-lopencv_mcc",
+    "-lopencv_quality",
+    "-lopencv_rapid",
+    "-lopencv_reg",
+    "-lopencv_rgbd",
+    "-lopencv_saliency",
+    "-lopencv_shape",
+    "-lopencv_stereo",
+    "-lopencv_structured_light",
+    "-lopencv_phase_unwrapping",
+    "-lopencv_superres",
+    "-lopencv_optflow",
+    "-lopencv_surface_matching",
+    "-lopencv_tracking",
+    "-lopencv_highgui",
+    "-lopencv_datasets",
+    "-lopencv_text",
+    "-lopencv_plot",
+    "-lopencv_ml",
+    "-lopencv_videostab",
+    "-lopencv_videoio",
+    "-lopencv_viz",
+    "-lopencv_wechat_qrcode",
+    "-lopencv_ximgproc",
+    "-lopencv_video",
+    "-lopencv_xobjdetect",
+    "-lopencv_objdetect",
+    "-lopencv_calib3d",
+    "-lopencv_imgcodecs",
+    "-lopencv_features2d",
+    "-lopencv_dnn",
+    "-lopencv_flann",
+    "-lopencv_xphoto",
+    "-lopencv_photo",
+    "-lopencv_imgproc",
+    "-lopencv_core",
+    "-o",
+    "work/stage32/stage32_native_feature_probe"
+  ],
+  "restoration_requirements": {
+    "required_sdk_commit": "4452a3c4ab75b1cde34e5505a36ec3f9edcdc4c4",
+    "actual_run_system_cc_sha256": "11aa821b22ba90cadcc1e7290dda3c5eadcfa3cd83f36e30fb9f5c0c4378027c",
+    "actual_run_system_h_sha256": "7d2eb3734a7a81110274683ea36dc0ba1ce14204d3d5f081bf950601ff13fab3",
+    "original_library_sha256": "ddb134dca4a630c702af5cf4d5acc0cd4d6159433e78a09884d27163605e8252",
+    "original_binary_sha256": "4833b5c64656d62549f26c3494ccd5e96bf724e6acfb173ea0450525b9c1728f",
+    "original_vocabulary_sha256": "f8dd027f7a6cb88129821341194d7f2c75b77b3394257ddd0d2229863d1a3570",
+    "note": "Restore authenticated SDK working tree or its original patch and baseline native dependencies. Core extractor and tracking sources were recovered."
+  },
+  "python": "3.10.20",
+  "opencv_python": "4.13.0"
+}

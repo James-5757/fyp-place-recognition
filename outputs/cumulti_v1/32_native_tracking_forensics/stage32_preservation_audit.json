@@ -1,0 +1,27 @@
+{
+  "status": "PASS",
+  "before": {
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sync_pairs.csv": "814f2e3d3bddde00c987f75acae5a54efe05b7fae0e9c3f7dafdcf36ff78331d",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "f5d8c36b936937a4d928672a1d00810b3c1c8c4482d8dd1fbab06ecc23aa8eb5",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/30_rgbd_pose_forensics/stage30_pose_jump_audit.csv": "ef233248d28bb5d9e1fd4b483f4bbd7154fc4405f26a8b871b3a40db3b6434e8",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/31_epoch9_persistence/preservation_audit.json": "e79c22d6d5bb48f1dbd4b3c9f9f45723b4e9c0eb6c36bf2576d59c0a105d630f",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/26_rgbd_reconstruction/registration_policy.json": "3e01896699fec175c92e1ca17f073227abd8186e9ebe4d1f013d9a0e173e64b1",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/28_multisensor/gravity_alignment.json": "7556b4d3e698eb74d79aa08527945310ef30bbcf5b52eb83da797ca104c8bda7"
+  },
+  "after": {
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera_poses.csv": "e114a1ab089712966f626d1a5ddbcb987977031ad70ab7b66c6415b72298b559",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24_rgbd_full_v1/robot3/sync_pairs.csv": "814f2e3d3bddde00c987f75acae5a54efe05b7fae0e9c3f7dafdcf36ff78331d",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/24d_rgbd_pose_graph/pose_graph.json": "f5d8c36b936937a4d928672a1d00810b3c1c8c4482d8dd1fbab06ecc23aa8eb5",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/29_spatial_audit/stage29_epoch_transforms.json": "980366634b6100ca014c13e5561ce9789f85a785ff18df420e75080bd9573a11",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/30_rgbd_pose_forensics/stage30_pose_jump_audit.csv": "ef233248d28bb5d9e1fd4b483f4bbd7154fc4405f26a8b871b3a40db3b6434e8",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/31_epoch9_persistence/preservation_audit.json": "e79c22d6d5bb48f1dbd4b3c9f9f45723b4e9c0eb6c36bf2576d59c0a105d630f",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/26_rgbd_reconstruction/registration_policy.json": "3e01896699fec175c92e1ca17f073227abd8186e9ebe4d1f013d9a0e173e64b1",
+    "/home/cas/fyp_stage26/outputs/cumulti_v1/28_multisensor/gravity_alignment.json": "7556b4d3e698eb74d79aa08527945310ef30bbcf5b52eb83da797ca104c8bda7"
+  },
+  "original_sdk_written": false,
+  "baseline_executable_written": false,
+  "tracking_replayed": false,
+  "global_maps_generated": false
+}

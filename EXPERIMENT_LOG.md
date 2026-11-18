@@ -400,3 +400,8 @@ Stage30 audited seven Robot3 in-Epoch pose discontinuities using original RGB, m
 ## Stage31 Epoch9 segment persistence
 
 Stage31 froze 61-frame windows around each of the three Epoch9 events, with frame-disjoint fit/validation cohorts and at least 300 ms exclusion. The study compared ORB RGB-D, independent-initializer geometric registration and a supplemental depth-masked optical-flow method, preserving the initial failed attempt. See [the Stage31 report](outputs/cumulti_v1/31_epoch9_persistence/STAGE31_SEGMENT_PERSISTENCE_REPORT.md).
+
+
+## Stage32 native tracking dependency checkpoint
+
+Stage32 inspected the native baseline dependencies, recovered hash-matched Tracking/Frame/ORBextractor/Tracking.h sources and vocabulary, and executed a separate native feature/depth probe on 33 target/control images. Full tracking replay is blocked by the missing original SDK/runtime and mismatched historical System files. See [the Stage32 report](outputs/cumulti_v1/32_native_tracking_forensics/STAGE32_NATIVE_TRACKING_REPORT.md).

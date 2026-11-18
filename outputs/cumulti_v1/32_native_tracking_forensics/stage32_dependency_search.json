@@ -1,0 +1,105 @@
+{
+  "search_command": [
+    "find",
+    "/home/cas",
+    "/tmp",
+    "/dev/shm",
+    "/mnt",
+    "/opt",
+    "/media",
+    "-type",
+    "f",
+    "(",
+    "-name",
+    "Tracking.cc",
+    "-o",
+    "-name",
+    "System.cc",
+    "-o",
+    "-name",
+    "System.h",
+    "-o",
+    "-name",
+    "libORB_SLAM3.so",
+    "-o",
+    "-name",
+    "ORBvoc.txt",
+    "-o",
+    "-name",
+    "rgbd_full",
+    "-o",
+    "-name",
+    "camera.yaml",
+    "-o",
+    "-name",
+    "sequence.txt",
+    ")"
+  ],
+  "search_returncode": 1,
+  "matching_files": [
+    "/home/cas/fyp_stage26/work/stage32/baseline_reference/camera.yaml",
+    "/home/cas/fyp_stage26/work/stage32/source_reference/include/System.h",
+    "/home/cas/fyp_stage26/work/stage32/source_reference/src/System.cc",
+    "/home/cas/fyp_stage26/work/stage32/source_reference/src/Tracking.cc",
+    "/home/cas/fyp_stage26/work/stage32/vocabulary/ORBvoc.txt",
+    "/home/cas/fyp_stage26/work/stage32/receipts/outputs/cumulti_v1/24_rgbd_full_v1/robot3/camera.yaml"
+  ],
+  "search_error_lines": [
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-systemd-oomd.service-NO6hu8\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-power-profiles-daemon.service-UsoGly\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-systemd-timesyncd.service-j7g9O8\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-fwupd.service-0Ip9yp\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-systemd-resolved.service-ny8dxM\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-upower.service-5VmQQO\u2019: Permission denied",
+    "find: \u2018/tmp/tmux-0\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-switcheroo-control.service-14ZWjJ\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-systemd-logind.service-5cZ69Y\u2019: Permission denied",
+    "find: \u2018/tmp/snap-private-tmp\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-colord.service-ykqxoe\u2019: Permission denied",
+    "find: \u2018/tmp/systemd-private-473a5fcd9e65409eab5d085175eb011d-ModemManager.service-A5nAWr\u2019: Permission denied",
+    "find: \u2018/opt/containerd\u2019: Permission denied"
+  ],
+  "backup_archive_inventory": [
+    {
+      "path": "/tmp/fyp_atlas_src.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_registered_src.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_rgbd_full_sources.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_rgbd_loss_sources.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_stage24_atlas_browser.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_stage24_full_presentation.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_stage24_stage24d_browser.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_stage24d_final.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_stage24d_src.tar",
+      "matching_members": []
+    },
+    {
+      "path": "/tmp/fyp_thesis_c09f9feb_sources.tar.gz",
+      "matching_members": []
+    }
+  ],
+  "source_reference_is_new_recovery": true
+}
