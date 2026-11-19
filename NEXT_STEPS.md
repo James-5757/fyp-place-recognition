@@ -387,3 +387,8 @@ Restore the authenticated modified SDK working tree or System.cc/System.h patch,
 ## Stage32R recovery gate
 
 Before native tracking instrumentation, obtain the original modified System.cc and System.h (or authentic patch), original rgbd_full and libORB_SLAM3.so with the recorded hashes. Recover original sequence.txt or its independent historical checksum before authenticating sequence identity. Check administrator-accessible backups/container storage/provider snapshots if available; this is not a missing camera-dataset issue. Do not substitute public System behavior or rerun the baseline as exact reproduction. Only after identity and linkage checks pass, create a separate logging-only SDK build; no full replay is authorized by this checkpoint. See [Stage32R report](outputs/cumulti_v1/32r_runtime_restoration/STAGE32R_RUNTIME_RESTORATION_REPORT.md).
+
+
+## Stage5B conclusion
+
+Use the newly verified independent RGB full-database results when comparing modalities; keep SC Top20 reranking results explicitly pool-conditioned. Do not claim that the old visual-only labels represented independent retrieval or that generic RGB improves this CU-Multi benchmark. Any future dedicated visual-place-recognition model, tie-handling alternative or fusion rule needs a separate authorized experiment with frozen cohorts and unchanged GT policy. Preserve the current results; no additional experiment is started. See [Stage5B report](docs/CUMULTI_STAGE5B_INDEPENDENT_VISUAL_RETRIEVAL.md).

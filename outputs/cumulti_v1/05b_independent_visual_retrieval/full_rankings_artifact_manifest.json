@@ -1,0 +1,42 @@
+{
+  "single_scores.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/single_scores.npy",
+    "sha256": "dfec1412cd257999e74bb827eae55898f4bd910a19dafe5f5d505699c1b292d9",
+    "bytes": 33440128
+  },
+  "mean5_scores.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/mean5_scores.npy",
+    "sha256": "1410b4878936589500422046b32efc848f2831680ea7a9c949e1f7991d5711ac",
+    "bytes": 33440128
+  },
+  "mean5_order.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/mean5_order.npy",
+    "sha256": "22bbbdf8c458098e2f4d1012daad43bd34cc628ce5ced857fad9c8c8c66576f8",
+    "bytes": 33440128
+  },
+  "crossmax_scores.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/crossmax_scores.npy",
+    "sha256": "27d4ceac8860b14cd70f6f0999a0d5a31b497fa6def5621fc5e848028d7bb087",
+    "bytes": 33440128
+  },
+  "crossmax_order.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/crossmax_order.npy",
+    "sha256": "eb29aa0c35831c149a28cbb244e790a1677cb033d2d8d63040a2bce801ac7000",
+    "bytes": 33440128
+  },
+  "single_order.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/single_order.npy",
+    "sha256": "ba721672136e5ddbb4d3b2b499d523ea599757aeb8728788cf3674f138636514",
+    "bytes": 33440128
+  },
+  "sc_order.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/sc_order.npy",
+    "sha256": "45120163acd6ff6465ad83cf4963e0231bf379fdad2037a2a22ce76583d7629a",
+    "bytes": 33440128
+  },
+  "sc_scores.npy": {
+    "path": "/home/cas/fyp_stage5b/work/full_rankings/sc_scores.npy",
+    "sha256": "d6c53a9f430d17991abc97abd3e1eb48fc50878ed5548dd98ed00a1f01b92f6b",
+    "bytes": 33440128
+  }
+}

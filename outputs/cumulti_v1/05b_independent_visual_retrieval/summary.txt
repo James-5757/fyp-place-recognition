@@ -1,0 +1,13 @@
+PASS: independent full-database visual retrieval completed; full rankings validated.
+    method                     scope  query_count  database_count      R@1      R@5     R@10     R@20      MRR
+        SC independent_full_database         1833            4180 0.993453 0.996181 0.997272 0.998363 0.994682
+Single RGB independent_full_database         1833            4180 0.181669 0.256410 0.299509 0.345881 0.224026
+ RGB5 Mean independent_full_database         1833            4180 0.202400 0.236770 0.265685 0.310420 0.226750
+ Cross-Max independent_full_database         1833            4180 0.181124 0.196945 0.236770 0.282597 0.201424
+
+Same-view
+    method                     scope  query_count  database_count      R@1      R@5     R@10     R@20      MRR
+        SC independent_full_database          482            4180 1.000000 1.000000 1.000000 1.000000 1.000000
+Single RGB independent_full_database          482            4180 0.537344 0.676349 0.736515 0.775934 0.603940
+ RGB5 Mean independent_full_database          482            4180 0.578838 0.645228 0.692946 0.746888 0.615009
+ Cross-Max independent_full_database          482            4180 0.529046 0.553942 0.628631 0.692946 0.557298

@@ -1,0 +1,38 @@
+{
+  "source_commit": "see input_bundle_commit.txt",
+  "input_bundle_commit": "29eebdccf9b78c4712a45df4eb6683a2ae2ed07a",
+  "script_sha256": "93358fd7432e43011d7d47492b2afba9f2d7d579b18e0cb8c02b92f5503fb961",
+  "frozen_sc_source_sha256": "75c26bf66a469cd52baf07382043025816454c68310705ccc283fe60554684a3",
+  "input_sha256": {
+    "/home/cas/CU-Multi/processed_v1/openclip_stage5/metadata.json": "cccf0a1d890c7a4f03da79d76f32c5451f07bb3f92d9f90d4a49727190cef68b",
+    "/home/cas/CU-Multi/processed_v1/openclip_stage5/robot1_embeddings.npy": "25a355fdb9785b3aff8117275fd663d5abd373af6682687b9d08842e4818fb62",
+    "/home/cas/CU-Multi/processed_v1/openclip_stage5/robot1_keyframe_ids.csv": "3e73fc1becbe8bdfd2f7e0ecaf1c31422bc1767ad19403d1718a8561abdfe87a",
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/keyframes.csv": "a5720e59d2b93c27fc6f48e99fbd4e73062ec7b129334b8c7bd9aea75b15b690",
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/rgb_sync_index.csv": "6555af1e1b55d07e44cb8be34f0d1b2212b301b53a1d6825224ddb7e7f55421e",
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot1/scan_context_descriptors.npy": "c4c9ab1ed9032b74f8baaee2dddc85cc876104ea4f248747203c4fd375298a46",
+    "/home/cas/CU-Multi/processed_v1/openclip_stage5/robot3_embeddings.npy": "59437423baed64021dd856b6a0e32cdd05701adf5de7bfb2c767cb703b78e352",
+    "/home/cas/CU-Multi/processed_v1/openclip_stage5/robot3_keyframe_ids.csv": "e545206d6aa1b8139faa4abfbd0683371f0262a547d25333a081fcb33d123e4f",
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/keyframes.csv": "b88fe6212a1f8d4bbe13d5ac0bb04f4637381cfb57089efbe34ff15e59e734ea",
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/rgb_sync_index.csv": "c0350d01d3d970676bf529043e76cf116538e2557f814b472260330d497cc650",
+    "/home/cas/CU-Multi/processed_v1/full_2hz/robot3/scan_context_descriptors.npy": "bca86ca5ac66252741caa6641e975116e366af2e449a973fec33a2ba1fbe7e5c"
+  },
+  "numpy": "2.2.6",
+  "pandas": "2.3.3",
+  "python": "3.10.20",
+  "platform": "Linux-6.8.0-138-generic-x86_64-with-glibc2.35",
+  "times": {
+    "visual_all_methods_wall_s": 0.7693693833425641,
+    "sc_reconstruction": "reused fingerprinted Stage5B scratch matrix"
+  },
+  "embedding_provenance": "model metadata + full IDs/timestamps/norm checks + exact historical pooled metrics reproduction; no historical checkpoint hash receipt available",
+  "full_rankings_saved_before_GT_evaluation": true,
+  "SC_frozen_rank_and_rank1_reproduced": true,
+  "stage75_pooled_metrics_reproduced": true,
+  "same_view_ids_sha256": "80a6783effba677d5b49e20b99755867b4df1db43e54bd60642f4d9f87ae6c4e",
+  "all_rankings_shape": [
+    2000,
+    4180
+  ],
+  "evaluated_overall": 1833,
+  "evaluated_same_view": 482
+}

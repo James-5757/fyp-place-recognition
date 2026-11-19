@@ -1,0 +1,597 @@
+method,query_id,database_id
+Single RGB,0,110
+Single RGB,1,110
+Single RGB,3,115
+Single RGB,4,88
+Single RGB,5,9
+Single RGB,6,88
+Single RGB,7,93
+Single RGB,8,6
+Single RGB,9,67
+Single RGB,10,67
+Single RGB,11,77
+Single RGB,12,64
+Single RGB,13,64
+Single RGB,14,93
+Single RGB,15,93
+Single RGB,16,64
+Single RGB,17,64
+Single RGB,18,64
+Single RGB,19,64
+Single RGB,20,64
+Single RGB,21,64
+Single RGB,22,64
+Single RGB,23,64
+Single RGB,24,64
+Single RGB,25,64
+Single RGB,26,64
+Single RGB,27,64
+Single RGB,28,64
+Single RGB,29,64
+Single RGB,30,64
+Single RGB,31,64
+Single RGB,32,64
+Single RGB,33,64
+Single RGB,34,64
+Single RGB,35,64
+Single RGB,37,64
+Single RGB,38,64
+Single RGB,39,64
+Single RGB,40,64
+Single RGB,41,64
+Single RGB,42,64
+Single RGB,43,64
+Single RGB,44,64
+Single RGB,45,64
+Single RGB,46,64
+Single RGB,47,64
+Single RGB,48,64
+Single RGB,49,64
+Single RGB,50,64
+Single RGB,51,64
+Single RGB,52,64
+Single RGB,53,64
+Single RGB,54,64
+Single RGB,55,64
+Single RGB,56,64
+Single RGB,57,64
+Single RGB,58,64
+Single RGB,59,64
+Single RGB,60,64
+Single RGB,61,64
+Single RGB,62,64
+Single RGB,63,64
+Single RGB,64,64
+Single RGB,65,64
+Single RGB,66,64
+Single RGB,67,64
+Single RGB,68,64
+Single RGB,69,64
+Single RGB,70,64
+Single RGB,71,64
+Single RGB,72,64
+Single RGB,73,64
+Single RGB,74,64
+Single RGB,75,64
+Single RGB,76,64
+Single RGB,77,64
+Single RGB,78,64
+Single RGB,79,64
+Single RGB,80,64
+Single RGB,81,64
+Single RGB,82,64
+Single RGB,83,64
+Single RGB,84,64
+Single RGB,85,64
+Single RGB,86,64
+Single RGB,87,64
+Single RGB,88,64
+Single RGB,89,64
+Single RGB,90,64
+Single RGB,91,64
+Single RGB,92,64
+Single RGB,93,64
+Single RGB,94,64
+Single RGB,95,64
+Single RGB,96,64
+Single RGB,97,64
+Single RGB,98,64
+Single RGB,99,64
+Single RGB,100,64
+Single RGB,101,64
+Single RGB,102,64
+Single RGB,103,64
+Single RGB,104,64
+Single RGB,105,64
+Single RGB,106,64
+Single RGB,107,64
+Single RGB,108,64
+Single RGB,109,64
+Single RGB,110,64
+Single RGB,111,77
+Single RGB,112,98
+Single RGB,113,98
+Single RGB,114,122
+Single RGB,115,122
+Single RGB,116,99
+Single RGB,117,99
+Single RGB,118,99
+Single RGB,119,100
+Single RGB,122,101
+Single RGB,123,101
+Single RGB,124,101
+Single RGB,125,110
+Single RGB,126,110
+Single RGB,127,110
+Single RGB,128,110
+Single RGB,129,100
+Single RGB,130,110
+Single RGB,131,110
+Single RGB,132,99
+Single RGB,133,106
+Single RGB,134,99
+Single RGB,135,110
+Single RGB,136,99
+Single RGB,137,99
+Single RGB,138,99
+Single RGB,139,99
+Single RGB,140,98
+Single RGB,141,77
+Single RGB,142,77
+Single RGB,143,77
+Single RGB,144,77
+Single RGB,145,77
+Single RGB,146,77
+Single RGB,147,77
+Single RGB,148,77
+Single RGB,149,77
+Single RGB,150,77
+Single RGB,151,77
+Single RGB,152,77
+Single RGB,153,77
+Single RGB,154,77
+Single RGB,155,77
+Single RGB,156,77
+Single RGB,157,77
+Single RGB,158,77
+Single RGB,159,77
+Single RGB,160,77
+Single RGB,161,77
+Single RGB,162,77
+Single RGB,163,77
+Single RGB,164,77
+Single RGB,165,77
+Single RGB,166,77
+Single RGB,167,77
+Single RGB,168,77
+Single RGB,169,77
+Single RGB,170,70
+Single RGB,171,64
+Single RGB,172,123
+Single RGB,173,30
+Single RGB,175,126
+Single RGB,176,126
+Single RGB,202,174
+Single RGB,211,169
+Single RGB,212,169
+Single RGB,213,170
+Single RGB,241,208
+Single RGB,271,242
+Single RGB,272,241
+Single RGB,273,241
+Single RGB,276,241
+Single RGB,277,241
+Single RGB,573,2543
+Single RGB,615,2586
+Single RGB,616,2586
+Single RGB,617,2586
+Single RGB,644,2632
+Single RGB,1085,2501
+Single RGB,1088,2501
+Single RGB,1092,2507
+Single RGB,1093,2507
+Single RGB,1097,2501
+Single RGB,1098,2503
+Single RGB,1122,2534
+RGB5 Mean,0,112
+RGB5 Mean,1,112
+RGB5 Mean,3,113
+RGB5 Mean,4,114
+RGB5 Mean,5,114
+RGB5 Mean,6,126
+RGB5 Mean,7,10
+RGB5 Mean,8,10
+RGB5 Mean,9,10
+RGB5 Mean,10,10
+RGB5 Mean,11,10
+RGB5 Mean,12,10
+RGB5 Mean,13,10
+RGB5 Mean,14,10
+RGB5 Mean,15,68
+RGB5 Mean,16,67
+RGB5 Mean,18,126
+RGB5 Mean,19,126
+RGB5 Mean,21,64
+RGB5 Mean,22,64
+RGB5 Mean,23,64
+RGB5 Mean,24,64
+RGB5 Mean,25,67
+RGB5 Mean,26,67
+RGB5 Mean,27,67
+RGB5 Mean,28,67
+RGB5 Mean,29,67
+RGB5 Mean,30,64
+RGB5 Mean,31,64
+RGB5 Mean,32,64
+RGB5 Mean,33,64
+RGB5 Mean,34,64
+RGB5 Mean,35,64
+RGB5 Mean,37,64
+RGB5 Mean,38,64
+RGB5 Mean,39,64
+RGB5 Mean,40,67
+RGB5 Mean,42,67
+RGB5 Mean,43,124
+RGB5 Mean,44,124
+RGB5 Mean,45,124
+RGB5 Mean,46,64
+RGB5 Mean,47,64
+RGB5 Mean,48,64
+RGB5 Mean,49,64
+RGB5 Mean,50,64
+RGB5 Mean,51,124
+RGB5 Mean,52,126
+RGB5 Mean,53,126
+RGB5 Mean,54,126
+RGB5 Mean,55,126
+RGB5 Mean,56,126
+RGB5 Mean,57,126
+RGB5 Mean,58,126
+RGB5 Mean,59,126
+RGB5 Mean,60,126
+RGB5 Mean,61,126
+RGB5 Mean,62,126
+RGB5 Mean,63,126
+RGB5 Mean,64,126
+RGB5 Mean,65,67
+RGB5 Mean,66,126
+RGB5 Mean,67,126
+RGB5 Mean,68,126
+RGB5 Mean,69,126
+RGB5 Mean,70,126
+RGB5 Mean,71,64
+RGB5 Mean,72,126
+RGB5 Mean,73,64
+RGB5 Mean,74,64
+RGB5 Mean,75,126
+RGB5 Mean,76,126
+RGB5 Mean,78,126
+RGB5 Mean,79,126
+RGB5 Mean,80,126
+RGB5 Mean,81,126
+RGB5 Mean,82,126
+RGB5 Mean,83,126
+RGB5 Mean,84,126
+RGB5 Mean,85,126
+RGB5 Mean,86,126
+RGB5 Mean,87,126
+RGB5 Mean,88,126
+RGB5 Mean,89,126
+RGB5 Mean,90,126
+RGB5 Mean,91,126
+RGB5 Mean,92,126
+RGB5 Mean,93,126
+RGB5 Mean,94,126
+RGB5 Mean,95,126
+RGB5 Mean,96,126
+RGB5 Mean,97,126
+RGB5 Mean,98,126
+RGB5 Mean,99,126
+RGB5 Mean,100,126
+RGB5 Mean,101,126
+RGB5 Mean,102,126
+RGB5 Mean,103,126
+RGB5 Mean,104,126
+RGB5 Mean,105,126
+RGB5 Mean,106,126
+RGB5 Mean,107,126
+RGB5 Mean,108,126
+RGB5 Mean,109,126
+RGB5 Mean,110,126
+RGB5 Mean,111,126
+RGB5 Mean,112,126
+RGB5 Mean,113,127
+RGB5 Mean,114,99
+RGB5 Mean,115,100
+RGB5 Mean,116,100
+RGB5 Mean,117,100
+RGB5 Mean,118,101
+RGB5 Mean,119,101
+RGB5 Mean,120,101
+RGB5 Mean,121,101
+RGB5 Mean,122,101
+RGB5 Mean,123,102
+RGB5 Mean,124,102
+RGB5 Mean,125,102
+RGB5 Mean,126,102
+RGB5 Mean,130,102
+RGB5 Mean,131,102
+RGB5 Mean,132,102
+RGB5 Mean,133,111
+RGB5 Mean,134,111
+RGB5 Mean,135,111
+RGB5 Mean,136,112
+RGB5 Mean,137,112
+RGB5 Mean,138,112
+RGB5 Mean,139,101
+RGB5 Mean,140,100
+RGB5 Mean,141,100
+RGB5 Mean,142,99
+RGB5 Mean,143,99
+RGB5 Mean,144,67
+RGB5 Mean,145,10
+RGB5 Mean,146,10
+RGB5 Mean,147,10
+RGB5 Mean,148,10
+RGB5 Mean,149,10
+RGB5 Mean,150,10
+RGB5 Mean,151,10
+RGB5 Mean,152,10
+RGB5 Mean,153,10
+RGB5 Mean,154,10
+RGB5 Mean,155,10
+RGB5 Mean,156,10
+RGB5 Mean,157,10
+RGB5 Mean,158,10
+RGB5 Mean,159,10
+RGB5 Mean,160,10
+RGB5 Mean,161,10
+RGB5 Mean,162,10
+RGB5 Mean,163,10
+RGB5 Mean,164,10
+RGB5 Mean,165,10
+RGB5 Mean,166,10
+RGB5 Mean,167,10
+RGB5 Mean,168,10
+RGB5 Mean,169,10
+RGB5 Mean,170,10
+RGB5 Mean,171,10
+RGB5 Mean,172,10
+RGB5 Mean,173,10
+RGB5 Mean,174,126
+RGB5 Mean,175,126
+RGB5 Mean,176,127
+RGB5 Mean,202,174
+RGB5 Mean,214,172
+RGB5 Mean,241,208
+RGB5 Mean,271,242
+RGB5 Mean,272,242
+RGB5 Mean,273,242
+RGB5 Mean,274,242
+RGB5 Mean,275,242
+RGB5 Mean,276,242
+RGB5 Mean,277,242
+RGB5 Mean,278,243
+RGB5 Mean,279,243
+RGB5 Mean,280,243
+RGB5 Mean,281,243
+RGB5 Mean,282,245
+RGB5 Mean,548,2537
+RGB5 Mean,564,2546
+RGB5 Mean,578,2547
+RGB5 Mean,596,2576
+RGB5 Mean,618,2588
+RGB5 Mean,653,2632
+RGB5 Mean,1087,2503
+RGB5 Mean,1088,2503
+RGB5 Mean,1089,2503
+RGB5 Mean,1092,2507
+RGB5 Mean,1093,2507
+RGB5 Mean,1099,2505
+RGB5 Mean,1100,2505
+RGB5 Mean,1101,2505
+RGB5 Mean,1102,2507
+RGB5 Mean,1533,2719
+Cross-Max,0,110
+Cross-Max,1,110
+Cross-Max,3,115
+Cross-Max,4,88
+Cross-Max,5,9
+Cross-Max,6,88
+Cross-Max,7,93
+Cross-Max,8,93
+Cross-Max,9,93
+Cross-Max,10,93
+Cross-Max,11,93
+Cross-Max,12,6
+Cross-Max,13,77
+Cross-Max,14,77
+Cross-Max,15,77
+Cross-Max,16,64
+Cross-Max,17,64
+Cross-Max,18,64
+Cross-Max,19,64
+Cross-Max,20,64
+Cross-Max,21,64
+Cross-Max,22,64
+Cross-Max,23,64
+Cross-Max,24,64
+Cross-Max,25,64
+Cross-Max,26,64
+Cross-Max,27,64
+Cross-Max,28,64
+Cross-Max,29,64
+Cross-Max,30,64
+Cross-Max,31,64
+Cross-Max,32,64
+Cross-Max,33,64
+Cross-Max,34,64
+Cross-Max,35,64
+Cross-Max,37,64
+Cross-Max,38,64
+Cross-Max,39,64
+Cross-Max,40,64
+Cross-Max,41,64
+Cross-Max,42,64
+Cross-Max,43,64
+Cross-Max,44,64
+Cross-Max,45,64
+Cross-Max,46,64
+Cross-Max,47,64
+Cross-Max,48,64
+Cross-Max,49,64
+Cross-Max,50,64
+Cross-Max,51,64
+Cross-Max,52,64
+Cross-Max,53,64
+Cross-Max,54,64
+Cross-Max,55,64
+Cross-Max,56,64
+Cross-Max,57,64
+Cross-Max,58,64
+Cross-Max,59,64
+Cross-Max,60,64
+Cross-Max,61,64
+Cross-Max,62,64
+Cross-Max,63,64
+Cross-Max,64,64
+Cross-Max,65,64
+Cross-Max,66,64
+Cross-Max,67,64
+Cross-Max,68,64
+Cross-Max,69,64
+Cross-Max,70,64
+Cross-Max,71,64
+Cross-Max,72,64
+Cross-Max,73,64
+Cross-Max,74,64
+Cross-Max,75,64
+Cross-Max,76,64
+Cross-Max,77,64
+Cross-Max,78,64
+Cross-Max,79,64
+Cross-Max,80,64
+Cross-Max,81,64
+Cross-Max,82,64
+Cross-Max,83,64
+Cross-Max,84,64
+Cross-Max,85,64
+Cross-Max,86,64
+Cross-Max,87,64
+Cross-Max,88,64
+Cross-Max,89,64
+Cross-Max,90,64
+Cross-Max,91,64
+Cross-Max,92,64
+Cross-Max,93,64
+Cross-Max,94,64
+Cross-Max,95,64
+Cross-Max,96,64
+Cross-Max,97,64
+Cross-Max,98,64
+Cross-Max,99,64
+Cross-Max,100,64
+Cross-Max,101,64
+Cross-Max,102,64
+Cross-Max,103,64
+Cross-Max,104,64
+Cross-Max,105,64
+Cross-Max,106,64
+Cross-Max,107,64
+Cross-Max,108,64
+Cross-Max,109,64
+Cross-Max,110,64
+Cross-Max,111,64
+Cross-Max,112,64
+Cross-Max,113,64
+Cross-Max,114,64
+Cross-Max,115,77
+Cross-Max,116,98
+Cross-Max,117,98
+Cross-Max,118,99
+Cross-Max,119,99
+Cross-Max,120,99
+Cross-Max,121,99
+Cross-Max,122,99
+Cross-Max,126,110
+Cross-Max,127,110
+Cross-Max,128,110
+Cross-Max,129,110
+Cross-Max,130,110
+Cross-Max,131,110
+Cross-Max,132,110
+Cross-Max,133,100
+Cross-Max,134,99
+Cross-Max,135,99
+Cross-Max,136,99
+Cross-Max,137,99
+Cross-Max,138,99
+Cross-Max,139,99
+Cross-Max,140,98
+Cross-Max,141,77
+Cross-Max,142,77
+Cross-Max,143,77
+Cross-Max,144,77
+Cross-Max,145,77
+Cross-Max,146,77
+Cross-Max,147,77
+Cross-Max,148,77
+Cross-Max,149,77
+Cross-Max,150,77
+Cross-Max,151,77
+Cross-Max,152,77
+Cross-Max,153,77
+Cross-Max,154,77
+Cross-Max,155,77
+Cross-Max,156,77
+Cross-Max,157,77
+Cross-Max,158,77
+Cross-Max,159,77
+Cross-Max,160,77
+Cross-Max,161,77
+Cross-Max,162,77
+Cross-Max,163,77
+Cross-Max,164,77
+Cross-Max,165,77
+Cross-Max,166,77
+Cross-Max,167,77
+Cross-Max,168,77
+Cross-Max,169,77
+Cross-Max,170,77
+Cross-Max,172,77
+Cross-Max,173,77
+Cross-Max,175,123
+Cross-Max,176,123
+Cross-Max,177,123
+Cross-Max,178,123
+Cross-Max,179,126
+Cross-Max,180,126
+Cross-Max,182,129
+Cross-Max,183,129
+Cross-Max,184,129
+Cross-Max,211,169
+Cross-Max,212,169
+Cross-Max,241,208
+Cross-Max,271,242
+Cross-Max,272,242
+Cross-Max,273,242
+Cross-Max,274,242
+Cross-Max,275,241
+Cross-Max,276,241
+Cross-Max,277,241
+Cross-Max,576,2545
+Cross-Max,615,2586
+Cross-Max,616,2586
+Cross-Max,617,2586
+Cross-Max,657,2638
+Cross-Max,658,2638
+Cross-Max,659,2638
+Cross-Max,660,2638
+Cross-Max,664,2642
+Cross-Max,1087,2501
+Cross-Max,1088,2501
+Cross-Max,1093,2507
+Cross-Max,1097,2501
+Cross-Max,1098,2503
+Cross-Max,1099,2503
+Cross-Max,1122,2534

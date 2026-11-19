@@ -1,0 +1,22 @@
+[
+  {
+    "robot": "robot1",
+    "count": 2000,
+    "dimension": 512,
+    "dtype": "float32",
+    "min_norm": 0.9999998807907104,
+    "max_norm": 1.0000001192092896,
+    "keyframe_and_rgb_timestamp_match": true,
+    "zero_rows": 0
+  },
+  {
+    "robot": "robot3",
+    "count": 4180,
+    "dimension": 512,
+    "dtype": "float32",
+    "min_norm": 0.9999998807907104,
+    "max_norm": 1.0000001192092896,
+    "keyframe_and_rgb_timestamp_match": true,
+    "zero_rows": 0
+  }
+]

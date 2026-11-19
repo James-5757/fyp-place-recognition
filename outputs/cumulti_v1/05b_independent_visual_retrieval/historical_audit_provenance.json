@@ -1,0 +1,20 @@
+{
+  "audit_base_commit": "29eebdccf9b78c4712a45df4eb6683a2ae2ed07a",
+  "audit_date": "2026-11-19",
+  "scope": [
+    "current project Git sources/docs/logs/retained outputs",
+    "server /home/cas/CU-Multi/processed_v1",
+    "server /home/cas/fyp_stage26/work and outputs"
+  ],
+  "cache_lookup_command": "find processed_v1 fyp_stage26/work fyp_stage26/outputs -type f matching embeddings, SC scores, rankings, same_view",
+  "scope_limitation": "Deleted and inaccessible historical outputs cannot be ruled out; no old Stage5 raw CSV directory is retained in the inspected snapshot",
+  "evidence_sha256": {
+    "src/full_rgb_reranking.py": "542f4c23f5eaaf42f8b324e51f350962165c303f970c5c922bbab299748205f6",
+    "src/full_temporal_rgb_reranking.py": "4ff5479c7e156774c11b1a89932683a7336865845796eb865a471fba7b0df51c",
+    "src/full_temporal_cross_frame_reranking.py": "c4122a3c14a179a79adf2b422e3ac20d361d4fbb9d673030283f6f1cbf5f36a3",
+    "src/cumulti/run_stage5_visual_viewpoint.py": "75c26bf66a469cd52baf07382043025816454c68310705ccc283fe60554684a3",
+    "src/cumulti/run_stage75_supervisor_validation.py": "ad041ddc8ef56ba8c635116acc8014fca457097b447ff46bac52095eae701283",
+    "docs/CUMULTI_STAGE5_VISUAL_VIEWPOINT_ANALYSIS.md": "beff24561c473a99ededfb45aa0f818ce4c980192277c7019856b85fc36a28a1",
+    "docs/CUMULTI_STAGE7_5_SUPERVISOR_VALIDATION.md": "c1937232bf42b43c2f9c275aa44b9ea78eac5ffc3c153b23a618e2159b3cc502"
+  }
+}

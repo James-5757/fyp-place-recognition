@@ -1,0 +1,7 @@
+method,subset,query_count,rank1_tied_queries,median_rank1_tie_count,max_rank1_tie_count,pool_R1_with_ID_ties,pool_R5_with_ID_ties
+Single RGB,overall,1833,0,1,1,0.702127659574,0.939443535188
+Single RGB,same_view,482,0,1,1,0.906639004149,0.98132780083
+RGB5 Mean,overall,1833,0,1,1,0.682487725041,0.912711402073
+RGB5 Mean,same_view,482,0,1,1,0.883817427386,0.970954356846
+Cross-Max,overall,1833,1833,5,5,0.659574468085,0.894162575014
+Cross-Max,same_view,482,482,5,5,0.869294605809,0.960580912863

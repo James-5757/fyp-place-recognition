@@ -1,0 +1,45 @@
+{
+  "dataset": "CU-Multi Main Campus",
+  "query_robot": "robot1",
+  "database_robot": "robot3",
+  "all_queries_scored": 2000,
+  "database_eligible_per_query": 4180,
+  "valid_queries": 1833,
+  "same_view_queries": 482,
+  "positive_definition": "horizontal hypot(dx,dy) < 5.0 m",
+  "same_view": "exact Stage7.5 nearest-positive wrapped heading <= 10 degrees",
+  "model": {
+    "model_name": "ViT-B-32-quickgelu",
+    "pretrained_tag": "laion400m_e32",
+    "checkpoint_path": "models/openclip/vit_b32_laion400m_e32.pt",
+    "model_source": "local checkpoint: models/openclip/vit_b32_laion400m_e32.pt",
+    "embedding_dim": 512,
+    "robot1_keyframes": 2000,
+    "robot3_keyframes": 4180,
+    "robot1_encoding_mean_ms": 34.79646466195118,
+    "robot1_encoding_p95_ms": 36.05315118911676,
+    "robot1_encoding_total_s": 69.59292932390235,
+    "robot3_encoding_mean_ms": 32.69799453265961,
+    "robot3_encoding_p95_ms": 36.33193108253181,
+    "robot3_encoding_total_s": 136.67761714651715
+  },
+  "embedding_cache_reused": true,
+  "images_reencoded": 0,
+  "window": 5,
+  "left_padding": "max(0,k-4+j), j=0..4",
+  "sorting": "descending float32 score, ascending database keyframe ID for exact ties",
+  "visual_scores": [
+    "current cosine",
+    "cosine of L2-normalized causal window means",
+    "maximum of all25 causal window pairwise cosines"
+  ],
+  "GT_policy": "scores and all2000 full rankings saved before loading evaluation pose columns; GT offline only",
+  "blas_threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1"
+  },
+  "full_rankings_server_only": "/home/cas/fyp_stage5b/work/full_rankings",
+  "query_order": "increasing original keyframe ID",
+  "no_overlap_queries": "scored but excluded from recall denominators"
+}

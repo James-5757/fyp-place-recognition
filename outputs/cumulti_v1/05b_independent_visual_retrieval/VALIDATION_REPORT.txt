@@ -1,0 +1,12 @@
+[PASS] all2000 queries scored against all4180 database rows before GT evaluation
+[PASS] no SC pool restrictions on any visual ranking
+[PASS] three visual methods share complete cache/keyframe/timestamp coverage
+[PASS] original Stage5 left padding and normalized float32 embeddings
+[PASS] all1833 valid queries and exact482 frozen same-view IDs verified
+[PASS] strict d_xy <5m labels match every frozen Stage4 positive pair
+[PASS] frozen SC first-positive ranks and rank1 IDs reproduced exactly
+[PASS] historical Stage5 overall R@1 and Stage7.5 pooled R@1/R@5/MRR reproduced
+[PASS] frozen artifacts and input hashes unchanged
+[PASS] no OpenCLIP encoding, fusion, training, GICP or graph optimization
+[PASS] independent validator reproduced complete visual rankings, inverse-permutation metrics and all146640 top20 rows
+[PASS] independent validator reproduced complete visual rankings, inverse-permutation metrics and all146640 top20 rows

@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "two_executions_identical_numeric_output_hashes": {
+    "metrics_overall.csv": true,
+    "metrics_same_view.csv": true,
+    "query_results_overall.csv": true,
+    "query_results_same_view.csv": true,
+    "top20_rankings.csv": true,
+    "same_view_query_ids.csv": true,
+    "historical_pool_comparison.csv": true
+  },
+  "all_full_score_and_order_array_hashes_identical": true,
+  "initial_attempt_preserved": "work/initial_attempt/outputs"
+}
