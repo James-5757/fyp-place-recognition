@@ -68,5 +68,5 @@
   "frozen_file_hashes_rechecked": true,
   "no_training_or_encoding": true,
   "limitations": "CPU replay arithmetic and generic OpenCLIP; not a dedicated VPR model or online latency benchmark",
-  "validator_sha256": "fe3c5b5907269ef310f898a371150fe4bb2b47e06137a9613831b708481aa001"
+  "validator_sha256": "caa87d430e7dda3596b9f3de7753818e5f188d17379c4f67d924f41ff9d07096"
 }
